@@ -1,0 +1,340 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Data.Queries.DbQueryKind
+  commentId: T:BindOpen.Data.Queries.DbQueryKind
+  id: DbQueryKind
+  parent: BindOpen.Data.Queries
+  children:
+  - BindOpen.Data.Queries.DbQueryKind.Create
+  - BindOpen.Data.Queries.DbQueryKind.Delete
+  - BindOpen.Data.Queries.DbQueryKind.Drop
+  - BindOpen.Data.Queries.DbQueryKind.Insert
+  - BindOpen.Data.Queries.DbQueryKind.None
+  - BindOpen.Data.Queries.DbQueryKind.Select
+  - BindOpen.Data.Queries.DbQueryKind.Update
+  - BindOpen.Data.Queries.DbQueryKind.Upsert
+  - BindOpen.Data.Queries.DbQueryKind.value__
+  langs:
+  - csharp
+  - vb
+  name: DbQueryKind
+  nameWithType: DbQueryKind
+  fullName: BindOpen.Data.Queries.DbQueryKind
+  type: Class
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nThis enumeration lists the possible kinds of database data queries.\n"
+  syntax:
+    content: 'public sealed class DbQueryKind : Enum'
+    content.vb: >-
+      Public NotInheritable Class DbQueryKind
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: BindOpen.Data.Queries.DbQueryKind.value__
+  commentId: F:BindOpen.Data.Queries.DbQueryKind.value__
+  id: value__
+  parent: BindOpen.Data.Queries.DbQueryKind
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: DbQueryKind.value__
+  fullName: BindOpen.Data.Queries.DbQueryKind.value__
+  type: Field
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Data.Queries.DbQueryKind.None
+  commentId: F:BindOpen.Data.Queries.DbQueryKind.None
+  id: None
+  parent: BindOpen.Data.Queries.DbQueryKind
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: DbQueryKind.None
+  fullName: BindOpen.Data.Queries.DbQueryKind.None
+  type: Field
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nNone.\n"
+  syntax:
+    content: public const DbQueryKind None
+    return:
+      type: BindOpen.Data.Queries.DbQueryKind
+    content.vb: Public Const None As DbQueryKind
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Data.Queries.DbQueryKind.Create
+  commentId: F:BindOpen.Data.Queries.DbQueryKind.Create
+  id: Create
+  parent: BindOpen.Data.Queries.DbQueryKind
+  langs:
+  - csharp
+  - vb
+  name: Create
+  nameWithType: DbQueryKind.Create
+  fullName: BindOpen.Data.Queries.DbQueryKind.Create
+  type: Field
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreate.\n"
+  syntax:
+    content: public const DbQueryKind Create
+    return:
+      type: BindOpen.Data.Queries.DbQueryKind
+    content.vb: Public Const Create As DbQueryKind
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Data.Queries.DbQueryKind.Select
+  commentId: F:BindOpen.Data.Queries.DbQueryKind.Select
+  id: Select
+  parent: BindOpen.Data.Queries.DbQueryKind
+  langs:
+  - csharp
+  - vb
+  name: Select
+  nameWithType: DbQueryKind.Select
+  fullName: BindOpen.Data.Queries.DbQueryKind.Select
+  type: Field
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nSelect.\n"
+  syntax:
+    content: public const DbQueryKind Select
+    return:
+      type: BindOpen.Data.Queries.DbQueryKind
+    content.vb: Public Const Select As DbQueryKind
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Data.Queries.DbQueryKind.Update
+  commentId: F:BindOpen.Data.Queries.DbQueryKind.Update
+  id: Update
+  parent: BindOpen.Data.Queries.DbQueryKind
+  langs:
+  - csharp
+  - vb
+  name: Update
+  nameWithType: DbQueryKind.Update
+  fullName: BindOpen.Data.Queries.DbQueryKind.Update
+  type: Field
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nUpdate.\n"
+  syntax:
+    content: public const DbQueryKind Update
+    return:
+      type: BindOpen.Data.Queries.DbQueryKind
+    content.vb: Public Const Update As DbQueryKind
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Data.Queries.DbQueryKind.Delete
+  commentId: F:BindOpen.Data.Queries.DbQueryKind.Delete
+  id: Delete
+  parent: BindOpen.Data.Queries.DbQueryKind
+  langs:
+  - csharp
+  - vb
+  name: Delete
+  nameWithType: DbQueryKind.Delete
+  fullName: BindOpen.Data.Queries.DbQueryKind.Delete
+  type: Field
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nDelete.\n"
+  syntax:
+    content: public const DbQueryKind Delete
+    return:
+      type: BindOpen.Data.Queries.DbQueryKind
+    content.vb: Public Const Delete As DbQueryKind
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Data.Queries.DbQueryKind.Insert
+  commentId: F:BindOpen.Data.Queries.DbQueryKind.Insert
+  id: Insert
+  parent: BindOpen.Data.Queries.DbQueryKind
+  langs:
+  - csharp
+  - vb
+  name: Insert
+  nameWithType: DbQueryKind.Insert
+  fullName: BindOpen.Data.Queries.DbQueryKind.Insert
+  type: Field
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nInsert.\n"
+  syntax:
+    content: public const DbQueryKind Insert
+    return:
+      type: BindOpen.Data.Queries.DbQueryKind
+    content.vb: Public Const Insert As DbQueryKind
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Data.Queries.DbQueryKind.Upsert
+  commentId: F:BindOpen.Data.Queries.DbQueryKind.Upsert
+  id: Upsert
+  parent: BindOpen.Data.Queries.DbQueryKind
+  langs:
+  - csharp
+  - vb
+  name: Upsert
+  nameWithType: DbQueryKind.Upsert
+  fullName: BindOpen.Data.Queries.DbQueryKind.Upsert
+  type: Field
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nUpsert.\n"
+  syntax:
+    content: public const DbQueryKind Upsert
+    return:
+      type: BindOpen.Data.Queries.DbQueryKind
+    content.vb: Public Const Upsert As DbQueryKind
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Data.Queries.DbQueryKind.Drop
+  commentId: F:BindOpen.Data.Queries.DbQueryKind.Drop
+  id: Drop
+  parent: BindOpen.Data.Queries.DbQueryKind
+  langs:
+  - csharp
+  - vb
+  name: Drop
+  nameWithType: DbQueryKind.Drop
+  fullName: BindOpen.Data.Queries.DbQueryKind.Drop
+  type: Field
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nDrop.\n"
+  syntax:
+    content: public const DbQueryKind Drop
+    return:
+      type: BindOpen.Data.Queries.DbQueryKind
+    content.vb: Public Const Drop As DbQueryKind
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: BindOpen.Data.Queries
+  commentId: N:BindOpen.Data.Queries
+  isExternal: true
+  name: BindOpen.Data.Queries
+  nameWithType: BindOpen.Data.Queries
+  fullName: BindOpen.Data.Queries
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: BindOpen.Data.Queries.DbQueryKind
+  commentId: T:BindOpen.Data.Queries.DbQueryKind
+  parent: BindOpen.Data.Queries
+  isExternal: true
+  name: DbQueryKind
+  nameWithType: DbQueryKind
+  fullName: BindOpen.Data.Queries.DbQueryKind
+shouldSkipMarkup: true

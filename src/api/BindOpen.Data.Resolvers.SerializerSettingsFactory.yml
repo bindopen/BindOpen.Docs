@@ -1,0 +1,138 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Data.Resolvers.SerializerSettingsFactory
+  commentId: T:BindOpen.Data.Resolvers.SerializerSettingsFactory
+  id: SerializerSettingsFactory
+  parent: BindOpen.Data.Resolvers
+  children:
+  - BindOpen.Data.Resolvers.SerializerSettingsFactory.CreateSettings
+  - BindOpen.Data.Resolvers.SerializerSettingsFactory.InitializeSettings(Newtonsoft.Json.JsonSerializerSettings)
+  langs:
+  - csharp
+  - vb
+  name: SerializerSettingsFactory
+  nameWithType: SerializerSettingsFactory
+  fullName: BindOpen.Data.Resolvers.SerializerSettingsFactory
+  type: Class
+  source:
+    path: BindOpen.Runtime.NetCore
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime.NetCore
+  namespace: BindOpen.Data.Resolvers
+  summary: "\nThis class represents a startup helpers\n"
+  syntax:
+    content: 'public static class SerializerSettingsFactory : Object'
+    content.vb: >-
+      Public Module SerializerSettingsFactory
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: BindOpen.Data.Resolvers.SerializerSettingsFactory.InitializeSettings(Newtonsoft.Json.JsonSerializerSettings)
+  commentId: M:BindOpen.Data.Resolvers.SerializerSettingsFactory.InitializeSettings(Newtonsoft.Json.JsonSerializerSettings)
+  id: InitializeSettings(Newtonsoft.Json.JsonSerializerSettings)
+  parent: BindOpen.Data.Resolvers.SerializerSettingsFactory
+  langs:
+  - csharp
+  - vb
+  name: InitializeSettings(JsonSerializerSettings)
+  nameWithType: SerializerSettingsFactory.InitializeSettings(JsonSerializerSettings)
+  fullName: BindOpen.Data.Resolvers.SerializerSettingsFactory.InitializeSettings(Newtonsoft.Json.JsonSerializerSettings)
+  type: Method
+  source:
+    path: BindOpen.Runtime.NetCore
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime.NetCore
+  namespace: BindOpen.Data.Resolvers
+  summary: "\n\n"
+  syntax:
+    content: public static JsonSerializerSettings InitializeSettings(JsonSerializerSettings settings)
+    parameters:
+    - id: settings
+      type: Newtonsoft.Json.JsonSerializerSettings
+    return:
+      type: Newtonsoft.Json.JsonSerializerSettings
+    content.vb: Public Shared Function InitializeSettings(settings As JsonSerializerSettings) As JsonSerializerSettings
+  overload: BindOpen.Data.Resolvers.SerializerSettingsFactory.InitializeSettings*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Resolvers.SerializerSettingsFactory.CreateSettings
+  commentId: M:BindOpen.Data.Resolvers.SerializerSettingsFactory.CreateSettings
+  id: CreateSettings
+  parent: BindOpen.Data.Resolvers.SerializerSettingsFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateSettings()
+  nameWithType: SerializerSettingsFactory.CreateSettings()
+  fullName: BindOpen.Data.Resolvers.SerializerSettingsFactory.CreateSettings()
+  type: Method
+  source:
+    path: BindOpen.Runtime.NetCore
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime.NetCore
+  namespace: BindOpen.Data.Resolvers
+  summary: "\n\n"
+  syntax:
+    content: public static JsonSerializerSettings CreateSettings()
+    return:
+      type: Newtonsoft.Json.JsonSerializerSettings
+    content.vb: Public Shared Function CreateSettings As JsonSerializerSettings
+  overload: BindOpen.Data.Resolvers.SerializerSettingsFactory.CreateSettings*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: BindOpen.Data.Resolvers
+  commentId: N:BindOpen.Data.Resolvers
+  isExternal: true
+  name: BindOpen.Data.Resolvers
+  nameWithType: BindOpen.Data.Resolvers
+  fullName: BindOpen.Data.Resolvers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Data.Resolvers.SerializerSettingsFactory.InitializeSettings*
+  commentId: Overload:BindOpen.Data.Resolvers.SerializerSettingsFactory.InitializeSettings
+  isExternal: true
+  name: InitializeSettings
+  nameWithType: SerializerSettingsFactory.InitializeSettings
+  fullName: BindOpen.Data.Resolvers.SerializerSettingsFactory.InitializeSettings
+- uid: Newtonsoft.Json.JsonSerializerSettings
+  isExternal: true
+  name: JsonSerializerSettings
+  nameWithType: JsonSerializerSettings
+  fullName: Newtonsoft.Json.JsonSerializerSettings
+- uid: BindOpen.Data.Resolvers.SerializerSettingsFactory.CreateSettings*
+  commentId: Overload:BindOpen.Data.Resolvers.SerializerSettingsFactory.CreateSettings
+  isExternal: true
+  name: CreateSettings
+  nameWithType: SerializerSettingsFactory.CreateSettings
+  fullName: BindOpen.Data.Resolvers.SerializerSettingsFactory.CreateSettings
+shouldSkipMarkup: true

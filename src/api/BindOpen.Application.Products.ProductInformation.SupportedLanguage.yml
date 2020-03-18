@@ -1,0 +1,130 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Application.Products.ProductInformation.SupportedLanguage
+  commentId: T:BindOpen.Application.Products.ProductInformation.SupportedLanguage
+  id: ProductInformation.SupportedLanguage
+  parent: BindOpen.Application.Products
+  children:
+  - BindOpen.Application.Products.ProductInformation.SupportedLanguage.English
+  - BindOpen.Application.Products.ProductInformation.SupportedLanguage.value__
+  langs:
+  - csharp
+  - vb
+  name: ProductInformation.SupportedLanguage
+  nameWithType: ProductInformation.SupportedLanguage
+  fullName: BindOpen.Application.Products.ProductInformation.SupportedLanguage
+  type: Class
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Products
+  summary: "\nThis enumeration lists the supported languages.\n"
+  syntax:
+    content: 'public sealed class SupportedLanguage : Enum'
+    content.vb: >-
+      Public NotInheritable Class SupportedLanguage
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: BindOpen.Application.Products.ProductInformation.SupportedLanguage.value__
+  commentId: F:BindOpen.Application.Products.ProductInformation.SupportedLanguage.value__
+  id: value__
+  parent: BindOpen.Application.Products.ProductInformation.SupportedLanguage
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ProductInformation.SupportedLanguage.value__
+  fullName: BindOpen.Application.Products.ProductInformation.SupportedLanguage.value__
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Products
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Application.Products.ProductInformation.SupportedLanguage.English
+  commentId: F:BindOpen.Application.Products.ProductInformation.SupportedLanguage.English
+  id: English
+  parent: BindOpen.Application.Products.ProductInformation.SupportedLanguage
+  langs:
+  - csharp
+  - vb
+  name: English
+  nameWithType: ProductInformation.SupportedLanguage.English
+  fullName: BindOpen.Application.Products.ProductInformation.SupportedLanguage.English
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Products
+  summary: "\nEnglish\n"
+  syntax:
+    content: public const ProductInformation.SupportedLanguage English
+    return:
+      type: BindOpen.Application.Products.ProductInformation.SupportedLanguage
+    content.vb: Public Const English As ProductInformation.SupportedLanguage
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: BindOpen.Application.Products
+  commentId: N:BindOpen.Application.Products
+  isExternal: true
+  name: BindOpen.Application.Products
+  nameWithType: BindOpen.Application.Products
+  fullName: BindOpen.Application.Products
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: BindOpen.Application.Products.ProductInformation.SupportedLanguage
+  commentId: T:BindOpen.Application.Products.ProductInformation.SupportedLanguage
+  parent: BindOpen.Application.Products
+  isExternal: true
+  name: ProductInformation.SupportedLanguage
+  nameWithType: ProductInformation.SupportedLanguage
+  fullName: BindOpen.Application.Products.ProductInformation.SupportedLanguage
+shouldSkipMarkup: true

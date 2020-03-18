@@ -1,0 +1,469 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.System.Diagnostics.Loggers.BdoReportLogger
+  commentId: T:BindOpen.System.Diagnostics.Loggers.BdoReportLogger
+  id: BdoReportLogger
+  parent: BindOpen.System.Diagnostics.Loggers
+  children:
+  - BindOpen.System.Diagnostics.Loggers.BdoReportLogger.#ctor
+  - BindOpen.System.Diagnostics.Loggers.BdoReportLogger.#ctor(System.String,BindOpen.System.Diagnostics.BdoLoggerMode,System.Predicate{BindOpen.System.Diagnostics.IBdoLogEvent})
+  - BindOpen.System.Diagnostics.Loggers.BdoReportLogger.Save(BindOpen.System.Diagnostics.IBdoLog,System.String,System.Boolean)
+  - BindOpen.System.Diagnostics.Loggers.BdoReportLogger.WriteChildLog(BindOpen.System.Diagnostics.IBdoLog,BindOpen.System.Diagnostics.IBdoLog)
+  - BindOpen.System.Diagnostics.Loggers.BdoReportLogger.WriteDetailElement(BindOpen.System.Diagnostics.IBdoLog,System.String,System.Object)
+  - BindOpen.System.Diagnostics.Loggers.BdoReportLogger.WriteEvent(BindOpen.System.Diagnostics.IBdoLogEvent)
+  - BindOpen.System.Diagnostics.Loggers.BdoReportLogger.WriteTask(BindOpen.System.Diagnostics.IBdoLog,BindOpen.Extensions.Runtime.IBdoTaskConfiguration)
+  langs:
+  - csharp
+  - vb
+  name: BdoReportLogger
+  nameWithType: BdoReportLogger
+  fullName: BindOpen.System.Diagnostics.Loggers.BdoReportLogger
+  type: Class
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.System.Diagnostics.Loggers
+  summary: "\nThis class represents a YAML logger.\n"
+  remarks: The output format is YAML.
+  syntax:
+    content: 'public class BdoReportLogger : BdoLogger'
+    content.vb: >-
+      Public Class BdoReportLogger
+          Inherits BdoLogger
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BindOpen.System.Diagnostics.Loggers.BdoReportLogger.#ctor
+  commentId: M:BindOpen.System.Diagnostics.Loggers.BdoReportLogger.#ctor
+  id: '#ctor'
+  parent: BindOpen.System.Diagnostics.Loggers.BdoReportLogger
+  langs:
+  - csharp
+  - vb
+  name: BdoReportLogger()
+  nameWithType: BdoReportLogger.BdoReportLogger()
+  fullName: BindOpen.System.Diagnostics.Loggers.BdoReportLogger.BdoReportLogger()
+  type: Constructor
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.System.Diagnostics.Loggers
+  summary: "\nInstantiates a new instance of the ReportLogger class.\n"
+  syntax:
+    content: public BdoReportLogger()
+    content.vb: Public Sub New
+  overload: BindOpen.System.Diagnostics.Loggers.BdoReportLogger.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BindOpen.System.Diagnostics.Loggers.BdoReportLogger.#ctor(System.String,BindOpen.System.Diagnostics.BdoLoggerMode,System.Predicate{BindOpen.System.Diagnostics.IBdoLogEvent})
+  commentId: M:BindOpen.System.Diagnostics.Loggers.BdoReportLogger.#ctor(System.String,BindOpen.System.Diagnostics.BdoLoggerMode,System.Predicate{BindOpen.System.Diagnostics.IBdoLogEvent})
+  id: '#ctor(System.String,BindOpen.System.Diagnostics.BdoLoggerMode,System.Predicate{BindOpen.System.Diagnostics.IBdoLogEvent})'
+  parent: BindOpen.System.Diagnostics.Loggers.BdoReportLogger
+  langs:
+  - csharp
+  - vb
+  name: BdoReportLogger(String, BdoLoggerMode, Predicate<IBdoLogEvent>)
+  nameWithType: BdoReportLogger.BdoReportLogger(String, BdoLoggerMode, Predicate<IBdoLogEvent>)
+  fullName: BindOpen.System.Diagnostics.Loggers.BdoReportLogger.BdoReportLogger(System.String, BindOpen.System.Diagnostics.BdoLoggerMode, System.Predicate<BindOpen.System.Diagnostics.IBdoLogEvent>)
+  type: Constructor
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.System.Diagnostics.Loggers
+  summary: "\nInstantiates a new instance of the ReportLogger class.\n"
+  remarks: With expiration day number equaling to -1, no files expires. Equaling to 0, all files except the current one expires.
+  syntax:
+    content: public BdoReportLogger(string name, BdoLoggerMode mode, Predicate<IBdoLogEvent> eventFilter = null)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name to consider.
+    - id: mode
+      type: BindOpen.System.Diagnostics.BdoLoggerMode
+      description: The mode to consider.
+    - id: eventFilter
+      type: System.Predicate{BindOpen.System.Diagnostics.IBdoLogEvent}
+      description: The function that filters events.
+    content.vb: Public Sub New(name As String, mode As BdoLoggerMode, eventFilter As Predicate(Of IBdoLogEvent) = Nothing)
+  overload: BindOpen.System.Diagnostics.Loggers.BdoReportLogger.#ctor*
+  nameWithType.vb: BdoReportLogger.BdoReportLogger(String, BdoLoggerMode, Predicate(Of IBdoLogEvent))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: BindOpen.System.Diagnostics.Loggers.BdoReportLogger.BdoReportLogger(System.String, BindOpen.System.Diagnostics.BdoLoggerMode, System.Predicate(Of BindOpen.System.Diagnostics.IBdoLogEvent))
+  name.vb: BdoReportLogger(String, BdoLoggerMode, Predicate(Of IBdoLogEvent))
+- uid: BindOpen.System.Diagnostics.Loggers.BdoReportLogger.WriteTask(BindOpen.System.Diagnostics.IBdoLog,BindOpen.Extensions.Runtime.IBdoTaskConfiguration)
+  commentId: M:BindOpen.System.Diagnostics.Loggers.BdoReportLogger.WriteTask(BindOpen.System.Diagnostics.IBdoLog,BindOpen.Extensions.Runtime.IBdoTaskConfiguration)
+  id: WriteTask(BindOpen.System.Diagnostics.IBdoLog,BindOpen.Extensions.Runtime.IBdoTaskConfiguration)
+  parent: BindOpen.System.Diagnostics.Loggers.BdoReportLogger
+  langs:
+  - csharp
+  - vb
+  name: WriteTask(IBdoLog, IBdoTaskConfiguration)
+  nameWithType: BdoReportLogger.WriteTask(IBdoLog, IBdoTaskConfiguration)
+  fullName: BindOpen.System.Diagnostics.Loggers.BdoReportLogger.WriteTask(BindOpen.System.Diagnostics.IBdoLog, BindOpen.Extensions.Runtime.IBdoTaskConfiguration)
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.System.Diagnostics.Loggers
+  summary: "\nLogs the specified task.\n"
+  syntax:
+    content: public override bool WriteTask(IBdoLog log, IBdoTaskConfiguration task)
+    parameters:
+    - id: log
+      type: BindOpen.System.Diagnostics.IBdoLog
+      description: The log to consider.
+    - id: task
+      type: BindOpen.Extensions.Runtime.IBdoTaskConfiguration
+      description: The task to log.
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function WriteTask(log As IBdoLog, task As IBdoTaskConfiguration) As Boolean
+  overload: BindOpen.System.Diagnostics.Loggers.BdoReportLogger.WriteTask*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: BindOpen.System.Diagnostics.Loggers.BdoReportLogger.WriteEvent(BindOpen.System.Diagnostics.IBdoLogEvent)
+  commentId: M:BindOpen.System.Diagnostics.Loggers.BdoReportLogger.WriteEvent(BindOpen.System.Diagnostics.IBdoLogEvent)
+  id: WriteEvent(BindOpen.System.Diagnostics.IBdoLogEvent)
+  parent: BindOpen.System.Diagnostics.Loggers.BdoReportLogger
+  langs:
+  - csharp
+  - vb
+  name: WriteEvent(IBdoLogEvent)
+  nameWithType: BdoReportLogger.WriteEvent(IBdoLogEvent)
+  fullName: BindOpen.System.Diagnostics.Loggers.BdoReportLogger.WriteEvent(BindOpen.System.Diagnostics.IBdoLogEvent)
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.System.Diagnostics.Loggers
+  summary: "\nLogs the specified record.\n"
+  syntax:
+    content: public override bool WriteEvent(IBdoLogEvent logEvent)
+    parameters:
+    - id: logEvent
+      type: BindOpen.System.Diagnostics.IBdoLogEvent
+      description: The log event to consider.
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function WriteEvent(logEvent As IBdoLogEvent) As Boolean
+  overload: BindOpen.System.Diagnostics.Loggers.BdoReportLogger.WriteEvent*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: BindOpen.System.Diagnostics.Loggers.BdoReportLogger.WriteDetailElement(BindOpen.System.Diagnostics.IBdoLog,System.String,System.Object)
+  commentId: M:BindOpen.System.Diagnostics.Loggers.BdoReportLogger.WriteDetailElement(BindOpen.System.Diagnostics.IBdoLog,System.String,System.Object)
+  id: WriteDetailElement(BindOpen.System.Diagnostics.IBdoLog,System.String,System.Object)
+  parent: BindOpen.System.Diagnostics.Loggers.BdoReportLogger
+  langs:
+  - csharp
+  - vb
+  name: WriteDetailElement(IBdoLog, String, Object)
+  nameWithType: BdoReportLogger.WriteDetailElement(IBdoLog, String, Object)
+  fullName: BindOpen.System.Diagnostics.Loggers.BdoReportLogger.WriteDetailElement(BindOpen.System.Diagnostics.IBdoLog, System.String, System.Object)
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.System.Diagnostics.Loggers
+  summary: "\nLogs the specified element.\n"
+  syntax:
+    content: public override bool WriteDetailElement(IBdoLog log, string elementName, object elementValue)
+    parameters:
+    - id: log
+      type: BindOpen.System.Diagnostics.IBdoLog
+      description: The log to consider.
+    - id: elementName
+      type: System.String
+      description: The element name to consider.
+    - id: elementValue
+      type: System.Object
+      description: The element value to consider.
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function WriteDetailElement(log As IBdoLog, elementName As String, elementValue As Object) As Boolean
+  overload: BindOpen.System.Diagnostics.Loggers.BdoReportLogger.WriteDetailElement*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: BindOpen.System.Diagnostics.Loggers.BdoReportLogger.WriteChildLog(BindOpen.System.Diagnostics.IBdoLog,BindOpen.System.Diagnostics.IBdoLog)
+  commentId: M:BindOpen.System.Diagnostics.Loggers.BdoReportLogger.WriteChildLog(BindOpen.System.Diagnostics.IBdoLog,BindOpen.System.Diagnostics.IBdoLog)
+  id: WriteChildLog(BindOpen.System.Diagnostics.IBdoLog,BindOpen.System.Diagnostics.IBdoLog)
+  parent: BindOpen.System.Diagnostics.Loggers.BdoReportLogger
+  langs:
+  - csharp
+  - vb
+  name: WriteChildLog(IBdoLog, IBdoLog)
+  nameWithType: BdoReportLogger.WriteChildLog(IBdoLog, IBdoLog)
+  fullName: BindOpen.System.Diagnostics.Loggers.BdoReportLogger.WriteChildLog(BindOpen.System.Diagnostics.IBdoLog, BindOpen.System.Diagnostics.IBdoLog)
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.System.Diagnostics.Loggers
+  summary: "\nLogs the specified record.\n"
+  syntax:
+    content: public override bool WriteChildLog(IBdoLog log, IBdoLog childLog)
+    parameters:
+    - id: log
+      type: BindOpen.System.Diagnostics.IBdoLog
+      description: The log to consider.
+    - id: childLog
+      type: BindOpen.System.Diagnostics.IBdoLog
+      description: The child log to log.
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function WriteChildLog(log As IBdoLog, childLog As IBdoLog) As Boolean
+  overload: BindOpen.System.Diagnostics.Loggers.BdoReportLogger.WriteChildLog*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: BindOpen.System.Diagnostics.Loggers.BdoReportLogger.Save(BindOpen.System.Diagnostics.IBdoLog,System.String,System.Boolean)
+  commentId: M:BindOpen.System.Diagnostics.Loggers.BdoReportLogger.Save(BindOpen.System.Diagnostics.IBdoLog,System.String,System.Boolean)
+  id: Save(BindOpen.System.Diagnostics.IBdoLog,System.String,System.Boolean)
+  parent: BindOpen.System.Diagnostics.Loggers.BdoReportLogger
+  langs:
+  - csharp
+  - vb
+  name: Save(IBdoLog, String, Boolean)
+  nameWithType: BdoReportLogger.Save(IBdoLog, String, Boolean)
+  fullName: BindOpen.System.Diagnostics.Loggers.BdoReportLogger.Save(BindOpen.System.Diagnostics.IBdoLog, System.String, System.Boolean)
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.System.Diagnostics.Loggers
+  summary: "\nSaves this instance in the specified log file.\n"
+  syntax:
+    content: public override bool Save(IBdoLog log, string logFilePath, bool isAppended = false)
+    parameters:
+    - id: log
+      type: BindOpen.System.Diagnostics.IBdoLog
+      description: The log to consider.
+    - id: logFilePath
+      type: System.String
+      description: The path of the log file to save.
+    - id: isAppended
+      type: System.Boolean
+      description: Indicates whether the new content is appended if one alreay exists.
+    return:
+      type: System.Boolean
+      description: Returns the saving log.
+    content.vb: Public Overrides Function Save(log As IBdoLog, logFilePath As String, isAppended As Boolean = False) As Boolean
+  overload: BindOpen.System.Diagnostics.Loggers.BdoReportLogger.Save*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: BindOpen.System.Diagnostics.Loggers
+  commentId: N:BindOpen.System.Diagnostics.Loggers
+  isExternal: true
+  name: BindOpen.System.Diagnostics.Loggers
+  nameWithType: BindOpen.System.Diagnostics.Loggers
+  fullName: BindOpen.System.Diagnostics.Loggers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.System.Diagnostics.Loggers.BdoReportLogger.#ctor*
+  commentId: Overload:BindOpen.System.Diagnostics.Loggers.BdoReportLogger.#ctor
+  isExternal: true
+  name: BdoReportLogger
+  nameWithType: BdoReportLogger.BdoReportLogger
+  fullName: BindOpen.System.Diagnostics.Loggers.BdoReportLogger.BdoReportLogger
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: BindOpen.System.Diagnostics.BdoLoggerMode
+  isExternal: true
+  name: BdoLoggerMode
+  nameWithType: BdoLoggerMode
+  fullName: BindOpen.System.Diagnostics.BdoLoggerMode
+- uid: System.Predicate{BindOpen.System.Diagnostics.IBdoLogEvent}
+  commentId: '!:System.Predicate{BindOpen.System.Diagnostics.IBdoLogEvent}'
+  definition: System.Predicate`1
+  name: Predicate<IBdoLogEvent>
+  nameWithType: Predicate<IBdoLogEvent>
+  fullName: System.Predicate<BindOpen.System.Diagnostics.IBdoLogEvent>
+  nameWithType.vb: Predicate(Of IBdoLogEvent)
+  fullName.vb: System.Predicate(Of BindOpen.System.Diagnostics.IBdoLogEvent)
+  name.vb: Predicate(Of IBdoLogEvent)
+  spec.csharp:
+  - uid: System.Predicate`1
+    name: Predicate
+    nameWithType: Predicate
+    fullName: System.Predicate
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BindOpen.System.Diagnostics.IBdoLogEvent
+    name: IBdoLogEvent
+    nameWithType: IBdoLogEvent
+    fullName: BindOpen.System.Diagnostics.IBdoLogEvent
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Predicate`1
+    name: Predicate
+    nameWithType: Predicate
+    fullName: System.Predicate
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BindOpen.System.Diagnostics.IBdoLogEvent
+    name: IBdoLogEvent
+    nameWithType: IBdoLogEvent
+    fullName: BindOpen.System.Diagnostics.IBdoLogEvent
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Predicate`1
+  isExternal: true
+  name: Predicate<>
+  nameWithType: Predicate<>
+  fullName: System.Predicate<>
+  nameWithType.vb: Predicate(Of )
+  fullName.vb: System.Predicate(Of )
+  name.vb: Predicate(Of )
+  spec.csharp:
+  - uid: System.Predicate`1
+    name: Predicate
+    nameWithType: Predicate
+    fullName: System.Predicate
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Predicate`1
+    name: Predicate
+    nameWithType: Predicate
+    fullName: System.Predicate
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.System.Diagnostics.Loggers.BdoReportLogger.WriteTask*
+  commentId: Overload:BindOpen.System.Diagnostics.Loggers.BdoReportLogger.WriteTask
+  isExternal: true
+  name: WriteTask
+  nameWithType: BdoReportLogger.WriteTask
+  fullName: BindOpen.System.Diagnostics.Loggers.BdoReportLogger.WriteTask
+- uid: BindOpen.System.Diagnostics.IBdoLog
+  isExternal: true
+  name: IBdoLog
+  nameWithType: IBdoLog
+  fullName: BindOpen.System.Diagnostics.IBdoLog
+- uid: BindOpen.Extensions.Runtime.IBdoTaskConfiguration
+  isExternal: true
+  name: IBdoTaskConfiguration
+  nameWithType: IBdoTaskConfiguration
+  fullName: BindOpen.Extensions.Runtime.IBdoTaskConfiguration
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: BindOpen.System.Diagnostics.Loggers.BdoReportLogger.WriteEvent*
+  commentId: Overload:BindOpen.System.Diagnostics.Loggers.BdoReportLogger.WriteEvent
+  isExternal: true
+  name: WriteEvent
+  nameWithType: BdoReportLogger.WriteEvent
+  fullName: BindOpen.System.Diagnostics.Loggers.BdoReportLogger.WriteEvent
+- uid: BindOpen.System.Diagnostics.IBdoLogEvent
+  isExternal: true
+  name: IBdoLogEvent
+  nameWithType: IBdoLogEvent
+  fullName: BindOpen.System.Diagnostics.IBdoLogEvent
+- uid: BindOpen.System.Diagnostics.Loggers.BdoReportLogger.WriteDetailElement*
+  commentId: Overload:BindOpen.System.Diagnostics.Loggers.BdoReportLogger.WriteDetailElement
+  isExternal: true
+  name: WriteDetailElement
+  nameWithType: BdoReportLogger.WriteDetailElement
+  fullName: BindOpen.System.Diagnostics.Loggers.BdoReportLogger.WriteDetailElement
+- uid: BindOpen.System.Diagnostics.Loggers.BdoReportLogger.WriteChildLog*
+  commentId: Overload:BindOpen.System.Diagnostics.Loggers.BdoReportLogger.WriteChildLog
+  isExternal: true
+  name: WriteChildLog
+  nameWithType: BdoReportLogger.WriteChildLog
+  fullName: BindOpen.System.Diagnostics.Loggers.BdoReportLogger.WriteChildLog
+- uid: BindOpen.System.Diagnostics.Loggers.BdoReportLogger.Save*
+  commentId: Overload:BindOpen.System.Diagnostics.Loggers.BdoReportLogger.Save
+  isExternal: true
+  name: Save
+  nameWithType: BdoReportLogger.Save
+  fullName: BindOpen.System.Diagnostics.Loggers.BdoReportLogger.Save
+shouldSkipMarkup: true

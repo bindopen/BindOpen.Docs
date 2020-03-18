@@ -1,0 +1,832 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Application.Scopes.IBdoHostOptions
+  commentId: T:BindOpen.Application.Scopes.IBdoHostOptions
+  id: IBdoHostOptions
+  parent: BindOpen.Application.Scopes
+  children:
+  - BindOpen.Application.Scopes.IBdoHostOptions.ApplicationModule
+  - BindOpen.Application.Scopes.IBdoHostOptions.AppSettings
+  - BindOpen.Application.Scopes.IBdoHostOptions.AppSettingsSpecificationSet
+  - BindOpen.Application.Scopes.IBdoHostOptions.DataStore
+  - BindOpen.Application.Scopes.IBdoHostOptions.DefaultLoggerOutputKinds
+  - BindOpen.Application.Scopes.IBdoHostOptions.ExtensionLoadOptions
+  - BindOpen.Application.Scopes.IBdoHostOptions.ExtensionReferences
+  - BindOpen.Application.Scopes.IBdoHostOptions.GetSettings``1
+  - BindOpen.Application.Scopes.IBdoHostOptions.HostConfigFilePath
+  - BindOpen.Application.Scopes.IBdoHostOptions.HostSettings
+  - BindOpen.Application.Scopes.IBdoHostOptions.IsHostConfigFileRequired
+  - BindOpen.Application.Scopes.IBdoHostOptions.Loggers
+  - BindOpen.Application.Scopes.IBdoHostOptions.RootFolderPath
+  langs:
+  - csharp
+  - vb
+  name: IBdoHostOptions
+  nameWithType: IBdoHostOptions
+  fullName: BindOpen.Application.Scopes.IBdoHostOptions
+  type: Interface
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nThe interface defines the base BDO host options.\n"
+  syntax:
+    content: 'public interface IBdoHostOptions : IDataItem, ICloneable, IDisposable'
+    content.vb: >-
+      Public Interface IBdoHostOptions
+          Inherits IDataItem, ICloneable, IDisposable
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: BindOpen.Application.Scopes.IBdoHostOptions.GetSettings``1
+  commentId: M:BindOpen.Application.Scopes.IBdoHostOptions.GetSettings``1
+  id: GetSettings``1
+  parent: BindOpen.Application.Scopes.IBdoHostOptions
+  langs:
+  - csharp
+  - vb
+  name: GetSettings<T>()
+  nameWithType: IBdoHostOptions.GetSettings<T>()
+  fullName: BindOpen.Application.Scopes.IBdoHostOptions.GetSettings<T>()
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nGet the settings as the specified host settings class.\n"
+  syntax:
+    content: >-
+      T GetSettings<T>()
+          where T : class, IBdoAppSettings
+    typeParameters:
+    - id: T
+      description: The host settings class to consider.
+    return:
+      type: '{T}'
+    content.vb: Function GetSettings(Of T As {Class, IBdoAppSettings}) As T
+  overload: BindOpen.Application.Scopes.IBdoHostOptions.GetSettings*
+  nameWithType.vb: IBdoHostOptions.GetSettings(Of T)()
+  fullName.vb: BindOpen.Application.Scopes.IBdoHostOptions.GetSettings(Of T)()
+  name.vb: GetSettings(Of T)()
+- uid: BindOpen.Application.Scopes.IBdoHostOptions.ApplicationModule
+  commentId: P:BindOpen.Application.Scopes.IBdoHostOptions.ApplicationModule
+  id: ApplicationModule
+  parent: BindOpen.Application.Scopes.IBdoHostOptions
+  langs:
+  - csharp
+  - vb
+  name: ApplicationModule
+  nameWithType: IBdoHostOptions.ApplicationModule
+  fullName: BindOpen.Application.Scopes.IBdoHostOptions.ApplicationModule
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nThe application module.\n"
+  syntax:
+    content: IAppModule ApplicationModule { get; }
+    parameters: []
+    return:
+      type: BindOpen.Application.Modules.IAppModule
+    content.vb: ReadOnly Property ApplicationModule As IAppModule
+  overload: BindOpen.Application.Scopes.IBdoHostOptions.ApplicationModule*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: BindOpen.Application.Scopes.IBdoHostOptions.RootFolderPath
+  commentId: P:BindOpen.Application.Scopes.IBdoHostOptions.RootFolderPath
+  id: RootFolderPath
+  parent: BindOpen.Application.Scopes.IBdoHostOptions
+  langs:
+  - csharp
+  - vb
+  name: RootFolderPath
+  nameWithType: IBdoHostOptions.RootFolderPath
+  fullName: BindOpen.Application.Scopes.IBdoHostOptions.RootFolderPath
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nThe root folder path.\n"
+  syntax:
+    content: string RootFolderPath { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property RootFolderPath As String
+  overload: BindOpen.Application.Scopes.IBdoHostOptions.RootFolderPath*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: BindOpen.Application.Scopes.IBdoHostOptions.HostConfigFilePath
+  commentId: P:BindOpen.Application.Scopes.IBdoHostOptions.HostConfigFilePath
+  id: HostConfigFilePath
+  parent: BindOpen.Application.Scopes.IBdoHostOptions
+  langs:
+  - csharp
+  - vb
+  name: HostConfigFilePath
+  nameWithType: IBdoHostOptions.HostConfigFilePath
+  fullName: BindOpen.Application.Scopes.IBdoHostOptions.HostConfigFilePath
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nThe settings file path.\n"
+  syntax:
+    content: string HostConfigFilePath { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property HostConfigFilePath As String
+  overload: BindOpen.Application.Scopes.IBdoHostOptions.HostConfigFilePath*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: BindOpen.Application.Scopes.IBdoHostOptions.IsHostConfigFileRequired
+  commentId: P:BindOpen.Application.Scopes.IBdoHostOptions.IsHostConfigFileRequired
+  id: IsHostConfigFileRequired
+  parent: BindOpen.Application.Scopes.IBdoHostOptions
+  langs:
+  - csharp
+  - vb
+  name: IsHostConfigFileRequired
+  nameWithType: IBdoHostOptions.IsHostConfigFileRequired
+  fullName: BindOpen.Application.Scopes.IBdoHostOptions.IsHostConfigFileRequired
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nIndicates whether the host settings file must exist.\n"
+  remarks: If it does not exist then an exception is thrown.
+  syntax:
+    content: Nullable<bool> IsHostConfigFileRequired { get; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: ReadOnly Property IsHostConfigFileRequired As Nullable(Of Boolean)
+  overload: BindOpen.Application.Scopes.IBdoHostOptions.IsHostConfigFileRequired*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: BindOpen.Application.Scopes.IBdoHostOptions.HostSettings
+  commentId: P:BindOpen.Application.Scopes.IBdoHostOptions.HostSettings
+  id: HostSettings
+  parent: BindOpen.Application.Scopes.IBdoHostOptions
+  langs:
+  - csharp
+  - vb
+  name: HostSettings
+  nameWithType: IBdoHostOptions.HostSettings
+  fullName: BindOpen.Application.Scopes.IBdoHostOptions.HostSettings
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nThe host settings.\n"
+  syntax:
+    content: IBdoHostSettings HostSettings { get; }
+    parameters: []
+    return:
+      type: BindOpen.Application.Settings.IBdoHostSettings
+    content.vb: ReadOnly Property HostSettings As IBdoHostSettings
+  overload: BindOpen.Application.Scopes.IBdoHostOptions.HostSettings*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: BindOpen.Application.Scopes.IBdoHostOptions.AppSettings
+  commentId: P:BindOpen.Application.Scopes.IBdoHostOptions.AppSettings
+  id: AppSettings
+  parent: BindOpen.Application.Scopes.IBdoHostOptions
+  langs:
+  - csharp
+  - vb
+  name: AppSettings
+  nameWithType: IBdoHostOptions.AppSettings
+  fullName: BindOpen.Application.Scopes.IBdoHostOptions.AppSettings
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nThe application settings.\n"
+  syntax:
+    content: IBdoAppSettings AppSettings { get; }
+    parameters: []
+    return:
+      type: BindOpen.Application.Settings.IBdoAppSettings
+    content.vb: ReadOnly Property AppSettings As IBdoAppSettings
+  overload: BindOpen.Application.Scopes.IBdoHostOptions.AppSettings*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: BindOpen.Application.Scopes.IBdoHostOptions.AppSettingsSpecificationSet
+  commentId: P:BindOpen.Application.Scopes.IBdoHostOptions.AppSettingsSpecificationSet
+  id: AppSettingsSpecificationSet
+  parent: BindOpen.Application.Scopes.IBdoHostOptions
+  langs:
+  - csharp
+  - vb
+  name: AppSettingsSpecificationSet
+  nameWithType: IBdoHostOptions.AppSettingsSpecificationSet
+  fullName: BindOpen.Application.Scopes.IBdoHostOptions.AppSettingsSpecificationSet
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nThe set of settings specifications of this instance.\n"
+  syntax:
+    content: IDataElementSpecSet AppSettingsSpecificationSet { get; }
+    parameters: []
+    return:
+      type: BindOpen.Data.Elements.IDataElementSpecSet
+    content.vb: ReadOnly Property AppSettingsSpecificationSet As IDataElementSpecSet
+  overload: BindOpen.Application.Scopes.IBdoHostOptions.AppSettingsSpecificationSet*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: BindOpen.Application.Scopes.IBdoHostOptions.ExtensionReferences
+  commentId: P:BindOpen.Application.Scopes.IBdoHostOptions.ExtensionReferences
+  id: ExtensionReferences
+  parent: BindOpen.Application.Scopes.IBdoHostOptions
+  langs:
+  - csharp
+  - vb
+  name: ExtensionReferences
+  nameWithType: IBdoHostOptions.ExtensionReferences
+  fullName: BindOpen.Application.Scopes.IBdoHostOptions.ExtensionReferences
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nThe extension to load.\n"
+  syntax:
+    content: IBdoExtensionReferenceCollection ExtensionReferences { get; }
+    parameters: []
+    return:
+      type: BindOpen.Extensions.References.IBdoExtensionReferenceCollection
+    content.vb: ReadOnly Property ExtensionReferences As IBdoExtensionReferenceCollection
+  overload: BindOpen.Application.Scopes.IBdoHostOptions.ExtensionReferences*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: BindOpen.Application.Scopes.IBdoHostOptions.ExtensionLoadOptions
+  commentId: P:BindOpen.Application.Scopes.IBdoHostOptions.ExtensionLoadOptions
+  id: ExtensionLoadOptions
+  parent: BindOpen.Application.Scopes.IBdoHostOptions
+  langs:
+  - csharp
+  - vb
+  name: ExtensionLoadOptions
+  nameWithType: IBdoHostOptions.ExtensionLoadOptions
+  fullName: BindOpen.Application.Scopes.IBdoHostOptions.ExtensionLoadOptions
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nThe extension load options.\n"
+  syntax:
+    content: IExtensionLoadOptions ExtensionLoadOptions { get; }
+    parameters: []
+    return:
+      type: BindOpen.Application.Scopes.IExtensionLoadOptions
+    content.vb: ReadOnly Property ExtensionLoadOptions As IExtensionLoadOptions
+  overload: BindOpen.Application.Scopes.IBdoHostOptions.ExtensionLoadOptions*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: BindOpen.Application.Scopes.IBdoHostOptions.DefaultLoggerOutputKinds
+  commentId: P:BindOpen.Application.Scopes.IBdoHostOptions.DefaultLoggerOutputKinds
+  id: DefaultLoggerOutputKinds
+  parent: BindOpen.Application.Scopes.IBdoHostOptions
+  langs:
+  - csharp
+  - vb
+  name: DefaultLoggerOutputKinds
+  nameWithType: IBdoHostOptions.DefaultLoggerOutputKinds
+  fullName: BindOpen.Application.Scopes.IBdoHostOptions.DefaultLoggerOutputKinds
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nThe output kinds of the default logger.\n"
+  remarks: If there is none then we do not have any default logger.
+  syntax:
+    content: HashSet<DatasourceKind> DefaultLoggerOutputKinds { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.HashSet{BindOpen.Data.Items.DatasourceKind}
+    content.vb: ReadOnly Property DefaultLoggerOutputKinds As HashSet(Of DatasourceKind)
+  overload: BindOpen.Application.Scopes.IBdoHostOptions.DefaultLoggerOutputKinds*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: BindOpen.Application.Scopes.IBdoHostOptions.Loggers
+  commentId: P:BindOpen.Application.Scopes.IBdoHostOptions.Loggers
+  id: Loggers
+  parent: BindOpen.Application.Scopes.IBdoHostOptions
+  langs:
+  - csharp
+  - vb
+  name: Loggers
+  nameWithType: IBdoHostOptions.Loggers
+  fullName: BindOpen.Application.Scopes.IBdoHostOptions.Loggers
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nThe loggers.\n"
+  syntax:
+    content: IList<IBdoLogger> Loggers { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IList{BindOpen.System.Diagnostics.Loggers.IBdoLogger}
+    content.vb: ReadOnly Property Loggers As IList(Of IBdoLogger)
+  overload: BindOpen.Application.Scopes.IBdoHostOptions.Loggers*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: BindOpen.Application.Scopes.IBdoHostOptions.DataStore
+  commentId: P:BindOpen.Application.Scopes.IBdoHostOptions.DataStore
+  id: DataStore
+  parent: BindOpen.Application.Scopes.IBdoHostOptions
+  langs:
+  - csharp
+  - vb
+  name: DataStore
+  nameWithType: IBdoHostOptions.DataStore
+  fullName: BindOpen.Application.Scopes.IBdoHostOptions.DataStore
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nThe depot sets of this instance.\n"
+  syntax:
+    content: IBdoDataStore DataStore { get; }
+    parameters: []
+    return:
+      type: BindOpen.Data.Stores.IBdoDataStore
+    content.vb: ReadOnly Property DataStore As IBdoDataStore
+  overload: BindOpen.Application.Scopes.IBdoHostOptions.DataStore*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: BindOpen.Application.Scopes
+  commentId: N:BindOpen.Application.Scopes
+  isExternal: true
+  name: BindOpen.Application.Scopes
+  nameWithType: BindOpen.Application.Scopes
+  fullName: BindOpen.Application.Scopes
+- uid: BindOpen.Application.Scopes.IBdoHostOptions.GetSettings*
+  commentId: Overload:BindOpen.Application.Scopes.IBdoHostOptions.GetSettings
+  isExternal: true
+  name: GetSettings
+  nameWithType: IBdoHostOptions.GetSettings
+  fullName: BindOpen.Application.Scopes.IBdoHostOptions.GetSettings
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: BindOpen.Application.Scopes.IBdoHostOptions.ApplicationModule*
+  commentId: Overload:BindOpen.Application.Scopes.IBdoHostOptions.ApplicationModule
+  isExternal: true
+  name: ApplicationModule
+  nameWithType: IBdoHostOptions.ApplicationModule
+  fullName: BindOpen.Application.Scopes.IBdoHostOptions.ApplicationModule
+- uid: BindOpen.Application.Modules.IAppModule
+  commentId: T:BindOpen.Application.Modules.IAppModule
+  parent: BindOpen.Application.Modules
+  isExternal: true
+  name: IAppModule
+  nameWithType: IAppModule
+  fullName: BindOpen.Application.Modules.IAppModule
+- uid: BindOpen.Application.Modules
+  commentId: N:BindOpen.Application.Modules
+  isExternal: true
+  name: BindOpen.Application.Modules
+  nameWithType: BindOpen.Application.Modules
+  fullName: BindOpen.Application.Modules
+- uid: BindOpen.Application.Scopes.IBdoHostOptions.RootFolderPath*
+  commentId: Overload:BindOpen.Application.Scopes.IBdoHostOptions.RootFolderPath
+  isExternal: true
+  name: RootFolderPath
+  nameWithType: IBdoHostOptions.RootFolderPath
+  fullName: BindOpen.Application.Scopes.IBdoHostOptions.RootFolderPath
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Application.Scopes.IBdoHostOptions.HostConfigFilePath*
+  commentId: Overload:BindOpen.Application.Scopes.IBdoHostOptions.HostConfigFilePath
+  isExternal: true
+  name: HostConfigFilePath
+  nameWithType: IBdoHostOptions.HostConfigFilePath
+  fullName: BindOpen.Application.Scopes.IBdoHostOptions.HostConfigFilePath
+- uid: BindOpen.Application.Scopes.IBdoHostOptions.IsHostConfigFileRequired*
+  commentId: Overload:BindOpen.Application.Scopes.IBdoHostOptions.IsHostConfigFileRequired
+  isExternal: true
+  name: IsHostConfigFileRequired
+  nameWithType: IBdoHostOptions.IsHostConfigFileRequired
+  fullName: BindOpen.Application.Scopes.IBdoHostOptions.IsHostConfigFileRequired
+- uid: System.Nullable{System.Boolean}
+  commentId: '!:System.Nullable{System.Boolean}'
+  definition: System.Nullable`1
+  name: Nullable<Boolean>
+  nameWithType: Nullable<Boolean>
+  fullName: System.Nullable<System.Boolean>
+  nameWithType.vb: Nullable(Of Boolean)
+  fullName.vb: System.Nullable(Of System.Boolean)
+  name.vb: Nullable(Of Boolean)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Scopes.IBdoHostOptions.HostSettings*
+  commentId: Overload:BindOpen.Application.Scopes.IBdoHostOptions.HostSettings
+  isExternal: true
+  name: HostSettings
+  nameWithType: IBdoHostOptions.HostSettings
+  fullName: BindOpen.Application.Scopes.IBdoHostOptions.HostSettings
+- uid: BindOpen.Application.Settings.IBdoHostSettings
+  commentId: T:BindOpen.Application.Settings.IBdoHostSettings
+  parent: BindOpen.Application.Settings
+  isExternal: true
+  name: IBdoHostSettings
+  nameWithType: IBdoHostSettings
+  fullName: BindOpen.Application.Settings.IBdoHostSettings
+- uid: BindOpen.Application.Settings
+  commentId: N:BindOpen.Application.Settings
+  isExternal: true
+  name: BindOpen.Application.Settings
+  nameWithType: BindOpen.Application.Settings
+  fullName: BindOpen.Application.Settings
+- uid: BindOpen.Application.Scopes.IBdoHostOptions.AppSettings*
+  commentId: Overload:BindOpen.Application.Scopes.IBdoHostOptions.AppSettings
+  isExternal: true
+  name: AppSettings
+  nameWithType: IBdoHostOptions.AppSettings
+  fullName: BindOpen.Application.Scopes.IBdoHostOptions.AppSettings
+- uid: BindOpen.Application.Settings.IBdoAppSettings
+  commentId: T:BindOpen.Application.Settings.IBdoAppSettings
+  parent: BindOpen.Application.Settings
+  isExternal: true
+  name: IBdoAppSettings
+  nameWithType: IBdoAppSettings
+  fullName: BindOpen.Application.Settings.IBdoAppSettings
+- uid: BindOpen.Application.Scopes.IBdoHostOptions.AppSettingsSpecificationSet*
+  commentId: Overload:BindOpen.Application.Scopes.IBdoHostOptions.AppSettingsSpecificationSet
+  isExternal: true
+  name: AppSettingsSpecificationSet
+  nameWithType: IBdoHostOptions.AppSettingsSpecificationSet
+  fullName: BindOpen.Application.Scopes.IBdoHostOptions.AppSettingsSpecificationSet
+- uid: BindOpen.Data.Elements.IDataElementSpecSet
+  isExternal: true
+  name: IDataElementSpecSet
+  nameWithType: IDataElementSpecSet
+  fullName: BindOpen.Data.Elements.IDataElementSpecSet
+- uid: BindOpen.Application.Scopes.IBdoHostOptions.ExtensionReferences*
+  commentId: Overload:BindOpen.Application.Scopes.IBdoHostOptions.ExtensionReferences
+  isExternal: true
+  name: ExtensionReferences
+  nameWithType: IBdoHostOptions.ExtensionReferences
+  fullName: BindOpen.Application.Scopes.IBdoHostOptions.ExtensionReferences
+- uid: BindOpen.Extensions.References.IBdoExtensionReferenceCollection
+  isExternal: true
+  name: IBdoExtensionReferenceCollection
+  nameWithType: IBdoExtensionReferenceCollection
+  fullName: BindOpen.Extensions.References.IBdoExtensionReferenceCollection
+- uid: BindOpen.Application.Scopes.IBdoHostOptions.ExtensionLoadOptions*
+  commentId: Overload:BindOpen.Application.Scopes.IBdoHostOptions.ExtensionLoadOptions
+  isExternal: true
+  name: ExtensionLoadOptions
+  nameWithType: IBdoHostOptions.ExtensionLoadOptions
+  fullName: BindOpen.Application.Scopes.IBdoHostOptions.ExtensionLoadOptions
+- uid: BindOpen.Application.Scopes.IExtensionLoadOptions
+  isExternal: true
+  name: IExtensionLoadOptions
+  nameWithType: IExtensionLoadOptions
+  fullName: BindOpen.Application.Scopes.IExtensionLoadOptions
+- uid: BindOpen.Application.Scopes.IBdoHostOptions.DefaultLoggerOutputKinds*
+  commentId: Overload:BindOpen.Application.Scopes.IBdoHostOptions.DefaultLoggerOutputKinds
+  isExternal: true
+  name: DefaultLoggerOutputKinds
+  nameWithType: IBdoHostOptions.DefaultLoggerOutputKinds
+  fullName: BindOpen.Application.Scopes.IBdoHostOptions.DefaultLoggerOutputKinds
+- uid: System.Collections.Generic.HashSet{BindOpen.Data.Items.DatasourceKind}
+  commentId: '!:System.Collections.Generic.HashSet{BindOpen.Data.Items.DatasourceKind}'
+  definition: System.Collections.Generic.HashSet`1
+  name: HashSet<DatasourceKind>
+  nameWithType: HashSet<DatasourceKind>
+  fullName: System.Collections.Generic.HashSet<BindOpen.Data.Items.DatasourceKind>
+  nameWithType.vb: HashSet(Of DatasourceKind)
+  fullName.vb: System.Collections.Generic.HashSet(Of BindOpen.Data.Items.DatasourceKind)
+  name.vb: HashSet(Of DatasourceKind)
+  spec.csharp:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    nameWithType: HashSet
+    fullName: System.Collections.Generic.HashSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BindOpen.Data.Items.DatasourceKind
+    name: DatasourceKind
+    nameWithType: DatasourceKind
+    fullName: BindOpen.Data.Items.DatasourceKind
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    nameWithType: HashSet
+    fullName: System.Collections.Generic.HashSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BindOpen.Data.Items.DatasourceKind
+    name: DatasourceKind
+    nameWithType: DatasourceKind
+    fullName: BindOpen.Data.Items.DatasourceKind
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.HashSet`1
+  isExternal: true
+  name: HashSet<>
+  nameWithType: HashSet<>
+  fullName: System.Collections.Generic.HashSet<>
+  nameWithType.vb: HashSet(Of )
+  fullName.vb: System.Collections.Generic.HashSet(Of )
+  name.vb: HashSet(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    nameWithType: HashSet
+    fullName: System.Collections.Generic.HashSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    nameWithType: HashSet
+    fullName: System.Collections.Generic.HashSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Scopes.IBdoHostOptions.Loggers*
+  commentId: Overload:BindOpen.Application.Scopes.IBdoHostOptions.Loggers
+  isExternal: true
+  name: Loggers
+  nameWithType: IBdoHostOptions.Loggers
+  fullName: BindOpen.Application.Scopes.IBdoHostOptions.Loggers
+- uid: System.Collections.Generic.IList{BindOpen.System.Diagnostics.Loggers.IBdoLogger}
+  commentId: '!:System.Collections.Generic.IList{BindOpen.System.Diagnostics.Loggers.IBdoLogger}'
+  definition: System.Collections.Generic.IList`1
+  name: IList<IBdoLogger>
+  nameWithType: IList<IBdoLogger>
+  fullName: System.Collections.Generic.IList<BindOpen.System.Diagnostics.Loggers.IBdoLogger>
+  nameWithType.vb: IList(Of IBdoLogger)
+  fullName.vb: System.Collections.Generic.IList(Of BindOpen.System.Diagnostics.Loggers.IBdoLogger)
+  name.vb: IList(Of IBdoLogger)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BindOpen.System.Diagnostics.Loggers.IBdoLogger
+    name: IBdoLogger
+    nameWithType: IBdoLogger
+    fullName: BindOpen.System.Diagnostics.Loggers.IBdoLogger
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BindOpen.System.Diagnostics.Loggers.IBdoLogger
+    name: IBdoLogger
+    nameWithType: IBdoLogger
+    fullName: BindOpen.System.Diagnostics.Loggers.IBdoLogger
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IList`1
+  isExternal: true
+  name: IList<>
+  nameWithType: IList<>
+  fullName: System.Collections.Generic.IList<>
+  nameWithType.vb: IList(Of )
+  fullName.vb: System.Collections.Generic.IList(Of )
+  name.vb: IList(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Scopes.IBdoHostOptions.DataStore*
+  commentId: Overload:BindOpen.Application.Scopes.IBdoHostOptions.DataStore
+  isExternal: true
+  name: DataStore
+  nameWithType: IBdoHostOptions.DataStore
+  fullName: BindOpen.Application.Scopes.IBdoHostOptions.DataStore
+- uid: BindOpen.Data.Stores.IBdoDataStore
+  isExternal: true
+  name: IBdoDataStore
+  nameWithType: IBdoDataStore
+  fullName: BindOpen.Data.Stores.IBdoDataStore
+shouldSkipMarkup: true

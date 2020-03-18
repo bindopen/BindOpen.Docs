@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Extensions.Routines
+  commentId: N:BindOpen.Extensions.Routines
+  id: BindOpen.Extensions.Routines
+  children:
+  - BindOpen.Extensions.Routines.Routine_ItemIsRequired
+  - BindOpen.Extensions.Routines.Routine_TextFormatMustBe
+  - BindOpen.Extensions.Routines.RoutineConfigurationKind_standard
+  - BindOpen.Extensions.Routines.RoutineConfigurationKind_standardExtension
+  langs:
+  - csharp
+  - vb
+  name: BindOpen.Extensions.Routines
+  nameWithType: BindOpen.Extensions.Routines
+  fullName: BindOpen.Extensions.Routines
+  type: Namespace
+  assemblies:
+  - BindOpen.Runtime
+references:
+- uid: BindOpen.Extensions.Routines.RoutineConfigurationKind_standard
+  commentId: T:BindOpen.Extensions.Routines.RoutineConfigurationKind_standard
+  parent: BindOpen.Extensions.Routines
+  isExternal: true
+  name: RoutineConfigurationKind_standard
+  nameWithType: RoutineConfigurationKind_standard
+  fullName: BindOpen.Extensions.Routines.RoutineConfigurationKind_standard
+- uid: BindOpen.Extensions.Routines.RoutineConfigurationKind_standardExtension
+  commentId: T:BindOpen.Extensions.Routines.RoutineConfigurationKind_standardExtension
+  parent: BindOpen.Extensions.Routines
+  isExternal: true
+  name: RoutineConfigurationKind_standardExtension
+  nameWithType: RoutineConfigurationKind_standardExtension
+  fullName: BindOpen.Extensions.Routines.RoutineConfigurationKind_standardExtension
+- uid: BindOpen.Extensions.Routines.Routine_ItemIsRequired
+  commentId: T:BindOpen.Extensions.Routines.Routine_ItemIsRequired
+  isExternal: true
+  name: Routine_ItemIsRequired
+  nameWithType: Routine_ItemIsRequired
+  fullName: BindOpen.Extensions.Routines.Routine_ItemIsRequired
+- uid: BindOpen.Extensions.Routines.Routine_TextFormatMustBe
+  commentId: T:BindOpen.Extensions.Routines.Routine_TextFormatMustBe
+  isExternal: true
+  name: Routine_TextFormatMustBe
+  nameWithType: Routine_TextFormatMustBe
+  fullName: BindOpen.Extensions.Routines.Routine_TextFormatMustBe
+- uid: BindOpen.Extensions.Routines
+  commentId: N:BindOpen.Extensions.Routines
+  isExternal: true
+  name: BindOpen.Extensions.Routines
+  nameWithType: BindOpen.Extensions.Routines
+  fullName: BindOpen.Extensions.Routines
+shouldSkipMarkup: true

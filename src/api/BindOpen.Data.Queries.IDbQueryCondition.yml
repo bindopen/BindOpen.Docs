@@ -1,0 +1,219 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Data.Queries.IDbQueryCondition
+  commentId: T:BindOpen.Data.Queries.IDbQueryCondition
+  id: IDbQueryCondition
+  parent: BindOpen.Data.Queries
+  children:
+  - BindOpen.Data.Queries.IDbQueryCondition.Field1
+  - BindOpen.Data.Queries.IDbQueryCondition.Field2
+  - BindOpen.Data.Queries.IDbQueryCondition.Operator
+  - BindOpen.Data.Queries.IDbQueryCondition.ParameterSet
+  langs:
+  - csharp
+  - vb
+  name: IDbQueryCondition
+  nameWithType: IDbQueryCondition
+  fullName: BindOpen.Data.Queries.IDbQueryCondition
+  type: Interface
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\n\n"
+  syntax:
+    content: 'public interface IDbQueryCondition : IDbQueryItem'
+    content.vb: >-
+      Public Interface IDbQueryCondition
+          Inherits IDbQueryItem
+  inheritedMembers:
+  - BindOpen.Data.Queries.IDbQueryItem.Expression
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: BindOpen.Data.Queries.IDbQueryCondition.Field1
+  commentId: P:BindOpen.Data.Queries.IDbQueryCondition.Field1
+  id: Field1
+  parent: BindOpen.Data.Queries.IDbQueryCondition
+  langs:
+  - csharp
+  - vb
+  name: Field1
+  nameWithType: IDbQueryCondition.Field1
+  fullName: BindOpen.Data.Queries.IDbQueryCondition.Field1
+  type: Property
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nThe field 1 of this instance.\n"
+  syntax:
+    content: DbField Field1 { get; set; }
+    parameters: []
+    return:
+      type: BindOpen.Extensions.Carriers.DbField
+    content.vb: Property Field1 As DbField
+  overload: BindOpen.Data.Queries.IDbQueryCondition.Field1*
+  modifiers.csharp:
+  - get
+  - set
+- uid: BindOpen.Data.Queries.IDbQueryCondition.Field2
+  commentId: P:BindOpen.Data.Queries.IDbQueryCondition.Field2
+  id: Field2
+  parent: BindOpen.Data.Queries.IDbQueryCondition
+  langs:
+  - csharp
+  - vb
+  name: Field2
+  nameWithType: IDbQueryCondition.Field2
+  fullName: BindOpen.Data.Queries.IDbQueryCondition.Field2
+  type: Property
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nThe field 2 of this instance.\n"
+  syntax:
+    content: DbField Field2 { get; set; }
+    parameters: []
+    return:
+      type: BindOpen.Extensions.Carriers.DbField
+    content.vb: Property Field2 As DbField
+  overload: BindOpen.Data.Queries.IDbQueryCondition.Field2*
+  modifiers.csharp:
+  - get
+  - set
+- uid: BindOpen.Data.Queries.IDbQueryCondition.Operator
+  commentId: P:BindOpen.Data.Queries.IDbQueryCondition.Operator
+  id: Operator
+  parent: BindOpen.Data.Queries.IDbQueryCondition
+  langs:
+  - csharp
+  - vb
+  name: Operator
+  nameWithType: IDbQueryCondition.Operator
+  fullName: BindOpen.Data.Queries.IDbQueryCondition.Operator
+  type: Property
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nThe operator of this instance.\n"
+  syntax:
+    content: DataOperator Operator { get; set; }
+    parameters: []
+    return:
+      type: BindOpen.Data.Common.DataOperator
+    content.vb: Property Operator As DataOperator
+  overload: BindOpen.Data.Queries.IDbQueryCondition.Operator*
+  modifiers.csharp:
+  - get
+  - set
+- uid: BindOpen.Data.Queries.IDbQueryCondition.ParameterSet
+  commentId: P:BindOpen.Data.Queries.IDbQueryCondition.ParameterSet
+  id: ParameterSet
+  parent: BindOpen.Data.Queries.IDbQueryCondition
+  langs:
+  - csharp
+  - vb
+  name: ParameterSet
+  nameWithType: IDbQueryCondition.ParameterSet
+  fullName: BindOpen.Data.Queries.IDbQueryCondition.ParameterSet
+  type: Property
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nThe set of parameters of this instance.\n"
+  syntax:
+    content: DataElementSet ParameterSet { get; set; }
+    parameters: []
+    return:
+      type: BindOpen.Data.Elements.DataElementSet
+    content.vb: Property ParameterSet As DataElementSet
+  overload: BindOpen.Data.Queries.IDbQueryCondition.ParameterSet*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: BindOpen.Data.Queries
+  commentId: N:BindOpen.Data.Queries
+  isExternal: true
+  name: BindOpen.Data.Queries
+  nameWithType: BindOpen.Data.Queries
+  fullName: BindOpen.Data.Queries
+- uid: BindOpen.Data.Queries.IDbQueryItem.Expression
+  commentId: P:BindOpen.Data.Queries.IDbQueryItem.Expression
+  parent: BindOpen.Data.Queries.IDbQueryItem
+  isExternal: true
+  name: Expression
+  nameWithType: IDbQueryItem.Expression
+  fullName: BindOpen.Data.Queries.IDbQueryItem.Expression
+- uid: BindOpen.Data.Queries.IDbQueryItem
+  commentId: T:BindOpen.Data.Queries.IDbQueryItem
+  parent: BindOpen.Data.Queries
+  isExternal: true
+  name: IDbQueryItem
+  nameWithType: IDbQueryItem
+  fullName: BindOpen.Data.Queries.IDbQueryItem
+- uid: BindOpen.Data.Queries.IDbQueryCondition.Field1*
+  commentId: Overload:BindOpen.Data.Queries.IDbQueryCondition.Field1
+  isExternal: true
+  name: Field1
+  nameWithType: IDbQueryCondition.Field1
+  fullName: BindOpen.Data.Queries.IDbQueryCondition.Field1
+- uid: BindOpen.Extensions.Carriers.DbField
+  commentId: T:BindOpen.Extensions.Carriers.DbField
+  parent: BindOpen.Extensions.Carriers
+  isExternal: true
+  name: DbField
+  nameWithType: DbField
+  fullName: BindOpen.Extensions.Carriers.DbField
+- uid: BindOpen.Extensions.Carriers
+  commentId: N:BindOpen.Extensions.Carriers
+  isExternal: true
+  name: BindOpen.Extensions.Carriers
+  nameWithType: BindOpen.Extensions.Carriers
+  fullName: BindOpen.Extensions.Carriers
+- uid: BindOpen.Data.Queries.IDbQueryCondition.Field2*
+  commentId: Overload:BindOpen.Data.Queries.IDbQueryCondition.Field2
+  isExternal: true
+  name: Field2
+  nameWithType: IDbQueryCondition.Field2
+  fullName: BindOpen.Data.Queries.IDbQueryCondition.Field2
+- uid: BindOpen.Data.Queries.IDbQueryCondition.Operator*
+  commentId: Overload:BindOpen.Data.Queries.IDbQueryCondition.Operator
+  isExternal: true
+  name: Operator
+  nameWithType: IDbQueryCondition.Operator
+  fullName: BindOpen.Data.Queries.IDbQueryCondition.Operator
+- uid: BindOpen.Data.Common.DataOperator
+  isExternal: true
+  name: DataOperator
+  nameWithType: DataOperator
+  fullName: BindOpen.Data.Common.DataOperator
+- uid: BindOpen.Data.Queries.IDbQueryCondition.ParameterSet*
+  commentId: Overload:BindOpen.Data.Queries.IDbQueryCondition.ParameterSet
+  isExternal: true
+  name: ParameterSet
+  nameWithType: IDbQueryCondition.ParameterSet
+  fullName: BindOpen.Data.Queries.IDbQueryCondition.ParameterSet
+- uid: BindOpen.Data.Elements.DataElementSet
+  isExternal: true
+  name: DataElementSet
+  nameWithType: DataElementSet
+  fullName: BindOpen.Data.Elements.DataElementSet
+shouldSkipMarkup: true

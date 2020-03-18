@@ -1,0 +1,865 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Application.Scopes.ITBdoHost`1
+  commentId: T:BindOpen.Application.Scopes.ITBdoHost`1
+  id: ITBdoHost`1
+  parent: BindOpen.Application.Scopes
+  children:
+  - BindOpen.Application.Scopes.ITBdoHost`1.Configure(System.Action{BindOpen.Application.Scopes.ITBdoHostOptions{`0}})
+  - BindOpen.Application.Scopes.ITBdoHost`1.End(BindOpen.System.Processing.ProcessExecutionStatus)
+  - BindOpen.Application.Scopes.ITBdoHost`1.Options
+  - BindOpen.Application.Scopes.ITBdoHost`1.Run(System.Action{BindOpen.Application.Scopes.ITBdoHost{`0}})
+  - BindOpen.Application.Scopes.ITBdoHost`1.Start
+  langs:
+  - csharp
+  - vb
+  name: ITBdoHost<S>
+  nameWithType: ITBdoHost<S>
+  fullName: BindOpen.Application.Scopes.ITBdoHost<S>
+  type: Interface
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nThe interface defines the bot.\n"
+  syntax:
+    content: 'public interface ITBdoHost<S> : ITBdoService<S>, IBdoHost, IBdoService, IIdentifiedDataItem, IDataItem, ICloneable, IDisposable, IIdentified, IReferenced, IBdoScope where S : class, IBdoAppSettings, new()'
+    typeParameters:
+    - id: S
+    content.vb: >-
+      Public Interface ITBdoHost(Of S As {Class, IBdoAppSettings, New})
+          Inherits ITBdoService(Of S), IBdoService, IIdentifiedDataItem, IDataItem, ICloneable, IDisposable, IIdentified, IReferenced, IBdoHost, IBdoScope
+  inheritedMembers:
+  - BindOpen.Application.Services.ITBdoService{{S}}.Settings
+  - BindOpen.Application.Services.ITBdoService{{S}}.Action_OnStartSuccess
+  - BindOpen.Application.Services.ITBdoService{{S}}.Action_OnStartFailure
+  - BindOpen.Application.Services.ITBdoService{{S}}.Action_OnExecutionSucess
+  - BindOpen.Application.Services.ITBdoService{{S}}.Action_OnExecutionFailure
+  - BindOpen.Application.Scopes.IBdoHost.GetKnownPath(BindOpen.Application.Scopes.BdoHostPathKind)
+  - BindOpen.Application.Scopes.IBdoHost.GetCredential(System.String)
+  - BindOpen.Application.Scopes.IBdoHost.HostOptions
+  - BindOpen.Application.Scopes.IBdoHost.Scope
+  - BindOpen.Application.Services.IBdoService.Loggers
+  - BindOpen.Application.Services.IBdoService.AppDomainPool
+  - BindOpen.Application.Services.IBdoService.Log
+  - BindOpen.Application.Services.IBdoService.IsLoaded
+  - BindOpen.Application.Services.IBdoService.ExecutionState
+  - BindOpen.Application.Services.IBdoService.ExecutionStatus
+  nameWithType.vb: ITBdoHost(Of S)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+  fullName.vb: BindOpen.Application.Scopes.ITBdoHost(Of S)
+  name.vb: ITBdoHost(Of S)
+- uid: BindOpen.Application.Scopes.ITBdoHost`1.Configure(System.Action{BindOpen.Application.Scopes.ITBdoHostOptions{`0}})
+  commentId: M:BindOpen.Application.Scopes.ITBdoHost`1.Configure(System.Action{BindOpen.Application.Scopes.ITBdoHostOptions{`0}})
+  id: Configure(System.Action{BindOpen.Application.Scopes.ITBdoHostOptions{`0}})
+  parent: BindOpen.Application.Scopes.ITBdoHost`1
+  langs:
+  - csharp
+  - vb
+  name: Configure(Action<ITBdoHostOptions<S>>)
+  nameWithType: ITBdoHost<S>.Configure(Action<ITBdoHostOptions<S>>)
+  fullName: BindOpen.Application.Scopes.ITBdoHost<S>.Configure(System.Action<BindOpen.Application.Scopes.ITBdoHostOptions<S>>)
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nConfigures the bot.\n"
+  syntax:
+    content: ITBdoHost<S> Configure(Action<ITBdoHostOptions<S>> setupOptions)
+    parameters:
+    - id: setupOptions
+      type: System.Action{BindOpen.Application.Scopes.ITBdoHostOptions{{S}}}
+      description: The action to setup the bot.
+    return:
+      type: BindOpen.Application.Scopes.ITBdoHost`1
+      description: Returns the bot.
+    content.vb: Function Configure(setupOptions As Action(Of ITBdoHostOptions(Of S))) As ITBdoHost(Of S)
+  overload: BindOpen.Application.Scopes.ITBdoHost`1.Configure*
+  nameWithType.vb: ITBdoHost(Of S).Configure(Action(Of ITBdoHostOptions(Of S)))
+  fullName.vb: BindOpen.Application.Scopes.ITBdoHost(Of S).Configure(System.Action(Of BindOpen.Application.Scopes.ITBdoHostOptions(Of S)))
+  name.vb: Configure(Action(Of ITBdoHostOptions(Of S)))
+- uid: BindOpen.Application.Scopes.ITBdoHost`1.Start
+  commentId: M:BindOpen.Application.Scopes.ITBdoHost`1.Start
+  id: Start
+  parent: BindOpen.Application.Scopes.ITBdoHost`1
+  langs:
+  - csharp
+  - vb
+  name: Start()
+  nameWithType: ITBdoHost<S>.Start()
+  fullName: BindOpen.Application.Scopes.ITBdoHost<S>.Start()
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nStarts the process.\n"
+  syntax:
+    content: ITBdoHost<S> Start()
+    return:
+      type: BindOpen.Application.Scopes.ITBdoHost`1
+      description: Returns the bot to consider.
+    content.vb: Function Start As ITBdoHost(Of S)
+  overload: BindOpen.Application.Scopes.ITBdoHost`1.Start*
+  nameWithType.vb: ITBdoHost(Of S).Start()
+  fullName.vb: BindOpen.Application.Scopes.ITBdoHost(Of S).Start()
+- uid: BindOpen.Application.Scopes.ITBdoHost`1.End(BindOpen.System.Processing.ProcessExecutionStatus)
+  commentId: M:BindOpen.Application.Scopes.ITBdoHost`1.End(BindOpen.System.Processing.ProcessExecutionStatus)
+  id: End(BindOpen.System.Processing.ProcessExecutionStatus)
+  parent: BindOpen.Application.Scopes.ITBdoHost`1
+  langs:
+  - csharp
+  - vb
+  name: End(ProcessExecutionStatus)
+  nameWithType: ITBdoHost<S>.End(ProcessExecutionStatus)
+  fullName: BindOpen.Application.Scopes.ITBdoHost<S>.End(BindOpen.System.Processing.ProcessExecutionStatus)
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nEnds the process specifying the status.\n"
+  syntax:
+    content: ITBdoHost<S> End(ProcessExecutionStatus executionStatus)
+    parameters:
+    - id: executionStatus
+      type: BindOpen.System.Processing.ProcessExecutionStatus
+      description: The execution status to apply.
+    return:
+      type: BindOpen.Application.Scopes.ITBdoHost`1
+      description: Returns the bot to consider.
+    content.vb: Function End(executionStatus As ProcessExecutionStatus) As ITBdoHost(Of S)
+  overload: BindOpen.Application.Scopes.ITBdoHost`1.End*
+  nameWithType.vb: ITBdoHost(Of S).End(ProcessExecutionStatus)
+  fullName.vb: BindOpen.Application.Scopes.ITBdoHost(Of S).End(BindOpen.System.Processing.ProcessExecutionStatus)
+- uid: BindOpen.Application.Scopes.ITBdoHost`1.Run(System.Action{BindOpen.Application.Scopes.ITBdoHost{`0}})
+  commentId: M:BindOpen.Application.Scopes.ITBdoHost`1.Run(System.Action{BindOpen.Application.Scopes.ITBdoHost{`0}})
+  id: Run(System.Action{BindOpen.Application.Scopes.ITBdoHost{`0}})
+  parent: BindOpen.Application.Scopes.ITBdoHost`1
+  langs:
+  - csharp
+  - vb
+  name: Run(Action<ITBdoHost<S>>)
+  nameWithType: ITBdoHost<S>.Run(Action<ITBdoHost<S>>)
+  fullName: BindOpen.Application.Scopes.ITBdoHost<S>.Run(System.Action<BindOpen.Application.Scopes.ITBdoHost<S>>)
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nRuns the specified action.\n"
+  syntax:
+    content: ITBdoHost<S> Run(Action<ITBdoHost<S>> action)
+    parameters:
+    - id: action
+      type: System.Action{BindOpen.Application.Scopes.ITBdoHost`1}
+      description: The action to consider.
+    return:
+      type: BindOpen.Application.Scopes.ITBdoHost`1
+      description: Returns this instance.
+    content.vb: Function Run(action As Action(Of ITBdoHost(Of S))) As ITBdoHost(Of S)
+  overload: BindOpen.Application.Scopes.ITBdoHost`1.Run*
+  nameWithType.vb: ITBdoHost(Of S).Run(Action(Of ITBdoHost(Of S)))
+  fullName.vb: BindOpen.Application.Scopes.ITBdoHost(Of S).Run(System.Action(Of BindOpen.Application.Scopes.ITBdoHost(Of S)))
+  name.vb: Run(Action(Of ITBdoHost(Of S)))
+- uid: BindOpen.Application.Scopes.ITBdoHost`1.Options
+  commentId: P:BindOpen.Application.Scopes.ITBdoHost`1.Options
+  id: Options
+  parent: BindOpen.Application.Scopes.ITBdoHost`1
+  langs:
+  - csharp
+  - vb
+  name: Options
+  nameWithType: ITBdoHost<S>.Options
+  fullName: BindOpen.Application.Scopes.ITBdoHost<S>.Options
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nThe options.\n"
+  syntax:
+    content: ITBdoHostOptions<S> Options { get; set; }
+    parameters: []
+    return:
+      type: BindOpen.Application.Scopes.ITBdoHostOptions{{S}}
+    content.vb: Property Options As ITBdoHostOptions(Of S)
+  overload: BindOpen.Application.Scopes.ITBdoHost`1.Options*
+  nameWithType.vb: ITBdoHost(Of S).Options
+  modifiers.csharp:
+  - get
+  - set
+  fullName.vb: BindOpen.Application.Scopes.ITBdoHost(Of S).Options
+references:
+- uid: BindOpen.Application.Scopes
+  commentId: N:BindOpen.Application.Scopes
+  isExternal: true
+  name: BindOpen.Application.Scopes
+  nameWithType: BindOpen.Application.Scopes
+  fullName: BindOpen.Application.Scopes
+- uid: BindOpen.Application.Services.ITBdoService{{S}}.Settings
+  commentId: P:BindOpen.Application.Services.ITBdoService{`0}.Settings
+  parent: BindOpen.Application.Services.ITBdoService{{S}}
+  definition: BindOpen.Application.Services.ITBdoService`1.Settings
+  name: Settings
+  nameWithType: ITBdoService<S>.Settings
+  fullName: BindOpen.Application.Services.ITBdoService<S>.Settings
+  nameWithType.vb: ITBdoService(Of S).Settings
+  fullName.vb: BindOpen.Application.Services.ITBdoService(Of S).Settings
+- uid: BindOpen.Application.Services.ITBdoService{{S}}.Action_OnStartSuccess
+  commentId: P:BindOpen.Application.Services.ITBdoService{`0}.Action_OnStartSuccess
+  parent: BindOpen.Application.Services.ITBdoService{{S}}
+  definition: BindOpen.Application.Services.ITBdoService`1.Action_OnStartSuccess
+  name: Action_OnStartSuccess
+  nameWithType: ITBdoService<S>.Action_OnStartSuccess
+  fullName: BindOpen.Application.Services.ITBdoService<S>.Action_OnStartSuccess
+  nameWithType.vb: ITBdoService(Of S).Action_OnStartSuccess
+  fullName.vb: BindOpen.Application.Services.ITBdoService(Of S).Action_OnStartSuccess
+- uid: BindOpen.Application.Services.ITBdoService{{S}}.Action_OnStartFailure
+  commentId: P:BindOpen.Application.Services.ITBdoService{`0}.Action_OnStartFailure
+  parent: BindOpen.Application.Services.ITBdoService{{S}}
+  definition: BindOpen.Application.Services.ITBdoService`1.Action_OnStartFailure
+  name: Action_OnStartFailure
+  nameWithType: ITBdoService<S>.Action_OnStartFailure
+  fullName: BindOpen.Application.Services.ITBdoService<S>.Action_OnStartFailure
+  nameWithType.vb: ITBdoService(Of S).Action_OnStartFailure
+  fullName.vb: BindOpen.Application.Services.ITBdoService(Of S).Action_OnStartFailure
+- uid: BindOpen.Application.Services.ITBdoService{{S}}.Action_OnExecutionSucess
+  commentId: P:BindOpen.Application.Services.ITBdoService{`0}.Action_OnExecutionSucess
+  parent: BindOpen.Application.Services.ITBdoService{{S}}
+  definition: BindOpen.Application.Services.ITBdoService`1.Action_OnExecutionSucess
+  name: Action_OnExecutionSucess
+  nameWithType: ITBdoService<S>.Action_OnExecutionSucess
+  fullName: BindOpen.Application.Services.ITBdoService<S>.Action_OnExecutionSucess
+  nameWithType.vb: ITBdoService(Of S).Action_OnExecutionSucess
+  fullName.vb: BindOpen.Application.Services.ITBdoService(Of S).Action_OnExecutionSucess
+- uid: BindOpen.Application.Services.ITBdoService{{S}}.Action_OnExecutionFailure
+  commentId: P:BindOpen.Application.Services.ITBdoService{`0}.Action_OnExecutionFailure
+  parent: BindOpen.Application.Services.ITBdoService{{S}}
+  definition: BindOpen.Application.Services.ITBdoService`1.Action_OnExecutionFailure
+  name: Action_OnExecutionFailure
+  nameWithType: ITBdoService<S>.Action_OnExecutionFailure
+  fullName: BindOpen.Application.Services.ITBdoService<S>.Action_OnExecutionFailure
+  nameWithType.vb: ITBdoService(Of S).Action_OnExecutionFailure
+  fullName.vb: BindOpen.Application.Services.ITBdoService(Of S).Action_OnExecutionFailure
+- uid: BindOpen.Application.Scopes.IBdoHost.GetKnownPath(BindOpen.Application.Scopes.BdoHostPathKind)
+  commentId: M:BindOpen.Application.Scopes.IBdoHost.GetKnownPath(BindOpen.Application.Scopes.BdoHostPathKind)
+  parent: BindOpen.Application.Scopes.IBdoHost
+  isExternal: true
+  name: GetKnownPath(BdoHostPathKind)
+  nameWithType: IBdoHost.GetKnownPath(BdoHostPathKind)
+  fullName: BindOpen.Application.Scopes.IBdoHost.GetKnownPath(BindOpen.Application.Scopes.BdoHostPathKind)
+  spec.csharp:
+  - uid: BindOpen.Application.Scopes.IBdoHost.GetKnownPath(BindOpen.Application.Scopes.BdoHostPathKind)
+    name: GetKnownPath
+    nameWithType: IBdoHost.GetKnownPath
+    fullName: BindOpen.Application.Scopes.IBdoHost.GetKnownPath
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Application.Scopes.BdoHostPathKind
+    name: BdoHostPathKind
+    nameWithType: BdoHostPathKind
+    fullName: BindOpen.Application.Scopes.BdoHostPathKind
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Application.Scopes.IBdoHost.GetKnownPath(BindOpen.Application.Scopes.BdoHostPathKind)
+    name: GetKnownPath
+    nameWithType: IBdoHost.GetKnownPath
+    fullName: BindOpen.Application.Scopes.IBdoHost.GetKnownPath
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Application.Scopes.BdoHostPathKind
+    name: BdoHostPathKind
+    nameWithType: BdoHostPathKind
+    fullName: BindOpen.Application.Scopes.BdoHostPathKind
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Scopes.IBdoHost.GetCredential(System.String)
+  commentId: M:BindOpen.Application.Scopes.IBdoHost.GetCredential(System.String)
+  parent: BindOpen.Application.Scopes.IBdoHost
+  isExternal: true
+  name: GetCredential(String)
+  nameWithType: IBdoHost.GetCredential(String)
+  fullName: BindOpen.Application.Scopes.IBdoHost.GetCredential(System.String)
+  spec.csharp:
+  - uid: BindOpen.Application.Scopes.IBdoHost.GetCredential(System.String)
+    name: GetCredential
+    nameWithType: IBdoHost.GetCredential
+    fullName: BindOpen.Application.Scopes.IBdoHost.GetCredential
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Application.Scopes.IBdoHost.GetCredential(System.String)
+    name: GetCredential
+    nameWithType: IBdoHost.GetCredential
+    fullName: BindOpen.Application.Scopes.IBdoHost.GetCredential
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Scopes.IBdoHost.HostOptions
+  commentId: P:BindOpen.Application.Scopes.IBdoHost.HostOptions
+  parent: BindOpen.Application.Scopes.IBdoHost
+  isExternal: true
+  name: HostOptions
+  nameWithType: IBdoHost.HostOptions
+  fullName: BindOpen.Application.Scopes.IBdoHost.HostOptions
+- uid: BindOpen.Application.Scopes.IBdoHost.Scope
+  commentId: P:BindOpen.Application.Scopes.IBdoHost.Scope
+  parent: BindOpen.Application.Scopes.IBdoHost
+  isExternal: true
+  name: Scope
+  nameWithType: IBdoHost.Scope
+  fullName: BindOpen.Application.Scopes.IBdoHost.Scope
+- uid: BindOpen.Application.Services.IBdoService.Loggers
+  commentId: P:BindOpen.Application.Services.IBdoService.Loggers
+  parent: BindOpen.Application.Services.IBdoService
+  isExternal: true
+  name: Loggers
+  nameWithType: IBdoService.Loggers
+  fullName: BindOpen.Application.Services.IBdoService.Loggers
+- uid: BindOpen.Application.Services.IBdoService.AppDomainPool
+  commentId: P:BindOpen.Application.Services.IBdoService.AppDomainPool
+  parent: BindOpen.Application.Services.IBdoService
+  isExternal: true
+  name: AppDomainPool
+  nameWithType: IBdoService.AppDomainPool
+  fullName: BindOpen.Application.Services.IBdoService.AppDomainPool
+- uid: BindOpen.Application.Services.IBdoService.Log
+  commentId: P:BindOpen.Application.Services.IBdoService.Log
+  parent: BindOpen.Application.Services.IBdoService
+  isExternal: true
+  name: Log
+  nameWithType: IBdoService.Log
+  fullName: BindOpen.Application.Services.IBdoService.Log
+- uid: BindOpen.Application.Services.IBdoService.IsLoaded
+  commentId: P:BindOpen.Application.Services.IBdoService.IsLoaded
+  parent: BindOpen.Application.Services.IBdoService
+  isExternal: true
+  name: IsLoaded
+  nameWithType: IBdoService.IsLoaded
+  fullName: BindOpen.Application.Services.IBdoService.IsLoaded
+- uid: BindOpen.Application.Services.IBdoService.ExecutionState
+  commentId: P:BindOpen.Application.Services.IBdoService.ExecutionState
+  parent: BindOpen.Application.Services.IBdoService
+  isExternal: true
+  name: ExecutionState
+  nameWithType: IBdoService.ExecutionState
+  fullName: BindOpen.Application.Services.IBdoService.ExecutionState
+- uid: BindOpen.Application.Services.IBdoService.ExecutionStatus
+  commentId: P:BindOpen.Application.Services.IBdoService.ExecutionStatus
+  parent: BindOpen.Application.Services.IBdoService
+  isExternal: true
+  name: ExecutionStatus
+  nameWithType: IBdoService.ExecutionStatus
+  fullName: BindOpen.Application.Services.IBdoService.ExecutionStatus
+- uid: BindOpen.Application.Services.ITBdoService`1.Settings
+  commentId: P:BindOpen.Application.Services.ITBdoService`1.Settings
+  isExternal: true
+  name: Settings
+  nameWithType: ITBdoService<S>.Settings
+  fullName: BindOpen.Application.Services.ITBdoService<S>.Settings
+  nameWithType.vb: ITBdoService(Of S).Settings
+  fullName.vb: BindOpen.Application.Services.ITBdoService(Of S).Settings
+- uid: BindOpen.Application.Services.ITBdoService{{S}}
+  commentId: T:BindOpen.Application.Services.ITBdoService{`0}
+  parent: BindOpen.Application.Services
+  definition: BindOpen.Application.Services.ITBdoService`1
+  name: ITBdoService<S>
+  nameWithType: ITBdoService<S>
+  fullName: BindOpen.Application.Services.ITBdoService<S>
+  nameWithType.vb: ITBdoService(Of S)
+  fullName.vb: BindOpen.Application.Services.ITBdoService(Of S)
+  name.vb: ITBdoService(Of S)
+  spec.csharp:
+  - uid: BindOpen.Application.Services.ITBdoService`1
+    name: ITBdoService
+    nameWithType: ITBdoService
+    fullName: BindOpen.Application.Services.ITBdoService
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: S
+    nameWithType: S
+    fullName: S
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: BindOpen.Application.Services.ITBdoService`1
+    name: ITBdoService
+    nameWithType: ITBdoService
+    fullName: BindOpen.Application.Services.ITBdoService
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: S
+    nameWithType: S
+    fullName: S
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Services.ITBdoService`1.Action_OnStartSuccess
+  commentId: P:BindOpen.Application.Services.ITBdoService`1.Action_OnStartSuccess
+  isExternal: true
+  name: Action_OnStartSuccess
+  nameWithType: ITBdoService<S>.Action_OnStartSuccess
+  fullName: BindOpen.Application.Services.ITBdoService<S>.Action_OnStartSuccess
+  nameWithType.vb: ITBdoService(Of S).Action_OnStartSuccess
+  fullName.vb: BindOpen.Application.Services.ITBdoService(Of S).Action_OnStartSuccess
+- uid: BindOpen.Application.Services.ITBdoService`1.Action_OnStartFailure
+  commentId: P:BindOpen.Application.Services.ITBdoService`1.Action_OnStartFailure
+  isExternal: true
+  name: Action_OnStartFailure
+  nameWithType: ITBdoService<S>.Action_OnStartFailure
+  fullName: BindOpen.Application.Services.ITBdoService<S>.Action_OnStartFailure
+  nameWithType.vb: ITBdoService(Of S).Action_OnStartFailure
+  fullName.vb: BindOpen.Application.Services.ITBdoService(Of S).Action_OnStartFailure
+- uid: BindOpen.Application.Services.ITBdoService`1.Action_OnExecutionSucess
+  commentId: P:BindOpen.Application.Services.ITBdoService`1.Action_OnExecutionSucess
+  isExternal: true
+  name: Action_OnExecutionSucess
+  nameWithType: ITBdoService<S>.Action_OnExecutionSucess
+  fullName: BindOpen.Application.Services.ITBdoService<S>.Action_OnExecutionSucess
+  nameWithType.vb: ITBdoService(Of S).Action_OnExecutionSucess
+  fullName.vb: BindOpen.Application.Services.ITBdoService(Of S).Action_OnExecutionSucess
+- uid: BindOpen.Application.Services.ITBdoService`1.Action_OnExecutionFailure
+  commentId: P:BindOpen.Application.Services.ITBdoService`1.Action_OnExecutionFailure
+  isExternal: true
+  name: Action_OnExecutionFailure
+  nameWithType: ITBdoService<S>.Action_OnExecutionFailure
+  fullName: BindOpen.Application.Services.ITBdoService<S>.Action_OnExecutionFailure
+  nameWithType.vb: ITBdoService(Of S).Action_OnExecutionFailure
+  fullName.vb: BindOpen.Application.Services.ITBdoService(Of S).Action_OnExecutionFailure
+- uid: BindOpen.Application.Scopes.IBdoHost
+  commentId: T:BindOpen.Application.Scopes.IBdoHost
+  parent: BindOpen.Application.Scopes
+  isExternal: true
+  name: IBdoHost
+  nameWithType: IBdoHost
+  fullName: BindOpen.Application.Scopes.IBdoHost
+- uid: BindOpen.Application.Services.IBdoService
+  commentId: T:BindOpen.Application.Services.IBdoService
+  parent: BindOpen.Application.Services
+  isExternal: true
+  name: IBdoService
+  nameWithType: IBdoService
+  fullName: BindOpen.Application.Services.IBdoService
+- uid: BindOpen.Application.Services.ITBdoService`1
+  commentId: T:BindOpen.Application.Services.ITBdoService`1
+  isExternal: true
+  name: ITBdoService<S>
+  nameWithType: ITBdoService<S>
+  fullName: BindOpen.Application.Services.ITBdoService<S>
+  nameWithType.vb: ITBdoService(Of S)
+  fullName.vb: BindOpen.Application.Services.ITBdoService(Of S)
+  name.vb: ITBdoService(Of S)
+  spec.csharp:
+  - uid: BindOpen.Application.Services.ITBdoService`1
+    name: ITBdoService
+    nameWithType: ITBdoService
+    fullName: BindOpen.Application.Services.ITBdoService
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: S
+    nameWithType: S
+    fullName: S
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: BindOpen.Application.Services.ITBdoService`1
+    name: ITBdoService
+    nameWithType: ITBdoService
+    fullName: BindOpen.Application.Services.ITBdoService
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: S
+    nameWithType: S
+    fullName: S
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Services
+  commentId: N:BindOpen.Application.Services
+  isExternal: true
+  name: BindOpen.Application.Services
+  nameWithType: BindOpen.Application.Services
+  fullName: BindOpen.Application.Services
+- uid: BindOpen.Application.Scopes.ITBdoHost`1.Configure*
+  commentId: Overload:BindOpen.Application.Scopes.ITBdoHost`1.Configure
+  isExternal: true
+  name: Configure
+  nameWithType: ITBdoHost<S>.Configure
+  fullName: BindOpen.Application.Scopes.ITBdoHost<S>.Configure
+  nameWithType.vb: ITBdoHost(Of S).Configure
+  fullName.vb: BindOpen.Application.Scopes.ITBdoHost(Of S).Configure
+- uid: System.Action{BindOpen.Application.Scopes.ITBdoHostOptions{{S}}}
+  commentId: '!:System.Action{BindOpen.Application.Scopes.ITBdoHostOptions{``0}}'
+  definition: System.Action`1
+  name: Action<ITBdoHostOptions<S>>
+  nameWithType: Action<ITBdoHostOptions<S>>
+  fullName: System.Action<BindOpen.Application.Scopes.ITBdoHostOptions<S>>
+  nameWithType.vb: Action(Of ITBdoHostOptions(Of S))
+  fullName.vb: System.Action(Of BindOpen.Application.Scopes.ITBdoHostOptions(Of S))
+  name.vb: Action(Of ITBdoHostOptions(Of S))
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BindOpen.Application.Scopes.ITBdoHostOptions`1
+    name: ITBdoHostOptions
+    nameWithType: ITBdoHostOptions
+    fullName: BindOpen.Application.Scopes.ITBdoHostOptions
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: S
+    nameWithType: S
+    fullName: S
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BindOpen.Application.Scopes.ITBdoHostOptions`1
+    name: ITBdoHostOptions
+    nameWithType: ITBdoHostOptions
+    fullName: BindOpen.Application.Scopes.ITBdoHostOptions
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: S
+    nameWithType: S
+    fullName: S
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Scopes.ITBdoHost`1
+  commentId: T:BindOpen.Application.Scopes.ITBdoHost`1
+  parent: BindOpen.Application.Scopes
+  isExternal: true
+  name: ITBdoHost<S>
+  nameWithType: ITBdoHost<S>
+  fullName: BindOpen.Application.Scopes.ITBdoHost<S>
+  nameWithType.vb: ITBdoHost(Of S)
+  fullName.vb: BindOpen.Application.Scopes.ITBdoHost(Of S)
+  name.vb: ITBdoHost(Of S)
+  spec.csharp:
+  - uid: BindOpen.Application.Scopes.ITBdoHost`1
+    name: ITBdoHost
+    nameWithType: ITBdoHost
+    fullName: BindOpen.Application.Scopes.ITBdoHost
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: S
+    nameWithType: S
+    fullName: S
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: BindOpen.Application.Scopes.ITBdoHost`1
+    name: ITBdoHost
+    nameWithType: ITBdoHost
+    fullName: BindOpen.Application.Scopes.ITBdoHost
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: S
+    nameWithType: S
+    fullName: S
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action`1
+  isExternal: true
+  name: Action<>
+  nameWithType: Action<>
+  fullName: System.Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: System.Action(Of )
+  name.vb: Action(Of )
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Scopes.ITBdoHost`1.Start*
+  commentId: Overload:BindOpen.Application.Scopes.ITBdoHost`1.Start
+  isExternal: true
+  name: Start
+  nameWithType: ITBdoHost<S>.Start
+  fullName: BindOpen.Application.Scopes.ITBdoHost<S>.Start
+  nameWithType.vb: ITBdoHost(Of S).Start
+  fullName.vb: BindOpen.Application.Scopes.ITBdoHost(Of S).Start
+- uid: BindOpen.Application.Scopes.ITBdoHost`1.End*
+  commentId: Overload:BindOpen.Application.Scopes.ITBdoHost`1.End
+  isExternal: true
+  name: End
+  nameWithType: ITBdoHost<S>.End
+  fullName: BindOpen.Application.Scopes.ITBdoHost<S>.End
+  nameWithType.vb: ITBdoHost(Of S).End
+  fullName.vb: BindOpen.Application.Scopes.ITBdoHost(Of S).End
+- uid: BindOpen.System.Processing.ProcessExecutionStatus
+  isExternal: true
+  name: ProcessExecutionStatus
+  nameWithType: ProcessExecutionStatus
+  fullName: BindOpen.System.Processing.ProcessExecutionStatus
+- uid: BindOpen.Application.Scopes.ITBdoHost`1.Run*
+  commentId: Overload:BindOpen.Application.Scopes.ITBdoHost`1.Run
+  isExternal: true
+  name: Run
+  nameWithType: ITBdoHost<S>.Run
+  fullName: BindOpen.Application.Scopes.ITBdoHost<S>.Run
+  nameWithType.vb: ITBdoHost(Of S).Run
+  fullName.vb: BindOpen.Application.Scopes.ITBdoHost(Of S).Run
+- uid: System.Action{BindOpen.Application.Scopes.ITBdoHost`1}
+  commentId: '!:System.Action{BindOpen.Application.Scopes.ITBdoHost`1}'
+  definition: System.Action`1
+  name: Action<ITBdoHost<S>>
+  nameWithType: Action<ITBdoHost<S>>
+  fullName: System.Action<BindOpen.Application.Scopes.ITBdoHost<S>>
+  nameWithType.vb: Action(Of ITBdoHost(Of S))
+  fullName.vb: System.Action(Of BindOpen.Application.Scopes.ITBdoHost(Of S))
+  name.vb: Action(Of ITBdoHost(Of S))
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BindOpen.Application.Scopes.ITBdoHost`1
+    name: ITBdoHost
+    nameWithType: ITBdoHost
+    fullName: BindOpen.Application.Scopes.ITBdoHost
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: S
+    nameWithType: S
+    fullName: S
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BindOpen.Application.Scopes.ITBdoHost`1
+    name: ITBdoHost
+    nameWithType: ITBdoHost
+    fullName: BindOpen.Application.Scopes.ITBdoHost
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: S
+    nameWithType: S
+    fullName: S
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Scopes.ITBdoHost`1.Options*
+  commentId: Overload:BindOpen.Application.Scopes.ITBdoHost`1.Options
+  isExternal: true
+  name: Options
+  nameWithType: ITBdoHost<S>.Options
+  fullName: BindOpen.Application.Scopes.ITBdoHost<S>.Options
+  nameWithType.vb: ITBdoHost(Of S).Options
+  fullName.vb: BindOpen.Application.Scopes.ITBdoHost(Of S).Options
+- uid: BindOpen.Application.Scopes.ITBdoHostOptions{{S}}
+  commentId: T:BindOpen.Application.Scopes.ITBdoHostOptions{`0}
+  parent: BindOpen.Application.Scopes
+  definition: BindOpen.Application.Scopes.ITBdoHostOptions`1
+  name: ITBdoHostOptions<S>
+  nameWithType: ITBdoHostOptions<S>
+  fullName: BindOpen.Application.Scopes.ITBdoHostOptions<S>
+  nameWithType.vb: ITBdoHostOptions(Of S)
+  fullName.vb: BindOpen.Application.Scopes.ITBdoHostOptions(Of S)
+  name.vb: ITBdoHostOptions(Of S)
+  spec.csharp:
+  - uid: BindOpen.Application.Scopes.ITBdoHostOptions`1
+    name: ITBdoHostOptions
+    nameWithType: ITBdoHostOptions
+    fullName: BindOpen.Application.Scopes.ITBdoHostOptions
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: S
+    nameWithType: S
+    fullName: S
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: BindOpen.Application.Scopes.ITBdoHostOptions`1
+    name: ITBdoHostOptions
+    nameWithType: ITBdoHostOptions
+    fullName: BindOpen.Application.Scopes.ITBdoHostOptions
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: S
+    nameWithType: S
+    fullName: S
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Scopes.ITBdoHostOptions`1
+  commentId: T:BindOpen.Application.Scopes.ITBdoHostOptions`1
+  parent: BindOpen.Application.Scopes
+  isExternal: true
+  name: ITBdoHostOptions<S>
+  nameWithType: ITBdoHostOptions<S>
+  fullName: BindOpen.Application.Scopes.ITBdoHostOptions<S>
+  nameWithType.vb: ITBdoHostOptions(Of S)
+  fullName.vb: BindOpen.Application.Scopes.ITBdoHostOptions(Of S)
+  name.vb: ITBdoHostOptions(Of S)
+  spec.csharp:
+  - uid: BindOpen.Application.Scopes.ITBdoHostOptions`1
+    name: ITBdoHostOptions
+    nameWithType: ITBdoHostOptions
+    fullName: BindOpen.Application.Scopes.ITBdoHostOptions
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: S
+    nameWithType: S
+    fullName: S
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: BindOpen.Application.Scopes.ITBdoHostOptions`1
+    name: ITBdoHostOptions
+    nameWithType: ITBdoHostOptions
+    fullName: BindOpen.Application.Scopes.ITBdoHostOptions
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: S
+    nameWithType: S
+    fullName: S
+  - name: )
+    nameWithType: )
+    fullName: )
+shouldSkipMarkup: true

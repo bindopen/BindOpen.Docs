@@ -1,0 +1,276 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Application.Services
+  commentId: N:BindOpen.Application.Services
+  id: BindOpen.Application.Services
+  children:
+  - BindOpen.Application.Services.BdoDbService
+  - BindOpen.Application.Services.BdoDbServiceFactory
+  - BindOpen.Application.Services.BdoHostedService
+  - BindOpen.Application.Services.BdoService
+  - BindOpen.Application.Services.IBdoDbService
+  - BindOpen.Application.Services.IBdoHosted
+  - BindOpen.Application.Services.IBdoHostedService
+  - BindOpen.Application.Services.IBdoService
+  - BindOpen.Application.Services.IBdoTrigeredService
+  - BindOpen.Application.Services.ITBdoService`1
+  - BindOpen.Application.Services.ITBdoServiceOptions`2
+  - BindOpen.Application.Services.TBdoService`1
+  - BindOpen.Application.Services.TBdoServiceOptions`2
+  langs:
+  - csharp
+  - vb
+  name: BindOpen.Application.Services
+  nameWithType: BindOpen.Application.Services
+  fullName: BindOpen.Application.Services
+  type: Namespace
+  assemblies:
+  - BindOpen.Databases
+references:
+- uid: BindOpen.Application.Services.BdoDbService
+  commentId: T:BindOpen.Application.Services.BdoDbService
+  isExternal: true
+  name: BdoDbService
+  nameWithType: BdoDbService
+  fullName: BindOpen.Application.Services.BdoDbService
+- uid: BindOpen.Application.Services.BdoDbServiceFactory
+  commentId: T:BindOpen.Application.Services.BdoDbServiceFactory
+  isExternal: true
+  name: BdoDbServiceFactory
+  nameWithType: BdoDbServiceFactory
+  fullName: BindOpen.Application.Services.BdoDbServiceFactory
+- uid: BindOpen.Application.Services.IBdoDbService
+  commentId: T:BindOpen.Application.Services.IBdoDbService
+  parent: BindOpen.Application.Services
+  isExternal: true
+  name: IBdoDbService
+  nameWithType: IBdoDbService
+  fullName: BindOpen.Application.Services.IBdoDbService
+- uid: BindOpen.Application.Services.BdoService
+  commentId: T:BindOpen.Application.Services.BdoService
+  parent: BindOpen.Application.Services
+  isExternal: true
+  name: BdoService
+  nameWithType: BdoService
+  fullName: BindOpen.Application.Services.BdoService
+- uid: BindOpen.Application.Services.IBdoHosted
+  commentId: T:BindOpen.Application.Services.IBdoHosted
+  parent: BindOpen.Application.Services
+  isExternal: true
+  name: IBdoHosted
+  nameWithType: IBdoHosted
+  fullName: BindOpen.Application.Services.IBdoHosted
+- uid: BindOpen.Application.Services.IBdoService
+  commentId: T:BindOpen.Application.Services.IBdoService
+  parent: BindOpen.Application.Services
+  isExternal: true
+  name: IBdoService
+  nameWithType: IBdoService
+  fullName: BindOpen.Application.Services.IBdoService
+- uid: BindOpen.Application.Services.IBdoTrigeredService
+  commentId: T:BindOpen.Application.Services.IBdoTrigeredService
+  parent: BindOpen.Application.Services
+  isExternal: true
+  name: IBdoTrigeredService
+  nameWithType: IBdoTrigeredService
+  fullName: BindOpen.Application.Services.IBdoTrigeredService
+- uid: BindOpen.Application.Services.ITBdoService`1
+  commentId: T:BindOpen.Application.Services.ITBdoService`1
+  isExternal: true
+  name: ITBdoService<S>
+  nameWithType: ITBdoService<S>
+  fullName: BindOpen.Application.Services.ITBdoService<S>
+  nameWithType.vb: ITBdoService(Of S)
+  fullName.vb: BindOpen.Application.Services.ITBdoService(Of S)
+  name.vb: ITBdoService(Of S)
+  spec.csharp:
+  - uid: BindOpen.Application.Services.ITBdoService`1
+    name: ITBdoService
+    nameWithType: ITBdoService
+    fullName: BindOpen.Application.Services.ITBdoService
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: S
+    nameWithType: S
+    fullName: S
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: BindOpen.Application.Services.ITBdoService`1
+    name: ITBdoService
+    nameWithType: ITBdoService
+    fullName: BindOpen.Application.Services.ITBdoService
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: S
+    nameWithType: S
+    fullName: S
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Services.ITBdoServiceOptions`2
+  commentId: T:BindOpen.Application.Services.ITBdoServiceOptions`2
+  isExternal: true
+  name: ITBdoServiceOptions<SServ, SHost>
+  nameWithType: ITBdoServiceOptions<SServ, SHost>
+  fullName: BindOpen.Application.Services.ITBdoServiceOptions<SServ, SHost>
+  nameWithType.vb: ITBdoServiceOptions(Of SServ, SHost)
+  fullName.vb: BindOpen.Application.Services.ITBdoServiceOptions(Of SServ, SHost)
+  name.vb: ITBdoServiceOptions(Of SServ, SHost)
+  spec.csharp:
+  - uid: BindOpen.Application.Services.ITBdoServiceOptions`2
+    name: ITBdoServiceOptions
+    nameWithType: ITBdoServiceOptions
+    fullName: BindOpen.Application.Services.ITBdoServiceOptions
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: SServ
+    nameWithType: SServ
+    fullName: SServ
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: SHost
+    nameWithType: SHost
+    fullName: SHost
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: BindOpen.Application.Services.ITBdoServiceOptions`2
+    name: ITBdoServiceOptions
+    nameWithType: ITBdoServiceOptions
+    fullName: BindOpen.Application.Services.ITBdoServiceOptions
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: SServ
+    nameWithType: SServ
+    fullName: SServ
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: SHost
+    nameWithType: SHost
+    fullName: SHost
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Services.TBdoServiceOptions`2
+  commentId: T:BindOpen.Application.Services.TBdoServiceOptions`2
+  isExternal: true
+  name: TBdoServiceOptions<SServ, SHost>
+  nameWithType: TBdoServiceOptions<SServ, SHost>
+  fullName: BindOpen.Application.Services.TBdoServiceOptions<SServ, SHost>
+  nameWithType.vb: TBdoServiceOptions(Of SServ, SHost)
+  fullName.vb: BindOpen.Application.Services.TBdoServiceOptions(Of SServ, SHost)
+  name.vb: TBdoServiceOptions(Of SServ, SHost)
+  spec.csharp:
+  - uid: BindOpen.Application.Services.TBdoServiceOptions`2
+    name: TBdoServiceOptions
+    nameWithType: TBdoServiceOptions
+    fullName: BindOpen.Application.Services.TBdoServiceOptions
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: SServ
+    nameWithType: SServ
+    fullName: SServ
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: SHost
+    nameWithType: SHost
+    fullName: SHost
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: BindOpen.Application.Services.TBdoServiceOptions`2
+    name: TBdoServiceOptions
+    nameWithType: TBdoServiceOptions
+    fullName: BindOpen.Application.Services.TBdoServiceOptions
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: SServ
+    nameWithType: SServ
+    fullName: SServ
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: SHost
+    nameWithType: SHost
+    fullName: SHost
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Services.TBdoService`1
+  commentId: T:BindOpen.Application.Services.TBdoService`1
+  isExternal: true
+  name: TBdoService<S>
+  nameWithType: TBdoService<S>
+  fullName: BindOpen.Application.Services.TBdoService<S>
+  nameWithType.vb: TBdoService(Of S)
+  fullName.vb: BindOpen.Application.Services.TBdoService(Of S)
+  name.vb: TBdoService(Of S)
+  spec.csharp:
+  - uid: BindOpen.Application.Services.TBdoService`1
+    name: TBdoService
+    nameWithType: TBdoService
+    fullName: BindOpen.Application.Services.TBdoService
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: S
+    nameWithType: S
+    fullName: S
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: BindOpen.Application.Services.TBdoService`1
+    name: TBdoService
+    nameWithType: TBdoService
+    fullName: BindOpen.Application.Services.TBdoService
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: S
+    nameWithType: S
+    fullName: S
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Services.BdoHostedService
+  commentId: T:BindOpen.Application.Services.BdoHostedService
+  isExternal: true
+  name: BdoHostedService
+  nameWithType: BdoHostedService
+  fullName: BindOpen.Application.Services.BdoHostedService
+- uid: BindOpen.Application.Services.IBdoHostedService
+  commentId: T:BindOpen.Application.Services.IBdoHostedService
+  parent: BindOpen.Application.Services
+  isExternal: true
+  name: IBdoHostedService
+  nameWithType: IBdoHostedService
+  fullName: BindOpen.Application.Services.IBdoHostedService
+- uid: BindOpen.Application.Services
+  commentId: N:BindOpen.Application.Services
+  isExternal: true
+  name: BindOpen.Application.Services
+  nameWithType: BindOpen.Application.Services
+  fullName: BindOpen.Application.Services
+shouldSkipMarkup: true

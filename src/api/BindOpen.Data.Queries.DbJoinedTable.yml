@@ -1,0 +1,551 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Data.Queries.DbJoinedTable
+  commentId: T:BindOpen.Data.Queries.DbJoinedTable
+  id: DbJoinedTable
+  parent: BindOpen.Data.Queries
+  children:
+  - BindOpen.Data.Queries.DbJoinedTable.#ctor
+  - BindOpen.Data.Queries.DbJoinedTable.#ctor(BindOpen.Data.Queries.DbQueryJoinKind,BindOpen.Extensions.Carriers.DbTable)
+  - BindOpen.Data.Queries.DbJoinedTable.Condition
+  - BindOpen.Data.Queries.DbJoinedTable.Kind
+  - BindOpen.Data.Queries.DbJoinedTable.Table
+  - BindOpen.Data.Queries.DbJoinedTable.WithCondition(BindOpen.Data.Expression.DataExpression)
+  - BindOpen.Data.Queries.DbJoinedTable.WithCondition(System.String)
+  langs:
+  - csharp
+  - vb
+  name: DbJoinedTable
+  nameWithType: DbJoinedTable
+  fullName: BindOpen.Data.Queries.DbJoinedTable
+  type: Class
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nThis class represents the Join table of a database data query.\n"
+  syntax:
+    content: 'public class DbJoinedTable : DbTable, IDbQueryItem'
+    content.vb: >-
+      Public Class DbJoinedTable
+          Inherits DbTable
+          Implements IDbQueryItem
+  inheritance:
+  - System.Object
+  - BindOpen.Extensions.Carriers.DbTable
+  implements:
+  - BindOpen.Data.Queries.IDbQueryItem
+  inheritedMembers:
+  - BindOpen.Extensions.Carriers.DbTable.ToString
+  - BindOpen.Extensions.Carriers.DbTable.WithDataModule(System.String)
+  - BindOpen.Extensions.Carriers.DbTable.WithSchema(System.String)
+  - BindOpen.Extensions.Carriers.DbTable.WithAlias(System.String)
+  - BindOpen.Extensions.Carriers.DbTable.DataModule
+  - BindOpen.Extensions.Carriers.DbTable.Schema
+  - BindOpen.Extensions.Carriers.DbTable.Alias
+  - BindOpen.Extensions.Carriers.DbTable.Expression
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BindOpen.Data.Queries.DbJoinedTable.#ctor
+  commentId: M:BindOpen.Data.Queries.DbJoinedTable.#ctor
+  id: '#ctor'
+  parent: BindOpen.Data.Queries.DbJoinedTable
+  langs:
+  - csharp
+  - vb
+  name: DbJoinedTable()
+  nameWithType: DbJoinedTable.DbJoinedTable()
+  fullName: BindOpen.Data.Queries.DbJoinedTable.DbJoinedTable()
+  type: Constructor
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nInstantiates a new instance of the DbQueryJoinedTable class.\n"
+  syntax:
+    content: public DbJoinedTable()
+    content.vb: Public Sub New
+  overload: BindOpen.Data.Queries.DbJoinedTable.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Data.Queries.DbJoinedTable.#ctor(BindOpen.Data.Queries.DbQueryJoinKind,BindOpen.Extensions.Carriers.DbTable)
+  commentId: M:BindOpen.Data.Queries.DbJoinedTable.#ctor(BindOpen.Data.Queries.DbQueryJoinKind,BindOpen.Extensions.Carriers.DbTable)
+  id: '#ctor(BindOpen.Data.Queries.DbQueryJoinKind,BindOpen.Extensions.Carriers.DbTable)'
+  parent: BindOpen.Data.Queries.DbJoinedTable
+  langs:
+  - csharp
+  - vb
+  name: DbJoinedTable(DbQueryJoinKind, DbTable)
+  nameWithType: DbJoinedTable.DbJoinedTable(DbQueryJoinKind, DbTable)
+  fullName: BindOpen.Data.Queries.DbJoinedTable.DbJoinedTable(BindOpen.Data.Queries.DbQueryJoinKind, BindOpen.Extensions.Carriers.DbTable)
+  type: Constructor
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nInstantiates a new instance of the DbQueryJoinedTable class.\n"
+  syntax:
+    content: public DbJoinedTable(DbQueryJoinKind kind, DbTable table)
+    parameters:
+    - id: kind
+      type: BindOpen.Data.Queries.DbQueryJoinKind
+      description: The kind to consider.
+    - id: table
+      type: BindOpen.Extensions.Carriers.DbTable
+      description: The table to consider.
+    content.vb: Public Sub New(kind As DbQueryJoinKind, table As DbTable)
+  overload: BindOpen.Data.Queries.DbJoinedTable.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Data.Queries.DbJoinedTable.WithCondition(BindOpen.Data.Expression.DataExpression)
+  commentId: M:BindOpen.Data.Queries.DbJoinedTable.WithCondition(BindOpen.Data.Expression.DataExpression)
+  id: WithCondition(BindOpen.Data.Expression.DataExpression)
+  parent: BindOpen.Data.Queries.DbJoinedTable
+  langs:
+  - csharp
+  - vb
+  name: WithCondition(DataExpression)
+  nameWithType: DbJoinedTable.WithCondition(DataExpression)
+  fullName: BindOpen.Data.Queries.DbJoinedTable.WithCondition(BindOpen.Data.Expression.DataExpression)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nSets the specified condition.\n"
+  syntax:
+    content: public DbJoinedTable WithCondition(DataExpression condition)
+    parameters:
+    - id: condition
+      type: BindOpen.Data.Expression.DataExpression
+      description: The condition to consider.
+    return:
+      type: BindOpen.Data.Queries.DbJoinedTable
+      description: Returns this instance.
+    content.vb: Public Function WithCondition(condition As DataExpression) As DbJoinedTable
+  overload: BindOpen.Data.Queries.DbJoinedTable.WithCondition*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Data.Queries.DbJoinedTable.WithCondition(System.String)
+  commentId: M:BindOpen.Data.Queries.DbJoinedTable.WithCondition(System.String)
+  id: WithCondition(System.String)
+  parent: BindOpen.Data.Queries.DbJoinedTable
+  langs:
+  - csharp
+  - vb
+  name: WithCondition(String)
+  nameWithType: DbJoinedTable.WithCondition(String)
+  fullName: BindOpen.Data.Queries.DbJoinedTable.WithCondition(System.String)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nSets the specified condition.\n"
+  syntax:
+    content: public DbJoinedTable WithCondition(string condition)
+    parameters:
+    - id: condition
+      type: System.String
+      description: The condition to consider.
+    return:
+      type: BindOpen.Data.Queries.DbJoinedTable
+      description: Returns this instance.
+    content.vb: Public Function WithCondition(condition As String) As DbJoinedTable
+  overload: BindOpen.Data.Queries.DbJoinedTable.WithCondition*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Data.Queries.DbJoinedTable.Kind
+  commentId: P:BindOpen.Data.Queries.DbJoinedTable.Kind
+  id: Kind
+  parent: BindOpen.Data.Queries.DbJoinedTable
+  langs:
+  - csharp
+  - vb
+  name: Kind
+  nameWithType: DbJoinedTable.Kind
+  fullName: BindOpen.Data.Queries.DbJoinedTable.Kind
+  type: Property
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nThe kind of join of this instance.\n"
+  syntax:
+    content: public DbQueryJoinKind Kind { get; set; }
+    parameters: []
+    return:
+      type: BindOpen.Data.Queries.DbQueryJoinKind
+    content.vb: Public Property Kind As DbQueryJoinKind
+  overload: BindOpen.Data.Queries.DbJoinedTable.Kind*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Data.Queries.DbJoinedTable.Table
+  commentId: P:BindOpen.Data.Queries.DbJoinedTable.Table
+  id: Table
+  parent: BindOpen.Data.Queries.DbJoinedTable
+  langs:
+  - csharp
+  - vb
+  name: Table
+  nameWithType: DbJoinedTable.Table
+  fullName: BindOpen.Data.Queries.DbJoinedTable.Table
+  type: Property
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nThe table of this instance.\n"
+  syntax:
+    content: public DbTable Table { get; set; }
+    parameters: []
+    return:
+      type: BindOpen.Extensions.Carriers.DbTable
+    content.vb: Public Property Table As DbTable
+  overload: BindOpen.Data.Queries.DbJoinedTable.Table*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Data.Queries.DbJoinedTable.Condition
+  commentId: P:BindOpen.Data.Queries.DbJoinedTable.Condition
+  id: Condition
+  parent: BindOpen.Data.Queries.DbJoinedTable
+  langs:
+  - csharp
+  - vb
+  name: Condition
+  nameWithType: DbJoinedTable.Condition
+  fullName: BindOpen.Data.Queries.DbJoinedTable.Condition
+  type: Property
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nThe condition of this instance.\n"
+  syntax:
+    content: public DataExpression Condition { get; set; }
+    parameters: []
+    return:
+      type: BindOpen.Data.Expression.DataExpression
+    content.vb: Public Property Condition As DataExpression
+  overload: BindOpen.Data.Queries.DbJoinedTable.Condition*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: BindOpen.Data.Queries
+  commentId: N:BindOpen.Data.Queries
+  isExternal: true
+  name: BindOpen.Data.Queries
+  nameWithType: BindOpen.Data.Queries
+  fullName: BindOpen.Data.Queries
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BindOpen.Extensions.Carriers.DbTable
+  commentId: T:BindOpen.Extensions.Carriers.DbTable
+  parent: BindOpen.Extensions.Carriers
+  isExternal: true
+  name: DbTable
+  nameWithType: DbTable
+  fullName: BindOpen.Extensions.Carriers.DbTable
+- uid: BindOpen.Data.Queries.IDbQueryItem
+  commentId: T:BindOpen.Data.Queries.IDbQueryItem
+  parent: BindOpen.Data.Queries
+  isExternal: true
+  name: IDbQueryItem
+  nameWithType: IDbQueryItem
+  fullName: BindOpen.Data.Queries.IDbQueryItem
+- uid: BindOpen.Extensions.Carriers.DbTable.ToString
+  commentId: M:BindOpen.Extensions.Carriers.DbTable.ToString
+  parent: BindOpen.Extensions.Carriers.DbTable
+  isExternal: true
+  name: ToString()
+  nameWithType: DbTable.ToString()
+  fullName: BindOpen.Extensions.Carriers.DbTable.ToString()
+  spec.csharp:
+  - uid: BindOpen.Extensions.Carriers.DbTable.ToString
+    name: ToString
+    nameWithType: DbTable.ToString
+    fullName: BindOpen.Extensions.Carriers.DbTable.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Extensions.Carriers.DbTable.ToString
+    name: ToString
+    nameWithType: DbTable.ToString
+    fullName: BindOpen.Extensions.Carriers.DbTable.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Extensions.Carriers.DbTable.WithDataModule(System.String)
+  commentId: M:BindOpen.Extensions.Carriers.DbTable.WithDataModule(System.String)
+  parent: BindOpen.Extensions.Carriers.DbTable
+  isExternal: true
+  name: WithDataModule(String)
+  nameWithType: DbTable.WithDataModule(String)
+  fullName: BindOpen.Extensions.Carriers.DbTable.WithDataModule(System.String)
+  spec.csharp:
+  - uid: BindOpen.Extensions.Carriers.DbTable.WithDataModule(System.String)
+    name: WithDataModule
+    nameWithType: DbTable.WithDataModule
+    fullName: BindOpen.Extensions.Carriers.DbTable.WithDataModule
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Extensions.Carriers.DbTable.WithDataModule(System.String)
+    name: WithDataModule
+    nameWithType: DbTable.WithDataModule
+    fullName: BindOpen.Extensions.Carriers.DbTable.WithDataModule
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Extensions.Carriers.DbTable.WithSchema(System.String)
+  commentId: M:BindOpen.Extensions.Carriers.DbTable.WithSchema(System.String)
+  parent: BindOpen.Extensions.Carriers.DbTable
+  isExternal: true
+  name: WithSchema(String)
+  nameWithType: DbTable.WithSchema(String)
+  fullName: BindOpen.Extensions.Carriers.DbTable.WithSchema(System.String)
+  spec.csharp:
+  - uid: BindOpen.Extensions.Carriers.DbTable.WithSchema(System.String)
+    name: WithSchema
+    nameWithType: DbTable.WithSchema
+    fullName: BindOpen.Extensions.Carriers.DbTable.WithSchema
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Extensions.Carriers.DbTable.WithSchema(System.String)
+    name: WithSchema
+    nameWithType: DbTable.WithSchema
+    fullName: BindOpen.Extensions.Carriers.DbTable.WithSchema
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Extensions.Carriers.DbTable.WithAlias(System.String)
+  commentId: M:BindOpen.Extensions.Carriers.DbTable.WithAlias(System.String)
+  parent: BindOpen.Extensions.Carriers.DbTable
+  isExternal: true
+  name: WithAlias(String)
+  nameWithType: DbTable.WithAlias(String)
+  fullName: BindOpen.Extensions.Carriers.DbTable.WithAlias(System.String)
+  spec.csharp:
+  - uid: BindOpen.Extensions.Carriers.DbTable.WithAlias(System.String)
+    name: WithAlias
+    nameWithType: DbTable.WithAlias
+    fullName: BindOpen.Extensions.Carriers.DbTable.WithAlias
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Extensions.Carriers.DbTable.WithAlias(System.String)
+    name: WithAlias
+    nameWithType: DbTable.WithAlias
+    fullName: BindOpen.Extensions.Carriers.DbTable.WithAlias
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Extensions.Carriers.DbTable.DataModule
+  commentId: P:BindOpen.Extensions.Carriers.DbTable.DataModule
+  parent: BindOpen.Extensions.Carriers.DbTable
+  isExternal: true
+  name: DataModule
+  nameWithType: DbTable.DataModule
+  fullName: BindOpen.Extensions.Carriers.DbTable.DataModule
+- uid: BindOpen.Extensions.Carriers.DbTable.Schema
+  commentId: P:BindOpen.Extensions.Carriers.DbTable.Schema
+  parent: BindOpen.Extensions.Carriers.DbTable
+  isExternal: true
+  name: Schema
+  nameWithType: DbTable.Schema
+  fullName: BindOpen.Extensions.Carriers.DbTable.Schema
+- uid: BindOpen.Extensions.Carriers.DbTable.Alias
+  commentId: P:BindOpen.Extensions.Carriers.DbTable.Alias
+  parent: BindOpen.Extensions.Carriers.DbTable
+  isExternal: true
+  name: Alias
+  nameWithType: DbTable.Alias
+  fullName: BindOpen.Extensions.Carriers.DbTable.Alias
+- uid: BindOpen.Extensions.Carriers.DbTable.Expression
+  commentId: P:BindOpen.Extensions.Carriers.DbTable.Expression
+  parent: BindOpen.Extensions.Carriers.DbTable
+  isExternal: true
+  name: Expression
+  nameWithType: DbTable.Expression
+  fullName: BindOpen.Extensions.Carriers.DbTable.Expression
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Extensions.Carriers
+  commentId: N:BindOpen.Extensions.Carriers
+  isExternal: true
+  name: BindOpen.Extensions.Carriers
+  nameWithType: BindOpen.Extensions.Carriers
+  fullName: BindOpen.Extensions.Carriers
+- uid: BindOpen.Data.Queries.DbJoinedTable.#ctor*
+  commentId: Overload:BindOpen.Data.Queries.DbJoinedTable.#ctor
+  isExternal: true
+  name: DbJoinedTable
+  nameWithType: DbJoinedTable.DbJoinedTable
+  fullName: BindOpen.Data.Queries.DbJoinedTable.DbJoinedTable
+- uid: BindOpen.Data.Queries.DbQueryJoinKind
+  commentId: T:BindOpen.Data.Queries.DbQueryJoinKind
+  parent: BindOpen.Data.Queries
+  isExternal: true
+  name: DbQueryJoinKind
+  nameWithType: DbQueryJoinKind
+  fullName: BindOpen.Data.Queries.DbQueryJoinKind
+- uid: BindOpen.Data.Queries.DbJoinedTable.WithCondition*
+  commentId: Overload:BindOpen.Data.Queries.DbJoinedTable.WithCondition
+  isExternal: true
+  name: WithCondition
+  nameWithType: DbJoinedTable.WithCondition
+  fullName: BindOpen.Data.Queries.DbJoinedTable.WithCondition
+- uid: BindOpen.Data.Expression.DataExpression
+  isExternal: true
+  name: DataExpression
+  nameWithType: DataExpression
+  fullName: BindOpen.Data.Expression.DataExpression
+- uid: BindOpen.Data.Queries.DbJoinedTable
+  commentId: T:BindOpen.Data.Queries.DbJoinedTable
+  parent: BindOpen.Data.Queries
+  isExternal: true
+  name: DbJoinedTable
+  nameWithType: DbJoinedTable
+  fullName: BindOpen.Data.Queries.DbJoinedTable
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: BindOpen.Data.Queries.DbJoinedTable.Kind*
+  commentId: Overload:BindOpen.Data.Queries.DbJoinedTable.Kind
+  isExternal: true
+  name: Kind
+  nameWithType: DbJoinedTable.Kind
+  fullName: BindOpen.Data.Queries.DbJoinedTable.Kind
+- uid: BindOpen.Data.Queries.DbJoinedTable.Table*
+  commentId: Overload:BindOpen.Data.Queries.DbJoinedTable.Table
+  isExternal: true
+  name: Table
+  nameWithType: DbJoinedTable.Table
+  fullName: BindOpen.Data.Queries.DbJoinedTable.Table
+- uid: BindOpen.Data.Queries.DbJoinedTable.Condition*
+  commentId: Overload:BindOpen.Data.Queries.DbJoinedTable.Condition
+  isExternal: true
+  name: Condition
+  nameWithType: DbJoinedTable.Condition
+  fullName: BindOpen.Data.Queries.DbJoinedTable.Condition
+shouldSkipMarkup: true

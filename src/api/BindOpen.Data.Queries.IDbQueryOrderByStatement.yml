@@ -1,0 +1,126 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Data.Queries.IDbQueryOrderByStatement
+  commentId: T:BindOpen.Data.Queries.IDbQueryOrderByStatement
+  id: IDbQueryOrderByStatement
+  parent: BindOpen.Data.Queries
+  children:
+  - BindOpen.Data.Queries.IDbQueryOrderByStatement.Field
+  - BindOpen.Data.Queries.IDbQueryOrderByStatement.Sorting
+  langs:
+  - csharp
+  - vb
+  name: IDbQueryOrderByStatement
+  nameWithType: IDbQueryOrderByStatement
+  fullName: BindOpen.Data.Queries.IDbQueryOrderByStatement
+  type: Interface
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\n\n"
+  syntax:
+    content: public interface IDbQueryOrderByStatement
+    content.vb: Public Interface IDbQueryOrderByStatement
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: BindOpen.Data.Queries.IDbQueryOrderByStatement.Field
+  commentId: P:BindOpen.Data.Queries.IDbQueryOrderByStatement.Field
+  id: Field
+  parent: BindOpen.Data.Queries.IDbQueryOrderByStatement
+  langs:
+  - csharp
+  - vb
+  name: Field
+  nameWithType: IDbQueryOrderByStatement.Field
+  fullName: BindOpen.Data.Queries.IDbQueryOrderByStatement.Field
+  type: Property
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\n\n"
+  syntax:
+    content: DbField Field { get; set; }
+    parameters: []
+    return:
+      type: BindOpen.Extensions.Carriers.DbField
+    content.vb: Property Field As DbField
+  overload: BindOpen.Data.Queries.IDbQueryOrderByStatement.Field*
+  modifiers.csharp:
+  - get
+  - set
+- uid: BindOpen.Data.Queries.IDbQueryOrderByStatement.Sorting
+  commentId: P:BindOpen.Data.Queries.IDbQueryOrderByStatement.Sorting
+  id: Sorting
+  parent: BindOpen.Data.Queries.IDbQueryOrderByStatement
+  langs:
+  - csharp
+  - vb
+  name: Sorting
+  nameWithType: IDbQueryOrderByStatement.Sorting
+  fullName: BindOpen.Data.Queries.IDbQueryOrderByStatement.Sorting
+  type: Property
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\n\n"
+  syntax:
+    content: DataSortingMode Sorting { get; set; }
+    parameters: []
+    return:
+      type: BindOpen.Data.Common.DataSortingMode
+    content.vb: Property Sorting As DataSortingMode
+  overload: BindOpen.Data.Queries.IDbQueryOrderByStatement.Sorting*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: BindOpen.Data.Queries
+  commentId: N:BindOpen.Data.Queries
+  isExternal: true
+  name: BindOpen.Data.Queries
+  nameWithType: BindOpen.Data.Queries
+  fullName: BindOpen.Data.Queries
+- uid: BindOpen.Data.Queries.IDbQueryOrderByStatement.Field*
+  commentId: Overload:BindOpen.Data.Queries.IDbQueryOrderByStatement.Field
+  isExternal: true
+  name: Field
+  nameWithType: IDbQueryOrderByStatement.Field
+  fullName: BindOpen.Data.Queries.IDbQueryOrderByStatement.Field
+- uid: BindOpen.Extensions.Carriers.DbField
+  commentId: T:BindOpen.Extensions.Carriers.DbField
+  parent: BindOpen.Extensions.Carriers
+  isExternal: true
+  name: DbField
+  nameWithType: DbField
+  fullName: BindOpen.Extensions.Carriers.DbField
+- uid: BindOpen.Extensions.Carriers
+  commentId: N:BindOpen.Extensions.Carriers
+  isExternal: true
+  name: BindOpen.Extensions.Carriers
+  nameWithType: BindOpen.Extensions.Carriers
+  fullName: BindOpen.Extensions.Carriers
+- uid: BindOpen.Data.Queries.IDbQueryOrderByStatement.Sorting*
+  commentId: Overload:BindOpen.Data.Queries.IDbQueryOrderByStatement.Sorting
+  isExternal: true
+  name: Sorting
+  nameWithType: IDbQueryOrderByStatement.Sorting
+  fullName: BindOpen.Data.Queries.IDbQueryOrderByStatement.Sorting
+- uid: BindOpen.Data.Common.DataSortingMode
+  isExternal: true
+  name: DataSortingMode
+  nameWithType: DataSortingMode
+  fullName: BindOpen.Data.Common.DataSortingMode
+shouldSkipMarkup: true

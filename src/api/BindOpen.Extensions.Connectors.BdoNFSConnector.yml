@@ -1,0 +1,1080 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Extensions.Connectors.BdoNFSConnector
+  commentId: T:BindOpen.Extensions.Connectors.BdoNFSConnector
+  id: BdoNFSConnector
+  parent: BindOpen.Extensions.Connectors
+  children:
+  - BindOpen.Extensions.Connectors.BdoNFSConnector.#ctor
+  - BindOpen.Extensions.Connectors.BdoNFSConnector.CreateConnection(BindOpen.System.Diagnostics.IBdoLog)
+  langs:
+  - csharp
+  - vb
+  name: BdoNFSConnector
+  nameWithType: BdoNFSConnector
+  fullName: BindOpen.Extensions.Connectors.BdoNFSConnector
+  type: Class
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Connectors
+  summary: "\nThis class represents a file NFS connector.\n"
+  syntax:
+    content: 'public class BdoNFSConnector : BdoRepoConnector'
+    content.vb: >-
+      Public Class BdoNFSConnector
+          Inherits BdoRepoConnector
+  inheritance:
+  - System.Object
+  - BindOpen.Extensions.Connectors.BdoRepoConnector
+  inheritedMembers:
+  - BindOpen.Extensions.Connectors.BdoRepoConnector.Pull(System.String,System.String,System.Boolean,BindOpen.System.Diagnostics.IBdoLog)
+  - BindOpen.Extensions.Connectors.BdoRepoConnector.Pull(System.String,System.String,System.String,System.Boolean,BindOpen.System.Diagnostics.IBdoLog,System.Boolean)
+  - BindOpen.Extensions.Connectors.BdoRepoConnector.Pull(System.Collections.Generic.List{System.String},System.String,System.Boolean,BindOpen.System.Diagnostics.IBdoLog)
+  - BindOpen.Extensions.Connectors.BdoRepoConnector.Push(System.String,System.String,System.Boolean,BindOpen.System.Diagnostics.IBdoLog)
+  - BindOpen.Extensions.Connectors.BdoRepoConnector.Push(System.String,System.String,System.String,System.Boolean,BindOpen.System.Diagnostics.IBdoLog,System.Boolean)
+  - BindOpen.Extensions.Connectors.BdoRepoConnector.Push(System.Collections.Generic.List{System.String},System.String,System.Boolean,BindOpen.System.Diagnostics.IBdoLog)
+  - BindOpen.Extensions.Connectors.BdoRepoConnector.GetFiles(System.String,System.String,System.Boolean,BindOpen.System.Diagnostics.IBdoLog,BindOpen.Extensions.Carriers.CarrierKind_standard)
+  - BindOpen.Extensions.Connectors.BdoRepoConnector.DeleteItems(System.String,System.String,System.DateTime,System.Boolean,BindOpen.System.Diagnostics.IBdoLog,BindOpen.Extensions.Carriers.CarrierKind_standard)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BindOpen.Extensions.Connectors.BdoNFSConnector.#ctor
+  commentId: M:BindOpen.Extensions.Connectors.BdoNFSConnector.#ctor
+  id: '#ctor'
+  parent: BindOpen.Extensions.Connectors.BdoNFSConnector
+  langs:
+  - csharp
+  - vb
+  name: BdoNFSConnector()
+  nameWithType: BdoNFSConnector.BdoNFSConnector()
+  fullName: BindOpen.Extensions.Connectors.BdoNFSConnector.BdoNFSConnector()
+  type: Constructor
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Connectors
+  summary: "\nInstantiates a new instance of the NFSConnector class.\n"
+  syntax:
+    content: public BdoNFSConnector()
+    content.vb: Public Sub New
+  overload: BindOpen.Extensions.Connectors.BdoNFSConnector.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Extensions.Connectors.BdoNFSConnector.CreateConnection(BindOpen.System.Diagnostics.IBdoLog)
+  commentId: M:BindOpen.Extensions.Connectors.BdoNFSConnector.CreateConnection(BindOpen.System.Diagnostics.IBdoLog)
+  id: CreateConnection(BindOpen.System.Diagnostics.IBdoLog)
+  parent: BindOpen.Extensions.Connectors.BdoNFSConnector
+  langs:
+  - csharp
+  - vb
+  name: CreateConnection(IBdoLog)
+  nameWithType: BdoNFSConnector.CreateConnection(IBdoLog)
+  fullName: BindOpen.Extensions.Connectors.BdoNFSConnector.CreateConnection(BindOpen.System.Diagnostics.IBdoLog)
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Connectors
+  summary: "\nCreates a new connection.\n"
+  syntax:
+    content: public override BdoRepoConnection CreateConnection(IBdoLog log = null)
+    parameters:
+    - id: log
+      type: BindOpen.System.Diagnostics.IBdoLog
+      description: The log to consider.
+    return:
+      type: BindOpen.Data.Connections.BdoRepoConnection
+    content.vb: Public Overrides Function CreateConnection(log As IBdoLog = Nothing) As BdoRepoConnection
+  overridden: BindOpen.Extensions.Connectors.BdoRepoConnector.CreateConnection(BindOpen.System.Diagnostics.IBdoLog)
+  overload: BindOpen.Extensions.Connectors.BdoNFSConnector.CreateConnection*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: BindOpen.Extensions.Connectors
+  commentId: N:BindOpen.Extensions.Connectors
+  isExternal: true
+  name: BindOpen.Extensions.Connectors
+  nameWithType: BindOpen.Extensions.Connectors
+  fullName: BindOpen.Extensions.Connectors
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BindOpen.Extensions.Connectors.BdoRepoConnector
+  commentId: T:BindOpen.Extensions.Connectors.BdoRepoConnector
+  parent: BindOpen.Extensions.Connectors
+  isExternal: true
+  name: BdoRepoConnector
+  nameWithType: BdoRepoConnector
+  fullName: BindOpen.Extensions.Connectors.BdoRepoConnector
+- uid: BindOpen.Extensions.Connectors.BdoRepoConnector.Pull(System.String,System.String,System.Boolean,BindOpen.System.Diagnostics.IBdoLog)
+  commentId: M:BindOpen.Extensions.Connectors.BdoRepoConnector.Pull(System.String,System.String,System.Boolean,BindOpen.System.Diagnostics.IBdoLog)
+  parent: BindOpen.Extensions.Connectors.BdoRepoConnector
+  isExternal: true
+  name: Pull(String, String, Boolean, IBdoLog)
+  nameWithType: BdoRepoConnector.Pull(String, String, Boolean, IBdoLog)
+  fullName: BindOpen.Extensions.Connectors.BdoRepoConnector.Pull(System.String, System.String, System.Boolean, BindOpen.System.Diagnostics.IBdoLog)
+  spec.csharp:
+  - uid: BindOpen.Extensions.Connectors.BdoRepoConnector.Pull(System.String,System.String,System.Boolean,BindOpen.System.Diagnostics.IBdoLog)
+    name: Pull
+    nameWithType: BdoRepoConnector.Pull
+    fullName: BindOpen.Extensions.Connectors.BdoRepoConnector.Pull
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Extensions.Connectors.BdoRepoConnector.Pull(System.String,System.String,System.Boolean,BindOpen.System.Diagnostics.IBdoLog)
+    name: Pull
+    nameWithType: BdoRepoConnector.Pull
+    fullName: BindOpen.Extensions.Connectors.BdoRepoConnector.Pull
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Extensions.Connectors.BdoRepoConnector.Pull(System.String,System.String,System.String,System.Boolean,BindOpen.System.Diagnostics.IBdoLog,System.Boolean)
+  commentId: M:BindOpen.Extensions.Connectors.BdoRepoConnector.Pull(System.String,System.String,System.String,System.Boolean,BindOpen.System.Diagnostics.IBdoLog,System.Boolean)
+  parent: BindOpen.Extensions.Connectors.BdoRepoConnector
+  isExternal: true
+  name: Pull(String, String, String, Boolean, IBdoLog, Boolean)
+  nameWithType: BdoRepoConnector.Pull(String, String, String, Boolean, IBdoLog, Boolean)
+  fullName: BindOpen.Extensions.Connectors.BdoRepoConnector.Pull(System.String, System.String, System.String, System.Boolean, BindOpen.System.Diagnostics.IBdoLog, System.Boolean)
+  spec.csharp:
+  - uid: BindOpen.Extensions.Connectors.BdoRepoConnector.Pull(System.String,System.String,System.String,System.Boolean,BindOpen.System.Diagnostics.IBdoLog,System.Boolean)
+    name: Pull
+    nameWithType: BdoRepoConnector.Pull
+    fullName: BindOpen.Extensions.Connectors.BdoRepoConnector.Pull
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Extensions.Connectors.BdoRepoConnector.Pull(System.String,System.String,System.String,System.Boolean,BindOpen.System.Diagnostics.IBdoLog,System.Boolean)
+    name: Pull
+    nameWithType: BdoRepoConnector.Pull
+    fullName: BindOpen.Extensions.Connectors.BdoRepoConnector.Pull
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Extensions.Connectors.BdoRepoConnector.Pull(System.Collections.Generic.List{System.String},System.String,System.Boolean,BindOpen.System.Diagnostics.IBdoLog)
+  commentId: M:BindOpen.Extensions.Connectors.BdoRepoConnector.Pull(System.Collections.Generic.List{System.String},System.String,System.Boolean,BindOpen.System.Diagnostics.IBdoLog)
+  parent: BindOpen.Extensions.Connectors.BdoRepoConnector
+  isExternal: true
+  name: Pull(List<String>, String, Boolean, IBdoLog)
+  nameWithType: BdoRepoConnector.Pull(List<String>, String, Boolean, IBdoLog)
+  fullName: BindOpen.Extensions.Connectors.BdoRepoConnector.Pull(System.Collections.Generic.List<System.String>, System.String, System.Boolean, BindOpen.System.Diagnostics.IBdoLog)
+  nameWithType.vb: BdoRepoConnector.Pull(List(Of String), String, Boolean, IBdoLog)
+  fullName.vb: BindOpen.Extensions.Connectors.BdoRepoConnector.Pull(System.Collections.Generic.List(Of System.String), System.String, System.Boolean, BindOpen.System.Diagnostics.IBdoLog)
+  name.vb: Pull(List(Of String), String, Boolean, IBdoLog)
+  spec.csharp:
+  - uid: BindOpen.Extensions.Connectors.BdoRepoConnector.Pull(System.Collections.Generic.List{System.String},System.String,System.Boolean,BindOpen.System.Diagnostics.IBdoLog)
+    name: Pull
+    nameWithType: BdoRepoConnector.Pull
+    fullName: BindOpen.Extensions.Connectors.BdoRepoConnector.Pull
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Extensions.Connectors.BdoRepoConnector.Pull(System.Collections.Generic.List{System.String},System.String,System.Boolean,BindOpen.System.Diagnostics.IBdoLog)
+    name: Pull
+    nameWithType: BdoRepoConnector.Pull
+    fullName: BindOpen.Extensions.Connectors.BdoRepoConnector.Pull
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Extensions.Connectors.BdoRepoConnector.Push(System.String,System.String,System.Boolean,BindOpen.System.Diagnostics.IBdoLog)
+  commentId: M:BindOpen.Extensions.Connectors.BdoRepoConnector.Push(System.String,System.String,System.Boolean,BindOpen.System.Diagnostics.IBdoLog)
+  parent: BindOpen.Extensions.Connectors.BdoRepoConnector
+  isExternal: true
+  name: Push(String, String, Boolean, IBdoLog)
+  nameWithType: BdoRepoConnector.Push(String, String, Boolean, IBdoLog)
+  fullName: BindOpen.Extensions.Connectors.BdoRepoConnector.Push(System.String, System.String, System.Boolean, BindOpen.System.Diagnostics.IBdoLog)
+  spec.csharp:
+  - uid: BindOpen.Extensions.Connectors.BdoRepoConnector.Push(System.String,System.String,System.Boolean,BindOpen.System.Diagnostics.IBdoLog)
+    name: Push
+    nameWithType: BdoRepoConnector.Push
+    fullName: BindOpen.Extensions.Connectors.BdoRepoConnector.Push
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Extensions.Connectors.BdoRepoConnector.Push(System.String,System.String,System.Boolean,BindOpen.System.Diagnostics.IBdoLog)
+    name: Push
+    nameWithType: BdoRepoConnector.Push
+    fullName: BindOpen.Extensions.Connectors.BdoRepoConnector.Push
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Extensions.Connectors.BdoRepoConnector.Push(System.String,System.String,System.String,System.Boolean,BindOpen.System.Diagnostics.IBdoLog,System.Boolean)
+  commentId: M:BindOpen.Extensions.Connectors.BdoRepoConnector.Push(System.String,System.String,System.String,System.Boolean,BindOpen.System.Diagnostics.IBdoLog,System.Boolean)
+  parent: BindOpen.Extensions.Connectors.BdoRepoConnector
+  isExternal: true
+  name: Push(String, String, String, Boolean, IBdoLog, Boolean)
+  nameWithType: BdoRepoConnector.Push(String, String, String, Boolean, IBdoLog, Boolean)
+  fullName: BindOpen.Extensions.Connectors.BdoRepoConnector.Push(System.String, System.String, System.String, System.Boolean, BindOpen.System.Diagnostics.IBdoLog, System.Boolean)
+  spec.csharp:
+  - uid: BindOpen.Extensions.Connectors.BdoRepoConnector.Push(System.String,System.String,System.String,System.Boolean,BindOpen.System.Diagnostics.IBdoLog,System.Boolean)
+    name: Push
+    nameWithType: BdoRepoConnector.Push
+    fullName: BindOpen.Extensions.Connectors.BdoRepoConnector.Push
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Extensions.Connectors.BdoRepoConnector.Push(System.String,System.String,System.String,System.Boolean,BindOpen.System.Diagnostics.IBdoLog,System.Boolean)
+    name: Push
+    nameWithType: BdoRepoConnector.Push
+    fullName: BindOpen.Extensions.Connectors.BdoRepoConnector.Push
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Extensions.Connectors.BdoRepoConnector.Push(System.Collections.Generic.List{System.String},System.String,System.Boolean,BindOpen.System.Diagnostics.IBdoLog)
+  commentId: M:BindOpen.Extensions.Connectors.BdoRepoConnector.Push(System.Collections.Generic.List{System.String},System.String,System.Boolean,BindOpen.System.Diagnostics.IBdoLog)
+  parent: BindOpen.Extensions.Connectors.BdoRepoConnector
+  isExternal: true
+  name: Push(List<String>, String, Boolean, IBdoLog)
+  nameWithType: BdoRepoConnector.Push(List<String>, String, Boolean, IBdoLog)
+  fullName: BindOpen.Extensions.Connectors.BdoRepoConnector.Push(System.Collections.Generic.List<System.String>, System.String, System.Boolean, BindOpen.System.Diagnostics.IBdoLog)
+  nameWithType.vb: BdoRepoConnector.Push(List(Of String), String, Boolean, IBdoLog)
+  fullName.vb: BindOpen.Extensions.Connectors.BdoRepoConnector.Push(System.Collections.Generic.List(Of System.String), System.String, System.Boolean, BindOpen.System.Diagnostics.IBdoLog)
+  name.vb: Push(List(Of String), String, Boolean, IBdoLog)
+  spec.csharp:
+  - uid: BindOpen.Extensions.Connectors.BdoRepoConnector.Push(System.Collections.Generic.List{System.String},System.String,System.Boolean,BindOpen.System.Diagnostics.IBdoLog)
+    name: Push
+    nameWithType: BdoRepoConnector.Push
+    fullName: BindOpen.Extensions.Connectors.BdoRepoConnector.Push
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Extensions.Connectors.BdoRepoConnector.Push(System.Collections.Generic.List{System.String},System.String,System.Boolean,BindOpen.System.Diagnostics.IBdoLog)
+    name: Push
+    nameWithType: BdoRepoConnector.Push
+    fullName: BindOpen.Extensions.Connectors.BdoRepoConnector.Push
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Extensions.Connectors.BdoRepoConnector.GetFiles(System.String,System.String,System.Boolean,BindOpen.System.Diagnostics.IBdoLog,BindOpen.Extensions.Carriers.CarrierKind_standard)
+  commentId: M:BindOpen.Extensions.Connectors.BdoRepoConnector.GetFiles(System.String,System.String,System.Boolean,BindOpen.System.Diagnostics.IBdoLog,BindOpen.Extensions.Carriers.CarrierKind_standard)
+  parent: BindOpen.Extensions.Connectors.BdoRepoConnector
+  isExternal: true
+  name: GetFiles(String, String, Boolean, IBdoLog, CarrierKind_standard)
+  nameWithType: BdoRepoConnector.GetFiles(String, String, Boolean, IBdoLog, CarrierKind_standard)
+  fullName: BindOpen.Extensions.Connectors.BdoRepoConnector.GetFiles(System.String, System.String, System.Boolean, BindOpen.System.Diagnostics.IBdoLog, BindOpen.Extensions.Carriers.CarrierKind_standard)
+  spec.csharp:
+  - uid: BindOpen.Extensions.Connectors.BdoRepoConnector.GetFiles(System.String,System.String,System.Boolean,BindOpen.System.Diagnostics.IBdoLog,BindOpen.Extensions.Carriers.CarrierKind_standard)
+    name: GetFiles
+    nameWithType: BdoRepoConnector.GetFiles
+    fullName: BindOpen.Extensions.Connectors.BdoRepoConnector.GetFiles
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Extensions.Carriers.CarrierKind_standard
+    name: CarrierKind_standard
+    nameWithType: CarrierKind_standard
+    fullName: BindOpen.Extensions.Carriers.CarrierKind_standard
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Extensions.Connectors.BdoRepoConnector.GetFiles(System.String,System.String,System.Boolean,BindOpen.System.Diagnostics.IBdoLog,BindOpen.Extensions.Carriers.CarrierKind_standard)
+    name: GetFiles
+    nameWithType: BdoRepoConnector.GetFiles
+    fullName: BindOpen.Extensions.Connectors.BdoRepoConnector.GetFiles
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Extensions.Carriers.CarrierKind_standard
+    name: CarrierKind_standard
+    nameWithType: CarrierKind_standard
+    fullName: BindOpen.Extensions.Carriers.CarrierKind_standard
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Extensions.Connectors.BdoRepoConnector.DeleteItems(System.String,System.String,System.DateTime,System.Boolean,BindOpen.System.Diagnostics.IBdoLog,BindOpen.Extensions.Carriers.CarrierKind_standard)
+  commentId: M:BindOpen.Extensions.Connectors.BdoRepoConnector.DeleteItems(System.String,System.String,System.DateTime,System.Boolean,BindOpen.System.Diagnostics.IBdoLog,BindOpen.Extensions.Carriers.CarrierKind_standard)
+  parent: BindOpen.Extensions.Connectors.BdoRepoConnector
+  isExternal: true
+  name: DeleteItems(String, String, DateTime, Boolean, IBdoLog, CarrierKind_standard)
+  nameWithType: BdoRepoConnector.DeleteItems(String, String, DateTime, Boolean, IBdoLog, CarrierKind_standard)
+  fullName: BindOpen.Extensions.Connectors.BdoRepoConnector.DeleteItems(System.String, System.String, System.DateTime, System.Boolean, BindOpen.System.Diagnostics.IBdoLog, BindOpen.Extensions.Carriers.CarrierKind_standard)
+  spec.csharp:
+  - uid: BindOpen.Extensions.Connectors.BdoRepoConnector.DeleteItems(System.String,System.String,System.DateTime,System.Boolean,BindOpen.System.Diagnostics.IBdoLog,BindOpen.Extensions.Carriers.CarrierKind_standard)
+    name: DeleteItems
+    nameWithType: BdoRepoConnector.DeleteItems
+    fullName: BindOpen.Extensions.Connectors.BdoRepoConnector.DeleteItems
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Extensions.Carriers.CarrierKind_standard
+    name: CarrierKind_standard
+    nameWithType: CarrierKind_standard
+    fullName: BindOpen.Extensions.Carriers.CarrierKind_standard
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Extensions.Connectors.BdoRepoConnector.DeleteItems(System.String,System.String,System.DateTime,System.Boolean,BindOpen.System.Diagnostics.IBdoLog,BindOpen.Extensions.Carriers.CarrierKind_standard)
+    name: DeleteItems
+    nameWithType: BdoRepoConnector.DeleteItems
+    fullName: BindOpen.Extensions.Connectors.BdoRepoConnector.DeleteItems
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Extensions.Carriers.CarrierKind_standard
+    name: CarrierKind_standard
+    nameWithType: CarrierKind_standard
+    fullName: BindOpen.Extensions.Carriers.CarrierKind_standard
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Extensions.Connectors.BdoNFSConnector.#ctor*
+  commentId: Overload:BindOpen.Extensions.Connectors.BdoNFSConnector.#ctor
+  isExternal: true
+  name: BdoNFSConnector
+  nameWithType: BdoNFSConnector.BdoNFSConnector
+  fullName: BindOpen.Extensions.Connectors.BdoNFSConnector.BdoNFSConnector
+- uid: BindOpen.Extensions.Connectors.BdoRepoConnector.CreateConnection(BindOpen.System.Diagnostics.IBdoLog)
+  commentId: M:BindOpen.Extensions.Connectors.BdoRepoConnector.CreateConnection(BindOpen.System.Diagnostics.IBdoLog)
+  parent: BindOpen.Extensions.Connectors.BdoRepoConnector
+  isExternal: true
+  name: CreateConnection(IBdoLog)
+  nameWithType: BdoRepoConnector.CreateConnection(IBdoLog)
+  fullName: BindOpen.Extensions.Connectors.BdoRepoConnector.CreateConnection(BindOpen.System.Diagnostics.IBdoLog)
+  spec.csharp:
+  - uid: BindOpen.Extensions.Connectors.BdoRepoConnector.CreateConnection(BindOpen.System.Diagnostics.IBdoLog)
+    name: CreateConnection
+    nameWithType: BdoRepoConnector.CreateConnection
+    fullName: BindOpen.Extensions.Connectors.BdoRepoConnector.CreateConnection
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Extensions.Connectors.BdoRepoConnector.CreateConnection(BindOpen.System.Diagnostics.IBdoLog)
+    name: CreateConnection
+    nameWithType: BdoRepoConnector.CreateConnection
+    fullName: BindOpen.Extensions.Connectors.BdoRepoConnector.CreateConnection
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Extensions.Connectors.BdoNFSConnector.CreateConnection*
+  commentId: Overload:BindOpen.Extensions.Connectors.BdoNFSConnector.CreateConnection
+  isExternal: true
+  name: CreateConnection
+  nameWithType: BdoNFSConnector.CreateConnection
+  fullName: BindOpen.Extensions.Connectors.BdoNFSConnector.CreateConnection
+- uid: BindOpen.System.Diagnostics.IBdoLog
+  isExternal: true
+  name: IBdoLog
+  nameWithType: IBdoLog
+  fullName: BindOpen.System.Diagnostics.IBdoLog
+- uid: BindOpen.Data.Connections.BdoRepoConnection
+  commentId: T:BindOpen.Data.Connections.BdoRepoConnection
+  parent: BindOpen.Data.Connections
+  isExternal: true
+  name: BdoRepoConnection
+  nameWithType: BdoRepoConnection
+  fullName: BindOpen.Data.Connections.BdoRepoConnection
+- uid: BindOpen.Data.Connections
+  commentId: N:BindOpen.Data.Connections
+  isExternal: true
+  name: BindOpen.Data.Connections
+  nameWithType: BindOpen.Data.Connections
+  fullName: BindOpen.Data.Connections
+shouldSkipMarkup: true

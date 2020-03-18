@@ -1,0 +1,300 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Extensions.Routines.RoutineConfigurationKind_standard
+  commentId: T:BindOpen.Extensions.Routines.RoutineConfigurationKind_standard
+  id: RoutineConfigurationKind_standard
+  parent: BindOpen.Extensions.Routines
+  children:
+  - BindOpen.Extensions.Routines.RoutineConfigurationKind_standard.Any
+  - BindOpen.Extensions.Routines.RoutineConfigurationKind_standard.ItemIsRequired
+  - BindOpen.Extensions.Routines.RoutineConfigurationKind_standard.None
+  - BindOpen.Extensions.Routines.RoutineConfigurationKind_standard.TextFormatMustBe
+  - BindOpen.Extensions.Routines.RoutineConfigurationKind_standard.value__
+  langs:
+  - csharp
+  - vb
+  name: RoutineConfigurationKind_standard
+  nameWithType: RoutineConfigurationKind_standard
+  fullName: BindOpen.Extensions.Routines.RoutineConfigurationKind_standard
+  type: Class
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Routines
+  summary: "\nThis enumeration lists all the possible kinds of the &apos;Standard&apos; routines.\n"
+  syntax:
+    content: 'public sealed class RoutineConfigurationKind_standard : Enum'
+    content.vb: >-
+      Public NotInheritable Class RoutineConfigurationKind_standard
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - BindOpen.Extensions.Routines.RoutineConfigurationKind_standard.BindOpen.Extensions.Routines.RoutineConfigurationKind_standardExtension.GetUniqueName
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: BindOpen.Extensions.Routines.RoutineConfigurationKind_standard.value__
+  commentId: F:BindOpen.Extensions.Routines.RoutineConfigurationKind_standard.value__
+  id: value__
+  parent: BindOpen.Extensions.Routines.RoutineConfigurationKind_standard
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: RoutineConfigurationKind_standard.value__
+  fullName: BindOpen.Extensions.Routines.RoutineConfigurationKind_standard.value__
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Routines
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Extensions.Routines.RoutineConfigurationKind_standard.None
+  commentId: F:BindOpen.Extensions.Routines.RoutineConfigurationKind_standard.None
+  id: None
+  parent: BindOpen.Extensions.Routines.RoutineConfigurationKind_standard
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: RoutineConfigurationKind_standard.None
+  fullName: BindOpen.Extensions.Routines.RoutineConfigurationKind_standard.None
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Routines
+  summary: "\nNone.\n"
+  syntax:
+    content: public const RoutineConfigurationKind_standard None
+    return:
+      type: BindOpen.Extensions.Routines.RoutineConfigurationKind_standard
+    content.vb: Public Const None As RoutineConfigurationKind_standard
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Extensions.Routines.RoutineConfigurationKind_standard.Any
+  commentId: F:BindOpen.Extensions.Routines.RoutineConfigurationKind_standard.Any
+  id: Any
+  parent: BindOpen.Extensions.Routines.RoutineConfigurationKind_standard
+  langs:
+  - csharp
+  - vb
+  name: Any
+  nameWithType: RoutineConfigurationKind_standard.Any
+  fullName: BindOpen.Extensions.Routines.RoutineConfigurationKind_standard.Any
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Routines
+  summary: "\nAny.\n"
+  syntax:
+    content: public const RoutineConfigurationKind_standard Any
+    return:
+      type: BindOpen.Extensions.Routines.RoutineConfigurationKind_standard
+    content.vb: Public Const Any As RoutineConfigurationKind_standard
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Extensions.Routines.RoutineConfigurationKind_standard.ItemIsRequired
+  commentId: F:BindOpen.Extensions.Routines.RoutineConfigurationKind_standard.ItemIsRequired
+  id: ItemIsRequired
+  parent: BindOpen.Extensions.Routines.RoutineConfigurationKind_standard
+  langs:
+  - csharp
+  - vb
+  name: ItemIsRequired
+  nameWithType: RoutineConfigurationKind_standard.ItemIsRequired
+  fullName: BindOpen.Extensions.Routines.RoutineConfigurationKind_standard.ItemIsRequired
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Routines
+  summary: "\nItem is required.\n"
+  syntax:
+    content: public const RoutineConfigurationKind_standard ItemIsRequired
+    return:
+      type: BindOpen.Extensions.Routines.RoutineConfigurationKind_standard
+    content.vb: Public Const ItemIsRequired As RoutineConfigurationKind_standard
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Extensions.Routines.RoutineConfigurationKind_standard.TextFormatMustBe
+  commentId: F:BindOpen.Extensions.Routines.RoutineConfigurationKind_standard.TextFormatMustBe
+  id: TextFormatMustBe
+  parent: BindOpen.Extensions.Routines.RoutineConfigurationKind_standard
+  langs:
+  - csharp
+  - vb
+  name: TextFormatMustBe
+  nameWithType: RoutineConfigurationKind_standard.TextFormatMustBe
+  fullName: BindOpen.Extensions.Routines.RoutineConfigurationKind_standard.TextFormatMustBe
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Routines
+  summary: "\nText format must sbe.\n"
+  syntax:
+    content: public const RoutineConfigurationKind_standard TextFormatMustBe
+    return:
+      type: BindOpen.Extensions.Routines.RoutineConfigurationKind_standard
+    content.vb: Public Const TextFormatMustBe As RoutineConfigurationKind_standard
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: BindOpen.Extensions.Routines
+  commentId: N:BindOpen.Extensions.Routines
+  isExternal: true
+  name: BindOpen.Extensions.Routines
+  nameWithType: BindOpen.Extensions.Routines
+  fullName: BindOpen.Extensions.Routines
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BindOpen.Extensions.Routines.RoutineConfigurationKind_standard.BindOpen.Extensions.Routines.RoutineConfigurationKind_standardExtension.GetUniqueName
+  commentId: M:BindOpen.Extensions.Routines.RoutineConfigurationKind_standardExtension.GetUniqueName(BindOpen.Extensions.Routines.RoutineConfigurationKind_standard)
+  parent: BindOpen.Extensions.Routines.RoutineConfigurationKind_standardExtension
+  definition: BindOpen.Extensions.Routines.RoutineConfigurationKind_standardExtension.GetUniqueName(BindOpen.Extensions.Routines.RoutineConfigurationKind_standard)
+  name: GetUniqueName()
+  nameWithType: RoutineConfigurationKind_standardExtension.GetUniqueName()
+  fullName: BindOpen.Extensions.Routines.RoutineConfigurationKind_standardExtension.GetUniqueName()
+  spec.csharp:
+  - uid: BindOpen.Extensions.Routines.RoutineConfigurationKind_standardExtension.GetUniqueName
+    name: GetUniqueName
+    nameWithType: RoutineConfigurationKind_standardExtension.GetUniqueName
+    fullName: BindOpen.Extensions.Routines.RoutineConfigurationKind_standardExtension.GetUniqueName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Extensions.Routines.RoutineConfigurationKind_standardExtension.GetUniqueName
+    name: GetUniqueName
+    nameWithType: RoutineConfigurationKind_standardExtension.GetUniqueName
+    fullName: BindOpen.Extensions.Routines.RoutineConfigurationKind_standardExtension.GetUniqueName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Extensions.Routines.RoutineConfigurationKind_standardExtension.GetUniqueName(BindOpen.Extensions.Routines.RoutineConfigurationKind_standard)
+  commentId: M:BindOpen.Extensions.Routines.RoutineConfigurationKind_standardExtension.GetUniqueName(BindOpen.Extensions.Routines.RoutineConfigurationKind_standard)
+  isExternal: true
+  name: GetUniqueName(RoutineConfigurationKind_standard)
+  nameWithType: RoutineConfigurationKind_standardExtension.GetUniqueName(RoutineConfigurationKind_standard)
+  fullName: BindOpen.Extensions.Routines.RoutineConfigurationKind_standardExtension.GetUniqueName(BindOpen.Extensions.Routines.RoutineConfigurationKind_standard)
+  spec.csharp:
+  - uid: BindOpen.Extensions.Routines.RoutineConfigurationKind_standardExtension.GetUniqueName(BindOpen.Extensions.Routines.RoutineConfigurationKind_standard)
+    name: GetUniqueName
+    nameWithType: RoutineConfigurationKind_standardExtension.GetUniqueName
+    fullName: BindOpen.Extensions.Routines.RoutineConfigurationKind_standardExtension.GetUniqueName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Extensions.Routines.RoutineConfigurationKind_standard
+    name: RoutineConfigurationKind_standard
+    nameWithType: RoutineConfigurationKind_standard
+    fullName: BindOpen.Extensions.Routines.RoutineConfigurationKind_standard
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Extensions.Routines.RoutineConfigurationKind_standardExtension.GetUniqueName(BindOpen.Extensions.Routines.RoutineConfigurationKind_standard)
+    name: GetUniqueName
+    nameWithType: RoutineConfigurationKind_standardExtension.GetUniqueName
+    fullName: BindOpen.Extensions.Routines.RoutineConfigurationKind_standardExtension.GetUniqueName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Extensions.Routines.RoutineConfigurationKind_standard
+    name: RoutineConfigurationKind_standard
+    nameWithType: RoutineConfigurationKind_standard
+    fullName: BindOpen.Extensions.Routines.RoutineConfigurationKind_standard
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Extensions.Routines.RoutineConfigurationKind_standardExtension
+  commentId: T:BindOpen.Extensions.Routines.RoutineConfigurationKind_standardExtension
+  parent: BindOpen.Extensions.Routines
+  isExternal: true
+  name: RoutineConfigurationKind_standardExtension
+  nameWithType: RoutineConfigurationKind_standardExtension
+  fullName: BindOpen.Extensions.Routines.RoutineConfigurationKind_standardExtension
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: BindOpen.Extensions.Routines.RoutineConfigurationKind_standard
+  commentId: T:BindOpen.Extensions.Routines.RoutineConfigurationKind_standard
+  parent: BindOpen.Extensions.Routines
+  isExternal: true
+  name: RoutineConfigurationKind_standard
+  nameWithType: RoutineConfigurationKind_standard
+  fullName: BindOpen.Extensions.Routines.RoutineConfigurationKind_standard
+shouldSkipMarkup: true

@@ -1,0 +1,160 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Data.Queries.DbQueryUnionKind
+  commentId: T:BindOpen.Data.Queries.DbQueryUnionKind
+  id: DbQueryUnionKind
+  parent: BindOpen.Data.Queries
+  children:
+  - BindOpen.Data.Queries.DbQueryUnionKind.None
+  - BindOpen.Data.Queries.DbQueryUnionKind.Union
+  - BindOpen.Data.Queries.DbQueryUnionKind.value__
+  langs:
+  - csharp
+  - vb
+  name: DbQueryUnionKind
+  nameWithType: DbQueryUnionKind
+  fullName: BindOpen.Data.Queries.DbQueryUnionKind
+  type: Class
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nThis enumeration lists all the kinds of data query unions.\n"
+  syntax:
+    content: 'public sealed class DbQueryUnionKind : Enum'
+    content.vb: >-
+      Public NotInheritable Class DbQueryUnionKind
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: BindOpen.Data.Queries.DbQueryUnionKind.value__
+  commentId: F:BindOpen.Data.Queries.DbQueryUnionKind.value__
+  id: value__
+  parent: BindOpen.Data.Queries.DbQueryUnionKind
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: DbQueryUnionKind.value__
+  fullName: BindOpen.Data.Queries.DbQueryUnionKind.value__
+  type: Field
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Data.Queries.DbQueryUnionKind.None
+  commentId: F:BindOpen.Data.Queries.DbQueryUnionKind.None
+  id: None
+  parent: BindOpen.Data.Queries.DbQueryUnionKind
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: DbQueryUnionKind.None
+  fullName: BindOpen.Data.Queries.DbQueryUnionKind.None
+  type: Field
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nNone.\n"
+  syntax:
+    content: public const DbQueryUnionKind None
+    return:
+      type: BindOpen.Data.Queries.DbQueryUnionKind
+    content.vb: Public Const None As DbQueryUnionKind
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Data.Queries.DbQueryUnionKind.Union
+  commentId: F:BindOpen.Data.Queries.DbQueryUnionKind.Union
+  id: Union
+  parent: BindOpen.Data.Queries.DbQueryUnionKind
+  langs:
+  - csharp
+  - vb
+  name: Union
+  nameWithType: DbQueryUnionKind.Union
+  fullName: BindOpen.Data.Queries.DbQueryUnionKind.Union
+  type: Field
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nUnion.\n"
+  syntax:
+    content: public const DbQueryUnionKind Union
+    return:
+      type: BindOpen.Data.Queries.DbQueryUnionKind
+    content.vb: Public Const Union As DbQueryUnionKind
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: BindOpen.Data.Queries
+  commentId: N:BindOpen.Data.Queries
+  isExternal: true
+  name: BindOpen.Data.Queries
+  nameWithType: BindOpen.Data.Queries
+  fullName: BindOpen.Data.Queries
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: BindOpen.Data.Queries.DbQueryUnionKind
+  commentId: T:BindOpen.Data.Queries.DbQueryUnionKind
+  parent: BindOpen.Data.Queries
+  isExternal: true
+  name: DbQueryUnionKind
+  nameWithType: DbQueryUnionKind
+  fullName: BindOpen.Data.Queries.DbQueryUnionKind
+shouldSkipMarkup: true

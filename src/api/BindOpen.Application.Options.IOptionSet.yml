@@ -1,0 +1,135 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Application.Options.IOptionSet
+  commentId: T:BindOpen.Application.Options.IOptionSet
+  id: IOptionSet
+  parent: BindOpen.Application.Options
+  children:
+  - BindOpen.Application.Options.IOptionSet.GetOptionValue(System.String)
+  - BindOpen.Application.Options.IOptionSet.HasOption(System.String)
+  langs:
+  - csharp
+  - vb
+  name: IOptionSet
+  nameWithType: IOptionSet
+  fullName: BindOpen.Application.Options.IOptionSet
+  type: Interface
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Options
+  summary: "\n\n"
+  syntax:
+    content: 'public interface IOptionSet : IDataElementSet, IDataItemSet<DataElement>, IIdentifiedDataItem, IDataItem, ICloneable, IDisposable, IIdentified, IReferenced'
+    content.vb: >-
+      Public Interface IOptionSet
+          Inherits IDataElementSet, IDataItemSet(Of DataElement), IIdentifiedDataItem, IDataItem, ICloneable, IDisposable, IIdentified, IReferenced
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: BindOpen.Application.Options.IOptionSet.GetOptionValue(System.String)
+  commentId: M:BindOpen.Application.Options.IOptionSet.GetOptionValue(System.String)
+  id: GetOptionValue(System.String)
+  parent: BindOpen.Application.Options.IOptionSet
+  langs:
+  - csharp
+  - vb
+  name: GetOptionValue(String)
+  nameWithType: IOptionSet.GetOptionValue(String)
+  fullName: BindOpen.Application.Options.IOptionSet.GetOptionValue(System.String)
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Options
+  summary: "\n\n"
+  syntax:
+    content: object GetOptionValue(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: System.Object
+    content.vb: Function GetOptionValue(name As String) As Object
+  overload: BindOpen.Application.Options.IOptionSet.GetOptionValue*
+- uid: BindOpen.Application.Options.IOptionSet.HasOption(System.String)
+  commentId: M:BindOpen.Application.Options.IOptionSet.HasOption(System.String)
+  id: HasOption(System.String)
+  parent: BindOpen.Application.Options.IOptionSet
+  langs:
+  - csharp
+  - vb
+  name: HasOption(String)
+  nameWithType: IOptionSet.HasOption(String)
+  fullName: BindOpen.Application.Options.IOptionSet.HasOption(System.String)
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Options
+  summary: "\n\n"
+  syntax:
+    content: bool HasOption(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Function HasOption(name As String) As Boolean
+  overload: BindOpen.Application.Options.IOptionSet.HasOption*
+references:
+- uid: BindOpen.Application.Options
+  commentId: N:BindOpen.Application.Options
+  isExternal: true
+  name: BindOpen.Application.Options
+  nameWithType: BindOpen.Application.Options
+  fullName: BindOpen.Application.Options
+- uid: BindOpen.Application.Options.IOptionSet.GetOptionValue*
+  commentId: Overload:BindOpen.Application.Options.IOptionSet.GetOptionValue
+  isExternal: true
+  name: GetOptionValue
+  nameWithType: IOptionSet.GetOptionValue
+  fullName: BindOpen.Application.Options.IOptionSet.GetOptionValue
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Application.Options.IOptionSet.HasOption*
+  commentId: Overload:BindOpen.Application.Options.IOptionSet.HasOption
+  isExternal: true
+  name: HasOption
+  nameWithType: IOptionSet.HasOption
+  fullName: BindOpen.Application.Options.IOptionSet.HasOption
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+shouldSkipMarkup: true

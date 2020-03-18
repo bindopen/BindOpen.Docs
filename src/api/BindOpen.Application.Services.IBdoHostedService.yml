@@ -1,0 +1,56 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Application.Services.IBdoHostedService
+  commentId: T:BindOpen.Application.Services.IBdoHostedService
+  id: IBdoHostedService
+  parent: BindOpen.Application.Services
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: IBdoHostedService
+  nameWithType: IBdoHostedService
+  fullName: BindOpen.Application.Services.IBdoHostedService
+  type: Interface
+  source:
+    path: BindOpen.Runtime.NetCore
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime.NetCore
+  namespace: BindOpen.Application.Services
+  summary: "\nThis interface defines a BindOpen bot service that can be hosted in generic .Net core host.\n"
+  syntax:
+    content: 'public interface IBdoHostedService : IHostedService, IDisposable, IBdoHosted'
+    content.vb: >-
+      Public Interface IBdoHostedService
+          Inherits IHostedService, IDisposable, IBdoHosted
+  inheritedMembers:
+  - BindOpen.Application.Services.IBdoHosted.Host
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+references:
+- uid: BindOpen.Application.Services
+  commentId: N:BindOpen.Application.Services
+  isExternal: true
+  name: BindOpen.Application.Services
+  nameWithType: BindOpen.Application.Services
+  fullName: BindOpen.Application.Services
+- uid: BindOpen.Application.Services.IBdoHosted.Host
+  commentId: P:BindOpen.Application.Services.IBdoHosted.Host
+  parent: BindOpen.Application.Services.IBdoHosted
+  isExternal: true
+  name: Host
+  nameWithType: IBdoHosted.Host
+  fullName: BindOpen.Application.Services.IBdoHosted.Host
+- uid: BindOpen.Application.Services.IBdoHosted
+  commentId: T:BindOpen.Application.Services.IBdoHosted
+  parent: BindOpen.Application.Services
+  isExternal: true
+  name: IBdoHosted
+  nameWithType: IBdoHosted
+  fullName: BindOpen.Application.Services.IBdoHosted
+shouldSkipMarkup: true

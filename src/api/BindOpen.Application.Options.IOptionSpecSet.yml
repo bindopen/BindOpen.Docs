@@ -1,0 +1,778 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Application.Options.IOptionSpecSet
+  commentId: T:BindOpen.Application.Options.IOptionSpecSet
+  id: IOptionSpecSet
+  parent: BindOpen.Application.Options
+  children:
+  - BindOpen.Application.Options.IOptionSpecSet.AddOption(BindOpen.Application.Options.OptionNameKind,System.String[])
+  - BindOpen.Application.Options.IOptionSpecSet.AddOption(BindOpen.Data.Common.DataValueType,BindOpen.Application.Options.OptionNameKind,System.String[])
+  - BindOpen.Application.Options.IOptionSpecSet.AddOption(BindOpen.Data.Common.DataValueType,BindOpen.Data.Common.RequirementLevel,BindOpen.Application.Options.OptionNameKind,System.String[])
+  - BindOpen.Application.Options.IOptionSpecSet.AddOption(BindOpen.Data.Common.RequirementLevel,BindOpen.Application.Options.OptionNameKind,System.String[])
+  - BindOpen.Application.Options.IOptionSpecSet.AddOption(BindOpen.Data.Common.RequirementLevel,System.String[])
+  - BindOpen.Application.Options.IOptionSpecSet.AddOption(System.String[])
+  - BindOpen.Application.Options.IOptionSpecSet.AddOption(System.Type,BindOpen.Data.Common.RequirementLevel,BindOpen.Application.Options.OptionNameKind,System.String[])
+  - BindOpen.Application.Options.IOptionSpecSet.AddSubSet(BindOpen.Application.Options.IOptionSpec[])
+  - BindOpen.Application.Options.IOptionSpecSet.AddSubSet(BindOpen.Application.Options.IOptionSpecSet)
+  - BindOpen.Application.Options.IOptionSpecSet.AddSubSet(BindOpen.Data.Conditions.ICondition,BindOpen.Application.Options.IOptionSpec[])
+  - BindOpen.Application.Options.IOptionSpecSet.ClearOptions
+  - BindOpen.Application.Options.IOptionSpecSet.Condition
+  - BindOpen.Application.Options.IOptionSpecSet.GetHelpText(System.String)
+  - BindOpen.Application.Options.IOptionSpecSet.HasOption(System.String)
+  - BindOpen.Application.Options.IOptionSpecSet.RemoveOption(System.String)
+  - BindOpen.Application.Options.IOptionSpecSet.SubSets
+  langs:
+  - csharp
+  - vb
+  name: IOptionSpecSet
+  nameWithType: IOptionSpecSet
+  fullName: BindOpen.Application.Options.IOptionSpecSet
+  type: Interface
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Options
+  summary: "\n\n"
+  syntax:
+    content: 'public interface IOptionSpecSet : IDataItemSet<OptionSpec>, IIdentifiedDataItem, IDataItem, ICloneable, IDisposable, IIdentified, IReferenced, INamed, IIndexed'
+    content.vb: >-
+      Public Interface IOptionSpecSet
+          Inherits IDataItemSet(Of OptionSpec), IIdentifiedDataItem, IDataItem, ICloneable, IDisposable, IIdentified, IReferenced, INamed, IIndexed
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: BindOpen.Application.Options.IOptionSpecSet.AddOption(BindOpen.Data.Common.DataValueType,BindOpen.Application.Options.OptionNameKind,System.String[])
+  commentId: M:BindOpen.Application.Options.IOptionSpecSet.AddOption(BindOpen.Data.Common.DataValueType,BindOpen.Application.Options.OptionNameKind,System.String[])
+  id: AddOption(BindOpen.Data.Common.DataValueType,BindOpen.Application.Options.OptionNameKind,System.String[])
+  parent: BindOpen.Application.Options.IOptionSpecSet
+  langs:
+  - csharp
+  - vb
+  name: AddOption(DataValueType, OptionNameKind, String[])
+  nameWithType: IOptionSpecSet.AddOption(DataValueType, OptionNameKind, String[])
+  fullName: BindOpen.Application.Options.IOptionSpecSet.AddOption(BindOpen.Data.Common.DataValueType, BindOpen.Application.Options.OptionNameKind, System.String[])
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Options
+  summary: "\n\n"
+  syntax:
+    content: IOptionSpecSet AddOption(DataValueType dataValueType, OptionNameKind nameKind, params string[] aliases)
+    parameters:
+    - id: dataValueType
+      type: BindOpen.Data.Common.DataValueType
+    - id: nameKind
+      type: BindOpen.Application.Options.OptionNameKind
+    - id: aliases
+      type: System.String[]
+    return:
+      type: BindOpen.Application.Options.IOptionSpecSet
+    content.vb: Function AddOption(dataValueType As DataValueType, nameKind As OptionNameKind, ParamArray aliases As String()) As IOptionSpecSet
+  overload: BindOpen.Application.Options.IOptionSpecSet.AddOption*
+  nameWithType.vb: IOptionSpecSet.AddOption(DataValueType, OptionNameKind, String())
+  fullName.vb: BindOpen.Application.Options.IOptionSpecSet.AddOption(BindOpen.Data.Common.DataValueType, BindOpen.Application.Options.OptionNameKind, System.String())
+  name.vb: AddOption(DataValueType, OptionNameKind, String())
+- uid: BindOpen.Application.Options.IOptionSpecSet.AddOption(BindOpen.Data.Common.DataValueType,BindOpen.Data.Common.RequirementLevel,BindOpen.Application.Options.OptionNameKind,System.String[])
+  commentId: M:BindOpen.Application.Options.IOptionSpecSet.AddOption(BindOpen.Data.Common.DataValueType,BindOpen.Data.Common.RequirementLevel,BindOpen.Application.Options.OptionNameKind,System.String[])
+  id: AddOption(BindOpen.Data.Common.DataValueType,BindOpen.Data.Common.RequirementLevel,BindOpen.Application.Options.OptionNameKind,System.String[])
+  parent: BindOpen.Application.Options.IOptionSpecSet
+  langs:
+  - csharp
+  - vb
+  name: AddOption(DataValueType, RequirementLevel, OptionNameKind, String[])
+  nameWithType: IOptionSpecSet.AddOption(DataValueType, RequirementLevel, OptionNameKind, String[])
+  fullName: BindOpen.Application.Options.IOptionSpecSet.AddOption(BindOpen.Data.Common.DataValueType, BindOpen.Data.Common.RequirementLevel, BindOpen.Application.Options.OptionNameKind, System.String[])
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Options
+  summary: "\n\n"
+  syntax:
+    content: IOptionSpecSet AddOption(DataValueType dataValueType, RequirementLevel requirementLevel, OptionNameKind nameKind, params string[] aliases)
+    parameters:
+    - id: dataValueType
+      type: BindOpen.Data.Common.DataValueType
+    - id: requirementLevel
+      type: BindOpen.Data.Common.RequirementLevel
+    - id: nameKind
+      type: BindOpen.Application.Options.OptionNameKind
+    - id: aliases
+      type: System.String[]
+    return:
+      type: BindOpen.Application.Options.IOptionSpecSet
+    content.vb: Function AddOption(dataValueType As DataValueType, requirementLevel As RequirementLevel, nameKind As OptionNameKind, ParamArray aliases As String()) As IOptionSpecSet
+  overload: BindOpen.Application.Options.IOptionSpecSet.AddOption*
+  nameWithType.vb: IOptionSpecSet.AddOption(DataValueType, RequirementLevel, OptionNameKind, String())
+  fullName.vb: BindOpen.Application.Options.IOptionSpecSet.AddOption(BindOpen.Data.Common.DataValueType, BindOpen.Data.Common.RequirementLevel, BindOpen.Application.Options.OptionNameKind, System.String())
+  name.vb: AddOption(DataValueType, RequirementLevel, OptionNameKind, String())
+- uid: BindOpen.Application.Options.IOptionSpecSet.AddOption(BindOpen.Application.Options.OptionNameKind,System.String[])
+  commentId: M:BindOpen.Application.Options.IOptionSpecSet.AddOption(BindOpen.Application.Options.OptionNameKind,System.String[])
+  id: AddOption(BindOpen.Application.Options.OptionNameKind,System.String[])
+  parent: BindOpen.Application.Options.IOptionSpecSet
+  langs:
+  - csharp
+  - vb
+  name: AddOption(OptionNameKind, String[])
+  nameWithType: IOptionSpecSet.AddOption(OptionNameKind, String[])
+  fullName: BindOpen.Application.Options.IOptionSpecSet.AddOption(BindOpen.Application.Options.OptionNameKind, System.String[])
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Options
+  summary: "\n\n"
+  syntax:
+    content: IOptionSpecSet AddOption(OptionNameKind nameKind, params string[] aliases)
+    parameters:
+    - id: nameKind
+      type: BindOpen.Application.Options.OptionNameKind
+    - id: aliases
+      type: System.String[]
+    return:
+      type: BindOpen.Application.Options.IOptionSpecSet
+    content.vb: Function AddOption(nameKind As OptionNameKind, ParamArray aliases As String()) As IOptionSpecSet
+  overload: BindOpen.Application.Options.IOptionSpecSet.AddOption*
+  nameWithType.vb: IOptionSpecSet.AddOption(OptionNameKind, String())
+  fullName.vb: BindOpen.Application.Options.IOptionSpecSet.AddOption(BindOpen.Application.Options.OptionNameKind, System.String())
+  name.vb: AddOption(OptionNameKind, String())
+- uid: BindOpen.Application.Options.IOptionSpecSet.AddOption(System.String[])
+  commentId: M:BindOpen.Application.Options.IOptionSpecSet.AddOption(System.String[])
+  id: AddOption(System.String[])
+  parent: BindOpen.Application.Options.IOptionSpecSet
+  langs:
+  - csharp
+  - vb
+  name: AddOption(String[])
+  nameWithType: IOptionSpecSet.AddOption(String[])
+  fullName: BindOpen.Application.Options.IOptionSpecSet.AddOption(System.String[])
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Options
+  summary: "\n\n"
+  syntax:
+    content: IOptionSpecSet AddOption(params string[] aliases)
+    parameters:
+    - id: aliases
+      type: System.String[]
+    return:
+      type: BindOpen.Application.Options.IOptionSpecSet
+    content.vb: Function AddOption(ParamArray aliases As String()) As IOptionSpecSet
+  overload: BindOpen.Application.Options.IOptionSpecSet.AddOption*
+  nameWithType.vb: IOptionSpecSet.AddOption(String())
+  fullName.vb: BindOpen.Application.Options.IOptionSpecSet.AddOption(System.String())
+  name.vb: AddOption(String())
+- uid: BindOpen.Application.Options.IOptionSpecSet.AddOption(BindOpen.Data.Common.RequirementLevel,BindOpen.Application.Options.OptionNameKind,System.String[])
+  commentId: M:BindOpen.Application.Options.IOptionSpecSet.AddOption(BindOpen.Data.Common.RequirementLevel,BindOpen.Application.Options.OptionNameKind,System.String[])
+  id: AddOption(BindOpen.Data.Common.RequirementLevel,BindOpen.Application.Options.OptionNameKind,System.String[])
+  parent: BindOpen.Application.Options.IOptionSpecSet
+  langs:
+  - csharp
+  - vb
+  name: AddOption(RequirementLevel, OptionNameKind, String[])
+  nameWithType: IOptionSpecSet.AddOption(RequirementLevel, OptionNameKind, String[])
+  fullName: BindOpen.Application.Options.IOptionSpecSet.AddOption(BindOpen.Data.Common.RequirementLevel, BindOpen.Application.Options.OptionNameKind, System.String[])
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Options
+  summary: "\n\n"
+  syntax:
+    content: IOptionSpecSet AddOption(RequirementLevel requirementLevel, OptionNameKind nameKind, params string[] aliases)
+    parameters:
+    - id: requirementLevel
+      type: BindOpen.Data.Common.RequirementLevel
+    - id: nameKind
+      type: BindOpen.Application.Options.OptionNameKind
+    - id: aliases
+      type: System.String[]
+    return:
+      type: BindOpen.Application.Options.IOptionSpecSet
+    content.vb: Function AddOption(requirementLevel As RequirementLevel, nameKind As OptionNameKind, ParamArray aliases As String()) As IOptionSpecSet
+  overload: BindOpen.Application.Options.IOptionSpecSet.AddOption*
+  nameWithType.vb: IOptionSpecSet.AddOption(RequirementLevel, OptionNameKind, String())
+  fullName.vb: BindOpen.Application.Options.IOptionSpecSet.AddOption(BindOpen.Data.Common.RequirementLevel, BindOpen.Application.Options.OptionNameKind, System.String())
+  name.vb: AddOption(RequirementLevel, OptionNameKind, String())
+- uid: BindOpen.Application.Options.IOptionSpecSet.AddOption(BindOpen.Data.Common.RequirementLevel,System.String[])
+  commentId: M:BindOpen.Application.Options.IOptionSpecSet.AddOption(BindOpen.Data.Common.RequirementLevel,System.String[])
+  id: AddOption(BindOpen.Data.Common.RequirementLevel,System.String[])
+  parent: BindOpen.Application.Options.IOptionSpecSet
+  langs:
+  - csharp
+  - vb
+  name: AddOption(RequirementLevel, String[])
+  nameWithType: IOptionSpecSet.AddOption(RequirementLevel, String[])
+  fullName: BindOpen.Application.Options.IOptionSpecSet.AddOption(BindOpen.Data.Common.RequirementLevel, System.String[])
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Options
+  summary: "\n\n"
+  syntax:
+    content: IOptionSpecSet AddOption(RequirementLevel requirementLevel, params string[] aliases)
+    parameters:
+    - id: requirementLevel
+      type: BindOpen.Data.Common.RequirementLevel
+    - id: aliases
+      type: System.String[]
+    return:
+      type: BindOpen.Application.Options.IOptionSpecSet
+    content.vb: Function AddOption(requirementLevel As RequirementLevel, ParamArray aliases As String()) As IOptionSpecSet
+  overload: BindOpen.Application.Options.IOptionSpecSet.AddOption*
+  nameWithType.vb: IOptionSpecSet.AddOption(RequirementLevel, String())
+  fullName.vb: BindOpen.Application.Options.IOptionSpecSet.AddOption(BindOpen.Data.Common.RequirementLevel, System.String())
+  name.vb: AddOption(RequirementLevel, String())
+- uid: BindOpen.Application.Options.IOptionSpecSet.AddOption(System.Type,BindOpen.Data.Common.RequirementLevel,BindOpen.Application.Options.OptionNameKind,System.String[])
+  commentId: M:BindOpen.Application.Options.IOptionSpecSet.AddOption(System.Type,BindOpen.Data.Common.RequirementLevel,BindOpen.Application.Options.OptionNameKind,System.String[])
+  id: AddOption(System.Type,BindOpen.Data.Common.RequirementLevel,BindOpen.Application.Options.OptionNameKind,System.String[])
+  parent: BindOpen.Application.Options.IOptionSpecSet
+  langs:
+  - csharp
+  - vb
+  name: AddOption(Type, RequirementLevel, OptionNameKind, String[])
+  nameWithType: IOptionSpecSet.AddOption(Type, RequirementLevel, OptionNameKind, String[])
+  fullName: BindOpen.Application.Options.IOptionSpecSet.AddOption(System.Type, BindOpen.Data.Common.RequirementLevel, BindOpen.Application.Options.OptionNameKind, System.String[])
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Options
+  summary: "\n\n"
+  syntax:
+    content: IOptionSpecSet AddOption(Type type, RequirementLevel requirementLevel, OptionNameKind nameKind, params string[] aliases)
+    parameters:
+    - id: type
+      type: System.Type
+    - id: requirementLevel
+      type: BindOpen.Data.Common.RequirementLevel
+    - id: nameKind
+      type: BindOpen.Application.Options.OptionNameKind
+    - id: aliases
+      type: System.String[]
+    return:
+      type: BindOpen.Application.Options.IOptionSpecSet
+    content.vb: Function AddOption(type As Type, requirementLevel As RequirementLevel, nameKind As OptionNameKind, ParamArray aliases As String()) As IOptionSpecSet
+  overload: BindOpen.Application.Options.IOptionSpecSet.AddOption*
+  nameWithType.vb: IOptionSpecSet.AddOption(Type, RequirementLevel, OptionNameKind, String())
+  fullName.vb: BindOpen.Application.Options.IOptionSpecSet.AddOption(System.Type, BindOpen.Data.Common.RequirementLevel, BindOpen.Application.Options.OptionNameKind, System.String())
+  name.vb: AddOption(Type, RequirementLevel, OptionNameKind, String())
+- uid: BindOpen.Application.Options.IOptionSpecSet.AddSubSet(BindOpen.Data.Conditions.ICondition,BindOpen.Application.Options.IOptionSpec[])
+  commentId: M:BindOpen.Application.Options.IOptionSpecSet.AddSubSet(BindOpen.Data.Conditions.ICondition,BindOpen.Application.Options.IOptionSpec[])
+  id: AddSubSet(BindOpen.Data.Conditions.ICondition,BindOpen.Application.Options.IOptionSpec[])
+  parent: BindOpen.Application.Options.IOptionSpecSet
+  langs:
+  - csharp
+  - vb
+  name: AddSubSet(ICondition, IOptionSpec[])
+  nameWithType: IOptionSpecSet.AddSubSet(ICondition, IOptionSpec[])
+  fullName: BindOpen.Application.Options.IOptionSpecSet.AddSubSet(BindOpen.Data.Conditions.ICondition, BindOpen.Application.Options.IOptionSpec[])
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Options
+  summary: "\n\n"
+  syntax:
+    content: IOptionSpecSet AddSubSet(ICondition condition, params IOptionSpec[] optionSpecifications)
+    parameters:
+    - id: condition
+      type: BindOpen.Data.Conditions.ICondition
+    - id: optionSpecifications
+      type: BindOpen.Application.Options.IOptionSpec[]
+    return:
+      type: BindOpen.Application.Options.IOptionSpecSet
+    content.vb: Function AddSubSet(condition As ICondition, ParamArray optionSpecifications As IOptionSpec()) As IOptionSpecSet
+  overload: BindOpen.Application.Options.IOptionSpecSet.AddSubSet*
+  nameWithType.vb: IOptionSpecSet.AddSubSet(ICondition, IOptionSpec())
+  fullName.vb: BindOpen.Application.Options.IOptionSpecSet.AddSubSet(BindOpen.Data.Conditions.ICondition, BindOpen.Application.Options.IOptionSpec())
+  name.vb: AddSubSet(ICondition, IOptionSpec())
+- uid: BindOpen.Application.Options.IOptionSpecSet.AddSubSet(BindOpen.Application.Options.IOptionSpecSet)
+  commentId: M:BindOpen.Application.Options.IOptionSpecSet.AddSubSet(BindOpen.Application.Options.IOptionSpecSet)
+  id: AddSubSet(BindOpen.Application.Options.IOptionSpecSet)
+  parent: BindOpen.Application.Options.IOptionSpecSet
+  langs:
+  - csharp
+  - vb
+  name: AddSubSet(IOptionSpecSet)
+  nameWithType: IOptionSpecSet.AddSubSet(IOptionSpecSet)
+  fullName: BindOpen.Application.Options.IOptionSpecSet.AddSubSet(BindOpen.Application.Options.IOptionSpecSet)
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Options
+  summary: "\n\n"
+  syntax:
+    content: IOptionSpecSet AddSubSet(IOptionSpecSet subSet)
+    parameters:
+    - id: subSet
+      type: BindOpen.Application.Options.IOptionSpecSet
+    return:
+      type: BindOpen.Application.Options.IOptionSpecSet
+    content.vb: Function AddSubSet(subSet As IOptionSpecSet) As IOptionSpecSet
+  overload: BindOpen.Application.Options.IOptionSpecSet.AddSubSet*
+- uid: BindOpen.Application.Options.IOptionSpecSet.AddSubSet(BindOpen.Application.Options.IOptionSpec[])
+  commentId: M:BindOpen.Application.Options.IOptionSpecSet.AddSubSet(BindOpen.Application.Options.IOptionSpec[])
+  id: AddSubSet(BindOpen.Application.Options.IOptionSpec[])
+  parent: BindOpen.Application.Options.IOptionSpecSet
+  langs:
+  - csharp
+  - vb
+  name: AddSubSet(IOptionSpec[])
+  nameWithType: IOptionSpecSet.AddSubSet(IOptionSpec[])
+  fullName: BindOpen.Application.Options.IOptionSpecSet.AddSubSet(BindOpen.Application.Options.IOptionSpec[])
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Options
+  summary: "\n\n"
+  syntax:
+    content: IOptionSpecSet AddSubSet(params IOptionSpec[] optionSpecifications)
+    parameters:
+    - id: optionSpecifications
+      type: BindOpen.Application.Options.IOptionSpec[]
+    return:
+      type: BindOpen.Application.Options.IOptionSpecSet
+    content.vb: Function AddSubSet(ParamArray optionSpecifications As IOptionSpec()) As IOptionSpecSet
+  overload: BindOpen.Application.Options.IOptionSpecSet.AddSubSet*
+  nameWithType.vb: IOptionSpecSet.AddSubSet(IOptionSpec())
+  fullName.vb: BindOpen.Application.Options.IOptionSpecSet.AddSubSet(BindOpen.Application.Options.IOptionSpec())
+  name.vb: AddSubSet(IOptionSpec())
+- uid: BindOpen.Application.Options.IOptionSpecSet.ClearOptions
+  commentId: M:BindOpen.Application.Options.IOptionSpecSet.ClearOptions
+  id: ClearOptions
+  parent: BindOpen.Application.Options.IOptionSpecSet
+  langs:
+  - csharp
+  - vb
+  name: ClearOptions()
+  nameWithType: IOptionSpecSet.ClearOptions()
+  fullName: BindOpen.Application.Options.IOptionSpecSet.ClearOptions()
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Options
+  summary: "\n\n"
+  syntax:
+    content: void ClearOptions()
+    content.vb: Sub ClearOptions
+  overload: BindOpen.Application.Options.IOptionSpecSet.ClearOptions*
+- uid: BindOpen.Application.Options.IOptionSpecSet.GetHelpText(System.String)
+  commentId: M:BindOpen.Application.Options.IOptionSpecSet.GetHelpText(System.String)
+  id: GetHelpText(System.String)
+  parent: BindOpen.Application.Options.IOptionSpecSet
+  langs:
+  - csharp
+  - vb
+  name: GetHelpText(String)
+  nameWithType: IOptionSpecSet.GetHelpText(String)
+  fullName: BindOpen.Application.Options.IOptionSpecSet.GetHelpText(System.String)
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Options
+  summary: "\n\n"
+  syntax:
+    content: string GetHelpText(string uiCulture = "*")
+    parameters:
+    - id: uiCulture
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Function GetHelpText(uiCulture As String = "*") As String
+  overload: BindOpen.Application.Options.IOptionSpecSet.GetHelpText*
+- uid: BindOpen.Application.Options.IOptionSpecSet.HasOption(System.String)
+  commentId: M:BindOpen.Application.Options.IOptionSpecSet.HasOption(System.String)
+  id: HasOption(System.String)
+  parent: BindOpen.Application.Options.IOptionSpecSet
+  langs:
+  - csharp
+  - vb
+  name: HasOption(String)
+  nameWithType: IOptionSpecSet.HasOption(String)
+  fullName: BindOpen.Application.Options.IOptionSpecSet.HasOption(System.String)
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Options
+  summary: "\n\n"
+  syntax:
+    content: bool HasOption(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Function HasOption(name As String) As Boolean
+  overload: BindOpen.Application.Options.IOptionSpecSet.HasOption*
+- uid: BindOpen.Application.Options.IOptionSpecSet.RemoveOption(System.String)
+  commentId: M:BindOpen.Application.Options.IOptionSpecSet.RemoveOption(System.String)
+  id: RemoveOption(System.String)
+  parent: BindOpen.Application.Options.IOptionSpecSet
+  langs:
+  - csharp
+  - vb
+  name: RemoveOption(String)
+  nameWithType: IOptionSpecSet.RemoveOption(String)
+  fullName: BindOpen.Application.Options.IOptionSpecSet.RemoveOption(System.String)
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Options
+  summary: "\n\n"
+  syntax:
+    content: IOptionSpecSet RemoveOption(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: BindOpen.Application.Options.IOptionSpecSet
+    content.vb: Function RemoveOption(name As String) As IOptionSpecSet
+  overload: BindOpen.Application.Options.IOptionSpecSet.RemoveOption*
+- uid: BindOpen.Application.Options.IOptionSpecSet.Condition
+  commentId: P:BindOpen.Application.Options.IOptionSpecSet.Condition
+  id: Condition
+  parent: BindOpen.Application.Options.IOptionSpecSet
+  langs:
+  - csharp
+  - vb
+  name: Condition
+  nameWithType: IOptionSpecSet.Condition
+  fullName: BindOpen.Application.Options.IOptionSpecSet.Condition
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Options
+  summary: "\n\n"
+  syntax:
+    content: Condition Condition { get; set; }
+    parameters: []
+    return:
+      type: BindOpen.Data.Conditions.Condition
+    content.vb: Property Condition As Condition
+  overload: BindOpen.Application.Options.IOptionSpecSet.Condition*
+  modifiers.csharp:
+  - get
+  - set
+- uid: BindOpen.Application.Options.IOptionSpecSet.SubSets
+  commentId: P:BindOpen.Application.Options.IOptionSpecSet.SubSets
+  id: SubSets
+  parent: BindOpen.Application.Options.IOptionSpecSet
+  langs:
+  - csharp
+  - vb
+  name: SubSets
+  nameWithType: IOptionSpecSet.SubSets
+  fullName: BindOpen.Application.Options.IOptionSpecSet.SubSets
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Options
+  summary: "\n\n"
+  syntax:
+    content: List<OptionSpecSet> SubSets { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{BindOpen.Application.Options.OptionSpecSet}
+    content.vb: Property SubSets As List(Of OptionSpecSet)
+  overload: BindOpen.Application.Options.IOptionSpecSet.SubSets*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: BindOpen.Application.Options
+  commentId: N:BindOpen.Application.Options
+  isExternal: true
+  name: BindOpen.Application.Options
+  nameWithType: BindOpen.Application.Options
+  fullName: BindOpen.Application.Options
+- uid: BindOpen.Application.Options.IOptionSpecSet.AddOption*
+  commentId: Overload:BindOpen.Application.Options.IOptionSpecSet.AddOption
+  isExternal: true
+  name: AddOption
+  nameWithType: IOptionSpecSet.AddOption
+  fullName: BindOpen.Application.Options.IOptionSpecSet.AddOption
+- uid: BindOpen.Data.Common.DataValueType
+  isExternal: true
+  name: DataValueType
+  nameWithType: DataValueType
+  fullName: BindOpen.Data.Common.DataValueType
+- uid: BindOpen.Application.Options.OptionNameKind
+  commentId: T:BindOpen.Application.Options.OptionNameKind
+  parent: BindOpen.Application.Options
+  isExternal: true
+  name: OptionNameKind
+  nameWithType: OptionNameKind
+  fullName: BindOpen.Application.Options.OptionNameKind
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: BindOpen.Application.Options.IOptionSpecSet
+  commentId: T:BindOpen.Application.Options.IOptionSpecSet
+  parent: BindOpen.Application.Options
+  isExternal: true
+  name: IOptionSpecSet
+  nameWithType: IOptionSpecSet
+  fullName: BindOpen.Application.Options.IOptionSpecSet
+- uid: BindOpen.Data.Common.RequirementLevel
+  isExternal: true
+  name: RequirementLevel
+  nameWithType: RequirementLevel
+  fullName: BindOpen.Data.Common.RequirementLevel
+- uid: System.Type
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: BindOpen.Application.Options.IOptionSpecSet.AddSubSet*
+  commentId: Overload:BindOpen.Application.Options.IOptionSpecSet.AddSubSet
+  isExternal: true
+  name: AddSubSet
+  nameWithType: IOptionSpecSet.AddSubSet
+  fullName: BindOpen.Application.Options.IOptionSpecSet.AddSubSet
+- uid: BindOpen.Data.Conditions.ICondition
+  isExternal: true
+  name: ICondition
+  nameWithType: ICondition
+  fullName: BindOpen.Data.Conditions.ICondition
+- uid: BindOpen.Application.Options.IOptionSpec[]
+  isExternal: true
+  name: IOptionSpec[]
+  nameWithType: IOptionSpec[]
+  fullName: BindOpen.Application.Options.IOptionSpec[]
+  nameWithType.vb: IOptionSpec()
+  fullName.vb: BindOpen.Application.Options.IOptionSpec()
+  name.vb: IOptionSpec()
+  spec.csharp:
+  - uid: BindOpen.Application.Options.IOptionSpec
+    name: IOptionSpec
+    nameWithType: IOptionSpec
+    fullName: BindOpen.Application.Options.IOptionSpec
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: BindOpen.Application.Options.IOptionSpec
+    name: IOptionSpec
+    nameWithType: IOptionSpec
+    fullName: BindOpen.Application.Options.IOptionSpec
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: BindOpen.Application.Options.IOptionSpecSet.ClearOptions*
+  commentId: Overload:BindOpen.Application.Options.IOptionSpecSet.ClearOptions
+  isExternal: true
+  name: ClearOptions
+  nameWithType: IOptionSpecSet.ClearOptions
+  fullName: BindOpen.Application.Options.IOptionSpecSet.ClearOptions
+- uid: BindOpen.Application.Options.IOptionSpecSet.GetHelpText*
+  commentId: Overload:BindOpen.Application.Options.IOptionSpecSet.GetHelpText
+  isExternal: true
+  name: GetHelpText
+  nameWithType: IOptionSpecSet.GetHelpText
+  fullName: BindOpen.Application.Options.IOptionSpecSet.GetHelpText
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Application.Options.IOptionSpecSet.HasOption*
+  commentId: Overload:BindOpen.Application.Options.IOptionSpecSet.HasOption
+  isExternal: true
+  name: HasOption
+  nameWithType: IOptionSpecSet.HasOption
+  fullName: BindOpen.Application.Options.IOptionSpecSet.HasOption
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: BindOpen.Application.Options.IOptionSpecSet.RemoveOption*
+  commentId: Overload:BindOpen.Application.Options.IOptionSpecSet.RemoveOption
+  isExternal: true
+  name: RemoveOption
+  nameWithType: IOptionSpecSet.RemoveOption
+  fullName: BindOpen.Application.Options.IOptionSpecSet.RemoveOption
+- uid: BindOpen.Application.Options.IOptionSpecSet.Condition*
+  commentId: Overload:BindOpen.Application.Options.IOptionSpecSet.Condition
+  isExternal: true
+  name: Condition
+  nameWithType: IOptionSpecSet.Condition
+  fullName: BindOpen.Application.Options.IOptionSpecSet.Condition
+- uid: BindOpen.Data.Conditions.Condition
+  isExternal: true
+  name: Condition
+  nameWithType: Condition
+  fullName: BindOpen.Data.Conditions.Condition
+- uid: BindOpen.Application.Options.IOptionSpecSet.SubSets*
+  commentId: Overload:BindOpen.Application.Options.IOptionSpecSet.SubSets
+  isExternal: true
+  name: SubSets
+  nameWithType: IOptionSpecSet.SubSets
+  fullName: BindOpen.Application.Options.IOptionSpecSet.SubSets
+- uid: System.Collections.Generic.List{BindOpen.Application.Options.OptionSpecSet}
+  commentId: '!:System.Collections.Generic.List{BindOpen.Application.Options.OptionSpecSet}'
+  definition: System.Collections.Generic.List`1
+  name: List<OptionSpecSet>
+  nameWithType: List<OptionSpecSet>
+  fullName: System.Collections.Generic.List<BindOpen.Application.Options.OptionSpecSet>
+  nameWithType.vb: List(Of OptionSpecSet)
+  fullName.vb: System.Collections.Generic.List(Of BindOpen.Application.Options.OptionSpecSet)
+  name.vb: List(Of OptionSpecSet)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BindOpen.Application.Options.OptionSpecSet
+    name: OptionSpecSet
+    nameWithType: OptionSpecSet
+    fullName: BindOpen.Application.Options.OptionSpecSet
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BindOpen.Application.Options.OptionSpecSet
+    name: OptionSpecSet
+    nameWithType: OptionSpecSet
+    fullName: BindOpen.Application.Options.OptionSpecSet
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+shouldSkipMarkup: true

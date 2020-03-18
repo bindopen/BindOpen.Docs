@@ -1,0 +1,416 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Application.Settings.IBdoSettings
+  commentId: T:BindOpen.Application.Settings.IBdoSettings
+  id: IBdoSettings
+  parent: BindOpen.Application.Settings
+  children:
+  - BindOpen.Application.Settings.IBdoSettings.BdoScope
+  - BindOpen.Application.Settings.IBdoSettings.Get(System.String)
+  - BindOpen.Application.Settings.IBdoSettings.Get``1(System.String)
+  - BindOpen.Application.Settings.IBdoSettings.GetProperty``1(``0,System.String)
+  - BindOpen.Application.Settings.IBdoSettings.GetProperty``1(System.String)
+  - BindOpen.Application.Settings.IBdoSettings.Set(System.String,System.Object)
+  - BindOpen.Application.Settings.IBdoSettings.SetProperty(System.Object,System.String)
+  - BindOpen.Application.Settings.IBdoSettings.UpdateFromFile(System.String,BindOpen.Data.Common.SpecificationLevels[],BindOpen.Data.Elements.IDataElementSpecSet,BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,System.Xml.Schema.XmlSchemaSet)
+  langs:
+  - csharp
+  - vb
+  name: IBdoSettings
+  nameWithType: IBdoSettings
+  fullName: BindOpen.Application.Settings.IBdoSettings
+  type: Interface
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Settings
+  summary: "\n\n"
+  syntax:
+    content: 'public interface IBdoSettings : IDataItem, ICloneable, IDisposable, IReferenced'
+    content.vb: >-
+      Public Interface IBdoSettings
+          Inherits IDataItem, ICloneable, IDisposable, IReferenced
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: BindOpen.Application.Settings.IBdoSettings.Get``1(System.String)
+  commentId: M:BindOpen.Application.Settings.IBdoSettings.Get``1(System.String)
+  id: Get``1(System.String)
+  parent: BindOpen.Application.Settings.IBdoSettings
+  langs:
+  - csharp
+  - vb
+  name: Get<T>(String)
+  nameWithType: IBdoSettings.Get<T>(String)
+  fullName: BindOpen.Application.Settings.IBdoSettings.Get<T>(System.String)
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Settings
+  summary: "\n\n"
+  syntax:
+    content: T Get<T>(string name)
+    parameters:
+    - id: name
+      type: System.String
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Function Get(Of T)(name As String) As T
+  overload: BindOpen.Application.Settings.IBdoSettings.Get*
+  nameWithType.vb: IBdoSettings.Get(Of T)(String)
+  fullName.vb: BindOpen.Application.Settings.IBdoSettings.Get(Of T)(System.String)
+  name.vb: Get(Of T)(String)
+- uid: BindOpen.Application.Settings.IBdoSettings.Get(System.String)
+  commentId: M:BindOpen.Application.Settings.IBdoSettings.Get(System.String)
+  id: Get(System.String)
+  parent: BindOpen.Application.Settings.IBdoSettings
+  langs:
+  - csharp
+  - vb
+  name: Get(String)
+  nameWithType: IBdoSettings.Get(String)
+  fullName: BindOpen.Application.Settings.IBdoSettings.Get(System.String)
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Settings
+  summary: "\n\n"
+  syntax:
+    content: object Get(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: System.Object
+    content.vb: Function Get(name As String) As Object
+  overload: BindOpen.Application.Settings.IBdoSettings.Get*
+- uid: BindOpen.Application.Settings.IBdoSettings.GetProperty``1(System.String)
+  commentId: M:BindOpen.Application.Settings.IBdoSettings.GetProperty``1(System.String)
+  id: GetProperty``1(System.String)
+  parent: BindOpen.Application.Settings.IBdoSettings
+  langs:
+  - csharp
+  - vb
+  name: GetProperty<T>(String)
+  nameWithType: IBdoSettings.GetProperty<T>(String)
+  fullName: BindOpen.Application.Settings.IBdoSettings.GetProperty<T>(System.String)
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Settings
+  summary: "\n\n"
+  syntax:
+    content: T GetProperty<T>(string propertyName = null)
+    parameters:
+    - id: propertyName
+      type: System.String
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Function GetProperty(Of T)(propertyName As String = Nothing) As T
+  overload: BindOpen.Application.Settings.IBdoSettings.GetProperty*
+  nameWithType.vb: IBdoSettings.GetProperty(Of T)(String)
+  fullName.vb: BindOpen.Application.Settings.IBdoSettings.GetProperty(Of T)(System.String)
+  name.vb: GetProperty(Of T)(String)
+- uid: BindOpen.Application.Settings.IBdoSettings.GetProperty``1(``0,System.String)
+  commentId: M:BindOpen.Application.Settings.IBdoSettings.GetProperty``1(``0,System.String)
+  id: GetProperty``1(``0,System.String)
+  parent: BindOpen.Application.Settings.IBdoSettings
+  langs:
+  - csharp
+  - vb
+  name: GetProperty<T>(T, String)
+  nameWithType: IBdoSettings.GetProperty<T>(T, String)
+  fullName: BindOpen.Application.Settings.IBdoSettings.GetProperty<T>(T, System.String)
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Settings
+  summary: "\n\n"
+  syntax:
+    content: >-
+      T GetProperty<T>(T defaultValue, string propertyName = null)
+          where T : struct, IConvertible, ValueType
+    parameters:
+    - id: defaultValue
+      type: '{T}'
+    - id: propertyName
+      type: System.String
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Function GetProperty(Of T As {Structure, IConvertible, ValueType})(defaultValue As T, propertyName As String = Nothing) As T
+  overload: BindOpen.Application.Settings.IBdoSettings.GetProperty*
+  nameWithType.vb: IBdoSettings.GetProperty(Of T)(T, String)
+  fullName.vb: BindOpen.Application.Settings.IBdoSettings.GetProperty(Of T)(T, System.String)
+  name.vb: GetProperty(Of T)(T, String)
+- uid: BindOpen.Application.Settings.IBdoSettings.Set(System.String,System.Object)
+  commentId: M:BindOpen.Application.Settings.IBdoSettings.Set(System.String,System.Object)
+  id: Set(System.String,System.Object)
+  parent: BindOpen.Application.Settings.IBdoSettings
+  langs:
+  - csharp
+  - vb
+  name: Set(String, Object)
+  nameWithType: IBdoSettings.Set(String, Object)
+  fullName: BindOpen.Application.Settings.IBdoSettings.Set(System.String, System.Object)
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Settings
+  summary: "\n\n"
+  syntax:
+    content: void Set(string name, object value)
+    parameters:
+    - id: name
+      type: System.String
+    - id: value
+      type: System.Object
+    content.vb: Sub Set(name As String, value As Object)
+  overload: BindOpen.Application.Settings.IBdoSettings.Set*
+- uid: BindOpen.Application.Settings.IBdoSettings.SetProperty(System.Object,System.String)
+  commentId: M:BindOpen.Application.Settings.IBdoSettings.SetProperty(System.Object,System.String)
+  id: SetProperty(System.Object,System.String)
+  parent: BindOpen.Application.Settings.IBdoSettings
+  langs:
+  - csharp
+  - vb
+  name: SetProperty(Object, String)
+  nameWithType: IBdoSettings.SetProperty(Object, String)
+  fullName: BindOpen.Application.Settings.IBdoSettings.SetProperty(System.Object, System.String)
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Settings
+  summary: "\n\n"
+  syntax:
+    content: void SetProperty(object value, string propertyName = null)
+    parameters:
+    - id: value
+      type: System.Object
+    - id: propertyName
+      type: System.String
+    content.vb: Sub SetProperty(value As Object, propertyName As String = Nothing)
+  overload: BindOpen.Application.Settings.IBdoSettings.SetProperty*
+- uid: BindOpen.Application.Settings.IBdoSettings.UpdateFromFile(System.String,BindOpen.Data.Common.SpecificationLevels[],BindOpen.Data.Elements.IDataElementSpecSet,BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,System.Xml.Schema.XmlSchemaSet)
+  commentId: M:BindOpen.Application.Settings.IBdoSettings.UpdateFromFile(System.String,BindOpen.Data.Common.SpecificationLevels[],BindOpen.Data.Elements.IDataElementSpecSet,BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,System.Xml.Schema.XmlSchemaSet)
+  id: UpdateFromFile(System.String,BindOpen.Data.Common.SpecificationLevels[],BindOpen.Data.Elements.IDataElementSpecSet,BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,System.Xml.Schema.XmlSchemaSet)
+  parent: BindOpen.Application.Settings.IBdoSettings
+  langs:
+  - csharp
+  - vb
+  name: UpdateFromFile(String, SpecificationLevels[], IDataElementSpecSet, IBdoScope, IBdoScriptVariableSet, XmlSchemaSet)
+  nameWithType: IBdoSettings.UpdateFromFile(String, SpecificationLevels[], IDataElementSpecSet, IBdoScope, IBdoScriptVariableSet, XmlSchemaSet)
+  fullName: BindOpen.Application.Settings.IBdoSettings.UpdateFromFile(System.String, BindOpen.Data.Common.SpecificationLevels[], BindOpen.Data.Elements.IDataElementSpecSet, BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, System.Xml.Schema.XmlSchemaSet)
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Settings
+  summary: "\n\n"
+  syntax:
+    content: IBdoLog UpdateFromFile(string filePath, SpecificationLevels[] specificationLevels = null, IDataElementSpecSet specificationSet = null, IBdoScope scope = null, IBdoScriptVariableSet scriptVariableSet = null, XmlSchemaSet xmlSchemaSet = null)
+    parameters:
+    - id: filePath
+      type: System.String
+    - id: specificationLevels
+      type: BindOpen.Data.Common.SpecificationLevels[]
+    - id: specificationSet
+      type: BindOpen.Data.Elements.IDataElementSpecSet
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: The script variable set to consider.
+    - id: xmlSchemaSet
+      type: System.Xml.Schema.XmlSchemaSet
+    return:
+      type: BindOpen.System.Diagnostics.IBdoLog
+    content.vb: Function UpdateFromFile(filePath As String, specificationLevels As SpecificationLevels() = Nothing, specificationSet As IDataElementSpecSet = Nothing, scope As IBdoScope = Nothing, scriptVariableSet As IBdoScriptVariableSet = Nothing, xmlSchemaSet As XmlSchemaSet = Nothing) As IBdoLog
+  overload: BindOpen.Application.Settings.IBdoSettings.UpdateFromFile*
+  nameWithType.vb: IBdoSettings.UpdateFromFile(String, SpecificationLevels(), IDataElementSpecSet, IBdoScope, IBdoScriptVariableSet, XmlSchemaSet)
+  fullName.vb: BindOpen.Application.Settings.IBdoSettings.UpdateFromFile(System.String, BindOpen.Data.Common.SpecificationLevels(), BindOpen.Data.Elements.IDataElementSpecSet, BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, System.Xml.Schema.XmlSchemaSet)
+  name.vb: UpdateFromFile(String, SpecificationLevels(), IDataElementSpecSet, IBdoScope, IBdoScriptVariableSet, XmlSchemaSet)
+- uid: BindOpen.Application.Settings.IBdoSettings.BdoScope
+  commentId: P:BindOpen.Application.Settings.IBdoSettings.BdoScope
+  id: BdoScope
+  parent: BindOpen.Application.Settings.IBdoSettings
+  langs:
+  - csharp
+  - vb
+  name: BdoScope
+  nameWithType: IBdoSettings.BdoScope
+  fullName: BindOpen.Application.Settings.IBdoSettings.BdoScope
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Settings
+  summary: "\n\n"
+  syntax:
+    content: IBdoScope BdoScope { get; }
+    parameters: []
+    return:
+      type: BindOpen.Application.Scopes.IBdoScope
+    content.vb: ReadOnly Property BdoScope As IBdoScope
+  overload: BindOpen.Application.Settings.IBdoSettings.BdoScope*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: BindOpen.Application.Settings
+  commentId: N:BindOpen.Application.Settings
+  isExternal: true
+  name: BindOpen.Application.Settings
+  nameWithType: BindOpen.Application.Settings
+  fullName: BindOpen.Application.Settings
+- uid: BindOpen.Application.Settings.IBdoSettings.Get*
+  commentId: Overload:BindOpen.Application.Settings.IBdoSettings.Get
+  isExternal: true
+  name: Get
+  nameWithType: IBdoSettings.Get
+  fullName: BindOpen.Application.Settings.IBdoSettings.Get
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BindOpen.Application.Settings.IBdoSettings.GetProperty*
+  commentId: Overload:BindOpen.Application.Settings.IBdoSettings.GetProperty
+  isExternal: true
+  name: GetProperty
+  nameWithType: IBdoSettings.GetProperty
+  fullName: BindOpen.Application.Settings.IBdoSettings.GetProperty
+- uid: BindOpen.Application.Settings.IBdoSettings.Set*
+  commentId: Overload:BindOpen.Application.Settings.IBdoSettings.Set
+  isExternal: true
+  name: Set
+  nameWithType: IBdoSettings.Set
+  fullName: BindOpen.Application.Settings.IBdoSettings.Set
+- uid: BindOpen.Application.Settings.IBdoSettings.SetProperty*
+  commentId: Overload:BindOpen.Application.Settings.IBdoSettings.SetProperty
+  isExternal: true
+  name: SetProperty
+  nameWithType: IBdoSettings.SetProperty
+  fullName: BindOpen.Application.Settings.IBdoSettings.SetProperty
+- uid: BindOpen.Application.Settings.IBdoSettings.UpdateFromFile*
+  commentId: Overload:BindOpen.Application.Settings.IBdoSettings.UpdateFromFile
+  isExternal: true
+  name: UpdateFromFile
+  nameWithType: IBdoSettings.UpdateFromFile
+  fullName: BindOpen.Application.Settings.IBdoSettings.UpdateFromFile
+- uid: BindOpen.Data.Common.SpecificationLevels[]
+  isExternal: true
+  name: SpecificationLevels[]
+  nameWithType: SpecificationLevels[]
+  fullName: BindOpen.Data.Common.SpecificationLevels[]
+  nameWithType.vb: SpecificationLevels()
+  fullName.vb: BindOpen.Data.Common.SpecificationLevels()
+  name.vb: SpecificationLevels()
+  spec.csharp:
+  - uid: BindOpen.Data.Common.SpecificationLevels
+    name: SpecificationLevels
+    nameWithType: SpecificationLevels
+    fullName: BindOpen.Data.Common.SpecificationLevels
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: BindOpen.Data.Common.SpecificationLevels
+    name: SpecificationLevels
+    nameWithType: SpecificationLevels
+    fullName: BindOpen.Data.Common.SpecificationLevels
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: BindOpen.Data.Elements.IDataElementSpecSet
+  isExternal: true
+  name: IDataElementSpecSet
+  nameWithType: IDataElementSpecSet
+  fullName: BindOpen.Data.Elements.IDataElementSpecSet
+- uid: BindOpen.Application.Scopes.IBdoScope
+  isExternal: true
+  name: IBdoScope
+  nameWithType: IBdoScope
+  fullName: BindOpen.Application.Scopes.IBdoScope
+- uid: BindOpen.System.Scripting.IBdoScriptVariableSet
+  isExternal: true
+  name: IBdoScriptVariableSet
+  nameWithType: IBdoScriptVariableSet
+  fullName: BindOpen.System.Scripting.IBdoScriptVariableSet
+- uid: System.Xml.Schema.XmlSchemaSet
+  isExternal: true
+  name: XmlSchemaSet
+  nameWithType: XmlSchemaSet
+  fullName: System.Xml.Schema.XmlSchemaSet
+- uid: BindOpen.System.Diagnostics.IBdoLog
+  isExternal: true
+  name: IBdoLog
+  nameWithType: IBdoLog
+  fullName: BindOpen.System.Diagnostics.IBdoLog
+- uid: BindOpen.Application.Settings.IBdoSettings.BdoScope*
+  commentId: Overload:BindOpen.Application.Settings.IBdoSettings.BdoScope
+  isExternal: true
+  name: BdoScope
+  nameWithType: IBdoSettings.BdoScope
+  fullName: BindOpen.Application.Settings.IBdoSettings.BdoScope
+shouldSkipMarkup: true

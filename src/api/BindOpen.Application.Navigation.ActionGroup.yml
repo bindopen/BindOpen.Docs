@@ -1,0 +1,340 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Application.Navigation.ActionGroup
+  commentId: T:BindOpen.Application.Navigation.ActionGroup
+  id: ActionGroup
+  parent: BindOpen.Application.Navigation
+  children:
+  - BindOpen.Application.Navigation.ActionGroup.Adding
+  - BindOpen.Application.Navigation.ActionGroup.Custom
+  - BindOpen.Application.Navigation.ActionGroup.Deleting
+  - BindOpen.Application.Navigation.ActionGroup.Exporting
+  - BindOpen.Application.Navigation.ActionGroup.Modifying
+  - BindOpen.Application.Navigation.ActionGroup.Navigation
+  - BindOpen.Application.Navigation.ActionGroup.None
+  - BindOpen.Application.Navigation.ActionGroup.Searching
+  - BindOpen.Application.Navigation.ActionGroup.value__
+  langs:
+  - csharp
+  - vb
+  name: ActionGroup
+  nameWithType: ActionGroup
+  fullName: BindOpen.Application.Navigation.ActionGroup
+  type: Class
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Navigation
+  summary: "\nThis enumeration lists the possible groups of actions.\n"
+  syntax:
+    content: 'public sealed class ActionGroup : Enum'
+    content.vb: >-
+      Public NotInheritable Class ActionGroup
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: BindOpen.Application.Navigation.ActionGroup.value__
+  commentId: F:BindOpen.Application.Navigation.ActionGroup.value__
+  id: value__
+  parent: BindOpen.Application.Navigation.ActionGroup
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ActionGroup.value__
+  fullName: BindOpen.Application.Navigation.ActionGroup.value__
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Navigation
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Application.Navigation.ActionGroup.None
+  commentId: F:BindOpen.Application.Navigation.ActionGroup.None
+  id: None
+  parent: BindOpen.Application.Navigation.ActionGroup
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: ActionGroup.None
+  fullName: BindOpen.Application.Navigation.ActionGroup.None
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Navigation
+  summary: "\nNone.\n"
+  syntax:
+    content: public const ActionGroup None
+    return:
+      type: BindOpen.Application.Navigation.ActionGroup
+    content.vb: Public Const None As ActionGroup
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Application.Navigation.ActionGroup.Adding
+  commentId: F:BindOpen.Application.Navigation.ActionGroup.Adding
+  id: Adding
+  parent: BindOpen.Application.Navigation.ActionGroup
+  langs:
+  - csharp
+  - vb
+  name: Adding
+  nameWithType: ActionGroup.Adding
+  fullName: BindOpen.Application.Navigation.ActionGroup.Adding
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Navigation
+  summary: "\nAdding.\n"
+  syntax:
+    content: public const ActionGroup Adding
+    return:
+      type: BindOpen.Application.Navigation.ActionGroup
+    content.vb: Public Const Adding As ActionGroup
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Application.Navigation.ActionGroup.Modifying
+  commentId: F:BindOpen.Application.Navigation.ActionGroup.Modifying
+  id: Modifying
+  parent: BindOpen.Application.Navigation.ActionGroup
+  langs:
+  - csharp
+  - vb
+  name: Modifying
+  nameWithType: ActionGroup.Modifying
+  fullName: BindOpen.Application.Navigation.ActionGroup.Modifying
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Navigation
+  summary: "\nModifying.\n"
+  syntax:
+    content: public const ActionGroup Modifying
+    return:
+      type: BindOpen.Application.Navigation.ActionGroup
+    content.vb: Public Const Modifying As ActionGroup
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Application.Navigation.ActionGroup.Deleting
+  commentId: F:BindOpen.Application.Navigation.ActionGroup.Deleting
+  id: Deleting
+  parent: BindOpen.Application.Navigation.ActionGroup
+  langs:
+  - csharp
+  - vb
+  name: Deleting
+  nameWithType: ActionGroup.Deleting
+  fullName: BindOpen.Application.Navigation.ActionGroup.Deleting
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Navigation
+  summary: "\nDeleting.\n"
+  syntax:
+    content: public const ActionGroup Deleting
+    return:
+      type: BindOpen.Application.Navigation.ActionGroup
+    content.vb: Public Const Deleting As ActionGroup
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Application.Navigation.ActionGroup.Exporting
+  commentId: F:BindOpen.Application.Navigation.ActionGroup.Exporting
+  id: Exporting
+  parent: BindOpen.Application.Navigation.ActionGroup
+  langs:
+  - csharp
+  - vb
+  name: Exporting
+  nameWithType: ActionGroup.Exporting
+  fullName: BindOpen.Application.Navigation.ActionGroup.Exporting
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Navigation
+  summary: "\nExporting.\n"
+  syntax:
+    content: public const ActionGroup Exporting
+    return:
+      type: BindOpen.Application.Navigation.ActionGroup
+    content.vb: Public Const Exporting As ActionGroup
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Application.Navigation.ActionGroup.Searching
+  commentId: F:BindOpen.Application.Navigation.ActionGroup.Searching
+  id: Searching
+  parent: BindOpen.Application.Navigation.ActionGroup
+  langs:
+  - csharp
+  - vb
+  name: Searching
+  nameWithType: ActionGroup.Searching
+  fullName: BindOpen.Application.Navigation.ActionGroup.Searching
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Navigation
+  summary: "\nSearching.\n"
+  syntax:
+    content: public const ActionGroup Searching
+    return:
+      type: BindOpen.Application.Navigation.ActionGroup
+    content.vb: Public Const Searching As ActionGroup
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Application.Navigation.ActionGroup.Navigation
+  commentId: F:BindOpen.Application.Navigation.ActionGroup.Navigation
+  id: Navigation
+  parent: BindOpen.Application.Navigation.ActionGroup
+  langs:
+  - csharp
+  - vb
+  name: Navigation
+  nameWithType: ActionGroup.Navigation
+  fullName: BindOpen.Application.Navigation.ActionGroup.Navigation
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Navigation
+  summary: "\nNavigation.\n"
+  syntax:
+    content: public const ActionGroup Navigation
+    return:
+      type: BindOpen.Application.Navigation.ActionGroup
+    content.vb: Public Const Navigation As ActionGroup
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Application.Navigation.ActionGroup.Custom
+  commentId: F:BindOpen.Application.Navigation.ActionGroup.Custom
+  id: Custom
+  parent: BindOpen.Application.Navigation.ActionGroup
+  langs:
+  - csharp
+  - vb
+  name: Custom
+  nameWithType: ActionGroup.Custom
+  fullName: BindOpen.Application.Navigation.ActionGroup.Custom
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Navigation
+  summary: "\nCustom.\n"
+  syntax:
+    content: public const ActionGroup Custom
+    return:
+      type: BindOpen.Application.Navigation.ActionGroup
+    content.vb: Public Const Custom As ActionGroup
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: BindOpen.Application.Navigation
+  commentId: N:BindOpen.Application.Navigation
+  isExternal: true
+  name: BindOpen.Application.Navigation
+  nameWithType: BindOpen.Application.Navigation
+  fullName: BindOpen.Application.Navigation
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: BindOpen.Application.Navigation.ActionGroup
+  commentId: T:BindOpen.Application.Navigation.ActionGroup
+  parent: BindOpen.Application.Navigation
+  isExternal: true
+  name: ActionGroup
+  nameWithType: ActionGroup
+  fullName: BindOpen.Application.Navigation.ActionGroup
+shouldSkipMarkup: true

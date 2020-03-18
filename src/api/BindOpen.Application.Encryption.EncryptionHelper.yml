@@ -1,0 +1,191 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Application.Encryption.EncryptionHelper
+  commentId: T:BindOpen.Application.Encryption.EncryptionHelper
+  id: EncryptionHelper
+  parent: BindOpen.Application.Encryption
+  children:
+  - BindOpen.Application.Encryption.EncryptionHelper.DecryptData(System.String,System.String,System.Byte[])
+  - BindOpen.Application.Encryption.EncryptionHelper.EncryptData(System.String,System.String,System.Byte[])
+  langs:
+  - csharp
+  - vb
+  name: EncryptionHelper
+  nameWithType: EncryptionHelper
+  fullName: BindOpen.Application.Encryption.EncryptionHelper
+  type: Class
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Encryption
+  summary: "\nThis class represents a encryption box.\n"
+  syntax:
+    content: 'public static class EncryptionHelper : Object'
+    content.vb: >-
+      Public Module EncryptionHelper
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: BindOpen.Application.Encryption.EncryptionHelper.EncryptData(System.String,System.String,System.Byte[])
+  commentId: M:BindOpen.Application.Encryption.EncryptionHelper.EncryptData(System.String,System.String,System.Byte[])
+  id: EncryptData(System.String,System.String,System.Byte[])
+  parent: BindOpen.Application.Encryption.EncryptionHelper
+  langs:
+  - csharp
+  - vb
+  name: EncryptData(String, String, Byte[])
+  nameWithType: EncryptionHelper.EncryptData(String, String, Byte[])
+  fullName: BindOpen.Application.Encryption.EncryptionHelper.EncryptData(System.String, System.String, System.Byte[])
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Encryption
+  summary: "\nEncrypts data.\n"
+  syntax:
+    content: public static byte[] EncryptData(string aSecretKey, string aSecretKeyIV, byte[] inputBytes)
+    parameters:
+    - id: aSecretKey
+      type: System.String
+      description: The secret key to consider.
+    - id: aSecretKeyIV
+      type: System.String
+      description: The secret IV key to consider.
+    - id: inputBytes
+      type: System.Byte[]
+      description: The input bytes to consider.
+    return:
+      type: System.Byte[]
+      description: Returns the decrypted data.
+    content.vb: Public Shared Function EncryptData(aSecretKey As String, aSecretKeyIV As String, inputBytes As Byte()) As Byte()
+  overload: BindOpen.Application.Encryption.EncryptionHelper.EncryptData*
+  nameWithType.vb: EncryptionHelper.EncryptData(String, String, Byte())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Application.Encryption.EncryptionHelper.EncryptData(System.String, System.String, System.Byte())
+  name.vb: EncryptData(String, String, Byte())
+- uid: BindOpen.Application.Encryption.EncryptionHelper.DecryptData(System.String,System.String,System.Byte[])
+  commentId: M:BindOpen.Application.Encryption.EncryptionHelper.DecryptData(System.String,System.String,System.Byte[])
+  id: DecryptData(System.String,System.String,System.Byte[])
+  parent: BindOpen.Application.Encryption.EncryptionHelper
+  langs:
+  - csharp
+  - vb
+  name: DecryptData(String, String, Byte[])
+  nameWithType: EncryptionHelper.DecryptData(String, String, Byte[])
+  fullName: BindOpen.Application.Encryption.EncryptionHelper.DecryptData(System.String, System.String, System.Byte[])
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Encryption
+  summary: "\nDecrypts data.\n"
+  syntax:
+    content: public static byte[] DecryptData(string aSecretKey, string aSecretKeyIV, byte[] inputBytes)
+    parameters:
+    - id: aSecretKey
+      type: System.String
+      description: The secret key to consider.
+    - id: aSecretKeyIV
+      type: System.String
+      description: The secret IV key to consider.
+    - id: inputBytes
+      type: System.Byte[]
+      description: The input bytes to consider.
+    return:
+      type: System.Byte[]
+      description: Returns the decrypted data.
+    content.vb: Public Shared Function DecryptData(aSecretKey As String, aSecretKeyIV As String, inputBytes As Byte()) As Byte()
+  overload: BindOpen.Application.Encryption.EncryptionHelper.DecryptData*
+  nameWithType.vb: EncryptionHelper.DecryptData(String, String, Byte())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Application.Encryption.EncryptionHelper.DecryptData(System.String, System.String, System.Byte())
+  name.vb: DecryptData(String, String, Byte())
+references:
+- uid: BindOpen.Application.Encryption
+  commentId: N:BindOpen.Application.Encryption
+  isExternal: true
+  name: BindOpen.Application.Encryption
+  nameWithType: BindOpen.Application.Encryption
+  fullName: BindOpen.Application.Encryption
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Application.Encryption.EncryptionHelper.EncryptData*
+  commentId: Overload:BindOpen.Application.Encryption.EncryptionHelper.EncryptData
+  isExternal: true
+  name: EncryptData
+  nameWithType: EncryptionHelper.EncryptData
+  fullName: BindOpen.Application.Encryption.EncryptionHelper.EncryptData
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: BindOpen.Application.Encryption.EncryptionHelper.DecryptData*
+  commentId: Overload:BindOpen.Application.Encryption.EncryptionHelper.DecryptData
+  isExternal: true
+  name: DecryptData
+  nameWithType: EncryptionHelper.DecryptData
+  fullName: BindOpen.Application.Encryption.EncryptionHelper.DecryptData
+shouldSkipMarkup: true

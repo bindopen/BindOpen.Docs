@@ -1,0 +1,463 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.System.Versioning.VersioningHelper
+  commentId: T:BindOpen.System.Versioning.VersioningHelper
+  id: VersioningHelper
+  parent: BindOpen.System.Versioning
+  children:
+  - BindOpen.System.Versioning.VersioningHelper.GetIncrementedVersion(System.String,System.String,System.String)
+  - BindOpen.System.Versioning.VersioningHelper.GetVersion(System.Int32[])
+  - BindOpen.System.Versioning.VersioningHelper.GetVersion(System.String,System.Int32)
+  - BindOpen.System.Versioning.VersioningHelper.GetVersion(System.String[])
+  - BindOpen.System.Versioning.VersioningHelper.GetVersionElement(System.String,System.Int32)
+  - BindOpen.System.Versioning.VersioningHelper.IsVersionMajor(System.String,System.String,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: VersioningHelper
+  nameWithType: VersioningHelper
+  fullName: BindOpen.System.Versioning.VersioningHelper
+  type: Class
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.System.Versioning
+  summary: "\nThis class represents a versioning helper.\n"
+  syntax:
+    content: 'public static class VersioningHelper : Object'
+    content.vb: >-
+      Public Module VersioningHelper
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: BindOpen.System.Versioning.VersioningHelper.GetVersionElement(System.String,System.Int32)
+  commentId: M:BindOpen.System.Versioning.VersioningHelper.GetVersionElement(System.String,System.Int32)
+  id: GetVersionElement(System.String,System.Int32)
+  parent: BindOpen.System.Versioning.VersioningHelper
+  langs:
+  - csharp
+  - vb
+  name: GetVersionElement(String, Int32)
+  nameWithType: VersioningHelper.GetVersionElement(String, Int32)
+  fullName: BindOpen.System.Versioning.VersioningHelper.GetVersionElement(System.String, System.Int32)
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.System.Versioning
+  summary: "\nGets the specified version element.\n"
+  syntax:
+    content: public static int GetVersionElement(string version, int level)
+    parameters:
+    - id: version
+      type: System.String
+      description: The new version to consider.
+    - id: level
+      type: System.Int32
+      description: The base-0 level to consider.
+    return:
+      type: System.Int32
+      description: The version element at the specified level.
+    content.vb: Public Shared Function GetVersionElement(version As String, level As Integer) As Integer
+  overload: BindOpen.System.Versioning.VersioningHelper.GetVersionElement*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.System.Versioning.VersioningHelper.GetVersion(System.String,System.Int32)
+  commentId: M:BindOpen.System.Versioning.VersioningHelper.GetVersion(System.String,System.Int32)
+  id: GetVersion(System.String,System.Int32)
+  parent: BindOpen.System.Versioning.VersioningHelper
+  langs:
+  - csharp
+  - vb
+  name: GetVersion(String, Int32)
+  nameWithType: VersioningHelper.GetVersion(String, Int32)
+  fullName: BindOpen.System.Versioning.VersioningHelper.GetVersion(System.String, System.Int32)
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.System.Versioning
+  summary: "\nGets the specified version.\n"
+  syntax:
+    content: public static string GetVersion(string version, int level)
+    parameters:
+    - id: version
+      type: System.String
+      description: The new version to consider.
+    - id: level
+      type: System.Int32
+      description: The level to consider.
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetVersion(version As String, level As Integer) As String
+  overload: BindOpen.System.Versioning.VersioningHelper.GetVersion*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.System.Versioning.VersioningHelper.GetVersion(System.Int32[])
+  commentId: M:BindOpen.System.Versioning.VersioningHelper.GetVersion(System.Int32[])
+  id: GetVersion(System.Int32[])
+  parent: BindOpen.System.Versioning.VersioningHelper
+  langs:
+  - csharp
+  - vb
+  name: GetVersion(Int32[])
+  nameWithType: VersioningHelper.GetVersion(Int32[])
+  fullName: BindOpen.System.Versioning.VersioningHelper.GetVersion(System.Int32[])
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.System.Versioning
+  summary: "\nGets the specified version.\n"
+  syntax:
+    content: public static string GetVersion(params int[] numbers)
+    parameters:
+    - id: numbers
+      type: System.Int32[]
+      description: The version section numbers to consider.
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetVersion(ParamArray numbers As Integer()) As String
+  overload: BindOpen.System.Versioning.VersioningHelper.GetVersion*
+  nameWithType.vb: VersioningHelper.GetVersion(Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.System.Versioning.VersioningHelper.GetVersion(System.Int32())
+  name.vb: GetVersion(Int32())
+- uid: BindOpen.System.Versioning.VersioningHelper.GetVersion(System.String[])
+  commentId: M:BindOpen.System.Versioning.VersioningHelper.GetVersion(System.String[])
+  id: GetVersion(System.String[])
+  parent: BindOpen.System.Versioning.VersioningHelper
+  langs:
+  - csharp
+  - vb
+  name: GetVersion(String[])
+  nameWithType: VersioningHelper.GetVersion(String[])
+  fullName: BindOpen.System.Versioning.VersioningHelper.GetVersion(System.String[])
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.System.Versioning
+  summary: "\nGets the specified version.\n"
+  syntax:
+    content: public static string GetVersion(params string[] numbers)
+    parameters:
+    - id: numbers
+      type: System.String[]
+      description: The version section numbers to consider.
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetVersion(ParamArray numbers As String()) As String
+  overload: BindOpen.System.Versioning.VersioningHelper.GetVersion*
+  nameWithType.vb: VersioningHelper.GetVersion(String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.System.Versioning.VersioningHelper.GetVersion(System.String())
+  name.vb: GetVersion(String())
+- uid: BindOpen.System.Versioning.VersioningHelper.IsVersionMajor(System.String,System.String,System.Int32)
+  commentId: M:BindOpen.System.Versioning.VersioningHelper.IsVersionMajor(System.String,System.String,System.Int32)
+  id: IsVersionMajor(System.String,System.String,System.Int32)
+  parent: BindOpen.System.Versioning.VersioningHelper
+  langs:
+  - csharp
+  - vb
+  name: IsVersionMajor(String, String, Int32)
+  nameWithType: VersioningHelper.IsVersionMajor(String, String, Int32)
+  fullName: BindOpen.System.Versioning.VersioningHelper.IsVersionMajor(System.String, System.String, System.Int32)
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.System.Versioning
+  summary: "\nIndicates whether the specified new version is a major update of the specified current version considering the \nspecified major update level.\n"
+  syntax:
+    content: public static Nullable<bool> IsVersionMajor(string newVersion, string currentVersion, int majorUpdateLevel)
+    parameters:
+    - id: newVersion
+      type: System.String
+      description: The new version to consider.
+    - id: currentVersion
+      type: System.String
+      description: the current version to consider.
+    - id: majorUpdateLevel
+      type: System.Int32
+      description: The major update level to consider.
+    return:
+      type: System.Nullable{System.Boolean}
+    content.vb: Public Shared Function IsVersionMajor(newVersion As String, currentVersion As String, majorUpdateLevel As Integer) As Nullable(Of Boolean)
+  overload: BindOpen.System.Versioning.VersioningHelper.IsVersionMajor*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.System.Versioning.VersioningHelper.GetIncrementedVersion(System.String,System.String,System.String)
+  commentId: M:BindOpen.System.Versioning.VersioningHelper.GetIncrementedVersion(System.String,System.String,System.String)
+  id: GetIncrementedVersion(System.String,System.String,System.String)
+  parent: BindOpen.System.Versioning.VersioningHelper
+  langs:
+  - csharp
+  - vb
+  name: GetIncrementedVersion(String, String, String)
+  nameWithType: VersioningHelper.GetIncrementedVersion(String, String, String)
+  fullName: BindOpen.System.Versioning.VersioningHelper.GetIncrementedVersion(System.String, System.String, System.String)
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.System.Versioning
+  summary: "\nGets the incremented version considering the versioning format.\n"
+  syntax:
+    content: public static string GetIncrementedVersion(string currentVersion, string versioningFormat, string historicVersion = null)
+    parameters:
+    - id: currentVersion
+      type: System.String
+      description: The current version to consider.
+    - id: versioningFormat
+      type: System.String
+      description: The versioning format to consider.
+    - id: historicVersion
+      type: System.String
+      description: The historic version to consider.
+    return:
+      type: System.String
+      description: The URL of the setup file of the new update. Null if there is no new update.
+    content.vb: Public Shared Function GetIncrementedVersion(currentVersion As String, versioningFormat As String, historicVersion As String = Nothing) As String
+  overload: BindOpen.System.Versioning.VersioningHelper.GetIncrementedVersion*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: BindOpen.System.Versioning
+  commentId: N:BindOpen.System.Versioning
+  isExternal: true
+  name: BindOpen.System.Versioning
+  nameWithType: BindOpen.System.Versioning
+  fullName: BindOpen.System.Versioning
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.System.Versioning.VersioningHelper.GetVersionElement*
+  commentId: Overload:BindOpen.System.Versioning.VersioningHelper.GetVersionElement
+  isExternal: true
+  name: GetVersionElement
+  nameWithType: VersioningHelper.GetVersionElement
+  fullName: BindOpen.System.Versioning.VersioningHelper.GetVersionElement
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: BindOpen.System.Versioning.VersioningHelper.GetVersion*
+  commentId: Overload:BindOpen.System.Versioning.VersioningHelper.GetVersion
+  isExternal: true
+  name: GetVersion
+  nameWithType: VersioningHelper.GetVersion
+  fullName: BindOpen.System.Versioning.VersioningHelper.GetVersion
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: BindOpen.System.Versioning.VersioningHelper.IsVersionMajor*
+  commentId: Overload:BindOpen.System.Versioning.VersioningHelper.IsVersionMajor
+  isExternal: true
+  name: IsVersionMajor
+  nameWithType: VersioningHelper.IsVersionMajor
+  fullName: BindOpen.System.Versioning.VersioningHelper.IsVersionMajor
+- uid: System.Nullable{System.Boolean}
+  commentId: '!:System.Nullable{System.Boolean}'
+  definition: System.Nullable`1
+  name: Nullable<Boolean>
+  nameWithType: Nullable<Boolean>
+  fullName: System.Nullable<System.Boolean>
+  nameWithType.vb: Nullable(Of Boolean)
+  fullName.vb: System.Nullable(Of System.Boolean)
+  name.vb: Nullable(Of Boolean)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.System.Versioning.VersioningHelper.GetIncrementedVersion*
+  commentId: Overload:BindOpen.System.Versioning.VersioningHelper.GetIncrementedVersion
+  isExternal: true
+  name: GetIncrementedVersion
+  nameWithType: VersioningHelper.GetIncrementedVersion
+  fullName: BindOpen.System.Versioning.VersioningHelper.GetIncrementedVersion
+shouldSkipMarkup: true

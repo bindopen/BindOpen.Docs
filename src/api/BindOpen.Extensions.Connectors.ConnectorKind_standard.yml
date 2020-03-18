@@ -1,0 +1,390 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Extensions.Connectors.ConnectorKind_standard
+  commentId: T:BindOpen.Extensions.Connectors.ConnectorKind_standard
+  id: ConnectorKind_standard
+  parent: BindOpen.Extensions.Connectors
+  children:
+  - BindOpen.Extensions.Connectors.ConnectorKind_standard.Any
+  - BindOpen.Extensions.Connectors.ConnectorKind_standard.Ftp
+  - BindOpen.Extensions.Connectors.ConnectorKind_standard.Local
+  - BindOpen.Extensions.Connectors.ConnectorKind_standard.None
+  - BindOpen.Extensions.Connectors.ConnectorKind_standard.Remote
+  - BindOpen.Extensions.Connectors.ConnectorKind_standard.Scp
+  - BindOpen.Extensions.Connectors.ConnectorKind_standard.SFtp
+  - BindOpen.Extensions.Connectors.ConnectorKind_standard.value__
+  langs:
+  - csharp
+  - vb
+  name: ConnectorKind_standard
+  nameWithType: ConnectorKind_standard
+  fullName: BindOpen.Extensions.Connectors.ConnectorKind_standard
+  type: Class
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Connectors
+  summary: "\nThis enumeration lists all the possible kinds of the &apos;Standard&apos; connectors.\n"
+  syntax:
+    content: 'public sealed class ConnectorKind_standard : Enum'
+    content.vb: >-
+      Public NotInheritable Class ConnectorKind_standard
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - BindOpen.Extensions.Connectors.ConnectorKind_standard.BindOpen.Extensions.Connectors.ConnectorKind_standardExtension.GetUniqueName
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: BindOpen.Extensions.Connectors.ConnectorKind_standard.value__
+  commentId: F:BindOpen.Extensions.Connectors.ConnectorKind_standard.value__
+  id: value__
+  parent: BindOpen.Extensions.Connectors.ConnectorKind_standard
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ConnectorKind_standard.value__
+  fullName: BindOpen.Extensions.Connectors.ConnectorKind_standard.value__
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Connectors
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Extensions.Connectors.ConnectorKind_standard.None
+  commentId: F:BindOpen.Extensions.Connectors.ConnectorKind_standard.None
+  id: None
+  parent: BindOpen.Extensions.Connectors.ConnectorKind_standard
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: ConnectorKind_standard.None
+  fullName: BindOpen.Extensions.Connectors.ConnectorKind_standard.None
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Connectors
+  summary: "\nNone.\n"
+  syntax:
+    content: public const ConnectorKind_standard None
+    return:
+      type: BindOpen.Extensions.Connectors.ConnectorKind_standard
+    content.vb: Public Const None As ConnectorKind_standard
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Extensions.Connectors.ConnectorKind_standard.Any
+  commentId: F:BindOpen.Extensions.Connectors.ConnectorKind_standard.Any
+  id: Any
+  parent: BindOpen.Extensions.Connectors.ConnectorKind_standard
+  langs:
+  - csharp
+  - vb
+  name: Any
+  nameWithType: ConnectorKind_standard.Any
+  fullName: BindOpen.Extensions.Connectors.ConnectorKind_standard.Any
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Connectors
+  summary: "\nAny.\n"
+  syntax:
+    content: public const ConnectorKind_standard Any
+    return:
+      type: BindOpen.Extensions.Connectors.ConnectorKind_standard
+    content.vb: Public Const Any As ConnectorKind_standard
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Extensions.Connectors.ConnectorKind_standard.Local
+  commentId: F:BindOpen.Extensions.Connectors.ConnectorKind_standard.Local
+  id: Local
+  parent: BindOpen.Extensions.Connectors.ConnectorKind_standard
+  langs:
+  - csharp
+  - vb
+  name: Local
+  nameWithType: ConnectorKind_standard.Local
+  fullName: BindOpen.Extensions.Connectors.ConnectorKind_standard.Local
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Connectors
+  summary: "\nLocal.\n"
+  syntax:
+    content: public const ConnectorKind_standard Local
+    return:
+      type: BindOpen.Extensions.Connectors.ConnectorKind_standard
+    content.vb: Public Const Local As ConnectorKind_standard
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Extensions.Connectors.ConnectorKind_standard.Remote
+  commentId: F:BindOpen.Extensions.Connectors.ConnectorKind_standard.Remote
+  id: Remote
+  parent: BindOpen.Extensions.Connectors.ConnectorKind_standard
+  langs:
+  - csharp
+  - vb
+  name: Remote
+  nameWithType: ConnectorKind_standard.Remote
+  fullName: BindOpen.Extensions.Connectors.ConnectorKind_standard.Remote
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Connectors
+  summary: "\nRemote.\n"
+  syntax:
+    content: public const ConnectorKind_standard Remote
+    return:
+      type: BindOpen.Extensions.Connectors.ConnectorKind_standard
+    content.vb: Public Const Remote As ConnectorKind_standard
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Extensions.Connectors.ConnectorKind_standard.Ftp
+  commentId: F:BindOpen.Extensions.Connectors.ConnectorKind_standard.Ftp
+  id: Ftp
+  parent: BindOpen.Extensions.Connectors.ConnectorKind_standard
+  langs:
+  - csharp
+  - vb
+  name: Ftp
+  nameWithType: ConnectorKind_standard.Ftp
+  fullName: BindOpen.Extensions.Connectors.ConnectorKind_standard.Ftp
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Connectors
+  summary: "\nFTP.\n"
+  syntax:
+    content: public const ConnectorKind_standard Ftp
+    return:
+      type: BindOpen.Extensions.Connectors.ConnectorKind_standard
+    content.vb: Public Const Ftp As ConnectorKind_standard
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Extensions.Connectors.ConnectorKind_standard.Scp
+  commentId: F:BindOpen.Extensions.Connectors.ConnectorKind_standard.Scp
+  id: Scp
+  parent: BindOpen.Extensions.Connectors.ConnectorKind_standard
+  langs:
+  - csharp
+  - vb
+  name: Scp
+  nameWithType: ConnectorKind_standard.Scp
+  fullName: BindOpen.Extensions.Connectors.ConnectorKind_standard.Scp
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Connectors
+  summary: "\nSCP.\n"
+  syntax:
+    content: public const ConnectorKind_standard Scp
+    return:
+      type: BindOpen.Extensions.Connectors.ConnectorKind_standard
+    content.vb: Public Const Scp As ConnectorKind_standard
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Extensions.Connectors.ConnectorKind_standard.SFtp
+  commentId: F:BindOpen.Extensions.Connectors.ConnectorKind_standard.SFtp
+  id: SFtp
+  parent: BindOpen.Extensions.Connectors.ConnectorKind_standard
+  langs:
+  - csharp
+  - vb
+  name: SFtp
+  nameWithType: ConnectorKind_standard.SFtp
+  fullName: BindOpen.Extensions.Connectors.ConnectorKind_standard.SFtp
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Connectors
+  summary: "\nSFTP.\n"
+  syntax:
+    content: public const ConnectorKind_standard SFtp
+    return:
+      type: BindOpen.Extensions.Connectors.ConnectorKind_standard
+    content.vb: Public Const SFtp As ConnectorKind_standard
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: BindOpen.Extensions.Connectors
+  commentId: N:BindOpen.Extensions.Connectors
+  isExternal: true
+  name: BindOpen.Extensions.Connectors
+  nameWithType: BindOpen.Extensions.Connectors
+  fullName: BindOpen.Extensions.Connectors
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BindOpen.Extensions.Connectors.ConnectorKind_standard.BindOpen.Extensions.Connectors.ConnectorKind_standardExtension.GetUniqueName
+  commentId: M:BindOpen.Extensions.Connectors.ConnectorKind_standardExtension.GetUniqueName(BindOpen.Extensions.Connectors.ConnectorKind_standard)
+  parent: BindOpen.Extensions.Connectors.ConnectorKind_standardExtension
+  definition: BindOpen.Extensions.Connectors.ConnectorKind_standardExtension.GetUniqueName(BindOpen.Extensions.Connectors.ConnectorKind_standard)
+  name: GetUniqueName()
+  nameWithType: ConnectorKind_standardExtension.GetUniqueName()
+  fullName: BindOpen.Extensions.Connectors.ConnectorKind_standardExtension.GetUniqueName()
+  spec.csharp:
+  - uid: BindOpen.Extensions.Connectors.ConnectorKind_standardExtension.GetUniqueName
+    name: GetUniqueName
+    nameWithType: ConnectorKind_standardExtension.GetUniqueName
+    fullName: BindOpen.Extensions.Connectors.ConnectorKind_standardExtension.GetUniqueName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Extensions.Connectors.ConnectorKind_standardExtension.GetUniqueName
+    name: GetUniqueName
+    nameWithType: ConnectorKind_standardExtension.GetUniqueName
+    fullName: BindOpen.Extensions.Connectors.ConnectorKind_standardExtension.GetUniqueName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Extensions.Connectors.ConnectorKind_standardExtension.GetUniqueName(BindOpen.Extensions.Connectors.ConnectorKind_standard)
+  commentId: M:BindOpen.Extensions.Connectors.ConnectorKind_standardExtension.GetUniqueName(BindOpen.Extensions.Connectors.ConnectorKind_standard)
+  isExternal: true
+  name: GetUniqueName(ConnectorKind_standard)
+  nameWithType: ConnectorKind_standardExtension.GetUniqueName(ConnectorKind_standard)
+  fullName: BindOpen.Extensions.Connectors.ConnectorKind_standardExtension.GetUniqueName(BindOpen.Extensions.Connectors.ConnectorKind_standard)
+  spec.csharp:
+  - uid: BindOpen.Extensions.Connectors.ConnectorKind_standardExtension.GetUniqueName(BindOpen.Extensions.Connectors.ConnectorKind_standard)
+    name: GetUniqueName
+    nameWithType: ConnectorKind_standardExtension.GetUniqueName
+    fullName: BindOpen.Extensions.Connectors.ConnectorKind_standardExtension.GetUniqueName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Extensions.Connectors.ConnectorKind_standard
+    name: ConnectorKind_standard
+    nameWithType: ConnectorKind_standard
+    fullName: BindOpen.Extensions.Connectors.ConnectorKind_standard
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Extensions.Connectors.ConnectorKind_standardExtension.GetUniqueName(BindOpen.Extensions.Connectors.ConnectorKind_standard)
+    name: GetUniqueName
+    nameWithType: ConnectorKind_standardExtension.GetUniqueName
+    fullName: BindOpen.Extensions.Connectors.ConnectorKind_standardExtension.GetUniqueName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Extensions.Connectors.ConnectorKind_standard
+    name: ConnectorKind_standard
+    nameWithType: ConnectorKind_standard
+    fullName: BindOpen.Extensions.Connectors.ConnectorKind_standard
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Extensions.Connectors.ConnectorKind_standardExtension
+  commentId: T:BindOpen.Extensions.Connectors.ConnectorKind_standardExtension
+  parent: BindOpen.Extensions.Connectors
+  isExternal: true
+  name: ConnectorKind_standardExtension
+  nameWithType: ConnectorKind_standardExtension
+  fullName: BindOpen.Extensions.Connectors.ConnectorKind_standardExtension
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: BindOpen.Extensions.Connectors.ConnectorKind_standard
+  commentId: T:BindOpen.Extensions.Connectors.ConnectorKind_standard
+  parent: BindOpen.Extensions.Connectors
+  isExternal: true
+  name: ConnectorKind_standard
+  nameWithType: ConnectorKind_standard
+  fullName: BindOpen.Extensions.Connectors.ConnectorKind_standard
+shouldSkipMarkup: true

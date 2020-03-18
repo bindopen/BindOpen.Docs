@@ -1,0 +1,134 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Application.Options.IOptionSpec
+  commentId: T:BindOpen.Application.Options.IOptionSpec
+  id: IOptionSpec
+  parent: BindOpen.Application.Options
+  children:
+  - BindOpen.Application.Options.IOptionSpec.IsArgumentMarching(System.String)
+  - BindOpen.Application.Options.IOptionSpec.IsArgumentMarching(System.String,System.Int32@)
+  langs:
+  - csharp
+  - vb
+  name: IOptionSpec
+  nameWithType: IOptionSpec
+  fullName: BindOpen.Application.Options.IOptionSpec
+  type: Interface
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Options
+  summary: "\n\n"
+  syntax:
+    content: 'public interface IOptionSpec : IScalarElementSpec, IDataElementSpec, IDataSpecification, IIndexedDataItem, IDescribedDataItem, ITitledDataItem, INamedDataItem, IStoredDataItem, IIdentifiedDataItem, IDataItem, ICloneable, IDisposable, IIdentified, IReferenced, IStorable, INamed, IGloballyTitled, IGloballyDescribed, IIndexed'
+    content.vb: >-
+      Public Interface IOptionSpec
+          Inherits IScalarElementSpec, IDataElementSpec, IDataSpecification, IIndexedDataItem, IDescribedDataItem, ITitledDataItem, INamedDataItem, IStoredDataItem, IIdentifiedDataItem, IDataItem, ICloneable, IDisposable, IIdentified, IReferenced, IStorable, INamed, IGloballyTitled, IGloballyDescribed, IIndexed
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: BindOpen.Application.Options.IOptionSpec.IsArgumentMarching(System.String)
+  commentId: M:BindOpen.Application.Options.IOptionSpec.IsArgumentMarching(System.String)
+  id: IsArgumentMarching(System.String)
+  parent: BindOpen.Application.Options.IOptionSpec
+  langs:
+  - csharp
+  - vb
+  name: IsArgumentMarching(String)
+  nameWithType: IOptionSpec.IsArgumentMarching(String)
+  fullName: BindOpen.Application.Options.IOptionSpec.IsArgumentMarching(System.String)
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Options
+  summary: "\n\n"
+  syntax:
+    content: bool IsArgumentMarching(string argumentstring)
+    parameters:
+    - id: argumentstring
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Function IsArgumentMarching(argumentstring As String) As Boolean
+  overload: BindOpen.Application.Options.IOptionSpec.IsArgumentMarching*
+- uid: BindOpen.Application.Options.IOptionSpec.IsArgumentMarching(System.String,System.Int32@)
+  commentId: M:BindOpen.Application.Options.IOptionSpec.IsArgumentMarching(System.String,System.Int32@)
+  id: IsArgumentMarching(System.String,System.Int32@)
+  parent: BindOpen.Application.Options.IOptionSpec
+  langs:
+  - csharp
+  - vb
+  name: IsArgumentMarching(String, out Int32)
+  nameWithType: IOptionSpec.IsArgumentMarching(String, out Int32)
+  fullName: BindOpen.Application.Options.IOptionSpec.IsArgumentMarching(System.String, out System.Int32)
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Options
+  summary: "\n\n"
+  syntax:
+    content: bool IsArgumentMarching(string argumentstring, out int aliasIndex)
+    parameters:
+    - id: argumentstring
+      type: System.String
+    - id: aliasIndex
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Function IsArgumentMarching(argumentstring As String, ByRef aliasIndex As Integer) As Boolean
+  overload: BindOpen.Application.Options.IOptionSpec.IsArgumentMarching*
+  nameWithType.vb: IOptionSpec.IsArgumentMarching(String, ByRef Int32)
+  fullName.vb: BindOpen.Application.Options.IOptionSpec.IsArgumentMarching(System.String, ByRef System.Int32)
+  name.vb: IsArgumentMarching(String, ByRef Int32)
+references:
+- uid: BindOpen.Application.Options
+  commentId: N:BindOpen.Application.Options
+  isExternal: true
+  name: BindOpen.Application.Options
+  nameWithType: BindOpen.Application.Options
+  fullName: BindOpen.Application.Options
+- uid: BindOpen.Application.Options.IOptionSpec.IsArgumentMarching*
+  commentId: Overload:BindOpen.Application.Options.IOptionSpec.IsArgumentMarching
+  isExternal: true
+  name: IsArgumentMarching
+  nameWithType: IOptionSpec.IsArgumentMarching
+  fullName: BindOpen.Application.Options.IOptionSpec.IsArgumentMarching
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+shouldSkipMarkup: true

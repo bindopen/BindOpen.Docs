@@ -1,0 +1,261 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Data.Stores.IBdoDbModelDepot
+  commentId: T:BindOpen.Data.Stores.IBdoDbModelDepot
+  id: IBdoDbModelDepot
+  parent: BindOpen.Data.Stores
+  children:
+  - BindOpen.Data.Stores.IBdoDbModelDepot.GetModel(System.String)
+  - BindOpen.Data.Stores.IBdoDbModelDepot.GetModel``1
+  - BindOpen.Data.Stores.IBdoDbModelDepot.Models
+  langs:
+  - csharp
+  - vb
+  name: IBdoDbModelDepot
+  nameWithType: IBdoDbModelDepot
+  fullName: BindOpen.Data.Stores.IBdoDbModelDepot
+  type: Interface
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Stores
+  summary: "\n\n"
+  syntax:
+    content: 'public interface IBdoDbModelDepot : ITBdoDepot<BdoDbModel>, IDataItemSet<BdoDbModel>, IIdentifiedDataItem, IDataItem, ICloneable, IDisposable, IIdentified, IReferenced, IBdoDepot'
+    content.vb: >-
+      Public Interface IBdoDbModelDepot
+          Inherits ITBdoDepot(Of BdoDbModel), IDataItemSet(Of BdoDbModel), IIdentifiedDataItem, IDataItem, ICloneable, IDisposable, IIdentified, IReferenced, IBdoDepot
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: BindOpen.Data.Stores.IBdoDbModelDepot.GetModel(System.String)
+  commentId: M:BindOpen.Data.Stores.IBdoDbModelDepot.GetModel(System.String)
+  id: GetModel(System.String)
+  parent: BindOpen.Data.Stores.IBdoDbModelDepot
+  langs:
+  - csharp
+  - vb
+  name: GetModel(String)
+  nameWithType: IBdoDbModelDepot.GetModel(String)
+  fullName: BindOpen.Data.Stores.IBdoDbModelDepot.GetModel(System.String)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Stores
+  summary: "\nGets the database model with the specified name.\n"
+  syntax:
+    content: IBdoDbModel GetModel(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name to consider.
+    return:
+      type: BindOpen.Data.Models.IBdoDbModel
+      description: Returns the database query with the specified name.
+    content.vb: Function GetModel(name As String) As IBdoDbModel
+  overload: BindOpen.Data.Stores.IBdoDbModelDepot.GetModel*
+- uid: BindOpen.Data.Stores.IBdoDbModelDepot.GetModel``1
+  commentId: M:BindOpen.Data.Stores.IBdoDbModelDepot.GetModel``1
+  id: GetModel``1
+  parent: BindOpen.Data.Stores.IBdoDbModelDepot
+  langs:
+  - csharp
+  - vb
+  name: GetModel<T>()
+  nameWithType: IBdoDbModelDepot.GetModel<T>()
+  fullName: BindOpen.Data.Stores.IBdoDbModelDepot.GetModel<T>()
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Stores
+  summary: "\nGets the database model with the specified name.\n"
+  syntax:
+    content: >-
+      T GetModel<T>()
+          where T : BdoDbModel
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+      description: Returns the database query with the specified name.
+    content.vb: Function GetModel(Of T As BdoDbModel) As T
+  overload: BindOpen.Data.Stores.IBdoDbModelDepot.GetModel*
+  nameWithType.vb: IBdoDbModelDepot.GetModel(Of T)()
+  fullName.vb: BindOpen.Data.Stores.IBdoDbModelDepot.GetModel(Of T)()
+  name.vb: GetModel(Of T)()
+- uid: BindOpen.Data.Stores.IBdoDbModelDepot.Models
+  commentId: P:BindOpen.Data.Stores.IBdoDbModelDepot.Models
+  id: Models
+  parent: BindOpen.Data.Stores.IBdoDbModelDepot
+  langs:
+  - csharp
+  - vb
+  name: Models
+  nameWithType: IBdoDbModelDepot.Models
+  fullName: BindOpen.Data.Stores.IBdoDbModelDepot.Models
+  type: Property
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Stores
+  summary: "\n\n"
+  syntax:
+    content: List<BdoDbModel> Models { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{BindOpen.Data.Models.BdoDbModel}
+    content.vb: Property Models As List(Of BdoDbModel)
+  overload: BindOpen.Data.Stores.IBdoDbModelDepot.Models*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: BindOpen.Data.Stores
+  commentId: N:BindOpen.Data.Stores
+  isExternal: true
+  name: BindOpen.Data.Stores
+  nameWithType: BindOpen.Data.Stores
+  fullName: BindOpen.Data.Stores
+- uid: BindOpen.Data.Stores.IBdoDbModelDepot.GetModel*
+  commentId: Overload:BindOpen.Data.Stores.IBdoDbModelDepot.GetModel
+  isExternal: true
+  name: GetModel
+  nameWithType: IBdoDbModelDepot.GetModel
+  fullName: BindOpen.Data.Stores.IBdoDbModelDepot.GetModel
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: BindOpen.Data.Models.IBdoDbModel
+  commentId: T:BindOpen.Data.Models.IBdoDbModel
+  parent: BindOpen.Data.Models
+  isExternal: true
+  name: IBdoDbModel
+  nameWithType: IBdoDbModel
+  fullName: BindOpen.Data.Models.IBdoDbModel
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Data.Models
+  commentId: N:BindOpen.Data.Models
+  isExternal: true
+  name: BindOpen.Data.Models
+  nameWithType: BindOpen.Data.Models
+  fullName: BindOpen.Data.Models
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: BindOpen.Data.Stores.IBdoDbModelDepot.Models*
+  commentId: Overload:BindOpen.Data.Stores.IBdoDbModelDepot.Models
+  isExternal: true
+  name: Models
+  nameWithType: IBdoDbModelDepot.Models
+  fullName: BindOpen.Data.Stores.IBdoDbModelDepot.Models
+- uid: System.Collections.Generic.List{BindOpen.Data.Models.BdoDbModel}
+  commentId: '!:System.Collections.Generic.List{BindOpen.Data.Models.BdoDbModel}'
+  definition: System.Collections.Generic.List`1
+  name: List<BdoDbModel>
+  nameWithType: List<BdoDbModel>
+  fullName: System.Collections.Generic.List<BindOpen.Data.Models.BdoDbModel>
+  nameWithType.vb: List(Of BdoDbModel)
+  fullName.vb: System.Collections.Generic.List(Of BindOpen.Data.Models.BdoDbModel)
+  name.vb: List(Of BdoDbModel)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BindOpen.Data.Models.BdoDbModel
+    name: BdoDbModel
+    nameWithType: BdoDbModel
+    fullName: BindOpen.Data.Models.BdoDbModel
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BindOpen.Data.Models.BdoDbModel
+    name: BdoDbModel
+    nameWithType: BdoDbModel
+    fullName: BindOpen.Data.Models.BdoDbModel
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+shouldSkipMarkup: true

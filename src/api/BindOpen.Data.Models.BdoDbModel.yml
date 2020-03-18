@@ -1,0 +1,1140 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Data.Models.BdoDbModel
+  commentId: T:BindOpen.Data.Models.BdoDbModel
+  id: BdoDbModel
+  parent: BindOpen.Data.Models
+  children:
+  - BindOpen.Data.Models.BdoDbModel.#ctor
+  - BindOpen.Data.Models.BdoDbModel.JoinCondition(System.String,System.ValueTuple{System.String,System.String}[])
+  - BindOpen.Data.Models.BdoDbModel.OnCreating(BindOpen.Data.Models.IBdoDbModelBuilder)
+  - BindOpen.Data.Models.BdoDbModel.Query(System.String)
+  - BindOpen.Data.Models.BdoDbModel.Table(System.String,System.String)
+  - BindOpen.Data.Models.BdoDbModel.Tuple(System.String,System.String)
+  - BindOpen.Data.Models.BdoDbModel.Tuple(System.String,System.ValueTuple{System.String,System.String}[])
+  langs:
+  - csharp
+  - vb
+  name: BdoDbModel
+  nameWithType: BdoDbModel
+  fullName: BindOpen.Data.Models.BdoDbModel
+  type: Class
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Models
+  summary: "\nThis class represents a database context.\n"
+  syntax:
+    content: 'public class BdoDbModel : IdentifiedDataItem, IBdoDbModel, IIdentifiedDataItem, IDataItem, ICloneable, IDisposable, IIdentified, IReferenced'
+    content.vb: >-
+      Public Class BdoDbModel
+          Inherits IdentifiedDataItem
+          Implements IBdoDbModel, IIdentifiedDataItem, IDataItem, ICloneable, IDisposable, IIdentified, IReferenced
+  inheritance:
+  - System.Object
+  implements:
+  - BindOpen.Data.Models.IBdoDbModel
+  - BindOpen.Data.Items.IIdentifiedDataItem
+  - BindOpen.Data.Items.IDataItem
+  - System.ICloneable
+  - System.IDisposable
+  - BindOpen.Data.Items.IIdentified
+  - BindOpen.Data.Items.IReferenced
+  extensionMethods:
+  - BindOpen.Data.Models.BdoDbModel.BindOpen.Data.Models.BdoDbModelExtension.UseQuery(System.String,System.Func{BindOpen.Data.Models.IBdoDbModel,BindOpen.Data.Queries.IDbQuery})
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BindOpen.Data.Models.BdoDbModel.OnCreating(BindOpen.Data.Models.IBdoDbModelBuilder)
+  commentId: M:BindOpen.Data.Models.BdoDbModel.OnCreating(BindOpen.Data.Models.IBdoDbModelBuilder)
+  id: OnCreating(BindOpen.Data.Models.IBdoDbModelBuilder)
+  parent: BindOpen.Data.Models.BdoDbModel
+  langs:
+  - csharp
+  - vb
+  name: OnCreating(IBdoDbModelBuilder)
+  nameWithType: BdoDbModel.OnCreating(IBdoDbModelBuilder)
+  fullName: BindOpen.Data.Models.BdoDbModel.OnCreating(BindOpen.Data.Models.IBdoDbModelBuilder)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Models
+  summary: "\n\n"
+  syntax:
+    content: public virtual void OnCreating(IBdoDbModelBuilder builder)
+    parameters:
+    - id: builder
+      type: BindOpen.Data.Models.IBdoDbModelBuilder
+    content.vb: Public Overridable Sub OnCreating(builder As IBdoDbModelBuilder)
+  overload: BindOpen.Data.Models.BdoDbModel.OnCreating*
+  implements:
+  - BindOpen.Data.Models.IBdoDbModel.OnCreating(BindOpen.Data.Models.IBdoDbModelBuilder)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: BindOpen.Data.Models.BdoDbModel.Table(System.String,System.String)
+  commentId: M:BindOpen.Data.Models.BdoDbModel.Table(System.String,System.String)
+  id: Table(System.String,System.String)
+  parent: BindOpen.Data.Models.BdoDbModel
+  langs:
+  - csharp
+  - vb
+  name: Table(String, String)
+  nameWithType: BdoDbModel.Table(String, String)
+  fullName: BindOpen.Data.Models.BdoDbModel.Table(System.String, System.String)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Models
+  summary: "\n\n"
+  syntax:
+    content: public DbTable Table(string name, string alias = null)
+    parameters:
+    - id: name
+      type: System.String
+    - id: alias
+      type: System.String
+    return:
+      type: BindOpen.Extensions.Carriers.DbTable
+    content.vb: Public Function Table(name As String, alias As String = Nothing) As DbTable
+  overload: BindOpen.Data.Models.BdoDbModel.Table*
+  implements:
+  - BindOpen.Data.Models.IBdoDbModel.Table(System.String,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Data.Models.BdoDbModel.JoinCondition(System.String,System.ValueTuple{System.String,System.String}[])
+  commentId: M:BindOpen.Data.Models.BdoDbModel.JoinCondition(System.String,System.ValueTuple{System.String,System.String}[])
+  id: JoinCondition(System.String,System.ValueTuple{System.String,System.String}[])
+  parent: BindOpen.Data.Models.BdoDbModel
+  langs:
+  - csharp
+  - vb
+  name: JoinCondition(String, ValueTuple<String, String>[])
+  nameWithType: BdoDbModel.JoinCondition(String, ValueTuple<String, String>[])
+  fullName: BindOpen.Data.Models.BdoDbModel.JoinCondition(System.String, System.ValueTuple<System.String, System.String>[])
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Models
+  summary: "\n\n"
+  syntax:
+    content: public DataExpression JoinCondition(string name, params ValueTuple<string, string>[] aliases)
+    parameters:
+    - id: name
+      type: System.String
+    - id: aliases
+      type: System.ValueTuple{System.String,System.String}[]
+    return:
+      type: BindOpen.Data.Expression.DataExpression
+    content.vb: Public Function JoinCondition(name As String, ParamArray aliases As ValueTuple(Of String, String)()) As DataExpression
+  overload: BindOpen.Data.Models.BdoDbModel.JoinCondition*
+  implements:
+  - BindOpen.Data.Models.IBdoDbModel.JoinCondition(System.String,System.ValueTuple{System.String,System.String}[])
+  nameWithType.vb: BdoDbModel.JoinCondition(String, ValueTuple(Of String, String)())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: BindOpen.Data.Models.BdoDbModel.JoinCondition(System.String, System.ValueTuple(Of System.String, System.String)())
+  name.vb: JoinCondition(String, ValueTuple(Of String, String)())
+- uid: BindOpen.Data.Models.BdoDbModel.Tuple(System.String,System.String)
+  commentId: M:BindOpen.Data.Models.BdoDbModel.Tuple(System.String,System.String)
+  id: Tuple(System.String,System.String)
+  parent: BindOpen.Data.Models.BdoDbModel
+  langs:
+  - csharp
+  - vb
+  name: Tuple(String, String)
+  nameWithType: BdoDbModel.Tuple(String, String)
+  fullName: BindOpen.Data.Models.BdoDbModel.Tuple(System.String, System.String)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Models
+  summary: "\n\n"
+  syntax:
+    content: public DbField[] Tuple(string name, string alias)
+    parameters:
+    - id: name
+      type: System.String
+    - id: alias
+      type: System.String
+    return:
+      type: BindOpen.Extensions.Carriers.DbField[]
+    content.vb: Public Function Tuple(name As String, alias As String) As DbField()
+  overload: BindOpen.Data.Models.BdoDbModel.Tuple*
+  implements:
+  - BindOpen.Data.Models.IBdoDbModel.Tuple(System.String,System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Data.Models.BdoDbModel.Tuple(System.String,System.ValueTuple{System.String,System.String}[])
+  commentId: M:BindOpen.Data.Models.BdoDbModel.Tuple(System.String,System.ValueTuple{System.String,System.String}[])
+  id: Tuple(System.String,System.ValueTuple{System.String,System.String}[])
+  parent: BindOpen.Data.Models.BdoDbModel
+  langs:
+  - csharp
+  - vb
+  name: Tuple(String, ValueTuple<String, String>[])
+  nameWithType: BdoDbModel.Tuple(String, ValueTuple<String, String>[])
+  fullName: BindOpen.Data.Models.BdoDbModel.Tuple(System.String, System.ValueTuple<System.String, System.String>[])
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Models
+  summary: "\n\n"
+  syntax:
+    content: public DbField[] Tuple(string name, params ValueTuple<string, string>[] aliases)
+    parameters:
+    - id: name
+      type: System.String
+    - id: aliases
+      type: System.ValueTuple{System.String,System.String}[]
+    return:
+      type: BindOpen.Extensions.Carriers.DbField[]
+    content.vb: Public Function Tuple(name As String, ParamArray aliases As ValueTuple(Of String, String)()) As DbField()
+  overload: BindOpen.Data.Models.BdoDbModel.Tuple*
+  implements:
+  - BindOpen.Data.Models.IBdoDbModel.Tuple(System.String,System.ValueTuple{System.String,System.String}[])
+  nameWithType.vb: BdoDbModel.Tuple(String, ValueTuple(Of String, String)())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: BindOpen.Data.Models.BdoDbModel.Tuple(System.String, System.ValueTuple(Of System.String, System.String)())
+  name.vb: Tuple(String, ValueTuple(Of String, String)())
+- uid: BindOpen.Data.Models.BdoDbModel.Query(System.String)
+  commentId: M:BindOpen.Data.Models.BdoDbModel.Query(System.String)
+  id: Query(System.String)
+  parent: BindOpen.Data.Models.BdoDbModel
+  langs:
+  - csharp
+  - vb
+  name: Query(String)
+  nameWithType: BdoDbModel.Query(String)
+  fullName: BindOpen.Data.Models.BdoDbModel.Query(System.String)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Models
+  summary: "\n\n"
+  syntax:
+    content: public IDbStoredQuery Query(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: BindOpen.Data.Queries.IDbStoredQuery
+    content.vb: Public Function Query(name As String) As IDbStoredQuery
+  overload: BindOpen.Data.Models.BdoDbModel.Query*
+  implements:
+  - BindOpen.Data.Models.IBdoDbModel.Query(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Data.Models.BdoDbModel.#ctor
+  commentId: M:BindOpen.Data.Models.BdoDbModel.#ctor
+  id: '#ctor'
+  parent: BindOpen.Data.Models.BdoDbModel
+  langs:
+  - csharp
+  - vb
+  name: BdoDbModel()
+  nameWithType: BdoDbModel.BdoDbModel()
+  fullName: BindOpen.Data.Models.BdoDbModel.BdoDbModel()
+  type: Constructor
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Models
+  syntax:
+    content: public BdoDbModel()
+    content.vb: Public Sub New
+  overload: BindOpen.Data.Models.BdoDbModel.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: BindOpen.Data.Models
+  commentId: N:BindOpen.Data.Models
+  isExternal: true
+  name: BindOpen.Data.Models
+  nameWithType: BindOpen.Data.Models
+  fullName: BindOpen.Data.Models
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BindOpen.Data.Models.IBdoDbModel
+  commentId: T:BindOpen.Data.Models.IBdoDbModel
+  parent: BindOpen.Data.Models
+  isExternal: true
+  name: IBdoDbModel
+  nameWithType: IBdoDbModel
+  fullName: BindOpen.Data.Models.IBdoDbModel
+- uid: BindOpen.Data.Items.IIdentifiedDataItem
+  isExternal: true
+  name: IIdentifiedDataItem
+  nameWithType: IIdentifiedDataItem
+  fullName: BindOpen.Data.Items.IIdentifiedDataItem
+- uid: BindOpen.Data.Items.IDataItem
+  isExternal: true
+  name: IDataItem
+  nameWithType: IDataItem
+  fullName: BindOpen.Data.Items.IDataItem
+- uid: System.ICloneable
+  isExternal: true
+  name: ICloneable
+  nameWithType: ICloneable
+  fullName: System.ICloneable
+- uid: System.IDisposable
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: BindOpen.Data.Items.IIdentified
+  isExternal: true
+  name: IIdentified
+  nameWithType: IIdentified
+  fullName: BindOpen.Data.Items.IIdentified
+- uid: BindOpen.Data.Items.IReferenced
+  isExternal: true
+  name: IReferenced
+  nameWithType: IReferenced
+  fullName: BindOpen.Data.Items.IReferenced
+- uid: BindOpen.Data.Models.BdoDbModel.BindOpen.Data.Models.BdoDbModelExtension.UseQuery(System.String,System.Func{BindOpen.Data.Models.IBdoDbModel,BindOpen.Data.Queries.IDbQuery})
+  commentId: M:BindOpen.Data.Models.BdoDbModelExtension.UseQuery(BindOpen.Data.Models.BdoDbModel,System.String,System.Func{BindOpen.Data.Models.IBdoDbModel,BindOpen.Data.Queries.IDbQuery})
+  parent: BindOpen.Data.Models.BdoDbModelExtension
+  definition: BindOpen.Data.Models.BdoDbModelExtension.UseQuery(BindOpen.Data.Models.BdoDbModel,System.String,System.Func{BindOpen.Data.Models.IBdoDbModel,BindOpen.Data.Queries.IDbQuery})
+  name: UseQuery(String, Func<IBdoDbModel, IDbQuery>)
+  nameWithType: BdoDbModelExtension.UseQuery(String, Func<IBdoDbModel, IDbQuery>)
+  fullName: BindOpen.Data.Models.BdoDbModelExtension.UseQuery(System.String, System.Func<BindOpen.Data.Models.IBdoDbModel, BindOpen.Data.Queries.IDbQuery>)
+  nameWithType.vb: BdoDbModelExtension.UseQuery(String, Func(Of IBdoDbModel, IDbQuery))
+  fullName.vb: BindOpen.Data.Models.BdoDbModelExtension.UseQuery(System.String, System.Func(Of BindOpen.Data.Models.IBdoDbModel, BindOpen.Data.Queries.IDbQuery))
+  name.vb: UseQuery(String, Func(Of IBdoDbModel, IDbQuery))
+  spec.csharp:
+  - uid: BindOpen.Data.Models.BdoDbModelExtension.UseQuery(System.String,System.Func{BindOpen.Data.Models.IBdoDbModel,BindOpen.Data.Queries.IDbQuery})
+    name: UseQuery
+    nameWithType: BdoDbModelExtension.UseQuery
+    fullName: BindOpen.Data.Models.BdoDbModelExtension.UseQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BindOpen.Data.Models.IBdoDbModel
+    name: IBdoDbModel
+    nameWithType: IBdoDbModel
+    fullName: BindOpen.Data.Models.IBdoDbModel
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Queries.IDbQuery
+    name: IDbQuery
+    nameWithType: IDbQuery
+    fullName: BindOpen.Data.Queries.IDbQuery
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Models.BdoDbModelExtension.UseQuery(System.String,System.Func{BindOpen.Data.Models.IBdoDbModel,BindOpen.Data.Queries.IDbQuery})
+    name: UseQuery
+    nameWithType: BdoDbModelExtension.UseQuery
+    fullName: BindOpen.Data.Models.BdoDbModelExtension.UseQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BindOpen.Data.Models.IBdoDbModel
+    name: IBdoDbModel
+    nameWithType: IBdoDbModel
+    fullName: BindOpen.Data.Models.IBdoDbModel
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Queries.IDbQuery
+    name: IDbQuery
+    nameWithType: IDbQuery
+    fullName: BindOpen.Data.Queries.IDbQuery
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Data.Models.BdoDbModelExtension.UseQuery(BindOpen.Data.Models.BdoDbModel,System.String,System.Func{BindOpen.Data.Models.IBdoDbModel,BindOpen.Data.Queries.IDbQuery})
+  commentId: M:BindOpen.Data.Models.BdoDbModelExtension.UseQuery(BindOpen.Data.Models.BdoDbModel,System.String,System.Func{BindOpen.Data.Models.IBdoDbModel,BindOpen.Data.Queries.IDbQuery})
+  isExternal: true
+  name: UseQuery(BdoDbModel, String, Func<IBdoDbModel, IDbQuery>)
+  nameWithType: BdoDbModelExtension.UseQuery(BdoDbModel, String, Func<IBdoDbModel, IDbQuery>)
+  fullName: BindOpen.Data.Models.BdoDbModelExtension.UseQuery(BindOpen.Data.Models.BdoDbModel, System.String, System.Func<BindOpen.Data.Models.IBdoDbModel, BindOpen.Data.Queries.IDbQuery>)
+  nameWithType.vb: BdoDbModelExtension.UseQuery(BdoDbModel, String, Func(Of IBdoDbModel, IDbQuery))
+  fullName.vb: BindOpen.Data.Models.BdoDbModelExtension.UseQuery(BindOpen.Data.Models.BdoDbModel, System.String, System.Func(Of BindOpen.Data.Models.IBdoDbModel, BindOpen.Data.Queries.IDbQuery))
+  name.vb: UseQuery(BdoDbModel, String, Func(Of IBdoDbModel, IDbQuery))
+  spec.csharp:
+  - uid: BindOpen.Data.Models.BdoDbModelExtension.UseQuery(BindOpen.Data.Models.BdoDbModel,System.String,System.Func{BindOpen.Data.Models.IBdoDbModel,BindOpen.Data.Queries.IDbQuery})
+    name: UseQuery
+    nameWithType: BdoDbModelExtension.UseQuery
+    fullName: BindOpen.Data.Models.BdoDbModelExtension.UseQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Data.Models.BdoDbModel
+    name: BdoDbModel
+    nameWithType: BdoDbModel
+    fullName: BindOpen.Data.Models.BdoDbModel
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BindOpen.Data.Models.IBdoDbModel
+    name: IBdoDbModel
+    nameWithType: IBdoDbModel
+    fullName: BindOpen.Data.Models.IBdoDbModel
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Queries.IDbQuery
+    name: IDbQuery
+    nameWithType: IDbQuery
+    fullName: BindOpen.Data.Queries.IDbQuery
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Models.BdoDbModelExtension.UseQuery(BindOpen.Data.Models.BdoDbModel,System.String,System.Func{BindOpen.Data.Models.IBdoDbModel,BindOpen.Data.Queries.IDbQuery})
+    name: UseQuery
+    nameWithType: BdoDbModelExtension.UseQuery
+    fullName: BindOpen.Data.Models.BdoDbModelExtension.UseQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Data.Models.BdoDbModel
+    name: BdoDbModel
+    nameWithType: BdoDbModel
+    fullName: BindOpen.Data.Models.BdoDbModel
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BindOpen.Data.Models.IBdoDbModel
+    name: IBdoDbModel
+    nameWithType: IBdoDbModel
+    fullName: BindOpen.Data.Models.IBdoDbModel
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Queries.IDbQuery
+    name: IDbQuery
+    nameWithType: IDbQuery
+    fullName: BindOpen.Data.Queries.IDbQuery
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Models.BdoDbModelExtension
+  commentId: T:BindOpen.Data.Models.BdoDbModelExtension
+  parent: BindOpen.Data.Models
+  isExternal: true
+  name: BdoDbModelExtension
+  nameWithType: BdoDbModelExtension
+  fullName: BindOpen.Data.Models.BdoDbModelExtension
+- uid: BindOpen.Data.Models.BdoDbModel.OnCreating*
+  commentId: Overload:BindOpen.Data.Models.BdoDbModel.OnCreating
+  isExternal: true
+  name: OnCreating
+  nameWithType: BdoDbModel.OnCreating
+  fullName: BindOpen.Data.Models.BdoDbModel.OnCreating
+- uid: BindOpen.Data.Models.IBdoDbModel.OnCreating(BindOpen.Data.Models.IBdoDbModelBuilder)
+  commentId: M:BindOpen.Data.Models.IBdoDbModel.OnCreating(BindOpen.Data.Models.IBdoDbModelBuilder)
+  parent: BindOpen.Data.Models.IBdoDbModel
+  isExternal: true
+  name: OnCreating(IBdoDbModelBuilder)
+  nameWithType: IBdoDbModel.OnCreating(IBdoDbModelBuilder)
+  fullName: BindOpen.Data.Models.IBdoDbModel.OnCreating(BindOpen.Data.Models.IBdoDbModelBuilder)
+  spec.csharp:
+  - uid: BindOpen.Data.Models.IBdoDbModel.OnCreating(BindOpen.Data.Models.IBdoDbModelBuilder)
+    name: OnCreating
+    nameWithType: IBdoDbModel.OnCreating
+    fullName: BindOpen.Data.Models.IBdoDbModel.OnCreating
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Data.Models.IBdoDbModelBuilder
+    name: IBdoDbModelBuilder
+    nameWithType: IBdoDbModelBuilder
+    fullName: BindOpen.Data.Models.IBdoDbModelBuilder
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Models.IBdoDbModel.OnCreating(BindOpen.Data.Models.IBdoDbModelBuilder)
+    name: OnCreating
+    nameWithType: IBdoDbModel.OnCreating
+    fullName: BindOpen.Data.Models.IBdoDbModel.OnCreating
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Data.Models.IBdoDbModelBuilder
+    name: IBdoDbModelBuilder
+    nameWithType: IBdoDbModelBuilder
+    fullName: BindOpen.Data.Models.IBdoDbModelBuilder
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Models.IBdoDbModelBuilder
+  commentId: T:BindOpen.Data.Models.IBdoDbModelBuilder
+  parent: BindOpen.Data.Models
+  isExternal: true
+  name: IBdoDbModelBuilder
+  nameWithType: IBdoDbModelBuilder
+  fullName: BindOpen.Data.Models.IBdoDbModelBuilder
+- uid: BindOpen.Data.Models.BdoDbModel.Table*
+  commentId: Overload:BindOpen.Data.Models.BdoDbModel.Table
+  isExternal: true
+  name: Table
+  nameWithType: BdoDbModel.Table
+  fullName: BindOpen.Data.Models.BdoDbModel.Table
+- uid: BindOpen.Data.Models.IBdoDbModel.Table(System.String,System.String)
+  commentId: M:BindOpen.Data.Models.IBdoDbModel.Table(System.String,System.String)
+  parent: BindOpen.Data.Models.IBdoDbModel
+  isExternal: true
+  name: Table(String, String)
+  nameWithType: IBdoDbModel.Table(String, String)
+  fullName: BindOpen.Data.Models.IBdoDbModel.Table(System.String, System.String)
+  spec.csharp:
+  - uid: BindOpen.Data.Models.IBdoDbModel.Table(System.String,System.String)
+    name: Table
+    nameWithType: IBdoDbModel.Table
+    fullName: BindOpen.Data.Models.IBdoDbModel.Table
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Models.IBdoDbModel.Table(System.String,System.String)
+    name: Table
+    nameWithType: IBdoDbModel.Table
+    fullName: BindOpen.Data.Models.IBdoDbModel.Table
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: BindOpen.Extensions.Carriers.DbTable
+  commentId: T:BindOpen.Extensions.Carriers.DbTable
+  parent: BindOpen.Extensions.Carriers
+  isExternal: true
+  name: DbTable
+  nameWithType: DbTable
+  fullName: BindOpen.Extensions.Carriers.DbTable
+- uid: BindOpen.Extensions.Carriers
+  commentId: N:BindOpen.Extensions.Carriers
+  isExternal: true
+  name: BindOpen.Extensions.Carriers
+  nameWithType: BindOpen.Extensions.Carriers
+  fullName: BindOpen.Extensions.Carriers
+- uid: BindOpen.Data.Models.BdoDbModel.JoinCondition*
+  commentId: Overload:BindOpen.Data.Models.BdoDbModel.JoinCondition
+  isExternal: true
+  name: JoinCondition
+  nameWithType: BdoDbModel.JoinCondition
+  fullName: BindOpen.Data.Models.BdoDbModel.JoinCondition
+- uid: BindOpen.Data.Models.IBdoDbModel.JoinCondition(System.String,System.ValueTuple{System.String,System.String}[])
+  commentId: M:BindOpen.Data.Models.IBdoDbModel.JoinCondition(System.String,System.ValueTuple{System.String,System.String}[])
+  parent: BindOpen.Data.Models.IBdoDbModel
+  isExternal: true
+  name: JoinCondition(String, ValueTuple<String, String>[])
+  nameWithType: IBdoDbModel.JoinCondition(String, ValueTuple<String, String>[])
+  fullName: BindOpen.Data.Models.IBdoDbModel.JoinCondition(System.String, System.ValueTuple<System.String, System.String>[])
+  nameWithType.vb: IBdoDbModel.JoinCondition(String, ValueTuple(Of String, String)())
+  fullName.vb: BindOpen.Data.Models.IBdoDbModel.JoinCondition(System.String, System.ValueTuple(Of System.String, System.String)())
+  name.vb: JoinCondition(String, ValueTuple(Of String, String)())
+  spec.csharp:
+  - uid: BindOpen.Data.Models.IBdoDbModel.JoinCondition(System.String,System.ValueTuple{System.String,System.String}[])
+    name: JoinCondition
+    nameWithType: IBdoDbModel.JoinCondition
+    fullName: BindOpen.Data.Models.IBdoDbModel.JoinCondition
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Models.IBdoDbModel.JoinCondition(System.String,System.ValueTuple{System.String,System.String}[])
+    name: JoinCondition
+    nameWithType: IBdoDbModel.JoinCondition
+    fullName: BindOpen.Data.Models.IBdoDbModel.JoinCondition
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueTuple{System.String,System.String}[]
+  isExternal: true
+  name: ValueTuple<String, String>[]
+  nameWithType: ValueTuple<String, String>[]
+  fullName: System.ValueTuple<System.String, System.String>[]
+  nameWithType.vb: ValueTuple(Of String, String)()
+  fullName.vb: System.ValueTuple(Of System.String, System.String)()
+  name.vb: ValueTuple(Of String, String)()
+  spec.csharp:
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: BindOpen.Data.Expression.DataExpression
+  isExternal: true
+  name: DataExpression
+  nameWithType: DataExpression
+  fullName: BindOpen.Data.Expression.DataExpression
+- uid: BindOpen.Data.Models.BdoDbModel.Tuple*
+  commentId: Overload:BindOpen.Data.Models.BdoDbModel.Tuple
+  isExternal: true
+  name: Tuple
+  nameWithType: BdoDbModel.Tuple
+  fullName: BindOpen.Data.Models.BdoDbModel.Tuple
+- uid: BindOpen.Data.Models.IBdoDbModel.Tuple(System.String,System.String)
+  commentId: M:BindOpen.Data.Models.IBdoDbModel.Tuple(System.String,System.String)
+  parent: BindOpen.Data.Models.IBdoDbModel
+  isExternal: true
+  name: Tuple(String, String)
+  nameWithType: IBdoDbModel.Tuple(String, String)
+  fullName: BindOpen.Data.Models.IBdoDbModel.Tuple(System.String, System.String)
+  spec.csharp:
+  - uid: BindOpen.Data.Models.IBdoDbModel.Tuple(System.String,System.String)
+    name: Tuple
+    nameWithType: IBdoDbModel.Tuple
+    fullName: BindOpen.Data.Models.IBdoDbModel.Tuple
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Models.IBdoDbModel.Tuple(System.String,System.String)
+    name: Tuple
+    nameWithType: IBdoDbModel.Tuple
+    fullName: BindOpen.Data.Models.IBdoDbModel.Tuple
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Extensions.Carriers.DbField[]
+  isExternal: true
+  name: DbField[]
+  nameWithType: DbField[]
+  fullName: BindOpen.Extensions.Carriers.DbField[]
+  nameWithType.vb: DbField()
+  fullName.vb: BindOpen.Extensions.Carriers.DbField()
+  name.vb: DbField()
+  spec.csharp:
+  - uid: BindOpen.Extensions.Carriers.DbField
+    name: DbField
+    nameWithType: DbField
+    fullName: BindOpen.Extensions.Carriers.DbField
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: BindOpen.Extensions.Carriers.DbField
+    name: DbField
+    nameWithType: DbField
+    fullName: BindOpen.Extensions.Carriers.DbField
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: BindOpen.Data.Models.IBdoDbModel.Tuple(System.String,System.ValueTuple{System.String,System.String}[])
+  commentId: M:BindOpen.Data.Models.IBdoDbModel.Tuple(System.String,System.ValueTuple{System.String,System.String}[])
+  parent: BindOpen.Data.Models.IBdoDbModel
+  isExternal: true
+  name: Tuple(String, ValueTuple<String, String>[])
+  nameWithType: IBdoDbModel.Tuple(String, ValueTuple<String, String>[])
+  fullName: BindOpen.Data.Models.IBdoDbModel.Tuple(System.String, System.ValueTuple<System.String, System.String>[])
+  nameWithType.vb: IBdoDbModel.Tuple(String, ValueTuple(Of String, String)())
+  fullName.vb: BindOpen.Data.Models.IBdoDbModel.Tuple(System.String, System.ValueTuple(Of System.String, System.String)())
+  name.vb: Tuple(String, ValueTuple(Of String, String)())
+  spec.csharp:
+  - uid: BindOpen.Data.Models.IBdoDbModel.Tuple(System.String,System.ValueTuple{System.String,System.String}[])
+    name: Tuple
+    nameWithType: IBdoDbModel.Tuple
+    fullName: BindOpen.Data.Models.IBdoDbModel.Tuple
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Models.IBdoDbModel.Tuple(System.String,System.ValueTuple{System.String,System.String}[])
+    name: Tuple
+    nameWithType: IBdoDbModel.Tuple
+    fullName: BindOpen.Data.Models.IBdoDbModel.Tuple
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Models.BdoDbModel.Query*
+  commentId: Overload:BindOpen.Data.Models.BdoDbModel.Query
+  isExternal: true
+  name: Query
+  nameWithType: BdoDbModel.Query
+  fullName: BindOpen.Data.Models.BdoDbModel.Query
+- uid: BindOpen.Data.Models.IBdoDbModel.Query(System.String)
+  commentId: M:BindOpen.Data.Models.IBdoDbModel.Query(System.String)
+  parent: BindOpen.Data.Models.IBdoDbModel
+  isExternal: true
+  name: Query(String)
+  nameWithType: IBdoDbModel.Query(String)
+  fullName: BindOpen.Data.Models.IBdoDbModel.Query(System.String)
+  spec.csharp:
+  - uid: BindOpen.Data.Models.IBdoDbModel.Query(System.String)
+    name: Query
+    nameWithType: IBdoDbModel.Query
+    fullName: BindOpen.Data.Models.IBdoDbModel.Query
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Models.IBdoDbModel.Query(System.String)
+    name: Query
+    nameWithType: IBdoDbModel.Query
+    fullName: BindOpen.Data.Models.IBdoDbModel.Query
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Queries.IDbStoredQuery
+  commentId: T:BindOpen.Data.Queries.IDbStoredQuery
+  parent: BindOpen.Data.Queries
+  isExternal: true
+  name: IDbStoredQuery
+  nameWithType: IDbStoredQuery
+  fullName: BindOpen.Data.Queries.IDbStoredQuery
+- uid: BindOpen.Data.Queries
+  commentId: N:BindOpen.Data.Queries
+  isExternal: true
+  name: BindOpen.Data.Queries
+  nameWithType: BindOpen.Data.Queries
+  fullName: BindOpen.Data.Queries
+- uid: BindOpen.Data.Models.BdoDbModel.#ctor*
+  commentId: Overload:BindOpen.Data.Models.BdoDbModel.#ctor
+  isExternal: true
+  name: BdoDbModel
+  nameWithType: BdoDbModel.BdoDbModel
+  fullName: BindOpen.Data.Models.BdoDbModel.BdoDbModel
+shouldSkipMarkup: true

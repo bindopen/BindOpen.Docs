@@ -1,0 +1,1249 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Application.Services.TBdoService`1
+  commentId: T:BindOpen.Application.Services.TBdoService`1
+  id: TBdoService`1
+  parent: BindOpen.Application.Services
+  children:
+  - BindOpen.Application.Services.TBdoService`1.#ctor(BindOpen.Application.Scopes.IBdoScope,`0,BindOpen.System.Diagnostics.Loggers.IBdoLogger[])
+  - BindOpen.Application.Services.TBdoService`1.Action_OnExecutionFailure
+  - BindOpen.Application.Services.TBdoService`1.Action_OnExecutionSucess
+  - BindOpen.Application.Services.TBdoService`1.Action_OnStartFailure
+  - BindOpen.Application.Services.TBdoService`1.Action_OnStartSuccess
+  - BindOpen.Application.Services.TBdoService`1.ExecutionFails
+  - BindOpen.Application.Services.TBdoService`1.ExecutionSucceedes
+  - BindOpen.Application.Services.TBdoService`1.Settings
+  - BindOpen.Application.Services.TBdoService`1.StartFails
+  - BindOpen.Application.Services.TBdoService`1.StartSucceeds
+  langs:
+  - csharp
+  - vb
+  name: TBdoService<S>
+  nameWithType: TBdoService<S>
+  fullName: BindOpen.Application.Services.TBdoService<S>
+  type: Class
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Services
+  summary: "\nThis class represents an bot.\n"
+  syntax:
+    content: 'public abstract class TBdoService<S> : BdoService, ITBdoService<S>, IBdoService, IIdentifiedDataItem, IDataItem, ICloneable, IDisposable, IIdentified, IReferenced, IBdoTrigeredService where S : IBdoSettings, new()'
+    typeParameters:
+    - id: S
+    content.vb: >-
+      Public MustInherit Class TBdoService(Of S As {IBdoSettings, New})
+          Inherits BdoService
+          Implements ITBdoService(Of S), IBdoService, IIdentifiedDataItem, IDataItem, ICloneable, IDisposable, IIdentified, IReferenced, IBdoTrigeredService
+  inheritance:
+  - System.Object
+  - BindOpen.Application.Services.BdoService
+  derivedClasses:
+  - BindOpen.Application.Scopes.TBdoHost`1
+  implements:
+  - BindOpen.Application.Services.ITBdoService{{S}}
+  - BindOpen.Application.Services.IBdoService
+  - BindOpen.Data.Items.IIdentifiedDataItem
+  - BindOpen.Data.Items.IDataItem
+  - System.ICloneable
+  - System.IDisposable
+  - BindOpen.Data.Items.IIdentified
+  - BindOpen.Data.Items.IReferenced
+  - BindOpen.Application.Services.IBdoTrigeredService
+  inheritedMembers:
+  - BindOpen.Application.Services.BdoService._isLoaded
+  - BindOpen.Application.Services.BdoService._scope
+  - BindOpen.Application.Services.BdoService.Start
+  - BindOpen.Application.Services.BdoService.Process(BindOpen.System.Diagnostics.IBdoLog)
+  - BindOpen.Application.Services.BdoService.End(BindOpen.System.Processing.ProcessExecutionStatus)
+  - BindOpen.Application.Services.BdoService.Initialize(BindOpen.System.Diagnostics.IBdoLog)
+  - BindOpen.Application.Services.BdoService.Dispose(System.Boolean)
+  - BindOpen.Application.Services.BdoService.IsLoaded
+  - BindOpen.Application.Services.BdoService.Loggers
+  - BindOpen.Application.Services.BdoService.ExecutionState
+  - BindOpen.Application.Services.BdoService.ExecutionStatus
+  - BindOpen.Application.Services.BdoService.AppDomainPool
+  - BindOpen.Application.Services.BdoService.Log
+  nameWithType.vb: TBdoService(Of S)
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+  fullName.vb: BindOpen.Application.Services.TBdoService(Of S)
+  name.vb: TBdoService(Of S)
+- uid: BindOpen.Application.Services.TBdoService`1.#ctor(BindOpen.Application.Scopes.IBdoScope,`0,BindOpen.System.Diagnostics.Loggers.IBdoLogger[])
+  commentId: M:BindOpen.Application.Services.TBdoService`1.#ctor(BindOpen.Application.Scopes.IBdoScope,`0,BindOpen.System.Diagnostics.Loggers.IBdoLogger[])
+  id: '#ctor(BindOpen.Application.Scopes.IBdoScope,`0,BindOpen.System.Diagnostics.Loggers.IBdoLogger[])'
+  parent: BindOpen.Application.Services.TBdoService`1
+  langs:
+  - csharp
+  - vb
+  name: TBdoService(IBdoScope, S, IBdoLogger[])
+  nameWithType: TBdoService<S>.TBdoService(IBdoScope, S, IBdoLogger[])
+  fullName: BindOpen.Application.Services.TBdoService<S>.TBdoService(BindOpen.Application.Scopes.IBdoScope, S, BindOpen.System.Diagnostics.Loggers.IBdoLogger[])
+  type: Constructor
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Services
+  summary: "\nInstantiates a new instance of the TBdoService class.\n"
+  syntax:
+    content: protected TBdoService(IBdoScope scope, S settings = null, params IBdoLogger[] loggers)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+    - id: settings
+      type: '{S}'
+    - id: loggers
+      type: BindOpen.System.Diagnostics.Loggers.IBdoLogger[]
+    content.vb: Protected Sub New(scope As IBdoScope, settings As S = Nothing, ParamArray loggers As IBdoLogger())
+  overload: BindOpen.Application.Services.TBdoService`1.#ctor*
+  nameWithType.vb: TBdoService(Of S).TBdoService(IBdoScope, S, IBdoLogger())
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: BindOpen.Application.Services.TBdoService(Of S).TBdoService(BindOpen.Application.Scopes.IBdoScope, S, BindOpen.System.Diagnostics.Loggers.IBdoLogger())
+  name.vb: TBdoService(IBdoScope, S, IBdoLogger())
+- uid: BindOpen.Application.Services.TBdoService`1.StartSucceeds
+  commentId: M:BindOpen.Application.Services.TBdoService`1.StartSucceeds
+  id: StartSucceeds
+  parent: BindOpen.Application.Services.TBdoService`1
+  langs:
+  - csharp
+  - vb
+  name: StartSucceeds()
+  nameWithType: TBdoService<S>.StartSucceeds()
+  fullName: BindOpen.Application.Services.TBdoService<S>.StartSucceeds()
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Services
+  summary: "\nIndicates that this instance has successfully started.\n"
+  syntax:
+    content: public virtual void StartSucceeds()
+    content.vb: Public Overridable Sub StartSucceeds
+  overload: BindOpen.Application.Services.TBdoService`1.StartSucceeds*
+  implements:
+  - BindOpen.Application.Services.IBdoTrigeredService.StartSucceeds
+  nameWithType.vb: TBdoService(Of S).StartSucceeds()
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: BindOpen.Application.Services.TBdoService(Of S).StartSucceeds()
+- uid: BindOpen.Application.Services.TBdoService`1.StartFails
+  commentId: M:BindOpen.Application.Services.TBdoService`1.StartFails
+  id: StartFails
+  parent: BindOpen.Application.Services.TBdoService`1
+  langs:
+  - csharp
+  - vb
+  name: StartFails()
+  nameWithType: TBdoService<S>.StartFails()
+  fullName: BindOpen.Application.Services.TBdoService<S>.StartFails()
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Services
+  summary: "\nIndicates that this instance has not successfully started.\n"
+  syntax:
+    content: public virtual void StartFails()
+    content.vb: Public Overridable Sub StartFails
+  overload: BindOpen.Application.Services.TBdoService`1.StartFails*
+  implements:
+  - BindOpen.Application.Services.IBdoTrigeredService.StartFails
+  nameWithType.vb: TBdoService(Of S).StartFails()
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: BindOpen.Application.Services.TBdoService(Of S).StartFails()
+- uid: BindOpen.Application.Services.TBdoService`1.ExecutionSucceedes
+  commentId: M:BindOpen.Application.Services.TBdoService`1.ExecutionSucceedes
+  id: ExecutionSucceedes
+  parent: BindOpen.Application.Services.TBdoService`1
+  langs:
+  - csharp
+  - vb
+  name: ExecutionSucceedes()
+  nameWithType: TBdoService<S>.ExecutionSucceedes()
+  fullName: BindOpen.Application.Services.TBdoService<S>.ExecutionSucceedes()
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Services
+  summary: "\nIndicates that this instance completes.\n"
+  syntax:
+    content: public virtual void ExecutionSucceedes()
+    content.vb: Public Overridable Sub ExecutionSucceedes
+  overload: BindOpen.Application.Services.TBdoService`1.ExecutionSucceedes*
+  implements:
+  - BindOpen.Application.Services.IBdoTrigeredService.ExecutionSucceedes
+  nameWithType.vb: TBdoService(Of S).ExecutionSucceedes()
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: BindOpen.Application.Services.TBdoService(Of S).ExecutionSucceedes()
+- uid: BindOpen.Application.Services.TBdoService`1.ExecutionFails
+  commentId: M:BindOpen.Application.Services.TBdoService`1.ExecutionFails
+  id: ExecutionFails
+  parent: BindOpen.Application.Services.TBdoService`1
+  langs:
+  - csharp
+  - vb
+  name: ExecutionFails()
+  nameWithType: TBdoService<S>.ExecutionFails()
+  fullName: BindOpen.Application.Services.TBdoService<S>.ExecutionFails()
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Services
+  summary: "\nIndicates that this instance fails.\n"
+  syntax:
+    content: public virtual void ExecutionFails()
+    content.vb: Public Overridable Sub ExecutionFails
+  overload: BindOpen.Application.Services.TBdoService`1.ExecutionFails*
+  implements:
+  - BindOpen.Application.Services.IBdoTrigeredService.ExecutionFails
+  nameWithType.vb: TBdoService(Of S).ExecutionFails()
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: BindOpen.Application.Services.TBdoService(Of S).ExecutionFails()
+- uid: BindOpen.Application.Services.TBdoService`1.Settings
+  commentId: P:BindOpen.Application.Services.TBdoService`1.Settings
+  id: Settings
+  parent: BindOpen.Application.Services.TBdoService`1
+  langs:
+  - csharp
+  - vb
+  name: Settings
+  nameWithType: TBdoService<S>.Settings
+  fullName: BindOpen.Application.Services.TBdoService<S>.Settings
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Services
+  summary: "\nThe settings of this instance.\n"
+  syntax:
+    content: public S Settings { get; set; }
+    parameters: []
+    return:
+      type: '{S}'
+    content.vb: Public Property Settings As S
+  overload: BindOpen.Application.Services.TBdoService`1.Settings*
+  implements:
+  - BindOpen.Application.Services.ITBdoService{{S}}.Settings
+  nameWithType.vb: TBdoService(Of S).Settings
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: BindOpen.Application.Services.TBdoService(Of S).Settings
+- uid: BindOpen.Application.Services.TBdoService`1.Action_OnStartSuccess
+  commentId: P:BindOpen.Application.Services.TBdoService`1.Action_OnStartSuccess
+  id: Action_OnStartSuccess
+  parent: BindOpen.Application.Services.TBdoService`1
+  langs:
+  - csharp
+  - vb
+  name: Action_OnStartSuccess
+  nameWithType: TBdoService<S>.Action_OnStartSuccess
+  fullName: BindOpen.Application.Services.TBdoService<S>.Action_OnStartSuccess
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Services
+  summary: "\nThe action that the start of this instance completes.\n"
+  syntax:
+    content: public Action<ITBdoService<S>> Action_OnStartSuccess { get; set; }
+    parameters: []
+    return:
+      type: System.Action{BindOpen.Application.Services.ITBdoService{{S}}}
+    content.vb: Public Property Action_OnStartSuccess As Action(Of ITBdoService(Of S))
+  overload: BindOpen.Application.Services.TBdoService`1.Action_OnStartSuccess*
+  implements:
+  - BindOpen.Application.Services.ITBdoService{{S}}.Action_OnStartSuccess
+  nameWithType.vb: TBdoService(Of S).Action_OnStartSuccess
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: BindOpen.Application.Services.TBdoService(Of S).Action_OnStartSuccess
+- uid: BindOpen.Application.Services.TBdoService`1.Action_OnStartFailure
+  commentId: P:BindOpen.Application.Services.TBdoService`1.Action_OnStartFailure
+  id: Action_OnStartFailure
+  parent: BindOpen.Application.Services.TBdoService`1
+  langs:
+  - csharp
+  - vb
+  name: Action_OnStartFailure
+  nameWithType: TBdoService<S>.Action_OnStartFailure
+  fullName: BindOpen.Application.Services.TBdoService<S>.Action_OnStartFailure
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Services
+  summary: "\nThe action that the start of this instance fails.\n"
+  syntax:
+    content: public Action<ITBdoService<S>> Action_OnStartFailure { get; set; }
+    parameters: []
+    return:
+      type: System.Action{BindOpen.Application.Services.ITBdoService{{S}}}
+    content.vb: Public Property Action_OnStartFailure As Action(Of ITBdoService(Of S))
+  overload: BindOpen.Application.Services.TBdoService`1.Action_OnStartFailure*
+  implements:
+  - BindOpen.Application.Services.ITBdoService{{S}}.Action_OnStartFailure
+  nameWithType.vb: TBdoService(Of S).Action_OnStartFailure
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: BindOpen.Application.Services.TBdoService(Of S).Action_OnStartFailure
+- uid: BindOpen.Application.Services.TBdoService`1.Action_OnExecutionSucess
+  commentId: P:BindOpen.Application.Services.TBdoService`1.Action_OnExecutionSucess
+  id: Action_OnExecutionSucess
+  parent: BindOpen.Application.Services.TBdoService`1
+  langs:
+  - csharp
+  - vb
+  name: Action_OnExecutionSucess
+  nameWithType: TBdoService<S>.Action_OnExecutionSucess
+  fullName: BindOpen.Application.Services.TBdoService<S>.Action_OnExecutionSucess
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Services
+  summary: "\nThe action that this instance completes.\n"
+  syntax:
+    content: public Action<ITBdoService<S>> Action_OnExecutionSucess { get; set; }
+    parameters: []
+    return:
+      type: System.Action{BindOpen.Application.Services.ITBdoService{{S}}}
+    content.vb: Public Property Action_OnExecutionSucess As Action(Of ITBdoService(Of S))
+  overload: BindOpen.Application.Services.TBdoService`1.Action_OnExecutionSucess*
+  implements:
+  - BindOpen.Application.Services.ITBdoService{{S}}.Action_OnExecutionSucess
+  nameWithType.vb: TBdoService(Of S).Action_OnExecutionSucess
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: BindOpen.Application.Services.TBdoService(Of S).Action_OnExecutionSucess
+- uid: BindOpen.Application.Services.TBdoService`1.Action_OnExecutionFailure
+  commentId: P:BindOpen.Application.Services.TBdoService`1.Action_OnExecutionFailure
+  id: Action_OnExecutionFailure
+  parent: BindOpen.Application.Services.TBdoService`1
+  langs:
+  - csharp
+  - vb
+  name: Action_OnExecutionFailure
+  nameWithType: TBdoService<S>.Action_OnExecutionFailure
+  fullName: BindOpen.Application.Services.TBdoService<S>.Action_OnExecutionFailure
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Services
+  summary: "\nThe action that is executed when the instance fails.\n"
+  syntax:
+    content: public Action<ITBdoService<S>> Action_OnExecutionFailure { get; set; }
+    parameters: []
+    return:
+      type: System.Action{BindOpen.Application.Services.ITBdoService{{S}}}
+    content.vb: Public Property Action_OnExecutionFailure As Action(Of ITBdoService(Of S))
+  overload: BindOpen.Application.Services.TBdoService`1.Action_OnExecutionFailure*
+  implements:
+  - BindOpen.Application.Services.ITBdoService{{S}}.Action_OnExecutionFailure
+  nameWithType.vb: TBdoService(Of S).Action_OnExecutionFailure
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: BindOpen.Application.Services.TBdoService(Of S).Action_OnExecutionFailure
+references:
+- uid: BindOpen.Application.Services
+  commentId: N:BindOpen.Application.Services
+  isExternal: true
+  name: BindOpen.Application.Services
+  nameWithType: BindOpen.Application.Services
+  fullName: BindOpen.Application.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BindOpen.Application.Services.BdoService
+  commentId: T:BindOpen.Application.Services.BdoService
+  parent: BindOpen.Application.Services
+  isExternal: true
+  name: BdoService
+  nameWithType: BdoService
+  fullName: BindOpen.Application.Services.BdoService
+- uid: BindOpen.Application.Services.ITBdoService{{S}}
+  commentId: T:BindOpen.Application.Services.ITBdoService{`0}
+  parent: BindOpen.Application.Services
+  definition: BindOpen.Application.Services.ITBdoService`1
+  name: ITBdoService<S>
+  nameWithType: ITBdoService<S>
+  fullName: BindOpen.Application.Services.ITBdoService<S>
+  nameWithType.vb: ITBdoService(Of S)
+  fullName.vb: BindOpen.Application.Services.ITBdoService(Of S)
+  name.vb: ITBdoService(Of S)
+  spec.csharp:
+  - uid: BindOpen.Application.Services.ITBdoService`1
+    name: ITBdoService
+    nameWithType: ITBdoService
+    fullName: BindOpen.Application.Services.ITBdoService
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: S
+    nameWithType: S
+    fullName: S
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: BindOpen.Application.Services.ITBdoService`1
+    name: ITBdoService
+    nameWithType: ITBdoService
+    fullName: BindOpen.Application.Services.ITBdoService
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: S
+    nameWithType: S
+    fullName: S
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Services.IBdoService
+  commentId: T:BindOpen.Application.Services.IBdoService
+  parent: BindOpen.Application.Services
+  isExternal: true
+  name: IBdoService
+  nameWithType: IBdoService
+  fullName: BindOpen.Application.Services.IBdoService
+- uid: BindOpen.Data.Items.IIdentifiedDataItem
+  isExternal: true
+  name: IIdentifiedDataItem
+  nameWithType: IIdentifiedDataItem
+  fullName: BindOpen.Data.Items.IIdentifiedDataItem
+- uid: BindOpen.Data.Items.IDataItem
+  isExternal: true
+  name: IDataItem
+  nameWithType: IDataItem
+  fullName: BindOpen.Data.Items.IDataItem
+- uid: System.ICloneable
+  isExternal: true
+  name: ICloneable
+  nameWithType: ICloneable
+  fullName: System.ICloneable
+- uid: System.IDisposable
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: BindOpen.Data.Items.IIdentified
+  isExternal: true
+  name: IIdentified
+  nameWithType: IIdentified
+  fullName: BindOpen.Data.Items.IIdentified
+- uid: BindOpen.Data.Items.IReferenced
+  isExternal: true
+  name: IReferenced
+  nameWithType: IReferenced
+  fullName: BindOpen.Data.Items.IReferenced
+- uid: BindOpen.Application.Services.IBdoTrigeredService
+  commentId: T:BindOpen.Application.Services.IBdoTrigeredService
+  parent: BindOpen.Application.Services
+  isExternal: true
+  name: IBdoTrigeredService
+  nameWithType: IBdoTrigeredService
+  fullName: BindOpen.Application.Services.IBdoTrigeredService
+- uid: BindOpen.Application.Services.BdoService._isLoaded
+  commentId: F:BindOpen.Application.Services.BdoService._isLoaded
+  parent: BindOpen.Application.Services.BdoService
+  isExternal: true
+  name: _isLoaded
+  nameWithType: BdoService._isLoaded
+  fullName: BindOpen.Application.Services.BdoService._isLoaded
+- uid: BindOpen.Application.Services.BdoService._scope
+  commentId: F:BindOpen.Application.Services.BdoService._scope
+  parent: BindOpen.Application.Services.BdoService
+  isExternal: true
+  name: _scope
+  nameWithType: BdoService._scope
+  fullName: BindOpen.Application.Services.BdoService._scope
+- uid: BindOpen.Application.Services.BdoService.Start
+  commentId: M:BindOpen.Application.Services.BdoService.Start
+  parent: BindOpen.Application.Services.BdoService
+  isExternal: true
+  name: Start()
+  nameWithType: BdoService.Start()
+  fullName: BindOpen.Application.Services.BdoService.Start()
+  spec.csharp:
+  - uid: BindOpen.Application.Services.BdoService.Start
+    name: Start
+    nameWithType: BdoService.Start
+    fullName: BindOpen.Application.Services.BdoService.Start
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Application.Services.BdoService.Start
+    name: Start
+    nameWithType: BdoService.Start
+    fullName: BindOpen.Application.Services.BdoService.Start
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Services.BdoService.Process(BindOpen.System.Diagnostics.IBdoLog)
+  commentId: M:BindOpen.Application.Services.BdoService.Process(BindOpen.System.Diagnostics.IBdoLog)
+  parent: BindOpen.Application.Services.BdoService
+  isExternal: true
+  name: Process(IBdoLog)
+  nameWithType: BdoService.Process(IBdoLog)
+  fullName: BindOpen.Application.Services.BdoService.Process(BindOpen.System.Diagnostics.IBdoLog)
+  spec.csharp:
+  - uid: BindOpen.Application.Services.BdoService.Process(BindOpen.System.Diagnostics.IBdoLog)
+    name: Process
+    nameWithType: BdoService.Process
+    fullName: BindOpen.Application.Services.BdoService.Process
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Application.Services.BdoService.Process(BindOpen.System.Diagnostics.IBdoLog)
+    name: Process
+    nameWithType: BdoService.Process
+    fullName: BindOpen.Application.Services.BdoService.Process
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Services.BdoService.End(BindOpen.System.Processing.ProcessExecutionStatus)
+  commentId: M:BindOpen.Application.Services.BdoService.End(BindOpen.System.Processing.ProcessExecutionStatus)
+  parent: BindOpen.Application.Services.BdoService
+  isExternal: true
+  name: End(ProcessExecutionStatus)
+  nameWithType: BdoService.End(ProcessExecutionStatus)
+  fullName: BindOpen.Application.Services.BdoService.End(BindOpen.System.Processing.ProcessExecutionStatus)
+  spec.csharp:
+  - uid: BindOpen.Application.Services.BdoService.End(BindOpen.System.Processing.ProcessExecutionStatus)
+    name: End
+    nameWithType: BdoService.End
+    fullName: BindOpen.Application.Services.BdoService.End
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.System.Processing.ProcessExecutionStatus
+    name: ProcessExecutionStatus
+    nameWithType: ProcessExecutionStatus
+    fullName: BindOpen.System.Processing.ProcessExecutionStatus
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Application.Services.BdoService.End(BindOpen.System.Processing.ProcessExecutionStatus)
+    name: End
+    nameWithType: BdoService.End
+    fullName: BindOpen.Application.Services.BdoService.End
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.System.Processing.ProcessExecutionStatus
+    name: ProcessExecutionStatus
+    nameWithType: ProcessExecutionStatus
+    fullName: BindOpen.System.Processing.ProcessExecutionStatus
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Services.BdoService.Initialize(BindOpen.System.Diagnostics.IBdoLog)
+  commentId: M:BindOpen.Application.Services.BdoService.Initialize(BindOpen.System.Diagnostics.IBdoLog)
+  parent: BindOpen.Application.Services.BdoService
+  isExternal: true
+  name: Initialize(IBdoLog)
+  nameWithType: BdoService.Initialize(IBdoLog)
+  fullName: BindOpen.Application.Services.BdoService.Initialize(BindOpen.System.Diagnostics.IBdoLog)
+  spec.csharp:
+  - uid: BindOpen.Application.Services.BdoService.Initialize(BindOpen.System.Diagnostics.IBdoLog)
+    name: Initialize
+    nameWithType: BdoService.Initialize
+    fullName: BindOpen.Application.Services.BdoService.Initialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Application.Services.BdoService.Initialize(BindOpen.System.Diagnostics.IBdoLog)
+    name: Initialize
+    nameWithType: BdoService.Initialize
+    fullName: BindOpen.Application.Services.BdoService.Initialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Services.BdoService.Dispose(System.Boolean)
+  commentId: M:BindOpen.Application.Services.BdoService.Dispose(System.Boolean)
+  parent: BindOpen.Application.Services.BdoService
+  isExternal: true
+  name: Dispose(Boolean)
+  nameWithType: BdoService.Dispose(Boolean)
+  fullName: BindOpen.Application.Services.BdoService.Dispose(System.Boolean)
+  spec.csharp:
+  - uid: BindOpen.Application.Services.BdoService.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: BdoService.Dispose
+    fullName: BindOpen.Application.Services.BdoService.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Application.Services.BdoService.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: BdoService.Dispose
+    fullName: BindOpen.Application.Services.BdoService.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Services.BdoService.IsLoaded
+  commentId: P:BindOpen.Application.Services.BdoService.IsLoaded
+  parent: BindOpen.Application.Services.BdoService
+  isExternal: true
+  name: IsLoaded
+  nameWithType: BdoService.IsLoaded
+  fullName: BindOpen.Application.Services.BdoService.IsLoaded
+- uid: BindOpen.Application.Services.BdoService.Loggers
+  commentId: P:BindOpen.Application.Services.BdoService.Loggers
+  parent: BindOpen.Application.Services.BdoService
+  isExternal: true
+  name: Loggers
+  nameWithType: BdoService.Loggers
+  fullName: BindOpen.Application.Services.BdoService.Loggers
+- uid: BindOpen.Application.Services.BdoService.ExecutionState
+  commentId: P:BindOpen.Application.Services.BdoService.ExecutionState
+  parent: BindOpen.Application.Services.BdoService
+  isExternal: true
+  name: ExecutionState
+  nameWithType: BdoService.ExecutionState
+  fullName: BindOpen.Application.Services.BdoService.ExecutionState
+- uid: BindOpen.Application.Services.BdoService.ExecutionStatus
+  commentId: P:BindOpen.Application.Services.BdoService.ExecutionStatus
+  parent: BindOpen.Application.Services.BdoService
+  isExternal: true
+  name: ExecutionStatus
+  nameWithType: BdoService.ExecutionStatus
+  fullName: BindOpen.Application.Services.BdoService.ExecutionStatus
+- uid: BindOpen.Application.Services.BdoService.AppDomainPool
+  commentId: P:BindOpen.Application.Services.BdoService.AppDomainPool
+  parent: BindOpen.Application.Services.BdoService
+  isExternal: true
+  name: AppDomainPool
+  nameWithType: BdoService.AppDomainPool
+  fullName: BindOpen.Application.Services.BdoService.AppDomainPool
+- uid: BindOpen.Application.Services.BdoService.Log
+  commentId: P:BindOpen.Application.Services.BdoService.Log
+  parent: BindOpen.Application.Services.BdoService
+  isExternal: true
+  name: Log
+  nameWithType: BdoService.Log
+  fullName: BindOpen.Application.Services.BdoService.Log
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Application.Services.ITBdoService`1
+  commentId: T:BindOpen.Application.Services.ITBdoService`1
+  isExternal: true
+  name: ITBdoService<S>
+  nameWithType: ITBdoService<S>
+  fullName: BindOpen.Application.Services.ITBdoService<S>
+  nameWithType.vb: ITBdoService(Of S)
+  fullName.vb: BindOpen.Application.Services.ITBdoService(Of S)
+  name.vb: ITBdoService(Of S)
+  spec.csharp:
+  - uid: BindOpen.Application.Services.ITBdoService`1
+    name: ITBdoService
+    nameWithType: ITBdoService
+    fullName: BindOpen.Application.Services.ITBdoService
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: S
+    nameWithType: S
+    fullName: S
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: BindOpen.Application.Services.ITBdoService`1
+    name: ITBdoService
+    nameWithType: ITBdoService
+    fullName: BindOpen.Application.Services.ITBdoService
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: S
+    nameWithType: S
+    fullName: S
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Services.TBdoService`1.#ctor*
+  commentId: Overload:BindOpen.Application.Services.TBdoService`1.#ctor
+  isExternal: true
+  name: TBdoService
+  nameWithType: TBdoService<S>.TBdoService
+  fullName: BindOpen.Application.Services.TBdoService<S>.TBdoService
+  nameWithType.vb: TBdoService(Of S).TBdoService
+  fullName.vb: BindOpen.Application.Services.TBdoService(Of S).TBdoService
+- uid: BindOpen.Application.Scopes.IBdoScope
+  isExternal: true
+  name: IBdoScope
+  nameWithType: IBdoScope
+  fullName: BindOpen.Application.Scopes.IBdoScope
+- uid: '{S}'
+  commentId: '!:S'
+  definition: S
+  name: S
+  nameWithType: S
+  fullName: S
+- uid: BindOpen.System.Diagnostics.Loggers.IBdoLogger[]
+  isExternal: true
+  name: IBdoLogger[]
+  nameWithType: IBdoLogger[]
+  fullName: BindOpen.System.Diagnostics.Loggers.IBdoLogger[]
+  nameWithType.vb: IBdoLogger()
+  fullName.vb: BindOpen.System.Diagnostics.Loggers.IBdoLogger()
+  name.vb: IBdoLogger()
+  spec.csharp:
+  - uid: BindOpen.System.Diagnostics.Loggers.IBdoLogger
+    name: IBdoLogger
+    nameWithType: IBdoLogger
+    fullName: BindOpen.System.Diagnostics.Loggers.IBdoLogger
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: BindOpen.System.Diagnostics.Loggers.IBdoLogger
+    name: IBdoLogger
+    nameWithType: IBdoLogger
+    fullName: BindOpen.System.Diagnostics.Loggers.IBdoLogger
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: S
+  name: S
+  nameWithType: S
+  fullName: S
+- uid: BindOpen.Application.Services.TBdoService`1.StartSucceeds*
+  commentId: Overload:BindOpen.Application.Services.TBdoService`1.StartSucceeds
+  isExternal: true
+  name: StartSucceeds
+  nameWithType: TBdoService<S>.StartSucceeds
+  fullName: BindOpen.Application.Services.TBdoService<S>.StartSucceeds
+  nameWithType.vb: TBdoService(Of S).StartSucceeds
+  fullName.vb: BindOpen.Application.Services.TBdoService(Of S).StartSucceeds
+- uid: BindOpen.Application.Services.IBdoTrigeredService.StartSucceeds
+  commentId: M:BindOpen.Application.Services.IBdoTrigeredService.StartSucceeds
+  parent: BindOpen.Application.Services.IBdoTrigeredService
+  isExternal: true
+  name: StartSucceeds()
+  nameWithType: IBdoTrigeredService.StartSucceeds()
+  fullName: BindOpen.Application.Services.IBdoTrigeredService.StartSucceeds()
+  spec.csharp:
+  - uid: BindOpen.Application.Services.IBdoTrigeredService.StartSucceeds
+    name: StartSucceeds
+    nameWithType: IBdoTrigeredService.StartSucceeds
+    fullName: BindOpen.Application.Services.IBdoTrigeredService.StartSucceeds
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Application.Services.IBdoTrigeredService.StartSucceeds
+    name: StartSucceeds
+    nameWithType: IBdoTrigeredService.StartSucceeds
+    fullName: BindOpen.Application.Services.IBdoTrigeredService.StartSucceeds
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Services.TBdoService`1.StartFails*
+  commentId: Overload:BindOpen.Application.Services.TBdoService`1.StartFails
+  isExternal: true
+  name: StartFails
+  nameWithType: TBdoService<S>.StartFails
+  fullName: BindOpen.Application.Services.TBdoService<S>.StartFails
+  nameWithType.vb: TBdoService(Of S).StartFails
+  fullName.vb: BindOpen.Application.Services.TBdoService(Of S).StartFails
+- uid: BindOpen.Application.Services.IBdoTrigeredService.StartFails
+  commentId: M:BindOpen.Application.Services.IBdoTrigeredService.StartFails
+  parent: BindOpen.Application.Services.IBdoTrigeredService
+  isExternal: true
+  name: StartFails()
+  nameWithType: IBdoTrigeredService.StartFails()
+  fullName: BindOpen.Application.Services.IBdoTrigeredService.StartFails()
+  spec.csharp:
+  - uid: BindOpen.Application.Services.IBdoTrigeredService.StartFails
+    name: StartFails
+    nameWithType: IBdoTrigeredService.StartFails
+    fullName: BindOpen.Application.Services.IBdoTrigeredService.StartFails
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Application.Services.IBdoTrigeredService.StartFails
+    name: StartFails
+    nameWithType: IBdoTrigeredService.StartFails
+    fullName: BindOpen.Application.Services.IBdoTrigeredService.StartFails
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Services.TBdoService`1.ExecutionSucceedes*
+  commentId: Overload:BindOpen.Application.Services.TBdoService`1.ExecutionSucceedes
+  isExternal: true
+  name: ExecutionSucceedes
+  nameWithType: TBdoService<S>.ExecutionSucceedes
+  fullName: BindOpen.Application.Services.TBdoService<S>.ExecutionSucceedes
+  nameWithType.vb: TBdoService(Of S).ExecutionSucceedes
+  fullName.vb: BindOpen.Application.Services.TBdoService(Of S).ExecutionSucceedes
+- uid: BindOpen.Application.Services.IBdoTrigeredService.ExecutionSucceedes
+  commentId: M:BindOpen.Application.Services.IBdoTrigeredService.ExecutionSucceedes
+  parent: BindOpen.Application.Services.IBdoTrigeredService
+  isExternal: true
+  name: ExecutionSucceedes()
+  nameWithType: IBdoTrigeredService.ExecutionSucceedes()
+  fullName: BindOpen.Application.Services.IBdoTrigeredService.ExecutionSucceedes()
+  spec.csharp:
+  - uid: BindOpen.Application.Services.IBdoTrigeredService.ExecutionSucceedes
+    name: ExecutionSucceedes
+    nameWithType: IBdoTrigeredService.ExecutionSucceedes
+    fullName: BindOpen.Application.Services.IBdoTrigeredService.ExecutionSucceedes
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Application.Services.IBdoTrigeredService.ExecutionSucceedes
+    name: ExecutionSucceedes
+    nameWithType: IBdoTrigeredService.ExecutionSucceedes
+    fullName: BindOpen.Application.Services.IBdoTrigeredService.ExecutionSucceedes
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Services.TBdoService`1.ExecutionFails*
+  commentId: Overload:BindOpen.Application.Services.TBdoService`1.ExecutionFails
+  isExternal: true
+  name: ExecutionFails
+  nameWithType: TBdoService<S>.ExecutionFails
+  fullName: BindOpen.Application.Services.TBdoService<S>.ExecutionFails
+  nameWithType.vb: TBdoService(Of S).ExecutionFails
+  fullName.vb: BindOpen.Application.Services.TBdoService(Of S).ExecutionFails
+- uid: BindOpen.Application.Services.IBdoTrigeredService.ExecutionFails
+  commentId: M:BindOpen.Application.Services.IBdoTrigeredService.ExecutionFails
+  parent: BindOpen.Application.Services.IBdoTrigeredService
+  isExternal: true
+  name: ExecutionFails()
+  nameWithType: IBdoTrigeredService.ExecutionFails()
+  fullName: BindOpen.Application.Services.IBdoTrigeredService.ExecutionFails()
+  spec.csharp:
+  - uid: BindOpen.Application.Services.IBdoTrigeredService.ExecutionFails
+    name: ExecutionFails
+    nameWithType: IBdoTrigeredService.ExecutionFails
+    fullName: BindOpen.Application.Services.IBdoTrigeredService.ExecutionFails
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Application.Services.IBdoTrigeredService.ExecutionFails
+    name: ExecutionFails
+    nameWithType: IBdoTrigeredService.ExecutionFails
+    fullName: BindOpen.Application.Services.IBdoTrigeredService.ExecutionFails
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Services.TBdoService`1.Settings*
+  commentId: Overload:BindOpen.Application.Services.TBdoService`1.Settings
+  isExternal: true
+  name: Settings
+  nameWithType: TBdoService<S>.Settings
+  fullName: BindOpen.Application.Services.TBdoService<S>.Settings
+  nameWithType.vb: TBdoService(Of S).Settings
+  fullName.vb: BindOpen.Application.Services.TBdoService(Of S).Settings
+- uid: BindOpen.Application.Services.ITBdoService{{S}}.Settings
+  commentId: P:BindOpen.Application.Services.ITBdoService{`0}.Settings
+  parent: BindOpen.Application.Services.ITBdoService{{S}}
+  definition: BindOpen.Application.Services.ITBdoService`1.Settings
+  name: Settings
+  nameWithType: ITBdoService<S>.Settings
+  fullName: BindOpen.Application.Services.ITBdoService<S>.Settings
+  nameWithType.vb: ITBdoService(Of S).Settings
+  fullName.vb: BindOpen.Application.Services.ITBdoService(Of S).Settings
+- uid: BindOpen.Application.Services.ITBdoService`1.Settings
+  commentId: P:BindOpen.Application.Services.ITBdoService`1.Settings
+  isExternal: true
+  name: Settings
+  nameWithType: ITBdoService<S>.Settings
+  fullName: BindOpen.Application.Services.ITBdoService<S>.Settings
+  nameWithType.vb: ITBdoService(Of S).Settings
+  fullName.vb: BindOpen.Application.Services.ITBdoService(Of S).Settings
+- uid: BindOpen.Application.Services.TBdoService`1.Action_OnStartSuccess*
+  commentId: Overload:BindOpen.Application.Services.TBdoService`1.Action_OnStartSuccess
+  isExternal: true
+  name: Action_OnStartSuccess
+  nameWithType: TBdoService<S>.Action_OnStartSuccess
+  fullName: BindOpen.Application.Services.TBdoService<S>.Action_OnStartSuccess
+  nameWithType.vb: TBdoService(Of S).Action_OnStartSuccess
+  fullName.vb: BindOpen.Application.Services.TBdoService(Of S).Action_OnStartSuccess
+- uid: BindOpen.Application.Services.ITBdoService{{S}}.Action_OnStartSuccess
+  commentId: P:BindOpen.Application.Services.ITBdoService{`0}.Action_OnStartSuccess
+  parent: BindOpen.Application.Services.ITBdoService{{S}}
+  definition: BindOpen.Application.Services.ITBdoService`1.Action_OnStartSuccess
+  name: Action_OnStartSuccess
+  nameWithType: ITBdoService<S>.Action_OnStartSuccess
+  fullName: BindOpen.Application.Services.ITBdoService<S>.Action_OnStartSuccess
+  nameWithType.vb: ITBdoService(Of S).Action_OnStartSuccess
+  fullName.vb: BindOpen.Application.Services.ITBdoService(Of S).Action_OnStartSuccess
+- uid: System.Action{BindOpen.Application.Services.ITBdoService{{S}}}
+  commentId: '!:System.Action{BindOpen.Application.Services.ITBdoService{`0}}'
+  definition: System.Action`1
+  name: Action<ITBdoService<S>>
+  nameWithType: Action<ITBdoService<S>>
+  fullName: System.Action<BindOpen.Application.Services.ITBdoService<S>>
+  nameWithType.vb: Action(Of ITBdoService(Of S))
+  fullName.vb: System.Action(Of BindOpen.Application.Services.ITBdoService(Of S))
+  name.vb: Action(Of ITBdoService(Of S))
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BindOpen.Application.Services.ITBdoService`1
+    name: ITBdoService
+    nameWithType: ITBdoService
+    fullName: BindOpen.Application.Services.ITBdoService
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: S
+    nameWithType: S
+    fullName: S
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BindOpen.Application.Services.ITBdoService`1
+    name: ITBdoService
+    nameWithType: ITBdoService
+    fullName: BindOpen.Application.Services.ITBdoService
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: S
+    nameWithType: S
+    fullName: S
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Services.ITBdoService`1.Action_OnStartSuccess
+  commentId: P:BindOpen.Application.Services.ITBdoService`1.Action_OnStartSuccess
+  isExternal: true
+  name: Action_OnStartSuccess
+  nameWithType: ITBdoService<S>.Action_OnStartSuccess
+  fullName: BindOpen.Application.Services.ITBdoService<S>.Action_OnStartSuccess
+  nameWithType.vb: ITBdoService(Of S).Action_OnStartSuccess
+  fullName.vb: BindOpen.Application.Services.ITBdoService(Of S).Action_OnStartSuccess
+- uid: System.Action`1
+  isExternal: true
+  name: Action<>
+  nameWithType: Action<>
+  fullName: System.Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: System.Action(Of )
+  name.vb: Action(Of )
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Services.TBdoService`1.Action_OnStartFailure*
+  commentId: Overload:BindOpen.Application.Services.TBdoService`1.Action_OnStartFailure
+  isExternal: true
+  name: Action_OnStartFailure
+  nameWithType: TBdoService<S>.Action_OnStartFailure
+  fullName: BindOpen.Application.Services.TBdoService<S>.Action_OnStartFailure
+  nameWithType.vb: TBdoService(Of S).Action_OnStartFailure
+  fullName.vb: BindOpen.Application.Services.TBdoService(Of S).Action_OnStartFailure
+- uid: BindOpen.Application.Services.ITBdoService{{S}}.Action_OnStartFailure
+  commentId: P:BindOpen.Application.Services.ITBdoService{`0}.Action_OnStartFailure
+  parent: BindOpen.Application.Services.ITBdoService{{S}}
+  definition: BindOpen.Application.Services.ITBdoService`1.Action_OnStartFailure
+  name: Action_OnStartFailure
+  nameWithType: ITBdoService<S>.Action_OnStartFailure
+  fullName: BindOpen.Application.Services.ITBdoService<S>.Action_OnStartFailure
+  nameWithType.vb: ITBdoService(Of S).Action_OnStartFailure
+  fullName.vb: BindOpen.Application.Services.ITBdoService(Of S).Action_OnStartFailure
+- uid: BindOpen.Application.Services.ITBdoService`1.Action_OnStartFailure
+  commentId: P:BindOpen.Application.Services.ITBdoService`1.Action_OnStartFailure
+  isExternal: true
+  name: Action_OnStartFailure
+  nameWithType: ITBdoService<S>.Action_OnStartFailure
+  fullName: BindOpen.Application.Services.ITBdoService<S>.Action_OnStartFailure
+  nameWithType.vb: ITBdoService(Of S).Action_OnStartFailure
+  fullName.vb: BindOpen.Application.Services.ITBdoService(Of S).Action_OnStartFailure
+- uid: BindOpen.Application.Services.TBdoService`1.Action_OnExecutionSucess*
+  commentId: Overload:BindOpen.Application.Services.TBdoService`1.Action_OnExecutionSucess
+  isExternal: true
+  name: Action_OnExecutionSucess
+  nameWithType: TBdoService<S>.Action_OnExecutionSucess
+  fullName: BindOpen.Application.Services.TBdoService<S>.Action_OnExecutionSucess
+  nameWithType.vb: TBdoService(Of S).Action_OnExecutionSucess
+  fullName.vb: BindOpen.Application.Services.TBdoService(Of S).Action_OnExecutionSucess
+- uid: BindOpen.Application.Services.ITBdoService{{S}}.Action_OnExecutionSucess
+  commentId: P:BindOpen.Application.Services.ITBdoService{`0}.Action_OnExecutionSucess
+  parent: BindOpen.Application.Services.ITBdoService{{S}}
+  definition: BindOpen.Application.Services.ITBdoService`1.Action_OnExecutionSucess
+  name: Action_OnExecutionSucess
+  nameWithType: ITBdoService<S>.Action_OnExecutionSucess
+  fullName: BindOpen.Application.Services.ITBdoService<S>.Action_OnExecutionSucess
+  nameWithType.vb: ITBdoService(Of S).Action_OnExecutionSucess
+  fullName.vb: BindOpen.Application.Services.ITBdoService(Of S).Action_OnExecutionSucess
+- uid: BindOpen.Application.Services.ITBdoService`1.Action_OnExecutionSucess
+  commentId: P:BindOpen.Application.Services.ITBdoService`1.Action_OnExecutionSucess
+  isExternal: true
+  name: Action_OnExecutionSucess
+  nameWithType: ITBdoService<S>.Action_OnExecutionSucess
+  fullName: BindOpen.Application.Services.ITBdoService<S>.Action_OnExecutionSucess
+  nameWithType.vb: ITBdoService(Of S).Action_OnExecutionSucess
+  fullName.vb: BindOpen.Application.Services.ITBdoService(Of S).Action_OnExecutionSucess
+- uid: BindOpen.Application.Services.TBdoService`1.Action_OnExecutionFailure*
+  commentId: Overload:BindOpen.Application.Services.TBdoService`1.Action_OnExecutionFailure
+  isExternal: true
+  name: Action_OnExecutionFailure
+  nameWithType: TBdoService<S>.Action_OnExecutionFailure
+  fullName: BindOpen.Application.Services.TBdoService<S>.Action_OnExecutionFailure
+  nameWithType.vb: TBdoService(Of S).Action_OnExecutionFailure
+  fullName.vb: BindOpen.Application.Services.TBdoService(Of S).Action_OnExecutionFailure
+- uid: BindOpen.Application.Services.ITBdoService{{S}}.Action_OnExecutionFailure
+  commentId: P:BindOpen.Application.Services.ITBdoService{`0}.Action_OnExecutionFailure
+  parent: BindOpen.Application.Services.ITBdoService{{S}}
+  definition: BindOpen.Application.Services.ITBdoService`1.Action_OnExecutionFailure
+  name: Action_OnExecutionFailure
+  nameWithType: ITBdoService<S>.Action_OnExecutionFailure
+  fullName: BindOpen.Application.Services.ITBdoService<S>.Action_OnExecutionFailure
+  nameWithType.vb: ITBdoService(Of S).Action_OnExecutionFailure
+  fullName.vb: BindOpen.Application.Services.ITBdoService(Of S).Action_OnExecutionFailure
+- uid: BindOpen.Application.Services.ITBdoService`1.Action_OnExecutionFailure
+  commentId: P:BindOpen.Application.Services.ITBdoService`1.Action_OnExecutionFailure
+  isExternal: true
+  name: Action_OnExecutionFailure
+  nameWithType: ITBdoService<S>.Action_OnExecutionFailure
+  fullName: BindOpen.Application.Services.ITBdoService<S>.Action_OnExecutionFailure
+  nameWithType.vb: ITBdoService(Of S).Action_OnExecutionFailure
+  fullName.vb: BindOpen.Application.Services.ITBdoService(Of S).Action_OnExecutionFailure
+shouldSkipMarkup: true

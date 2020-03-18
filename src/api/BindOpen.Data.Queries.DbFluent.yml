@@ -1,0 +1,3698 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Data.Queries.DbFluent
+  commentId: T:BindOpen.Data.Queries.DbFluent
+  id: DbFluent
+  parent: BindOpen.Data.Queries
+  children:
+  - BindOpen.Data.Queries.DbFluent.And(System.Object[])
+  - BindOpen.Data.Queries.DbFluent.AsLiteral(BindOpen.Extensions.Carriers.DbField,System.Object,BindOpen.Data.Common.DataValueType)
+  - BindOpen.Data.Queries.DbFluent.AsOther(BindOpen.Extensions.Carriers.DbField,BindOpen.Extensions.Carriers.DbField)
+  - BindOpen.Data.Queries.DbFluent.AsParameter(BindOpen.Extensions.Carriers.DbField,BindOpen.Data.Elements.IDataElement)
+  - BindOpen.Data.Queries.DbFluent.AsParameter(BindOpen.Extensions.Carriers.DbField,System.Byte)
+  - BindOpen.Data.Queries.DbFluent.AsParameter(BindOpen.Extensions.Carriers.DbField,System.String)
+  - BindOpen.Data.Queries.DbFluent.AsQuery(BindOpen.Extensions.Carriers.DbField,BindOpen.Data.Queries.IDbQuery)
+  - BindOpen.Data.Queries.DbFluent.AsScript(BindOpen.Data.Elements.ScalarElement)
+  - BindOpen.Data.Queries.DbFluent.AsScript(BindOpen.Extensions.Carriers.DbField,System.String)
+  - BindOpen.Data.Queries.DbFluent.CreateQuery(BindOpen.Extensions.Carriers.DbTable,System.Boolean,System.Action{BindOpen.Data.Queries.IDbSingleQuery})
+  - BindOpen.Data.Queries.DbFluent.CreateQuery(System.String,BindOpen.Extensions.Carriers.DbTable,System.Boolean,System.Action{BindOpen.Data.Queries.IDbSingleQuery})
+  - BindOpen.Data.Queries.DbFluent.CurrentDate
+  - BindOpen.Data.Queries.DbFluent.DeleteQuery(BindOpen.Extensions.Carriers.DbTable,System.Action{BindOpen.Data.Queries.IDbSingleQuery})
+  - BindOpen.Data.Queries.DbFluent.DeleteQuery(System.String,BindOpen.Extensions.Carriers.DbTable,System.Action{BindOpen.Data.Queries.IDbSingleQuery})
+  - BindOpen.Data.Queries.DbFluent.Diff(System.Object,System.Object)
+  - BindOpen.Data.Queries.DbFluent.DropQuery(BindOpen.Extensions.Carriers.DbTable,System.Boolean,System.Action{BindOpen.Data.Queries.IDbSingleQuery})
+  - BindOpen.Data.Queries.DbFluent.DropQuery(System.String,BindOpen.Extensions.Carriers.DbTable,System.Boolean,System.Action{BindOpen.Data.Queries.IDbSingleQuery})
+  - BindOpen.Data.Queries.DbFluent.Eq(System.Object,System.Object)
+  - BindOpen.Data.Queries.DbFluent.Field(System.String,BindOpen.Extensions.Carriers.DbTable)
+  - BindOpen.Data.Queries.DbFluent.Field``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},BindOpen.Extensions.Carriers.DbTable)
+  - BindOpen.Data.Queries.DbFluent.FieldAsAll(BindOpen.Extensions.Carriers.DbTable)
+  - BindOpen.Data.Queries.DbFluent.FieldAsLiteral(System.String,BindOpen.Extensions.Carriers.DbTable,System.Object,BindOpen.Data.Common.DataValueType)
+  - BindOpen.Data.Queries.DbFluent.FieldAsLiteral(System.String,System.Object,BindOpen.Data.Common.DataValueType)
+  - BindOpen.Data.Queries.DbFluent.FieldAsLiteral``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},BindOpen.Extensions.Carriers.DbTable,System.Object)
+  - BindOpen.Data.Queries.DbFluent.FieldAsLiteral``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object)
+  - BindOpen.Data.Queries.DbFluent.FieldAsOther(System.String,BindOpen.Extensions.Carriers.DbField)
+  - BindOpen.Data.Queries.DbFluent.FieldAsOther(System.String,BindOpen.Extensions.Carriers.DbTable,BindOpen.Extensions.Carriers.DbField)
+  - BindOpen.Data.Queries.DbFluent.FieldAsOther``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},BindOpen.Extensions.Carriers.DbField)
+  - BindOpen.Data.Queries.DbFluent.FieldAsOther``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},BindOpen.Extensions.Carriers.DbTable,BindOpen.Extensions.Carriers.DbField)
+  - BindOpen.Data.Queries.DbFluent.FieldAsParameter(System.String,BindOpen.Data.Elements.IDataElement)
+  - BindOpen.Data.Queries.DbFluent.FieldAsParameter(System.String,BindOpen.Extensions.Carriers.DbTable,BindOpen.Data.Elements.IDataElement)
+  - BindOpen.Data.Queries.DbFluent.FieldAsParameter(System.String,BindOpen.Extensions.Carriers.DbTable,System.Byte)
+  - BindOpen.Data.Queries.DbFluent.FieldAsParameter(System.String,BindOpen.Extensions.Carriers.DbTable,System.String)
+  - BindOpen.Data.Queries.DbFluent.FieldAsParameter(System.String,System.Byte)
+  - BindOpen.Data.Queries.DbFluent.FieldAsParameter(System.String,System.String)
+  - BindOpen.Data.Queries.DbFluent.FieldAsParameter``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},BindOpen.Data.Elements.IDataElement)
+  - BindOpen.Data.Queries.DbFluent.FieldAsParameter``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},BindOpen.Extensions.Carriers.DbTable,BindOpen.Data.Elements.IDataElement)
+  - BindOpen.Data.Queries.DbFluent.FieldAsParameter``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},BindOpen.Extensions.Carriers.DbTable,System.Byte)
+  - BindOpen.Data.Queries.DbFluent.FieldAsParameter``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},BindOpen.Extensions.Carriers.DbTable,System.String)
+  - BindOpen.Data.Queries.DbFluent.FieldAsParameter``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Byte)
+  - BindOpen.Data.Queries.DbFluent.FieldAsParameter``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},System.String)
+  - BindOpen.Data.Queries.DbFluent.FieldAsQuery(System.String,BindOpen.Data.Queries.IDbQuery)
+  - BindOpen.Data.Queries.DbFluent.FieldAsQuery(System.String,BindOpen.Extensions.Carriers.DbTable,BindOpen.Data.Queries.IDbQuery)
+  - BindOpen.Data.Queries.DbFluent.FieldAsQuery``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},BindOpen.Data.Queries.IDbQuery)
+  - BindOpen.Data.Queries.DbFluent.FieldAsQuery``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},BindOpen.Extensions.Carriers.DbTable,BindOpen.Data.Queries.IDbQuery)
+  - BindOpen.Data.Queries.DbFluent.FieldAsScript(System.String,BindOpen.Extensions.Carriers.DbTable,System.String)
+  - BindOpen.Data.Queries.DbFluent.FieldAsScript(System.String,System.String)
+  - BindOpen.Data.Queries.DbFluent.FieldAsScript``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},BindOpen.Extensions.Carriers.DbTable,System.String)
+  - BindOpen.Data.Queries.DbFluent.FieldAsScript``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},System.String)
+  - BindOpen.Data.Queries.DbFluent.Gt(System.Object,System.Object)
+  - BindOpen.Data.Queries.DbFluent.Gte(System.Object,System.Object)
+  - BindOpen.Data.Queries.DbFluent.InsertQuery(BindOpen.Extensions.Carriers.DbTable,System.Boolean,System.Action{BindOpen.Data.Queries.IDbSingleQuery})
+  - BindOpen.Data.Queries.DbFluent.InsertQuery(System.String,BindOpen.Extensions.Carriers.DbTable,System.Boolean,System.Action{BindOpen.Data.Queries.IDbSingleQuery})
+  - BindOpen.Data.Queries.DbFluent.IsNull(System.Object)
+  - BindOpen.Data.Queries.DbFluent.Like(System.String,System.String)
+  - BindOpen.Data.Queries.DbFluent.Lt(System.Object,System.Object)
+  - BindOpen.Data.Queries.DbFluent.Lte(System.Object,System.Object)
+  - BindOpen.Data.Queries.DbFluent.Not(System.String)
+  - BindOpen.Data.Queries.DbFluent.Or(System.Object[])
+  - BindOpen.Data.Queries.DbFluent.Parameter(System.String,BindOpen.Data.Common.DataValueType,System.Object)
+  - BindOpen.Data.Queries.DbFluent.Parameter(System.String,System.Object)
+  - BindOpen.Data.Queries.DbFluent.SelectQuery(BindOpen.Extensions.Carriers.DbTable,System.Action{BindOpen.Data.Queries.IDbSingleQuery})
+  - BindOpen.Data.Queries.DbFluent.SelectQuery(System.String,BindOpen.Extensions.Carriers.DbTable,System.Action{BindOpen.Data.Queries.IDbSingleQuery})
+  - BindOpen.Data.Queries.DbFluent.Table(BindOpen.Data.Queries.DbQueryJoinKind,BindOpen.Extensions.Carriers.DbTable,System.String)
+  - BindOpen.Data.Queries.DbFluent.Table(BindOpen.Data.Queries.IDbQuery)
+  - BindOpen.Data.Queries.DbFluent.Table(BindOpen.Data.Queries.IDbTuple[])
+  - BindOpen.Data.Queries.DbFluent.Table(BindOpen.Extensions.Carriers.DbTable,System.String)
+  - BindOpen.Data.Queries.DbFluent.Table(System.String,System.String,System.String)
+  - BindOpen.Data.Queries.DbFluent.Text(System.String)
+  - BindOpen.Data.Queries.DbFluent.UpdateQuery(BindOpen.Extensions.Carriers.DbTable,System.Action{BindOpen.Data.Queries.IDbSingleQuery})
+  - BindOpen.Data.Queries.DbFluent.UpdateQuery(System.String,BindOpen.Extensions.Carriers.DbTable,System.Action{BindOpen.Data.Queries.IDbSingleQuery})
+  - BindOpen.Data.Queries.DbFluent.Upsert(BindOpen.Extensions.Carriers.DbTable)
+  - BindOpen.Data.Queries.DbFluent.Upsert(System.String,BindOpen.Extensions.Carriers.DbTable)
+  - BindOpen.Data.Queries.DbFluent.Value(System.Object)
+  - BindOpen.Data.Queries.DbFluent.Xor(System.Object[])
+  langs:
+  - csharp
+  - vb
+  name: DbFluent
+  nameWithType: DbFluent
+  fullName: BindOpen.Data.Queries.DbFluent
+  type: Class
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nThis static class represents a factory of data field.\n"
+  syntax:
+    content: 'public static class DbFluent : Object'
+    content.vb: >-
+      Public Module DbFluent
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: BindOpen.Data.Queries.DbFluent.Field(System.String,BindOpen.Extensions.Carriers.DbTable)
+  commentId: M:BindOpen.Data.Queries.DbFluent.Field(System.String,BindOpen.Extensions.Carriers.DbTable)
+  id: Field(System.String,BindOpen.Extensions.Carriers.DbTable)
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: Field(String, DbTable)
+  nameWithType: DbFluent.Field(String, DbTable)
+  fullName: BindOpen.Data.Queries.DbFluent.Field(System.String, BindOpen.Extensions.Carriers.DbTable)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new instance of the DbField class.\n"
+  syntax:
+    content: public static DbField Field(string name, DbTable table = null)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name to consider.
+    - id: table
+      type: BindOpen.Extensions.Carriers.DbTable
+      description: The data table to consider.
+    return:
+      type: BindOpen.Extensions.Carriers.DbField
+    content.vb: Public Shared Function Field(name As String, table As DbTable = Nothing) As DbField
+  overload: BindOpen.Data.Queries.DbFluent.Field*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Queries.DbFluent.Field``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},BindOpen.Extensions.Carriers.DbTable)
+  commentId: M:BindOpen.Data.Queries.DbFluent.Field``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},BindOpen.Extensions.Carriers.DbTable)
+  id: Field``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},BindOpen.Extensions.Carriers.DbTable)
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: Field<T, TProperty>(Expression<Func<T, TProperty>>, DbTable)
+  nameWithType: DbFluent.Field<T, TProperty>(Expression<Func<T, TProperty>>, DbTable)
+  fullName: BindOpen.Data.Queries.DbFluent.Field<T, TProperty>(System.Linq.Expressions.Expression<System.Func<T, TProperty>>, BindOpen.Extensions.Carriers.DbTable)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new instance of the DbField class.\n"
+  syntax:
+    content: >-
+      public static DbField Field<T, TProperty>(Expression<Func<T, TProperty>> expr, DbTable table = null)
+          where T : class
+    parameters:
+    - id: expr
+      type: System.Linq.Expressions.Expression{System.Func{{T},{TProperty}}}
+      description: The expression to consider.
+    - id: table
+      type: BindOpen.Extensions.Carriers.DbTable
+      description: The data table to consider.
+    typeParameters:
+    - id: T
+      description: The class to consider.
+    - id: TProperty
+      description: The class property to consider.
+    return:
+      type: BindOpen.Extensions.Carriers.DbField
+    content.vb: Public Shared Function Field(Of T As Class, TProperty)(expr As Expression(Of Func(Of T, TProperty)), table As DbTable = Nothing) As DbField
+  overload: BindOpen.Data.Queries.DbFluent.Field*
+  nameWithType.vb: DbFluent.Field(Of T, TProperty)(Expression(Of Func(Of T, TProperty)), DbTable)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Queries.DbFluent.Field(Of T, TProperty)(System.Linq.Expressions.Expression(Of System.Func(Of T, TProperty)), BindOpen.Extensions.Carriers.DbTable)
+  name.vb: Field(Of T, TProperty)(Expression(Of Func(Of T, TProperty)), DbTable)
+- uid: BindOpen.Data.Queries.DbFluent.AsLiteral(BindOpen.Extensions.Carriers.DbField,System.Object,BindOpen.Data.Common.DataValueType)
+  commentId: M:BindOpen.Data.Queries.DbFluent.AsLiteral(BindOpen.Extensions.Carriers.DbField,System.Object,BindOpen.Data.Common.DataValueType)
+  id: AsLiteral(BindOpen.Extensions.Carriers.DbField,System.Object,BindOpen.Data.Common.DataValueType)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: AsLiteral(DbField, Object, DataValueType)
+  nameWithType: DbFluent.AsLiteral(DbField, Object, DataValueType)
+  fullName: BindOpen.Data.Queries.DbFluent.AsLiteral(BindOpen.Extensions.Carriers.DbField, System.Object, BindOpen.Data.Common.DataValueType)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nUpdates the specified field as literal.\n"
+  syntax:
+    content: public static DbField AsLiteral(this DbField field, object value, DataValueType valueType)
+    parameters:
+    - id: field
+      type: BindOpen.Extensions.Carriers.DbField
+      description: The field to consider.
+    - id: value
+      type: System.Object
+      description: The value to consider.
+    - id: valueType
+      type: BindOpen.Data.Common.DataValueType
+      description: The value type to consider.
+    return:
+      type: BindOpen.Extensions.Carriers.DbField
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AsLiteral(field As DbField, value As Object, valueType As DataValueType) As DbField
+  overload: BindOpen.Data.Queries.DbFluent.AsLiteral*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Queries.DbFluent.FieldAsLiteral(System.String,System.Object,BindOpen.Data.Common.DataValueType)
+  commentId: M:BindOpen.Data.Queries.DbFluent.FieldAsLiteral(System.String,System.Object,BindOpen.Data.Common.DataValueType)
+  id: FieldAsLiteral(System.String,System.Object,BindOpen.Data.Common.DataValueType)
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: FieldAsLiteral(String, Object, DataValueType)
+  nameWithType: DbFluent.FieldAsLiteral(String, Object, DataValueType)
+  fullName: BindOpen.Data.Queries.DbFluent.FieldAsLiteral(System.String, System.Object, BindOpen.Data.Common.DataValueType)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new instance of the DbField class.\n"
+  syntax:
+    content: public static DbField FieldAsLiteral(string name, object value, DataValueType valueType)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name to consider.
+    - id: value
+      type: System.Object
+      description: The value to consider.
+    - id: valueType
+      type: BindOpen.Data.Common.DataValueType
+      description: The value type to consider.
+    return:
+      type: BindOpen.Extensions.Carriers.DbField
+    content.vb: Public Shared Function FieldAsLiteral(name As String, value As Object, valueType As DataValueType) As DbField
+  overload: BindOpen.Data.Queries.DbFluent.FieldAsLiteral*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Queries.DbFluent.FieldAsLiteral(System.String,BindOpen.Extensions.Carriers.DbTable,System.Object,BindOpen.Data.Common.DataValueType)
+  commentId: M:BindOpen.Data.Queries.DbFluent.FieldAsLiteral(System.String,BindOpen.Extensions.Carriers.DbTable,System.Object,BindOpen.Data.Common.DataValueType)
+  id: FieldAsLiteral(System.String,BindOpen.Extensions.Carriers.DbTable,System.Object,BindOpen.Data.Common.DataValueType)
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: FieldAsLiteral(String, DbTable, Object, DataValueType)
+  nameWithType: DbFluent.FieldAsLiteral(String, DbTable, Object, DataValueType)
+  fullName: BindOpen.Data.Queries.DbFluent.FieldAsLiteral(System.String, BindOpen.Extensions.Carriers.DbTable, System.Object, BindOpen.Data.Common.DataValueType)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new instance of the DbField class.\n"
+  syntax:
+    content: public static DbField FieldAsLiteral(string name, DbTable table, object value, DataValueType valueType)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name to consider.
+    - id: table
+      type: BindOpen.Extensions.Carriers.DbTable
+      description: The data table to consider.
+    - id: value
+      type: System.Object
+      description: The value to consider.
+    - id: valueType
+      type: BindOpen.Data.Common.DataValueType
+      description: The value type to consider.
+    return:
+      type: BindOpen.Extensions.Carriers.DbField
+    content.vb: Public Shared Function FieldAsLiteral(name As String, table As DbTable, value As Object, valueType As DataValueType) As DbField
+  overload: BindOpen.Data.Queries.DbFluent.FieldAsLiteral*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Queries.DbFluent.FieldAsLiteral``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object)
+  commentId: M:BindOpen.Data.Queries.DbFluent.FieldAsLiteral``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object)
+  id: FieldAsLiteral``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object)
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: FieldAsLiteral<T, TProperty>(Expression<Func<T, TProperty>>, Object)
+  nameWithType: DbFluent.FieldAsLiteral<T, TProperty>(Expression<Func<T, TProperty>>, Object)
+  fullName: BindOpen.Data.Queries.DbFluent.FieldAsLiteral<T, TProperty>(System.Linq.Expressions.Expression<System.Func<T, TProperty>>, System.Object)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new instance of the DbField class.\n"
+  syntax:
+    content: >-
+      public static DbField FieldAsLiteral<T, TProperty>(Expression<Func<T, TProperty>> expr, object value)
+          where T : class
+    parameters:
+    - id: expr
+      type: System.Linq.Expressions.Expression{System.Func{{T},{TProperty}}}
+      description: The expression to consider.
+    - id: value
+      type: System.Object
+      description: The value to consider.
+    typeParameters:
+    - id: T
+    - id: TProperty
+    return:
+      type: BindOpen.Extensions.Carriers.DbField
+    content.vb: Public Shared Function FieldAsLiteral(Of T As Class, TProperty)(expr As Expression(Of Func(Of T, TProperty)), value As Object) As DbField
+  overload: BindOpen.Data.Queries.DbFluent.FieldAsLiteral*
+  nameWithType.vb: DbFluent.FieldAsLiteral(Of T, TProperty)(Expression(Of Func(Of T, TProperty)), Object)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Queries.DbFluent.FieldAsLiteral(Of T, TProperty)(System.Linq.Expressions.Expression(Of System.Func(Of T, TProperty)), System.Object)
+  name.vb: FieldAsLiteral(Of T, TProperty)(Expression(Of Func(Of T, TProperty)), Object)
+- uid: BindOpen.Data.Queries.DbFluent.FieldAsLiteral``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},BindOpen.Extensions.Carriers.DbTable,System.Object)
+  commentId: M:BindOpen.Data.Queries.DbFluent.FieldAsLiteral``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},BindOpen.Extensions.Carriers.DbTable,System.Object)
+  id: FieldAsLiteral``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},BindOpen.Extensions.Carriers.DbTable,System.Object)
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: FieldAsLiteral<T, TProperty>(Expression<Func<T, TProperty>>, DbTable, Object)
+  nameWithType: DbFluent.FieldAsLiteral<T, TProperty>(Expression<Func<T, TProperty>>, DbTable, Object)
+  fullName: BindOpen.Data.Queries.DbFluent.FieldAsLiteral<T, TProperty>(System.Linq.Expressions.Expression<System.Func<T, TProperty>>, BindOpen.Extensions.Carriers.DbTable, System.Object)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new instance of the DbField class.\n"
+  syntax:
+    content: >-
+      public static DbField FieldAsLiteral<T, TProperty>(Expression<Func<T, TProperty>> expr, DbTable table, object value)
+          where T : class
+    parameters:
+    - id: expr
+      type: System.Linq.Expressions.Expression{System.Func{{T},{TProperty}}}
+      description: The expression to consider.
+    - id: table
+      type: BindOpen.Extensions.Carriers.DbTable
+      description: The data table to consider.
+    - id: value
+      type: System.Object
+      description: The value to consider.
+    typeParameters:
+    - id: T
+    - id: TProperty
+    return:
+      type: BindOpen.Extensions.Carriers.DbField
+    content.vb: Public Shared Function FieldAsLiteral(Of T As Class, TProperty)(expr As Expression(Of Func(Of T, TProperty)), table As DbTable, value As Object) As DbField
+  overload: BindOpen.Data.Queries.DbFluent.FieldAsLiteral*
+  nameWithType.vb: DbFluent.FieldAsLiteral(Of T, TProperty)(Expression(Of Func(Of T, TProperty)), DbTable, Object)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Queries.DbFluent.FieldAsLiteral(Of T, TProperty)(System.Linq.Expressions.Expression(Of System.Func(Of T, TProperty)), BindOpen.Extensions.Carriers.DbTable, System.Object)
+  name.vb: FieldAsLiteral(Of T, TProperty)(Expression(Of Func(Of T, TProperty)), DbTable, Object)
+- uid: BindOpen.Data.Queries.DbFluent.AsScript(BindOpen.Extensions.Carriers.DbField,System.String)
+  commentId: M:BindOpen.Data.Queries.DbFluent.AsScript(BindOpen.Extensions.Carriers.DbField,System.String)
+  id: AsScript(BindOpen.Extensions.Carriers.DbField,System.String)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: AsScript(DbField, String)
+  nameWithType: DbFluent.AsScript(DbField, String)
+  fullName: BindOpen.Data.Queries.DbFluent.AsScript(BindOpen.Extensions.Carriers.DbField, System.String)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nUpdates the specified field as script.\n"
+  syntax:
+    content: public static DbField AsScript(this DbField field, string script)
+    parameters:
+    - id: field
+      type: BindOpen.Extensions.Carriers.DbField
+      description: The field to consider.
+    - id: script
+      type: System.String
+      description: The script to consider.
+    return:
+      type: BindOpen.Extensions.Carriers.DbField
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AsScript(field As DbField, script As String) As DbField
+  overload: BindOpen.Data.Queries.DbFluent.AsScript*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Queries.DbFluent.FieldAsScript(System.String,System.String)
+  commentId: M:BindOpen.Data.Queries.DbFluent.FieldAsScript(System.String,System.String)
+  id: FieldAsScript(System.String,System.String)
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: FieldAsScript(String, String)
+  nameWithType: DbFluent.FieldAsScript(String, String)
+  fullName: BindOpen.Data.Queries.DbFluent.FieldAsScript(System.String, System.String)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new instance of the DbField class.\n"
+  syntax:
+    content: public static DbField FieldAsScript(string name, string script)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name to consider.
+    - id: script
+      type: System.String
+      description: The script to consider.
+    return:
+      type: BindOpen.Extensions.Carriers.DbField
+    content.vb: Public Shared Function FieldAsScript(name As String, script As String) As DbField
+  overload: BindOpen.Data.Queries.DbFluent.FieldAsScript*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Queries.DbFluent.FieldAsScript(System.String,BindOpen.Extensions.Carriers.DbTable,System.String)
+  commentId: M:BindOpen.Data.Queries.DbFluent.FieldAsScript(System.String,BindOpen.Extensions.Carriers.DbTable,System.String)
+  id: FieldAsScript(System.String,BindOpen.Extensions.Carriers.DbTable,System.String)
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: FieldAsScript(String, DbTable, String)
+  nameWithType: DbFluent.FieldAsScript(String, DbTable, String)
+  fullName: BindOpen.Data.Queries.DbFluent.FieldAsScript(System.String, BindOpen.Extensions.Carriers.DbTable, System.String)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new instance of the DbField class.\n"
+  syntax:
+    content: public static DbField FieldAsScript(string name, DbTable table, string script)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name to consider.
+    - id: table
+      type: BindOpen.Extensions.Carriers.DbTable
+      description: The data table to consider.
+    - id: script
+      type: System.String
+      description: The script to consider.
+    return:
+      type: BindOpen.Extensions.Carriers.DbField
+    content.vb: Public Shared Function FieldAsScript(name As String, table As DbTable, script As String) As DbField
+  overload: BindOpen.Data.Queries.DbFluent.FieldAsScript*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Queries.DbFluent.FieldAsScript``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},System.String)
+  commentId: M:BindOpen.Data.Queries.DbFluent.FieldAsScript``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},System.String)
+  id: FieldAsScript``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},System.String)
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: FieldAsScript<T, TProperty>(Expression<Func<T, TProperty>>, String)
+  nameWithType: DbFluent.FieldAsScript<T, TProperty>(Expression<Func<T, TProperty>>, String)
+  fullName: BindOpen.Data.Queries.DbFluent.FieldAsScript<T, TProperty>(System.Linq.Expressions.Expression<System.Func<T, TProperty>>, System.String)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new instance of the DbField class.\n"
+  syntax:
+    content: >-
+      public static DbField FieldAsScript<T, TProperty>(Expression<Func<T, TProperty>> expr, string script)
+          where T : class
+    parameters:
+    - id: expr
+      type: System.Linq.Expressions.Expression{System.Func{{T},{TProperty}}}
+      description: The expression to consider.
+    - id: script
+      type: System.String
+      description: The script to consider.
+    typeParameters:
+    - id: T
+    - id: TProperty
+    return:
+      type: BindOpen.Extensions.Carriers.DbField
+    content.vb: Public Shared Function FieldAsScript(Of T As Class, TProperty)(expr As Expression(Of Func(Of T, TProperty)), script As String) As DbField
+  overload: BindOpen.Data.Queries.DbFluent.FieldAsScript*
+  nameWithType.vb: DbFluent.FieldAsScript(Of T, TProperty)(Expression(Of Func(Of T, TProperty)), String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Queries.DbFluent.FieldAsScript(Of T, TProperty)(System.Linq.Expressions.Expression(Of System.Func(Of T, TProperty)), System.String)
+  name.vb: FieldAsScript(Of T, TProperty)(Expression(Of Func(Of T, TProperty)), String)
+- uid: BindOpen.Data.Queries.DbFluent.FieldAsScript``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},BindOpen.Extensions.Carriers.DbTable,System.String)
+  commentId: M:BindOpen.Data.Queries.DbFluent.FieldAsScript``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},BindOpen.Extensions.Carriers.DbTable,System.String)
+  id: FieldAsScript``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},BindOpen.Extensions.Carriers.DbTable,System.String)
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: FieldAsScript<T, TProperty>(Expression<Func<T, TProperty>>, DbTable, String)
+  nameWithType: DbFluent.FieldAsScript<T, TProperty>(Expression<Func<T, TProperty>>, DbTable, String)
+  fullName: BindOpen.Data.Queries.DbFluent.FieldAsScript<T, TProperty>(System.Linq.Expressions.Expression<System.Func<T, TProperty>>, BindOpen.Extensions.Carriers.DbTable, System.String)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new instance of the DbField class.\n"
+  syntax:
+    content: >-
+      public static DbField FieldAsScript<T, TProperty>(Expression<Func<T, TProperty>> expr, DbTable table, string script)
+          where T : class
+    parameters:
+    - id: expr
+      type: System.Linq.Expressions.Expression{System.Func{{T},{TProperty}}}
+      description: The expression to consider.
+    - id: table
+      type: BindOpen.Extensions.Carriers.DbTable
+      description: The data table to consider.
+    - id: script
+      type: System.String
+      description: The script to consider.
+    typeParameters:
+    - id: T
+    - id: TProperty
+    return:
+      type: BindOpen.Extensions.Carriers.DbField
+    content.vb: Public Shared Function FieldAsScript(Of T As Class, TProperty)(expr As Expression(Of Func(Of T, TProperty)), table As DbTable, script As String) As DbField
+  overload: BindOpen.Data.Queries.DbFluent.FieldAsScript*
+  nameWithType.vb: DbFluent.FieldAsScript(Of T, TProperty)(Expression(Of Func(Of T, TProperty)), DbTable, String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Queries.DbFluent.FieldAsScript(Of T, TProperty)(System.Linq.Expressions.Expression(Of System.Func(Of T, TProperty)), BindOpen.Extensions.Carriers.DbTable, System.String)
+  name.vb: FieldAsScript(Of T, TProperty)(Expression(Of Func(Of T, TProperty)), DbTable, String)
+- uid: BindOpen.Data.Queries.DbFluent.AsQuery(BindOpen.Extensions.Carriers.DbField,BindOpen.Data.Queries.IDbQuery)
+  commentId: M:BindOpen.Data.Queries.DbFluent.AsQuery(BindOpen.Extensions.Carriers.DbField,BindOpen.Data.Queries.IDbQuery)
+  id: AsQuery(BindOpen.Extensions.Carriers.DbField,BindOpen.Data.Queries.IDbQuery)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: AsQuery(DbField, IDbQuery)
+  nameWithType: DbFluent.AsQuery(DbField, IDbQuery)
+  fullName: BindOpen.Data.Queries.DbFluent.AsQuery(BindOpen.Extensions.Carriers.DbField, BindOpen.Data.Queries.IDbQuery)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nUpdates the specified field as query.\n"
+  syntax:
+    content: public static DbField AsQuery(this DbField field, IDbQuery query)
+    parameters:
+    - id: field
+      type: BindOpen.Extensions.Carriers.DbField
+      description: The field to consider.
+    - id: query
+      type: BindOpen.Data.Queries.IDbQuery
+      description: The query to consider.
+    return:
+      type: BindOpen.Extensions.Carriers.DbField
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AsQuery(field As DbField, query As IDbQuery) As DbField
+  overload: BindOpen.Data.Queries.DbFluent.AsQuery*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Queries.DbFluent.FieldAsQuery(System.String,BindOpen.Data.Queries.IDbQuery)
+  commentId: M:BindOpen.Data.Queries.DbFluent.FieldAsQuery(System.String,BindOpen.Data.Queries.IDbQuery)
+  id: FieldAsQuery(System.String,BindOpen.Data.Queries.IDbQuery)
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: FieldAsQuery(String, IDbQuery)
+  nameWithType: DbFluent.FieldAsQuery(String, IDbQuery)
+  fullName: BindOpen.Data.Queries.DbFluent.FieldAsQuery(System.String, BindOpen.Data.Queries.IDbQuery)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new instance of the DbField class.\n"
+  syntax:
+    content: public static DbField FieldAsQuery(string name, IDbQuery query)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name to consider.
+    - id: query
+      type: BindOpen.Data.Queries.IDbQuery
+      description: The query to consider.
+    return:
+      type: BindOpen.Extensions.Carriers.DbField
+    content.vb: Public Shared Function FieldAsQuery(name As String, query As IDbQuery) As DbField
+  overload: BindOpen.Data.Queries.DbFluent.FieldAsQuery*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Queries.DbFluent.FieldAsQuery(System.String,BindOpen.Extensions.Carriers.DbTable,BindOpen.Data.Queries.IDbQuery)
+  commentId: M:BindOpen.Data.Queries.DbFluent.FieldAsQuery(System.String,BindOpen.Extensions.Carriers.DbTable,BindOpen.Data.Queries.IDbQuery)
+  id: FieldAsQuery(System.String,BindOpen.Extensions.Carriers.DbTable,BindOpen.Data.Queries.IDbQuery)
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: FieldAsQuery(String, DbTable, IDbQuery)
+  nameWithType: DbFluent.FieldAsQuery(String, DbTable, IDbQuery)
+  fullName: BindOpen.Data.Queries.DbFluent.FieldAsQuery(System.String, BindOpen.Extensions.Carriers.DbTable, BindOpen.Data.Queries.IDbQuery)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new instance of the DbField class.\n"
+  syntax:
+    content: public static DbField FieldAsQuery(string name, DbTable table, IDbQuery query)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name to consider.
+    - id: table
+      type: BindOpen.Extensions.Carriers.DbTable
+      description: The data table to consider.
+    - id: query
+      type: BindOpen.Data.Queries.IDbQuery
+      description: The query to consider.
+    return:
+      type: BindOpen.Extensions.Carriers.DbField
+    content.vb: Public Shared Function FieldAsQuery(name As String, table As DbTable, query As IDbQuery) As DbField
+  overload: BindOpen.Data.Queries.DbFluent.FieldAsQuery*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Queries.DbFluent.FieldAsQuery``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},BindOpen.Data.Queries.IDbQuery)
+  commentId: M:BindOpen.Data.Queries.DbFluent.FieldAsQuery``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},BindOpen.Data.Queries.IDbQuery)
+  id: FieldAsQuery``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},BindOpen.Data.Queries.IDbQuery)
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: FieldAsQuery<T, TProperty>(Expression<Func<T, TProperty>>, IDbQuery)
+  nameWithType: DbFluent.FieldAsQuery<T, TProperty>(Expression<Func<T, TProperty>>, IDbQuery)
+  fullName: BindOpen.Data.Queries.DbFluent.FieldAsQuery<T, TProperty>(System.Linq.Expressions.Expression<System.Func<T, TProperty>>, BindOpen.Data.Queries.IDbQuery)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new instance of the DbField class.\n"
+  syntax:
+    content: >-
+      public static DbField FieldAsQuery<T, TProperty>(Expression<Func<T, TProperty>> expr, IDbQuery query)
+          where T : class
+    parameters:
+    - id: expr
+      type: System.Linq.Expressions.Expression{System.Func{{T},{TProperty}}}
+      description: The expression to consider.
+    - id: query
+      type: BindOpen.Data.Queries.IDbQuery
+      description: The query to consider.
+    typeParameters:
+    - id: T
+    - id: TProperty
+    return:
+      type: BindOpen.Extensions.Carriers.DbField
+    content.vb: Public Shared Function FieldAsQuery(Of T As Class, TProperty)(expr As Expression(Of Func(Of T, TProperty)), query As IDbQuery) As DbField
+  overload: BindOpen.Data.Queries.DbFluent.FieldAsQuery*
+  nameWithType.vb: DbFluent.FieldAsQuery(Of T, TProperty)(Expression(Of Func(Of T, TProperty)), IDbQuery)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Queries.DbFluent.FieldAsQuery(Of T, TProperty)(System.Linq.Expressions.Expression(Of System.Func(Of T, TProperty)), BindOpen.Data.Queries.IDbQuery)
+  name.vb: FieldAsQuery(Of T, TProperty)(Expression(Of Func(Of T, TProperty)), IDbQuery)
+- uid: BindOpen.Data.Queries.DbFluent.FieldAsQuery``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},BindOpen.Extensions.Carriers.DbTable,BindOpen.Data.Queries.IDbQuery)
+  commentId: M:BindOpen.Data.Queries.DbFluent.FieldAsQuery``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},BindOpen.Extensions.Carriers.DbTable,BindOpen.Data.Queries.IDbQuery)
+  id: FieldAsQuery``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},BindOpen.Extensions.Carriers.DbTable,BindOpen.Data.Queries.IDbQuery)
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: FieldAsQuery<T, TProperty>(Expression<Func<T, TProperty>>, DbTable, IDbQuery)
+  nameWithType: DbFluent.FieldAsQuery<T, TProperty>(Expression<Func<T, TProperty>>, DbTable, IDbQuery)
+  fullName: BindOpen.Data.Queries.DbFluent.FieldAsQuery<T, TProperty>(System.Linq.Expressions.Expression<System.Func<T, TProperty>>, BindOpen.Extensions.Carriers.DbTable, BindOpen.Data.Queries.IDbQuery)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new instance of the DbField class.\n"
+  syntax:
+    content: >-
+      public static DbField FieldAsQuery<T, TProperty>(Expression<Func<T, TProperty>> expr, DbTable table, IDbQuery query)
+          where T : class
+    parameters:
+    - id: expr
+      type: System.Linq.Expressions.Expression{System.Func{{T},{TProperty}}}
+      description: The expression to consider.
+    - id: table
+      type: BindOpen.Extensions.Carriers.DbTable
+      description: The data table to consider.
+    - id: query
+      type: BindOpen.Data.Queries.IDbQuery
+      description: The query to consider.
+    typeParameters:
+    - id: T
+    - id: TProperty
+    return:
+      type: BindOpen.Extensions.Carriers.DbField
+    content.vb: Public Shared Function FieldAsQuery(Of T As Class, TProperty)(expr As Expression(Of Func(Of T, TProperty)), table As DbTable, query As IDbQuery) As DbField
+  overload: BindOpen.Data.Queries.DbFluent.FieldAsQuery*
+  nameWithType.vb: DbFluent.FieldAsQuery(Of T, TProperty)(Expression(Of Func(Of T, TProperty)), DbTable, IDbQuery)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Queries.DbFluent.FieldAsQuery(Of T, TProperty)(System.Linq.Expressions.Expression(Of System.Func(Of T, TProperty)), BindOpen.Extensions.Carriers.DbTable, BindOpen.Data.Queries.IDbQuery)
+  name.vb: FieldAsQuery(Of T, TProperty)(Expression(Of Func(Of T, TProperty)), DbTable, IDbQuery)
+- uid: BindOpen.Data.Queries.DbFluent.AsOther(BindOpen.Extensions.Carriers.DbField,BindOpen.Extensions.Carriers.DbField)
+  commentId: M:BindOpen.Data.Queries.DbFluent.AsOther(BindOpen.Extensions.Carriers.DbField,BindOpen.Extensions.Carriers.DbField)
+  id: AsOther(BindOpen.Extensions.Carriers.DbField,BindOpen.Extensions.Carriers.DbField)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: AsOther(DbField, DbField)
+  nameWithType: DbFluent.AsOther(DbField, DbField)
+  fullName: BindOpen.Data.Queries.DbFluent.AsOther(BindOpen.Extensions.Carriers.DbField, BindOpen.Extensions.Carriers.DbField)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nUpdates the specified field as other.\n"
+  syntax:
+    content: public static DbField AsOther(this DbField field, DbField otherField)
+    parameters:
+    - id: field
+      type: BindOpen.Extensions.Carriers.DbField
+      description: The field to consider.
+    - id: otherField
+      type: BindOpen.Extensions.Carriers.DbField
+      description: The other field to consider.
+    return:
+      type: BindOpen.Extensions.Carriers.DbField
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AsOther(field As DbField, otherField As DbField) As DbField
+  overload: BindOpen.Data.Queries.DbFluent.AsOther*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Queries.DbFluent.FieldAsOther(System.String,BindOpen.Extensions.Carriers.DbField)
+  commentId: M:BindOpen.Data.Queries.DbFluent.FieldAsOther(System.String,BindOpen.Extensions.Carriers.DbField)
+  id: FieldAsOther(System.String,BindOpen.Extensions.Carriers.DbField)
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: FieldAsOther(String, DbField)
+  nameWithType: DbFluent.FieldAsOther(String, DbField)
+  fullName: BindOpen.Data.Queries.DbFluent.FieldAsOther(System.String, BindOpen.Extensions.Carriers.DbField)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new instance of the DbField class.\n"
+  syntax:
+    content: public static DbField FieldAsOther(string name, DbField otherField)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name to consider.
+    - id: otherField
+      type: BindOpen.Extensions.Carriers.DbField
+      description: The other field to consider.
+    return:
+      type: BindOpen.Extensions.Carriers.DbField
+    content.vb: Public Shared Function FieldAsOther(name As String, otherField As DbField) As DbField
+  overload: BindOpen.Data.Queries.DbFluent.FieldAsOther*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Queries.DbFluent.FieldAsOther(System.String,BindOpen.Extensions.Carriers.DbTable,BindOpen.Extensions.Carriers.DbField)
+  commentId: M:BindOpen.Data.Queries.DbFluent.FieldAsOther(System.String,BindOpen.Extensions.Carriers.DbTable,BindOpen.Extensions.Carriers.DbField)
+  id: FieldAsOther(System.String,BindOpen.Extensions.Carriers.DbTable,BindOpen.Extensions.Carriers.DbField)
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: FieldAsOther(String, DbTable, DbField)
+  nameWithType: DbFluent.FieldAsOther(String, DbTable, DbField)
+  fullName: BindOpen.Data.Queries.DbFluent.FieldAsOther(System.String, BindOpen.Extensions.Carriers.DbTable, BindOpen.Extensions.Carriers.DbField)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new instance of the DbField class.\n"
+  syntax:
+    content: public static DbField FieldAsOther(string name, DbTable table, DbField otherField)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name to consider.
+    - id: table
+      type: BindOpen.Extensions.Carriers.DbTable
+      description: The data table to consider.
+    - id: otherField
+      type: BindOpen.Extensions.Carriers.DbField
+      description: The other field to consider.
+    return:
+      type: BindOpen.Extensions.Carriers.DbField
+    content.vb: Public Shared Function FieldAsOther(name As String, table As DbTable, otherField As DbField) As DbField
+  overload: BindOpen.Data.Queries.DbFluent.FieldAsOther*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Queries.DbFluent.FieldAsOther``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},BindOpen.Extensions.Carriers.DbField)
+  commentId: M:BindOpen.Data.Queries.DbFluent.FieldAsOther``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},BindOpen.Extensions.Carriers.DbField)
+  id: FieldAsOther``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},BindOpen.Extensions.Carriers.DbField)
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: FieldAsOther<T, TProperty>(Expression<Func<T, TProperty>>, DbField)
+  nameWithType: DbFluent.FieldAsOther<T, TProperty>(Expression<Func<T, TProperty>>, DbField)
+  fullName: BindOpen.Data.Queries.DbFluent.FieldAsOther<T, TProperty>(System.Linq.Expressions.Expression<System.Func<T, TProperty>>, BindOpen.Extensions.Carriers.DbField)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new instance of the DbField class.\n"
+  syntax:
+    content: >-
+      public static DbField FieldAsOther<T, TProperty>(Expression<Func<T, TProperty>> expr, DbField otherField)
+          where T : class
+    parameters:
+    - id: expr
+      type: System.Linq.Expressions.Expression{System.Func{{T},{TProperty}}}
+      description: The expression to consider.
+    - id: otherField
+      type: BindOpen.Extensions.Carriers.DbField
+      description: The other field to consider.
+    typeParameters:
+    - id: T
+    - id: TProperty
+    return:
+      type: BindOpen.Extensions.Carriers.DbField
+    content.vb: Public Shared Function FieldAsOther(Of T As Class, TProperty)(expr As Expression(Of Func(Of T, TProperty)), otherField As DbField) As DbField
+  overload: BindOpen.Data.Queries.DbFluent.FieldAsOther*
+  nameWithType.vb: DbFluent.FieldAsOther(Of T, TProperty)(Expression(Of Func(Of T, TProperty)), DbField)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Queries.DbFluent.FieldAsOther(Of T, TProperty)(System.Linq.Expressions.Expression(Of System.Func(Of T, TProperty)), BindOpen.Extensions.Carriers.DbField)
+  name.vb: FieldAsOther(Of T, TProperty)(Expression(Of Func(Of T, TProperty)), DbField)
+- uid: BindOpen.Data.Queries.DbFluent.FieldAsOther``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},BindOpen.Extensions.Carriers.DbTable,BindOpen.Extensions.Carriers.DbField)
+  commentId: M:BindOpen.Data.Queries.DbFluent.FieldAsOther``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},BindOpen.Extensions.Carriers.DbTable,BindOpen.Extensions.Carriers.DbField)
+  id: FieldAsOther``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},BindOpen.Extensions.Carriers.DbTable,BindOpen.Extensions.Carriers.DbField)
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: FieldAsOther<T, TProperty>(Expression<Func<T, TProperty>>, DbTable, DbField)
+  nameWithType: DbFluent.FieldAsOther<T, TProperty>(Expression<Func<T, TProperty>>, DbTable, DbField)
+  fullName: BindOpen.Data.Queries.DbFluent.FieldAsOther<T, TProperty>(System.Linq.Expressions.Expression<System.Func<T, TProperty>>, BindOpen.Extensions.Carriers.DbTable, BindOpen.Extensions.Carriers.DbField)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new instance of the DbField class.\n"
+  syntax:
+    content: >-
+      public static DbField FieldAsOther<T, TProperty>(Expression<Func<T, TProperty>> expr, DbTable table, DbField otherField)
+          where T : class
+    parameters:
+    - id: expr
+      type: System.Linq.Expressions.Expression{System.Func{{T},{TProperty}}}
+      description: The expression to consider.
+    - id: table
+      type: BindOpen.Extensions.Carriers.DbTable
+      description: The data table to consider.
+    - id: otherField
+      type: BindOpen.Extensions.Carriers.DbField
+      description: The other field to consider.
+    typeParameters:
+    - id: T
+    - id: TProperty
+    return:
+      type: BindOpen.Extensions.Carriers.DbField
+    content.vb: Public Shared Function FieldAsOther(Of T As Class, TProperty)(expr As Expression(Of Func(Of T, TProperty)), table As DbTable, otherField As DbField) As DbField
+  overload: BindOpen.Data.Queries.DbFluent.FieldAsOther*
+  nameWithType.vb: DbFluent.FieldAsOther(Of T, TProperty)(Expression(Of Func(Of T, TProperty)), DbTable, DbField)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Queries.DbFluent.FieldAsOther(Of T, TProperty)(System.Linq.Expressions.Expression(Of System.Func(Of T, TProperty)), BindOpen.Extensions.Carriers.DbTable, BindOpen.Extensions.Carriers.DbField)
+  name.vb: FieldAsOther(Of T, TProperty)(Expression(Of Func(Of T, TProperty)), DbTable, DbField)
+- uid: BindOpen.Data.Queries.DbFluent.FieldAsAll(BindOpen.Extensions.Carriers.DbTable)
+  commentId: M:BindOpen.Data.Queries.DbFluent.FieldAsAll(BindOpen.Extensions.Carriers.DbTable)
+  id: FieldAsAll(BindOpen.Extensions.Carriers.DbTable)
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: FieldAsAll(DbTable)
+  nameWithType: DbFluent.FieldAsAll(DbTable)
+  fullName: BindOpen.Data.Queries.DbFluent.FieldAsAll(BindOpen.Extensions.Carriers.DbTable)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new instance of the DbField class.\n"
+  syntax:
+    content: public static DbField FieldAsAll(DbTable table)
+    parameters:
+    - id: table
+      type: BindOpen.Extensions.Carriers.DbTable
+      description: The data table to consider.
+    return:
+      type: BindOpen.Extensions.Carriers.DbField
+    content.vb: Public Shared Function FieldAsAll(table As DbTable) As DbField
+  overload: BindOpen.Data.Queries.DbFluent.FieldAsAll*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Queries.DbFluent.AsParameter(BindOpen.Extensions.Carriers.DbField,System.String)
+  commentId: M:BindOpen.Data.Queries.DbFluent.AsParameter(BindOpen.Extensions.Carriers.DbField,System.String)
+  id: AsParameter(BindOpen.Extensions.Carriers.DbField,System.String)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: AsParameter(DbField, String)
+  nameWithType: DbFluent.AsParameter(DbField, String)
+  fullName: BindOpen.Data.Queries.DbFluent.AsParameter(BindOpen.Extensions.Carriers.DbField, System.String)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nUpdates the specified field as parameter.\n"
+  syntax:
+    content: public static DbField AsParameter(this DbField field, string parameterName)
+    parameters:
+    - id: field
+      type: BindOpen.Extensions.Carriers.DbField
+      description: The field to consider.
+    - id: parameterName
+      type: System.String
+      description: The parameter element to consider.
+    return:
+      type: BindOpen.Extensions.Carriers.DbField
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AsParameter(field As DbField, parameterName As String) As DbField
+  overload: BindOpen.Data.Queries.DbFluent.AsParameter*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Queries.DbFluent.FieldAsParameter(System.String,System.String)
+  commentId: M:BindOpen.Data.Queries.DbFluent.FieldAsParameter(System.String,System.String)
+  id: FieldAsParameter(System.String,System.String)
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: FieldAsParameter(String, String)
+  nameWithType: DbFluent.FieldAsParameter(String, String)
+  fullName: BindOpen.Data.Queries.DbFluent.FieldAsParameter(System.String, System.String)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new instance of the DbField class.\n"
+  syntax:
+    content: public static DbField FieldAsParameter(string name, string parameterName)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name to consider.
+    - id: parameterName
+      type: System.String
+      description: The parameter element to consider.
+    return:
+      type: BindOpen.Extensions.Carriers.DbField
+    content.vb: Public Shared Function FieldAsParameter(name As String, parameterName As String) As DbField
+  overload: BindOpen.Data.Queries.DbFluent.FieldAsParameter*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Queries.DbFluent.FieldAsParameter(System.String,BindOpen.Extensions.Carriers.DbTable,System.String)
+  commentId: M:BindOpen.Data.Queries.DbFluent.FieldAsParameter(System.String,BindOpen.Extensions.Carriers.DbTable,System.String)
+  id: FieldAsParameter(System.String,BindOpen.Extensions.Carriers.DbTable,System.String)
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: FieldAsParameter(String, DbTable, String)
+  nameWithType: DbFluent.FieldAsParameter(String, DbTable, String)
+  fullName: BindOpen.Data.Queries.DbFluent.FieldAsParameter(System.String, BindOpen.Extensions.Carriers.DbTable, System.String)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new instance of the DbField class.\n"
+  syntax:
+    content: public static DbField FieldAsParameter(string name, DbTable table, string parameterName)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name to consider.
+    - id: table
+      type: BindOpen.Extensions.Carriers.DbTable
+      description: The data table to consider.
+    - id: parameterName
+      type: System.String
+      description: The parameter element to consider.
+    return:
+      type: BindOpen.Extensions.Carriers.DbField
+    content.vb: Public Shared Function FieldAsParameter(name As String, table As DbTable, parameterName As String) As DbField
+  overload: BindOpen.Data.Queries.DbFluent.FieldAsParameter*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Queries.DbFluent.FieldAsParameter``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},System.String)
+  commentId: M:BindOpen.Data.Queries.DbFluent.FieldAsParameter``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},System.String)
+  id: FieldAsParameter``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},System.String)
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: FieldAsParameter<T, TProperty>(Expression<Func<T, TProperty>>, String)
+  nameWithType: DbFluent.FieldAsParameter<T, TProperty>(Expression<Func<T, TProperty>>, String)
+  fullName: BindOpen.Data.Queries.DbFluent.FieldAsParameter<T, TProperty>(System.Linq.Expressions.Expression<System.Func<T, TProperty>>, System.String)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new instance of the DbField class.\n"
+  syntax:
+    content: >-
+      public static DbField FieldAsParameter<T, TProperty>(Expression<Func<T, TProperty>> expr, string parameterName)
+          where T : class
+    parameters:
+    - id: expr
+      type: System.Linq.Expressions.Expression{System.Func{{T},{TProperty}}}
+      description: The expression to consider.
+    - id: parameterName
+      type: System.String
+      description: The parameter element to consider.
+    typeParameters:
+    - id: T
+    - id: TProperty
+    return:
+      type: BindOpen.Extensions.Carriers.DbField
+    content.vb: Public Shared Function FieldAsParameter(Of T As Class, TProperty)(expr As Expression(Of Func(Of T, TProperty)), parameterName As String) As DbField
+  overload: BindOpen.Data.Queries.DbFluent.FieldAsParameter*
+  nameWithType.vb: DbFluent.FieldAsParameter(Of T, TProperty)(Expression(Of Func(Of T, TProperty)), String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Queries.DbFluent.FieldAsParameter(Of T, TProperty)(System.Linq.Expressions.Expression(Of System.Func(Of T, TProperty)), System.String)
+  name.vb: FieldAsParameter(Of T, TProperty)(Expression(Of Func(Of T, TProperty)), String)
+- uid: BindOpen.Data.Queries.DbFluent.FieldAsParameter``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},BindOpen.Extensions.Carriers.DbTable,System.String)
+  commentId: M:BindOpen.Data.Queries.DbFluent.FieldAsParameter``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},BindOpen.Extensions.Carriers.DbTable,System.String)
+  id: FieldAsParameter``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},BindOpen.Extensions.Carriers.DbTable,System.String)
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: FieldAsParameter<T, TProperty>(Expression<Func<T, TProperty>>, DbTable, String)
+  nameWithType: DbFluent.FieldAsParameter<T, TProperty>(Expression<Func<T, TProperty>>, DbTable, String)
+  fullName: BindOpen.Data.Queries.DbFluent.FieldAsParameter<T, TProperty>(System.Linq.Expressions.Expression<System.Func<T, TProperty>>, BindOpen.Extensions.Carriers.DbTable, System.String)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new instance of the DbField class.\n"
+  syntax:
+    content: >-
+      public static DbField FieldAsParameter<T, TProperty>(Expression<Func<T, TProperty>> expr, DbTable table, string parameterName)
+          where T : class
+    parameters:
+    - id: expr
+      type: System.Linq.Expressions.Expression{System.Func{{T},{TProperty}}}
+      description: The expression to consider.
+    - id: table
+      type: BindOpen.Extensions.Carriers.DbTable
+      description: The data table to consider.
+    - id: parameterName
+      type: System.String
+      description: The parameter element to consider.
+    typeParameters:
+    - id: T
+    - id: TProperty
+    return:
+      type: BindOpen.Extensions.Carriers.DbField
+    content.vb: Public Shared Function FieldAsParameter(Of T As Class, TProperty)(expr As Expression(Of Func(Of T, TProperty)), table As DbTable, parameterName As String) As DbField
+  overload: BindOpen.Data.Queries.DbFluent.FieldAsParameter*
+  nameWithType.vb: DbFluent.FieldAsParameter(Of T, TProperty)(Expression(Of Func(Of T, TProperty)), DbTable, String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Queries.DbFluent.FieldAsParameter(Of T, TProperty)(System.Linq.Expressions.Expression(Of System.Func(Of T, TProperty)), BindOpen.Extensions.Carriers.DbTable, System.String)
+  name.vb: FieldAsParameter(Of T, TProperty)(Expression(Of Func(Of T, TProperty)), DbTable, String)
+- uid: BindOpen.Data.Queries.DbFluent.AsParameter(BindOpen.Extensions.Carriers.DbField,System.Byte)
+  commentId: M:BindOpen.Data.Queries.DbFluent.AsParameter(BindOpen.Extensions.Carriers.DbField,System.Byte)
+  id: AsParameter(BindOpen.Extensions.Carriers.DbField,System.Byte)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: AsParameter(DbField, Byte)
+  nameWithType: DbFluent.AsParameter(DbField, Byte)
+  fullName: BindOpen.Data.Queries.DbFluent.AsParameter(BindOpen.Extensions.Carriers.DbField, System.Byte)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nUpdates the specified field as parameter.\n"
+  syntax:
+    content: public static DbField AsParameter(this DbField field, byte parameterIndex)
+    parameters:
+    - id: field
+      type: BindOpen.Extensions.Carriers.DbField
+      description: The field to consider.
+    - id: parameterIndex
+      type: System.Byte
+      description: The parameter index to consider.
+    return:
+      type: BindOpen.Extensions.Carriers.DbField
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AsParameter(field As DbField, parameterIndex As Byte) As DbField
+  overload: BindOpen.Data.Queries.DbFluent.AsParameter*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Queries.DbFluent.FieldAsParameter(System.String,System.Byte)
+  commentId: M:BindOpen.Data.Queries.DbFluent.FieldAsParameter(System.String,System.Byte)
+  id: FieldAsParameter(System.String,System.Byte)
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: FieldAsParameter(String, Byte)
+  nameWithType: DbFluent.FieldAsParameter(String, Byte)
+  fullName: BindOpen.Data.Queries.DbFluent.FieldAsParameter(System.String, System.Byte)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new instance of the DbField class.\n"
+  syntax:
+    content: public static DbField FieldAsParameter(string name, byte parameterIndex)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name to consider.
+    - id: parameterIndex
+      type: System.Byte
+      description: The parameter index to consider.
+    return:
+      type: BindOpen.Extensions.Carriers.DbField
+    content.vb: Public Shared Function FieldAsParameter(name As String, parameterIndex As Byte) As DbField
+  overload: BindOpen.Data.Queries.DbFluent.FieldAsParameter*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Queries.DbFluent.FieldAsParameter(System.String,BindOpen.Extensions.Carriers.DbTable,System.Byte)
+  commentId: M:BindOpen.Data.Queries.DbFluent.FieldAsParameter(System.String,BindOpen.Extensions.Carriers.DbTable,System.Byte)
+  id: FieldAsParameter(System.String,BindOpen.Extensions.Carriers.DbTable,System.Byte)
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: FieldAsParameter(String, DbTable, Byte)
+  nameWithType: DbFluent.FieldAsParameter(String, DbTable, Byte)
+  fullName: BindOpen.Data.Queries.DbFluent.FieldAsParameter(System.String, BindOpen.Extensions.Carriers.DbTable, System.Byte)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new instance of the DbField class.\n"
+  syntax:
+    content: public static DbField FieldAsParameter(string name, DbTable table, byte parameterIndex)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name to consider.
+    - id: table
+      type: BindOpen.Extensions.Carriers.DbTable
+      description: The data table to consider.
+    - id: parameterIndex
+      type: System.Byte
+      description: The parameter index to consider.
+    return:
+      type: BindOpen.Extensions.Carriers.DbField
+    content.vb: Public Shared Function FieldAsParameter(name As String, table As DbTable, parameterIndex As Byte) As DbField
+  overload: BindOpen.Data.Queries.DbFluent.FieldAsParameter*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Queries.DbFluent.FieldAsParameter``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Byte)
+  commentId: M:BindOpen.Data.Queries.DbFluent.FieldAsParameter``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Byte)
+  id: FieldAsParameter``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Byte)
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: FieldAsParameter<T, TProperty>(Expression<Func<T, TProperty>>, Byte)
+  nameWithType: DbFluent.FieldAsParameter<T, TProperty>(Expression<Func<T, TProperty>>, Byte)
+  fullName: BindOpen.Data.Queries.DbFluent.FieldAsParameter<T, TProperty>(System.Linq.Expressions.Expression<System.Func<T, TProperty>>, System.Byte)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new instance of the DbField class.\n"
+  syntax:
+    content: >-
+      public static DbField FieldAsParameter<T, TProperty>(Expression<Func<T, TProperty>> expr, byte parameterIndex)
+          where T : class
+    parameters:
+    - id: expr
+      type: System.Linq.Expressions.Expression{System.Func{{T},{TProperty}}}
+      description: The expression to consider.
+    - id: parameterIndex
+      type: System.Byte
+      description: The parameter index to consider.
+    typeParameters:
+    - id: T
+    - id: TProperty
+    return:
+      type: BindOpen.Extensions.Carriers.DbField
+    content.vb: Public Shared Function FieldAsParameter(Of T As Class, TProperty)(expr As Expression(Of Func(Of T, TProperty)), parameterIndex As Byte) As DbField
+  overload: BindOpen.Data.Queries.DbFluent.FieldAsParameter*
+  nameWithType.vb: DbFluent.FieldAsParameter(Of T, TProperty)(Expression(Of Func(Of T, TProperty)), Byte)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Queries.DbFluent.FieldAsParameter(Of T, TProperty)(System.Linq.Expressions.Expression(Of System.Func(Of T, TProperty)), System.Byte)
+  name.vb: FieldAsParameter(Of T, TProperty)(Expression(Of Func(Of T, TProperty)), Byte)
+- uid: BindOpen.Data.Queries.DbFluent.FieldAsParameter``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},BindOpen.Extensions.Carriers.DbTable,System.Byte)
+  commentId: M:BindOpen.Data.Queries.DbFluent.FieldAsParameter``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},BindOpen.Extensions.Carriers.DbTable,System.Byte)
+  id: FieldAsParameter``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},BindOpen.Extensions.Carriers.DbTable,System.Byte)
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: FieldAsParameter<T, TProperty>(Expression<Func<T, TProperty>>, DbTable, Byte)
+  nameWithType: DbFluent.FieldAsParameter<T, TProperty>(Expression<Func<T, TProperty>>, DbTable, Byte)
+  fullName: BindOpen.Data.Queries.DbFluent.FieldAsParameter<T, TProperty>(System.Linq.Expressions.Expression<System.Func<T, TProperty>>, BindOpen.Extensions.Carriers.DbTable, System.Byte)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new instance of the DbField class.\n"
+  syntax:
+    content: >-
+      public static DbField FieldAsParameter<T, TProperty>(Expression<Func<T, TProperty>> expr, DbTable table, byte parameterIndex)
+          where T : class
+    parameters:
+    - id: expr
+      type: System.Linq.Expressions.Expression{System.Func{{T},{TProperty}}}
+      description: The expression to consider.
+    - id: table
+      type: BindOpen.Extensions.Carriers.DbTable
+      description: The data table to consider.
+    - id: parameterIndex
+      type: System.Byte
+      description: The parameter index to consider.
+    typeParameters:
+    - id: T
+    - id: TProperty
+    return:
+      type: BindOpen.Extensions.Carriers.DbField
+    content.vb: Public Shared Function FieldAsParameter(Of T As Class, TProperty)(expr As Expression(Of Func(Of T, TProperty)), table As DbTable, parameterIndex As Byte) As DbField
+  overload: BindOpen.Data.Queries.DbFluent.FieldAsParameter*
+  nameWithType.vb: DbFluent.FieldAsParameter(Of T, TProperty)(Expression(Of Func(Of T, TProperty)), DbTable, Byte)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Queries.DbFluent.FieldAsParameter(Of T, TProperty)(System.Linq.Expressions.Expression(Of System.Func(Of T, TProperty)), BindOpen.Extensions.Carriers.DbTable, System.Byte)
+  name.vb: FieldAsParameter(Of T, TProperty)(Expression(Of Func(Of T, TProperty)), DbTable, Byte)
+- uid: BindOpen.Data.Queries.DbFluent.AsParameter(BindOpen.Extensions.Carriers.DbField,BindOpen.Data.Elements.IDataElement)
+  commentId: M:BindOpen.Data.Queries.DbFluent.AsParameter(BindOpen.Extensions.Carriers.DbField,BindOpen.Data.Elements.IDataElement)
+  id: AsParameter(BindOpen.Extensions.Carriers.DbField,BindOpen.Data.Elements.IDataElement)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: AsParameter(DbField, IDataElement)
+  nameWithType: DbFluent.AsParameter(DbField, IDataElement)
+  fullName: BindOpen.Data.Queries.DbFluent.AsParameter(BindOpen.Extensions.Carriers.DbField, BindOpen.Data.Elements.IDataElement)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nUpdates the specified field as parameter.\n"
+  syntax:
+    content: public static DbField AsParameter(this DbField field, IDataElement parameter)
+    parameters:
+    - id: field
+      type: BindOpen.Extensions.Carriers.DbField
+      description: The field to consider.
+    - id: parameter
+      type: BindOpen.Data.Elements.IDataElement
+      description: The parameter to consider.
+    return:
+      type: BindOpen.Extensions.Carriers.DbField
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AsParameter(field As DbField, parameter As IDataElement) As DbField
+  overload: BindOpen.Data.Queries.DbFluent.AsParameter*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Queries.DbFluent.FieldAsParameter(System.String,BindOpen.Data.Elements.IDataElement)
+  commentId: M:BindOpen.Data.Queries.DbFluent.FieldAsParameter(System.String,BindOpen.Data.Elements.IDataElement)
+  id: FieldAsParameter(System.String,BindOpen.Data.Elements.IDataElement)
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: FieldAsParameter(String, IDataElement)
+  nameWithType: DbFluent.FieldAsParameter(String, IDataElement)
+  fullName: BindOpen.Data.Queries.DbFluent.FieldAsParameter(System.String, BindOpen.Data.Elements.IDataElement)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new instance of the DbField class.\n"
+  syntax:
+    content: public static DbField FieldAsParameter(string name, IDataElement parameter)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name to consider.
+    - id: parameter
+      type: BindOpen.Data.Elements.IDataElement
+      description: The parameter to consider.
+    return:
+      type: BindOpen.Extensions.Carriers.DbField
+    content.vb: Public Shared Function FieldAsParameter(name As String, parameter As IDataElement) As DbField
+  overload: BindOpen.Data.Queries.DbFluent.FieldAsParameter*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Queries.DbFluent.FieldAsParameter(System.String,BindOpen.Extensions.Carriers.DbTable,BindOpen.Data.Elements.IDataElement)
+  commentId: M:BindOpen.Data.Queries.DbFluent.FieldAsParameter(System.String,BindOpen.Extensions.Carriers.DbTable,BindOpen.Data.Elements.IDataElement)
+  id: FieldAsParameter(System.String,BindOpen.Extensions.Carriers.DbTable,BindOpen.Data.Elements.IDataElement)
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: FieldAsParameter(String, DbTable, IDataElement)
+  nameWithType: DbFluent.FieldAsParameter(String, DbTable, IDataElement)
+  fullName: BindOpen.Data.Queries.DbFluent.FieldAsParameter(System.String, BindOpen.Extensions.Carriers.DbTable, BindOpen.Data.Elements.IDataElement)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new instance of the DbField class.\n"
+  syntax:
+    content: public static DbField FieldAsParameter(string name, DbTable table, IDataElement parameter)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name to consider.
+    - id: table
+      type: BindOpen.Extensions.Carriers.DbTable
+      description: The data table to consider.
+    - id: parameter
+      type: BindOpen.Data.Elements.IDataElement
+      description: The parameter to consider.
+    return:
+      type: BindOpen.Extensions.Carriers.DbField
+    content.vb: Public Shared Function FieldAsParameter(name As String, table As DbTable, parameter As IDataElement) As DbField
+  overload: BindOpen.Data.Queries.DbFluent.FieldAsParameter*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Queries.DbFluent.FieldAsParameter``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},BindOpen.Data.Elements.IDataElement)
+  commentId: M:BindOpen.Data.Queries.DbFluent.FieldAsParameter``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},BindOpen.Data.Elements.IDataElement)
+  id: FieldAsParameter``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},BindOpen.Data.Elements.IDataElement)
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: FieldAsParameter<T, TProperty>(Expression<Func<T, TProperty>>, IDataElement)
+  nameWithType: DbFluent.FieldAsParameter<T, TProperty>(Expression<Func<T, TProperty>>, IDataElement)
+  fullName: BindOpen.Data.Queries.DbFluent.FieldAsParameter<T, TProperty>(System.Linq.Expressions.Expression<System.Func<T, TProperty>>, BindOpen.Data.Elements.IDataElement)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new instance of the DbField class.\n"
+  syntax:
+    content: >-
+      public static DbField FieldAsParameter<T, TProperty>(Expression<Func<T, TProperty>> expr, IDataElement parameter)
+          where T : class
+    parameters:
+    - id: expr
+      type: System.Linq.Expressions.Expression{System.Func{{T},{TProperty}}}
+      description: The expression to consider.
+    - id: parameter
+      type: BindOpen.Data.Elements.IDataElement
+      description: The parameter to consider.
+    typeParameters:
+    - id: T
+    - id: TProperty
+    return:
+      type: BindOpen.Extensions.Carriers.DbField
+    content.vb: Public Shared Function FieldAsParameter(Of T As Class, TProperty)(expr As Expression(Of Func(Of T, TProperty)), parameter As IDataElement) As DbField
+  overload: BindOpen.Data.Queries.DbFluent.FieldAsParameter*
+  nameWithType.vb: DbFluent.FieldAsParameter(Of T, TProperty)(Expression(Of Func(Of T, TProperty)), IDataElement)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Queries.DbFluent.FieldAsParameter(Of T, TProperty)(System.Linq.Expressions.Expression(Of System.Func(Of T, TProperty)), BindOpen.Data.Elements.IDataElement)
+  name.vb: FieldAsParameter(Of T, TProperty)(Expression(Of Func(Of T, TProperty)), IDataElement)
+- uid: BindOpen.Data.Queries.DbFluent.FieldAsParameter``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},BindOpen.Extensions.Carriers.DbTable,BindOpen.Data.Elements.IDataElement)
+  commentId: M:BindOpen.Data.Queries.DbFluent.FieldAsParameter``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},BindOpen.Extensions.Carriers.DbTable,BindOpen.Data.Elements.IDataElement)
+  id: FieldAsParameter``2(System.Linq.Expressions.Expression{System.Func{``0,``1}},BindOpen.Extensions.Carriers.DbTable,BindOpen.Data.Elements.IDataElement)
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: FieldAsParameter<T, TProperty>(Expression<Func<T, TProperty>>, DbTable, IDataElement)
+  nameWithType: DbFluent.FieldAsParameter<T, TProperty>(Expression<Func<T, TProperty>>, DbTable, IDataElement)
+  fullName: BindOpen.Data.Queries.DbFluent.FieldAsParameter<T, TProperty>(System.Linq.Expressions.Expression<System.Func<T, TProperty>>, BindOpen.Extensions.Carriers.DbTable, BindOpen.Data.Elements.IDataElement)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new instance of the DbField class.\n"
+  syntax:
+    content: >-
+      public static DbField FieldAsParameter<T, TProperty>(Expression<Func<T, TProperty>> expr, DbTable table, IDataElement parameter)
+          where T : class
+    parameters:
+    - id: expr
+      type: System.Linq.Expressions.Expression{System.Func{{T},{TProperty}}}
+      description: The expression to consider.
+    - id: table
+      type: BindOpen.Extensions.Carriers.DbTable
+      description: The data table to consider.
+    - id: parameter
+      type: BindOpen.Data.Elements.IDataElement
+      description: The parameter to consider.
+    typeParameters:
+    - id: T
+    - id: TProperty
+    return:
+      type: BindOpen.Extensions.Carriers.DbField
+    content.vb: Public Shared Function FieldAsParameter(Of T As Class, TProperty)(expr As Expression(Of Func(Of T, TProperty)), table As DbTable, parameter As IDataElement) As DbField
+  overload: BindOpen.Data.Queries.DbFluent.FieldAsParameter*
+  nameWithType.vb: DbFluent.FieldAsParameter(Of T, TProperty)(Expression(Of Func(Of T, TProperty)), DbTable, IDataElement)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Queries.DbFluent.FieldAsParameter(Of T, TProperty)(System.Linq.Expressions.Expression(Of System.Func(Of T, TProperty)), BindOpen.Extensions.Carriers.DbTable, BindOpen.Data.Elements.IDataElement)
+  name.vb: FieldAsParameter(Of T, TProperty)(Expression(Of Func(Of T, TProperty)), DbTable, IDataElement)
+- uid: BindOpen.Data.Queries.DbFluent.Upsert(System.String,BindOpen.Extensions.Carriers.DbTable)
+  commentId: M:BindOpen.Data.Queries.DbFluent.Upsert(System.String,BindOpen.Extensions.Carriers.DbTable)
+  id: Upsert(System.String,BindOpen.Extensions.Carriers.DbTable)
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: Upsert(String, DbTable)
+  nameWithType: DbFluent.Upsert(String, DbTable)
+  fullName: BindOpen.Data.Queries.DbFluent.Upsert(System.String, BindOpen.Extensions.Carriers.DbTable)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new Upsert basic database query.\n"
+  syntax:
+    content: public static IDbCompositeQuery Upsert(string name, DbTable table)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name of the query to consider.
+    - id: table
+      type: BindOpen.Extensions.Carriers.DbTable
+      description: The table to consider.
+    return:
+      type: BindOpen.Data.Queries.IDbCompositeQuery
+      description: Returns a new Upsert basic database query
+    content.vb: Public Shared Function Upsert(name As String, table As DbTable) As IDbCompositeQuery
+  overload: BindOpen.Data.Queries.DbFluent.Upsert*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Queries.DbFluent.Upsert(BindOpen.Extensions.Carriers.DbTable)
+  commentId: M:BindOpen.Data.Queries.DbFluent.Upsert(BindOpen.Extensions.Carriers.DbTable)
+  id: Upsert(BindOpen.Extensions.Carriers.DbTable)
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: Upsert(DbTable)
+  nameWithType: DbFluent.Upsert(DbTable)
+  fullName: BindOpen.Data.Queries.DbFluent.Upsert(BindOpen.Extensions.Carriers.DbTable)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new Upsert basic database query.\n"
+  syntax:
+    content: public static IDbCompositeQuery Upsert(DbTable table)
+    parameters:
+    - id: table
+      type: BindOpen.Extensions.Carriers.DbTable
+      description: The table to consider.
+    return:
+      type: BindOpen.Data.Queries.IDbCompositeQuery
+      description: Returns a new Upsert basic database query
+    content.vb: Public Shared Function Upsert(table As DbTable) As IDbCompositeQuery
+  overload: BindOpen.Data.Queries.DbFluent.Upsert*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Queries.DbFluent.Parameter(System.String,System.Object)
+  commentId: M:BindOpen.Data.Queries.DbFluent.Parameter(System.String,System.Object)
+  id: Parameter(System.String,System.Object)
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: Parameter(String, Object)
+  nameWithType: DbFluent.Parameter(String, Object)
+  fullName: BindOpen.Data.Queries.DbFluent.Parameter(System.String, System.Object)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  syntax:
+    content: public static IDataElement Parameter(string name, object value = null)
+    parameters:
+    - id: name
+      type: System.String
+    - id: value
+      type: System.Object
+    return:
+      type: BindOpen.Data.Elements.IDataElement
+    content.vb: Public Shared Function Parameter(name As String, value As Object = Nothing) As IDataElement
+  overload: BindOpen.Data.Queries.DbFluent.Parameter*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Queries.DbFluent.Parameter(System.String,BindOpen.Data.Common.DataValueType,System.Object)
+  commentId: M:BindOpen.Data.Queries.DbFluent.Parameter(System.String,BindOpen.Data.Common.DataValueType,System.Object)
+  id: Parameter(System.String,BindOpen.Data.Common.DataValueType,System.Object)
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: Parameter(String, DataValueType, Object)
+  nameWithType: DbFluent.Parameter(String, DataValueType, Object)
+  fullName: BindOpen.Data.Queries.DbFluent.Parameter(System.String, BindOpen.Data.Common.DataValueType, System.Object)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new instance of the DataElement class.\n"
+  syntax:
+    content: public static IDataElement Parameter(string name, DataValueType valueType, object value)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name to consider.
+    - id: valueType
+      type: BindOpen.Data.Common.DataValueType
+      description: The data value type to consider.
+    - id: value
+      type: System.Object
+      description: The data table to consider.
+    return:
+      type: BindOpen.Data.Elements.IDataElement
+    content.vb: Public Shared Function Parameter(name As String, valueType As DataValueType, value As Object) As IDataElement
+  overload: BindOpen.Data.Queries.DbFluent.Parameter*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Queries.DbFluent.AsScript(BindOpen.Data.Elements.ScalarElement)
+  commentId: M:BindOpen.Data.Queries.DbFluent.AsScript(BindOpen.Data.Elements.ScalarElement)
+  id: AsScript(BindOpen.Data.Elements.ScalarElement)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: AsScript(ScalarElement)
+  nameWithType: DbFluent.AsScript(ScalarElement)
+  fullName: BindOpen.Data.Queries.DbFluent.AsScript(BindOpen.Data.Elements.ScalarElement)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new instance of the DataElement class.\n"
+  syntax:
+    content: public static DataExpression AsScript(this ScalarElement parameter)
+    parameters:
+    - id: parameter
+      type: BindOpen.Data.Elements.ScalarElement
+    return:
+      type: BindOpen.Data.Expression.DataExpression
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AsScript(parameter As ScalarElement) As DataExpression
+  overload: BindOpen.Data.Queries.DbFluent.AsScript*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Queries.DbFluent.DeleteQuery(System.String,BindOpen.Extensions.Carriers.DbTable,System.Action{BindOpen.Data.Queries.IDbSingleQuery})
+  commentId: M:BindOpen.Data.Queries.DbFluent.DeleteQuery(System.String,BindOpen.Extensions.Carriers.DbTable,System.Action{BindOpen.Data.Queries.IDbSingleQuery})
+  id: DeleteQuery(System.String,BindOpen.Extensions.Carriers.DbTable,System.Action{BindOpen.Data.Queries.IDbSingleQuery})
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: DeleteQuery(String, DbTable, Action<IDbSingleQuery>)
+  nameWithType: DbFluent.DeleteQuery(String, DbTable, Action<IDbSingleQuery>)
+  fullName: BindOpen.Data.Queries.DbFluent.DeleteQuery(System.String, BindOpen.Extensions.Carriers.DbTable, System.Action<BindOpen.Data.Queries.IDbSingleQuery>)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new Delete advanced database query.\n"
+  syntax:
+    content: public static IDbSingleQuery DeleteQuery(string name, DbTable table, Action<IDbSingleQuery> initAction = null)
+    parameters:
+    - id: name
+      type: System.String
+    - id: table
+      type: BindOpen.Extensions.Carriers.DbTable
+    - id: initAction
+      type: System.Action{BindOpen.Data.Queries.IDbSingleQuery}
+    return:
+      type: BindOpen.Data.Queries.IDbSingleQuery
+      description: Returns a new Delete advanced database query
+    content.vb: Public Shared Function DeleteQuery(name As String, table As DbTable, initAction As Action(Of IDbSingleQuery) = Nothing) As IDbSingleQuery
+  overload: BindOpen.Data.Queries.DbFluent.DeleteQuery*
+  nameWithType.vb: DbFluent.DeleteQuery(String, DbTable, Action(Of IDbSingleQuery))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Queries.DbFluent.DeleteQuery(System.String, BindOpen.Extensions.Carriers.DbTable, System.Action(Of BindOpen.Data.Queries.IDbSingleQuery))
+  name.vb: DeleteQuery(String, DbTable, Action(Of IDbSingleQuery))
+- uid: BindOpen.Data.Queries.DbFluent.DeleteQuery(BindOpen.Extensions.Carriers.DbTable,System.Action{BindOpen.Data.Queries.IDbSingleQuery})
+  commentId: M:BindOpen.Data.Queries.DbFluent.DeleteQuery(BindOpen.Extensions.Carriers.DbTable,System.Action{BindOpen.Data.Queries.IDbSingleQuery})
+  id: DeleteQuery(BindOpen.Extensions.Carriers.DbTable,System.Action{BindOpen.Data.Queries.IDbSingleQuery})
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: DeleteQuery(DbTable, Action<IDbSingleQuery>)
+  nameWithType: DbFluent.DeleteQuery(DbTable, Action<IDbSingleQuery>)
+  fullName: BindOpen.Data.Queries.DbFluent.DeleteQuery(BindOpen.Extensions.Carriers.DbTable, System.Action<BindOpen.Data.Queries.IDbSingleQuery>)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new Delete advanced database query.\n"
+  syntax:
+    content: public static IDbSingleQuery DeleteQuery(DbTable table, Action<IDbSingleQuery> initAction = null)
+    parameters:
+    - id: table
+      type: BindOpen.Extensions.Carriers.DbTable
+    - id: initAction
+      type: System.Action{BindOpen.Data.Queries.IDbSingleQuery}
+    return:
+      type: BindOpen.Data.Queries.IDbSingleQuery
+      description: Returns a new Delete advanced database query
+    content.vb: Public Shared Function DeleteQuery(table As DbTable, initAction As Action(Of IDbSingleQuery) = Nothing) As IDbSingleQuery
+  overload: BindOpen.Data.Queries.DbFluent.DeleteQuery*
+  nameWithType.vb: DbFluent.DeleteQuery(DbTable, Action(Of IDbSingleQuery))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Queries.DbFluent.DeleteQuery(BindOpen.Extensions.Carriers.DbTable, System.Action(Of BindOpen.Data.Queries.IDbSingleQuery))
+  name.vb: DeleteQuery(DbTable, Action(Of IDbSingleQuery))
+- uid: BindOpen.Data.Queries.DbFluent.CreateQuery(System.String,BindOpen.Extensions.Carriers.DbTable,System.Boolean,System.Action{BindOpen.Data.Queries.IDbSingleQuery})
+  commentId: M:BindOpen.Data.Queries.DbFluent.CreateQuery(System.String,BindOpen.Extensions.Carriers.DbTable,System.Boolean,System.Action{BindOpen.Data.Queries.IDbSingleQuery})
+  id: CreateQuery(System.String,BindOpen.Extensions.Carriers.DbTable,System.Boolean,System.Action{BindOpen.Data.Queries.IDbSingleQuery})
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: CreateQuery(String, DbTable, Boolean, Action<IDbSingleQuery>)
+  nameWithType: DbFluent.CreateQuery(String, DbTable, Boolean, Action<IDbSingleQuery>)
+  fullName: BindOpen.Data.Queries.DbFluent.CreateQuery(System.String, BindOpen.Extensions.Carriers.DbTable, System.Boolean, System.Action<BindOpen.Data.Queries.IDbSingleQuery>)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new Create advanced database query.\n"
+  syntax:
+    content: public static IDbSingleQuery CreateQuery(string name, DbTable table, bool onlyIfNotExisting = true, Action<IDbSingleQuery> initAction = null)
+    parameters:
+    - id: name
+      type: System.String
+    - id: table
+      type: BindOpen.Extensions.Carriers.DbTable
+    - id: onlyIfNotExisting
+      type: System.Boolean
+    - id: initAction
+      type: System.Action{BindOpen.Data.Queries.IDbSingleQuery}
+    return:
+      type: BindOpen.Data.Queries.IDbSingleQuery
+      description: Returns a new Create basic database query
+    content.vb: Public Shared Function CreateQuery(name As String, table As DbTable, onlyIfNotExisting As Boolean = True, initAction As Action(Of IDbSingleQuery) = Nothing) As IDbSingleQuery
+  overload: BindOpen.Data.Queries.DbFluent.CreateQuery*
+  nameWithType.vb: DbFluent.CreateQuery(String, DbTable, Boolean, Action(Of IDbSingleQuery))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Queries.DbFluent.CreateQuery(System.String, BindOpen.Extensions.Carriers.DbTable, System.Boolean, System.Action(Of BindOpen.Data.Queries.IDbSingleQuery))
+  name.vb: CreateQuery(String, DbTable, Boolean, Action(Of IDbSingleQuery))
+- uid: BindOpen.Data.Queries.DbFluent.CreateQuery(BindOpen.Extensions.Carriers.DbTable,System.Boolean,System.Action{BindOpen.Data.Queries.IDbSingleQuery})
+  commentId: M:BindOpen.Data.Queries.DbFluent.CreateQuery(BindOpen.Extensions.Carriers.DbTable,System.Boolean,System.Action{BindOpen.Data.Queries.IDbSingleQuery})
+  id: CreateQuery(BindOpen.Extensions.Carriers.DbTable,System.Boolean,System.Action{BindOpen.Data.Queries.IDbSingleQuery})
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: CreateQuery(DbTable, Boolean, Action<IDbSingleQuery>)
+  nameWithType: DbFluent.CreateQuery(DbTable, Boolean, Action<IDbSingleQuery>)
+  fullName: BindOpen.Data.Queries.DbFluent.CreateQuery(BindOpen.Extensions.Carriers.DbTable, System.Boolean, System.Action<BindOpen.Data.Queries.IDbSingleQuery>)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new Create advanced database query.\n"
+  syntax:
+    content: public static IDbSingleQuery CreateQuery(DbTable table, bool onlyIfNotExisting = true, Action<IDbSingleQuery> initAction = null)
+    parameters:
+    - id: table
+      type: BindOpen.Extensions.Carriers.DbTable
+    - id: onlyIfNotExisting
+      type: System.Boolean
+    - id: initAction
+      type: System.Action{BindOpen.Data.Queries.IDbSingleQuery}
+    return:
+      type: BindOpen.Data.Queries.IDbSingleQuery
+      description: Returns a new Create basic database query
+    content.vb: Public Shared Function CreateQuery(table As DbTable, onlyIfNotExisting As Boolean = True, initAction As Action(Of IDbSingleQuery) = Nothing) As IDbSingleQuery
+  overload: BindOpen.Data.Queries.DbFluent.CreateQuery*
+  nameWithType.vb: DbFluent.CreateQuery(DbTable, Boolean, Action(Of IDbSingleQuery))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Queries.DbFluent.CreateQuery(BindOpen.Extensions.Carriers.DbTable, System.Boolean, System.Action(Of BindOpen.Data.Queries.IDbSingleQuery))
+  name.vb: CreateQuery(DbTable, Boolean, Action(Of IDbSingleQuery))
+- uid: BindOpen.Data.Queries.DbFluent.DropQuery(System.String,BindOpen.Extensions.Carriers.DbTable,System.Boolean,System.Action{BindOpen.Data.Queries.IDbSingleQuery})
+  commentId: M:BindOpen.Data.Queries.DbFluent.DropQuery(System.String,BindOpen.Extensions.Carriers.DbTable,System.Boolean,System.Action{BindOpen.Data.Queries.IDbSingleQuery})
+  id: DropQuery(System.String,BindOpen.Extensions.Carriers.DbTable,System.Boolean,System.Action{BindOpen.Data.Queries.IDbSingleQuery})
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: DropQuery(String, DbTable, Boolean, Action<IDbSingleQuery>)
+  nameWithType: DbFluent.DropQuery(String, DbTable, Boolean, Action<IDbSingleQuery>)
+  fullName: BindOpen.Data.Queries.DbFluent.DropQuery(System.String, BindOpen.Extensions.Carriers.DbTable, System.Boolean, System.Action<BindOpen.Data.Queries.IDbSingleQuery>)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new Drop advanced database query.\n"
+  syntax:
+    content: public static IDbSingleQuery DropQuery(string name, DbTable table, bool onlyIfExisting = true, Action<IDbSingleQuery> initAction = null)
+    parameters:
+    - id: name
+      type: System.String
+    - id: table
+      type: BindOpen.Extensions.Carriers.DbTable
+    - id: onlyIfExisting
+      type: System.Boolean
+    - id: initAction
+      type: System.Action{BindOpen.Data.Queries.IDbSingleQuery}
+    return:
+      type: BindOpen.Data.Queries.IDbSingleQuery
+      description: Returns a new Drop advanced database query
+    content.vb: Public Shared Function DropQuery(name As String, table As DbTable, onlyIfExisting As Boolean = True, initAction As Action(Of IDbSingleQuery) = Nothing) As IDbSingleQuery
+  overload: BindOpen.Data.Queries.DbFluent.DropQuery*
+  nameWithType.vb: DbFluent.DropQuery(String, DbTable, Boolean, Action(Of IDbSingleQuery))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Queries.DbFluent.DropQuery(System.String, BindOpen.Extensions.Carriers.DbTable, System.Boolean, System.Action(Of BindOpen.Data.Queries.IDbSingleQuery))
+  name.vb: DropQuery(String, DbTable, Boolean, Action(Of IDbSingleQuery))
+- uid: BindOpen.Data.Queries.DbFluent.DropQuery(BindOpen.Extensions.Carriers.DbTable,System.Boolean,System.Action{BindOpen.Data.Queries.IDbSingleQuery})
+  commentId: M:BindOpen.Data.Queries.DbFluent.DropQuery(BindOpen.Extensions.Carriers.DbTable,System.Boolean,System.Action{BindOpen.Data.Queries.IDbSingleQuery})
+  id: DropQuery(BindOpen.Extensions.Carriers.DbTable,System.Boolean,System.Action{BindOpen.Data.Queries.IDbSingleQuery})
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: DropQuery(DbTable, Boolean, Action<IDbSingleQuery>)
+  nameWithType: DbFluent.DropQuery(DbTable, Boolean, Action<IDbSingleQuery>)
+  fullName: BindOpen.Data.Queries.DbFluent.DropQuery(BindOpen.Extensions.Carriers.DbTable, System.Boolean, System.Action<BindOpen.Data.Queries.IDbSingleQuery>)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new Drop advanced database query.\n"
+  syntax:
+    content: public static IDbSingleQuery DropQuery(DbTable table, bool onlyIfExisting = true, Action<IDbSingleQuery> initAction = null)
+    parameters:
+    - id: table
+      type: BindOpen.Extensions.Carriers.DbTable
+    - id: onlyIfExisting
+      type: System.Boolean
+    - id: initAction
+      type: System.Action{BindOpen.Data.Queries.IDbSingleQuery}
+    return:
+      type: BindOpen.Data.Queries.IDbSingleQuery
+      description: Returns a new Drop advanced database query
+    content.vb: Public Shared Function DropQuery(table As DbTable, onlyIfExisting As Boolean = True, initAction As Action(Of IDbSingleQuery) = Nothing) As IDbSingleQuery
+  overload: BindOpen.Data.Queries.DbFluent.DropQuery*
+  nameWithType.vb: DbFluent.DropQuery(DbTable, Boolean, Action(Of IDbSingleQuery))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Queries.DbFluent.DropQuery(BindOpen.Extensions.Carriers.DbTable, System.Boolean, System.Action(Of BindOpen.Data.Queries.IDbSingleQuery))
+  name.vb: DropQuery(DbTable, Boolean, Action(Of IDbSingleQuery))
+- uid: BindOpen.Data.Queries.DbFluent.InsertQuery(System.String,BindOpen.Extensions.Carriers.DbTable,System.Boolean,System.Action{BindOpen.Data.Queries.IDbSingleQuery})
+  commentId: M:BindOpen.Data.Queries.DbFluent.InsertQuery(System.String,BindOpen.Extensions.Carriers.DbTable,System.Boolean,System.Action{BindOpen.Data.Queries.IDbSingleQuery})
+  id: InsertQuery(System.String,BindOpen.Extensions.Carriers.DbTable,System.Boolean,System.Action{BindOpen.Data.Queries.IDbSingleQuery})
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: InsertQuery(String, DbTable, Boolean, Action<IDbSingleQuery>)
+  nameWithType: DbFluent.InsertQuery(String, DbTable, Boolean, Action<IDbSingleQuery>)
+  fullName: BindOpen.Data.Queries.DbFluent.InsertQuery(System.String, BindOpen.Extensions.Carriers.DbTable, System.Boolean, System.Action<BindOpen.Data.Queries.IDbSingleQuery>)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new Insert advanced database query.\n"
+  syntax:
+    content: public static IDbSingleQuery InsertQuery(string name, DbTable table, bool onlyIfNotExisting = true, Action<IDbSingleQuery> initAction = null)
+    parameters:
+    - id: name
+      type: System.String
+    - id: table
+      type: BindOpen.Extensions.Carriers.DbTable
+    - id: onlyIfNotExisting
+      type: System.Boolean
+    - id: initAction
+      type: System.Action{BindOpen.Data.Queries.IDbSingleQuery}
+    return:
+      type: BindOpen.Data.Queries.IDbSingleQuery
+      description: Returns a new Insert advanced database query
+    content.vb: Public Shared Function InsertQuery(name As String, table As DbTable, onlyIfNotExisting As Boolean = True, initAction As Action(Of IDbSingleQuery) = Nothing) As IDbSingleQuery
+  overload: BindOpen.Data.Queries.DbFluent.InsertQuery*
+  nameWithType.vb: DbFluent.InsertQuery(String, DbTable, Boolean, Action(Of IDbSingleQuery))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Queries.DbFluent.InsertQuery(System.String, BindOpen.Extensions.Carriers.DbTable, System.Boolean, System.Action(Of BindOpen.Data.Queries.IDbSingleQuery))
+  name.vb: InsertQuery(String, DbTable, Boolean, Action(Of IDbSingleQuery))
+- uid: BindOpen.Data.Queries.DbFluent.InsertQuery(BindOpen.Extensions.Carriers.DbTable,System.Boolean,System.Action{BindOpen.Data.Queries.IDbSingleQuery})
+  commentId: M:BindOpen.Data.Queries.DbFluent.InsertQuery(BindOpen.Extensions.Carriers.DbTable,System.Boolean,System.Action{BindOpen.Data.Queries.IDbSingleQuery})
+  id: InsertQuery(BindOpen.Extensions.Carriers.DbTable,System.Boolean,System.Action{BindOpen.Data.Queries.IDbSingleQuery})
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: InsertQuery(DbTable, Boolean, Action<IDbSingleQuery>)
+  nameWithType: DbFluent.InsertQuery(DbTable, Boolean, Action<IDbSingleQuery>)
+  fullName: BindOpen.Data.Queries.DbFluent.InsertQuery(BindOpen.Extensions.Carriers.DbTable, System.Boolean, System.Action<BindOpen.Data.Queries.IDbSingleQuery>)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new Insert advanced database query.\n"
+  syntax:
+    content: public static IDbSingleQuery InsertQuery(DbTable table, bool onlyIfNotExisting = true, Action<IDbSingleQuery> initAction = null)
+    parameters:
+    - id: table
+      type: BindOpen.Extensions.Carriers.DbTable
+    - id: onlyIfNotExisting
+      type: System.Boolean
+    - id: initAction
+      type: System.Action{BindOpen.Data.Queries.IDbSingleQuery}
+    return:
+      type: BindOpen.Data.Queries.IDbSingleQuery
+      description: Returns a new Insert advanced database query
+    content.vb: Public Shared Function InsertQuery(table As DbTable, onlyIfNotExisting As Boolean = True, initAction As Action(Of IDbSingleQuery) = Nothing) As IDbSingleQuery
+  overload: BindOpen.Data.Queries.DbFluent.InsertQuery*
+  nameWithType.vb: DbFluent.InsertQuery(DbTable, Boolean, Action(Of IDbSingleQuery))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Queries.DbFluent.InsertQuery(BindOpen.Extensions.Carriers.DbTable, System.Boolean, System.Action(Of BindOpen.Data.Queries.IDbSingleQuery))
+  name.vb: InsertQuery(DbTable, Boolean, Action(Of IDbSingleQuery))
+- uid: BindOpen.Data.Queries.DbFluent.SelectQuery(System.String,BindOpen.Extensions.Carriers.DbTable,System.Action{BindOpen.Data.Queries.IDbSingleQuery})
+  commentId: M:BindOpen.Data.Queries.DbFluent.SelectQuery(System.String,BindOpen.Extensions.Carriers.DbTable,System.Action{BindOpen.Data.Queries.IDbSingleQuery})
+  id: SelectQuery(System.String,BindOpen.Extensions.Carriers.DbTable,System.Action{BindOpen.Data.Queries.IDbSingleQuery})
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: SelectQuery(String, DbTable, Action<IDbSingleQuery>)
+  nameWithType: DbFluent.SelectQuery(String, DbTable, Action<IDbSingleQuery>)
+  fullName: BindOpen.Data.Queries.DbFluent.SelectQuery(System.String, BindOpen.Extensions.Carriers.DbTable, System.Action<BindOpen.Data.Queries.IDbSingleQuery>)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new Select advanced database query.\n"
+  syntax:
+    content: public static IDbSingleQuery SelectQuery(string name, DbTable table, Action<IDbSingleQuery> initAction = null)
+    parameters:
+    - id: name
+      type: System.String
+    - id: table
+      type: BindOpen.Extensions.Carriers.DbTable
+    - id: initAction
+      type: System.Action{BindOpen.Data.Queries.IDbSingleQuery}
+    return:
+      type: BindOpen.Data.Queries.IDbSingleQuery
+      description: Returns a new Select advanced database query
+    content.vb: Public Shared Function SelectQuery(name As String, table As DbTable, initAction As Action(Of IDbSingleQuery) = Nothing) As IDbSingleQuery
+  overload: BindOpen.Data.Queries.DbFluent.SelectQuery*
+  nameWithType.vb: DbFluent.SelectQuery(String, DbTable, Action(Of IDbSingleQuery))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Queries.DbFluent.SelectQuery(System.String, BindOpen.Extensions.Carriers.DbTable, System.Action(Of BindOpen.Data.Queries.IDbSingleQuery))
+  name.vb: SelectQuery(String, DbTable, Action(Of IDbSingleQuery))
+- uid: BindOpen.Data.Queries.DbFluent.SelectQuery(BindOpen.Extensions.Carriers.DbTable,System.Action{BindOpen.Data.Queries.IDbSingleQuery})
+  commentId: M:BindOpen.Data.Queries.DbFluent.SelectQuery(BindOpen.Extensions.Carriers.DbTable,System.Action{BindOpen.Data.Queries.IDbSingleQuery})
+  id: SelectQuery(BindOpen.Extensions.Carriers.DbTable,System.Action{BindOpen.Data.Queries.IDbSingleQuery})
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: SelectQuery(DbTable, Action<IDbSingleQuery>)
+  nameWithType: DbFluent.SelectQuery(DbTable, Action<IDbSingleQuery>)
+  fullName: BindOpen.Data.Queries.DbFluent.SelectQuery(BindOpen.Extensions.Carriers.DbTable, System.Action<BindOpen.Data.Queries.IDbSingleQuery>)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new Select advanced database query.\n"
+  syntax:
+    content: public static IDbSingleQuery SelectQuery(DbTable table, Action<IDbSingleQuery> initAction = null)
+    parameters:
+    - id: table
+      type: BindOpen.Extensions.Carriers.DbTable
+    - id: initAction
+      type: System.Action{BindOpen.Data.Queries.IDbSingleQuery}
+    return:
+      type: BindOpen.Data.Queries.IDbSingleQuery
+      description: Returns a new Select advanced database query
+    content.vb: Public Shared Function SelectQuery(table As DbTable, initAction As Action(Of IDbSingleQuery) = Nothing) As IDbSingleQuery
+  overload: BindOpen.Data.Queries.DbFluent.SelectQuery*
+  nameWithType.vb: DbFluent.SelectQuery(DbTable, Action(Of IDbSingleQuery))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Queries.DbFluent.SelectQuery(BindOpen.Extensions.Carriers.DbTable, System.Action(Of BindOpen.Data.Queries.IDbSingleQuery))
+  name.vb: SelectQuery(DbTable, Action(Of IDbSingleQuery))
+- uid: BindOpen.Data.Queries.DbFluent.UpdateQuery(System.String,BindOpen.Extensions.Carriers.DbTable,System.Action{BindOpen.Data.Queries.IDbSingleQuery})
+  commentId: M:BindOpen.Data.Queries.DbFluent.UpdateQuery(System.String,BindOpen.Extensions.Carriers.DbTable,System.Action{BindOpen.Data.Queries.IDbSingleQuery})
+  id: UpdateQuery(System.String,BindOpen.Extensions.Carriers.DbTable,System.Action{BindOpen.Data.Queries.IDbSingleQuery})
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: UpdateQuery(String, DbTable, Action<IDbSingleQuery>)
+  nameWithType: DbFluent.UpdateQuery(String, DbTable, Action<IDbSingleQuery>)
+  fullName: BindOpen.Data.Queries.DbFluent.UpdateQuery(System.String, BindOpen.Extensions.Carriers.DbTable, System.Action<BindOpen.Data.Queries.IDbSingleQuery>)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new Update advanced database query.\n"
+  syntax:
+    content: public static IDbSingleQuery UpdateQuery(string name, DbTable table, Action<IDbSingleQuery> initAction = null)
+    parameters:
+    - id: name
+      type: System.String
+    - id: table
+      type: BindOpen.Extensions.Carriers.DbTable
+    - id: initAction
+      type: System.Action{BindOpen.Data.Queries.IDbSingleQuery}
+    return:
+      type: BindOpen.Data.Queries.IDbSingleQuery
+      description: Returns a new Update advanced database query
+    content.vb: Public Shared Function UpdateQuery(name As String, table As DbTable, initAction As Action(Of IDbSingleQuery) = Nothing) As IDbSingleQuery
+  overload: BindOpen.Data.Queries.DbFluent.UpdateQuery*
+  nameWithType.vb: DbFluent.UpdateQuery(String, DbTable, Action(Of IDbSingleQuery))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Queries.DbFluent.UpdateQuery(System.String, BindOpen.Extensions.Carriers.DbTable, System.Action(Of BindOpen.Data.Queries.IDbSingleQuery))
+  name.vb: UpdateQuery(String, DbTable, Action(Of IDbSingleQuery))
+- uid: BindOpen.Data.Queries.DbFluent.UpdateQuery(BindOpen.Extensions.Carriers.DbTable,System.Action{BindOpen.Data.Queries.IDbSingleQuery})
+  commentId: M:BindOpen.Data.Queries.DbFluent.UpdateQuery(BindOpen.Extensions.Carriers.DbTable,System.Action{BindOpen.Data.Queries.IDbSingleQuery})
+  id: UpdateQuery(BindOpen.Extensions.Carriers.DbTable,System.Action{BindOpen.Data.Queries.IDbSingleQuery})
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: UpdateQuery(DbTable, Action<IDbSingleQuery>)
+  nameWithType: DbFluent.UpdateQuery(DbTable, Action<IDbSingleQuery>)
+  fullName: BindOpen.Data.Queries.DbFluent.UpdateQuery(BindOpen.Extensions.Carriers.DbTable, System.Action<BindOpen.Data.Queries.IDbSingleQuery>)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new Update advanced database query.\n"
+  syntax:
+    content: public static IDbSingleQuery UpdateQuery(DbTable table, Action<IDbSingleQuery> initAction = null)
+    parameters:
+    - id: table
+      type: BindOpen.Extensions.Carriers.DbTable
+    - id: initAction
+      type: System.Action{BindOpen.Data.Queries.IDbSingleQuery}
+    return:
+      type: BindOpen.Data.Queries.IDbSingleQuery
+      description: Returns a new Update advanced database query
+    content.vb: Public Shared Function UpdateQuery(table As DbTable, initAction As Action(Of IDbSingleQuery) = Nothing) As IDbSingleQuery
+  overload: BindOpen.Data.Queries.DbFluent.UpdateQuery*
+  nameWithType.vb: DbFluent.UpdateQuery(DbTable, Action(Of IDbSingleQuery))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Queries.DbFluent.UpdateQuery(BindOpen.Extensions.Carriers.DbTable, System.Action(Of BindOpen.Data.Queries.IDbSingleQuery))
+  name.vb: UpdateQuery(DbTable, Action(Of IDbSingleQuery))
+- uid: BindOpen.Data.Queries.DbFluent.CurrentDate
+  commentId: M:BindOpen.Data.Queries.DbFluent.CurrentDate
+  id: CurrentDate
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: CurrentDate()
+  nameWithType: DbFluent.CurrentDate()
+  fullName: BindOpen.Data.Queries.DbFluent.CurrentDate()
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a BDO script representing the current date in SQL.\n"
+  syntax:
+    content: public static DataExpression CurrentDate()
+    return:
+      type: BindOpen.Data.Expression.DataExpression
+    content.vb: Public Shared Function CurrentDate As DataExpression
+  overload: BindOpen.Data.Queries.DbFluent.CurrentDate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Queries.DbFluent.Text(System.String)
+  commentId: M:BindOpen.Data.Queries.DbFluent.Text(System.String)
+  id: Text(System.String)
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: Text(String)
+  nameWithType: DbFluent.Text(String)
+  fullName: BindOpen.Data.Queries.DbFluent.Text(System.String)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a BDO script representing a text.\n"
+  syntax:
+    content: public static DataExpression Text(string param1)
+    parameters:
+    - id: param1
+      type: System.String
+      description: The parameter to consider.
+    return:
+      type: BindOpen.Data.Expression.DataExpression
+    content.vb: Public Shared Function Text(param1 As String) As DataExpression
+  overload: BindOpen.Data.Queries.DbFluent.Text*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Queries.DbFluent.Value(System.Object)
+  commentId: M:BindOpen.Data.Queries.DbFluent.Value(System.Object)
+  id: Value(System.Object)
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: Value(Object)
+  nameWithType: DbFluent.Value(Object)
+  fullName: BindOpen.Data.Queries.DbFluent.Value(System.Object)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a BDO script representing a value.\n"
+  syntax:
+    content: public static DataExpression Value(object param1)
+    parameters:
+    - id: param1
+      type: System.Object
+      description: The parameter to consider.
+    return:
+      type: BindOpen.Data.Expression.DataExpression
+    content.vb: Public Shared Function Value(param1 As Object) As DataExpression
+  overload: BindOpen.Data.Queries.DbFluent.Value*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Queries.DbFluent.Eq(System.Object,System.Object)
+  commentId: M:BindOpen.Data.Queries.DbFluent.Eq(System.Object,System.Object)
+  id: Eq(System.Object,System.Object)
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: Eq(Object, Object)
+  nameWithType: DbFluent.Eq(Object, Object)
+  fullName: BindOpen.Data.Queries.DbFluent.Eq(System.Object, System.Object)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nEvaluates the script word $SQLEQ.\n"
+  syntax:
+    content: public static DataExpression Eq(object value1, object value2)
+    parameters:
+    - id: value1
+      type: System.Object
+    - id: value2
+      type: System.Object
+    return:
+      type: BindOpen.Data.Expression.DataExpression
+      description: The interpreted object value.
+    content.vb: Public Shared Function Eq(value1 As Object, value2 As Object) As DataExpression
+  overload: BindOpen.Data.Queries.DbFluent.Eq*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Queries.DbFluent.Diff(System.Object,System.Object)
+  commentId: M:BindOpen.Data.Queries.DbFluent.Diff(System.Object,System.Object)
+  id: Diff(System.Object,System.Object)
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: Diff(Object, Object)
+  nameWithType: DbFluent.Diff(Object, Object)
+  fullName: BindOpen.Data.Queries.DbFluent.Diff(System.Object, System.Object)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nEvaluates the script word $SQLDIFF.\n"
+  syntax:
+    content: public static DataExpression Diff(object value1, object value2)
+    parameters:
+    - id: value1
+      type: System.Object
+    - id: value2
+      type: System.Object
+    return:
+      type: BindOpen.Data.Expression.DataExpression
+      description: The interpreted object value.
+    content.vb: Public Shared Function Diff(value1 As Object, value2 As Object) As DataExpression
+  overload: BindOpen.Data.Queries.DbFluent.Diff*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Queries.DbFluent.Gt(System.Object,System.Object)
+  commentId: M:BindOpen.Data.Queries.DbFluent.Gt(System.Object,System.Object)
+  id: Gt(System.Object,System.Object)
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: Gt(Object, Object)
+  nameWithType: DbFluent.Gt(Object, Object)
+  fullName: BindOpen.Data.Queries.DbFluent.Gt(System.Object, System.Object)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nEvaluates the script word $SQLGT.\n"
+  syntax:
+    content: public static DataExpression Gt(object value1, object value2)
+    parameters:
+    - id: value1
+      type: System.Object
+    - id: value2
+      type: System.Object
+    return:
+      type: BindOpen.Data.Expression.DataExpression
+      description: The interpreted object value.
+    content.vb: Public Shared Function Gt(value1 As Object, value2 As Object) As DataExpression
+  overload: BindOpen.Data.Queries.DbFluent.Gt*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Queries.DbFluent.Gte(System.Object,System.Object)
+  commentId: M:BindOpen.Data.Queries.DbFluent.Gte(System.Object,System.Object)
+  id: Gte(System.Object,System.Object)
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: Gte(Object, Object)
+  nameWithType: DbFluent.Gte(Object, Object)
+  fullName: BindOpen.Data.Queries.DbFluent.Gte(System.Object, System.Object)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nEvaluates the script word $SQLGTE.\n"
+  syntax:
+    content: public static DataExpression Gte(object value1, object value2)
+    parameters:
+    - id: value1
+      type: System.Object
+    - id: value2
+      type: System.Object
+    return:
+      type: BindOpen.Data.Expression.DataExpression
+      description: The interpreted object value.
+    content.vb: Public Shared Function Gte(value1 As Object, value2 As Object) As DataExpression
+  overload: BindOpen.Data.Queries.DbFluent.Gte*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Queries.DbFluent.Lt(System.Object,System.Object)
+  commentId: M:BindOpen.Data.Queries.DbFluent.Lt(System.Object,System.Object)
+  id: Lt(System.Object,System.Object)
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: Lt(Object, Object)
+  nameWithType: DbFluent.Lt(Object, Object)
+  fullName: BindOpen.Data.Queries.DbFluent.Lt(System.Object, System.Object)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nEvaluates the script word $SQLLT.\n"
+  syntax:
+    content: public static DataExpression Lt(object value1, object value2)
+    parameters:
+    - id: value1
+      type: System.Object
+    - id: value2
+      type: System.Object
+    return:
+      type: BindOpen.Data.Expression.DataExpression
+      description: The interpreted object value.
+    content.vb: Public Shared Function Lt(value1 As Object, value2 As Object) As DataExpression
+  overload: BindOpen.Data.Queries.DbFluent.Lt*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Queries.DbFluent.Lte(System.Object,System.Object)
+  commentId: M:BindOpen.Data.Queries.DbFluent.Lte(System.Object,System.Object)
+  id: Lte(System.Object,System.Object)
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: Lte(Object, Object)
+  nameWithType: DbFluent.Lte(Object, Object)
+  fullName: BindOpen.Data.Queries.DbFluent.Lte(System.Object, System.Object)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nEvaluates the script word $SQLLTE.\n"
+  syntax:
+    content: public static DataExpression Lte(object value1, object value2)
+    parameters:
+    - id: value1
+      type: System.Object
+    - id: value2
+      type: System.Object
+    return:
+      type: BindOpen.Data.Expression.DataExpression
+      description: The interpreted object value.
+    content.vb: Public Shared Function Lte(value1 As Object, value2 As Object) As DataExpression
+  overload: BindOpen.Data.Queries.DbFluent.Lte*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Queries.DbFluent.IsNull(System.Object)
+  commentId: M:BindOpen.Data.Queries.DbFluent.IsNull(System.Object)
+  id: IsNull(System.Object)
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: IsNull(Object)
+  nameWithType: DbFluent.IsNull(Object)
+  fullName: BindOpen.Data.Queries.DbFluent.IsNull(System.Object)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nEvaluates the script word $SQLISNULL.\n"
+  syntax:
+    content: public static DataExpression IsNull(object value1)
+    parameters:
+    - id: value1
+      type: System.Object
+    return:
+      type: BindOpen.Data.Expression.DataExpression
+      description: The interpreted object value.
+    content.vb: Public Shared Function IsNull(value1 As Object) As DataExpression
+  overload: BindOpen.Data.Queries.DbFluent.IsNull*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Queries.DbFluent.And(System.Object[])
+  commentId: M:BindOpen.Data.Queries.DbFluent.And(System.Object[])
+  id: And(System.Object[])
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: And(Object[])
+  nameWithType: DbFluent.And(Object[])
+  fullName: BindOpen.Data.Queries.DbFluent.And(System.Object[])
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a BDO script representing and Sql And condition including the specified condition strings.\n"
+  syntax:
+    content: public static DataExpression And(params object[] conditions)
+    parameters:
+    - id: conditions
+      type: System.Object[]
+      description: The conditions to consider.
+    return:
+      type: BindOpen.Data.Expression.DataExpression
+    content.vb: Public Shared Function And(ParamArray conditions As Object()) As DataExpression
+  overload: BindOpen.Data.Queries.DbFluent.And*
+  nameWithType.vb: DbFluent.And(Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Queries.DbFluent.And(System.Object())
+  name.vb: And(Object())
+- uid: BindOpen.Data.Queries.DbFluent.Or(System.Object[])
+  commentId: M:BindOpen.Data.Queries.DbFluent.Or(System.Object[])
+  id: Or(System.Object[])
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: Or(Object[])
+  nameWithType: DbFluent.Or(Object[])
+  fullName: BindOpen.Data.Queries.DbFluent.Or(System.Object[])
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a BDO script representing and Sql Or condition including the specified condition strings.\n"
+  syntax:
+    content: public static DataExpression Or(params object[] conditions)
+    parameters:
+    - id: conditions
+      type: System.Object[]
+      description: The conditions to consider.
+    return:
+      type: BindOpen.Data.Expression.DataExpression
+    content.vb: Public Shared Function Or(ParamArray conditions As Object()) As DataExpression
+  overload: BindOpen.Data.Queries.DbFluent.Or*
+  nameWithType.vb: DbFluent.Or(Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Queries.DbFluent.Or(System.Object())
+  name.vb: Or(Object())
+- uid: BindOpen.Data.Queries.DbFluent.Xor(System.Object[])
+  commentId: M:BindOpen.Data.Queries.DbFluent.Xor(System.Object[])
+  id: Xor(System.Object[])
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: Xor(Object[])
+  nameWithType: DbFluent.Xor(Object[])
+  fullName: BindOpen.Data.Queries.DbFluent.Xor(System.Object[])
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a BDO script representing and Sql Xor condition including the specified condition strings.\n"
+  syntax:
+    content: public static DataExpression Xor(params object[] conditions)
+    parameters:
+    - id: conditions
+      type: System.Object[]
+      description: The conditions to consider.
+    return:
+      type: BindOpen.Data.Expression.DataExpression
+    content.vb: Public Shared Function Xor(ParamArray conditions As Object()) As DataExpression
+  overload: BindOpen.Data.Queries.DbFluent.Xor*
+  nameWithType.vb: DbFluent.Xor(Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Queries.DbFluent.Xor(System.Object())
+  name.vb: Xor(Object())
+- uid: BindOpen.Data.Queries.DbFluent.Not(System.String)
+  commentId: M:BindOpen.Data.Queries.DbFluent.Not(System.String)
+  id: Not(System.String)
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: Not(String)
+  nameWithType: DbFluent.Not(String)
+  fullName: BindOpen.Data.Queries.DbFluent.Not(System.String)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a BDO script representing and Sql Not condition including the specified condition strings.\n"
+  syntax:
+    content: public static DataExpression Not(string condition)
+    parameters:
+    - id: condition
+      type: System.String
+      description: The condition to consider.
+    return:
+      type: BindOpen.Data.Expression.DataExpression
+    content.vb: Public Shared Function Not(condition As String) As DataExpression
+  overload: BindOpen.Data.Queries.DbFluent.Not*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Queries.DbFluent.Like(System.String,System.String)
+  commentId: M:BindOpen.Data.Queries.DbFluent.Like(System.String,System.String)
+  id: Like(System.String,System.String)
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: Like(String, String)
+  nameWithType: DbFluent.Like(String, String)
+  fullName: BindOpen.Data.Queries.DbFluent.Like(System.String, System.String)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a BDO script representing and Sql Xor condition including the specified condition strings.\n"
+  syntax:
+    content: public static DataExpression Like(string param1, string param2)
+    parameters:
+    - id: param1
+      type: System.String
+    - id: param2
+      type: System.String
+    return:
+      type: BindOpen.Data.Expression.DataExpression
+    content.vb: Public Shared Function Like(param1 As String, param2 As String) As DataExpression
+  overload: BindOpen.Data.Queries.DbFluent.Like*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Queries.DbFluent.Table(System.String,System.String,System.String)
+  commentId: M:BindOpen.Data.Queries.DbFluent.Table(System.String,System.String,System.String)
+  id: Table(System.String,System.String,System.String)
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: Table(String, String, String)
+  nameWithType: DbFluent.Table(String, String, String)
+  fullName: BindOpen.Data.Queries.DbFluent.Table(System.String, System.String, System.String)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new instance of the DbTable class.\n"
+  syntax:
+    content: public static DbTable Table(string name = null, string schema = null, string dataModuleName = null)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name to consider.
+    - id: schema
+      type: System.String
+      description: The schema to consider.
+    - id: dataModuleName
+      type: System.String
+      description: The name of the data module to consider.
+    return:
+      type: BindOpen.Extensions.Carriers.DbTable
+    content.vb: Public Shared Function Table(name As String = Nothing, schema As String = Nothing, dataModuleName As String = Nothing) As DbTable
+  overload: BindOpen.Data.Queries.DbFluent.Table*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Queries.DbFluent.Table(BindOpen.Data.Queries.IDbQuery)
+  commentId: M:BindOpen.Data.Queries.DbFluent.Table(BindOpen.Data.Queries.IDbQuery)
+  id: Table(BindOpen.Data.Queries.IDbQuery)
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: Table(IDbQuery)
+  nameWithType: DbFluent.Table(IDbQuery)
+  fullName: BindOpen.Data.Queries.DbFluent.Table(BindOpen.Data.Queries.IDbQuery)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new instance of the DbDerivedTable class.\n"
+  syntax:
+    content: public static DbDerivedTable Table(IDbQuery query)
+    parameters:
+    - id: query
+      type: BindOpen.Data.Queries.IDbQuery
+      description: The query to consider.
+    return:
+      type: BindOpen.Data.Queries.DbDerivedTable
+    content.vb: Public Shared Function Table(query As IDbQuery) As DbDerivedTable
+  overload: BindOpen.Data.Queries.DbFluent.Table*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Queries.DbFluent.Table(BindOpen.Data.Queries.IDbTuple[])
+  commentId: M:BindOpen.Data.Queries.DbFluent.Table(BindOpen.Data.Queries.IDbTuple[])
+  id: Table(BindOpen.Data.Queries.IDbTuple[])
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: Table(IDbTuple[])
+  nameWithType: DbFluent.Table(IDbTuple[])
+  fullName: BindOpen.Data.Queries.DbFluent.Table(BindOpen.Data.Queries.IDbTuple[])
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new instance of the DbTupledTable class.\n"
+  syntax:
+    content: public static DbTupledTable Table(params IDbTuple[] tuples)
+    parameters:
+    - id: tuples
+      type: BindOpen.Data.Queries.IDbTuple[]
+    return:
+      type: BindOpen.Data.Queries.DbTupledTable
+    content.vb: Public Shared Function Table(ParamArray tuples As IDbTuple()) As DbTupledTable
+  overload: BindOpen.Data.Queries.DbFluent.Table*
+  nameWithType.vb: DbFluent.Table(IDbTuple())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Queries.DbFluent.Table(BindOpen.Data.Queries.IDbTuple())
+  name.vb: Table(IDbTuple())
+- uid: BindOpen.Data.Queries.DbFluent.Table(BindOpen.Data.Queries.DbQueryJoinKind,BindOpen.Extensions.Carriers.DbTable,System.String)
+  commentId: M:BindOpen.Data.Queries.DbFluent.Table(BindOpen.Data.Queries.DbQueryJoinKind,BindOpen.Extensions.Carriers.DbTable,System.String)
+  id: Table(BindOpen.Data.Queries.DbQueryJoinKind,BindOpen.Extensions.Carriers.DbTable,System.String)
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: Table(DbQueryJoinKind, DbTable, String)
+  nameWithType: DbFluent.Table(DbQueryJoinKind, DbTable, String)
+  fullName: BindOpen.Data.Queries.DbFluent.Table(BindOpen.Data.Queries.DbQueryJoinKind, BindOpen.Extensions.Carriers.DbTable, System.String)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new joined table.\n"
+  syntax:
+    content: public static DbJoinedTable Table(DbQueryJoinKind kind, DbTable table, string conditionScript = null)
+    parameters:
+    - id: kind
+      type: BindOpen.Data.Queries.DbQueryJoinKind
+      description: The kind to consider.
+    - id: table
+      type: BindOpen.Extensions.Carriers.DbTable
+      description: The table to consider.
+    - id: conditionScript
+      type: System.String
+      description: The condition script to consider.
+    return:
+      type: BindOpen.Data.Queries.DbJoinedTable
+      description: Returns a new From statement.
+    content.vb: Public Shared Function Table(kind As DbQueryJoinKind, table As DbTable, conditionScript As String = Nothing) As DbJoinedTable
+  overload: BindOpen.Data.Queries.DbFluent.Table*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Queries.DbFluent.Table(BindOpen.Extensions.Carriers.DbTable,System.String)
+  commentId: M:BindOpen.Data.Queries.DbFluent.Table(BindOpen.Extensions.Carriers.DbTable,System.String)
+  id: Table(BindOpen.Extensions.Carriers.DbTable,System.String)
+  parent: BindOpen.Data.Queries.DbFluent
+  langs:
+  - csharp
+  - vb
+  name: Table(DbTable, String)
+  nameWithType: DbFluent.Table(DbTable, String)
+  fullName: BindOpen.Data.Queries.DbFluent.Table(BindOpen.Extensions.Carriers.DbTable, System.String)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nCreates a new joined table.\n"
+  syntax:
+    content: public static DbJoinedTable Table(DbTable table, string conditionScript = null)
+    parameters:
+    - id: table
+      type: BindOpen.Extensions.Carriers.DbTable
+      description: The table to consider.
+    - id: conditionScript
+      type: System.String
+      description: The condition script to consider.
+    return:
+      type: BindOpen.Data.Queries.DbJoinedTable
+      description: Returns a new From statement.
+    content.vb: Public Shared Function Table(table As DbTable, conditionScript As String = Nothing) As DbJoinedTable
+  overload: BindOpen.Data.Queries.DbFluent.Table*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: BindOpen.Data.Queries
+  commentId: N:BindOpen.Data.Queries
+  isExternal: true
+  name: BindOpen.Data.Queries
+  nameWithType: BindOpen.Data.Queries
+  fullName: BindOpen.Data.Queries
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Data.Queries.DbFluent.Field*
+  commentId: Overload:BindOpen.Data.Queries.DbFluent.Field
+  isExternal: true
+  name: Field
+  nameWithType: DbFluent.Field
+  fullName: BindOpen.Data.Queries.DbFluent.Field
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: BindOpen.Extensions.Carriers.DbTable
+  commentId: T:BindOpen.Extensions.Carriers.DbTable
+  parent: BindOpen.Extensions.Carriers
+  isExternal: true
+  name: DbTable
+  nameWithType: DbTable
+  fullName: BindOpen.Extensions.Carriers.DbTable
+- uid: BindOpen.Extensions.Carriers.DbField
+  commentId: T:BindOpen.Extensions.Carriers.DbField
+  parent: BindOpen.Extensions.Carriers
+  isExternal: true
+  name: DbField
+  nameWithType: DbField
+  fullName: BindOpen.Extensions.Carriers.DbField
+- uid: BindOpen.Extensions.Carriers
+  commentId: N:BindOpen.Extensions.Carriers
+  isExternal: true
+  name: BindOpen.Extensions.Carriers
+  nameWithType: BindOpen.Extensions.Carriers
+  fullName: BindOpen.Extensions.Carriers
+- uid: System.Linq.Expressions.Expression{System.Func{{T},{TProperty}}}
+  commentId: '!:System.Linq.Expressions.Expression{System.Func{``0,``1}}'
+  definition: System.Linq.Expressions.Expression`1
+  name: Expression<Func<T, TProperty>>
+  nameWithType: Expression<Func<T, TProperty>>
+  fullName: System.Linq.Expressions.Expression<System.Func<T, TProperty>>
+  nameWithType.vb: Expression(Of Func(Of T, TProperty))
+  fullName.vb: System.Linq.Expressions.Expression(Of System.Func(Of T, TProperty))
+  name.vb: Expression(Of Func(Of T, TProperty))
+  spec.csharp:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TProperty
+    nameWithType: TProperty
+    fullName: TProperty
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TProperty
+    nameWithType: TProperty
+    fullName: TProperty
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Linq.Expressions.Expression`1
+  isExternal: true
+  name: Expression<>
+  nameWithType: Expression<>
+  fullName: System.Linq.Expressions.Expression<>
+  nameWithType.vb: Expression(Of )
+  fullName.vb: System.Linq.Expressions.Expression(Of )
+  name.vb: Expression(Of )
+  spec.csharp:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Linq.Expressions.Expression`1
+    name: Expression
+    nameWithType: Expression
+    fullName: System.Linq.Expressions.Expression
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Queries.DbFluent.AsLiteral*
+  commentId: Overload:BindOpen.Data.Queries.DbFluent.AsLiteral
+  isExternal: true
+  name: AsLiteral
+  nameWithType: DbFluent.AsLiteral
+  fullName: BindOpen.Data.Queries.DbFluent.AsLiteral
+- uid: BindOpen.Data.Common.DataValueType
+  isExternal: true
+  name: DataValueType
+  nameWithType: DataValueType
+  fullName: BindOpen.Data.Common.DataValueType
+- uid: BindOpen.Data.Queries.DbFluent.FieldAsLiteral*
+  commentId: Overload:BindOpen.Data.Queries.DbFluent.FieldAsLiteral
+  isExternal: true
+  name: FieldAsLiteral
+  nameWithType: DbFluent.FieldAsLiteral
+  fullName: BindOpen.Data.Queries.DbFluent.FieldAsLiteral
+- uid: BindOpen.Data.Queries.DbFluent.AsScript*
+  commentId: Overload:BindOpen.Data.Queries.DbFluent.AsScript
+  isExternal: true
+  name: AsScript
+  nameWithType: DbFluent.AsScript
+  fullName: BindOpen.Data.Queries.DbFluent.AsScript
+- uid: BindOpen.Data.Queries.DbFluent.FieldAsScript*
+  commentId: Overload:BindOpen.Data.Queries.DbFluent.FieldAsScript
+  isExternal: true
+  name: FieldAsScript
+  nameWithType: DbFluent.FieldAsScript
+  fullName: BindOpen.Data.Queries.DbFluent.FieldAsScript
+- uid: BindOpen.Data.Queries.DbFluent.AsQuery*
+  commentId: Overload:BindOpen.Data.Queries.DbFluent.AsQuery
+  isExternal: true
+  name: AsQuery
+  nameWithType: DbFluent.AsQuery
+  fullName: BindOpen.Data.Queries.DbFluent.AsQuery
+- uid: BindOpen.Data.Queries.IDbQuery
+  commentId: T:BindOpen.Data.Queries.IDbQuery
+  parent: BindOpen.Data.Queries
+  isExternal: true
+  name: IDbQuery
+  nameWithType: IDbQuery
+  fullName: BindOpen.Data.Queries.IDbQuery
+- uid: BindOpen.Data.Queries.DbFluent.FieldAsQuery*
+  commentId: Overload:BindOpen.Data.Queries.DbFluent.FieldAsQuery
+  isExternal: true
+  name: FieldAsQuery
+  nameWithType: DbFluent.FieldAsQuery
+  fullName: BindOpen.Data.Queries.DbFluent.FieldAsQuery
+- uid: BindOpen.Data.Queries.DbFluent.AsOther*
+  commentId: Overload:BindOpen.Data.Queries.DbFluent.AsOther
+  isExternal: true
+  name: AsOther
+  nameWithType: DbFluent.AsOther
+  fullName: BindOpen.Data.Queries.DbFluent.AsOther
+- uid: BindOpen.Data.Queries.DbFluent.FieldAsOther*
+  commentId: Overload:BindOpen.Data.Queries.DbFluent.FieldAsOther
+  isExternal: true
+  name: FieldAsOther
+  nameWithType: DbFluent.FieldAsOther
+  fullName: BindOpen.Data.Queries.DbFluent.FieldAsOther
+- uid: BindOpen.Data.Queries.DbFluent.FieldAsAll*
+  commentId: Overload:BindOpen.Data.Queries.DbFluent.FieldAsAll
+  isExternal: true
+  name: FieldAsAll
+  nameWithType: DbFluent.FieldAsAll
+  fullName: BindOpen.Data.Queries.DbFluent.FieldAsAll
+- uid: BindOpen.Data.Queries.DbFluent.AsParameter*
+  commentId: Overload:BindOpen.Data.Queries.DbFluent.AsParameter
+  isExternal: true
+  name: AsParameter
+  nameWithType: DbFluent.AsParameter
+  fullName: BindOpen.Data.Queries.DbFluent.AsParameter
+- uid: BindOpen.Data.Queries.DbFluent.FieldAsParameter*
+  commentId: Overload:BindOpen.Data.Queries.DbFluent.FieldAsParameter
+  isExternal: true
+  name: FieldAsParameter
+  nameWithType: DbFluent.FieldAsParameter
+  fullName: BindOpen.Data.Queries.DbFluent.FieldAsParameter
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte
+- uid: BindOpen.Data.Elements.IDataElement
+  isExternal: true
+  name: IDataElement
+  nameWithType: IDataElement
+  fullName: BindOpen.Data.Elements.IDataElement
+- uid: BindOpen.Data.Queries.DbFluent.Upsert*
+  commentId: Overload:BindOpen.Data.Queries.DbFluent.Upsert
+  isExternal: true
+  name: Upsert
+  nameWithType: DbFluent.Upsert
+  fullName: BindOpen.Data.Queries.DbFluent.Upsert
+- uid: BindOpen.Data.Queries.IDbCompositeQuery
+  commentId: T:BindOpen.Data.Queries.IDbCompositeQuery
+  parent: BindOpen.Data.Queries
+  isExternal: true
+  name: IDbCompositeQuery
+  nameWithType: IDbCompositeQuery
+  fullName: BindOpen.Data.Queries.IDbCompositeQuery
+- uid: BindOpen.Data.Queries.DbFluent.Parameter*
+  commentId: Overload:BindOpen.Data.Queries.DbFluent.Parameter
+  isExternal: true
+  name: Parameter
+  nameWithType: DbFluent.Parameter
+  fullName: BindOpen.Data.Queries.DbFluent.Parameter
+- uid: BindOpen.Data.Elements.ScalarElement
+  isExternal: true
+  name: ScalarElement
+  nameWithType: ScalarElement
+  fullName: BindOpen.Data.Elements.ScalarElement
+- uid: BindOpen.Data.Expression.DataExpression
+  isExternal: true
+  name: DataExpression
+  nameWithType: DataExpression
+  fullName: BindOpen.Data.Expression.DataExpression
+- uid: BindOpen.Data.Queries.DbFluent.DeleteQuery*
+  commentId: Overload:BindOpen.Data.Queries.DbFluent.DeleteQuery
+  isExternal: true
+  name: DeleteQuery
+  nameWithType: DbFluent.DeleteQuery
+  fullName: BindOpen.Data.Queries.DbFluent.DeleteQuery
+- uid: System.Action{BindOpen.Data.Queries.IDbSingleQuery}
+  commentId: '!:System.Action{BindOpen.Data.Queries.IDbSingleQuery}'
+  definition: System.Action`1
+  name: Action<IDbSingleQuery>
+  nameWithType: Action<IDbSingleQuery>
+  fullName: System.Action<BindOpen.Data.Queries.IDbSingleQuery>
+  nameWithType.vb: Action(Of IDbSingleQuery)
+  fullName.vb: System.Action(Of BindOpen.Data.Queries.IDbSingleQuery)
+  name.vb: Action(Of IDbSingleQuery)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BindOpen.Data.Queries.IDbSingleQuery
+    name: IDbSingleQuery
+    nameWithType: IDbSingleQuery
+    fullName: BindOpen.Data.Queries.IDbSingleQuery
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BindOpen.Data.Queries.IDbSingleQuery
+    name: IDbSingleQuery
+    nameWithType: IDbSingleQuery
+    fullName: BindOpen.Data.Queries.IDbSingleQuery
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Queries.IDbSingleQuery
+  commentId: T:BindOpen.Data.Queries.IDbSingleQuery
+  parent: BindOpen.Data.Queries
+  isExternal: true
+  name: IDbSingleQuery
+  nameWithType: IDbSingleQuery
+  fullName: BindOpen.Data.Queries.IDbSingleQuery
+- uid: System.Action`1
+  isExternal: true
+  name: Action<>
+  nameWithType: Action<>
+  fullName: System.Action<>
+  nameWithType.vb: Action(Of )
+  fullName.vb: System.Action(Of )
+  name.vb: Action(Of )
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Queries.DbFluent.CreateQuery*
+  commentId: Overload:BindOpen.Data.Queries.DbFluent.CreateQuery
+  isExternal: true
+  name: CreateQuery
+  nameWithType: DbFluent.CreateQuery
+  fullName: BindOpen.Data.Queries.DbFluent.CreateQuery
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: BindOpen.Data.Queries.DbFluent.DropQuery*
+  commentId: Overload:BindOpen.Data.Queries.DbFluent.DropQuery
+  isExternal: true
+  name: DropQuery
+  nameWithType: DbFluent.DropQuery
+  fullName: BindOpen.Data.Queries.DbFluent.DropQuery
+- uid: BindOpen.Data.Queries.DbFluent.InsertQuery*
+  commentId: Overload:BindOpen.Data.Queries.DbFluent.InsertQuery
+  isExternal: true
+  name: InsertQuery
+  nameWithType: DbFluent.InsertQuery
+  fullName: BindOpen.Data.Queries.DbFluent.InsertQuery
+- uid: BindOpen.Data.Queries.DbFluent.SelectQuery*
+  commentId: Overload:BindOpen.Data.Queries.DbFluent.SelectQuery
+  isExternal: true
+  name: SelectQuery
+  nameWithType: DbFluent.SelectQuery
+  fullName: BindOpen.Data.Queries.DbFluent.SelectQuery
+- uid: BindOpen.Data.Queries.DbFluent.UpdateQuery*
+  commentId: Overload:BindOpen.Data.Queries.DbFluent.UpdateQuery
+  isExternal: true
+  name: UpdateQuery
+  nameWithType: DbFluent.UpdateQuery
+  fullName: BindOpen.Data.Queries.DbFluent.UpdateQuery
+- uid: BindOpen.Data.Queries.DbFluent.CurrentDate*
+  commentId: Overload:BindOpen.Data.Queries.DbFluent.CurrentDate
+  isExternal: true
+  name: CurrentDate
+  nameWithType: DbFluent.CurrentDate
+  fullName: BindOpen.Data.Queries.DbFluent.CurrentDate
+- uid: BindOpen.Data.Queries.DbFluent.Text*
+  commentId: Overload:BindOpen.Data.Queries.DbFluent.Text
+  isExternal: true
+  name: Text
+  nameWithType: DbFluent.Text
+  fullName: BindOpen.Data.Queries.DbFluent.Text
+- uid: BindOpen.Data.Queries.DbFluent.Value*
+  commentId: Overload:BindOpen.Data.Queries.DbFluent.Value
+  isExternal: true
+  name: Value
+  nameWithType: DbFluent.Value
+  fullName: BindOpen.Data.Queries.DbFluent.Value
+- uid: BindOpen.Data.Queries.DbFluent.Eq*
+  commentId: Overload:BindOpen.Data.Queries.DbFluent.Eq
+  isExternal: true
+  name: Eq
+  nameWithType: DbFluent.Eq
+  fullName: BindOpen.Data.Queries.DbFluent.Eq
+- uid: BindOpen.Data.Queries.DbFluent.Diff*
+  commentId: Overload:BindOpen.Data.Queries.DbFluent.Diff
+  isExternal: true
+  name: Diff
+  nameWithType: DbFluent.Diff
+  fullName: BindOpen.Data.Queries.DbFluent.Diff
+- uid: BindOpen.Data.Queries.DbFluent.Gt*
+  commentId: Overload:BindOpen.Data.Queries.DbFluent.Gt
+  isExternal: true
+  name: Gt
+  nameWithType: DbFluent.Gt
+  fullName: BindOpen.Data.Queries.DbFluent.Gt
+- uid: BindOpen.Data.Queries.DbFluent.Gte*
+  commentId: Overload:BindOpen.Data.Queries.DbFluent.Gte
+  isExternal: true
+  name: Gte
+  nameWithType: DbFluent.Gte
+  fullName: BindOpen.Data.Queries.DbFluent.Gte
+- uid: BindOpen.Data.Queries.DbFluent.Lt*
+  commentId: Overload:BindOpen.Data.Queries.DbFluent.Lt
+  isExternal: true
+  name: Lt
+  nameWithType: DbFluent.Lt
+  fullName: BindOpen.Data.Queries.DbFluent.Lt
+- uid: BindOpen.Data.Queries.DbFluent.Lte*
+  commentId: Overload:BindOpen.Data.Queries.DbFluent.Lte
+  isExternal: true
+  name: Lte
+  nameWithType: DbFluent.Lte
+  fullName: BindOpen.Data.Queries.DbFluent.Lte
+- uid: BindOpen.Data.Queries.DbFluent.IsNull*
+  commentId: Overload:BindOpen.Data.Queries.DbFluent.IsNull
+  isExternal: true
+  name: IsNull
+  nameWithType: DbFluent.IsNull
+  fullName: BindOpen.Data.Queries.DbFluent.IsNull
+- uid: BindOpen.Data.Queries.DbFluent.And*
+  commentId: Overload:BindOpen.Data.Queries.DbFluent.And
+  isExternal: true
+  name: And
+  nameWithType: DbFluent.And
+  fullName: BindOpen.Data.Queries.DbFluent.And
+- uid: System.Object[]
+  isExternal: true
+  name: Object[]
+  nameWithType: Object[]
+  fullName: System.Object[]
+  nameWithType.vb: Object()
+  fullName.vb: System.Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: BindOpen.Data.Queries.DbFluent.Or*
+  commentId: Overload:BindOpen.Data.Queries.DbFluent.Or
+  isExternal: true
+  name: Or
+  nameWithType: DbFluent.Or
+  fullName: BindOpen.Data.Queries.DbFluent.Or
+- uid: BindOpen.Data.Queries.DbFluent.Xor*
+  commentId: Overload:BindOpen.Data.Queries.DbFluent.Xor
+  isExternal: true
+  name: Xor
+  nameWithType: DbFluent.Xor
+  fullName: BindOpen.Data.Queries.DbFluent.Xor
+- uid: BindOpen.Data.Queries.DbFluent.Not*
+  commentId: Overload:BindOpen.Data.Queries.DbFluent.Not
+  isExternal: true
+  name: Not
+  nameWithType: DbFluent.Not
+  fullName: BindOpen.Data.Queries.DbFluent.Not
+- uid: BindOpen.Data.Queries.DbFluent.Like*
+  commentId: Overload:BindOpen.Data.Queries.DbFluent.Like
+  isExternal: true
+  name: Like
+  nameWithType: DbFluent.Like
+  fullName: BindOpen.Data.Queries.DbFluent.Like
+- uid: BindOpen.Data.Queries.DbFluent.Table*
+  commentId: Overload:BindOpen.Data.Queries.DbFluent.Table
+  isExternal: true
+  name: Table
+  nameWithType: DbFluent.Table
+  fullName: BindOpen.Data.Queries.DbFluent.Table
+- uid: BindOpen.Data.Queries.DbDerivedTable
+  commentId: T:BindOpen.Data.Queries.DbDerivedTable
+  parent: BindOpen.Data.Queries
+  isExternal: true
+  name: DbDerivedTable
+  nameWithType: DbDerivedTable
+  fullName: BindOpen.Data.Queries.DbDerivedTable
+- uid: BindOpen.Data.Queries.IDbTuple[]
+  isExternal: true
+  name: IDbTuple[]
+  nameWithType: IDbTuple[]
+  fullName: BindOpen.Data.Queries.IDbTuple[]
+  nameWithType.vb: IDbTuple()
+  fullName.vb: BindOpen.Data.Queries.IDbTuple()
+  name.vb: IDbTuple()
+  spec.csharp:
+  - uid: BindOpen.Data.Queries.IDbTuple
+    name: IDbTuple
+    nameWithType: IDbTuple
+    fullName: BindOpen.Data.Queries.IDbTuple
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: BindOpen.Data.Queries.IDbTuple
+    name: IDbTuple
+    nameWithType: IDbTuple
+    fullName: BindOpen.Data.Queries.IDbTuple
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: BindOpen.Data.Queries.DbTupledTable
+  commentId: T:BindOpen.Data.Queries.DbTupledTable
+  parent: BindOpen.Data.Queries
+  isExternal: true
+  name: DbTupledTable
+  nameWithType: DbTupledTable
+  fullName: BindOpen.Data.Queries.DbTupledTable
+- uid: BindOpen.Data.Queries.DbQueryJoinKind
+  commentId: T:BindOpen.Data.Queries.DbQueryJoinKind
+  parent: BindOpen.Data.Queries
+  isExternal: true
+  name: DbQueryJoinKind
+  nameWithType: DbQueryJoinKind
+  fullName: BindOpen.Data.Queries.DbQueryJoinKind
+- uid: BindOpen.Data.Queries.DbJoinedTable
+  commentId: T:BindOpen.Data.Queries.DbJoinedTable
+  parent: BindOpen.Data.Queries
+  isExternal: true
+  name: DbJoinedTable
+  nameWithType: DbJoinedTable
+  fullName: BindOpen.Data.Queries.DbJoinedTable
+shouldSkipMarkup: true

@@ -1,0 +1,219 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Extensions.Carriers.BdoDbTableAttribute
+  commentId: T:BindOpen.Extensions.Carriers.BdoDbTableAttribute
+  id: BdoDbTableAttribute
+  parent: BindOpen.Extensions.Carriers
+  children:
+  - BindOpen.Extensions.Carriers.BdoDbTableAttribute.#ctor(System.String,System.String,System.String)
+  - BindOpen.Extensions.Carriers.BdoDbTableAttribute.DataModule
+  - BindOpen.Extensions.Carriers.BdoDbTableAttribute.Name
+  - BindOpen.Extensions.Carriers.BdoDbTableAttribute.Schema
+  langs:
+  - csharp
+  - vb
+  name: BdoDbTableAttribute
+  nameWithType: BdoDbTableAttribute
+  fullName: BindOpen.Extensions.Carriers.BdoDbTableAttribute
+  type: Class
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Carriers
+  summary: "\nThis class represents a field attribute.\n"
+  syntax:
+    content: 'public class BdoDbTableAttribute : Attribute'
+    content.vb: >-
+      Public Class BdoDbTableAttribute
+          Inherits Attribute
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BindOpen.Extensions.Carriers.BdoDbTableAttribute.#ctor(System.String,System.String,System.String)
+  commentId: M:BindOpen.Extensions.Carriers.BdoDbTableAttribute.#ctor(System.String,System.String,System.String)
+  id: '#ctor(System.String,System.String,System.String)'
+  parent: BindOpen.Extensions.Carriers.BdoDbTableAttribute
+  langs:
+  - csharp
+  - vb
+  name: BdoDbTableAttribute(String, String, String)
+  nameWithType: BdoDbTableAttribute.BdoDbTableAttribute(String, String, String)
+  fullName: BindOpen.Extensions.Carriers.BdoDbTableAttribute.BdoDbTableAttribute(System.String, System.String, System.String)
+  type: Constructor
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Carriers
+  summary: "\nInstantiates a new instance of the DbTableAttribute class.\n"
+  syntax:
+    content: public BdoDbTableAttribute(string name, string schema = null, string dataModuleName = null)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name to consider.
+    - id: schema
+      type: System.String
+      description: The schema to consider.
+    - id: dataModuleName
+      type: System.String
+      description: The name of the data module to consider.
+    content.vb: Public Sub New(name As String, schema As String = Nothing, dataModuleName As String = Nothing)
+  overload: BindOpen.Extensions.Carriers.BdoDbTableAttribute.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Extensions.Carriers.BdoDbTableAttribute.Name
+  commentId: P:BindOpen.Extensions.Carriers.BdoDbTableAttribute.Name
+  id: Name
+  parent: BindOpen.Extensions.Carriers.BdoDbTableAttribute
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: BdoDbTableAttribute.Name
+  fullName: BindOpen.Extensions.Carriers.BdoDbTableAttribute.Name
+  type: Property
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Carriers
+  summary: "\nThe name of this instance.\n"
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: BindOpen.Extensions.Carriers.BdoDbTableAttribute.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Extensions.Carriers.BdoDbTableAttribute.Schema
+  commentId: P:BindOpen.Extensions.Carriers.BdoDbTableAttribute.Schema
+  id: Schema
+  parent: BindOpen.Extensions.Carriers.BdoDbTableAttribute
+  langs:
+  - csharp
+  - vb
+  name: Schema
+  nameWithType: BdoDbTableAttribute.Schema
+  fullName: BindOpen.Extensions.Carriers.BdoDbTableAttribute.Schema
+  type: Property
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Carriers
+  summary: "\nThe schema of this instance.\n"
+  syntax:
+    content: public string Schema { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Schema As String
+  overload: BindOpen.Extensions.Carriers.BdoDbTableAttribute.Schema*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Extensions.Carriers.BdoDbTableAttribute.DataModule
+  commentId: P:BindOpen.Extensions.Carriers.BdoDbTableAttribute.DataModule
+  id: DataModule
+  parent: BindOpen.Extensions.Carriers.BdoDbTableAttribute
+  langs:
+  - csharp
+  - vb
+  name: DataModule
+  nameWithType: BdoDbTableAttribute.DataModule
+  fullName: BindOpen.Extensions.Carriers.BdoDbTableAttribute.DataModule
+  type: Property
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Carriers
+  summary: "\nData module of this instance.\n"
+  syntax:
+    content: public string DataModule { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DataModule As String
+  overload: BindOpen.Extensions.Carriers.BdoDbTableAttribute.DataModule*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: BindOpen.Extensions.Carriers
+  commentId: N:BindOpen.Extensions.Carriers
+  isExternal: true
+  name: BindOpen.Extensions.Carriers
+  nameWithType: BindOpen.Extensions.Carriers
+  fullName: BindOpen.Extensions.Carriers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Extensions.Carriers.BdoDbTableAttribute.#ctor*
+  commentId: Overload:BindOpen.Extensions.Carriers.BdoDbTableAttribute.#ctor
+  isExternal: true
+  name: BdoDbTableAttribute
+  nameWithType: BdoDbTableAttribute.BdoDbTableAttribute
+  fullName: BindOpen.Extensions.Carriers.BdoDbTableAttribute.BdoDbTableAttribute
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: BindOpen.Extensions.Carriers.BdoDbTableAttribute.Name*
+  commentId: Overload:BindOpen.Extensions.Carriers.BdoDbTableAttribute.Name
+  isExternal: true
+  name: Name
+  nameWithType: BdoDbTableAttribute.Name
+  fullName: BindOpen.Extensions.Carriers.BdoDbTableAttribute.Name
+- uid: BindOpen.Extensions.Carriers.BdoDbTableAttribute.Schema*
+  commentId: Overload:BindOpen.Extensions.Carriers.BdoDbTableAttribute.Schema
+  isExternal: true
+  name: Schema
+  nameWithType: BdoDbTableAttribute.Schema
+  fullName: BindOpen.Extensions.Carriers.BdoDbTableAttribute.Schema
+- uid: BindOpen.Extensions.Carriers.BdoDbTableAttribute.DataModule*
+  commentId: Overload:BindOpen.Extensions.Carriers.BdoDbTableAttribute.DataModule
+  isExternal: true
+  name: DataModule
+  nameWithType: BdoDbTableAttribute.DataModule
+  fullName: BindOpen.Extensions.Carriers.BdoDbTableAttribute.DataModule
+shouldSkipMarkup: true

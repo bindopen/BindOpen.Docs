@@ -1,0 +1,220 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Data.Queries.DbQueryJoinKind
+  commentId: T:BindOpen.Data.Queries.DbQueryJoinKind
+  id: DbQueryJoinKind
+  parent: BindOpen.Data.Queries
+  children:
+  - BindOpen.Data.Queries.DbQueryJoinKind.Inner
+  - BindOpen.Data.Queries.DbQueryJoinKind.Left
+  - BindOpen.Data.Queries.DbQueryJoinKind.None
+  - BindOpen.Data.Queries.DbQueryJoinKind.Right
+  - BindOpen.Data.Queries.DbQueryJoinKind.value__
+  langs:
+  - csharp
+  - vb
+  name: DbQueryJoinKind
+  nameWithType: DbQueryJoinKind
+  fullName: BindOpen.Data.Queries.DbQueryJoinKind
+  type: Class
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nThis enumeration lists all the kinds of data query joins.\n"
+  syntax:
+    content: 'public sealed class DbQueryJoinKind : Enum'
+    content.vb: >-
+      Public NotInheritable Class DbQueryJoinKind
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: BindOpen.Data.Queries.DbQueryJoinKind.value__
+  commentId: F:BindOpen.Data.Queries.DbQueryJoinKind.value__
+  id: value__
+  parent: BindOpen.Data.Queries.DbQueryJoinKind
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: DbQueryJoinKind.value__
+  fullName: BindOpen.Data.Queries.DbQueryJoinKind.value__
+  type: Field
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Data.Queries.DbQueryJoinKind.None
+  commentId: F:BindOpen.Data.Queries.DbQueryJoinKind.None
+  id: None
+  parent: BindOpen.Data.Queries.DbQueryJoinKind
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: DbQueryJoinKind.None
+  fullName: BindOpen.Data.Queries.DbQueryJoinKind.None
+  type: Field
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nNone.\n"
+  syntax:
+    content: public const DbQueryJoinKind None
+    return:
+      type: BindOpen.Data.Queries.DbQueryJoinKind
+    content.vb: Public Const None As DbQueryJoinKind
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Data.Queries.DbQueryJoinKind.Inner
+  commentId: F:BindOpen.Data.Queries.DbQueryJoinKind.Inner
+  id: Inner
+  parent: BindOpen.Data.Queries.DbQueryJoinKind
+  langs:
+  - csharp
+  - vb
+  name: Inner
+  nameWithType: DbQueryJoinKind.Inner
+  fullName: BindOpen.Data.Queries.DbQueryJoinKind.Inner
+  type: Field
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nInner.\n"
+  syntax:
+    content: public const DbQueryJoinKind Inner
+    return:
+      type: BindOpen.Data.Queries.DbQueryJoinKind
+    content.vb: Public Const Inner As DbQueryJoinKind
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Data.Queries.DbQueryJoinKind.Left
+  commentId: F:BindOpen.Data.Queries.DbQueryJoinKind.Left
+  id: Left
+  parent: BindOpen.Data.Queries.DbQueryJoinKind
+  langs:
+  - csharp
+  - vb
+  name: Left
+  nameWithType: DbQueryJoinKind.Left
+  fullName: BindOpen.Data.Queries.DbQueryJoinKind.Left
+  type: Field
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nLeft.\n"
+  syntax:
+    content: public const DbQueryJoinKind Left
+    return:
+      type: BindOpen.Data.Queries.DbQueryJoinKind
+    content.vb: Public Const Left As DbQueryJoinKind
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Data.Queries.DbQueryJoinKind.Right
+  commentId: F:BindOpen.Data.Queries.DbQueryJoinKind.Right
+  id: Right
+  parent: BindOpen.Data.Queries.DbQueryJoinKind
+  langs:
+  - csharp
+  - vb
+  name: Right
+  nameWithType: DbQueryJoinKind.Right
+  fullName: BindOpen.Data.Queries.DbQueryJoinKind.Right
+  type: Field
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nRight.\n"
+  syntax:
+    content: public const DbQueryJoinKind Right
+    return:
+      type: BindOpen.Data.Queries.DbQueryJoinKind
+    content.vb: Public Const Right As DbQueryJoinKind
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: BindOpen.Data.Queries
+  commentId: N:BindOpen.Data.Queries
+  isExternal: true
+  name: BindOpen.Data.Queries
+  nameWithType: BindOpen.Data.Queries
+  fullName: BindOpen.Data.Queries
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: BindOpen.Data.Queries.DbQueryJoinKind
+  commentId: T:BindOpen.Data.Queries.DbQueryJoinKind
+  parent: BindOpen.Data.Queries
+  isExternal: true
+  name: DbQueryJoinKind
+  nameWithType: DbQueryJoinKind
+  fullName: BindOpen.Data.Queries.DbQueryJoinKind
+shouldSkipMarkup: true

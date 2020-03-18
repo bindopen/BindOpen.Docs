@@ -1,0 +1,63 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Application.Navigation
+  commentId: N:BindOpen.Application.Navigation
+  id: BindOpen.Application.Navigation
+  children:
+  - BindOpen.Application.Navigation.ActionGroup
+  - BindOpen.Application.Navigation.ActionKinds
+  - BindOpen.Application.Navigation.ActionMode
+  - BindOpen.Application.Navigation.NavigationActionKind
+  - BindOpen.Application.Navigation.PageKind
+  langs:
+  - csharp
+  - vb
+  name: BindOpen.Application.Navigation
+  nameWithType: BindOpen.Application.Navigation
+  fullName: BindOpen.Application.Navigation
+  type: Namespace
+  assemblies:
+  - BindOpen.Runtime
+references:
+- uid: BindOpen.Application.Navigation.ActionGroup
+  commentId: T:BindOpen.Application.Navigation.ActionGroup
+  parent: BindOpen.Application.Navigation
+  isExternal: true
+  name: ActionGroup
+  nameWithType: ActionGroup
+  fullName: BindOpen.Application.Navigation.ActionGroup
+- uid: BindOpen.Application.Navigation.ActionKinds
+  commentId: T:BindOpen.Application.Navigation.ActionKinds
+  parent: BindOpen.Application.Navigation
+  isExternal: true
+  name: ActionKinds
+  nameWithType: ActionKinds
+  fullName: BindOpen.Application.Navigation.ActionKinds
+- uid: BindOpen.Application.Navigation.ActionMode
+  commentId: T:BindOpen.Application.Navigation.ActionMode
+  parent: BindOpen.Application.Navigation
+  isExternal: true
+  name: ActionMode
+  nameWithType: ActionMode
+  fullName: BindOpen.Application.Navigation.ActionMode
+- uid: BindOpen.Application.Navigation.NavigationActionKind
+  commentId: T:BindOpen.Application.Navigation.NavigationActionKind
+  parent: BindOpen.Application.Navigation
+  isExternal: true
+  name: NavigationActionKind
+  nameWithType: NavigationActionKind
+  fullName: BindOpen.Application.Navigation.NavigationActionKind
+- uid: BindOpen.Application.Navigation.PageKind
+  commentId: T:BindOpen.Application.Navigation.PageKind
+  parent: BindOpen.Application.Navigation
+  isExternal: true
+  name: PageKind
+  nameWithType: PageKind
+  fullName: BindOpen.Application.Navigation.PageKind
+- uid: BindOpen.Application.Navigation
+  commentId: N:BindOpen.Application.Navigation
+  isExternal: true
+  name: BindOpen.Application.Navigation
+  nameWithType: BindOpen.Application.Navigation
+  fullName: BindOpen.Application.Navigation
+shouldSkipMarkup: true

@@ -1,0 +1,1010 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Application.Products.ProductInformation
+  commentId: T:BindOpen.Application.Products.ProductInformation
+  id: ProductInformation
+  parent: BindOpen.Application.Products
+  children:
+  - BindOpen.Application.Products.ProductInformation.#ctor
+  - BindOpen.Application.Products.ProductInformation.AffiliateNetwork
+  - BindOpen.Application.Products.ProductInformation.Author
+  - BindOpen.Application.Products.ProductInformation.Company
+  - BindOpen.Application.Products.ProductInformation.CompanyUrl
+  - BindOpen.Application.Products.ProductInformation.CopyrightStatement
+  - BindOpen.Application.Products.ProductInformation.CopyrightYear
+  - BindOpen.Application.Products.ProductInformation.DescriptionUrl
+  - BindOpen.Application.Products.ProductInformation.ExtensionPackageManagerUri
+  - BindOpen.Application.Products.ProductInformation.GiveFeedBackUrl
+  - BindOpen.Application.Products.ProductInformation.HelpFileName
+  - BindOpen.Application.Products.ProductInformation.ImageFileName
+  - BindOpen.Application.Products.ProductInformation.Kind
+  - BindOpen.Application.Products.ProductInformation.Limitations
+  - BindOpen.Application.Products.ProductInformation.MajorUpdateLevel
+  - BindOpen.Application.Products.ProductInformation.PackageManagerUri
+  - BindOpen.Application.Products.ProductInformation.ProductPurchaseUrl
+  - BindOpen.Application.Products.ProductInformation.ReleaseDate
+  - BindOpen.Application.Products.ProductInformation.SupportedLanguages
+  - BindOpen.Application.Products.ProductInformation.TechnicalSupportUrl
+  - BindOpen.Application.Products.ProductInformation.Version
+  langs:
+  - csharp
+  - vb
+  name: ProductInformation
+  nameWithType: ProductInformation
+  fullName: BindOpen.Application.Products.ProductInformation
+  type: Class
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Products
+  summary: "\nThis class represents the information about the product.\n"
+  syntax:
+    content: 'public class ProductInformation : NamedDataItem'
+    content.vb: >-
+      Public Class ProductInformation
+          Inherits NamedDataItem
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BindOpen.Application.Products.ProductInformation.#ctor
+  commentId: M:BindOpen.Application.Products.ProductInformation.#ctor
+  id: '#ctor'
+  parent: BindOpen.Application.Products.ProductInformation
+  langs:
+  - csharp
+  - vb
+  name: ProductInformation()
+  nameWithType: ProductInformation.ProductInformation()
+  fullName: BindOpen.Application.Products.ProductInformation.ProductInformation()
+  type: Constructor
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Products
+  summary: "\nInstantiates a new instance of the ProductInformation class.\n"
+  syntax:
+    content: public ProductInformation()
+    content.vb: Public Sub New
+  overload: BindOpen.Application.Products.ProductInformation.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Application.Products.ProductInformation.Kind
+  commentId: P:BindOpen.Application.Products.ProductInformation.Kind
+  id: Kind
+  parent: BindOpen.Application.Products.ProductInformation
+  langs:
+  - csharp
+  - vb
+  name: Kind
+  nameWithType: ProductInformation.Kind
+  fullName: BindOpen.Application.Products.ProductInformation.Kind
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Products
+  summary: "\nProduct kind of the product.\n"
+  syntax:
+    content: public ProductInformation.ProductKind Kind { get; set; }
+    parameters: []
+    return:
+      type: BindOpen.Application.Products.ProductInformation.ProductKind
+    content.vb: Public Property Kind As ProductInformation.ProductKind
+  overload: BindOpen.Application.Products.ProductInformation.Kind*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Application.Products.ProductInformation.Version
+  commentId: P:BindOpen.Application.Products.ProductInformation.Version
+  id: Version
+  parent: BindOpen.Application.Products.ProductInformation
+  langs:
+  - csharp
+  - vb
+  name: Version
+  nameWithType: ProductInformation.Version
+  fullName: BindOpen.Application.Products.ProductInformation.Version
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Products
+  summary: "\nVersion of the product.\n"
+  syntax:
+    content: public string Version { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Version As String
+  overload: BindOpen.Application.Products.ProductInformation.Version*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Application.Products.ProductInformation.Author
+  commentId: P:BindOpen.Application.Products.ProductInformation.Author
+  id: Author
+  parent: BindOpen.Application.Products.ProductInformation
+  langs:
+  - csharp
+  - vb
+  name: Author
+  nameWithType: ProductInformation.Author
+  fullName: BindOpen.Application.Products.ProductInformation.Author
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Products
+  summary: "\nThe author of this instance.\n"
+  syntax:
+    content: public string Author { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Author As String
+  overload: BindOpen.Application.Products.ProductInformation.Author*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Application.Products.ProductInformation.ImageFileName
+  commentId: P:BindOpen.Application.Products.ProductInformation.ImageFileName
+  id: ImageFileName
+  parent: BindOpen.Application.Products.ProductInformation
+  langs:
+  - csharp
+  - vb
+  name: ImageFileName
+  nameWithType: ProductInformation.ImageFileName
+  fullName: BindOpen.Application.Products.ProductInformation.ImageFileName
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Products
+  summary: "\nThe image file name of this instance.\n"
+  syntax:
+    content: public string ImageFileName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ImageFileName As String
+  overload: BindOpen.Application.Products.ProductInformation.ImageFileName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Application.Products.ProductInformation.ReleaseDate
+  commentId: P:BindOpen.Application.Products.ProductInformation.ReleaseDate
+  id: ReleaseDate
+  parent: BindOpen.Application.Products.ProductInformation
+  langs:
+  - csharp
+  - vb
+  name: ReleaseDate
+  nameWithType: ProductInformation.ReleaseDate
+  fullName: BindOpen.Application.Products.ProductInformation.ReleaseDate
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Products
+  summary: "\nRelease date of the product.\n"
+  syntax:
+    content: public string ReleaseDate { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ReleaseDate As String
+  overload: BindOpen.Application.Products.ProductInformation.ReleaseDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Application.Products.ProductInformation.DescriptionUrl
+  commentId: P:BindOpen.Application.Products.ProductInformation.DescriptionUrl
+  id: DescriptionUrl
+  parent: BindOpen.Application.Products.ProductInformation
+  langs:
+  - csharp
+  - vb
+  name: DescriptionUrl
+  nameWithType: ProductInformation.DescriptionUrl
+  fullName: BindOpen.Application.Products.ProductInformation.DescriptionUrl
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Products
+  summary: "\nURL of the description of the product.\n"
+  syntax:
+    content: public string DescriptionUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DescriptionUrl As String
+  overload: BindOpen.Application.Products.ProductInformation.DescriptionUrl*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Application.Products.ProductInformation.ProductPurchaseUrl
+  commentId: P:BindOpen.Application.Products.ProductInformation.ProductPurchaseUrl
+  id: ProductPurchaseUrl
+  parent: BindOpen.Application.Products.ProductInformation
+  langs:
+  - csharp
+  - vb
+  name: ProductPurchaseUrl
+  nameWithType: ProductInformation.ProductPurchaseUrl
+  fullName: BindOpen.Application.Products.ProductInformation.ProductPurchaseUrl
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Products
+  summary: "\nURL to purchase the product.\n"
+  syntax:
+    content: public string ProductPurchaseUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ProductPurchaseUrl As String
+  overload: BindOpen.Application.Products.ProductInformation.ProductPurchaseUrl*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Application.Products.ProductInformation.TechnicalSupportUrl
+  commentId: P:BindOpen.Application.Products.ProductInformation.TechnicalSupportUrl
+  id: TechnicalSupportUrl
+  parent: BindOpen.Application.Products.ProductInformation
+  langs:
+  - csharp
+  - vb
+  name: TechnicalSupportUrl
+  nameWithType: ProductInformation.TechnicalSupportUrl
+  fullName: BindOpen.Application.Products.ProductInformation.TechnicalSupportUrl
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Products
+  summary: "\nURL to technical support.\n"
+  syntax:
+    content: public string TechnicalSupportUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property TechnicalSupportUrl As String
+  overload: BindOpen.Application.Products.ProductInformation.TechnicalSupportUrl*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Application.Products.ProductInformation.GiveFeedBackUrl
+  commentId: P:BindOpen.Application.Products.ProductInformation.GiveFeedBackUrl
+  id: GiveFeedBackUrl
+  parent: BindOpen.Application.Products.ProductInformation
+  langs:
+  - csharp
+  - vb
+  name: GiveFeedBackUrl
+  nameWithType: ProductInformation.GiveFeedBackUrl
+  fullName: BindOpen.Application.Products.ProductInformation.GiveFeedBackUrl
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Products
+  summary: "\nURL to give feed back.\n"
+  syntax:
+    content: public string GiveFeedBackUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property GiveFeedBackUrl As String
+  overload: BindOpen.Application.Products.ProductInformation.GiveFeedBackUrl*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Application.Products.ProductInformation.Limitations
+  commentId: P:BindOpen.Application.Products.ProductInformation.Limitations
+  id: Limitations
+  parent: BindOpen.Application.Products.ProductInformation
+  langs:
+  - csharp
+  - vb
+  name: Limitations
+  nameWithType: ProductInformation.Limitations
+  fullName: BindOpen.Application.Products.ProductInformation.Limitations
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Products
+  summary: "\nLimitations of this instance.\n"
+  syntax:
+    content: public List<ProductLimitation> Limitations { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{BindOpen.Application.Limitations.ProductLimitation}
+    content.vb: Public Property Limitations As List(Of ProductLimitation)
+  overload: BindOpen.Application.Products.ProductInformation.Limitations*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Application.Products.ProductInformation.SupportedLanguages
+  commentId: P:BindOpen.Application.Products.ProductInformation.SupportedLanguages
+  id: SupportedLanguages
+  parent: BindOpen.Application.Products.ProductInformation
+  langs:
+  - csharp
+  - vb
+  name: SupportedLanguages
+  nameWithType: ProductInformation.SupportedLanguages
+  fullName: BindOpen.Application.Products.ProductInformation.SupportedLanguages
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Products
+  summary: "\nLanguages to consider.\n"
+  syntax:
+    content: public List<string> SupportedLanguages { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public Property SupportedLanguages As List(Of String)
+  overload: BindOpen.Application.Products.ProductInformation.SupportedLanguages*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Application.Products.ProductInformation.CopyrightStatement
+  commentId: P:BindOpen.Application.Products.ProductInformation.CopyrightStatement
+  id: CopyrightStatement
+  parent: BindOpen.Application.Products.ProductInformation
+  langs:
+  - csharp
+  - vb
+  name: CopyrightStatement
+  nameWithType: ProductInformation.CopyrightStatement
+  fullName: BindOpen.Application.Products.ProductInformation.CopyrightStatement
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Products
+  summary: "\nCopyright statement of the product.\n"
+  syntax:
+    content: public string CopyrightStatement { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CopyrightStatement As String
+  overload: BindOpen.Application.Products.ProductInformation.CopyrightStatement*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Application.Products.ProductInformation.CopyrightYear
+  commentId: P:BindOpen.Application.Products.ProductInformation.CopyrightYear
+  id: CopyrightYear
+  parent: BindOpen.Application.Products.ProductInformation
+  langs:
+  - csharp
+  - vb
+  name: CopyrightYear
+  nameWithType: ProductInformation.CopyrightYear
+  fullName: BindOpen.Application.Products.ProductInformation.CopyrightYear
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Products
+  summary: "\nCopyright year of the product.\n"
+  syntax:
+    content: public string CopyrightYear { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CopyrightYear As String
+  overload: BindOpen.Application.Products.ProductInformation.CopyrightYear*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Application.Products.ProductInformation.Company
+  commentId: P:BindOpen.Application.Products.ProductInformation.Company
+  id: Company
+  parent: BindOpen.Application.Products.ProductInformation
+  langs:
+  - csharp
+  - vb
+  name: Company
+  nameWithType: ProductInformation.Company
+  fullName: BindOpen.Application.Products.ProductInformation.Company
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Products
+  summary: "\nCompany of the product.\n"
+  syntax:
+    content: public string Company { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Company As String
+  overload: BindOpen.Application.Products.ProductInformation.Company*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Application.Products.ProductInformation.CompanyUrl
+  commentId: P:BindOpen.Application.Products.ProductInformation.CompanyUrl
+  id: CompanyUrl
+  parent: BindOpen.Application.Products.ProductInformation
+  langs:
+  - csharp
+  - vb
+  name: CompanyUrl
+  nameWithType: ProductInformation.CompanyUrl
+  fullName: BindOpen.Application.Products.ProductInformation.CompanyUrl
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Products
+  summary: "\nURL of the company of the product.\n"
+  syntax:
+    content: public string CompanyUrl { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CompanyUrl As String
+  overload: BindOpen.Application.Products.ProductInformation.CompanyUrl*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Application.Products.ProductInformation.AffiliateNetwork
+  commentId: P:BindOpen.Application.Products.ProductInformation.AffiliateNetwork
+  id: AffiliateNetwork
+  parent: BindOpen.Application.Products.ProductInformation
+  langs:
+  - csharp
+  - vb
+  name: AffiliateNetwork
+  nameWithType: ProductInformation.AffiliateNetwork
+  fullName: BindOpen.Application.Products.ProductInformation.AffiliateNetwork
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Products
+  summary: "\nAffiliate network of the product.\n"
+  syntax:
+    content: public ProductInformation.ProductAffiliateNetwork AffiliateNetwork { get; set; }
+    parameters: []
+    return:
+      type: BindOpen.Application.Products.ProductInformation.ProductAffiliateNetwork
+    content.vb: Public Property AffiliateNetwork As ProductInformation.ProductAffiliateNetwork
+  overload: BindOpen.Application.Products.ProductInformation.AffiliateNetwork*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Application.Products.ProductInformation.HelpFileName
+  commentId: P:BindOpen.Application.Products.ProductInformation.HelpFileName
+  id: HelpFileName
+  parent: BindOpen.Application.Products.ProductInformation
+  langs:
+  - csharp
+  - vb
+  name: HelpFileName
+  nameWithType: ProductInformation.HelpFileName
+  fullName: BindOpen.Application.Products.ProductInformation.HelpFileName
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Products
+  summary: "\nHelp file name of the product.\n"
+  syntax:
+    content: public string HelpFileName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property HelpFileName As String
+  overload: BindOpen.Application.Products.ProductInformation.HelpFileName*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Application.Products.ProductInformation.PackageManagerUri
+  commentId: P:BindOpen.Application.Products.ProductInformation.PackageManagerUri
+  id: PackageManagerUri
+  parent: BindOpen.Application.Products.ProductInformation
+  langs:
+  - csharp
+  - vb
+  name: PackageManagerUri
+  nameWithType: ProductInformation.PackageManagerUri
+  fullName: BindOpen.Application.Products.ProductInformation.PackageManagerUri
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Products
+  summary: "\nThe URI of the package manager file.\n"
+  syntax:
+    content: public string PackageManagerUri { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PackageManagerUri As String
+  overload: BindOpen.Application.Products.ProductInformation.PackageManagerUri*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Application.Products.ProductInformation.ExtensionPackageManagerUri
+  commentId: P:BindOpen.Application.Products.ProductInformation.ExtensionPackageManagerUri
+  id: ExtensionPackageManagerUri
+  parent: BindOpen.Application.Products.ProductInformation
+  langs:
+  - csharp
+  - vb
+  name: ExtensionPackageManagerUri
+  nameWithType: ProductInformation.ExtensionPackageManagerUri
+  fullName: BindOpen.Application.Products.ProductInformation.ExtensionPackageManagerUri
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Products
+  summary: "\nURI of the extension versioning information file.\n"
+  syntax:
+    content: public string ExtensionPackageManagerUri { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ExtensionPackageManagerUri As String
+  overload: BindOpen.Application.Products.ProductInformation.ExtensionPackageManagerUri*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Application.Products.ProductInformation.MajorUpdateLevel
+  commentId: P:BindOpen.Application.Products.ProductInformation.MajorUpdateLevel
+  id: MajorUpdateLevel
+  parent: BindOpen.Application.Products.ProductInformation
+  langs:
+  - csharp
+  - vb
+  name: MajorUpdateLevel
+  nameWithType: ProductInformation.MajorUpdateLevel
+  fullName: BindOpen.Application.Products.ProductInformation.MajorUpdateLevel
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Products
+  summary: "\nIndicates when a version can be considered as major.\n"
+  remarks: >
+    Versions are formated as a.b.c.d.
+
+    When the major update level equals to 0, the version will be considered as major only if its a.b.c.d is greater than the current ones.
+
+    When the major update level equals to 1, the version will be considered as major only if its a.b.c is greater than the current ones.
+
+    When the major update level equals to 2, the version will be considered as major only if its a.b is greater than the current ones.
+
+    When the major update level equals to 3, the version will be considered as major only if its a is greater than the current ones.
+  syntax:
+    content: public int MajorUpdateLevel { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MajorUpdateLevel As Integer
+  overload: BindOpen.Application.Products.ProductInformation.MajorUpdateLevel*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: BindOpen.Application.Products
+  commentId: N:BindOpen.Application.Products
+  isExternal: true
+  name: BindOpen.Application.Products
+  nameWithType: BindOpen.Application.Products
+  fullName: BindOpen.Application.Products
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Application.Products.ProductInformation.#ctor*
+  commentId: Overload:BindOpen.Application.Products.ProductInformation.#ctor
+  isExternal: true
+  name: ProductInformation
+  nameWithType: ProductInformation.ProductInformation
+  fullName: BindOpen.Application.Products.ProductInformation.ProductInformation
+- uid: BindOpen.Application.Products.ProductInformation.Kind*
+  commentId: Overload:BindOpen.Application.Products.ProductInformation.Kind
+  isExternal: true
+  name: Kind
+  nameWithType: ProductInformation.Kind
+  fullName: BindOpen.Application.Products.ProductInformation.Kind
+- uid: BindOpen.Application.Products.ProductInformation.ProductKind
+  commentId: T:BindOpen.Application.Products.ProductInformation.ProductKind
+  parent: BindOpen.Application.Products
+  isExternal: true
+  name: ProductInformation.ProductKind
+  nameWithType: ProductInformation.ProductKind
+  fullName: BindOpen.Application.Products.ProductInformation.ProductKind
+- uid: BindOpen.Application.Products.ProductInformation.Version*
+  commentId: Overload:BindOpen.Application.Products.ProductInformation.Version
+  isExternal: true
+  name: Version
+  nameWithType: ProductInformation.Version
+  fullName: BindOpen.Application.Products.ProductInformation.Version
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: BindOpen.Application.Products.ProductInformation.Author*
+  commentId: Overload:BindOpen.Application.Products.ProductInformation.Author
+  isExternal: true
+  name: Author
+  nameWithType: ProductInformation.Author
+  fullName: BindOpen.Application.Products.ProductInformation.Author
+- uid: BindOpen.Application.Products.ProductInformation.ImageFileName*
+  commentId: Overload:BindOpen.Application.Products.ProductInformation.ImageFileName
+  isExternal: true
+  name: ImageFileName
+  nameWithType: ProductInformation.ImageFileName
+  fullName: BindOpen.Application.Products.ProductInformation.ImageFileName
+- uid: BindOpen.Application.Products.ProductInformation.ReleaseDate*
+  commentId: Overload:BindOpen.Application.Products.ProductInformation.ReleaseDate
+  isExternal: true
+  name: ReleaseDate
+  nameWithType: ProductInformation.ReleaseDate
+  fullName: BindOpen.Application.Products.ProductInformation.ReleaseDate
+- uid: BindOpen.Application.Products.ProductInformation.DescriptionUrl*
+  commentId: Overload:BindOpen.Application.Products.ProductInformation.DescriptionUrl
+  isExternal: true
+  name: DescriptionUrl
+  nameWithType: ProductInformation.DescriptionUrl
+  fullName: BindOpen.Application.Products.ProductInformation.DescriptionUrl
+- uid: BindOpen.Application.Products.ProductInformation.ProductPurchaseUrl*
+  commentId: Overload:BindOpen.Application.Products.ProductInformation.ProductPurchaseUrl
+  isExternal: true
+  name: ProductPurchaseUrl
+  nameWithType: ProductInformation.ProductPurchaseUrl
+  fullName: BindOpen.Application.Products.ProductInformation.ProductPurchaseUrl
+- uid: BindOpen.Application.Products.ProductInformation.TechnicalSupportUrl*
+  commentId: Overload:BindOpen.Application.Products.ProductInformation.TechnicalSupportUrl
+  isExternal: true
+  name: TechnicalSupportUrl
+  nameWithType: ProductInformation.TechnicalSupportUrl
+  fullName: BindOpen.Application.Products.ProductInformation.TechnicalSupportUrl
+- uid: BindOpen.Application.Products.ProductInformation.GiveFeedBackUrl*
+  commentId: Overload:BindOpen.Application.Products.ProductInformation.GiveFeedBackUrl
+  isExternal: true
+  name: GiveFeedBackUrl
+  nameWithType: ProductInformation.GiveFeedBackUrl
+  fullName: BindOpen.Application.Products.ProductInformation.GiveFeedBackUrl
+- uid: BindOpen.Application.Products.ProductInformation.Limitations*
+  commentId: Overload:BindOpen.Application.Products.ProductInformation.Limitations
+  isExternal: true
+  name: Limitations
+  nameWithType: ProductInformation.Limitations
+  fullName: BindOpen.Application.Products.ProductInformation.Limitations
+- uid: System.Collections.Generic.List{BindOpen.Application.Limitations.ProductLimitation}
+  commentId: '!:System.Collections.Generic.List{BindOpen.Application.Limitations.ProductLimitation}'
+  definition: System.Collections.Generic.List`1
+  name: List<ProductLimitation>
+  nameWithType: List<ProductLimitation>
+  fullName: System.Collections.Generic.List<BindOpen.Application.Limitations.ProductLimitation>
+  nameWithType.vb: List(Of ProductLimitation)
+  fullName.vb: System.Collections.Generic.List(Of BindOpen.Application.Limitations.ProductLimitation)
+  name.vb: List(Of ProductLimitation)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BindOpen.Application.Limitations.ProductLimitation
+    name: ProductLimitation
+    nameWithType: ProductLimitation
+    fullName: BindOpen.Application.Limitations.ProductLimitation
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BindOpen.Application.Limitations.ProductLimitation
+    name: ProductLimitation
+    nameWithType: ProductLimitation
+    fullName: BindOpen.Application.Limitations.ProductLimitation
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Products.ProductInformation.SupportedLanguages*
+  commentId: Overload:BindOpen.Application.Products.ProductInformation.SupportedLanguages
+  isExternal: true
+  name: SupportedLanguages
+  nameWithType: ProductInformation.SupportedLanguages
+  fullName: BindOpen.Application.Products.ProductInformation.SupportedLanguages
+- uid: System.Collections.Generic.List{System.String}
+  commentId: '!:System.Collections.Generic.List{System.String}'
+  definition: System.Collections.Generic.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: System.Collections.Generic.List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Products.ProductInformation.CopyrightStatement*
+  commentId: Overload:BindOpen.Application.Products.ProductInformation.CopyrightStatement
+  isExternal: true
+  name: CopyrightStatement
+  nameWithType: ProductInformation.CopyrightStatement
+  fullName: BindOpen.Application.Products.ProductInformation.CopyrightStatement
+- uid: BindOpen.Application.Products.ProductInformation.CopyrightYear*
+  commentId: Overload:BindOpen.Application.Products.ProductInformation.CopyrightYear
+  isExternal: true
+  name: CopyrightYear
+  nameWithType: ProductInformation.CopyrightYear
+  fullName: BindOpen.Application.Products.ProductInformation.CopyrightYear
+- uid: BindOpen.Application.Products.ProductInformation.Company*
+  commentId: Overload:BindOpen.Application.Products.ProductInformation.Company
+  isExternal: true
+  name: Company
+  nameWithType: ProductInformation.Company
+  fullName: BindOpen.Application.Products.ProductInformation.Company
+- uid: BindOpen.Application.Products.ProductInformation.CompanyUrl*
+  commentId: Overload:BindOpen.Application.Products.ProductInformation.CompanyUrl
+  isExternal: true
+  name: CompanyUrl
+  nameWithType: ProductInformation.CompanyUrl
+  fullName: BindOpen.Application.Products.ProductInformation.CompanyUrl
+- uid: BindOpen.Application.Products.ProductInformation.AffiliateNetwork*
+  commentId: Overload:BindOpen.Application.Products.ProductInformation.AffiliateNetwork
+  isExternal: true
+  name: AffiliateNetwork
+  nameWithType: ProductInformation.AffiliateNetwork
+  fullName: BindOpen.Application.Products.ProductInformation.AffiliateNetwork
+- uid: BindOpen.Application.Products.ProductInformation.ProductAffiliateNetwork
+  commentId: T:BindOpen.Application.Products.ProductInformation.ProductAffiliateNetwork
+  parent: BindOpen.Application.Products
+  isExternal: true
+  name: ProductInformation.ProductAffiliateNetwork
+  nameWithType: ProductInformation.ProductAffiliateNetwork
+  fullName: BindOpen.Application.Products.ProductInformation.ProductAffiliateNetwork
+- uid: BindOpen.Application.Products.ProductInformation.HelpFileName*
+  commentId: Overload:BindOpen.Application.Products.ProductInformation.HelpFileName
+  isExternal: true
+  name: HelpFileName
+  nameWithType: ProductInformation.HelpFileName
+  fullName: BindOpen.Application.Products.ProductInformation.HelpFileName
+- uid: BindOpen.Application.Products.ProductInformation.PackageManagerUri*
+  commentId: Overload:BindOpen.Application.Products.ProductInformation.PackageManagerUri
+  isExternal: true
+  name: PackageManagerUri
+  nameWithType: ProductInformation.PackageManagerUri
+  fullName: BindOpen.Application.Products.ProductInformation.PackageManagerUri
+- uid: BindOpen.Application.Products.ProductInformation.ExtensionPackageManagerUri*
+  commentId: Overload:BindOpen.Application.Products.ProductInformation.ExtensionPackageManagerUri
+  isExternal: true
+  name: ExtensionPackageManagerUri
+  nameWithType: ProductInformation.ExtensionPackageManagerUri
+  fullName: BindOpen.Application.Products.ProductInformation.ExtensionPackageManagerUri
+- uid: BindOpen.Application.Products.ProductInformation.MajorUpdateLevel*
+  commentId: Overload:BindOpen.Application.Products.ProductInformation.MajorUpdateLevel
+  isExternal: true
+  name: MajorUpdateLevel
+  nameWithType: ProductInformation.MajorUpdateLevel
+  fullName: BindOpen.Application.Products.ProductInformation.MajorUpdateLevel
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+shouldSkipMarkup: true

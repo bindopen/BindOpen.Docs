@@ -1,0 +1,158 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Data.Queries.DbQueryHavingClause
+  commentId: T:BindOpen.Data.Queries.DbQueryHavingClause
+  id: DbQueryHavingClause
+  parent: BindOpen.Data.Queries
+  children:
+  - BindOpen.Data.Queries.DbQueryHavingClause.#ctor
+  - BindOpen.Data.Queries.DbQueryHavingClause.Expression
+  langs:
+  - csharp
+  - vb
+  name: DbQueryHavingClause
+  nameWithType: DbQueryHavingClause
+  fullName: BindOpen.Data.Queries.DbQueryHavingClause
+  type: Class
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nThis class represents the Having clause of a database data query.\n"
+  syntax:
+    content: 'public class DbQueryHavingClause : Object, IDbQueryHavingClause, IDbQueryItem'
+    content.vb: >-
+      Public Class DbQueryHavingClause
+          Inherits Object
+          Implements IDbQueryHavingClause, IDbQueryItem
+  inheritance:
+  - System.Object
+  implements:
+  - BindOpen.Data.Queries.IDbQueryHavingClause
+  - BindOpen.Data.Queries.IDbQueryItem
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BindOpen.Data.Queries.DbQueryHavingClause.#ctor
+  commentId: M:BindOpen.Data.Queries.DbQueryHavingClause.#ctor
+  id: '#ctor'
+  parent: BindOpen.Data.Queries.DbQueryHavingClause
+  langs:
+  - csharp
+  - vb
+  name: DbQueryHavingClause()
+  nameWithType: DbQueryHavingClause.DbQueryHavingClause()
+  fullName: BindOpen.Data.Queries.DbQueryHavingClause.DbQueryHavingClause()
+  type: Constructor
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nInstantiates a new instance of the DbQueryHavingClause class.\n"
+  syntax:
+    content: public DbQueryHavingClause()
+    content.vb: Public Sub New
+  overload: BindOpen.Data.Queries.DbQueryHavingClause.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Data.Queries.DbQueryHavingClause.Expression
+  commentId: P:BindOpen.Data.Queries.DbQueryHavingClause.Expression
+  id: Expression
+  parent: BindOpen.Data.Queries.DbQueryHavingClause
+  langs:
+  - csharp
+  - vb
+  name: Expression
+  nameWithType: DbQueryHavingClause.Expression
+  fullName: BindOpen.Data.Queries.DbQueryHavingClause.Expression
+  type: Property
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nValue of this instance.\n"
+  syntax:
+    content: public DataExpression Expression { get; set; }
+    parameters: []
+    return:
+      type: BindOpen.Data.Expression.DataExpression
+    content.vb: Public Property Expression As DataExpression
+  overload: BindOpen.Data.Queries.DbQueryHavingClause.Expression*
+  implements:
+  - BindOpen.Data.Queries.IDbQueryItem.Expression
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: BindOpen.Data.Queries
+  commentId: N:BindOpen.Data.Queries
+  isExternal: true
+  name: BindOpen.Data.Queries
+  nameWithType: BindOpen.Data.Queries
+  fullName: BindOpen.Data.Queries
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BindOpen.Data.Queries.IDbQueryHavingClause
+  commentId: T:BindOpen.Data.Queries.IDbQueryHavingClause
+  parent: BindOpen.Data.Queries
+  isExternal: true
+  name: IDbQueryHavingClause
+  nameWithType: IDbQueryHavingClause
+  fullName: BindOpen.Data.Queries.IDbQueryHavingClause
+- uid: BindOpen.Data.Queries.IDbQueryItem
+  commentId: T:BindOpen.Data.Queries.IDbQueryItem
+  parent: BindOpen.Data.Queries
+  isExternal: true
+  name: IDbQueryItem
+  nameWithType: IDbQueryItem
+  fullName: BindOpen.Data.Queries.IDbQueryItem
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Data.Queries.DbQueryHavingClause.#ctor*
+  commentId: Overload:BindOpen.Data.Queries.DbQueryHavingClause.#ctor
+  isExternal: true
+  name: DbQueryHavingClause
+  nameWithType: DbQueryHavingClause.DbQueryHavingClause
+  fullName: BindOpen.Data.Queries.DbQueryHavingClause.DbQueryHavingClause
+- uid: BindOpen.Data.Queries.DbQueryHavingClause.Expression*
+  commentId: Overload:BindOpen.Data.Queries.DbQueryHavingClause.Expression
+  isExternal: true
+  name: Expression
+  nameWithType: DbQueryHavingClause.Expression
+  fullName: BindOpen.Data.Queries.DbQueryHavingClause.Expression
+- uid: BindOpen.Data.Queries.IDbQueryItem.Expression
+  commentId: P:BindOpen.Data.Queries.IDbQueryItem.Expression
+  parent: BindOpen.Data.Queries.IDbQueryItem
+  isExternal: true
+  name: Expression
+  nameWithType: IDbQueryItem.Expression
+  fullName: BindOpen.Data.Queries.IDbQueryItem.Expression
+- uid: BindOpen.Data.Expression.DataExpression
+  isExternal: true
+  name: DataExpression
+  nameWithType: DataExpression
+  fullName: BindOpen.Data.Expression.DataExpression
+shouldSkipMarkup: true

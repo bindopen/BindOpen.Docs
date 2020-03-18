@@ -1,0 +1,309 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Application.Services.ITBdoServiceOptions`2
+  commentId: T:BindOpen.Application.Services.ITBdoServiceOptions`2
+  id: ITBdoServiceOptions`2
+  parent: BindOpen.Application.Services
+  children:
+  - BindOpen.Application.Services.ITBdoServiceOptions`2.FuncSettingsConverter
+  - BindOpen.Application.Services.ITBdoServiceOptions`2.Loggers
+  langs:
+  - csharp
+  - vb
+  name: ITBdoServiceOptions<SServ, SHost>
+  nameWithType: ITBdoServiceOptions<SServ, SHost>
+  fullName: BindOpen.Application.Services.ITBdoServiceOptions<SServ, SHost>
+  type: Interface
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Services
+  summary: "\nThis interface represents a service options provider.\n"
+  remarks: The genericity was added to insure depency injection.
+  syntax:
+    content: >-
+      public interface ITBdoServiceOptions<SServ, SHost>
+          where SServ : IBdoSettings where SHost : IBdoAppSettings
+    typeParameters:
+    - id: SServ
+    - id: SHost
+    content.vb: Public Interface ITBdoServiceOptions(Of SServ As IBdoSettings, SHost As IBdoAppSettings)
+  nameWithType.vb: ITBdoServiceOptions(Of SServ, SHost)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+  fullName.vb: BindOpen.Application.Services.ITBdoServiceOptions(Of SServ, SHost)
+  name.vb: ITBdoServiceOptions(Of SServ, SHost)
+- uid: BindOpen.Application.Services.ITBdoServiceOptions`2.Loggers
+  commentId: P:BindOpen.Application.Services.ITBdoServiceOptions`2.Loggers
+  id: Loggers
+  parent: BindOpen.Application.Services.ITBdoServiceOptions`2
+  langs:
+  - csharp
+  - vb
+  name: Loggers
+  nameWithType: ITBdoServiceOptions<SServ, SHost>.Loggers
+  fullName: BindOpen.Application.Services.ITBdoServiceOptions<SServ, SHost>.Loggers
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Services
+  summary: "\nLoggers.\n"
+  syntax:
+    content: List<IBdoLogger> Loggers { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{BindOpen.System.Diagnostics.Loggers.IBdoLogger}
+    content.vb: ReadOnly Property Loggers As List(Of IBdoLogger)
+  overload: BindOpen.Application.Services.ITBdoServiceOptions`2.Loggers*
+  nameWithType.vb: ITBdoServiceOptions(Of SServ, SHost).Loggers
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+  fullName.vb: BindOpen.Application.Services.ITBdoServiceOptions(Of SServ, SHost).Loggers
+- uid: BindOpen.Application.Services.ITBdoServiceOptions`2.FuncSettingsConverter
+  commentId: P:BindOpen.Application.Services.ITBdoServiceOptions`2.FuncSettingsConverter
+  id: FuncSettingsConverter
+  parent: BindOpen.Application.Services.ITBdoServiceOptions`2
+  langs:
+  - csharp
+  - vb
+  name: FuncSettingsConverter
+  nameWithType: ITBdoServiceOptions<SServ, SHost>.FuncSettingsConverter
+  fullName: BindOpen.Application.Services.ITBdoServiceOptions<SServ, SHost>.FuncSettingsConverter
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Services
+  summary: "\nFunctional settings.\n"
+  syntax:
+    content: Func<SHost, SServ> FuncSettingsConverter { get; }
+    parameters: []
+    return:
+      type: System.Func{{SHost},{SServ}}
+    content.vb: ReadOnly Property FuncSettingsConverter As Func(Of SHost, SServ)
+  overload: BindOpen.Application.Services.ITBdoServiceOptions`2.FuncSettingsConverter*
+  nameWithType.vb: ITBdoServiceOptions(Of SServ, SHost).FuncSettingsConverter
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+  fullName.vb: BindOpen.Application.Services.ITBdoServiceOptions(Of SServ, SHost).FuncSettingsConverter
+references:
+- uid: BindOpen.Application.Services
+  commentId: N:BindOpen.Application.Services
+  isExternal: true
+  name: BindOpen.Application.Services
+  nameWithType: BindOpen.Application.Services
+  fullName: BindOpen.Application.Services
+- uid: BindOpen.Application.Services.ITBdoServiceOptions`2.Loggers*
+  commentId: Overload:BindOpen.Application.Services.ITBdoServiceOptions`2.Loggers
+  isExternal: true
+  name: Loggers
+  nameWithType: ITBdoServiceOptions<SServ, SHost>.Loggers
+  fullName: BindOpen.Application.Services.ITBdoServiceOptions<SServ, SHost>.Loggers
+  nameWithType.vb: ITBdoServiceOptions(Of SServ, SHost).Loggers
+  fullName.vb: BindOpen.Application.Services.ITBdoServiceOptions(Of SServ, SHost).Loggers
+- uid: System.Collections.Generic.List{BindOpen.System.Diagnostics.Loggers.IBdoLogger}
+  commentId: '!:System.Collections.Generic.List{BindOpen.System.Diagnostics.Loggers.IBdoLogger}'
+  definition: System.Collections.Generic.List`1
+  name: List<IBdoLogger>
+  nameWithType: List<IBdoLogger>
+  fullName: System.Collections.Generic.List<BindOpen.System.Diagnostics.Loggers.IBdoLogger>
+  nameWithType.vb: List(Of IBdoLogger)
+  fullName.vb: System.Collections.Generic.List(Of BindOpen.System.Diagnostics.Loggers.IBdoLogger)
+  name.vb: List(Of IBdoLogger)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BindOpen.System.Diagnostics.Loggers.IBdoLogger
+    name: IBdoLogger
+    nameWithType: IBdoLogger
+    fullName: BindOpen.System.Diagnostics.Loggers.IBdoLogger
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BindOpen.System.Diagnostics.Loggers.IBdoLogger
+    name: IBdoLogger
+    nameWithType: IBdoLogger
+    fullName: BindOpen.System.Diagnostics.Loggers.IBdoLogger
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Services.ITBdoServiceOptions`2.FuncSettingsConverter*
+  commentId: Overload:BindOpen.Application.Services.ITBdoServiceOptions`2.FuncSettingsConverter
+  isExternal: true
+  name: FuncSettingsConverter
+  nameWithType: ITBdoServiceOptions<SServ, SHost>.FuncSettingsConverter
+  fullName: BindOpen.Application.Services.ITBdoServiceOptions<SServ, SHost>.FuncSettingsConverter
+  nameWithType.vb: ITBdoServiceOptions(Of SServ, SHost).FuncSettingsConverter
+  fullName.vb: BindOpen.Application.Services.ITBdoServiceOptions(Of SServ, SHost).FuncSettingsConverter
+- uid: System.Func{{SHost},{SServ}}
+  commentId: '!:System.Func{`1,`0}'
+  definition: System.Func`2
+  name: Func<SHost, SServ>
+  nameWithType: Func<SHost, SServ>
+  fullName: System.Func<SHost, SServ>
+  nameWithType.vb: Func(Of SHost, SServ)
+  fullName.vb: System.Func(Of SHost, SServ)
+  name.vb: Func(Of SHost, SServ)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: SHost
+    nameWithType: SHost
+    fullName: SHost
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: SServ
+    nameWithType: SServ
+    fullName: SServ
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: SHost
+    nameWithType: SHost
+    fullName: SHost
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: SServ
+    nameWithType: SServ
+    fullName: SServ
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Func`2
+  isExternal: true
+  name: Func<, >
+  nameWithType: Func<, >
+  fullName: System.Func<, >
+  nameWithType.vb: Func(Of , )
+  fullName.vb: System.Func(Of , )
+  name.vb: Func(Of , )
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+shouldSkipMarkup: true

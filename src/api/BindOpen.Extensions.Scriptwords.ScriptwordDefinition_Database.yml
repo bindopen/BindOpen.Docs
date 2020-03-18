@@ -1,0 +1,1778 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database
+  commentId: T:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database
+  id: ScriptwordDefinition_Database
+  parent: BindOpen.Extensions.Scriptwords
+  children:
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlAnd(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlAverage(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlConcatenate(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlConvertToText(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlCount(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlDatabase(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlDatabase_SqlSchema(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlDatabase_SqlTable(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlDatabase_SqlTable_SqlField(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlDiff(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlEq(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlGetCurrentDate(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlGt(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlGte(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlIf(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlIn(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlIsNull(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlLike(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlList(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlLt(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlLte(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlNewGuid(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlNot(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlNull(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlOr(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlRandom(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlReplace(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlSum(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlText(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlTrue(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlXor(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  langs:
+  - csharp
+  - vb
+  name: ScriptwordDefinition_Database
+  nameWithType: ScriptwordDefinition_Database
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database
+  type: Class
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nThis class represents a &apos;Database&apos; script word definition.\n"
+  syntax:
+    content: 'public static class ScriptwordDefinition_Database : Object'
+    content.vb: >-
+      Public Module ScriptwordDefinition_Database
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlCount(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlCount(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Fun_SqlCount(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database
+  langs:
+  - csharp
+  - vb
+  name: Fun_SqlCount(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlCount(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlCount(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word $SQLCOUNT.\n"
+  syntax:
+    content: public static string Fun_SqlCount(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: Variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: Script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: Public Shared Function Fun_SqlCount(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlCount*
+  nameWithType.vb: ScriptwordDefinition_Database.Fun_SqlCount(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlCount(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Fun_SqlCount(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlSum(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlSum(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Fun_SqlSum(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database
+  langs:
+  - csharp
+  - vb
+  name: Fun_SqlSum(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlSum(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlSum(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word $SQLSUM.\n"
+  syntax:
+    content: public static string Fun_SqlSum(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: Variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: Script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: Public Shared Function Fun_SqlSum(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlSum*
+  nameWithType.vb: ScriptwordDefinition_Database.Fun_SqlSum(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlSum(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Fun_SqlSum(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlAverage(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlAverage(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Fun_SqlAverage(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database
+  langs:
+  - csharp
+  - vb
+  name: Fun_SqlAverage(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlAverage(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlAverage(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word $SQLAVG.\n"
+  syntax:
+    content: public static string Fun_SqlAverage(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: Variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: Script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: Public Shared Function Fun_SqlAverage(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlAverage*
+  nameWithType.vb: ScriptwordDefinition_Database.Fun_SqlAverage(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlAverage(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Fun_SqlAverage(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlGetCurrentDate(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlGetCurrentDate(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Fun_SqlGetCurrentDate(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database
+  langs:
+  - csharp
+  - vb
+  name: Fun_SqlGetCurrentDate(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlGetCurrentDate(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlGetCurrentDate(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word $SQLGETCURRENTDATE.\n"
+  syntax:
+    content: public static string Fun_SqlGetCurrentDate(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: Variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: Script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: Public Shared Function Fun_SqlGetCurrentDate(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlGetCurrentDate*
+  nameWithType.vb: ScriptwordDefinition_Database.Fun_SqlGetCurrentDate(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlGetCurrentDate(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Fun_SqlGetCurrentDate(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlTrue(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlTrue(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Fun_SqlTrue(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database
+  langs:
+  - csharp
+  - vb
+  name: Fun_SqlTrue(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlTrue(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlTrue(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word $SQLTRUE.\n"
+  syntax:
+    content: public static string Fun_SqlTrue(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: Variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: Script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: Public Shared Function Fun_SqlTrue(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlTrue*
+  nameWithType.vb: ScriptwordDefinition_Database.Fun_SqlTrue(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlTrue(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Fun_SqlTrue(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlIf(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlIf(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Fun_SqlIf(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database
+  langs:
+  - csharp
+  - vb
+  name: Fun_SqlIf(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlIf(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlIf(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word $SQLIF.\n"
+  syntax:
+    content: public static string Fun_SqlIf(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: Variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: Script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: Public Shared Function Fun_SqlIf(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlIf*
+  nameWithType.vb: ScriptwordDefinition_Database.Fun_SqlIf(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlIf(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Fun_SqlIf(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlNot(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlNot(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Fun_SqlNot(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database
+  langs:
+  - csharp
+  - vb
+  name: Fun_SqlNot(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlNot(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlNot(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word $SQLNOT.\n"
+  syntax:
+    content: public static string Fun_SqlNot(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: The set of variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: The script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: Public Shared Function Fun_SqlNot(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlNot*
+  nameWithType.vb: ScriptwordDefinition_Database.Fun_SqlNot(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlNot(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Fun_SqlNot(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlOr(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlOr(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Fun_SqlOr(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database
+  langs:
+  - csharp
+  - vb
+  name: Fun_SqlOr(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlOr(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlOr(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word $SQLOR.\n"
+  syntax:
+    content: public static string Fun_SqlOr(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: Variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: Script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: Public Shared Function Fun_SqlOr(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlOr*
+  nameWithType.vb: ScriptwordDefinition_Database.Fun_SqlOr(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlOr(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Fun_SqlOr(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlAnd(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlAnd(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Fun_SqlAnd(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database
+  langs:
+  - csharp
+  - vb
+  name: Fun_SqlAnd(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlAnd(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlAnd(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word $SQLAND.\n"
+  syntax:
+    content: public static string Fun_SqlAnd(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: Variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: Script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: Public Shared Function Fun_SqlAnd(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlAnd*
+  nameWithType.vb: ScriptwordDefinition_Database.Fun_SqlAnd(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlAnd(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Fun_SqlAnd(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlXor(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlXor(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Fun_SqlXor(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database
+  langs:
+  - csharp
+  - vb
+  name: Fun_SqlXor(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlXor(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlXor(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word $SQLXOR.\n"
+  syntax:
+    content: public static string Fun_SqlXor(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: Variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: Script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: Public Shared Function Fun_SqlXor(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlXor*
+  nameWithType.vb: ScriptwordDefinition_Database.Fun_SqlXor(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlXor(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Fun_SqlXor(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlEq(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlEq(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Fun_SqlEq(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database
+  langs:
+  - csharp
+  - vb
+  name: Fun_SqlEq(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlEq(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlEq(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word $SQLEQ.\n"
+  syntax:
+    content: public static string Fun_SqlEq(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: Variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: Script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: Public Shared Function Fun_SqlEq(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlEq*
+  nameWithType.vb: ScriptwordDefinition_Database.Fun_SqlEq(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlEq(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Fun_SqlEq(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlDiff(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlDiff(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Fun_SqlDiff(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database
+  langs:
+  - csharp
+  - vb
+  name: Fun_SqlDiff(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlDiff(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlDiff(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word $SQLDIFF.\n"
+  syntax:
+    content: public static string Fun_SqlDiff(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: Variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: Script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: Public Shared Function Fun_SqlDiff(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlDiff*
+  nameWithType.vb: ScriptwordDefinition_Database.Fun_SqlDiff(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlDiff(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Fun_SqlDiff(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlGt(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlGt(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Fun_SqlGt(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database
+  langs:
+  - csharp
+  - vb
+  name: Fun_SqlGt(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlGt(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlGt(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word $SQLGT.\n"
+  syntax:
+    content: public static string Fun_SqlGt(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: Variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: Script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: Public Shared Function Fun_SqlGt(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlGt*
+  nameWithType.vb: ScriptwordDefinition_Database.Fun_SqlGt(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlGt(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Fun_SqlGt(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlGte(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlGte(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Fun_SqlGte(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database
+  langs:
+  - csharp
+  - vb
+  name: Fun_SqlGte(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlGte(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlGte(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word $SQLGTE.\n"
+  syntax:
+    content: public static string Fun_SqlGte(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: Variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: Script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: Public Shared Function Fun_SqlGte(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlGte*
+  nameWithType.vb: ScriptwordDefinition_Database.Fun_SqlGte(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlGte(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Fun_SqlGte(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlLt(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlLt(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Fun_SqlLt(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database
+  langs:
+  - csharp
+  - vb
+  name: Fun_SqlLt(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlLt(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlLt(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word $SQLLT.\n"
+  syntax:
+    content: public static string Fun_SqlLt(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: Variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: Script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: Public Shared Function Fun_SqlLt(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlLt*
+  nameWithType.vb: ScriptwordDefinition_Database.Fun_SqlLt(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlLt(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Fun_SqlLt(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlLte(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlLte(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Fun_SqlLte(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database
+  langs:
+  - csharp
+  - vb
+  name: Fun_SqlLte(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlLte(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlLte(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word $SQLLTE.\n"
+  syntax:
+    content: public static string Fun_SqlLte(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: Variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: Script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: Public Shared Function Fun_SqlLte(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlLte*
+  nameWithType.vb: ScriptwordDefinition_Database.Fun_SqlLte(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlLte(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Fun_SqlLte(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlIsNull(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlIsNull(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Fun_SqlIsNull(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database
+  langs:
+  - csharp
+  - vb
+  name: Fun_SqlIsNull(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlIsNull(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlIsNull(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word $SQLISNULL.\n"
+  syntax:
+    content: public static string Fun_SqlIsNull(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: Variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: Script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: Public Shared Function Fun_SqlIsNull(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlIsNull*
+  nameWithType.vb: ScriptwordDefinition_Database.Fun_SqlIsNull(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlIsNull(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Fun_SqlIsNull(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlConvertToText(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlConvertToText(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Fun_SqlConvertToText(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database
+  langs:
+  - csharp
+  - vb
+  name: Fun_SqlConvertToText(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlConvertToText(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlConvertToText(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word $SQLCONVERTTOTEXT.\n"
+  syntax:
+    content: public static string Fun_SqlConvertToText(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: Variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: Script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: Public Shared Function Fun_SqlConvertToText(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlConvertToText*
+  nameWithType.vb: ScriptwordDefinition_Database.Fun_SqlConvertToText(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlConvertToText(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Fun_SqlConvertToText(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlText(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlText(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Fun_SqlText(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database
+  langs:
+  - csharp
+  - vb
+  name: Fun_SqlText(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlText(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlText(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word $SQLTEXT.\n"
+  syntax:
+    content: public static string Fun_SqlText(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: Variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: Script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: Public Shared Function Fun_SqlText(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlText*
+  nameWithType.vb: ScriptwordDefinition_Database.Fun_SqlText(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlText(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Fun_SqlText(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlLike(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlLike(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Fun_SqlLike(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database
+  langs:
+  - csharp
+  - vb
+  name: Fun_SqlLike(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlLike(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlLike(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word $SQLLIKE.\n"
+  syntax:
+    content: public static string Fun_SqlLike(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: Variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: Script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: Public Shared Function Fun_SqlLike(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlLike*
+  nameWithType.vb: ScriptwordDefinition_Database.Fun_SqlLike(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlLike(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Fun_SqlLike(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlReplace(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlReplace(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Fun_SqlReplace(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database
+  langs:
+  - csharp
+  - vb
+  name: Fun_SqlReplace(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlReplace(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlReplace(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word $SQLREPLACE.\n"
+  syntax:
+    content: public static string Fun_SqlReplace(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: Variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: Script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: Public Shared Function Fun_SqlReplace(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlReplace*
+  nameWithType.vb: ScriptwordDefinition_Database.Fun_SqlReplace(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlReplace(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Fun_SqlReplace(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlConcatenate(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlConcatenate(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Fun_SqlConcatenate(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database
+  langs:
+  - csharp
+  - vb
+  name: Fun_SqlConcatenate(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlConcatenate(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlConcatenate(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word $SQLCONCATENATE.\n"
+  syntax:
+    content: public static string Fun_SqlConcatenate(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: Variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: Script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: Public Shared Function Fun_SqlConcatenate(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlConcatenate*
+  nameWithType.vb: ScriptwordDefinition_Database.Fun_SqlConcatenate(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlConcatenate(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Fun_SqlConcatenate(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlNull(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlNull(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Fun_SqlNull(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database
+  langs:
+  - csharp
+  - vb
+  name: Fun_SqlNull(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlNull(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlNull(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word $SQLNULL.\n"
+  syntax:
+    content: public static string Fun_SqlNull(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: Variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: Script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: Public Shared Function Fun_SqlNull(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlNull*
+  nameWithType.vb: ScriptwordDefinition_Database.Fun_SqlNull(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlNull(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Fun_SqlNull(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlDatabase(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlDatabase(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Fun_SqlDatabase(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database
+  langs:
+  - csharp
+  - vb
+  name: Fun_SqlDatabase(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlDatabase(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlDatabase(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word %SQLDATABASE.\n"
+  syntax:
+    content: public static string Fun_SqlDatabase(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: Variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: Script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: Public Shared Function Fun_SqlDatabase(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlDatabase*
+  nameWithType.vb: ScriptwordDefinition_Database.Fun_SqlDatabase(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlDatabase(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Fun_SqlDatabase(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlDatabase_SqlSchema(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlDatabase_SqlSchema(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Fun_SqlDatabase_SqlSchema(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database
+  langs:
+  - csharp
+  - vb
+  name: Fun_SqlDatabase_SqlSchema(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlDatabase_SqlSchema(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlDatabase_SqlSchema(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word [%DATABASE->]%SCHEMA.\n"
+  syntax:
+    content: public static string Fun_SqlDatabase_SqlSchema(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: Variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: Script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: Public Shared Function Fun_SqlDatabase_SqlSchema(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlDatabase_SqlSchema*
+  nameWithType.vb: ScriptwordDefinition_Database.Fun_SqlDatabase_SqlSchema(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlDatabase_SqlSchema(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Fun_SqlDatabase_SqlSchema(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlDatabase_SqlTable(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlDatabase_SqlTable(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Fun_SqlDatabase_SqlTable(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database
+  langs:
+  - csharp
+  - vb
+  name: Fun_SqlDatabase_SqlTable(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlDatabase_SqlTable(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlDatabase_SqlTable(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word [%DATABASE->]%TABLE.\n"
+  syntax:
+    content: public static string Fun_SqlDatabase_SqlTable(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: Variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: Script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: Public Shared Function Fun_SqlDatabase_SqlTable(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlDatabase_SqlTable*
+  nameWithType.vb: ScriptwordDefinition_Database.Fun_SqlDatabase_SqlTable(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlDatabase_SqlTable(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Fun_SqlDatabase_SqlTable(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlDatabase_SqlTable_SqlField(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlDatabase_SqlTable_SqlField(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Fun_SqlDatabase_SqlTable_SqlField(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database
+  langs:
+  - csharp
+  - vb
+  name: Fun_SqlDatabase_SqlTable_SqlField(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlDatabase_SqlTable_SqlField(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlDatabase_SqlTable_SqlField(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word [[%DATABASE->]%TABLE->]%FIELD.\n"
+  syntax:
+    content: public static string Fun_SqlDatabase_SqlTable_SqlField(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: Variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: Script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: Public Shared Function Fun_SqlDatabase_SqlTable_SqlField(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlDatabase_SqlTable_SqlField*
+  nameWithType.vb: ScriptwordDefinition_Database.Fun_SqlDatabase_SqlTable_SqlField(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlDatabase_SqlTable_SqlField(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Fun_SqlDatabase_SqlTable_SqlField(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlNewGuid(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlNewGuid(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Fun_SqlNewGuid(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database
+  langs:
+  - csharp
+  - vb
+  name: Fun_SqlNewGuid(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlNewGuid(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlNewGuid(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word $SQLNEWGUID.\n"
+  syntax:
+    content: public static string Fun_SqlNewGuid(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: Variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: Script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: Public Shared Function Fun_SqlNewGuid(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlNewGuid*
+  nameWithType.vb: ScriptwordDefinition_Database.Fun_SqlNewGuid(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlNewGuid(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Fun_SqlNewGuid(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlRandom(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlRandom(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Fun_SqlRandom(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database
+  langs:
+  - csharp
+  - vb
+  name: Fun_SqlRandom(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlRandom(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlRandom(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word $SQLRANDOM.\n"
+  syntax:
+    content: public static string Fun_SqlRandom(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: Variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: Script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: Public Shared Function Fun_SqlRandom(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlRandom*
+  nameWithType.vb: ScriptwordDefinition_Database.Fun_SqlRandom(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlRandom(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Fun_SqlRandom(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlIn(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlIn(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Fun_SqlIn(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database
+  langs:
+  - csharp
+  - vb
+  name: Fun_SqlIn(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlIn(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlIn(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word $SQLIN.\n"
+  syntax:
+    content: public static string Fun_SqlIn(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: Variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: Script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: Public Shared Function Fun_SqlIn(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlIn*
+  nameWithType.vb: ScriptwordDefinition_Database.Fun_SqlIn(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlIn(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Fun_SqlIn(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlList(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlList(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Fun_SqlList(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database
+  langs:
+  - csharp
+  - vb
+  name: Fun_SqlList(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlList(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlList(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word $SQLLIST.\n"
+  syntax:
+    content: public static string Fun_SqlList(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: Variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: Script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: Public Shared Function Fun_SqlList(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlList*
+  nameWithType.vb: ScriptwordDefinition_Database.Fun_SqlList(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlList(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Fun_SqlList(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+references:
+- uid: BindOpen.Extensions.Scriptwords
+  commentId: N:BindOpen.Extensions.Scriptwords
+  isExternal: true
+  name: BindOpen.Extensions.Scriptwords
+  nameWithType: BindOpen.Extensions.Scriptwords
+  fullName: BindOpen.Extensions.Scriptwords
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlCount*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlCount
+  isExternal: true
+  name: Fun_SqlCount
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlCount
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlCount
+- uid: BindOpen.Application.Scopes.IBdoScope
+  isExternal: true
+  name: IBdoScope
+  nameWithType: IBdoScope
+  fullName: BindOpen.Application.Scopes.IBdoScope
+- uid: BindOpen.System.Scripting.IBdoScriptVariableSet
+  isExternal: true
+  name: IBdoScriptVariableSet
+  nameWithType: IBdoScriptVariableSet
+  fullName: BindOpen.System.Scripting.IBdoScriptVariableSet
+- uid: BindOpen.Extensions.Runtime.IBdoScriptword
+  isExternal: true
+  name: IBdoScriptword
+  nameWithType: IBdoScriptword
+  fullName: BindOpen.Extensions.Runtime.IBdoScriptword
+- uid: System.Object[]
+  isExternal: true
+  name: Object[]
+  nameWithType: Object[]
+  fullName: System.Object[]
+  nameWithType.vb: Object()
+  fullName.vb: System.Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlSum*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlSum
+  isExternal: true
+  name: Fun_SqlSum
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlSum
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlSum
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlAverage*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlAverage
+  isExternal: true
+  name: Fun_SqlAverage
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlAverage
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlAverage
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlGetCurrentDate*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlGetCurrentDate
+  isExternal: true
+  name: Fun_SqlGetCurrentDate
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlGetCurrentDate
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlGetCurrentDate
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlTrue*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlTrue
+  isExternal: true
+  name: Fun_SqlTrue
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlTrue
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlTrue
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlIf*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlIf
+  isExternal: true
+  name: Fun_SqlIf
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlIf
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlIf
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlNot*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlNot
+  isExternal: true
+  name: Fun_SqlNot
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlNot
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlNot
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlOr*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlOr
+  isExternal: true
+  name: Fun_SqlOr
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlOr
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlOr
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlAnd*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlAnd
+  isExternal: true
+  name: Fun_SqlAnd
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlAnd
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlAnd
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlXor*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlXor
+  isExternal: true
+  name: Fun_SqlXor
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlXor
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlXor
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlEq*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlEq
+  isExternal: true
+  name: Fun_SqlEq
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlEq
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlEq
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlDiff*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlDiff
+  isExternal: true
+  name: Fun_SqlDiff
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlDiff
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlDiff
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlGt*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlGt
+  isExternal: true
+  name: Fun_SqlGt
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlGt
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlGt
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlGte*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlGte
+  isExternal: true
+  name: Fun_SqlGte
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlGte
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlGte
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlLt*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlLt
+  isExternal: true
+  name: Fun_SqlLt
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlLt
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlLt
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlLte*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlLte
+  isExternal: true
+  name: Fun_SqlLte
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlLte
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlLte
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlIsNull*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlIsNull
+  isExternal: true
+  name: Fun_SqlIsNull
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlIsNull
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlIsNull
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlConvertToText*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlConvertToText
+  isExternal: true
+  name: Fun_SqlConvertToText
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlConvertToText
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlConvertToText
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlText*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlText
+  isExternal: true
+  name: Fun_SqlText
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlText
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlText
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlLike*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlLike
+  isExternal: true
+  name: Fun_SqlLike
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlLike
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlLike
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlReplace*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlReplace
+  isExternal: true
+  name: Fun_SqlReplace
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlReplace
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlReplace
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlConcatenate*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlConcatenate
+  isExternal: true
+  name: Fun_SqlConcatenate
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlConcatenate
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlConcatenate
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlNull*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlNull
+  isExternal: true
+  name: Fun_SqlNull
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlNull
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlNull
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlDatabase*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlDatabase
+  isExternal: true
+  name: Fun_SqlDatabase
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlDatabase
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlDatabase
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlDatabase_SqlSchema*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlDatabase_SqlSchema
+  isExternal: true
+  name: Fun_SqlDatabase_SqlSchema
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlDatabase_SqlSchema
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlDatabase_SqlSchema
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlDatabase_SqlTable*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlDatabase_SqlTable
+  isExternal: true
+  name: Fun_SqlDatabase_SqlTable
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlDatabase_SqlTable
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlDatabase_SqlTable
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlDatabase_SqlTable_SqlField*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlDatabase_SqlTable_SqlField
+  isExternal: true
+  name: Fun_SqlDatabase_SqlTable_SqlField
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlDatabase_SqlTable_SqlField
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlDatabase_SqlTable_SqlField
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlNewGuid*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlNewGuid
+  isExternal: true
+  name: Fun_SqlNewGuid
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlNewGuid
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlNewGuid
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlRandom*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlRandom
+  isExternal: true
+  name: Fun_SqlRandom
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlRandom
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlRandom
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlIn*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlIn
+  isExternal: true
+  name: Fun_SqlIn
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlIn
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlIn
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlList*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlList
+  isExternal: true
+  name: Fun_SqlList
+  nameWithType: ScriptwordDefinition_Database.Fun_SqlList
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database.Fun_SqlList
+shouldSkipMarkup: true

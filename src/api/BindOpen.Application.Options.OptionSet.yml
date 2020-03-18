@@ -1,0 +1,444 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Application.Options.OptionSet
+  commentId: T:BindOpen.Application.Options.OptionSet
+  id: OptionSet
+  parent: BindOpen.Application.Options
+  children:
+  - BindOpen.Application.Options.OptionSet.#ctor
+  - BindOpen.Application.Options.OptionSet.GetOptionValue(System.String)
+  - BindOpen.Application.Options.OptionSet.HasOption(System.String)
+  - BindOpen.Application.Options.OptionSet.Update(System.String)
+  langs:
+  - csharp
+  - vb
+  name: OptionSet
+  nameWithType: OptionSet
+  fullName: BindOpen.Application.Options.OptionSet
+  type: Class
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Options
+  summary: "\nThis class represents a option set.\n"
+  syntax:
+    content: 'public class OptionSet : DataElementSet, IOptionSet, IDataElementSet, IDataItemSet<DataElement>, IIdentifiedDataItem, IDataItem, ICloneable, IDisposable, IIdentified, IReferenced'
+    content.vb: >-
+      Public Class OptionSet
+          Inherits DataElementSet
+          Implements IOptionSet, IDataElementSet, IDataItemSet(Of DataElement), IIdentifiedDataItem, IDataItem, ICloneable, IDisposable, IIdentified, IReferenced
+  inheritance:
+  - System.Object
+  implements:
+  - BindOpen.Application.Options.IOptionSet
+  - BindOpen.Data.Elements.IDataElementSet
+  - BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Elements.DataElement}
+  - BindOpen.Data.Items.IIdentifiedDataItem
+  - BindOpen.Data.Items.IDataItem
+  - System.ICloneable
+  - System.IDisposable
+  - BindOpen.Data.Items.IIdentified
+  - BindOpen.Data.Items.IReferenced
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BindOpen.Application.Options.OptionSet.#ctor
+  commentId: M:BindOpen.Application.Options.OptionSet.#ctor
+  id: '#ctor'
+  parent: BindOpen.Application.Options.OptionSet
+  langs:
+  - csharp
+  - vb
+  name: OptionSet()
+  nameWithType: OptionSet.OptionSet()
+  fullName: BindOpen.Application.Options.OptionSet.OptionSet()
+  type: Constructor
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Options
+  summary: "\nInstantiates a new instance of the OptionSet class.\n"
+  syntax:
+    content: public OptionSet()
+    content.vb: Public Sub New
+  overload: BindOpen.Application.Options.OptionSet.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Application.Options.OptionSet.HasOption(System.String)
+  commentId: M:BindOpen.Application.Options.OptionSet.HasOption(System.String)
+  id: HasOption(System.String)
+  parent: BindOpen.Application.Options.OptionSet
+  langs:
+  - csharp
+  - vb
+  name: HasOption(String)
+  nameWithType: OptionSet.HasOption(String)
+  fullName: BindOpen.Application.Options.OptionSet.HasOption(System.String)
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Options
+  summary: "\nIndicates whether this instance has the specified option.\n"
+  syntax:
+    content: public bool HasOption(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: Name of the option to consider.
+    return:
+      type: System.Boolean
+    content.vb: Public Function HasOption(name As String) As Boolean
+  overload: BindOpen.Application.Options.OptionSet.HasOption*
+  implements:
+  - BindOpen.Application.Options.IOptionSet.HasOption(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Application.Options.OptionSet.GetOptionValue(System.String)
+  commentId: M:BindOpen.Application.Options.OptionSet.GetOptionValue(System.String)
+  id: GetOptionValue(System.String)
+  parent: BindOpen.Application.Options.OptionSet
+  langs:
+  - csharp
+  - vb
+  name: GetOptionValue(String)
+  nameWithType: OptionSet.GetOptionValue(String)
+  fullName: BindOpen.Application.Options.OptionSet.GetOptionValue(System.String)
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Options
+  summary: "\nGets the value of the specified option.\n"
+  syntax:
+    content: public object GetOptionValue(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: Name of the option to consider.
+    return:
+      type: System.Object
+    content.vb: Public Function GetOptionValue(name As String) As Object
+  overload: BindOpen.Application.Options.OptionSet.GetOptionValue*
+  implements:
+  - BindOpen.Application.Options.IOptionSet.GetOptionValue(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Application.Options.OptionSet.Update(System.String)
+  commentId: M:BindOpen.Application.Options.OptionSet.Update(System.String)
+  id: Update(System.String)
+  parent: BindOpen.Application.Options.OptionSet
+  langs:
+  - csharp
+  - vb
+  name: Update(String)
+  nameWithType: OptionSet.Update(String)
+  fullName: BindOpen.Application.Options.OptionSet.Update(System.String)
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Options
+  summary: "\nUpdates this instance with the specified string value.\n"
+  syntax:
+    content: public IBdoLog Update(string stringValue)
+    parameters:
+    - id: stringValue
+      type: System.String
+      description: The string value to consider.
+    return:
+      type: BindOpen.System.Diagnostics.IBdoLog
+    content.vb: Public Function Update(stringValue As String) As IBdoLog
+  overload: BindOpen.Application.Options.OptionSet.Update*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: BindOpen.Application.Options
+  commentId: N:BindOpen.Application.Options
+  isExternal: true
+  name: BindOpen.Application.Options
+  nameWithType: BindOpen.Application.Options
+  fullName: BindOpen.Application.Options
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BindOpen.Application.Options.IOptionSet
+  commentId: T:BindOpen.Application.Options.IOptionSet
+  parent: BindOpen.Application.Options
+  isExternal: true
+  name: IOptionSet
+  nameWithType: IOptionSet
+  fullName: BindOpen.Application.Options.IOptionSet
+- uid: BindOpen.Data.Elements.IDataElementSet
+  isExternal: true
+  name: IDataElementSet
+  nameWithType: IDataElementSet
+  fullName: BindOpen.Data.Elements.IDataElementSet
+- uid: BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Elements.DataElement}
+  commentId: '!:BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Elements.DataElement}'
+  definition: BindOpen.Data.Items.IDataItemSet`1
+  name: IDataItemSet<DataElement>
+  nameWithType: IDataItemSet<DataElement>
+  fullName: BindOpen.Data.Items.IDataItemSet<BindOpen.Data.Elements.DataElement>
+  nameWithType.vb: IDataItemSet(Of DataElement)
+  fullName.vb: BindOpen.Data.Items.IDataItemSet(Of BindOpen.Data.Elements.DataElement)
+  name.vb: IDataItemSet(Of DataElement)
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItemSet`1
+    name: IDataItemSet
+    nameWithType: IDataItemSet
+    fullName: BindOpen.Data.Items.IDataItemSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BindOpen.Data.Elements.DataElement
+    name: DataElement
+    nameWithType: DataElement
+    fullName: BindOpen.Data.Elements.DataElement
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItemSet`1
+    name: IDataItemSet
+    nameWithType: IDataItemSet
+    fullName: BindOpen.Data.Items.IDataItemSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BindOpen.Data.Elements.DataElement
+    name: DataElement
+    nameWithType: DataElement
+    fullName: BindOpen.Data.Elements.DataElement
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IIdentifiedDataItem
+  isExternal: true
+  name: IIdentifiedDataItem
+  nameWithType: IIdentifiedDataItem
+  fullName: BindOpen.Data.Items.IIdentifiedDataItem
+- uid: BindOpen.Data.Items.IDataItem
+  isExternal: true
+  name: IDataItem
+  nameWithType: IDataItem
+  fullName: BindOpen.Data.Items.IDataItem
+- uid: System.ICloneable
+  isExternal: true
+  name: ICloneable
+  nameWithType: ICloneable
+  fullName: System.ICloneable
+- uid: System.IDisposable
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: BindOpen.Data.Items.IIdentified
+  isExternal: true
+  name: IIdentified
+  nameWithType: IIdentified
+  fullName: BindOpen.Data.Items.IIdentified
+- uid: BindOpen.Data.Items.IReferenced
+  isExternal: true
+  name: IReferenced
+  nameWithType: IReferenced
+  fullName: BindOpen.Data.Items.IReferenced
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Data.Items.IDataItemSet`1
+  isExternal: true
+  name: IDataItemSet<>
+  nameWithType: IDataItemSet<>
+  fullName: BindOpen.Data.Items.IDataItemSet<>
+  nameWithType.vb: IDataItemSet(Of )
+  fullName.vb: BindOpen.Data.Items.IDataItemSet(Of )
+  name.vb: IDataItemSet(Of )
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItemSet`1
+    name: IDataItemSet
+    nameWithType: IDataItemSet
+    fullName: BindOpen.Data.Items.IDataItemSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItemSet`1
+    name: IDataItemSet
+    nameWithType: IDataItemSet
+    fullName: BindOpen.Data.Items.IDataItemSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Options.OptionSet.#ctor*
+  commentId: Overload:BindOpen.Application.Options.OptionSet.#ctor
+  isExternal: true
+  name: OptionSet
+  nameWithType: OptionSet.OptionSet
+  fullName: BindOpen.Application.Options.OptionSet.OptionSet
+- uid: BindOpen.Application.Options.OptionSet.HasOption*
+  commentId: Overload:BindOpen.Application.Options.OptionSet.HasOption
+  isExternal: true
+  name: HasOption
+  nameWithType: OptionSet.HasOption
+  fullName: BindOpen.Application.Options.OptionSet.HasOption
+- uid: BindOpen.Application.Options.IOptionSet.HasOption(System.String)
+  commentId: M:BindOpen.Application.Options.IOptionSet.HasOption(System.String)
+  parent: BindOpen.Application.Options.IOptionSet
+  isExternal: true
+  name: HasOption(String)
+  nameWithType: IOptionSet.HasOption(String)
+  fullName: BindOpen.Application.Options.IOptionSet.HasOption(System.String)
+  spec.csharp:
+  - uid: BindOpen.Application.Options.IOptionSet.HasOption(System.String)
+    name: HasOption
+    nameWithType: IOptionSet.HasOption
+    fullName: BindOpen.Application.Options.IOptionSet.HasOption
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Application.Options.IOptionSet.HasOption(System.String)
+    name: HasOption
+    nameWithType: IOptionSet.HasOption
+    fullName: BindOpen.Application.Options.IOptionSet.HasOption
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: BindOpen.Application.Options.OptionSet.GetOptionValue*
+  commentId: Overload:BindOpen.Application.Options.OptionSet.GetOptionValue
+  isExternal: true
+  name: GetOptionValue
+  nameWithType: OptionSet.GetOptionValue
+  fullName: BindOpen.Application.Options.OptionSet.GetOptionValue
+- uid: BindOpen.Application.Options.IOptionSet.GetOptionValue(System.String)
+  commentId: M:BindOpen.Application.Options.IOptionSet.GetOptionValue(System.String)
+  parent: BindOpen.Application.Options.IOptionSet
+  isExternal: true
+  name: GetOptionValue(String)
+  nameWithType: IOptionSet.GetOptionValue(String)
+  fullName: BindOpen.Application.Options.IOptionSet.GetOptionValue(System.String)
+  spec.csharp:
+  - uid: BindOpen.Application.Options.IOptionSet.GetOptionValue(System.String)
+    name: GetOptionValue
+    nameWithType: IOptionSet.GetOptionValue
+    fullName: BindOpen.Application.Options.IOptionSet.GetOptionValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Application.Options.IOptionSet.GetOptionValue(System.String)
+    name: GetOptionValue
+    nameWithType: IOptionSet.GetOptionValue
+    fullName: BindOpen.Application.Options.IOptionSet.GetOptionValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Options.OptionSet.Update*
+  commentId: Overload:BindOpen.Application.Options.OptionSet.Update
+  isExternal: true
+  name: Update
+  nameWithType: OptionSet.Update
+  fullName: BindOpen.Application.Options.OptionSet.Update
+- uid: BindOpen.System.Diagnostics.IBdoLog
+  isExternal: true
+  name: IBdoLog
+  nameWithType: IBdoLog
+  fullName: BindOpen.System.Diagnostics.IBdoLog
+shouldSkipMarkup: true

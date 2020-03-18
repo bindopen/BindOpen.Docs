@@ -1,0 +1,179 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Extensions.Carriers.RepositoryItem
+  commentId: T:BindOpen.Extensions.Carriers.RepositoryItem
+  id: RepositoryItem
+  parent: BindOpen.Extensions.Carriers
+  children:
+  - BindOpen.Extensions.Carriers.RepositoryItem.#ctor
+  - BindOpen.Extensions.Carriers.RepositoryItem.#ctor(BindOpen.Extensions.Runtime.IBdoCarrierConfiguration)
+  - BindOpen.Extensions.Carriers.RepositoryItem.SetPath(System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: RepositoryItem
+  nameWithType: RepositoryItem
+  fullName: BindOpen.Extensions.Carriers.RepositoryItem
+  type: Class
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Carriers
+  summary: "\nThis class represents a repository item.\n"
+  syntax:
+    content: 'public abstract class RepositoryItem : BdoCarrier'
+    content.vb: >-
+      Public MustInherit Class RepositoryItem
+          Inherits BdoCarrier
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - BindOpen.Extensions.Carriers.RepositoryFile
+  - BindOpen.Extensions.Carriers.RepositoryFolder
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: BindOpen.Extensions.Carriers.RepositoryItem.#ctor
+  commentId: M:BindOpen.Extensions.Carriers.RepositoryItem.#ctor
+  id: '#ctor'
+  parent: BindOpen.Extensions.Carriers.RepositoryItem
+  langs:
+  - csharp
+  - vb
+  name: RepositoryItem()
+  nameWithType: RepositoryItem.RepositoryItem()
+  fullName: BindOpen.Extensions.Carriers.RepositoryItem.RepositoryItem()
+  type: Constructor
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Carriers
+  summary: "\nInstantiates a new instance of the RepositoryItem class.\n"
+  syntax:
+    content: protected RepositoryItem()
+    content.vb: Protected Sub New
+  overload: BindOpen.Extensions.Carriers.RepositoryItem.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: BindOpen.Extensions.Carriers.RepositoryItem.#ctor(BindOpen.Extensions.Runtime.IBdoCarrierConfiguration)
+  commentId: M:BindOpen.Extensions.Carriers.RepositoryItem.#ctor(BindOpen.Extensions.Runtime.IBdoCarrierConfiguration)
+  id: '#ctor(BindOpen.Extensions.Runtime.IBdoCarrierConfiguration)'
+  parent: BindOpen.Extensions.Carriers.RepositoryItem
+  langs:
+  - csharp
+  - vb
+  name: RepositoryItem(IBdoCarrierConfiguration)
+  nameWithType: RepositoryItem.RepositoryItem(IBdoCarrierConfiguration)
+  fullName: BindOpen.Extensions.Carriers.RepositoryItem.RepositoryItem(BindOpen.Extensions.Runtime.IBdoCarrierConfiguration)
+  type: Constructor
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Carriers
+  summary: "\nInstantiates a new instance of the RepositoryItem class.\n"
+  syntax:
+    content: protected RepositoryItem(IBdoCarrierConfiguration dto)
+    parameters:
+    - id: dto
+      type: BindOpen.Extensions.Runtime.IBdoCarrierConfiguration
+      description: The DTO item of this instance.
+    content.vb: Protected Sub New(dto As IBdoCarrierConfiguration)
+  overload: BindOpen.Extensions.Carriers.RepositoryItem.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: BindOpen.Extensions.Carriers.RepositoryItem.SetPath(System.String,System.String)
+  commentId: M:BindOpen.Extensions.Carriers.RepositoryItem.SetPath(System.String,System.String)
+  id: SetPath(System.String,System.String)
+  parent: BindOpen.Extensions.Carriers.RepositoryItem
+  langs:
+  - csharp
+  - vb
+  name: SetPath(String, String)
+  nameWithType: RepositoryItem.SetPath(String, String)
+  fullName: BindOpen.Extensions.Carriers.RepositoryItem.SetPath(System.String, System.String)
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Carriers
+  summary: "\nSets the path of this instance.\n"
+  syntax:
+    content: public override void SetPath(string path = null, string relativePath = null)
+    parameters:
+    - id: path
+      type: System.String
+      description: The new path to consider. Null to update the existing one.
+    - id: relativePath
+      type: System.String
+      description: The new relative path to consider. Null to keep the existing one.
+    content.vb: Public Overrides Sub SetPath(path As String = Nothing, relativePath As String = Nothing)
+  overload: BindOpen.Extensions.Carriers.RepositoryItem.SetPath*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: BindOpen.Extensions.Carriers
+  commentId: N:BindOpen.Extensions.Carriers
+  isExternal: true
+  name: BindOpen.Extensions.Carriers
+  nameWithType: BindOpen.Extensions.Carriers
+  fullName: BindOpen.Extensions.Carriers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Extensions.Carriers.RepositoryItem.#ctor*
+  commentId: Overload:BindOpen.Extensions.Carriers.RepositoryItem.#ctor
+  isExternal: true
+  name: RepositoryItem
+  nameWithType: RepositoryItem.RepositoryItem
+  fullName: BindOpen.Extensions.Carriers.RepositoryItem.RepositoryItem
+- uid: BindOpen.Extensions.Runtime.IBdoCarrierConfiguration
+  commentId: '!:BindOpen.Extensions.Runtime.IBdoCarrierConfiguration'
+  isExternal: true
+  name: IBdoCarrierConfiguration
+  nameWithType: IBdoCarrierConfiguration
+  fullName: BindOpen.Extensions.Runtime.IBdoCarrierConfiguration
+- uid: BindOpen.Extensions.Carriers.RepositoryItem.SetPath*
+  commentId: Overload:BindOpen.Extensions.Carriers.RepositoryItem.SetPath
+  isExternal: true
+  name: SetPath
+  nameWithType: RepositoryItem.SetPath
+  fullName: BindOpen.Extensions.Carriers.RepositoryItem.SetPath
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+shouldSkipMarkup: true

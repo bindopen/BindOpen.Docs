@@ -1,0 +1,662 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Application.Modules.IAppModule
+  commentId: T:BindOpen.Application.Modules.IAppModule
+  id: IAppModule
+  parent: BindOpen.Application.Modules
+  children:
+  - BindOpen.Application.Modules.IAppModule.AddSection(BindOpen.Application.Modules.IAppSection)
+  - BindOpen.Application.Modules.IAppModule.AddSections(BindOpen.Application.Modules.IAppSection[])
+  - BindOpen.Application.Modules.IAppModule.DefaultUICulture
+  - BindOpen.Application.Modules.IAppModule.GetLanguageWithUICulture(System.String)
+  - BindOpen.Application.Modules.IAppModule.GetSubSectionWithName(System.String)
+  - BindOpen.Application.Modules.IAppModule.GetSubSectionWithUniqueName(System.String)
+  - BindOpen.Application.Modules.IAppModule.IconFileName
+  - BindOpen.Application.Modules.IAppModule.IsVisible
+  - BindOpen.Application.Modules.IAppModule.Languages
+  - BindOpen.Application.Modules.IAppModule.Rank
+  - BindOpen.Application.Modules.IAppModule.Sections
+  - BindOpen.Application.Modules.IAppModule.ThumbIconFileName
+  langs:
+  - csharp
+  - vb
+  name: IAppModule
+  nameWithType: IAppModule
+  fullName: BindOpen.Application.Modules.IAppModule
+  type: Interface
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Modules
+  summary: "\n\n"
+  syntax:
+    content: 'public interface IAppModule : IDescribedDataItem, ITitledDataItem, INamedDataItem, IStoredDataItem, IIdentifiedDataItem, IDataItem, ICloneable, IDisposable, IIdentified, IReferenced, IStorable, INamed, IGloballyTitled, IGloballyDescribed'
+    content.vb: >-
+      Public Interface IAppModule
+          Inherits IDescribedDataItem, ITitledDataItem, INamedDataItem, IStoredDataItem, IIdentifiedDataItem, IDataItem, ICloneable, IDisposable, IIdentified, IReferenced, IStorable, INamed, IGloballyTitled, IGloballyDescribed
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: BindOpen.Application.Modules.IAppModule.AddSection(BindOpen.Application.Modules.IAppSection)
+  commentId: M:BindOpen.Application.Modules.IAppModule.AddSection(BindOpen.Application.Modules.IAppSection)
+  id: AddSection(BindOpen.Application.Modules.IAppSection)
+  parent: BindOpen.Application.Modules.IAppModule
+  langs:
+  - csharp
+  - vb
+  name: AddSection(IAppSection)
+  nameWithType: IAppModule.AddSection(IAppSection)
+  fullName: BindOpen.Application.Modules.IAppModule.AddSection(BindOpen.Application.Modules.IAppSection)
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Modules
+  summary: "\n\n"
+  syntax:
+    content: IAppModule AddSection(IAppSection section)
+    parameters:
+    - id: section
+      type: BindOpen.Application.Modules.IAppSection
+    return:
+      type: BindOpen.Application.Modules.IAppModule
+    content.vb: Function AddSection(section As IAppSection) As IAppModule
+  overload: BindOpen.Application.Modules.IAppModule.AddSection*
+- uid: BindOpen.Application.Modules.IAppModule.AddSections(BindOpen.Application.Modules.IAppSection[])
+  commentId: M:BindOpen.Application.Modules.IAppModule.AddSections(BindOpen.Application.Modules.IAppSection[])
+  id: AddSections(BindOpen.Application.Modules.IAppSection[])
+  parent: BindOpen.Application.Modules.IAppModule
+  langs:
+  - csharp
+  - vb
+  name: AddSections(IAppSection[])
+  nameWithType: IAppModule.AddSections(IAppSection[])
+  fullName: BindOpen.Application.Modules.IAppModule.AddSections(BindOpen.Application.Modules.IAppSection[])
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Modules
+  summary: "\n\n"
+  syntax:
+    content: IAppModule AddSections(params IAppSection[] sections)
+    parameters:
+    - id: sections
+      type: BindOpen.Application.Modules.IAppSection[]
+    return:
+      type: BindOpen.Application.Modules.IAppModule
+    content.vb: Function AddSections(ParamArray sections As IAppSection()) As IAppModule
+  overload: BindOpen.Application.Modules.IAppModule.AddSections*
+  nameWithType.vb: IAppModule.AddSections(IAppSection())
+  fullName.vb: BindOpen.Application.Modules.IAppModule.AddSections(BindOpen.Application.Modules.IAppSection())
+  name.vb: AddSections(IAppSection())
+- uid: BindOpen.Application.Modules.IAppModule.GetLanguageWithUICulture(System.String)
+  commentId: M:BindOpen.Application.Modules.IAppModule.GetLanguageWithUICulture(System.String)
+  id: GetLanguageWithUICulture(System.String)
+  parent: BindOpen.Application.Modules.IAppModule
+  langs:
+  - csharp
+  - vb
+  name: GetLanguageWithUICulture(String)
+  nameWithType: IAppModule.GetLanguageWithUICulture(String)
+  fullName: BindOpen.Application.Modules.IAppModule.GetLanguageWithUICulture(System.String)
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Modules
+  summary: "\n\n"
+  syntax:
+    content: IApplicationLanguage GetLanguageWithUICulture(string uiCulureName)
+    parameters:
+    - id: uiCulureName
+      type: System.String
+    return:
+      type: BindOpen.Application.Languages.IApplicationLanguage
+    content.vb: Function GetLanguageWithUICulture(uiCulureName As String) As IApplicationLanguage
+  overload: BindOpen.Application.Modules.IAppModule.GetLanguageWithUICulture*
+- uid: BindOpen.Application.Modules.IAppModule.GetSubSectionWithName(System.String)
+  commentId: M:BindOpen.Application.Modules.IAppModule.GetSubSectionWithName(System.String)
+  id: GetSubSectionWithName(System.String)
+  parent: BindOpen.Application.Modules.IAppModule
+  langs:
+  - csharp
+  - vb
+  name: GetSubSectionWithName(String)
+  nameWithType: IAppModule.GetSubSectionWithName(String)
+  fullName: BindOpen.Application.Modules.IAppModule.GetSubSectionWithName(System.String)
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Modules
+  summary: "\n\n"
+  syntax:
+    content: IAppSection GetSubSectionWithName(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: BindOpen.Application.Modules.IAppSection
+    content.vb: Function GetSubSectionWithName(name As String) As IAppSection
+  overload: BindOpen.Application.Modules.IAppModule.GetSubSectionWithName*
+- uid: BindOpen.Application.Modules.IAppModule.GetSubSectionWithUniqueName(System.String)
+  commentId: M:BindOpen.Application.Modules.IAppModule.GetSubSectionWithUniqueName(System.String)
+  id: GetSubSectionWithUniqueName(System.String)
+  parent: BindOpen.Application.Modules.IAppModule
+  langs:
+  - csharp
+  - vb
+  name: GetSubSectionWithUniqueName(String)
+  nameWithType: IAppModule.GetSubSectionWithUniqueName(String)
+  fullName: BindOpen.Application.Modules.IAppModule.GetSubSectionWithUniqueName(System.String)
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Modules
+  summary: "\n\n"
+  syntax:
+    content: IAppSection GetSubSectionWithUniqueName(string completeName)
+    parameters:
+    - id: completeName
+      type: System.String
+    return:
+      type: BindOpen.Application.Modules.IAppSection
+    content.vb: Function GetSubSectionWithUniqueName(completeName As String) As IAppSection
+  overload: BindOpen.Application.Modules.IAppModule.GetSubSectionWithUniqueName*
+- uid: BindOpen.Application.Modules.IAppModule.DefaultUICulture
+  commentId: P:BindOpen.Application.Modules.IAppModule.DefaultUICulture
+  id: DefaultUICulture
+  parent: BindOpen.Application.Modules.IAppModule
+  langs:
+  - csharp
+  - vb
+  name: DefaultUICulture
+  nameWithType: IAppModule.DefaultUICulture
+  fullName: BindOpen.Application.Modules.IAppModule.DefaultUICulture
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Modules
+  summary: "\n\n"
+  syntax:
+    content: string DefaultUICulture { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property DefaultUICulture As String
+  overload: BindOpen.Application.Modules.IAppModule.DefaultUICulture*
+  modifiers.csharp:
+  - get
+  - set
+- uid: BindOpen.Application.Modules.IAppModule.IconFileName
+  commentId: P:BindOpen.Application.Modules.IAppModule.IconFileName
+  id: IconFileName
+  parent: BindOpen.Application.Modules.IAppModule
+  langs:
+  - csharp
+  - vb
+  name: IconFileName
+  nameWithType: IAppModule.IconFileName
+  fullName: BindOpen.Application.Modules.IAppModule.IconFileName
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Modules
+  summary: "\n\n"
+  syntax:
+    content: string IconFileName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property IconFileName As String
+  overload: BindOpen.Application.Modules.IAppModule.IconFileName*
+  modifiers.csharp:
+  - get
+  - set
+- uid: BindOpen.Application.Modules.IAppModule.IsVisible
+  commentId: P:BindOpen.Application.Modules.IAppModule.IsVisible
+  id: IsVisible
+  parent: BindOpen.Application.Modules.IAppModule
+  langs:
+  - csharp
+  - vb
+  name: IsVisible
+  nameWithType: IAppModule.IsVisible
+  fullName: BindOpen.Application.Modules.IAppModule.IsVisible
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Modules
+  summary: "\n\n"
+  syntax:
+    content: bool IsVisible { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Property IsVisible As Boolean
+  overload: BindOpen.Application.Modules.IAppModule.IsVisible*
+  modifiers.csharp:
+  - get
+  - set
+- uid: BindOpen.Application.Modules.IAppModule.Languages
+  commentId: P:BindOpen.Application.Modules.IAppModule.Languages
+  id: Languages
+  parent: BindOpen.Application.Modules.IAppModule
+  langs:
+  - csharp
+  - vb
+  name: Languages
+  nameWithType: IAppModule.Languages
+  fullName: BindOpen.Application.Modules.IAppModule.Languages
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Modules
+  summary: "\n\n"
+  syntax:
+    content: IDataItemSet<ApplicationLanguage> Languages { get; set; }
+    parameters: []
+    return:
+      type: BindOpen.Data.Items.IDataItemSet{BindOpen.Application.Languages.ApplicationLanguage}
+    content.vb: Property Languages As IDataItemSet(Of ApplicationLanguage)
+  overload: BindOpen.Application.Modules.IAppModule.Languages*
+  modifiers.csharp:
+  - get
+  - set
+- uid: BindOpen.Application.Modules.IAppModule.Rank
+  commentId: P:BindOpen.Application.Modules.IAppModule.Rank
+  id: Rank
+  parent: BindOpen.Application.Modules.IAppModule
+  langs:
+  - csharp
+  - vb
+  name: Rank
+  nameWithType: IAppModule.Rank
+  fullName: BindOpen.Application.Modules.IAppModule.Rank
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Modules
+  summary: "\n\n"
+  syntax:
+    content: int Rank { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Property Rank As Integer
+  overload: BindOpen.Application.Modules.IAppModule.Rank*
+  modifiers.csharp:
+  - get
+  - set
+- uid: BindOpen.Application.Modules.IAppModule.Sections
+  commentId: P:BindOpen.Application.Modules.IAppModule.Sections
+  id: Sections
+  parent: BindOpen.Application.Modules.IAppModule
+  langs:
+  - csharp
+  - vb
+  name: Sections
+  nameWithType: IAppModule.Sections
+  fullName: BindOpen.Application.Modules.IAppModule.Sections
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Modules
+  summary: "\n\n"
+  syntax:
+    content: IDataItemSet<AppSection> Sections { get; set; }
+    parameters: []
+    return:
+      type: BindOpen.Data.Items.IDataItemSet{BindOpen.Application.Modules.AppSection}
+    content.vb: Property Sections As IDataItemSet(Of AppSection)
+  overload: BindOpen.Application.Modules.IAppModule.Sections*
+  modifiers.csharp:
+  - get
+  - set
+- uid: BindOpen.Application.Modules.IAppModule.ThumbIconFileName
+  commentId: P:BindOpen.Application.Modules.IAppModule.ThumbIconFileName
+  id: ThumbIconFileName
+  parent: BindOpen.Application.Modules.IAppModule
+  langs:
+  - csharp
+  - vb
+  name: ThumbIconFileName
+  nameWithType: IAppModule.ThumbIconFileName
+  fullName: BindOpen.Application.Modules.IAppModule.ThumbIconFileName
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Modules
+  summary: "\n\n"
+  syntax:
+    content: string ThumbIconFileName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property ThumbIconFileName As String
+  overload: BindOpen.Application.Modules.IAppModule.ThumbIconFileName*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: BindOpen.Application.Modules
+  commentId: N:BindOpen.Application.Modules
+  isExternal: true
+  name: BindOpen.Application.Modules
+  nameWithType: BindOpen.Application.Modules
+  fullName: BindOpen.Application.Modules
+- uid: BindOpen.Application.Modules.IAppModule.AddSection*
+  commentId: Overload:BindOpen.Application.Modules.IAppModule.AddSection
+  isExternal: true
+  name: AddSection
+  nameWithType: IAppModule.AddSection
+  fullName: BindOpen.Application.Modules.IAppModule.AddSection
+- uid: BindOpen.Application.Modules.IAppSection
+  commentId: T:BindOpen.Application.Modules.IAppSection
+  parent: BindOpen.Application.Modules
+  isExternal: true
+  name: IAppSection
+  nameWithType: IAppSection
+  fullName: BindOpen.Application.Modules.IAppSection
+- uid: BindOpen.Application.Modules.IAppModule
+  commentId: T:BindOpen.Application.Modules.IAppModule
+  parent: BindOpen.Application.Modules
+  isExternal: true
+  name: IAppModule
+  nameWithType: IAppModule
+  fullName: BindOpen.Application.Modules.IAppModule
+- uid: BindOpen.Application.Modules.IAppModule.AddSections*
+  commentId: Overload:BindOpen.Application.Modules.IAppModule.AddSections
+  isExternal: true
+  name: AddSections
+  nameWithType: IAppModule.AddSections
+  fullName: BindOpen.Application.Modules.IAppModule.AddSections
+- uid: BindOpen.Application.Modules.IAppSection[]
+  isExternal: true
+  name: IAppSection[]
+  nameWithType: IAppSection[]
+  fullName: BindOpen.Application.Modules.IAppSection[]
+  nameWithType.vb: IAppSection()
+  fullName.vb: BindOpen.Application.Modules.IAppSection()
+  name.vb: IAppSection()
+  spec.csharp:
+  - uid: BindOpen.Application.Modules.IAppSection
+    name: IAppSection
+    nameWithType: IAppSection
+    fullName: BindOpen.Application.Modules.IAppSection
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: BindOpen.Application.Modules.IAppSection
+    name: IAppSection
+    nameWithType: IAppSection
+    fullName: BindOpen.Application.Modules.IAppSection
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: BindOpen.Application.Modules.IAppModule.GetLanguageWithUICulture*
+  commentId: Overload:BindOpen.Application.Modules.IAppModule.GetLanguageWithUICulture
+  isExternal: true
+  name: GetLanguageWithUICulture
+  nameWithType: IAppModule.GetLanguageWithUICulture
+  fullName: BindOpen.Application.Modules.IAppModule.GetLanguageWithUICulture
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: BindOpen.Application.Languages.IApplicationLanguage
+  commentId: T:BindOpen.Application.Languages.IApplicationLanguage
+  parent: BindOpen.Application.Languages
+  isExternal: true
+  name: IApplicationLanguage
+  nameWithType: IApplicationLanguage
+  fullName: BindOpen.Application.Languages.IApplicationLanguage
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Application.Languages
+  commentId: N:BindOpen.Application.Languages
+  isExternal: true
+  name: BindOpen.Application.Languages
+  nameWithType: BindOpen.Application.Languages
+  fullName: BindOpen.Application.Languages
+- uid: BindOpen.Application.Modules.IAppModule.GetSubSectionWithName*
+  commentId: Overload:BindOpen.Application.Modules.IAppModule.GetSubSectionWithName
+  isExternal: true
+  name: GetSubSectionWithName
+  nameWithType: IAppModule.GetSubSectionWithName
+  fullName: BindOpen.Application.Modules.IAppModule.GetSubSectionWithName
+- uid: BindOpen.Application.Modules.IAppModule.GetSubSectionWithUniqueName*
+  commentId: Overload:BindOpen.Application.Modules.IAppModule.GetSubSectionWithUniqueName
+  isExternal: true
+  name: GetSubSectionWithUniqueName
+  nameWithType: IAppModule.GetSubSectionWithUniqueName
+  fullName: BindOpen.Application.Modules.IAppModule.GetSubSectionWithUniqueName
+- uid: BindOpen.Application.Modules.IAppModule.DefaultUICulture*
+  commentId: Overload:BindOpen.Application.Modules.IAppModule.DefaultUICulture
+  isExternal: true
+  name: DefaultUICulture
+  nameWithType: IAppModule.DefaultUICulture
+  fullName: BindOpen.Application.Modules.IAppModule.DefaultUICulture
+- uid: BindOpen.Application.Modules.IAppModule.IconFileName*
+  commentId: Overload:BindOpen.Application.Modules.IAppModule.IconFileName
+  isExternal: true
+  name: IconFileName
+  nameWithType: IAppModule.IconFileName
+  fullName: BindOpen.Application.Modules.IAppModule.IconFileName
+- uid: BindOpen.Application.Modules.IAppModule.IsVisible*
+  commentId: Overload:BindOpen.Application.Modules.IAppModule.IsVisible
+  isExternal: true
+  name: IsVisible
+  nameWithType: IAppModule.IsVisible
+  fullName: BindOpen.Application.Modules.IAppModule.IsVisible
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: BindOpen.Application.Modules.IAppModule.Languages*
+  commentId: Overload:BindOpen.Application.Modules.IAppModule.Languages
+  isExternal: true
+  name: Languages
+  nameWithType: IAppModule.Languages
+  fullName: BindOpen.Application.Modules.IAppModule.Languages
+- uid: BindOpen.Data.Items.IDataItemSet{BindOpen.Application.Languages.ApplicationLanguage}
+  commentId: '!:BindOpen.Data.Items.IDataItemSet{BindOpen.Application.Languages.ApplicationLanguage}'
+  definition: BindOpen.Data.Items.IDataItemSet`1
+  name: IDataItemSet<ApplicationLanguage>
+  nameWithType: IDataItemSet<ApplicationLanguage>
+  fullName: BindOpen.Data.Items.IDataItemSet<BindOpen.Application.Languages.ApplicationLanguage>
+  nameWithType.vb: IDataItemSet(Of ApplicationLanguage)
+  fullName.vb: BindOpen.Data.Items.IDataItemSet(Of BindOpen.Application.Languages.ApplicationLanguage)
+  name.vb: IDataItemSet(Of ApplicationLanguage)
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItemSet`1
+    name: IDataItemSet
+    nameWithType: IDataItemSet
+    fullName: BindOpen.Data.Items.IDataItemSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BindOpen.Application.Languages.ApplicationLanguage
+    name: ApplicationLanguage
+    nameWithType: ApplicationLanguage
+    fullName: BindOpen.Application.Languages.ApplicationLanguage
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItemSet`1
+    name: IDataItemSet
+    nameWithType: IDataItemSet
+    fullName: BindOpen.Data.Items.IDataItemSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BindOpen.Application.Languages.ApplicationLanguage
+    name: ApplicationLanguage
+    nameWithType: ApplicationLanguage
+    fullName: BindOpen.Application.Languages.ApplicationLanguage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IDataItemSet`1
+  isExternal: true
+  name: IDataItemSet<>
+  nameWithType: IDataItemSet<>
+  fullName: BindOpen.Data.Items.IDataItemSet<>
+  nameWithType.vb: IDataItemSet(Of )
+  fullName.vb: BindOpen.Data.Items.IDataItemSet(Of )
+  name.vb: IDataItemSet(Of )
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItemSet`1
+    name: IDataItemSet
+    nameWithType: IDataItemSet
+    fullName: BindOpen.Data.Items.IDataItemSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItemSet`1
+    name: IDataItemSet
+    nameWithType: IDataItemSet
+    fullName: BindOpen.Data.Items.IDataItemSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Modules.IAppModule.Rank*
+  commentId: Overload:BindOpen.Application.Modules.IAppModule.Rank
+  isExternal: true
+  name: Rank
+  nameWithType: IAppModule.Rank
+  fullName: BindOpen.Application.Modules.IAppModule.Rank
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: BindOpen.Application.Modules.IAppModule.Sections*
+  commentId: Overload:BindOpen.Application.Modules.IAppModule.Sections
+  isExternal: true
+  name: Sections
+  nameWithType: IAppModule.Sections
+  fullName: BindOpen.Application.Modules.IAppModule.Sections
+- uid: BindOpen.Data.Items.IDataItemSet{BindOpen.Application.Modules.AppSection}
+  commentId: '!:BindOpen.Data.Items.IDataItemSet{BindOpen.Application.Modules.AppSection}'
+  definition: BindOpen.Data.Items.IDataItemSet`1
+  name: IDataItemSet<AppSection>
+  nameWithType: IDataItemSet<AppSection>
+  fullName: BindOpen.Data.Items.IDataItemSet<BindOpen.Application.Modules.AppSection>
+  nameWithType.vb: IDataItemSet(Of AppSection)
+  fullName.vb: BindOpen.Data.Items.IDataItemSet(Of BindOpen.Application.Modules.AppSection)
+  name.vb: IDataItemSet(Of AppSection)
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItemSet`1
+    name: IDataItemSet
+    nameWithType: IDataItemSet
+    fullName: BindOpen.Data.Items.IDataItemSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BindOpen.Application.Modules.AppSection
+    name: AppSection
+    nameWithType: AppSection
+    fullName: BindOpen.Application.Modules.AppSection
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItemSet`1
+    name: IDataItemSet
+    nameWithType: IDataItemSet
+    fullName: BindOpen.Data.Items.IDataItemSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BindOpen.Application.Modules.AppSection
+    name: AppSection
+    nameWithType: AppSection
+    fullName: BindOpen.Application.Modules.AppSection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Modules.IAppModule.ThumbIconFileName*
+  commentId: Overload:BindOpen.Application.Modules.IAppModule.ThumbIconFileName
+  isExternal: true
+  name: ThumbIconFileName
+  nameWithType: IAppModule.ThumbIconFileName
+  fullName: BindOpen.Application.Modules.IAppModule.ThumbIconFileName
+shouldSkipMarkup: true

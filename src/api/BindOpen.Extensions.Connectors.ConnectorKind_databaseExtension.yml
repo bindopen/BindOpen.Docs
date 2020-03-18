@@ -1,0 +1,116 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Extensions.Connectors.ConnectorKind_databaseExtension
+  commentId: T:BindOpen.Extensions.Connectors.ConnectorKind_databaseExtension
+  id: ConnectorKind_databaseExtension
+  parent: BindOpen.Extensions.Connectors
+  children:
+  - BindOpen.Extensions.Connectors.ConnectorKind_databaseExtension.GetUniqueName(BindOpen.Extensions.Connectors.BdoDbConnectorKind)
+  langs:
+  - csharp
+  - vb
+  name: ConnectorKind_databaseExtension
+  nameWithType: ConnectorKind_databaseExtension
+  fullName: BindOpen.Extensions.Connectors.ConnectorKind_databaseExtension
+  type: Class
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Connectors
+  summary: "\nThis class represents an extension of the ConnectorKind_database enumeration.\n"
+  syntax:
+    content: 'public static class ConnectorKind_databaseExtension : Object'
+    content.vb: >-
+      Public Module ConnectorKind_databaseExtension
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: BindOpen.Extensions.Connectors.ConnectorKind_databaseExtension.GetUniqueName(BindOpen.Extensions.Connectors.BdoDbConnectorKind)
+  commentId: M:BindOpen.Extensions.Connectors.ConnectorKind_databaseExtension.GetUniqueName(BindOpen.Extensions.Connectors.BdoDbConnectorKind)
+  id: GetUniqueName(BindOpen.Extensions.Connectors.BdoDbConnectorKind)
+  isExtensionMethod: true
+  parent: BindOpen.Extensions.Connectors.ConnectorKind_databaseExtension
+  langs:
+  - csharp
+  - vb
+  name: GetUniqueName(BdoDbConnectorKind)
+  nameWithType: ConnectorKind_databaseExtension.GetUniqueName(BdoDbConnectorKind)
+  fullName: BindOpen.Extensions.Connectors.ConnectorKind_databaseExtension.GetUniqueName(BindOpen.Extensions.Connectors.BdoDbConnectorKind)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Connectors
+  summary: "\nGets the unique name corresponding to the specified connector kind.\n"
+  syntax:
+    content: public static string GetUniqueName(this BdoDbConnectorKind connectorKind_database)
+    parameters:
+    - id: connectorKind_database
+      type: BindOpen.Extensions.Connectors.BdoDbConnectorKind
+      description: The connector kind to consider.
+    return:
+      type: System.String
+      description: The result object.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetUniqueName(connectorKind_database As BdoDbConnectorKind) As String
+  overload: BindOpen.Extensions.Connectors.ConnectorKind_databaseExtension.GetUniqueName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: BindOpen.Extensions.Connectors
+  commentId: N:BindOpen.Extensions.Connectors
+  isExternal: true
+  name: BindOpen.Extensions.Connectors
+  nameWithType: BindOpen.Extensions.Connectors
+  fullName: BindOpen.Extensions.Connectors
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Extensions.Connectors.ConnectorKind_databaseExtension.GetUniqueName*
+  commentId: Overload:BindOpen.Extensions.Connectors.ConnectorKind_databaseExtension.GetUniqueName
+  isExternal: true
+  name: GetUniqueName
+  nameWithType: ConnectorKind_databaseExtension.GetUniqueName
+  fullName: BindOpen.Extensions.Connectors.ConnectorKind_databaseExtension.GetUniqueName
+- uid: BindOpen.Extensions.Connectors.BdoDbConnectorKind
+  commentId: T:BindOpen.Extensions.Connectors.BdoDbConnectorKind
+  parent: BindOpen.Extensions.Connectors
+  isExternal: true
+  name: BdoDbConnectorKind
+  nameWithType: BdoDbConnectorKind
+  fullName: BindOpen.Extensions.Connectors.BdoDbConnectorKind
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+shouldSkipMarkup: true

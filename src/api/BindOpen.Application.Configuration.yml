@@ -1,0 +1,54 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Application.Configuration
+  commentId: N:BindOpen.Application.Configuration
+  id: BindOpen.Application.Configuration
+  children:
+  - BindOpen.Application.Configuration.BdoAppConfiguration
+  - BindOpen.Application.Configuration.BdoHostConfiguration
+  - BindOpen.Application.Configuration.IBdoAppConfiguration
+  - BindOpen.Application.Configuration.IBdoHostConfiguration
+  langs:
+  - csharp
+  - vb
+  name: BindOpen.Application.Configuration
+  nameWithType: BindOpen.Application.Configuration
+  fullName: BindOpen.Application.Configuration
+  type: Namespace
+  assemblies:
+  - BindOpen.Runtime
+references:
+- uid: BindOpen.Application.Configuration.BdoAppConfiguration
+  commentId: T:BindOpen.Application.Configuration.BdoAppConfiguration
+  isExternal: true
+  name: BdoAppConfiguration
+  nameWithType: BdoAppConfiguration
+  fullName: BindOpen.Application.Configuration.BdoAppConfiguration
+- uid: BindOpen.Application.Configuration.BdoHostConfiguration
+  commentId: T:BindOpen.Application.Configuration.BdoHostConfiguration
+  parent: BindOpen.Application.Configuration
+  isExternal: true
+  name: BdoHostConfiguration
+  nameWithType: BdoHostConfiguration
+  fullName: BindOpen.Application.Configuration.BdoHostConfiguration
+- uid: BindOpen.Application.Configuration.IBdoAppConfiguration
+  commentId: T:BindOpen.Application.Configuration.IBdoAppConfiguration
+  parent: BindOpen.Application.Configuration
+  isExternal: true
+  name: IBdoAppConfiguration
+  nameWithType: IBdoAppConfiguration
+  fullName: BindOpen.Application.Configuration.IBdoAppConfiguration
+- uid: BindOpen.Application.Configuration.IBdoHostConfiguration
+  commentId: T:BindOpen.Application.Configuration.IBdoHostConfiguration
+  parent: BindOpen.Application.Configuration
+  isExternal: true
+  name: IBdoHostConfiguration
+  nameWithType: IBdoHostConfiguration
+  fullName: BindOpen.Application.Configuration.IBdoHostConfiguration
+- uid: BindOpen.Application.Configuration
+  commentId: N:BindOpen.Application.Configuration
+  isExternal: true
+  name: BindOpen.Application.Configuration
+  nameWithType: BindOpen.Application.Configuration
+  fullName: BindOpen.Application.Configuration
+shouldSkipMarkup: true

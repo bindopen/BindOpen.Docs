@@ -1,0 +1,24 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Application.Limitations
+  commentId: N:BindOpen.Application.Limitations
+  id: BindOpen.Application.Limitations
+  children:
+  - BindOpen.Application.Limitations.ProductLimitation
+  langs:
+  - csharp
+  - vb
+  name: BindOpen.Application.Limitations
+  nameWithType: BindOpen.Application.Limitations
+  fullName: BindOpen.Application.Limitations
+  type: Namespace
+  assemblies:
+  - BindOpen.Runtime
+references:
+- uid: BindOpen.Application.Limitations.ProductLimitation
+  commentId: T:BindOpen.Application.Limitations.ProductLimitation
+  isExternal: true
+  name: ProductLimitation
+  nameWithType: ProductLimitation
+  fullName: BindOpen.Application.Limitations.ProductLimitation
+shouldSkipMarkup: true

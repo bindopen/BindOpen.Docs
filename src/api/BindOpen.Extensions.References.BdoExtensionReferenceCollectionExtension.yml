@@ -1,0 +1,106 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Extensions.References.BdoExtensionReferenceCollectionExtension
+  commentId: T:BindOpen.Extensions.References.BdoExtensionReferenceCollectionExtension
+  id: BdoExtensionReferenceCollectionExtension
+  parent: BindOpen.Extensions.References
+  children:
+  - BindOpen.Extensions.References.BdoExtensionReferenceCollectionExtension.AddMSSqlServer(BindOpen.Extensions.References.IBdoExtensionReferenceCollection)
+  langs:
+  - csharp
+  - vb
+  name: BdoExtensionReferenceCollectionExtension
+  nameWithType: BdoExtensionReferenceCollectionExtension
+  fullName: BindOpen.Extensions.References.BdoExtensionReferenceCollectionExtension
+  type: Class
+  source:
+    path: BindOpen.Databases.MSSqlServer
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases.MSSqlServer
+  namespace: BindOpen.Extensions.References
+  summary: "\nThis class represents an extension reference extension.\n"
+  syntax:
+    content: 'public static class BdoExtensionReferenceCollectionExtension : Object'
+    content.vb: >-
+      Public Module BdoExtensionReferenceCollectionExtension
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: BindOpen.Extensions.References.BdoExtensionReferenceCollectionExtension.AddMSSqlServer(BindOpen.Extensions.References.IBdoExtensionReferenceCollection)
+  commentId: M:BindOpen.Extensions.References.BdoExtensionReferenceCollectionExtension.AddMSSqlServer(BindOpen.Extensions.References.IBdoExtensionReferenceCollection)
+  id: AddMSSqlServer(BindOpen.Extensions.References.IBdoExtensionReferenceCollection)
+  isExtensionMethod: true
+  parent: BindOpen.Extensions.References.BdoExtensionReferenceCollectionExtension
+  langs:
+  - csharp
+  - vb
+  name: AddMSSqlServer(IBdoExtensionReferenceCollection)
+  nameWithType: BdoExtensionReferenceCollectionExtension.AddMSSqlServer(IBdoExtensionReferenceCollection)
+  fullName: BindOpen.Extensions.References.BdoExtensionReferenceCollectionExtension.AddMSSqlServer(BindOpen.Extensions.References.IBdoExtensionReferenceCollection)
+  type: Method
+  source:
+    path: BindOpen.Databases.MSSqlServer
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases.MSSqlServer
+  namespace: BindOpen.Extensions.References
+  summary: "\nAdds a MSSqlServer extension reference to a specified list of references.\n"
+  syntax:
+    content: public static IBdoExtensionReferenceCollection AddMSSqlServer(this IBdoExtensionReferenceCollection references)
+    parameters:
+    - id: references
+      type: BindOpen.Extensions.References.IBdoExtensionReferenceCollection
+    return:
+      type: BindOpen.Extensions.References.IBdoExtensionReferenceCollection
+      description: Returns the updated list of references.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddMSSqlServer(references As IBdoExtensionReferenceCollection) As IBdoExtensionReferenceCollection
+  overload: BindOpen.Extensions.References.BdoExtensionReferenceCollectionExtension.AddMSSqlServer*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: BindOpen.Extensions.References
+  commentId: N:BindOpen.Extensions.References
+  isExternal: true
+  name: BindOpen.Extensions.References
+  nameWithType: BindOpen.Extensions.References
+  fullName: BindOpen.Extensions.References
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Extensions.References.BdoExtensionReferenceCollectionExtension.AddMSSqlServer*
+  commentId: Overload:BindOpen.Extensions.References.BdoExtensionReferenceCollectionExtension.AddMSSqlServer
+  isExternal: true
+  name: AddMSSqlServer
+  nameWithType: BdoExtensionReferenceCollectionExtension.AddMSSqlServer
+  fullName: BindOpen.Extensions.References.BdoExtensionReferenceCollectionExtension.AddMSSqlServer
+- uid: BindOpen.Extensions.References.IBdoExtensionReferenceCollection
+  isExternal: true
+  name: IBdoExtensionReferenceCollection
+  nameWithType: IBdoExtensionReferenceCollection
+  fullName: BindOpen.Extensions.References.IBdoExtensionReferenceCollection
+shouldSkipMarkup: true

@@ -1,0 +1,116 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Extensions.Routines.RoutineConfigurationKind_standardExtension
+  commentId: T:BindOpen.Extensions.Routines.RoutineConfigurationKind_standardExtension
+  id: RoutineConfigurationKind_standardExtension
+  parent: BindOpen.Extensions.Routines
+  children:
+  - BindOpen.Extensions.Routines.RoutineConfigurationKind_standardExtension.GetUniqueName(BindOpen.Extensions.Routines.RoutineConfigurationKind_standard)
+  langs:
+  - csharp
+  - vb
+  name: RoutineConfigurationKind_standardExtension
+  nameWithType: RoutineConfigurationKind_standardExtension
+  fullName: BindOpen.Extensions.Routines.RoutineConfigurationKind_standardExtension
+  type: Class
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Routines
+  summary: "\nThis class represents an extension of the RoutineConfigurationKind_standard enumeration.\n"
+  syntax:
+    content: 'public static class RoutineConfigurationKind_standardExtension : Object'
+    content.vb: >-
+      Public Module RoutineConfigurationKind_standardExtension
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: BindOpen.Extensions.Routines.RoutineConfigurationKind_standardExtension.GetUniqueName(BindOpen.Extensions.Routines.RoutineConfigurationKind_standard)
+  commentId: M:BindOpen.Extensions.Routines.RoutineConfigurationKind_standardExtension.GetUniqueName(BindOpen.Extensions.Routines.RoutineConfigurationKind_standard)
+  id: GetUniqueName(BindOpen.Extensions.Routines.RoutineConfigurationKind_standard)
+  isExtensionMethod: true
+  parent: BindOpen.Extensions.Routines.RoutineConfigurationKind_standardExtension
+  langs:
+  - csharp
+  - vb
+  name: GetUniqueName(RoutineConfigurationKind_standard)
+  nameWithType: RoutineConfigurationKind_standardExtension.GetUniqueName(RoutineConfigurationKind_standard)
+  fullName: BindOpen.Extensions.Routines.RoutineConfigurationKind_standardExtension.GetUniqueName(BindOpen.Extensions.Routines.RoutineConfigurationKind_standard)
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Routines
+  summary: "\nGets the unique name corresponding to the specified routine kind.\n"
+  syntax:
+    content: public static string GetUniqueName(this RoutineConfigurationKind_standard routineKind_standard)
+    parameters:
+    - id: routineKind_standard
+      type: BindOpen.Extensions.Routines.RoutineConfigurationKind_standard
+      description: The routine kind to consider.
+    return:
+      type: System.String
+      description: The result object.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetUniqueName(routineKind_standard As RoutineConfigurationKind_standard) As String
+  overload: BindOpen.Extensions.Routines.RoutineConfigurationKind_standardExtension.GetUniqueName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: BindOpen.Extensions.Routines
+  commentId: N:BindOpen.Extensions.Routines
+  isExternal: true
+  name: BindOpen.Extensions.Routines
+  nameWithType: BindOpen.Extensions.Routines
+  fullName: BindOpen.Extensions.Routines
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Extensions.Routines.RoutineConfigurationKind_standardExtension.GetUniqueName*
+  commentId: Overload:BindOpen.Extensions.Routines.RoutineConfigurationKind_standardExtension.GetUniqueName
+  isExternal: true
+  name: GetUniqueName
+  nameWithType: RoutineConfigurationKind_standardExtension.GetUniqueName
+  fullName: BindOpen.Extensions.Routines.RoutineConfigurationKind_standardExtension.GetUniqueName
+- uid: BindOpen.Extensions.Routines.RoutineConfigurationKind_standard
+  commentId: T:BindOpen.Extensions.Routines.RoutineConfigurationKind_standard
+  parent: BindOpen.Extensions.Routines
+  isExternal: true
+  name: RoutineConfigurationKind_standard
+  nameWithType: RoutineConfigurationKind_standard
+  fullName: BindOpen.Extensions.Routines.RoutineConfigurationKind_standard
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+shouldSkipMarkup: true

@@ -1,0 +1,243 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Data.Models.BdoDbModelExtension
+  commentId: T:BindOpen.Data.Models.BdoDbModelExtension
+  id: BdoDbModelExtension
+  parent: BindOpen.Data.Models
+  children:
+  - BindOpen.Data.Models.BdoDbModelExtension.UseQuery(BindOpen.Data.Models.BdoDbModel,System.String,System.Func{BindOpen.Data.Models.IBdoDbModel,BindOpen.Data.Queries.IDbQuery})
+  langs:
+  - csharp
+  - vb
+  name: BdoDbModelExtension
+  nameWithType: BdoDbModelExtension
+  fullName: BindOpen.Data.Models.BdoDbModelExtension
+  type: Class
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Models
+  summary: "\nThis class represents a database context.\n"
+  syntax:
+    content: 'public static class BdoDbModelExtension : Object'
+    content.vb: >-
+      Public Module BdoDbModelExtension
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: BindOpen.Data.Models.BdoDbModelExtension.UseQuery(BindOpen.Data.Models.BdoDbModel,System.String,System.Func{BindOpen.Data.Models.IBdoDbModel,BindOpen.Data.Queries.IDbQuery})
+  commentId: M:BindOpen.Data.Models.BdoDbModelExtension.UseQuery(BindOpen.Data.Models.BdoDbModel,System.String,System.Func{BindOpen.Data.Models.IBdoDbModel,BindOpen.Data.Queries.IDbQuery})
+  id: UseQuery(BindOpen.Data.Models.BdoDbModel,System.String,System.Func{BindOpen.Data.Models.IBdoDbModel,BindOpen.Data.Queries.IDbQuery})
+  isExtensionMethod: true
+  parent: BindOpen.Data.Models.BdoDbModelExtension
+  langs:
+  - csharp
+  - vb
+  name: UseQuery(BdoDbModel, String, Func<IBdoDbModel, IDbQuery>)
+  nameWithType: BdoDbModelExtension.UseQuery(BdoDbModel, String, Func<IBdoDbModel, IDbQuery>)
+  fullName: BindOpen.Data.Models.BdoDbModelExtension.UseQuery(BindOpen.Data.Models.BdoDbModel, System.String, System.Func<BindOpen.Data.Models.IBdoDbModel, BindOpen.Data.Queries.IDbQuery>)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Models
+  summary: "\n\n"
+  syntax:
+    content: public static IDbStoredQuery UseQuery(this BdoDbModel model, string name, Func<IBdoDbModel, IDbQuery> intializer)
+    parameters:
+    - id: model
+      type: BindOpen.Data.Models.BdoDbModel
+    - id: name
+      type: System.String
+    - id: intializer
+      type: System.Func{BindOpen.Data.Models.IBdoDbModel,BindOpen.Data.Queries.IDbQuery}
+    return:
+      type: BindOpen.Data.Queries.IDbStoredQuery
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function UseQuery(model As BdoDbModel, name As String, intializer As Func(Of IBdoDbModel, IDbQuery)) As IDbStoredQuery
+  overload: BindOpen.Data.Models.BdoDbModelExtension.UseQuery*
+  nameWithType.vb: BdoDbModelExtension.UseQuery(BdoDbModel, String, Func(Of IBdoDbModel, IDbQuery))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Models.BdoDbModelExtension.UseQuery(BindOpen.Data.Models.BdoDbModel, System.String, System.Func(Of BindOpen.Data.Models.IBdoDbModel, BindOpen.Data.Queries.IDbQuery))
+  name.vb: UseQuery(BdoDbModel, String, Func(Of IBdoDbModel, IDbQuery))
+references:
+- uid: BindOpen.Data.Models
+  commentId: N:BindOpen.Data.Models
+  isExternal: true
+  name: BindOpen.Data.Models
+  nameWithType: BindOpen.Data.Models
+  fullName: BindOpen.Data.Models
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Data.Models.BdoDbModelExtension.UseQuery*
+  commentId: Overload:BindOpen.Data.Models.BdoDbModelExtension.UseQuery
+  isExternal: true
+  name: UseQuery
+  nameWithType: BdoDbModelExtension.UseQuery
+  fullName: BindOpen.Data.Models.BdoDbModelExtension.UseQuery
+- uid: BindOpen.Data.Models.BdoDbModel
+  commentId: T:BindOpen.Data.Models.BdoDbModel
+  parent: BindOpen.Data.Models
+  isExternal: true
+  name: BdoDbModel
+  nameWithType: BdoDbModel
+  fullName: BindOpen.Data.Models.BdoDbModel
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Func{BindOpen.Data.Models.IBdoDbModel,BindOpen.Data.Queries.IDbQuery}
+  commentId: '!:System.Func{BindOpen.Data.Models.IBdoDbModel,BindOpen.Data.Queries.IDbQuery}'
+  definition: System.Func`2
+  name: Func<IBdoDbModel, IDbQuery>
+  nameWithType: Func<IBdoDbModel, IDbQuery>
+  fullName: System.Func<BindOpen.Data.Models.IBdoDbModel, BindOpen.Data.Queries.IDbQuery>
+  nameWithType.vb: Func(Of IBdoDbModel, IDbQuery)
+  fullName.vb: System.Func(Of BindOpen.Data.Models.IBdoDbModel, BindOpen.Data.Queries.IDbQuery)
+  name.vb: Func(Of IBdoDbModel, IDbQuery)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BindOpen.Data.Models.IBdoDbModel
+    name: IBdoDbModel
+    nameWithType: IBdoDbModel
+    fullName: BindOpen.Data.Models.IBdoDbModel
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Queries.IDbQuery
+    name: IDbQuery
+    nameWithType: IDbQuery
+    fullName: BindOpen.Data.Queries.IDbQuery
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BindOpen.Data.Models.IBdoDbModel
+    name: IBdoDbModel
+    nameWithType: IBdoDbModel
+    fullName: BindOpen.Data.Models.IBdoDbModel
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Queries.IDbQuery
+    name: IDbQuery
+    nameWithType: IDbQuery
+    fullName: BindOpen.Data.Queries.IDbQuery
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Queries.IDbStoredQuery
+  commentId: T:BindOpen.Data.Queries.IDbStoredQuery
+  parent: BindOpen.Data.Queries
+  isExternal: true
+  name: IDbStoredQuery
+  nameWithType: IDbStoredQuery
+  fullName: BindOpen.Data.Queries.IDbStoredQuery
+- uid: System.Func`2
+  isExternal: true
+  name: Func<, >
+  nameWithType: Func<, >
+  fullName: System.Func<, >
+  nameWithType.vb: Func(Of , )
+  fullName.vb: System.Func(Of , )
+  name.vb: Func(Of , )
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Queries
+  commentId: N:BindOpen.Data.Queries
+  isExternal: true
+  name: BindOpen.Data.Queries
+  nameWithType: BindOpen.Data.Queries
+  fullName: BindOpen.Data.Queries
+shouldSkipMarkup: true

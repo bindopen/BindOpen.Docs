@@ -1,0 +1,209 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Application.Services.BdoDbService
+  commentId: T:BindOpen.Application.Services.BdoDbService
+  id: BdoDbService
+  parent: BindOpen.Application.Services
+  children:
+  - BindOpen.Application.Services.BdoDbService.#ctor
+  - BindOpen.Application.Services.BdoDbService.#ctor(BindOpen.Extensions.Runtime.IBdoConnector)
+  - BindOpen.Application.Services.BdoDbService.Connector
+  langs:
+  - csharp
+  - vb
+  name: BdoDbService
+  nameWithType: BdoDbService
+  fullName: BindOpen.Application.Services.BdoDbService
+  type: Class
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Application.Services
+  summary: "\nThis class represents a database service.\n"
+  syntax:
+    content: 'public abstract class BdoDbService : BdoConnectedService, IBdoDbService, IBdoConnectedService, IDisposable'
+    content.vb: >-
+      Public MustInherit Class BdoDbService
+          Inherits BdoConnectedService
+          Implements IBdoDbService, IBdoConnectedService, IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - BindOpen.Application.Services.IBdoDbService
+  - BindOpen.Application.Services.IBdoConnectedService
+  - System.IDisposable
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: BindOpen.Application.Services.BdoDbService.#ctor
+  commentId: M:BindOpen.Application.Services.BdoDbService.#ctor
+  id: '#ctor'
+  parent: BindOpen.Application.Services.BdoDbService
+  langs:
+  - csharp
+  - vb
+  name: BdoDbService()
+  nameWithType: BdoDbService.BdoDbService()
+  fullName: BindOpen.Application.Services.BdoDbService.BdoDbService()
+  type: Constructor
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Application.Services
+  summary: "\nInitializes a new instance of the BdoDbService class.\n"
+  syntax:
+    content: protected BdoDbService()
+    content.vb: Protected Sub New
+  overload: BindOpen.Application.Services.BdoDbService.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: BindOpen.Application.Services.BdoDbService.#ctor(BindOpen.Extensions.Runtime.IBdoConnector)
+  commentId: M:BindOpen.Application.Services.BdoDbService.#ctor(BindOpen.Extensions.Runtime.IBdoConnector)
+  id: '#ctor(BindOpen.Extensions.Runtime.IBdoConnector)'
+  parent: BindOpen.Application.Services.BdoDbService
+  langs:
+  - csharp
+  - vb
+  name: BdoDbService(IBdoConnector)
+  nameWithType: BdoDbService.BdoDbService(IBdoConnector)
+  fullName: BindOpen.Application.Services.BdoDbService.BdoDbService(BindOpen.Extensions.Runtime.IBdoConnector)
+  type: Constructor
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Application.Services
+  summary: "\nInitializes a new instance of the BdoDbService class.\n"
+  syntax:
+    content: protected BdoDbService(IBdoConnector connector)
+    parameters:
+    - id: connector
+      type: BindOpen.Extensions.Runtime.IBdoConnector
+      description: The connector to consider.
+    content.vb: Protected Sub New(connector As IBdoConnector)
+  overload: BindOpen.Application.Services.BdoDbService.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: BindOpen.Application.Services.BdoDbService.Connector
+  commentId: P:BindOpen.Application.Services.BdoDbService.Connector
+  id: Connector
+  parent: BindOpen.Application.Services.BdoDbService
+  langs:
+  - csharp
+  - vb
+  name: Connector
+  nameWithType: BdoDbService.Connector
+  fullName: BindOpen.Application.Services.BdoDbService.Connector
+  type: Property
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Application.Services
+  summary: "\nThe connector of this instance.\n"
+  syntax:
+    content: public IBdoDbConnector Connector { get; }
+    parameters: []
+    return:
+      type: BindOpen.Extensions.Connectors.IBdoDbConnector
+    content.vb: Public ReadOnly Property Connector As IBdoDbConnector
+  overload: BindOpen.Application.Services.BdoDbService.Connector*
+  implements:
+  - BindOpen.Application.Services.IBdoDbService.Connector
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: BindOpen.Application.Services
+  commentId: N:BindOpen.Application.Services
+  isExternal: true
+  name: BindOpen.Application.Services
+  nameWithType: BindOpen.Application.Services
+  fullName: BindOpen.Application.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BindOpen.Application.Services.IBdoDbService
+  commentId: T:BindOpen.Application.Services.IBdoDbService
+  parent: BindOpen.Application.Services
+  isExternal: true
+  name: IBdoDbService
+  nameWithType: IBdoDbService
+  fullName: BindOpen.Application.Services.IBdoDbService
+- uid: BindOpen.Application.Services.IBdoConnectedService
+  commentId: '!:BindOpen.Application.Services.IBdoConnectedService'
+  isExternal: true
+  name: IBdoConnectedService
+  nameWithType: IBdoConnectedService
+  fullName: BindOpen.Application.Services.IBdoConnectedService
+- uid: System.IDisposable
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Application.Services.BdoDbService.#ctor*
+  commentId: Overload:BindOpen.Application.Services.BdoDbService.#ctor
+  isExternal: true
+  name: BdoDbService
+  nameWithType: BdoDbService.BdoDbService
+  fullName: BindOpen.Application.Services.BdoDbService.BdoDbService
+- uid: BindOpen.Extensions.Runtime.IBdoConnector
+  isExternal: true
+  name: IBdoConnector
+  nameWithType: IBdoConnector
+  fullName: BindOpen.Extensions.Runtime.IBdoConnector
+- uid: BindOpen.Application.Services.BdoDbService.Connector*
+  commentId: Overload:BindOpen.Application.Services.BdoDbService.Connector
+  isExternal: true
+  name: Connector
+  nameWithType: BdoDbService.Connector
+  fullName: BindOpen.Application.Services.BdoDbService.Connector
+- uid: BindOpen.Application.Services.IBdoDbService.Connector
+  commentId: P:BindOpen.Application.Services.IBdoDbService.Connector
+  parent: BindOpen.Application.Services.IBdoDbService
+  isExternal: true
+  name: Connector
+  nameWithType: IBdoDbService.Connector
+  fullName: BindOpen.Application.Services.IBdoDbService.Connector
+- uid: BindOpen.Extensions.Connectors.IBdoDbConnector
+  commentId: T:BindOpen.Extensions.Connectors.IBdoDbConnector
+  parent: BindOpen.Extensions.Connectors
+  isExternal: true
+  name: IBdoDbConnector
+  nameWithType: IBdoDbConnector
+  fullName: BindOpen.Extensions.Connectors.IBdoDbConnector
+- uid: BindOpen.Extensions.Connectors
+  commentId: N:BindOpen.Extensions.Connectors
+  isExternal: true
+  name: BindOpen.Extensions.Connectors
+  nameWithType: BindOpen.Extensions.Connectors
+  fullName: BindOpen.Extensions.Connectors
+shouldSkipMarkup: true

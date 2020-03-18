@@ -1,0 +1,1066 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Data.Queries.IDbQuery
+  commentId: T:BindOpen.Data.Queries.IDbQuery
+  id: IDbQuery
+  parent: BindOpen.Data.Queries
+  children:
+  - BindOpen.Data.Queries.IDbQuery.AddParameter(BindOpen.Data.Elements.ScalarElement)
+  - BindOpen.Data.Queries.IDbQuery.CheckExistence(System.Boolean)
+  - BindOpen.Data.Queries.IDbQuery.CTETables
+  - BindOpen.Data.Queries.IDbQuery.DataModule
+  - BindOpen.Data.Queries.IDbQuery.DataTable
+  - BindOpen.Data.Queries.IDbQuery.DataTableAlias
+  - BindOpen.Data.Queries.IDbQuery.GetName
+  - BindOpen.Data.Queries.IDbQuery.Kind
+  - BindOpen.Data.Queries.IDbQuery.ParameterSet
+  - BindOpen.Data.Queries.IDbQuery.ParameterSpecSet
+  - BindOpen.Data.Queries.IDbQuery.Schema
+  - BindOpen.Data.Queries.IDbQuery.UseParameter(System.String,BindOpen.Data.Common.DataValueType,System.Object)
+  - BindOpen.Data.Queries.IDbQuery.UseParameter(System.String,System.Object)
+  - BindOpen.Data.Queries.IDbQuery.UsingParameters(BindOpen.Data.Elements.IDataElementSpec[])
+  - BindOpen.Data.Queries.IDbQuery.WithCTE(BindOpen.Extensions.Carriers.DbTable[])
+  - BindOpen.Data.Queries.IDbQuery.WithParameters(BindOpen.Data.Elements.IDataElement[])
+  langs:
+  - csharp
+  - vb
+  name: IDbQuery
+  nameWithType: IDbQuery
+  fullName: BindOpen.Data.Queries.IDbQuery
+  type: Interface
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\n\n"
+  syntax:
+    content: 'public interface IDbQuery : IDescribedDataItem, ITitledDataItem, INamedDataItem, IStoredDataItem, IIdentifiedDataItem, IDataItem, ICloneable, IDisposable, IIdentified, IReferenced, IStorable, INamed, IGloballyTitled, IGloballyDescribed, IDbQueryItem'
+    content.vb: >-
+      Public Interface IDbQuery
+          Inherits IDescribedDataItem, ITitledDataItem, INamedDataItem, IStoredDataItem, IIdentifiedDataItem, IDataItem, ICloneable, IDisposable, IIdentified, IReferenced, IStorable, INamed, IGloballyTitled, IGloballyDescribed, IDbQueryItem
+  inheritedMembers:
+  - BindOpen.Data.Queries.IDbQueryItem.Expression
+  extensionMethods:
+  - BindOpen.Data.Queries.IDbQuery.BindOpen.Data.Connections.BdoDbConnectionExtensions.CreateCommand``1(BindOpen.Data.Queries.DbQueryParameterMode,BindOpen.Data.Elements.IDataElementSet,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: BindOpen.Data.Queries.IDbQuery.CheckExistence(System.Boolean)
+  commentId: M:BindOpen.Data.Queries.IDbQuery.CheckExistence(System.Boolean)
+  id: CheckExistence(System.Boolean)
+  parent: BindOpen.Data.Queries.IDbQuery
+  langs:
+  - csharp
+  - vb
+  name: CheckExistence(Boolean)
+  nameWithType: IDbQuery.CheckExistence(Boolean)
+  fullName: BindOpen.Data.Queries.IDbQuery.CheckExistence(System.Boolean)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nIndicates that this instance checks the existence of table or data according to the kind of queries.\n"
+  syntax:
+    content: IDbQuery CheckExistence(bool isExistenceChecked = true)
+    parameters:
+    - id: isExistenceChecked
+      type: System.Boolean
+      description: Indicates whether this instance checks the existence of table or data.
+    return:
+      type: BindOpen.Data.Queries.IDbQuery
+      description: Return this instance.
+    content.vb: Function CheckExistence(isExistenceChecked As Boolean = True) As IDbQuery
+  overload: BindOpen.Data.Queries.IDbQuery.CheckExistence*
+- uid: BindOpen.Data.Queries.IDbQuery.WithParameters(BindOpen.Data.Elements.IDataElement[])
+  commentId: M:BindOpen.Data.Queries.IDbQuery.WithParameters(BindOpen.Data.Elements.IDataElement[])
+  id: WithParameters(BindOpen.Data.Elements.IDataElement[])
+  parent: BindOpen.Data.Queries.IDbQuery
+  langs:
+  - csharp
+  - vb
+  name: WithParameters(IDataElement[])
+  nameWithType: IDbQuery.WithParameters(IDataElement[])
+  fullName: BindOpen.Data.Queries.IDbQuery.WithParameters(BindOpen.Data.Elements.IDataElement[])
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nDefines the parameters of this instance.\n"
+  syntax:
+    content: IDbQuery WithParameters(params IDataElement[] parameters)
+    parameters:
+    - id: parameters
+      type: BindOpen.Data.Elements.IDataElement[]
+      description: The set of parameters to consider.
+    return:
+      type: BindOpen.Data.Queries.IDbQuery
+      description: Return this instance.
+    content.vb: Function WithParameters(ParamArray parameters As IDataElement()) As IDbQuery
+  overload: BindOpen.Data.Queries.IDbQuery.WithParameters*
+  nameWithType.vb: IDbQuery.WithParameters(IDataElement())
+  fullName.vb: BindOpen.Data.Queries.IDbQuery.WithParameters(BindOpen.Data.Elements.IDataElement())
+  name.vb: WithParameters(IDataElement())
+- uid: BindOpen.Data.Queries.IDbQuery.AddParameter(BindOpen.Data.Elements.ScalarElement)
+  commentId: M:BindOpen.Data.Queries.IDbQuery.AddParameter(BindOpen.Data.Elements.ScalarElement)
+  id: AddParameter(BindOpen.Data.Elements.ScalarElement)
+  parent: BindOpen.Data.Queries.IDbQuery
+  langs:
+  - csharp
+  - vb
+  name: AddParameter(ScalarElement)
+  nameWithType: IDbQuery.AddParameter(ScalarElement)
+  fullName: BindOpen.Data.Queries.IDbQuery.AddParameter(BindOpen.Data.Elements.ScalarElement)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nAdd the specified parameter to this instance.\n"
+  syntax:
+    content: IDbQuery AddParameter(ScalarElement parameter)
+    parameters:
+    - id: parameter
+      type: BindOpen.Data.Elements.ScalarElement
+      description: The parameter to consider.
+    return:
+      type: BindOpen.Data.Queries.IDbQuery
+      description: Return this instance.
+    content.vb: Function AddParameter(parameter As ScalarElement) As IDbQuery
+  overload: BindOpen.Data.Queries.IDbQuery.AddParameter*
+- uid: BindOpen.Data.Queries.IDbQuery.UsingParameters(BindOpen.Data.Elements.IDataElementSpec[])
+  commentId: M:BindOpen.Data.Queries.IDbQuery.UsingParameters(BindOpen.Data.Elements.IDataElementSpec[])
+  id: UsingParameters(BindOpen.Data.Elements.IDataElementSpec[])
+  parent: BindOpen.Data.Queries.IDbQuery
+  langs:
+  - csharp
+  - vb
+  name: UsingParameters(IDataElementSpec[])
+  nameWithType: IDbQuery.UsingParameters(IDataElementSpec[])
+  fullName: BindOpen.Data.Queries.IDbQuery.UsingParameters(BindOpen.Data.Elements.IDataElementSpec[])
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nDefines the parameter specifications of this instance.\n"
+  syntax:
+    content: IDbQuery UsingParameters(params IDataElementSpec[] parameterSpecs)
+    parameters:
+    - id: parameterSpecs
+      type: BindOpen.Data.Elements.IDataElementSpec[]
+    return:
+      type: BindOpen.Data.Queries.IDbQuery
+      description: Return this instance.
+    content.vb: Function UsingParameters(ParamArray parameterSpecs As IDataElementSpec()) As IDbQuery
+  overload: BindOpen.Data.Queries.IDbQuery.UsingParameters*
+  nameWithType.vb: IDbQuery.UsingParameters(IDataElementSpec())
+  fullName.vb: BindOpen.Data.Queries.IDbQuery.UsingParameters(BindOpen.Data.Elements.IDataElementSpec())
+  name.vb: UsingParameters(IDataElementSpec())
+- uid: BindOpen.Data.Queries.IDbQuery.GetName
+  commentId: M:BindOpen.Data.Queries.IDbQuery.GetName
+  id: GetName
+  parent: BindOpen.Data.Queries.IDbQuery
+  langs:
+  - csharp
+  - vb
+  name: GetName()
+  nameWithType: IDbQuery.GetName()
+  fullName: BindOpen.Data.Queries.IDbQuery.GetName()
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nGets the name of this instance.\n"
+  remarks: If the name of this instance is empty or null then the returned name is determined from this instance&apos;s properties.
+  syntax:
+    content: string GetName()
+    return:
+      type: System.String
+      description: Returns the name of this instance.
+    content.vb: Function GetName As String
+  overload: BindOpen.Data.Queries.IDbQuery.GetName*
+- uid: BindOpen.Data.Queries.IDbQuery.UseParameter(System.String,System.Object)
+  commentId: M:BindOpen.Data.Queries.IDbQuery.UseParameter(System.String,System.Object)
+  id: UseParameter(System.String,System.Object)
+  parent: BindOpen.Data.Queries.IDbQuery
+  langs:
+  - csharp
+  - vb
+  name: UseParameter(String, Object)
+  nameWithType: IDbQuery.UseParameter(String, Object)
+  fullName: BindOpen.Data.Queries.IDbQuery.UseParameter(System.String, System.Object)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nAdds the specified parameter to this instance.\n"
+  syntax:
+    content: ScalarElement UseParameter(string name, object value = null)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name to consider.
+    - id: value
+      type: System.Object
+      description: The data table to consider.
+    return:
+      type: BindOpen.Data.Elements.ScalarElement
+      description: Return this added parameter.
+    content.vb: Function UseParameter(name As String, value As Object = Nothing) As ScalarElement
+  overload: BindOpen.Data.Queries.IDbQuery.UseParameter*
+- uid: BindOpen.Data.Queries.IDbQuery.UseParameter(System.String,BindOpen.Data.Common.DataValueType,System.Object)
+  commentId: M:BindOpen.Data.Queries.IDbQuery.UseParameter(System.String,BindOpen.Data.Common.DataValueType,System.Object)
+  id: UseParameter(System.String,BindOpen.Data.Common.DataValueType,System.Object)
+  parent: BindOpen.Data.Queries.IDbQuery
+  langs:
+  - csharp
+  - vb
+  name: UseParameter(String, DataValueType, Object)
+  nameWithType: IDbQuery.UseParameter(String, DataValueType, Object)
+  fullName: BindOpen.Data.Queries.IDbQuery.UseParameter(System.String, BindOpen.Data.Common.DataValueType, System.Object)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nAdds the specified parameter to this instance.\n"
+  syntax:
+    content: ScalarElement UseParameter(string name, DataValueType valueType, object value = null)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name to consider.
+    - id: valueType
+      type: BindOpen.Data.Common.DataValueType
+      description: The data value type to consider.
+    - id: value
+      type: System.Object
+      description: The data table to consider.
+    return:
+      type: BindOpen.Data.Elements.ScalarElement
+      description: Return this added parameter.
+    content.vb: Function UseParameter(name As String, valueType As DataValueType, value As Object = Nothing) As ScalarElement
+  overload: BindOpen.Data.Queries.IDbQuery.UseParameter*
+- uid: BindOpen.Data.Queries.IDbQuery.WithCTE(BindOpen.Extensions.Carriers.DbTable[])
+  commentId: M:BindOpen.Data.Queries.IDbQuery.WithCTE(BindOpen.Extensions.Carriers.DbTable[])
+  id: WithCTE(BindOpen.Extensions.Carriers.DbTable[])
+  parent: BindOpen.Data.Queries.IDbQuery
+  langs:
+  - csharp
+  - vb
+  name: WithCTE(DbTable[])
+  nameWithType: IDbQuery.WithCTE(DbTable[])
+  fullName: BindOpen.Data.Queries.IDbQuery.WithCTE(BindOpen.Extensions.Carriers.DbTable[])
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nSets the specified CTE tables.\n"
+  syntax:
+    content: IDbQuery WithCTE(params DbTable[] tables)
+    parameters:
+    - id: tables
+      type: BindOpen.Extensions.Carriers.DbTable[]
+      description: The CTE tables to consider.
+    return:
+      type: BindOpen.Data.Queries.IDbQuery
+      description: Returns this instance.
+    content.vb: Function WithCTE(ParamArray tables As DbTable()) As IDbQuery
+  overload: BindOpen.Data.Queries.IDbQuery.WithCTE*
+  nameWithType.vb: IDbQuery.WithCTE(DbTable())
+  fullName.vb: BindOpen.Data.Queries.IDbQuery.WithCTE(BindOpen.Extensions.Carriers.DbTable())
+  name.vb: WithCTE(DbTable())
+- uid: BindOpen.Data.Queries.IDbQuery.DataModule
+  commentId: P:BindOpen.Data.Queries.IDbQuery.DataModule
+  id: DataModule
+  parent: BindOpen.Data.Queries.IDbQuery
+  langs:
+  - csharp
+  - vb
+  name: DataModule
+  nameWithType: IDbQuery.DataModule
+  fullName: BindOpen.Data.Queries.IDbQuery.DataModule
+  type: Property
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nThe name of data module of this instance.\n"
+  syntax:
+    content: string DataModule { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property DataModule As String
+  overload: BindOpen.Data.Queries.IDbQuery.DataModule*
+  modifiers.csharp:
+  - get
+  - set
+- uid: BindOpen.Data.Queries.IDbQuery.DataTable
+  commentId: P:BindOpen.Data.Queries.IDbQuery.DataTable
+  id: DataTable
+  parent: BindOpen.Data.Queries.IDbQuery
+  langs:
+  - csharp
+  - vb
+  name: DataTable
+  nameWithType: IDbQuery.DataTable
+  fullName: BindOpen.Data.Queries.IDbQuery.DataTable
+  type: Property
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nThe table name of this instance.\n"
+  syntax:
+    content: string DataTable { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property DataTable As String
+  overload: BindOpen.Data.Queries.IDbQuery.DataTable*
+  modifiers.csharp:
+  - get
+  - set
+- uid: BindOpen.Data.Queries.IDbQuery.DataTableAlias
+  commentId: P:BindOpen.Data.Queries.IDbQuery.DataTableAlias
+  id: DataTableAlias
+  parent: BindOpen.Data.Queries.IDbQuery
+  langs:
+  - csharp
+  - vb
+  name: DataTableAlias
+  nameWithType: IDbQuery.DataTableAlias
+  fullName: BindOpen.Data.Queries.IDbQuery.DataTableAlias
+  type: Property
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nThe data table alias of this instance.\n"
+  syntax:
+    content: string DataTableAlias { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property DataTableAlias As String
+  overload: BindOpen.Data.Queries.IDbQuery.DataTableAlias*
+  modifiers.csharp:
+  - get
+  - set
+- uid: BindOpen.Data.Queries.IDbQuery.Kind
+  commentId: P:BindOpen.Data.Queries.IDbQuery.Kind
+  id: Kind
+  parent: BindOpen.Data.Queries.IDbQuery
+  langs:
+  - csharp
+  - vb
+  name: Kind
+  nameWithType: IDbQuery.Kind
+  fullName: BindOpen.Data.Queries.IDbQuery.Kind
+  type: Property
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nThe kind of this instance.\n"
+  syntax:
+    content: DbQueryKind Kind { get; set; }
+    parameters: []
+    return:
+      type: BindOpen.Data.Queries.DbQueryKind
+    content.vb: Property Kind As DbQueryKind
+  overload: BindOpen.Data.Queries.IDbQuery.Kind*
+  modifiers.csharp:
+  - get
+  - set
+- uid: BindOpen.Data.Queries.IDbQuery.Schema
+  commentId: P:BindOpen.Data.Queries.IDbQuery.Schema
+  id: Schema
+  parent: BindOpen.Data.Queries.IDbQuery
+  langs:
+  - csharp
+  - vb
+  name: Schema
+  nameWithType: IDbQuery.Schema
+  fullName: BindOpen.Data.Queries.IDbQuery.Schema
+  type: Property
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nThe schema of this instance.\n"
+  syntax:
+    content: string Schema { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property Schema As String
+  overload: BindOpen.Data.Queries.IDbQuery.Schema*
+  modifiers.csharp:
+  - get
+  - set
+- uid: BindOpen.Data.Queries.IDbQuery.ParameterSpecSet
+  commentId: P:BindOpen.Data.Queries.IDbQuery.ParameterSpecSet
+  id: ParameterSpecSet
+  parent: BindOpen.Data.Queries.IDbQuery
+  langs:
+  - csharp
+  - vb
+  name: ParameterSpecSet
+  nameWithType: IDbQuery.ParameterSpecSet
+  fullName: BindOpen.Data.Queries.IDbQuery.ParameterSpecSet
+  type: Property
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nThe parameter specification set of this instance.\n"
+  syntax:
+    content: DataElementSpecSet ParameterSpecSet { get; set; }
+    parameters: []
+    return:
+      type: BindOpen.Data.Elements.DataElementSpecSet
+    content.vb: Property ParameterSpecSet As DataElementSpecSet
+  overload: BindOpen.Data.Queries.IDbQuery.ParameterSpecSet*
+  modifiers.csharp:
+  - get
+  - set
+- uid: BindOpen.Data.Queries.IDbQuery.ParameterSet
+  commentId: P:BindOpen.Data.Queries.IDbQuery.ParameterSet
+  id: ParameterSet
+  parent: BindOpen.Data.Queries.IDbQuery
+  langs:
+  - csharp
+  - vb
+  name: ParameterSet
+  nameWithType: IDbQuery.ParameterSet
+  fullName: BindOpen.Data.Queries.IDbQuery.ParameterSet
+  type: Property
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nThe parameter set of this instance.\n"
+  syntax:
+    content: DataElementSet ParameterSet { get; set; }
+    parameters: []
+    return:
+      type: BindOpen.Data.Elements.DataElementSet
+    content.vb: Property ParameterSet As DataElementSet
+  overload: BindOpen.Data.Queries.IDbQuery.ParameterSet*
+  modifiers.csharp:
+  - get
+  - set
+- uid: BindOpen.Data.Queries.IDbQuery.CTETables
+  commentId: P:BindOpen.Data.Queries.IDbQuery.CTETables
+  id: CTETables
+  parent: BindOpen.Data.Queries.IDbQuery
+  langs:
+  - csharp
+  - vb
+  name: CTETables
+  nameWithType: IDbQuery.CTETables
+  fullName: BindOpen.Data.Queries.IDbQuery.CTETables
+  type: Property
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nThe select join statement of this instance.\n"
+  syntax:
+    content: List<DbTable> CTETables { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{BindOpen.Extensions.Carriers.DbTable}
+    content.vb: Property CTETables As List(Of DbTable)
+  overload: BindOpen.Data.Queries.IDbQuery.CTETables*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: BindOpen.Data.Queries
+  commentId: N:BindOpen.Data.Queries
+  isExternal: true
+  name: BindOpen.Data.Queries
+  nameWithType: BindOpen.Data.Queries
+  fullName: BindOpen.Data.Queries
+- uid: BindOpen.Data.Queries.IDbQueryItem.Expression
+  commentId: P:BindOpen.Data.Queries.IDbQueryItem.Expression
+  parent: BindOpen.Data.Queries.IDbQueryItem
+  isExternal: true
+  name: Expression
+  nameWithType: IDbQueryItem.Expression
+  fullName: BindOpen.Data.Queries.IDbQueryItem.Expression
+- uid: BindOpen.Data.Queries.IDbQuery.BindOpen.Data.Connections.BdoDbConnectionExtensions.CreateCommand``1(BindOpen.Data.Queries.DbQueryParameterMode,BindOpen.Data.Elements.IDataElementSet,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+  commentId: M:BindOpen.Data.Connections.BdoDbConnectionExtensions.CreateCommand``1(BindOpen.Data.Queries.IDbQuery,BindOpen.Data.Queries.DbQueryParameterMode,BindOpen.Data.Elements.IDataElementSet,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+  parent: BindOpen.Data.Connections.BdoDbConnectionExtensions
+  definition: BindOpen.Data.Connections.BdoDbConnectionExtensions.CreateCommand``1(BindOpen.Data.Queries.IDbQuery,BindOpen.Data.Queries.DbQueryParameterMode,BindOpen.Data.Elements.IDataElementSet,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+  name: CreateCommand<T>(DbQueryParameterMode, IDataElementSet, IBdoScriptVariableSet, IBdoLog)
+  nameWithType: BdoDbConnectionExtensions.CreateCommand<T>(DbQueryParameterMode, IDataElementSet, IBdoScriptVariableSet, IBdoLog)
+  fullName: BindOpen.Data.Connections.BdoDbConnectionExtensions.CreateCommand<T>(BindOpen.Data.Queries.DbQueryParameterMode, BindOpen.Data.Elements.IDataElementSet, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.System.Diagnostics.IBdoLog)
+  nameWithType.vb: BdoDbConnectionExtensions.CreateCommand(Of T)(DbQueryParameterMode, IDataElementSet, IBdoScriptVariableSet, IBdoLog)
+  fullName.vb: BindOpen.Data.Connections.BdoDbConnectionExtensions.CreateCommand(Of T)(BindOpen.Data.Queries.DbQueryParameterMode, BindOpen.Data.Elements.IDataElementSet, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.System.Diagnostics.IBdoLog)
+  name.vb: CreateCommand(Of T)(DbQueryParameterMode, IDataElementSet, IBdoScriptVariableSet, IBdoLog)
+  spec.csharp:
+  - uid: BindOpen.Data.Connections.BdoDbConnectionExtensions.CreateCommand``1(BindOpen.Data.Queries.DbQueryParameterMode,BindOpen.Data.Elements.IDataElementSet,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+    name: CreateCommand<T>
+    nameWithType: BdoDbConnectionExtensions.CreateCommand<T>
+    fullName: BindOpen.Data.Connections.BdoDbConnectionExtensions.CreateCommand<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Data.Queries.DbQueryParameterMode
+    name: DbQueryParameterMode
+    nameWithType: DbQueryParameterMode
+    fullName: BindOpen.Data.Queries.DbQueryParameterMode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Elements.IDataElementSet
+    name: IDataElementSet
+    nameWithType: IDataElementSet
+    fullName: BindOpen.Data.Elements.IDataElementSet
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Scripting.IBdoScriptVariableSet
+    name: IBdoScriptVariableSet
+    nameWithType: IBdoScriptVariableSet
+    fullName: BindOpen.System.Scripting.IBdoScriptVariableSet
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Connections.BdoDbConnectionExtensions.CreateCommand``1(BindOpen.Data.Queries.DbQueryParameterMode,BindOpen.Data.Elements.IDataElementSet,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+    name: CreateCommand(Of T)
+    nameWithType: BdoDbConnectionExtensions.CreateCommand(Of T)
+    fullName: BindOpen.Data.Connections.BdoDbConnectionExtensions.CreateCommand(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Data.Queries.DbQueryParameterMode
+    name: DbQueryParameterMode
+    nameWithType: DbQueryParameterMode
+    fullName: BindOpen.Data.Queries.DbQueryParameterMode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Elements.IDataElementSet
+    name: IDataElementSet
+    nameWithType: IDataElementSet
+    fullName: BindOpen.Data.Elements.IDataElementSet
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Scripting.IBdoScriptVariableSet
+    name: IBdoScriptVariableSet
+    nameWithType: IBdoScriptVariableSet
+    fullName: BindOpen.System.Scripting.IBdoScriptVariableSet
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Queries.IDbQueryItem
+  commentId: T:BindOpen.Data.Queries.IDbQueryItem
+  parent: BindOpen.Data.Queries
+  isExternal: true
+  name: IDbQueryItem
+  nameWithType: IDbQueryItem
+  fullName: BindOpen.Data.Queries.IDbQueryItem
+- uid: BindOpen.Data.Connections.BdoDbConnectionExtensions.CreateCommand``1(BindOpen.Data.Queries.IDbQuery,BindOpen.Data.Queries.DbQueryParameterMode,BindOpen.Data.Elements.IDataElementSet,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+  commentId: M:BindOpen.Data.Connections.BdoDbConnectionExtensions.CreateCommand``1(BindOpen.Data.Queries.IDbQuery,BindOpen.Data.Queries.DbQueryParameterMode,BindOpen.Data.Elements.IDataElementSet,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+  isExternal: true
+  name: CreateCommand<T>(IDbQuery, DbQueryParameterMode, IDataElementSet, IBdoScriptVariableSet, IBdoLog)
+  nameWithType: BdoDbConnectionExtensions.CreateCommand<T>(IDbQuery, DbQueryParameterMode, IDataElementSet, IBdoScriptVariableSet, IBdoLog)
+  fullName: BindOpen.Data.Connections.BdoDbConnectionExtensions.CreateCommand<T>(BindOpen.Data.Queries.IDbQuery, BindOpen.Data.Queries.DbQueryParameterMode, BindOpen.Data.Elements.IDataElementSet, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.System.Diagnostics.IBdoLog)
+  nameWithType.vb: BdoDbConnectionExtensions.CreateCommand(Of T)(IDbQuery, DbQueryParameterMode, IDataElementSet, IBdoScriptVariableSet, IBdoLog)
+  fullName.vb: BindOpen.Data.Connections.BdoDbConnectionExtensions.CreateCommand(Of T)(BindOpen.Data.Queries.IDbQuery, BindOpen.Data.Queries.DbQueryParameterMode, BindOpen.Data.Elements.IDataElementSet, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.System.Diagnostics.IBdoLog)
+  name.vb: CreateCommand(Of T)(IDbQuery, DbQueryParameterMode, IDataElementSet, IBdoScriptVariableSet, IBdoLog)
+  spec.csharp:
+  - uid: BindOpen.Data.Connections.BdoDbConnectionExtensions.CreateCommand``1(BindOpen.Data.Queries.IDbQuery,BindOpen.Data.Queries.DbQueryParameterMode,BindOpen.Data.Elements.IDataElementSet,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+    name: CreateCommand<T>
+    nameWithType: BdoDbConnectionExtensions.CreateCommand<T>
+    fullName: BindOpen.Data.Connections.BdoDbConnectionExtensions.CreateCommand<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Data.Queries.IDbQuery
+    name: IDbQuery
+    nameWithType: IDbQuery
+    fullName: BindOpen.Data.Queries.IDbQuery
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Queries.DbQueryParameterMode
+    name: DbQueryParameterMode
+    nameWithType: DbQueryParameterMode
+    fullName: BindOpen.Data.Queries.DbQueryParameterMode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Elements.IDataElementSet
+    name: IDataElementSet
+    nameWithType: IDataElementSet
+    fullName: BindOpen.Data.Elements.IDataElementSet
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Scripting.IBdoScriptVariableSet
+    name: IBdoScriptVariableSet
+    nameWithType: IBdoScriptVariableSet
+    fullName: BindOpen.System.Scripting.IBdoScriptVariableSet
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Connections.BdoDbConnectionExtensions.CreateCommand``1(BindOpen.Data.Queries.IDbQuery,BindOpen.Data.Queries.DbQueryParameterMode,BindOpen.Data.Elements.IDataElementSet,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+    name: CreateCommand(Of T)
+    nameWithType: BdoDbConnectionExtensions.CreateCommand(Of T)
+    fullName: BindOpen.Data.Connections.BdoDbConnectionExtensions.CreateCommand(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Data.Queries.IDbQuery
+    name: IDbQuery
+    nameWithType: IDbQuery
+    fullName: BindOpen.Data.Queries.IDbQuery
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Queries.DbQueryParameterMode
+    name: DbQueryParameterMode
+    nameWithType: DbQueryParameterMode
+    fullName: BindOpen.Data.Queries.DbQueryParameterMode
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Elements.IDataElementSet
+    name: IDataElementSet
+    nameWithType: IDataElementSet
+    fullName: BindOpen.Data.Elements.IDataElementSet
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Scripting.IBdoScriptVariableSet
+    name: IBdoScriptVariableSet
+    nameWithType: IBdoScriptVariableSet
+    fullName: BindOpen.System.Scripting.IBdoScriptVariableSet
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Connections.BdoDbConnectionExtensions
+  commentId: T:BindOpen.Data.Connections.BdoDbConnectionExtensions
+  parent: BindOpen.Data.Connections
+  isExternal: true
+  name: BdoDbConnectionExtensions
+  nameWithType: BdoDbConnectionExtensions
+  fullName: BindOpen.Data.Connections.BdoDbConnectionExtensions
+- uid: BindOpen.Data.Connections
+  commentId: N:BindOpen.Data.Connections
+  isExternal: true
+  name: BindOpen.Data.Connections
+  nameWithType: BindOpen.Data.Connections
+  fullName: BindOpen.Data.Connections
+- uid: BindOpen.Data.Queries.IDbQuery.CheckExistence*
+  commentId: Overload:BindOpen.Data.Queries.IDbQuery.CheckExistence
+  isExternal: true
+  name: CheckExistence
+  nameWithType: IDbQuery.CheckExistence
+  fullName: BindOpen.Data.Queries.IDbQuery.CheckExistence
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: BindOpen.Data.Queries.IDbQuery
+  commentId: T:BindOpen.Data.Queries.IDbQuery
+  parent: BindOpen.Data.Queries
+  isExternal: true
+  name: IDbQuery
+  nameWithType: IDbQuery
+  fullName: BindOpen.Data.Queries.IDbQuery
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Data.Queries.IDbQuery.WithParameters*
+  commentId: Overload:BindOpen.Data.Queries.IDbQuery.WithParameters
+  isExternal: true
+  name: WithParameters
+  nameWithType: IDbQuery.WithParameters
+  fullName: BindOpen.Data.Queries.IDbQuery.WithParameters
+- uid: BindOpen.Data.Elements.IDataElement[]
+  isExternal: true
+  name: IDataElement[]
+  nameWithType: IDataElement[]
+  fullName: BindOpen.Data.Elements.IDataElement[]
+  nameWithType.vb: IDataElement()
+  fullName.vb: BindOpen.Data.Elements.IDataElement()
+  name.vb: IDataElement()
+  spec.csharp:
+  - uid: BindOpen.Data.Elements.IDataElement
+    name: IDataElement
+    nameWithType: IDataElement
+    fullName: BindOpen.Data.Elements.IDataElement
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: BindOpen.Data.Elements.IDataElement
+    name: IDataElement
+    nameWithType: IDataElement
+    fullName: BindOpen.Data.Elements.IDataElement
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: BindOpen.Data.Queries.IDbQuery.AddParameter*
+  commentId: Overload:BindOpen.Data.Queries.IDbQuery.AddParameter
+  isExternal: true
+  name: AddParameter
+  nameWithType: IDbQuery.AddParameter
+  fullName: BindOpen.Data.Queries.IDbQuery.AddParameter
+- uid: BindOpen.Data.Elements.ScalarElement
+  isExternal: true
+  name: ScalarElement
+  nameWithType: ScalarElement
+  fullName: BindOpen.Data.Elements.ScalarElement
+- uid: BindOpen.Data.Queries.IDbQuery.UsingParameters*
+  commentId: Overload:BindOpen.Data.Queries.IDbQuery.UsingParameters
+  isExternal: true
+  name: UsingParameters
+  nameWithType: IDbQuery.UsingParameters
+  fullName: BindOpen.Data.Queries.IDbQuery.UsingParameters
+- uid: BindOpen.Data.Elements.IDataElementSpec[]
+  isExternal: true
+  name: IDataElementSpec[]
+  nameWithType: IDataElementSpec[]
+  fullName: BindOpen.Data.Elements.IDataElementSpec[]
+  nameWithType.vb: IDataElementSpec()
+  fullName.vb: BindOpen.Data.Elements.IDataElementSpec()
+  name.vb: IDataElementSpec()
+  spec.csharp:
+  - uid: BindOpen.Data.Elements.IDataElementSpec
+    name: IDataElementSpec
+    nameWithType: IDataElementSpec
+    fullName: BindOpen.Data.Elements.IDataElementSpec
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: BindOpen.Data.Elements.IDataElementSpec
+    name: IDataElementSpec
+    nameWithType: IDataElementSpec
+    fullName: BindOpen.Data.Elements.IDataElementSpec
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: BindOpen.Data.Queries.IDbQuery.GetName*
+  commentId: Overload:BindOpen.Data.Queries.IDbQuery.GetName
+  isExternal: true
+  name: GetName
+  nameWithType: IDbQuery.GetName
+  fullName: BindOpen.Data.Queries.IDbQuery.GetName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: BindOpen.Data.Queries.IDbQuery.UseParameter*
+  commentId: Overload:BindOpen.Data.Queries.IDbQuery.UseParameter
+  isExternal: true
+  name: UseParameter
+  nameWithType: IDbQuery.UseParameter
+  fullName: BindOpen.Data.Queries.IDbQuery.UseParameter
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BindOpen.Data.Common.DataValueType
+  isExternal: true
+  name: DataValueType
+  nameWithType: DataValueType
+  fullName: BindOpen.Data.Common.DataValueType
+- uid: BindOpen.Data.Queries.IDbQuery.WithCTE*
+  commentId: Overload:BindOpen.Data.Queries.IDbQuery.WithCTE
+  isExternal: true
+  name: WithCTE
+  nameWithType: IDbQuery.WithCTE
+  fullName: BindOpen.Data.Queries.IDbQuery.WithCTE
+- uid: BindOpen.Extensions.Carriers.DbTable[]
+  isExternal: true
+  name: DbTable[]
+  nameWithType: DbTable[]
+  fullName: BindOpen.Extensions.Carriers.DbTable[]
+  nameWithType.vb: DbTable()
+  fullName.vb: BindOpen.Extensions.Carriers.DbTable()
+  name.vb: DbTable()
+  spec.csharp:
+  - uid: BindOpen.Extensions.Carriers.DbTable
+    name: DbTable
+    nameWithType: DbTable
+    fullName: BindOpen.Extensions.Carriers.DbTable
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: BindOpen.Extensions.Carriers.DbTable
+    name: DbTable
+    nameWithType: DbTable
+    fullName: BindOpen.Extensions.Carriers.DbTable
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: BindOpen.Data.Queries.IDbQuery.DataModule*
+  commentId: Overload:BindOpen.Data.Queries.IDbQuery.DataModule
+  isExternal: true
+  name: DataModule
+  nameWithType: IDbQuery.DataModule
+  fullName: BindOpen.Data.Queries.IDbQuery.DataModule
+- uid: BindOpen.Data.Queries.IDbQuery.DataTable*
+  commentId: Overload:BindOpen.Data.Queries.IDbQuery.DataTable
+  isExternal: true
+  name: DataTable
+  nameWithType: IDbQuery.DataTable
+  fullName: BindOpen.Data.Queries.IDbQuery.DataTable
+- uid: BindOpen.Data.Queries.IDbQuery.DataTableAlias*
+  commentId: Overload:BindOpen.Data.Queries.IDbQuery.DataTableAlias
+  isExternal: true
+  name: DataTableAlias
+  nameWithType: IDbQuery.DataTableAlias
+  fullName: BindOpen.Data.Queries.IDbQuery.DataTableAlias
+- uid: BindOpen.Data.Queries.IDbQuery.Kind*
+  commentId: Overload:BindOpen.Data.Queries.IDbQuery.Kind
+  isExternal: true
+  name: Kind
+  nameWithType: IDbQuery.Kind
+  fullName: BindOpen.Data.Queries.IDbQuery.Kind
+- uid: BindOpen.Data.Queries.DbQueryKind
+  commentId: T:BindOpen.Data.Queries.DbQueryKind
+  parent: BindOpen.Data.Queries
+  isExternal: true
+  name: DbQueryKind
+  nameWithType: DbQueryKind
+  fullName: BindOpen.Data.Queries.DbQueryKind
+- uid: BindOpen.Data.Queries.IDbQuery.Schema*
+  commentId: Overload:BindOpen.Data.Queries.IDbQuery.Schema
+  isExternal: true
+  name: Schema
+  nameWithType: IDbQuery.Schema
+  fullName: BindOpen.Data.Queries.IDbQuery.Schema
+- uid: BindOpen.Data.Queries.IDbQuery.ParameterSpecSet*
+  commentId: Overload:BindOpen.Data.Queries.IDbQuery.ParameterSpecSet
+  isExternal: true
+  name: ParameterSpecSet
+  nameWithType: IDbQuery.ParameterSpecSet
+  fullName: BindOpen.Data.Queries.IDbQuery.ParameterSpecSet
+- uid: BindOpen.Data.Elements.DataElementSpecSet
+  isExternal: true
+  name: DataElementSpecSet
+  nameWithType: DataElementSpecSet
+  fullName: BindOpen.Data.Elements.DataElementSpecSet
+- uid: BindOpen.Data.Queries.IDbQuery.ParameterSet*
+  commentId: Overload:BindOpen.Data.Queries.IDbQuery.ParameterSet
+  isExternal: true
+  name: ParameterSet
+  nameWithType: IDbQuery.ParameterSet
+  fullName: BindOpen.Data.Queries.IDbQuery.ParameterSet
+- uid: BindOpen.Data.Elements.DataElementSet
+  isExternal: true
+  name: DataElementSet
+  nameWithType: DataElementSet
+  fullName: BindOpen.Data.Elements.DataElementSet
+- uid: BindOpen.Data.Queries.IDbQuery.CTETables*
+  commentId: Overload:BindOpen.Data.Queries.IDbQuery.CTETables
+  isExternal: true
+  name: CTETables
+  nameWithType: IDbQuery.CTETables
+  fullName: BindOpen.Data.Queries.IDbQuery.CTETables
+- uid: System.Collections.Generic.List{BindOpen.Extensions.Carriers.DbTable}
+  commentId: '!:System.Collections.Generic.List{BindOpen.Extensions.Carriers.DbTable}'
+  definition: System.Collections.Generic.List`1
+  name: List<DbTable>
+  nameWithType: List<DbTable>
+  fullName: System.Collections.Generic.List<BindOpen.Extensions.Carriers.DbTable>
+  nameWithType.vb: List(Of DbTable)
+  fullName.vb: System.Collections.Generic.List(Of BindOpen.Extensions.Carriers.DbTable)
+  name.vb: List(Of DbTable)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BindOpen.Extensions.Carriers.DbTable
+    name: DbTable
+    nameWithType: DbTable
+    fullName: BindOpen.Extensions.Carriers.DbTable
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BindOpen.Extensions.Carriers.DbTable
+    name: DbTable
+    nameWithType: DbTable
+    fullName: BindOpen.Extensions.Carriers.DbTable
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+shouldSkipMarkup: true

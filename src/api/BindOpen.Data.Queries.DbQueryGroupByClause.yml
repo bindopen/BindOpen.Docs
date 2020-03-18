@@ -1,0 +1,286 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Data.Queries.DbQueryGroupByClause
+  commentId: T:BindOpen.Data.Queries.DbQueryGroupByClause
+  id: DbQueryGroupByClause
+  parent: BindOpen.Data.Queries
+  children:
+  - BindOpen.Data.Queries.DbQueryGroupByClause.#ctor
+  - BindOpen.Data.Queries.DbQueryGroupByClause.Expression
+  - BindOpen.Data.Queries.DbQueryGroupByClause.Fields
+  langs:
+  - csharp
+  - vb
+  name: DbQueryGroupByClause
+  nameWithType: DbQueryGroupByClause
+  fullName: BindOpen.Data.Queries.DbQueryGroupByClause
+  type: Class
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nThis class represents the GroupBy clause of a database data query.\n"
+  syntax:
+    content: 'public class DbQueryGroupByClause : Object, IDbQueryGroupByClause, IDbQueryItem'
+    content.vb: >-
+      Public Class DbQueryGroupByClause
+          Inherits Object
+          Implements IDbQueryGroupByClause, IDbQueryItem
+  inheritance:
+  - System.Object
+  implements:
+  - BindOpen.Data.Queries.IDbQueryGroupByClause
+  - BindOpen.Data.Queries.IDbQueryItem
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BindOpen.Data.Queries.DbQueryGroupByClause.#ctor
+  commentId: M:BindOpen.Data.Queries.DbQueryGroupByClause.#ctor
+  id: '#ctor'
+  parent: BindOpen.Data.Queries.DbQueryGroupByClause
+  langs:
+  - csharp
+  - vb
+  name: DbQueryGroupByClause()
+  nameWithType: DbQueryGroupByClause.DbQueryGroupByClause()
+  fullName: BindOpen.Data.Queries.DbQueryGroupByClause.DbQueryGroupByClause()
+  type: Constructor
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nInstantiates a new instance of the DbQueryGroupByClause class.\n"
+  syntax:
+    content: public DbQueryGroupByClause()
+    content.vb: Public Sub New
+  overload: BindOpen.Data.Queries.DbQueryGroupByClause.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Data.Queries.DbQueryGroupByClause.Fields
+  commentId: P:BindOpen.Data.Queries.DbQueryGroupByClause.Fields
+  id: Fields
+  parent: BindOpen.Data.Queries.DbQueryGroupByClause
+  langs:
+  - csharp
+  - vb
+  name: Fields
+  nameWithType: DbQueryGroupByClause.Fields
+  fullName: BindOpen.Data.Queries.DbQueryGroupByClause.Fields
+  type: Property
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nFields of this instance.\n"
+  syntax:
+    content: public List<DbField> Fields { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{BindOpen.Extensions.Carriers.DbField}
+    content.vb: Public Property Fields As List(Of DbField)
+  overload: BindOpen.Data.Queries.DbQueryGroupByClause.Fields*
+  implements:
+  - BindOpen.Data.Queries.IDbQueryGroupByClause.Fields
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Data.Queries.DbQueryGroupByClause.Expression
+  commentId: P:BindOpen.Data.Queries.DbQueryGroupByClause.Expression
+  id: Expression
+  parent: BindOpen.Data.Queries.DbQueryGroupByClause
+  langs:
+  - csharp
+  - vb
+  name: Expression
+  nameWithType: DbQueryGroupByClause.Expression
+  fullName: BindOpen.Data.Queries.DbQueryGroupByClause.Expression
+  type: Property
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nValue of this instance.\n"
+  syntax:
+    content: public DataExpression Expression { get; set; }
+    parameters: []
+    return:
+      type: BindOpen.Data.Expression.DataExpression
+    content.vb: Public Property Expression As DataExpression
+  overload: BindOpen.Data.Queries.DbQueryGroupByClause.Expression*
+  implements:
+  - BindOpen.Data.Queries.IDbQueryItem.Expression
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: BindOpen.Data.Queries
+  commentId: N:BindOpen.Data.Queries
+  isExternal: true
+  name: BindOpen.Data.Queries
+  nameWithType: BindOpen.Data.Queries
+  fullName: BindOpen.Data.Queries
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BindOpen.Data.Queries.IDbQueryGroupByClause
+  commentId: T:BindOpen.Data.Queries.IDbQueryGroupByClause
+  parent: BindOpen.Data.Queries
+  isExternal: true
+  name: IDbQueryGroupByClause
+  nameWithType: IDbQueryGroupByClause
+  fullName: BindOpen.Data.Queries.IDbQueryGroupByClause
+- uid: BindOpen.Data.Queries.IDbQueryItem
+  commentId: T:BindOpen.Data.Queries.IDbQueryItem
+  parent: BindOpen.Data.Queries
+  isExternal: true
+  name: IDbQueryItem
+  nameWithType: IDbQueryItem
+  fullName: BindOpen.Data.Queries.IDbQueryItem
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Data.Queries.DbQueryGroupByClause.#ctor*
+  commentId: Overload:BindOpen.Data.Queries.DbQueryGroupByClause.#ctor
+  isExternal: true
+  name: DbQueryGroupByClause
+  nameWithType: DbQueryGroupByClause.DbQueryGroupByClause
+  fullName: BindOpen.Data.Queries.DbQueryGroupByClause.DbQueryGroupByClause
+- uid: BindOpen.Data.Queries.DbQueryGroupByClause.Fields*
+  commentId: Overload:BindOpen.Data.Queries.DbQueryGroupByClause.Fields
+  isExternal: true
+  name: Fields
+  nameWithType: DbQueryGroupByClause.Fields
+  fullName: BindOpen.Data.Queries.DbQueryGroupByClause.Fields
+- uid: BindOpen.Data.Queries.IDbQueryGroupByClause.Fields
+  commentId: P:BindOpen.Data.Queries.IDbQueryGroupByClause.Fields
+  parent: BindOpen.Data.Queries.IDbQueryGroupByClause
+  isExternal: true
+  name: Fields
+  nameWithType: IDbQueryGroupByClause.Fields
+  fullName: BindOpen.Data.Queries.IDbQueryGroupByClause.Fields
+- uid: System.Collections.Generic.List{BindOpen.Extensions.Carriers.DbField}
+  commentId: '!:System.Collections.Generic.List{BindOpen.Extensions.Carriers.DbField}'
+  definition: System.Collections.Generic.List`1
+  name: List<DbField>
+  nameWithType: List<DbField>
+  fullName: System.Collections.Generic.List<BindOpen.Extensions.Carriers.DbField>
+  nameWithType.vb: List(Of DbField)
+  fullName.vb: System.Collections.Generic.List(Of BindOpen.Extensions.Carriers.DbField)
+  name.vb: List(Of DbField)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BindOpen.Extensions.Carriers.DbField
+    name: DbField
+    nameWithType: DbField
+    fullName: BindOpen.Extensions.Carriers.DbField
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BindOpen.Extensions.Carriers.DbField
+    name: DbField
+    nameWithType: DbField
+    fullName: BindOpen.Extensions.Carriers.DbField
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Queries.DbQueryGroupByClause.Expression*
+  commentId: Overload:BindOpen.Data.Queries.DbQueryGroupByClause.Expression
+  isExternal: true
+  name: Expression
+  nameWithType: DbQueryGroupByClause.Expression
+  fullName: BindOpen.Data.Queries.DbQueryGroupByClause.Expression
+- uid: BindOpen.Data.Queries.IDbQueryItem.Expression
+  commentId: P:BindOpen.Data.Queries.IDbQueryItem.Expression
+  parent: BindOpen.Data.Queries.IDbQueryItem
+  isExternal: true
+  name: Expression
+  nameWithType: IDbQueryItem.Expression
+  fullName: BindOpen.Data.Queries.IDbQueryItem.Expression
+- uid: BindOpen.Data.Expression.DataExpression
+  isExternal: true
+  name: DataExpression
+  nameWithType: DataExpression
+  fullName: BindOpen.Data.Expression.DataExpression
+shouldSkipMarkup: true

@@ -1,0 +1,275 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors
+  commentId: T:BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors
+  id: BdoScopeExtension_DbConnectors
+  parent: BindOpen.Application.Scopes
+  children:
+  - BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors.CreateDbConnector(BindOpen.Application.Scopes.IBdoScope,BindOpen.Extensions.Runtime.IBdoConnectorConfiguration,System.String,BindOpen.System.Diagnostics.IBdoLog,BindOpen.System.Scripting.IBdoScriptVariableSet)
+  - BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors.CreateDbConnector``1(BindOpen.Application.Scopes.IBdoScope,BindOpen.Extensions.Runtime.IBdoConnectorConfiguration,System.String,BindOpen.System.Diagnostics.IBdoLog,BindOpen.System.Scripting.IBdoScriptVariableSet)
+  - BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors.CreateDbConnector``1(BindOpen.Application.Scopes.IBdoScope,System.String)
+  langs:
+  - csharp
+  - vb
+  name: BdoScopeExtension_DbConnectors
+  nameWithType: BdoScopeExtension_DbConnectors
+  fullName: BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors
+  type: Class
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Application.Scopes
+  summary: "\nThis class represents a BindOpen scope extension.\n"
+  syntax:
+    content: 'public static class BdoScopeExtension_DbConnectors : Object'
+    content.vb: >-
+      Public Module BdoScopeExtension_DbConnectors
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors.CreateDbConnector``1(BindOpen.Application.Scopes.IBdoScope,System.String)
+  commentId: M:BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors.CreateDbConnector``1(BindOpen.Application.Scopes.IBdoScope,System.String)
+  id: CreateDbConnector``1(BindOpen.Application.Scopes.IBdoScope,System.String)
+  isExtensionMethod: true
+  parent: BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors
+  langs:
+  - csharp
+  - vb
+  name: CreateDbConnector<T>(IBdoScope, String)
+  nameWithType: BdoScopeExtension_DbConnectors.CreateDbConnector<T>(IBdoScope, String)
+  fullName: BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors.CreateDbConnector<T>(BindOpen.Application.Scopes.IBdoScope, System.String)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Application.Scopes
+  summary: "\nCreates the instance of the specified definition.\n"
+  syntax:
+    content: >-
+      public static T CreateDbConnector<T>(this IBdoScope scope, string name = null)
+          where T : class, IBdoDbConnector, new()
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: name
+      type: System.String
+      description: The name to consider.
+    typeParameters:
+    - id: T
+      description: The connector class to return.
+    return:
+      type: '{T}'
+      description: Returns the created connector.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CreateDbConnector(Of T As {Class, IBdoDbConnector, New})(scope As IBdoScope, name As String = Nothing) As T
+  overload: BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors.CreateDbConnector*
+  nameWithType.vb: BdoScopeExtension_DbConnectors.CreateDbConnector(Of T)(IBdoScope, String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors.CreateDbConnector(Of T)(BindOpen.Application.Scopes.IBdoScope, System.String)
+  name.vb: CreateDbConnector(Of T)(IBdoScope, String)
+- uid: BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors.CreateDbConnector``1(BindOpen.Application.Scopes.IBdoScope,BindOpen.Extensions.Runtime.IBdoConnectorConfiguration,System.String,BindOpen.System.Diagnostics.IBdoLog,BindOpen.System.Scripting.IBdoScriptVariableSet)
+  commentId: M:BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors.CreateDbConnector``1(BindOpen.Application.Scopes.IBdoScope,BindOpen.Extensions.Runtime.IBdoConnectorConfiguration,System.String,BindOpen.System.Diagnostics.IBdoLog,BindOpen.System.Scripting.IBdoScriptVariableSet)
+  id: CreateDbConnector``1(BindOpen.Application.Scopes.IBdoScope,BindOpen.Extensions.Runtime.IBdoConnectorConfiguration,System.String,BindOpen.System.Diagnostics.IBdoLog,BindOpen.System.Scripting.IBdoScriptVariableSet)
+  isExtensionMethod: true
+  parent: BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors
+  langs:
+  - csharp
+  - vb
+  name: CreateDbConnector<T>(IBdoScope, IBdoConnectorConfiguration, String, IBdoLog, IBdoScriptVariableSet)
+  nameWithType: BdoScopeExtension_DbConnectors.CreateDbConnector<T>(IBdoScope, IBdoConnectorConfiguration, String, IBdoLog, IBdoScriptVariableSet)
+  fullName: BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors.CreateDbConnector<T>(BindOpen.Application.Scopes.IBdoScope, BindOpen.Extensions.Runtime.IBdoConnectorConfiguration, System.String, BindOpen.System.Diagnostics.IBdoLog, BindOpen.System.Scripting.IBdoScriptVariableSet)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Application.Scopes
+  summary: "\nCreates the instance of the specified definition.\n"
+  syntax:
+    content: >-
+      public static T CreateDbConnector<T>(this IBdoScope scope, IBdoConnectorConfiguration configuration, string name = null, IBdoLog log = null, IBdoScriptVariableSet scriptVariableSet = null)
+          where T : class, IBdoDbConnector, new()
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: configuration
+      type: BindOpen.Extensions.Runtime.IBdoConnectorConfiguration
+      description: The configuration to consider.
+    - id: name
+      type: System.String
+      description: The name to consider.
+    - id: log
+      type: BindOpen.System.Diagnostics.IBdoLog
+      description: The log to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: The script variable set to use.
+    typeParameters:
+    - id: T
+      description: The connector class to return.
+    return:
+      type: '{T}'
+      description: Returns the created connector.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CreateDbConnector(Of T As {Class, IBdoDbConnector, New})(scope As IBdoScope, configuration As IBdoConnectorConfiguration, name As String = Nothing, log As IBdoLog = Nothing, scriptVariableSet As IBdoScriptVariableSet = Nothing) As T
+  overload: BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors.CreateDbConnector*
+  nameWithType.vb: BdoScopeExtension_DbConnectors.CreateDbConnector(Of T)(IBdoScope, IBdoConnectorConfiguration, String, IBdoLog, IBdoScriptVariableSet)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors.CreateDbConnector(Of T)(BindOpen.Application.Scopes.IBdoScope, BindOpen.Extensions.Runtime.IBdoConnectorConfiguration, System.String, BindOpen.System.Diagnostics.IBdoLog, BindOpen.System.Scripting.IBdoScriptVariableSet)
+  name.vb: CreateDbConnector(Of T)(IBdoScope, IBdoConnectorConfiguration, String, IBdoLog, IBdoScriptVariableSet)
+- uid: BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors.CreateDbConnector(BindOpen.Application.Scopes.IBdoScope,BindOpen.Extensions.Runtime.IBdoConnectorConfiguration,System.String,BindOpen.System.Diagnostics.IBdoLog,BindOpen.System.Scripting.IBdoScriptVariableSet)
+  commentId: M:BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors.CreateDbConnector(BindOpen.Application.Scopes.IBdoScope,BindOpen.Extensions.Runtime.IBdoConnectorConfiguration,System.String,BindOpen.System.Diagnostics.IBdoLog,BindOpen.System.Scripting.IBdoScriptVariableSet)
+  id: CreateDbConnector(BindOpen.Application.Scopes.IBdoScope,BindOpen.Extensions.Runtime.IBdoConnectorConfiguration,System.String,BindOpen.System.Diagnostics.IBdoLog,BindOpen.System.Scripting.IBdoScriptVariableSet)
+  isExtensionMethod: true
+  parent: BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors
+  langs:
+  - csharp
+  - vb
+  name: CreateDbConnector(IBdoScope, IBdoConnectorConfiguration, String, IBdoLog, IBdoScriptVariableSet)
+  nameWithType: BdoScopeExtension_DbConnectors.CreateDbConnector(IBdoScope, IBdoConnectorConfiguration, String, IBdoLog, IBdoScriptVariableSet)
+  fullName: BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors.CreateDbConnector(BindOpen.Application.Scopes.IBdoScope, BindOpen.Extensions.Runtime.IBdoConnectorConfiguration, System.String, BindOpen.System.Diagnostics.IBdoLog, BindOpen.System.Scripting.IBdoScriptVariableSet)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Application.Scopes
+  summary: "\nCreates the instance of the specified definition.\n"
+  syntax:
+    content: public static BdoDbConnector CreateDbConnector(this IBdoScope scope, IBdoConnectorConfiguration configuration = null, string name = null, IBdoLog log = null, IBdoScriptVariableSet scriptVariableSet = null)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: configuration
+      type: BindOpen.Extensions.Runtime.IBdoConnectorConfiguration
+      description: The configuration to consider.
+    - id: name
+      type: System.String
+      description: The name to consider.
+    - id: log
+      type: BindOpen.System.Diagnostics.IBdoLog
+      description: The log to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: The script variable set to use.
+    return:
+      type: BindOpen.Extensions.Connectors.BdoDbConnector
+      description: Returns the created connector.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CreateDbConnector(scope As IBdoScope, configuration As IBdoConnectorConfiguration = Nothing, name As String = Nothing, log As IBdoLog = Nothing, scriptVariableSet As IBdoScriptVariableSet = Nothing) As BdoDbConnector
+  overload: BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors.CreateDbConnector*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: BindOpen.Application.Scopes
+  commentId: N:BindOpen.Application.Scopes
+  isExternal: true
+  name: BindOpen.Application.Scopes
+  nameWithType: BindOpen.Application.Scopes
+  fullName: BindOpen.Application.Scopes
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors.CreateDbConnector*
+  commentId: Overload:BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors.CreateDbConnector
+  isExternal: true
+  name: CreateDbConnector
+  nameWithType: BdoScopeExtension_DbConnectors.CreateDbConnector
+  fullName: BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors.CreateDbConnector
+- uid: BindOpen.Application.Scopes.IBdoScope
+  isExternal: true
+  name: IBdoScope
+  nameWithType: IBdoScope
+  fullName: BindOpen.Application.Scopes.IBdoScope
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: BindOpen.Extensions.Runtime.IBdoConnectorConfiguration
+  isExternal: true
+  name: IBdoConnectorConfiguration
+  nameWithType: IBdoConnectorConfiguration
+  fullName: BindOpen.Extensions.Runtime.IBdoConnectorConfiguration
+- uid: BindOpen.System.Diagnostics.IBdoLog
+  isExternal: true
+  name: IBdoLog
+  nameWithType: IBdoLog
+  fullName: BindOpen.System.Diagnostics.IBdoLog
+- uid: BindOpen.System.Scripting.IBdoScriptVariableSet
+  isExternal: true
+  name: IBdoScriptVariableSet
+  nameWithType: IBdoScriptVariableSet
+  fullName: BindOpen.System.Scripting.IBdoScriptVariableSet
+- uid: BindOpen.Extensions.Connectors.BdoDbConnector
+  commentId: T:BindOpen.Extensions.Connectors.BdoDbConnector
+  parent: BindOpen.Extensions.Connectors
+  isExternal: true
+  name: BdoDbConnector
+  nameWithType: BdoDbConnector
+  fullName: BindOpen.Extensions.Connectors.BdoDbConnector
+- uid: BindOpen.Extensions.Connectors
+  commentId: N:BindOpen.Extensions.Connectors
+  isExternal: true
+  name: BindOpen.Extensions.Connectors
+  nameWithType: BindOpen.Extensions.Connectors
+  fullName: BindOpen.Extensions.Connectors
+shouldSkipMarkup: true

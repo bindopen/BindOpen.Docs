@@ -1,0 +1,24 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Application.Encryption
+  commentId: N:BindOpen.Application.Encryption
+  id: BindOpen.Application.Encryption
+  children:
+  - BindOpen.Application.Encryption.EncryptionHelper
+  langs:
+  - csharp
+  - vb
+  name: BindOpen.Application.Encryption
+  nameWithType: BindOpen.Application.Encryption
+  fullName: BindOpen.Application.Encryption
+  type: Namespace
+  assemblies:
+  - BindOpen.Runtime
+references:
+- uid: BindOpen.Application.Encryption.EncryptionHelper
+  commentId: T:BindOpen.Application.Encryption.EncryptionHelper
+  isExternal: true
+  name: EncryptionHelper
+  nameWithType: EncryptionHelper
+  fullName: BindOpen.Application.Encryption.EncryptionHelper
+shouldSkipMarkup: true

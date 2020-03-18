@@ -1,0 +1,455 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Data.Queries.DbTupledTable
+  commentId: T:BindOpen.Data.Queries.DbTupledTable
+  id: DbTupledTable
+  parent: BindOpen.Data.Queries
+  children:
+  - BindOpen.Data.Queries.DbTupledTable.#ctor(BindOpen.Data.Queries.DbTuple[])
+  - BindOpen.Data.Queries.DbTupledTable.Tuples
+  langs:
+  - csharp
+  - vb
+  name: DbTupledTable
+  nameWithType: DbTupledTable
+  fullName: BindOpen.Data.Queries.DbTupledTable
+  type: Class
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nThis class represents the tupled table.\n"
+  syntax:
+    content: 'public class DbTupledTable : DbTable, IDbQueryItem'
+    content.vb: >-
+      Public Class DbTupledTable
+          Inherits DbTable
+          Implements IDbQueryItem
+  inheritance:
+  - System.Object
+  - BindOpen.Extensions.Carriers.DbTable
+  implements:
+  - BindOpen.Data.Queries.IDbQueryItem
+  inheritedMembers:
+  - BindOpen.Extensions.Carriers.DbTable.ToString
+  - BindOpen.Extensions.Carriers.DbTable.WithDataModule(System.String)
+  - BindOpen.Extensions.Carriers.DbTable.WithSchema(System.String)
+  - BindOpen.Extensions.Carriers.DbTable.WithAlias(System.String)
+  - BindOpen.Extensions.Carriers.DbTable.DataModule
+  - BindOpen.Extensions.Carriers.DbTable.Schema
+  - BindOpen.Extensions.Carriers.DbTable.Alias
+  - BindOpen.Extensions.Carriers.DbTable.Expression
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BindOpen.Data.Queries.DbTupledTable.#ctor(BindOpen.Data.Queries.DbTuple[])
+  commentId: M:BindOpen.Data.Queries.DbTupledTable.#ctor(BindOpen.Data.Queries.DbTuple[])
+  id: '#ctor(BindOpen.Data.Queries.DbTuple[])'
+  parent: BindOpen.Data.Queries.DbTupledTable
+  langs:
+  - csharp
+  - vb
+  name: DbTupledTable(DbTuple[])
+  nameWithType: DbTupledTable.DbTupledTable(DbTuple[])
+  fullName: BindOpen.Data.Queries.DbTupledTable.DbTupledTable(BindOpen.Data.Queries.DbTuple[])
+  type: Constructor
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nInstantiates a new instance of the DbTupledTable class.\n"
+  syntax:
+    content: public DbTupledTable(params DbTuple[] tuples)
+    parameters:
+    - id: tuples
+      type: BindOpen.Data.Queries.DbTuple[]
+      description: The tuples to consider.
+    content.vb: Public Sub New(ParamArray tuples As DbTuple())
+  overload: BindOpen.Data.Queries.DbTupledTable.#ctor*
+  nameWithType.vb: DbTupledTable.DbTupledTable(DbTuple())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: BindOpen.Data.Queries.DbTupledTable.DbTupledTable(BindOpen.Data.Queries.DbTuple())
+  name.vb: DbTupledTable(DbTuple())
+- uid: BindOpen.Data.Queries.DbTupledTable.Tuples
+  commentId: P:BindOpen.Data.Queries.DbTupledTable.Tuples
+  id: Tuples
+  parent: BindOpen.Data.Queries.DbTupledTable
+  langs:
+  - csharp
+  - vb
+  name: Tuples
+  nameWithType: DbTupledTable.Tuples
+  fullName: BindOpen.Data.Queries.DbTupledTable.Tuples
+  type: Property
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nThe tuples of this instance.\n"
+  syntax:
+    content: public List<DbTuple> Tuples { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{BindOpen.Data.Queries.DbTuple}
+    content.vb: Public Property Tuples As List(Of DbTuple)
+  overload: BindOpen.Data.Queries.DbTupledTable.Tuples*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: BindOpen.Data.Queries
+  commentId: N:BindOpen.Data.Queries
+  isExternal: true
+  name: BindOpen.Data.Queries
+  nameWithType: BindOpen.Data.Queries
+  fullName: BindOpen.Data.Queries
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BindOpen.Extensions.Carriers.DbTable
+  commentId: T:BindOpen.Extensions.Carriers.DbTable
+  parent: BindOpen.Extensions.Carriers
+  isExternal: true
+  name: DbTable
+  nameWithType: DbTable
+  fullName: BindOpen.Extensions.Carriers.DbTable
+- uid: BindOpen.Data.Queries.IDbQueryItem
+  commentId: T:BindOpen.Data.Queries.IDbQueryItem
+  parent: BindOpen.Data.Queries
+  isExternal: true
+  name: IDbQueryItem
+  nameWithType: IDbQueryItem
+  fullName: BindOpen.Data.Queries.IDbQueryItem
+- uid: BindOpen.Extensions.Carriers.DbTable.ToString
+  commentId: M:BindOpen.Extensions.Carriers.DbTable.ToString
+  parent: BindOpen.Extensions.Carriers.DbTable
+  isExternal: true
+  name: ToString()
+  nameWithType: DbTable.ToString()
+  fullName: BindOpen.Extensions.Carriers.DbTable.ToString()
+  spec.csharp:
+  - uid: BindOpen.Extensions.Carriers.DbTable.ToString
+    name: ToString
+    nameWithType: DbTable.ToString
+    fullName: BindOpen.Extensions.Carriers.DbTable.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Extensions.Carriers.DbTable.ToString
+    name: ToString
+    nameWithType: DbTable.ToString
+    fullName: BindOpen.Extensions.Carriers.DbTable.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Extensions.Carriers.DbTable.WithDataModule(System.String)
+  commentId: M:BindOpen.Extensions.Carriers.DbTable.WithDataModule(System.String)
+  parent: BindOpen.Extensions.Carriers.DbTable
+  isExternal: true
+  name: WithDataModule(String)
+  nameWithType: DbTable.WithDataModule(String)
+  fullName: BindOpen.Extensions.Carriers.DbTable.WithDataModule(System.String)
+  spec.csharp:
+  - uid: BindOpen.Extensions.Carriers.DbTable.WithDataModule(System.String)
+    name: WithDataModule
+    nameWithType: DbTable.WithDataModule
+    fullName: BindOpen.Extensions.Carriers.DbTable.WithDataModule
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Extensions.Carriers.DbTable.WithDataModule(System.String)
+    name: WithDataModule
+    nameWithType: DbTable.WithDataModule
+    fullName: BindOpen.Extensions.Carriers.DbTable.WithDataModule
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Extensions.Carriers.DbTable.WithSchema(System.String)
+  commentId: M:BindOpen.Extensions.Carriers.DbTable.WithSchema(System.String)
+  parent: BindOpen.Extensions.Carriers.DbTable
+  isExternal: true
+  name: WithSchema(String)
+  nameWithType: DbTable.WithSchema(String)
+  fullName: BindOpen.Extensions.Carriers.DbTable.WithSchema(System.String)
+  spec.csharp:
+  - uid: BindOpen.Extensions.Carriers.DbTable.WithSchema(System.String)
+    name: WithSchema
+    nameWithType: DbTable.WithSchema
+    fullName: BindOpen.Extensions.Carriers.DbTable.WithSchema
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Extensions.Carriers.DbTable.WithSchema(System.String)
+    name: WithSchema
+    nameWithType: DbTable.WithSchema
+    fullName: BindOpen.Extensions.Carriers.DbTable.WithSchema
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Extensions.Carriers.DbTable.WithAlias(System.String)
+  commentId: M:BindOpen.Extensions.Carriers.DbTable.WithAlias(System.String)
+  parent: BindOpen.Extensions.Carriers.DbTable
+  isExternal: true
+  name: WithAlias(String)
+  nameWithType: DbTable.WithAlias(String)
+  fullName: BindOpen.Extensions.Carriers.DbTable.WithAlias(System.String)
+  spec.csharp:
+  - uid: BindOpen.Extensions.Carriers.DbTable.WithAlias(System.String)
+    name: WithAlias
+    nameWithType: DbTable.WithAlias
+    fullName: BindOpen.Extensions.Carriers.DbTable.WithAlias
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Extensions.Carriers.DbTable.WithAlias(System.String)
+    name: WithAlias
+    nameWithType: DbTable.WithAlias
+    fullName: BindOpen.Extensions.Carriers.DbTable.WithAlias
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Extensions.Carriers.DbTable.DataModule
+  commentId: P:BindOpen.Extensions.Carriers.DbTable.DataModule
+  parent: BindOpen.Extensions.Carriers.DbTable
+  isExternal: true
+  name: DataModule
+  nameWithType: DbTable.DataModule
+  fullName: BindOpen.Extensions.Carriers.DbTable.DataModule
+- uid: BindOpen.Extensions.Carriers.DbTable.Schema
+  commentId: P:BindOpen.Extensions.Carriers.DbTable.Schema
+  parent: BindOpen.Extensions.Carriers.DbTable
+  isExternal: true
+  name: Schema
+  nameWithType: DbTable.Schema
+  fullName: BindOpen.Extensions.Carriers.DbTable.Schema
+- uid: BindOpen.Extensions.Carriers.DbTable.Alias
+  commentId: P:BindOpen.Extensions.Carriers.DbTable.Alias
+  parent: BindOpen.Extensions.Carriers.DbTable
+  isExternal: true
+  name: Alias
+  nameWithType: DbTable.Alias
+  fullName: BindOpen.Extensions.Carriers.DbTable.Alias
+- uid: BindOpen.Extensions.Carriers.DbTable.Expression
+  commentId: P:BindOpen.Extensions.Carriers.DbTable.Expression
+  parent: BindOpen.Extensions.Carriers.DbTable
+  isExternal: true
+  name: Expression
+  nameWithType: DbTable.Expression
+  fullName: BindOpen.Extensions.Carriers.DbTable.Expression
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Extensions.Carriers
+  commentId: N:BindOpen.Extensions.Carriers
+  isExternal: true
+  name: BindOpen.Extensions.Carriers
+  nameWithType: BindOpen.Extensions.Carriers
+  fullName: BindOpen.Extensions.Carriers
+- uid: BindOpen.Data.Queries.DbTupledTable.#ctor*
+  commentId: Overload:BindOpen.Data.Queries.DbTupledTable.#ctor
+  isExternal: true
+  name: DbTupledTable
+  nameWithType: DbTupledTable.DbTupledTable
+  fullName: BindOpen.Data.Queries.DbTupledTable.DbTupledTable
+- uid: BindOpen.Data.Queries.DbTuple[]
+  isExternal: true
+  name: DbTuple[]
+  nameWithType: DbTuple[]
+  fullName: BindOpen.Data.Queries.DbTuple[]
+  nameWithType.vb: DbTuple()
+  fullName.vb: BindOpen.Data.Queries.DbTuple()
+  name.vb: DbTuple()
+  spec.csharp:
+  - uid: BindOpen.Data.Queries.DbTuple
+    name: DbTuple
+    nameWithType: DbTuple
+    fullName: BindOpen.Data.Queries.DbTuple
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: BindOpen.Data.Queries.DbTuple
+    name: DbTuple
+    nameWithType: DbTuple
+    fullName: BindOpen.Data.Queries.DbTuple
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: BindOpen.Data.Queries.DbTupledTable.Tuples*
+  commentId: Overload:BindOpen.Data.Queries.DbTupledTable.Tuples
+  isExternal: true
+  name: Tuples
+  nameWithType: DbTupledTable.Tuples
+  fullName: BindOpen.Data.Queries.DbTupledTable.Tuples
+- uid: System.Collections.Generic.List{BindOpen.Data.Queries.DbTuple}
+  commentId: '!:System.Collections.Generic.List{BindOpen.Data.Queries.DbTuple}'
+  definition: System.Collections.Generic.List`1
+  name: List<DbTuple>
+  nameWithType: List<DbTuple>
+  fullName: System.Collections.Generic.List<BindOpen.Data.Queries.DbTuple>
+  nameWithType.vb: List(Of DbTuple)
+  fullName.vb: System.Collections.Generic.List(Of BindOpen.Data.Queries.DbTuple)
+  name.vb: List(Of DbTuple)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BindOpen.Data.Queries.DbTuple
+    name: DbTuple
+    nameWithType: DbTuple
+    fullName: BindOpen.Data.Queries.DbTuple
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BindOpen.Data.Queries.DbTuple
+    name: DbTuple
+    nameWithType: DbTuple
+    fullName: BindOpen.Data.Queries.DbTuple
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: System.Collections.Generic.List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: System.Collections.Generic.List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+shouldSkipMarkup: true

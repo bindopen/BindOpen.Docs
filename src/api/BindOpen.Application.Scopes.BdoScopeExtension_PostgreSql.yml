@@ -1,0 +1,170 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Application.Scopes.BdoScopeExtension_PostgreSql
+  commentId: T:BindOpen.Application.Scopes.BdoScopeExtension_PostgreSql
+  id: BdoScopeExtension_PostgreSql
+  parent: BindOpen.Application.Scopes
+  children:
+  - BindOpen.Application.Scopes.BdoScopeExtension_PostgreSql.CreatePostgreSqlConnector(BindOpen.Application.Scopes.IBdoScope)
+  - BindOpen.Application.Scopes.BdoScopeExtension_PostgreSql.CreatePostgreSqlConnector(BindOpen.Application.Scopes.IBdoScope,System.String)
+  langs:
+  - csharp
+  - vb
+  name: BdoScopeExtension_PostgreSql
+  nameWithType: BdoScopeExtension_PostgreSql
+  fullName: BindOpen.Application.Scopes.BdoScopeExtension_PostgreSql
+  type: Class
+  source:
+    path: BindOpen.Databases.PostgreSql
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases.PostgreSql
+  namespace: BindOpen.Application.Scopes
+  summary: "\nThis class represents a BindOpen scope extension.\n"
+  syntax:
+    content: 'public static class BdoScopeExtension_PostgreSql : Object'
+    content.vb: >-
+      Public Module BdoScopeExtension_PostgreSql
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: BindOpen.Application.Scopes.BdoScopeExtension_PostgreSql.CreatePostgreSqlConnector(BindOpen.Application.Scopes.IBdoScope)
+  commentId: M:BindOpen.Application.Scopes.BdoScopeExtension_PostgreSql.CreatePostgreSqlConnector(BindOpen.Application.Scopes.IBdoScope)
+  id: CreatePostgreSqlConnector(BindOpen.Application.Scopes.IBdoScope)
+  isExtensionMethod: true
+  parent: BindOpen.Application.Scopes.BdoScopeExtension_PostgreSql
+  langs:
+  - csharp
+  - vb
+  name: CreatePostgreSqlConnector(IBdoScope)
+  nameWithType: BdoScopeExtension_PostgreSql.CreatePostgreSqlConnector(IBdoScope)
+  fullName: BindOpen.Application.Scopes.BdoScopeExtension_PostgreSql.CreatePostgreSqlConnector(BindOpen.Application.Scopes.IBdoScope)
+  type: Method
+  source:
+    path: BindOpen.Databases.PostgreSql
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases.PostgreSql
+  namespace: BindOpen.Application.Scopes
+  summary: "\nCreates a new PostgreSql connector.\n"
+  syntax:
+    content: public static IBdoDbConnector CreatePostgreSqlConnector(this IBdoScope scope)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    return:
+      type: BindOpen.Extensions.Connectors.IBdoDbConnector
+      description: Returns the connector.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CreatePostgreSqlConnector(scope As IBdoScope) As IBdoDbConnector
+  overload: BindOpen.Application.Scopes.BdoScopeExtension_PostgreSql.CreatePostgreSqlConnector*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Application.Scopes.BdoScopeExtension_PostgreSql.CreatePostgreSqlConnector(BindOpen.Application.Scopes.IBdoScope,System.String)
+  commentId: M:BindOpen.Application.Scopes.BdoScopeExtension_PostgreSql.CreatePostgreSqlConnector(BindOpen.Application.Scopes.IBdoScope,System.String)
+  id: CreatePostgreSqlConnector(BindOpen.Application.Scopes.IBdoScope,System.String)
+  isExtensionMethod: true
+  parent: BindOpen.Application.Scopes.BdoScopeExtension_PostgreSql
+  langs:
+  - csharp
+  - vb
+  name: CreatePostgreSqlConnector(IBdoScope, String)
+  nameWithType: BdoScopeExtension_PostgreSql.CreatePostgreSqlConnector(IBdoScope, String)
+  fullName: BindOpen.Application.Scopes.BdoScopeExtension_PostgreSql.CreatePostgreSqlConnector(BindOpen.Application.Scopes.IBdoScope, System.String)
+  type: Method
+  source:
+    path: BindOpen.Databases.PostgreSql
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases.PostgreSql
+  namespace: BindOpen.Application.Scopes
+  summary: "\nCreates a new PostgreSql connector.\n"
+  syntax:
+    content: public static IBdoDbConnector CreatePostgreSqlConnector(this IBdoScope scope, string connectionString = null)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: connectionString
+      type: System.String
+      description: The connection string to consider.
+    return:
+      type: BindOpen.Extensions.Connectors.IBdoDbConnector
+      description: Returns the connector.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CreatePostgreSqlConnector(scope As IBdoScope, connectionString As String = Nothing) As IBdoDbConnector
+  overload: BindOpen.Application.Scopes.BdoScopeExtension_PostgreSql.CreatePostgreSqlConnector*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: BindOpen.Application.Scopes
+  commentId: N:BindOpen.Application.Scopes
+  isExternal: true
+  name: BindOpen.Application.Scopes
+  nameWithType: BindOpen.Application.Scopes
+  fullName: BindOpen.Application.Scopes
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Application.Scopes.BdoScopeExtension_PostgreSql.CreatePostgreSqlConnector*
+  commentId: Overload:BindOpen.Application.Scopes.BdoScopeExtension_PostgreSql.CreatePostgreSqlConnector
+  isExternal: true
+  name: CreatePostgreSqlConnector
+  nameWithType: BdoScopeExtension_PostgreSql.CreatePostgreSqlConnector
+  fullName: BindOpen.Application.Scopes.BdoScopeExtension_PostgreSql.CreatePostgreSqlConnector
+- uid: BindOpen.Application.Scopes.IBdoScope
+  isExternal: true
+  name: IBdoScope
+  nameWithType: IBdoScope
+  fullName: BindOpen.Application.Scopes.IBdoScope
+- uid: BindOpen.Extensions.Connectors.IBdoDbConnector
+  commentId: T:BindOpen.Extensions.Connectors.IBdoDbConnector
+  parent: BindOpen.Extensions.Connectors
+  isExternal: true
+  name: IBdoDbConnector
+  nameWithType: IBdoDbConnector
+  fullName: BindOpen.Extensions.Connectors.IBdoDbConnector
+- uid: BindOpen.Extensions.Connectors
+  commentId: N:BindOpen.Extensions.Connectors
+  isExternal: true
+  name: BindOpen.Extensions.Connectors
+  nameWithType: BindOpen.Extensions.Connectors
+  fullName: BindOpen.Extensions.Connectors
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+shouldSkipMarkup: true

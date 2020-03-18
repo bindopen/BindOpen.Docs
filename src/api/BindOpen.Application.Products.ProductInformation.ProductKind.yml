@@ -1,0 +1,190 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Application.Products.ProductInformation.ProductKind
+  commentId: T:BindOpen.Application.Products.ProductInformation.ProductKind
+  id: ProductInformation.ProductKind
+  parent: BindOpen.Application.Products
+  children:
+  - BindOpen.Application.Products.ProductInformation.ProductKind.Any
+  - BindOpen.Application.Products.ProductInformation.ProductKind.Application
+  - BindOpen.Application.Products.ProductInformation.ProductKind.Module
+  - BindOpen.Application.Products.ProductInformation.ProductKind.value__
+  langs:
+  - csharp
+  - vb
+  name: ProductInformation.ProductKind
+  nameWithType: ProductInformation.ProductKind
+  fullName: BindOpen.Application.Products.ProductInformation.ProductKind
+  type: Class
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Products
+  summary: "\nThis enumeration lists all the possible product kinds.\n"
+  syntax:
+    content: 'public sealed class ProductKind : Enum'
+    content.vb: >-
+      Public NotInheritable Class ProductKind
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: BindOpen.Application.Products.ProductInformation.ProductKind.value__
+  commentId: F:BindOpen.Application.Products.ProductInformation.ProductKind.value__
+  id: value__
+  parent: BindOpen.Application.Products.ProductInformation.ProductKind
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: ProductInformation.ProductKind.value__
+  fullName: BindOpen.Application.Products.ProductInformation.ProductKind.value__
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Products
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Application.Products.ProductInformation.ProductKind.Any
+  commentId: F:BindOpen.Application.Products.ProductInformation.ProductKind.Any
+  id: Any
+  parent: BindOpen.Application.Products.ProductInformation.ProductKind
+  langs:
+  - csharp
+  - vb
+  name: Any
+  nameWithType: ProductInformation.ProductKind.Any
+  fullName: BindOpen.Application.Products.ProductInformation.ProductKind.Any
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Products
+  summary: "\nAny\n"
+  syntax:
+    content: public const ProductInformation.ProductKind Any
+    return:
+      type: BindOpen.Application.Products.ProductInformation.ProductKind
+    content.vb: Public Const Any As ProductInformation.ProductKind
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Application.Products.ProductInformation.ProductKind.Application
+  commentId: F:BindOpen.Application.Products.ProductInformation.ProductKind.Application
+  id: Application
+  parent: BindOpen.Application.Products.ProductInformation.ProductKind
+  langs:
+  - csharp
+  - vb
+  name: Application
+  nameWithType: ProductInformation.ProductKind.Application
+  fullName: BindOpen.Application.Products.ProductInformation.ProductKind.Application
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Products
+  summary: "\nApplication\n"
+  syntax:
+    content: public const ProductInformation.ProductKind Application
+    return:
+      type: BindOpen.Application.Products.ProductInformation.ProductKind
+    content.vb: Public Const Application As ProductInformation.ProductKind
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Application.Products.ProductInformation.ProductKind.Module
+  commentId: F:BindOpen.Application.Products.ProductInformation.ProductKind.Module
+  id: Module
+  parent: BindOpen.Application.Products.ProductInformation.ProductKind
+  langs:
+  - csharp
+  - vb
+  name: Module
+  nameWithType: ProductInformation.ProductKind.Module
+  fullName: BindOpen.Application.Products.ProductInformation.ProductKind.Module
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Products
+  summary: "\nModule\n"
+  syntax:
+    content: public const ProductInformation.ProductKind Module
+    return:
+      type: BindOpen.Application.Products.ProductInformation.ProductKind
+    content.vb: Public Const Module As ProductInformation.ProductKind
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: BindOpen.Application.Products
+  commentId: N:BindOpen.Application.Products
+  isExternal: true
+  name: BindOpen.Application.Products
+  nameWithType: BindOpen.Application.Products
+  fullName: BindOpen.Application.Products
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: BindOpen.Application.Products.ProductInformation.ProductKind
+  commentId: T:BindOpen.Application.Products.ProductInformation.ProductKind
+  parent: BindOpen.Application.Products
+  isExternal: true
+  name: ProductInformation.ProductKind
+  nameWithType: ProductInformation.ProductKind
+  fullName: BindOpen.Application.Products.ProductInformation.ProductKind
+shouldSkipMarkup: true

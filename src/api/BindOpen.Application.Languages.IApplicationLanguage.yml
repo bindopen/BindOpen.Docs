@@ -1,0 +1,123 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Application.Languages.IApplicationLanguage
+  commentId: T:BindOpen.Application.Languages.IApplicationLanguage
+  id: IApplicationLanguage
+  parent: BindOpen.Application.Languages
+  children:
+  - BindOpen.Application.Languages.IApplicationLanguage.CultureName
+  - BindOpen.Application.Languages.IApplicationLanguage.UICultureName
+  langs:
+  - csharp
+  - vb
+  name: IApplicationLanguage
+  nameWithType: IApplicationLanguage
+  fullName: BindOpen.Application.Languages.IApplicationLanguage
+  type: Interface
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Languages
+  summary: "\nThis interface defines an \napplication language.\n"
+  syntax:
+    content: 'public interface IApplicationLanguage : IDescribedDataItem, ITitledDataItem, INamedDataItem, IStoredDataItem, IIdentifiedDataItem, IDataItem, ICloneable, IDisposable, IIdentified, IReferenced, IStorable, INamed, IGloballyTitled, IGloballyDescribed'
+    content.vb: >-
+      Public Interface IApplicationLanguage
+          Inherits IDescribedDataItem, ITitledDataItem, INamedDataItem, IStoredDataItem, IIdentifiedDataItem, IDataItem, ICloneable, IDisposable, IIdentified, IReferenced, IStorable, INamed, IGloballyTitled, IGloballyDescribed
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: BindOpen.Application.Languages.IApplicationLanguage.CultureName
+  commentId: P:BindOpen.Application.Languages.IApplicationLanguage.CultureName
+  id: CultureName
+  parent: BindOpen.Application.Languages.IApplicationLanguage
+  langs:
+  - csharp
+  - vb
+  name: CultureName
+  nameWithType: IApplicationLanguage.CultureName
+  fullName: BindOpen.Application.Languages.IApplicationLanguage.CultureName
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Languages
+  summary: "\nThe culture name.\n"
+  syntax:
+    content: string CultureName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property CultureName As String
+  overload: BindOpen.Application.Languages.IApplicationLanguage.CultureName*
+  modifiers.csharp:
+  - get
+  - set
+- uid: BindOpen.Application.Languages.IApplicationLanguage.UICultureName
+  commentId: P:BindOpen.Application.Languages.IApplicationLanguage.UICultureName
+  id: UICultureName
+  parent: BindOpen.Application.Languages.IApplicationLanguage
+  langs:
+  - csharp
+  - vb
+  name: UICultureName
+  nameWithType: IApplicationLanguage.UICultureName
+  fullName: BindOpen.Application.Languages.IApplicationLanguage.UICultureName
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Languages
+  summary: "\nThe UI culture name.\n"
+  syntax:
+    content: string UICultureName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property UICultureName As String
+  overload: BindOpen.Application.Languages.IApplicationLanguage.UICultureName*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: BindOpen.Application.Languages
+  commentId: N:BindOpen.Application.Languages
+  isExternal: true
+  name: BindOpen.Application.Languages
+  nameWithType: BindOpen.Application.Languages
+  fullName: BindOpen.Application.Languages
+- uid: BindOpen.Application.Languages.IApplicationLanguage.CultureName*
+  commentId: Overload:BindOpen.Application.Languages.IApplicationLanguage.CultureName
+  isExternal: true
+  name: CultureName
+  nameWithType: IApplicationLanguage.CultureName
+  fullName: BindOpen.Application.Languages.IApplicationLanguage.CultureName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Application.Languages.IApplicationLanguage.UICultureName*
+  commentId: Overload:BindOpen.Application.Languages.IApplicationLanguage.UICultureName
+  isExternal: true
+  name: UICultureName
+  nameWithType: IApplicationLanguage.UICultureName
+  fullName: BindOpen.Application.Languages.IApplicationLanguage.UICultureName
+shouldSkipMarkup: true

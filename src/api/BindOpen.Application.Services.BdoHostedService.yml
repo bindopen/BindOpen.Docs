@@ -1,0 +1,580 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Application.Services.BdoHostedService
+  commentId: T:BindOpen.Application.Services.BdoHostedService
+  id: BdoHostedService
+  parent: BindOpen.Application.Services
+  children:
+  - BindOpen.Application.Services.BdoHostedService.#ctor(BindOpen.Application.Scopes.IBdoHost)
+  - BindOpen.Application.Services.BdoHostedService.Host
+  - BindOpen.Application.Services.BdoHostedService.StartAsync(System.Threading.CancellationToken)
+  - BindOpen.Application.Services.BdoHostedService.StopAsync(System.Threading.CancellationToken)
+  langs:
+  - csharp
+  - vb
+  name: BdoHostedService
+  nameWithType: BdoHostedService
+  fullName: BindOpen.Application.Services.BdoHostedService
+  type: Class
+  source:
+    path: BindOpen.Runtime.NetCore
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime.NetCore
+  namespace: BindOpen.Application.Services
+  summary: "\nThis service represents a BindOpen bot service that can be hosted in generic .Net core host.\n"
+  syntax:
+    content: 'public class BdoHostedService : BdoService, IBdoService, IIdentifiedDataItem, IDataItem, ICloneable, IDisposable, IIdentified, IReferenced, IBdoHostedService, IHostedService, IDisposable, IBdoHosted'
+    content.vb: >-
+      Public Class BdoHostedService
+          Inherits BdoService
+          Implements IBdoService, IIdentifiedDataItem, IDataItem, ICloneable, IDisposable, IIdentified, IReferenced, IBdoHostedService, IHostedService, IDisposable, IBdoHosted
+  inheritance:
+  - System.Object
+  - BindOpen.Application.Services.BdoService
+  implements:
+  - BindOpen.Application.Services.IBdoService
+  - BindOpen.Data.Items.IIdentifiedDataItem
+  - BindOpen.Data.Items.IDataItem
+  - System.ICloneable
+  - System.IDisposable
+  - BindOpen.Data.Items.IIdentified
+  - BindOpen.Data.Items.IReferenced
+  - BindOpen.Application.Services.IBdoHostedService
+  - Microsoft.Extensions.Hosting.IHostedService
+  - System.IDisposable
+  - BindOpen.Application.Services.IBdoHosted
+  inheritedMembers:
+  - BindOpen.Application.Services.BdoService._isLoaded
+  - BindOpen.Application.Services.BdoService._scope
+  - BindOpen.Application.Services.BdoService.Start
+  - BindOpen.Application.Services.BdoService.Process(BindOpen.System.Diagnostics.IBdoLog)
+  - BindOpen.Application.Services.BdoService.End(BindOpen.System.Processing.ProcessExecutionStatus)
+  - BindOpen.Application.Services.BdoService.Initialize(BindOpen.System.Diagnostics.IBdoLog)
+  - BindOpen.Application.Services.BdoService.Dispose(System.Boolean)
+  - BindOpen.Application.Services.BdoService.IsLoaded
+  - BindOpen.Application.Services.BdoService.Loggers
+  - BindOpen.Application.Services.BdoService.ExecutionState
+  - BindOpen.Application.Services.BdoService.ExecutionStatus
+  - BindOpen.Application.Services.BdoService.AppDomainPool
+  - BindOpen.Application.Services.BdoService.Log
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BindOpen.Application.Services.BdoHostedService.#ctor(BindOpen.Application.Scopes.IBdoHost)
+  commentId: M:BindOpen.Application.Services.BdoHostedService.#ctor(BindOpen.Application.Scopes.IBdoHost)
+  id: '#ctor(BindOpen.Application.Scopes.IBdoHost)'
+  parent: BindOpen.Application.Services.BdoHostedService
+  langs:
+  - csharp
+  - vb
+  name: BdoHostedService(IBdoHost)
+  nameWithType: BdoHostedService.BdoHostedService(IBdoHost)
+  fullName: BindOpen.Application.Services.BdoHostedService.BdoHostedService(BindOpen.Application.Scopes.IBdoHost)
+  type: Constructor
+  source:
+    path: BindOpen.Runtime.NetCore
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime.NetCore
+  namespace: BindOpen.Application.Services
+  summary: "\nCreates a new instance of the BdoHostedService class.\n"
+  syntax:
+    content: public BdoHostedService(IBdoHost host)
+    parameters:
+    - id: host
+      type: BindOpen.Application.Scopes.IBdoHost
+    content.vb: Public Sub New(host As IBdoHost)
+  overload: BindOpen.Application.Services.BdoHostedService.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Application.Services.BdoHostedService.StartAsync(System.Threading.CancellationToken)
+  commentId: M:BindOpen.Application.Services.BdoHostedService.StartAsync(System.Threading.CancellationToken)
+  id: StartAsync(System.Threading.CancellationToken)
+  parent: BindOpen.Application.Services.BdoHostedService
+  langs:
+  - csharp
+  - vb
+  name: StartAsync(CancellationToken)
+  nameWithType: BdoHostedService.StartAsync(CancellationToken)
+  fullName: BindOpen.Application.Services.BdoHostedService.StartAsync(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: BindOpen.Runtime.NetCore
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime.NetCore
+  namespace: BindOpen.Application.Services
+  summary: "\nStarts this instance.\n"
+  syntax:
+    content: public Task StartAsync(CancellationToken cancellationToken)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function StartAsync(cancellationToken As CancellationToken) As Task
+  overload: BindOpen.Application.Services.BdoHostedService.StartAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Application.Services.BdoHostedService.StopAsync(System.Threading.CancellationToken)
+  commentId: M:BindOpen.Application.Services.BdoHostedService.StopAsync(System.Threading.CancellationToken)
+  id: StopAsync(System.Threading.CancellationToken)
+  parent: BindOpen.Application.Services.BdoHostedService
+  langs:
+  - csharp
+  - vb
+  name: StopAsync(CancellationToken)
+  nameWithType: BdoHostedService.StopAsync(CancellationToken)
+  fullName: BindOpen.Application.Services.BdoHostedService.StopAsync(System.Threading.CancellationToken)
+  type: Method
+  source:
+    path: BindOpen.Runtime.NetCore
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime.NetCore
+  namespace: BindOpen.Application.Services
+  summary: "\nEnds this instance.\n"
+  syntax:
+    content: public Task StopAsync(CancellationToken cancellationToken)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function StopAsync(cancellationToken As CancellationToken) As Task
+  overload: BindOpen.Application.Services.BdoHostedService.StopAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Application.Services.BdoHostedService.Host
+  commentId: P:BindOpen.Application.Services.BdoHostedService.Host
+  id: Host
+  parent: BindOpen.Application.Services.BdoHostedService
+  langs:
+  - csharp
+  - vb
+  name: Host
+  nameWithType: BdoHostedService.Host
+  fullName: BindOpen.Application.Services.BdoHostedService.Host
+  type: Property
+  source:
+    path: BindOpen.Runtime.NetCore
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime.NetCore
+  namespace: BindOpen.Application.Services
+  summary: "\nThe BindOpen host of this instance.\n"
+  syntax:
+    content: public IBdoHost Host { get; }
+    parameters: []
+    return:
+      type: BindOpen.Application.Scopes.IBdoHost
+    content.vb: Public ReadOnly Property Host As IBdoHost
+  overload: BindOpen.Application.Services.BdoHostedService.Host*
+  implements:
+  - BindOpen.Application.Services.IBdoHosted.Host
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: BindOpen.Application.Services
+  commentId: N:BindOpen.Application.Services
+  isExternal: true
+  name: BindOpen.Application.Services
+  nameWithType: BindOpen.Application.Services
+  fullName: BindOpen.Application.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BindOpen.Application.Services.BdoService
+  commentId: T:BindOpen.Application.Services.BdoService
+  parent: BindOpen.Application.Services
+  isExternal: true
+  name: BdoService
+  nameWithType: BdoService
+  fullName: BindOpen.Application.Services.BdoService
+- uid: BindOpen.Application.Services.IBdoService
+  commentId: T:BindOpen.Application.Services.IBdoService
+  parent: BindOpen.Application.Services
+  isExternal: true
+  name: IBdoService
+  nameWithType: IBdoService
+  fullName: BindOpen.Application.Services.IBdoService
+- uid: BindOpen.Data.Items.IIdentifiedDataItem
+  isExternal: true
+  name: IIdentifiedDataItem
+  nameWithType: IIdentifiedDataItem
+  fullName: BindOpen.Data.Items.IIdentifiedDataItem
+- uid: BindOpen.Data.Items.IDataItem
+  isExternal: true
+  name: IDataItem
+  nameWithType: IDataItem
+  fullName: BindOpen.Data.Items.IDataItem
+- uid: System.ICloneable
+  isExternal: true
+  name: ICloneable
+  nameWithType: ICloneable
+  fullName: System.ICloneable
+- uid: System.IDisposable
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: BindOpen.Data.Items.IIdentified
+  isExternal: true
+  name: IIdentified
+  nameWithType: IIdentified
+  fullName: BindOpen.Data.Items.IIdentified
+- uid: BindOpen.Data.Items.IReferenced
+  isExternal: true
+  name: IReferenced
+  nameWithType: IReferenced
+  fullName: BindOpen.Data.Items.IReferenced
+- uid: BindOpen.Application.Services.IBdoHostedService
+  commentId: T:BindOpen.Application.Services.IBdoHostedService
+  parent: BindOpen.Application.Services
+  isExternal: true
+  name: IBdoHostedService
+  nameWithType: IBdoHostedService
+  fullName: BindOpen.Application.Services.IBdoHostedService
+- uid: Microsoft.Extensions.Hosting.IHostedService
+  commentId: '!:Microsoft.Extensions.Hosting.IHostedService'
+  isExternal: true
+  name: IHostedService
+  nameWithType: IHostedService
+  fullName: Microsoft.Extensions.Hosting.IHostedService
+- uid: BindOpen.Application.Services.IBdoHosted
+  commentId: T:BindOpen.Application.Services.IBdoHosted
+  parent: BindOpen.Application.Services
+  isExternal: true
+  name: IBdoHosted
+  nameWithType: IBdoHosted
+  fullName: BindOpen.Application.Services.IBdoHosted
+- uid: BindOpen.Application.Services.BdoService._isLoaded
+  commentId: F:BindOpen.Application.Services.BdoService._isLoaded
+  parent: BindOpen.Application.Services.BdoService
+  isExternal: true
+  name: _isLoaded
+  nameWithType: BdoService._isLoaded
+  fullName: BindOpen.Application.Services.BdoService._isLoaded
+- uid: BindOpen.Application.Services.BdoService._scope
+  commentId: F:BindOpen.Application.Services.BdoService._scope
+  parent: BindOpen.Application.Services.BdoService
+  isExternal: true
+  name: _scope
+  nameWithType: BdoService._scope
+  fullName: BindOpen.Application.Services.BdoService._scope
+- uid: BindOpen.Application.Services.BdoService.Start
+  commentId: M:BindOpen.Application.Services.BdoService.Start
+  parent: BindOpen.Application.Services.BdoService
+  isExternal: true
+  name: Start()
+  nameWithType: BdoService.Start()
+  fullName: BindOpen.Application.Services.BdoService.Start()
+  spec.csharp:
+  - uid: BindOpen.Application.Services.BdoService.Start
+    name: Start
+    nameWithType: BdoService.Start
+    fullName: BindOpen.Application.Services.BdoService.Start
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Application.Services.BdoService.Start
+    name: Start
+    nameWithType: BdoService.Start
+    fullName: BindOpen.Application.Services.BdoService.Start
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Services.BdoService.Process(BindOpen.System.Diagnostics.IBdoLog)
+  commentId: M:BindOpen.Application.Services.BdoService.Process(BindOpen.System.Diagnostics.IBdoLog)
+  parent: BindOpen.Application.Services.BdoService
+  isExternal: true
+  name: Process(IBdoLog)
+  nameWithType: BdoService.Process(IBdoLog)
+  fullName: BindOpen.Application.Services.BdoService.Process(BindOpen.System.Diagnostics.IBdoLog)
+  spec.csharp:
+  - uid: BindOpen.Application.Services.BdoService.Process(BindOpen.System.Diagnostics.IBdoLog)
+    name: Process
+    nameWithType: BdoService.Process
+    fullName: BindOpen.Application.Services.BdoService.Process
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Application.Services.BdoService.Process(BindOpen.System.Diagnostics.IBdoLog)
+    name: Process
+    nameWithType: BdoService.Process
+    fullName: BindOpen.Application.Services.BdoService.Process
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Services.BdoService.End(BindOpen.System.Processing.ProcessExecutionStatus)
+  commentId: M:BindOpen.Application.Services.BdoService.End(BindOpen.System.Processing.ProcessExecutionStatus)
+  parent: BindOpen.Application.Services.BdoService
+  isExternal: true
+  name: End(ProcessExecutionStatus)
+  nameWithType: BdoService.End(ProcessExecutionStatus)
+  fullName: BindOpen.Application.Services.BdoService.End(BindOpen.System.Processing.ProcessExecutionStatus)
+  spec.csharp:
+  - uid: BindOpen.Application.Services.BdoService.End(BindOpen.System.Processing.ProcessExecutionStatus)
+    name: End
+    nameWithType: BdoService.End
+    fullName: BindOpen.Application.Services.BdoService.End
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.System.Processing.ProcessExecutionStatus
+    name: ProcessExecutionStatus
+    nameWithType: ProcessExecutionStatus
+    fullName: BindOpen.System.Processing.ProcessExecutionStatus
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Application.Services.BdoService.End(BindOpen.System.Processing.ProcessExecutionStatus)
+    name: End
+    nameWithType: BdoService.End
+    fullName: BindOpen.Application.Services.BdoService.End
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.System.Processing.ProcessExecutionStatus
+    name: ProcessExecutionStatus
+    nameWithType: ProcessExecutionStatus
+    fullName: BindOpen.System.Processing.ProcessExecutionStatus
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Services.BdoService.Initialize(BindOpen.System.Diagnostics.IBdoLog)
+  commentId: M:BindOpen.Application.Services.BdoService.Initialize(BindOpen.System.Diagnostics.IBdoLog)
+  parent: BindOpen.Application.Services.BdoService
+  isExternal: true
+  name: Initialize(IBdoLog)
+  nameWithType: BdoService.Initialize(IBdoLog)
+  fullName: BindOpen.Application.Services.BdoService.Initialize(BindOpen.System.Diagnostics.IBdoLog)
+  spec.csharp:
+  - uid: BindOpen.Application.Services.BdoService.Initialize(BindOpen.System.Diagnostics.IBdoLog)
+    name: Initialize
+    nameWithType: BdoService.Initialize
+    fullName: BindOpen.Application.Services.BdoService.Initialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Application.Services.BdoService.Initialize(BindOpen.System.Diagnostics.IBdoLog)
+    name: Initialize
+    nameWithType: BdoService.Initialize
+    fullName: BindOpen.Application.Services.BdoService.Initialize
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Services.BdoService.Dispose(System.Boolean)
+  commentId: M:BindOpen.Application.Services.BdoService.Dispose(System.Boolean)
+  parent: BindOpen.Application.Services.BdoService
+  isExternal: true
+  name: Dispose(Boolean)
+  nameWithType: BdoService.Dispose(Boolean)
+  fullName: BindOpen.Application.Services.BdoService.Dispose(System.Boolean)
+  spec.csharp:
+  - uid: BindOpen.Application.Services.BdoService.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: BdoService.Dispose
+    fullName: BindOpen.Application.Services.BdoService.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Application.Services.BdoService.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: BdoService.Dispose
+    fullName: BindOpen.Application.Services.BdoService.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Services.BdoService.IsLoaded
+  commentId: P:BindOpen.Application.Services.BdoService.IsLoaded
+  parent: BindOpen.Application.Services.BdoService
+  isExternal: true
+  name: IsLoaded
+  nameWithType: BdoService.IsLoaded
+  fullName: BindOpen.Application.Services.BdoService.IsLoaded
+- uid: BindOpen.Application.Services.BdoService.Loggers
+  commentId: P:BindOpen.Application.Services.BdoService.Loggers
+  parent: BindOpen.Application.Services.BdoService
+  isExternal: true
+  name: Loggers
+  nameWithType: BdoService.Loggers
+  fullName: BindOpen.Application.Services.BdoService.Loggers
+- uid: BindOpen.Application.Services.BdoService.ExecutionState
+  commentId: P:BindOpen.Application.Services.BdoService.ExecutionState
+  parent: BindOpen.Application.Services.BdoService
+  isExternal: true
+  name: ExecutionState
+  nameWithType: BdoService.ExecutionState
+  fullName: BindOpen.Application.Services.BdoService.ExecutionState
+- uid: BindOpen.Application.Services.BdoService.ExecutionStatus
+  commentId: P:BindOpen.Application.Services.BdoService.ExecutionStatus
+  parent: BindOpen.Application.Services.BdoService
+  isExternal: true
+  name: ExecutionStatus
+  nameWithType: BdoService.ExecutionStatus
+  fullName: BindOpen.Application.Services.BdoService.ExecutionStatus
+- uid: BindOpen.Application.Services.BdoService.AppDomainPool
+  commentId: P:BindOpen.Application.Services.BdoService.AppDomainPool
+  parent: BindOpen.Application.Services.BdoService
+  isExternal: true
+  name: AppDomainPool
+  nameWithType: BdoService.AppDomainPool
+  fullName: BindOpen.Application.Services.BdoService.AppDomainPool
+- uid: BindOpen.Application.Services.BdoService.Log
+  commentId: P:BindOpen.Application.Services.BdoService.Log
+  parent: BindOpen.Application.Services.BdoService
+  isExternal: true
+  name: Log
+  nameWithType: BdoService.Log
+  fullName: BindOpen.Application.Services.BdoService.Log
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Application.Services.BdoHostedService.#ctor*
+  commentId: Overload:BindOpen.Application.Services.BdoHostedService.#ctor
+  isExternal: true
+  name: BdoHostedService
+  nameWithType: BdoHostedService.BdoHostedService
+  fullName: BindOpen.Application.Services.BdoHostedService.BdoHostedService
+- uid: BindOpen.Application.Scopes.IBdoHost
+  commentId: T:BindOpen.Application.Scopes.IBdoHost
+  parent: BindOpen.Application.Scopes
+  isExternal: true
+  name: IBdoHost
+  nameWithType: IBdoHost
+  fullName: BindOpen.Application.Scopes.IBdoHost
+- uid: BindOpen.Application.Scopes
+  commentId: N:BindOpen.Application.Scopes
+  isExternal: true
+  name: BindOpen.Application.Scopes
+  nameWithType: BindOpen.Application.Scopes
+  fullName: BindOpen.Application.Scopes
+- uid: BindOpen.Application.Services.BdoHostedService.StartAsync*
+  commentId: Overload:BindOpen.Application.Services.BdoHostedService.StartAsync
+  isExternal: true
+  name: StartAsync
+  nameWithType: BdoHostedService.StartAsync
+  fullName: BindOpen.Application.Services.BdoHostedService.StartAsync
+- uid: System.Threading.CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: BindOpen.Application.Services.BdoHostedService.StopAsync*
+  commentId: Overload:BindOpen.Application.Services.BdoHostedService.StopAsync
+  isExternal: true
+  name: StopAsync
+  nameWithType: BdoHostedService.StopAsync
+  fullName: BindOpen.Application.Services.BdoHostedService.StopAsync
+- uid: BindOpen.Application.Services.BdoHostedService.Host*
+  commentId: Overload:BindOpen.Application.Services.BdoHostedService.Host
+  isExternal: true
+  name: Host
+  nameWithType: BdoHostedService.Host
+  fullName: BindOpen.Application.Services.BdoHostedService.Host
+- uid: BindOpen.Application.Services.IBdoHosted.Host
+  commentId: P:BindOpen.Application.Services.IBdoHosted.Host
+  parent: BindOpen.Application.Services.IBdoHosted
+  isExternal: true
+  name: Host
+  nameWithType: IBdoHosted.Host
+  fullName: BindOpen.Application.Services.IBdoHosted.Host
+shouldSkipMarkup: true

@@ -1,0 +1,109 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Databases.Extensions.Extension_database
+  commentId: T:BindOpen.Databases.Extensions.Extension_database
+  id: Extension_database
+  parent: BindOpen.Databases.Extensions
+  children:
+  - BindOpen.Databases.Extensions.Extension_database.GetUniqueName_database(System.String)
+  langs:
+  - csharp
+  - vb
+  name: Extension_database
+  nameWithType: Extension_database
+  fullName: BindOpen.Databases.Extensions.Extension_database
+  type: Class
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Databases.Extensions
+  summary: "\nThis class represents the database extension.\n"
+  syntax:
+    content: 'public static class Extension_database : Object'
+    content.vb: >-
+      Public Module Extension_database
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: BindOpen.Databases.Extensions.Extension_database.GetUniqueName_database(System.String)
+  commentId: M:BindOpen.Databases.Extensions.Extension_database.GetUniqueName_database(System.String)
+  id: GetUniqueName_database(System.String)
+  isExtensionMethod: true
+  parent: BindOpen.Databases.Extensions.Extension_database
+  langs:
+  - csharp
+  - vb
+  name: GetUniqueName_database(String)
+  nameWithType: Extension_database.GetUniqueName_database(String)
+  fullName: BindOpen.Databases.Extensions.Extension_database.GetUniqueName_database(System.String)
+  type: Method
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Databases.Extensions
+  summary: "\nGets the database unique name.\n"
+  syntax:
+    content: public static string GetUniqueName_database(this string uniqueName)
+    parameters:
+    - id: uniqueName
+      type: System.String
+      description: The unique name to consider.
+    return:
+      type: System.String
+      description: The result object.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetUniqueName_database(uniqueName As String) As String
+  overload: BindOpen.Databases.Extensions.Extension_database.GetUniqueName_database*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: BindOpen.Databases.Extensions
+  commentId: N:BindOpen.Databases.Extensions
+  isExternal: true
+  name: BindOpen.Databases.Extensions
+  nameWithType: BindOpen.Databases.Extensions
+  fullName: BindOpen.Databases.Extensions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Databases.Extensions.Extension_database.GetUniqueName_database*
+  commentId: Overload:BindOpen.Databases.Extensions.Extension_database.GetUniqueName_database
+  isExternal: true
+  name: GetUniqueName_database
+  nameWithType: Extension_database.GetUniqueName_database
+  fullName: BindOpen.Databases.Extensions.Extension_database.GetUniqueName_database
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+shouldSkipMarkup: true

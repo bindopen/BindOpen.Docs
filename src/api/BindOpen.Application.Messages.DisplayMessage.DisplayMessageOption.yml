@@ -1,0 +1,190 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Application.Messages.DisplayMessage.DisplayMessageOption
+  commentId: T:BindOpen.Application.Messages.DisplayMessage.DisplayMessageOption
+  id: DisplayMessage.DisplayMessageOption
+  parent: BindOpen.Application.Messages
+  children:
+  - BindOpen.Application.Messages.DisplayMessage.DisplayMessageOption.CanBeHidden
+  - BindOpen.Application.Messages.DisplayMessage.DisplayMessageOption.CanBeHiddenForEver
+  - BindOpen.Application.Messages.DisplayMessage.DisplayMessageOption.CannotBeHidden
+  - BindOpen.Application.Messages.DisplayMessage.DisplayMessageOption.value__
+  langs:
+  - csharp
+  - vb
+  name: DisplayMessage.DisplayMessageOption
+  nameWithType: DisplayMessage.DisplayMessageOption
+  fullName: BindOpen.Application.Messages.DisplayMessage.DisplayMessageOption
+  type: Class
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Messages
+  summary: "\nThis enumeration lists all the possible display message options.\n"
+  syntax:
+    content: 'public sealed class DisplayMessageOption : Enum'
+    content.vb: >-
+      Public NotInheritable Class DisplayMessageOption
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: BindOpen.Application.Messages.DisplayMessage.DisplayMessageOption.value__
+  commentId: F:BindOpen.Application.Messages.DisplayMessage.DisplayMessageOption.value__
+  id: value__
+  parent: BindOpen.Application.Messages.DisplayMessage.DisplayMessageOption
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: DisplayMessage.DisplayMessageOption.value__
+  fullName: BindOpen.Application.Messages.DisplayMessage.DisplayMessageOption.value__
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Messages
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Application.Messages.DisplayMessage.DisplayMessageOption.CannotBeHidden
+  commentId: F:BindOpen.Application.Messages.DisplayMessage.DisplayMessageOption.CannotBeHidden
+  id: CannotBeHidden
+  parent: BindOpen.Application.Messages.DisplayMessage.DisplayMessageOption
+  langs:
+  - csharp
+  - vb
+  name: CannotBeHidden
+  nameWithType: DisplayMessage.DisplayMessageOption.CannotBeHidden
+  fullName: BindOpen.Application.Messages.DisplayMessage.DisplayMessageOption.CannotBeHidden
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Messages
+  summary: "\nThe automatic message cannot be hidden.\n"
+  syntax:
+    content: public const DisplayMessage.DisplayMessageOption CannotBeHidden
+    return:
+      type: BindOpen.Application.Messages.DisplayMessage.DisplayMessageOption
+    content.vb: Public Const CannotBeHidden As DisplayMessage.DisplayMessageOption
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Application.Messages.DisplayMessage.DisplayMessageOption.CanBeHidden
+  commentId: F:BindOpen.Application.Messages.DisplayMessage.DisplayMessageOption.CanBeHidden
+  id: CanBeHidden
+  parent: BindOpen.Application.Messages.DisplayMessage.DisplayMessageOption
+  langs:
+  - csharp
+  - vb
+  name: CanBeHidden
+  nameWithType: DisplayMessage.DisplayMessageOption.CanBeHidden
+  fullName: BindOpen.Application.Messages.DisplayMessage.DisplayMessageOption.CanBeHidden
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Messages
+  summary: "\nThe automatic message can be hidden.\n"
+  syntax:
+    content: public const DisplayMessage.DisplayMessageOption CanBeHidden
+    return:
+      type: BindOpen.Application.Messages.DisplayMessage.DisplayMessageOption
+    content.vb: Public Const CanBeHidden As DisplayMessage.DisplayMessageOption
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Application.Messages.DisplayMessage.DisplayMessageOption.CanBeHiddenForEver
+  commentId: F:BindOpen.Application.Messages.DisplayMessage.DisplayMessageOption.CanBeHiddenForEver
+  id: CanBeHiddenForEver
+  parent: BindOpen.Application.Messages.DisplayMessage.DisplayMessageOption
+  langs:
+  - csharp
+  - vb
+  name: CanBeHiddenForEver
+  nameWithType: DisplayMessage.DisplayMessageOption.CanBeHiddenForEver
+  fullName: BindOpen.Application.Messages.DisplayMessage.DisplayMessageOption.CanBeHiddenForEver
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Messages
+  summary: "\nThe automatic message can be hidden forever.\n"
+  syntax:
+    content: public const DisplayMessage.DisplayMessageOption CanBeHiddenForEver
+    return:
+      type: BindOpen.Application.Messages.DisplayMessage.DisplayMessageOption
+    content.vb: Public Const CanBeHiddenForEver As DisplayMessage.DisplayMessageOption
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: BindOpen.Application.Messages
+  commentId: N:BindOpen.Application.Messages
+  isExternal: true
+  name: BindOpen.Application.Messages
+  nameWithType: BindOpen.Application.Messages
+  fullName: BindOpen.Application.Messages
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: BindOpen.Application.Messages.DisplayMessage.DisplayMessageOption
+  commentId: T:BindOpen.Application.Messages.DisplayMessage.DisplayMessageOption
+  parent: BindOpen.Application.Messages
+  isExternal: true
+  name: DisplayMessage.DisplayMessageOption
+  nameWithType: DisplayMessage.DisplayMessageOption
+  fullName: BindOpen.Application.Messages.DisplayMessage.DisplayMessageOption
+shouldSkipMarkup: true

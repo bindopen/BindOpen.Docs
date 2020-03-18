@@ -1,0 +1,252 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Application.Scopes
+  commentId: N:BindOpen.Application.Scopes
+  id: BindOpen.Application.Scopes
+  children:
+  - BindOpen.Application.Scopes.BdoDefaultHost
+  - BindOpen.Application.Scopes.BdoDefaultHostPaths
+  - BindOpen.Application.Scopes.BdoHostFactory
+  - BindOpen.Application.Scopes.BdoHostPathKind
+  - BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors
+  - BindOpen.Application.Scopes.BdoScopeExtension_MSSqlServer
+  - BindOpen.Application.Scopes.BdoScopeExtension_PostgreSql
+  - BindOpen.Application.Scopes.IBdoHost
+  - BindOpen.Application.Scopes.IBdoHostOptions
+  - BindOpen.Application.Scopes.ITBdoHost`1
+  - BindOpen.Application.Scopes.ITBdoHostOptions`1
+  - BindOpen.Application.Scopes.TBdoHost`1
+  - BindOpen.Application.Scopes.TBdoHostOptions`1
+  langs:
+  - csharp
+  - vb
+  name: BindOpen.Application.Scopes
+  nameWithType: BindOpen.Application.Scopes
+  fullName: BindOpen.Application.Scopes
+  type: Namespace
+  assemblies:
+  - BindOpen.Databases
+references:
+- uid: BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors
+  commentId: T:BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors
+  isExternal: true
+  name: BdoScopeExtension_DbConnectors
+  nameWithType: BdoScopeExtension_DbConnectors
+  fullName: BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors
+- uid: BindOpen.Application.Scopes.BdoScopeExtension_MSSqlServer
+  commentId: T:BindOpen.Application.Scopes.BdoScopeExtension_MSSqlServer
+  isExternal: true
+  name: BdoScopeExtension_MSSqlServer
+  nameWithType: BdoScopeExtension_MSSqlServer
+  fullName: BindOpen.Application.Scopes.BdoScopeExtension_MSSqlServer
+- uid: BindOpen.Application.Scopes.BdoScopeExtension_PostgreSql
+  commentId: T:BindOpen.Application.Scopes.BdoScopeExtension_PostgreSql
+  isExternal: true
+  name: BdoScopeExtension_PostgreSql
+  nameWithType: BdoScopeExtension_PostgreSql
+  fullName: BindOpen.Application.Scopes.BdoScopeExtension_PostgreSql
+- uid: BindOpen.Application.Scopes.BdoDefaultHost
+  commentId: T:BindOpen.Application.Scopes.BdoDefaultHost
+  parent: BindOpen.Application.Scopes
+  isExternal: true
+  name: BdoDefaultHost
+  nameWithType: BdoDefaultHost
+  fullName: BindOpen.Application.Scopes.BdoDefaultHost
+- uid: BindOpen.Application.Scopes.BdoHostFactory
+  commentId: T:BindOpen.Application.Scopes.BdoHostFactory
+  isExternal: true
+  name: BdoHostFactory
+  nameWithType: BdoHostFactory
+  fullName: BindOpen.Application.Scopes.BdoHostFactory
+- uid: BindOpen.Application.Scopes.IBdoHost
+  commentId: T:BindOpen.Application.Scopes.IBdoHost
+  parent: BindOpen.Application.Scopes
+  isExternal: true
+  name: IBdoHost
+  nameWithType: IBdoHost
+  fullName: BindOpen.Application.Scopes.IBdoHost
+- uid: BindOpen.Application.Scopes.ITBdoHost`1
+  commentId: T:BindOpen.Application.Scopes.ITBdoHost`1
+  parent: BindOpen.Application.Scopes
+  isExternal: true
+  name: ITBdoHost<S>
+  nameWithType: ITBdoHost<S>
+  fullName: BindOpen.Application.Scopes.ITBdoHost<S>
+  nameWithType.vb: ITBdoHost(Of S)
+  fullName.vb: BindOpen.Application.Scopes.ITBdoHost(Of S)
+  name.vb: ITBdoHost(Of S)
+  spec.csharp:
+  - uid: BindOpen.Application.Scopes.ITBdoHost`1
+    name: ITBdoHost
+    nameWithType: ITBdoHost
+    fullName: BindOpen.Application.Scopes.ITBdoHost
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: S
+    nameWithType: S
+    fullName: S
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: BindOpen.Application.Scopes.ITBdoHost`1
+    name: ITBdoHost
+    nameWithType: ITBdoHost
+    fullName: BindOpen.Application.Scopes.ITBdoHost
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: S
+    nameWithType: S
+    fullName: S
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Scopes.IBdoHostOptions
+  commentId: T:BindOpen.Application.Scopes.IBdoHostOptions
+  parent: BindOpen.Application.Scopes
+  isExternal: true
+  name: IBdoHostOptions
+  nameWithType: IBdoHostOptions
+  fullName: BindOpen.Application.Scopes.IBdoHostOptions
+- uid: BindOpen.Application.Scopes.ITBdoHostOptions`1
+  commentId: T:BindOpen.Application.Scopes.ITBdoHostOptions`1
+  parent: BindOpen.Application.Scopes
+  isExternal: true
+  name: ITBdoHostOptions<S>
+  nameWithType: ITBdoHostOptions<S>
+  fullName: BindOpen.Application.Scopes.ITBdoHostOptions<S>
+  nameWithType.vb: ITBdoHostOptions(Of S)
+  fullName.vb: BindOpen.Application.Scopes.ITBdoHostOptions(Of S)
+  name.vb: ITBdoHostOptions(Of S)
+  spec.csharp:
+  - uid: BindOpen.Application.Scopes.ITBdoHostOptions`1
+    name: ITBdoHostOptions
+    nameWithType: ITBdoHostOptions
+    fullName: BindOpen.Application.Scopes.ITBdoHostOptions
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: S
+    nameWithType: S
+    fullName: S
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: BindOpen.Application.Scopes.ITBdoHostOptions`1
+    name: ITBdoHostOptions
+    nameWithType: ITBdoHostOptions
+    fullName: BindOpen.Application.Scopes.ITBdoHostOptions
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: S
+    nameWithType: S
+    fullName: S
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Scopes.TBdoHostOptions`1
+  commentId: T:BindOpen.Application.Scopes.TBdoHostOptions`1
+  isExternal: true
+  name: TBdoHostOptions<S>
+  nameWithType: TBdoHostOptions<S>
+  fullName: BindOpen.Application.Scopes.TBdoHostOptions<S>
+  nameWithType.vb: TBdoHostOptions(Of S)
+  fullName.vb: BindOpen.Application.Scopes.TBdoHostOptions(Of S)
+  name.vb: TBdoHostOptions(Of S)
+  spec.csharp:
+  - uid: BindOpen.Application.Scopes.TBdoHostOptions`1
+    name: TBdoHostOptions
+    nameWithType: TBdoHostOptions
+    fullName: BindOpen.Application.Scopes.TBdoHostOptions
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: S
+    nameWithType: S
+    fullName: S
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: BindOpen.Application.Scopes.TBdoHostOptions`1
+    name: TBdoHostOptions
+    nameWithType: TBdoHostOptions
+    fullName: BindOpen.Application.Scopes.TBdoHostOptions
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: S
+    nameWithType: S
+    fullName: S
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Scopes.BdoDefaultHostPaths
+  commentId: T:BindOpen.Application.Scopes.BdoDefaultHostPaths
+  isExternal: true
+  name: BdoDefaultHostPaths
+  nameWithType: BdoDefaultHostPaths
+  fullName: BindOpen.Application.Scopes.BdoDefaultHostPaths
+- uid: BindOpen.Application.Scopes.BdoHostPathKind
+  commentId: T:BindOpen.Application.Scopes.BdoHostPathKind
+  parent: BindOpen.Application.Scopes
+  isExternal: true
+  name: BdoHostPathKind
+  nameWithType: BdoHostPathKind
+  fullName: BindOpen.Application.Scopes.BdoHostPathKind
+- uid: BindOpen.Application.Scopes.TBdoHost`1
+  commentId: T:BindOpen.Application.Scopes.TBdoHost`1
+  isExternal: true
+  name: TBdoHost<S>
+  nameWithType: TBdoHost<S>
+  fullName: BindOpen.Application.Scopes.TBdoHost<S>
+  nameWithType.vb: TBdoHost(Of S)
+  fullName.vb: BindOpen.Application.Scopes.TBdoHost(Of S)
+  name.vb: TBdoHost(Of S)
+  spec.csharp:
+  - uid: BindOpen.Application.Scopes.TBdoHost`1
+    name: TBdoHost
+    nameWithType: TBdoHost
+    fullName: BindOpen.Application.Scopes.TBdoHost
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: S
+    nameWithType: S
+    fullName: S
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: BindOpen.Application.Scopes.TBdoHost`1
+    name: TBdoHost
+    nameWithType: TBdoHost
+    fullName: BindOpen.Application.Scopes.TBdoHost
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: S
+    nameWithType: S
+    fullName: S
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Scopes
+  commentId: N:BindOpen.Application.Scopes
+  isExternal: true
+  name: BindOpen.Application.Scopes
+  nameWithType: BindOpen.Application.Scopes
+  fullName: BindOpen.Application.Scopes
+shouldSkipMarkup: true

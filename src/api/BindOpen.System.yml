@@ -1,0 +1,47 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.System
+  commentId: N:BindOpen.System
+  id: BindOpen.System
+  children:
+  - BindOpen.System.ApplicationExecutionLevel
+  - BindOpen.System.InstanceIndexations
+  - BindOpen.System.ModuleOperatingSystem
+  langs:
+  - csharp
+  - vb
+  name: BindOpen.System
+  nameWithType: BindOpen.System
+  fullName: BindOpen.System
+  type: Namespace
+  assemblies:
+  - BindOpen.Runtime
+references:
+- uid: BindOpen.System.ApplicationExecutionLevel
+  commentId: T:BindOpen.System.ApplicationExecutionLevel
+  parent: BindOpen.System
+  isExternal: true
+  name: ApplicationExecutionLevel
+  nameWithType: ApplicationExecutionLevel
+  fullName: BindOpen.System.ApplicationExecutionLevel
+- uid: BindOpen.System.InstanceIndexations
+  commentId: T:BindOpen.System.InstanceIndexations
+  parent: BindOpen.System
+  isExternal: true
+  name: InstanceIndexations
+  nameWithType: InstanceIndexations
+  fullName: BindOpen.System.InstanceIndexations
+- uid: BindOpen.System.ModuleOperatingSystem
+  commentId: T:BindOpen.System.ModuleOperatingSystem
+  parent: BindOpen.System
+  isExternal: true
+  name: ModuleOperatingSystem
+  nameWithType: ModuleOperatingSystem
+  fullName: BindOpen.System.ModuleOperatingSystem
+- uid: BindOpen.System
+  commentId: N:BindOpen.System
+  isExternal: true
+  name: BindOpen.System
+  nameWithType: BindOpen.System
+  fullName: BindOpen.System
+shouldSkipMarkup: true

@@ -1,0 +1,229 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Application.Arguments.AppArgumentHelper
+  commentId: T:BindOpen.Application.Arguments.AppArgumentHelper
+  id: AppArgumentHelper
+  parent: BindOpen.Application.Arguments
+  children:
+  - BindOpen.Application.Arguments.AppArgumentHelper.Check(BindOpen.Data.Elements.IDataElementSet,BindOpen.Application.Options.IOptionSpecSet,System.Boolean)
+  - BindOpen.Application.Arguments.AppArgumentHelper.UpdateOptions(System.String[],BindOpen.Application.Options.IOptionSpecSet,System.Boolean,BindOpen.System.Diagnostics.IBdoLog)
+  langs:
+  - csharp
+  - vb
+  name: AppArgumentHelper
+  nameWithType: AppArgumentHelper
+  fullName: BindOpen.Application.Arguments.AppArgumentHelper
+  type: Class
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Arguments
+  summary: "\nThis class represents the application argument parser.\n"
+  syntax:
+    content: 'public static class AppArgumentHelper : Object'
+    content.vb: >-
+      Public Module AppArgumentHelper
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: BindOpen.Application.Arguments.AppArgumentHelper.UpdateOptions(System.String[],BindOpen.Application.Options.IOptionSpecSet,System.Boolean,BindOpen.System.Diagnostics.IBdoLog)
+  commentId: M:BindOpen.Application.Arguments.AppArgumentHelper.UpdateOptions(System.String[],BindOpen.Application.Options.IOptionSpecSet,System.Boolean,BindOpen.System.Diagnostics.IBdoLog)
+  id: UpdateOptions(System.String[],BindOpen.Application.Options.IOptionSpecSet,System.Boolean,BindOpen.System.Diagnostics.IBdoLog)
+  isExtensionMethod: true
+  parent: BindOpen.Application.Arguments.AppArgumentHelper
+  langs:
+  - csharp
+  - vb
+  name: UpdateOptions(String[], IOptionSpecSet, Boolean, IBdoLog)
+  nameWithType: AppArgumentHelper.UpdateOptions(String[], IOptionSpecSet, Boolean, IBdoLog)
+  fullName: BindOpen.Application.Arguments.AppArgumentHelper.UpdateOptions(System.String[], BindOpen.Application.Options.IOptionSpecSet, System.Boolean, BindOpen.System.Diagnostics.IBdoLog)
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Arguments
+  summary: "\nRetrieves the arguments from the specified argument string values.\n"
+  syntax:
+    content: public static IOptionSet UpdateOptions(this string[] arguments, IOptionSpecSet optionSpecificationSet, bool allowMissingItems = false, IBdoLog log = null)
+    parameters:
+    - id: arguments
+      type: System.String[]
+      description: The argument string values to consider.
+    - id: optionSpecificationSet
+      type: BindOpen.Application.Options.IOptionSpecSet
+      description: The option specification set to consider.
+    - id: allowMissingItems
+      type: System.Boolean
+      description: Indicates whether the items can be missing.
+    - id: log
+      type: BindOpen.System.Diagnostics.IBdoLog
+      description: The log to consider.
+    return:
+      type: BindOpen.Application.Options.IOptionSet
+      description: Returns the log of argument building.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function UpdateOptions(arguments As String(), optionSpecificationSet As IOptionSpecSet, allowMissingItems As Boolean = False, log As IBdoLog = Nothing) As IOptionSet
+  overload: BindOpen.Application.Arguments.AppArgumentHelper.UpdateOptions*
+  nameWithType.vb: AppArgumentHelper.UpdateOptions(String(), IOptionSpecSet, Boolean, IBdoLog)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Application.Arguments.AppArgumentHelper.UpdateOptions(System.String(), BindOpen.Application.Options.IOptionSpecSet, System.Boolean, BindOpen.System.Diagnostics.IBdoLog)
+  name.vb: UpdateOptions(String(), IOptionSpecSet, Boolean, IBdoLog)
+- uid: BindOpen.Application.Arguments.AppArgumentHelper.Check(BindOpen.Data.Elements.IDataElementSet,BindOpen.Application.Options.IOptionSpecSet,System.Boolean)
+  commentId: M:BindOpen.Application.Arguments.AppArgumentHelper.Check(BindOpen.Data.Elements.IDataElementSet,BindOpen.Application.Options.IOptionSpecSet,System.Boolean)
+  id: Check(BindOpen.Data.Elements.IDataElementSet,BindOpen.Application.Options.IOptionSpecSet,System.Boolean)
+  isExtensionMethod: true
+  parent: BindOpen.Application.Arguments.AppArgumentHelper
+  langs:
+  - csharp
+  - vb
+  name: Check(IDataElementSet, IOptionSpecSet, Boolean)
+  nameWithType: AppArgumentHelper.Check(IDataElementSet, IOptionSpecSet, Boolean)
+  fullName: BindOpen.Application.Arguments.AppArgumentHelper.Check(BindOpen.Data.Elements.IDataElementSet, BindOpen.Application.Options.IOptionSpecSet, System.Boolean)
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Arguments
+  summary: "\nChecks this instance.\n"
+  syntax:
+    content: public static IBdoLog Check(this IDataElementSet optionSet, IOptionSpecSet optionSpecificationSet, bool allowMissingItems = false)
+    parameters:
+    - id: optionSet
+      type: BindOpen.Data.Elements.IDataElementSet
+      description: The set of options to consider.
+    - id: optionSpecificationSet
+      type: BindOpen.Application.Options.IOptionSpecSet
+      description: The set of option specifications to consider.
+    - id: allowMissingItems
+      type: System.Boolean
+      description: Indicates whether the items can be missing.
+    return:
+      type: BindOpen.System.Diagnostics.IBdoLog
+      description: Returns the log of check.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Check(optionSet As IDataElementSet, optionSpecificationSet As IOptionSpecSet, allowMissingItems As Boolean = False) As IBdoLog
+  overload: BindOpen.Application.Arguments.AppArgumentHelper.Check*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: BindOpen.Application.Arguments
+  commentId: N:BindOpen.Application.Arguments
+  isExternal: true
+  name: BindOpen.Application.Arguments
+  nameWithType: BindOpen.Application.Arguments
+  fullName: BindOpen.Application.Arguments
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Application.Arguments.AppArgumentHelper.UpdateOptions*
+  commentId: Overload:BindOpen.Application.Arguments.AppArgumentHelper.UpdateOptions
+  isExternal: true
+  name: UpdateOptions
+  nameWithType: AppArgumentHelper.UpdateOptions
+  fullName: BindOpen.Application.Arguments.AppArgumentHelper.UpdateOptions
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: BindOpen.Application.Options.IOptionSpecSet
+  commentId: T:BindOpen.Application.Options.IOptionSpecSet
+  parent: BindOpen.Application.Options
+  isExternal: true
+  name: IOptionSpecSet
+  nameWithType: IOptionSpecSet
+  fullName: BindOpen.Application.Options.IOptionSpecSet
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: BindOpen.System.Diagnostics.IBdoLog
+  isExternal: true
+  name: IBdoLog
+  nameWithType: IBdoLog
+  fullName: BindOpen.System.Diagnostics.IBdoLog
+- uid: BindOpen.Application.Options.IOptionSet
+  commentId: T:BindOpen.Application.Options.IOptionSet
+  parent: BindOpen.Application.Options
+  isExternal: true
+  name: IOptionSet
+  nameWithType: IOptionSet
+  fullName: BindOpen.Application.Options.IOptionSet
+- uid: BindOpen.Application.Options
+  commentId: N:BindOpen.Application.Options
+  isExternal: true
+  name: BindOpen.Application.Options
+  nameWithType: BindOpen.Application.Options
+  fullName: BindOpen.Application.Options
+- uid: BindOpen.Application.Arguments.AppArgumentHelper.Check*
+  commentId: Overload:BindOpen.Application.Arguments.AppArgumentHelper.Check
+  isExternal: true
+  name: Check
+  nameWithType: AppArgumentHelper.Check
+  fullName: BindOpen.Application.Arguments.AppArgumentHelper.Check
+- uid: BindOpen.Data.Elements.IDataElementSet
+  isExternal: true
+  name: IDataElementSet
+  nameWithType: IDataElementSet
+  fullName: BindOpen.Data.Elements.IDataElementSet
+shouldSkipMarkup: true

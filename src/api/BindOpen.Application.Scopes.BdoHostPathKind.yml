@@ -1,0 +1,490 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Application.Scopes.BdoHostPathKind
+  commentId: T:BindOpen.Application.Scopes.BdoHostPathKind
+  id: BdoHostPathKind
+  parent: BindOpen.Application.Scopes
+  children:
+  - BindOpen.Application.Scopes.BdoHostPathKind.AppConfigFile
+  - BindOpen.Application.Scopes.BdoHostPathKind.ConfigurationFolder
+  - BindOpen.Application.Scopes.BdoHostPathKind.HostConfigFile
+  - BindOpen.Application.Scopes.BdoHostPathKind.LibraryFolder
+  - BindOpen.Application.Scopes.BdoHostPathKind.LogsFolder
+  - BindOpen.Application.Scopes.BdoHostPathKind.PackagesFolder
+  - BindOpen.Application.Scopes.BdoHostPathKind.PrimaryLogsFolder
+  - BindOpen.Application.Scopes.BdoHostPathKind.ProjectsFolder
+  - BindOpen.Application.Scopes.BdoHostPathKind.RoamingFolder
+  - BindOpen.Application.Scopes.BdoHostPathKind.RootFolder
+  - BindOpen.Application.Scopes.BdoHostPathKind.RuntimeFolder
+  - BindOpen.Application.Scopes.BdoHostPathKind.TemporaryFolder
+  - BindOpen.Application.Scopes.BdoHostPathKind.UsersFolder
+  - BindOpen.Application.Scopes.BdoHostPathKind.value__
+  langs:
+  - csharp
+  - vb
+  name: BdoHostPathKind
+  nameWithType: BdoHostPathKind
+  fullName: BindOpen.Application.Scopes.BdoHostPathKind
+  type: Class
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nThis enumeration lists all the possible kinds of host path.\n"
+  syntax:
+    content: 'public sealed class BdoHostPathKind : Enum'
+    content.vb: >-
+      Public NotInheritable Class BdoHostPathKind
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: BindOpen.Application.Scopes.BdoHostPathKind.value__
+  commentId: F:BindOpen.Application.Scopes.BdoHostPathKind.value__
+  id: value__
+  parent: BindOpen.Application.Scopes.BdoHostPathKind
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: BdoHostPathKind.value__
+  fullName: BindOpen.Application.Scopes.BdoHostPathKind.value__
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Application.Scopes.BdoHostPathKind.RootFolder
+  commentId: F:BindOpen.Application.Scopes.BdoHostPathKind.RootFolder
+  id: RootFolder
+  parent: BindOpen.Application.Scopes.BdoHostPathKind
+  langs:
+  - csharp
+  - vb
+  name: RootFolder
+  nameWithType: BdoHostPathKind.RootFolder
+  fullName: BindOpen.Application.Scopes.BdoHostPathKind.RootFolder
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nThe root folder.\n"
+  syntax:
+    content: public const BdoHostPathKind RootFolder
+    return:
+      type: BindOpen.Application.Scopes.BdoHostPathKind
+    content.vb: Public Const RootFolder As BdoHostPathKind
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Application.Scopes.BdoHostPathKind.PrimaryLogsFolder
+  commentId: F:BindOpen.Application.Scopes.BdoHostPathKind.PrimaryLogsFolder
+  id: PrimaryLogsFolder
+  parent: BindOpen.Application.Scopes.BdoHostPathKind
+  langs:
+  - csharp
+  - vb
+  name: PrimaryLogsFolder
+  nameWithType: BdoHostPathKind.PrimaryLogsFolder
+  fullName: BindOpen.Application.Scopes.BdoHostPathKind.PrimaryLogsFolder
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nThe primary log folder.\n"
+  syntax:
+    content: public const BdoHostPathKind PrimaryLogsFolder
+    return:
+      type: BindOpen.Application.Scopes.BdoHostPathKind
+    content.vb: Public Const PrimaryLogsFolder As BdoHostPathKind
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Application.Scopes.BdoHostPathKind.PackagesFolder
+  commentId: F:BindOpen.Application.Scopes.BdoHostPathKind.PackagesFolder
+  id: PackagesFolder
+  parent: BindOpen.Application.Scopes.BdoHostPathKind
+  langs:
+  - csharp
+  - vb
+  name: PackagesFolder
+  nameWithType: BdoHostPathKind.PackagesFolder
+  fullName: BindOpen.Application.Scopes.BdoHostPathKind.PackagesFolder
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nThe packages folder.\n"
+  syntax:
+    content: public const BdoHostPathKind PackagesFolder
+    return:
+      type: BindOpen.Application.Scopes.BdoHostPathKind
+    content.vb: Public Const PackagesFolder As BdoHostPathKind
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Application.Scopes.BdoHostPathKind.ProjectsFolder
+  commentId: F:BindOpen.Application.Scopes.BdoHostPathKind.ProjectsFolder
+  id: ProjectsFolder
+  parent: BindOpen.Application.Scopes.BdoHostPathKind
+  langs:
+  - csharp
+  - vb
+  name: ProjectsFolder
+  nameWithType: BdoHostPathKind.ProjectsFolder
+  fullName: BindOpen.Application.Scopes.BdoHostPathKind.ProjectsFolder
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nThe projects folder.\n"
+  syntax:
+    content: public const BdoHostPathKind ProjectsFolder
+    return:
+      type: BindOpen.Application.Scopes.BdoHostPathKind
+    content.vb: Public Const ProjectsFolder As BdoHostPathKind
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Application.Scopes.BdoHostPathKind.LibraryFolder
+  commentId: F:BindOpen.Application.Scopes.BdoHostPathKind.LibraryFolder
+  id: LibraryFolder
+  parent: BindOpen.Application.Scopes.BdoHostPathKind
+  langs:
+  - csharp
+  - vb
+  name: LibraryFolder
+  nameWithType: BdoHostPathKind.LibraryFolder
+  fullName: BindOpen.Application.Scopes.BdoHostPathKind.LibraryFolder
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nThe library folder.\n"
+  syntax:
+    content: public const BdoHostPathKind LibraryFolder
+    return:
+      type: BindOpen.Application.Scopes.BdoHostPathKind
+    content.vb: Public Const LibraryFolder As BdoHostPathKind
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Application.Scopes.BdoHostPathKind.LogsFolder
+  commentId: F:BindOpen.Application.Scopes.BdoHostPathKind.LogsFolder
+  id: LogsFolder
+  parent: BindOpen.Application.Scopes.BdoHostPathKind
+  langs:
+  - csharp
+  - vb
+  name: LogsFolder
+  nameWithType: BdoHostPathKind.LogsFolder
+  fullName: BindOpen.Application.Scopes.BdoHostPathKind.LogsFolder
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nThe log folder.\n"
+  syntax:
+    content: public const BdoHostPathKind LogsFolder
+    return:
+      type: BindOpen.Application.Scopes.BdoHostPathKind
+    content.vb: Public Const LogsFolder As BdoHostPathKind
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Application.Scopes.BdoHostPathKind.RoamingFolder
+  commentId: F:BindOpen.Application.Scopes.BdoHostPathKind.RoamingFolder
+  id: RoamingFolder
+  parent: BindOpen.Application.Scopes.BdoHostPathKind
+  langs:
+  - csharp
+  - vb
+  name: RoamingFolder
+  nameWithType: BdoHostPathKind.RoamingFolder
+  fullName: BindOpen.Application.Scopes.BdoHostPathKind.RoamingFolder
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nThe roaming folder.\n"
+  syntax:
+    content: public const BdoHostPathKind RoamingFolder
+    return:
+      type: BindOpen.Application.Scopes.BdoHostPathKind
+    content.vb: Public Const RoamingFolder As BdoHostPathKind
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Application.Scopes.BdoHostPathKind.RuntimeFolder
+  commentId: F:BindOpen.Application.Scopes.BdoHostPathKind.RuntimeFolder
+  id: RuntimeFolder
+  parent: BindOpen.Application.Scopes.BdoHostPathKind
+  langs:
+  - csharp
+  - vb
+  name: RuntimeFolder
+  nameWithType: BdoHostPathKind.RuntimeFolder
+  fullName: BindOpen.Application.Scopes.BdoHostPathKind.RuntimeFolder
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nThe runtime folder.\n"
+  syntax:
+    content: public const BdoHostPathKind RuntimeFolder
+    return:
+      type: BindOpen.Application.Scopes.BdoHostPathKind
+    content.vb: Public Const RuntimeFolder As BdoHostPathKind
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Application.Scopes.BdoHostPathKind.HostConfigFile
+  commentId: F:BindOpen.Application.Scopes.BdoHostPathKind.HostConfigFile
+  id: HostConfigFile
+  parent: BindOpen.Application.Scopes.BdoHostPathKind
+  langs:
+  - csharp
+  - vb
+  name: HostConfigFile
+  nameWithType: BdoHostPathKind.HostConfigFile
+  fullName: BindOpen.Application.Scopes.BdoHostPathKind.HostConfigFile
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nThe host settings file.\n"
+  syntax:
+    content: public const BdoHostPathKind HostConfigFile
+    return:
+      type: BindOpen.Application.Scopes.BdoHostPathKind
+    content.vb: Public Const HostConfigFile As BdoHostPathKind
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Application.Scopes.BdoHostPathKind.AppConfigFile
+  commentId: F:BindOpen.Application.Scopes.BdoHostPathKind.AppConfigFile
+  id: AppConfigFile
+  parent: BindOpen.Application.Scopes.BdoHostPathKind
+  langs:
+  - csharp
+  - vb
+  name: AppConfigFile
+  nameWithType: BdoHostPathKind.AppConfigFile
+  fullName: BindOpen.Application.Scopes.BdoHostPathKind.AppConfigFile
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nThe application configuration file.\n"
+  syntax:
+    content: public const BdoHostPathKind AppConfigFile
+    return:
+      type: BindOpen.Application.Scopes.BdoHostPathKind
+    content.vb: Public Const AppConfigFile As BdoHostPathKind
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Application.Scopes.BdoHostPathKind.ConfigurationFolder
+  commentId: F:BindOpen.Application.Scopes.BdoHostPathKind.ConfigurationFolder
+  id: ConfigurationFolder
+  parent: BindOpen.Application.Scopes.BdoHostPathKind
+  langs:
+  - csharp
+  - vb
+  name: ConfigurationFolder
+  nameWithType: BdoHostPathKind.ConfigurationFolder
+  fullName: BindOpen.Application.Scopes.BdoHostPathKind.ConfigurationFolder
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nThe settings folder.\n"
+  syntax:
+    content: public const BdoHostPathKind ConfigurationFolder
+    return:
+      type: BindOpen.Application.Scopes.BdoHostPathKind
+    content.vb: Public Const ConfigurationFolder As BdoHostPathKind
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Application.Scopes.BdoHostPathKind.TemporaryFolder
+  commentId: F:BindOpen.Application.Scopes.BdoHostPathKind.TemporaryFolder
+  id: TemporaryFolder
+  parent: BindOpen.Application.Scopes.BdoHostPathKind
+  langs:
+  - csharp
+  - vb
+  name: TemporaryFolder
+  nameWithType: BdoHostPathKind.TemporaryFolder
+  fullName: BindOpen.Application.Scopes.BdoHostPathKind.TemporaryFolder
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nThe temporary folder.\n"
+  syntax:
+    content: public const BdoHostPathKind TemporaryFolder
+    return:
+      type: BindOpen.Application.Scopes.BdoHostPathKind
+    content.vb: Public Const TemporaryFolder As BdoHostPathKind
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Application.Scopes.BdoHostPathKind.UsersFolder
+  commentId: F:BindOpen.Application.Scopes.BdoHostPathKind.UsersFolder
+  id: UsersFolder
+  parent: BindOpen.Application.Scopes.BdoHostPathKind
+  langs:
+  - csharp
+  - vb
+  name: UsersFolder
+  nameWithType: BdoHostPathKind.UsersFolder
+  fullName: BindOpen.Application.Scopes.BdoHostPathKind.UsersFolder
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nThe users folder.\n"
+  syntax:
+    content: public const BdoHostPathKind UsersFolder
+    return:
+      type: BindOpen.Application.Scopes.BdoHostPathKind
+    content.vb: Public Const UsersFolder As BdoHostPathKind
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: BindOpen.Application.Scopes
+  commentId: N:BindOpen.Application.Scopes
+  isExternal: true
+  name: BindOpen.Application.Scopes
+  nameWithType: BindOpen.Application.Scopes
+  fullName: BindOpen.Application.Scopes
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: BindOpen.Application.Scopes.BdoHostPathKind
+  commentId: T:BindOpen.Application.Scopes.BdoHostPathKind
+  parent: BindOpen.Application.Scopes
+  isExternal: true
+  name: BdoHostPathKind
+  nameWithType: BdoHostPathKind
+  fullName: BindOpen.Application.Scopes.BdoHostPathKind
+shouldSkipMarkup: true

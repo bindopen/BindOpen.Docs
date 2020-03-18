@@ -1,0 +1,38 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Extensions.References
+  commentId: N:BindOpen.Extensions.References
+  id: BindOpen.Extensions.References
+  children:
+  - BindOpen.Extensions.References.BdoExtensionReferenceCollectionExtension
+  - BindOpen.Extensions.References.BdoExtensionReferenceExtension
+  - BindOpen.Extensions.References.ExtensionReferenceFactory
+  langs:
+  - csharp
+  - vb
+  name: BindOpen.Extensions.References
+  nameWithType: BindOpen.Extensions.References
+  fullName: BindOpen.Extensions.References
+  type: Namespace
+  assemblies:
+  - BindOpen.Databases.MSSqlServer
+references:
+- uid: BindOpen.Extensions.References.BdoExtensionReferenceCollectionExtension
+  commentId: T:BindOpen.Extensions.References.BdoExtensionReferenceCollectionExtension
+  isExternal: true
+  name: BdoExtensionReferenceCollectionExtension
+  nameWithType: BdoExtensionReferenceCollectionExtension
+  fullName: BindOpen.Extensions.References.BdoExtensionReferenceCollectionExtension
+- uid: BindOpen.Extensions.References.ExtensionReferenceFactory
+  commentId: T:BindOpen.Extensions.References.ExtensionReferenceFactory
+  isExternal: true
+  name: ExtensionReferenceFactory
+  nameWithType: ExtensionReferenceFactory
+  fullName: BindOpen.Extensions.References.ExtensionReferenceFactory
+- uid: BindOpen.Extensions.References.BdoExtensionReferenceExtension
+  commentId: T:BindOpen.Extensions.References.BdoExtensionReferenceExtension
+  isExternal: true
+  name: BdoExtensionReferenceExtension
+  nameWithType: BdoExtensionReferenceExtension
+  fullName: BindOpen.Extensions.References.BdoExtensionReferenceExtension
+shouldSkipMarkup: true

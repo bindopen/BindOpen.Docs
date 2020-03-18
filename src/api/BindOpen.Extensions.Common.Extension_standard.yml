@@ -1,0 +1,109 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Extensions.Common.Extension_standard
+  commentId: T:BindOpen.Extensions.Common.Extension_standard
+  id: Extension_standard
+  parent: BindOpen.Extensions.Common
+  children:
+  - BindOpen.Extensions.Common.Extension_standard.GetUniqueName_standard(System.String)
+  langs:
+  - csharp
+  - vb
+  name: Extension_standard
+  nameWithType: Extension_standard
+  fullName: BindOpen.Extensions.Common.Extension_standard
+  type: Class
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Common
+  summary: "\nThis class represents the standard extension.\n"
+  syntax:
+    content: 'public static class Extension_standard : Object'
+    content.vb: >-
+      Public Module Extension_standard
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: BindOpen.Extensions.Common.Extension_standard.GetUniqueName_standard(System.String)
+  commentId: M:BindOpen.Extensions.Common.Extension_standard.GetUniqueName_standard(System.String)
+  id: GetUniqueName_standard(System.String)
+  isExtensionMethod: true
+  parent: BindOpen.Extensions.Common.Extension_standard
+  langs:
+  - csharp
+  - vb
+  name: GetUniqueName_standard(String)
+  nameWithType: Extension_standard.GetUniqueName_standard(String)
+  fullName: BindOpen.Extensions.Common.Extension_standard.GetUniqueName_standard(System.String)
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Common
+  summary: "\nGets the database unique name.\n"
+  syntax:
+    content: public static string GetUniqueName_standard(this string uniqueName)
+    parameters:
+    - id: uniqueName
+      type: System.String
+      description: The unique name to consider.
+    return:
+      type: System.String
+      description: The result object.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetUniqueName_standard(uniqueName As String) As String
+  overload: BindOpen.Extensions.Common.Extension_standard.GetUniqueName_standard*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: BindOpen.Extensions.Common
+  commentId: N:BindOpen.Extensions.Common
+  isExternal: true
+  name: BindOpen.Extensions.Common
+  nameWithType: BindOpen.Extensions.Common
+  fullName: BindOpen.Extensions.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Extensions.Common.Extension_standard.GetUniqueName_standard*
+  commentId: Overload:BindOpen.Extensions.Common.Extension_standard.GetUniqueName_standard
+  isExternal: true
+  name: GetUniqueName_standard
+  nameWithType: Extension_standard.GetUniqueName_standard
+  fullName: BindOpen.Extensions.Common.Extension_standard.GetUniqueName_standard
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+shouldSkipMarkup: true

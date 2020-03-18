@@ -1,0 +1,190 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Data.Queries.DbQueryParameterMode
+  commentId: T:BindOpen.Data.Queries.DbQueryParameterMode
+  id: DbQueryParameterMode
+  parent: BindOpen.Data.Queries
+  children:
+  - BindOpen.Data.Queries.DbQueryParameterMode.Scripted
+  - BindOpen.Data.Queries.DbQueryParameterMode.Symboled
+  - BindOpen.Data.Queries.DbQueryParameterMode.value__
+  - BindOpen.Data.Queries.DbQueryParameterMode.ValueInjected
+  langs:
+  - csharp
+  - vb
+  name: DbQueryParameterMode
+  nameWithType: DbQueryParameterMode
+  fullName: BindOpen.Data.Queries.DbQueryParameterMode
+  type: Class
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nThis enumeration lists all the possible modes of query parameter.\n"
+  syntax:
+    content: 'public sealed class DbQueryParameterMode : Enum'
+    content.vb: >-
+      Public NotInheritable Class DbQueryParameterMode
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: BindOpen.Data.Queries.DbQueryParameterMode.value__
+  commentId: F:BindOpen.Data.Queries.DbQueryParameterMode.value__
+  id: value__
+  parent: BindOpen.Data.Queries.DbQueryParameterMode
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: DbQueryParameterMode.value__
+  fullName: BindOpen.Data.Queries.DbQueryParameterMode.value__
+  type: Field
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Data.Queries.DbQueryParameterMode.Symboled
+  commentId: F:BindOpen.Data.Queries.DbQueryParameterMode.Symboled
+  id: Symboled
+  parent: BindOpen.Data.Queries.DbQueryParameterMode
+  langs:
+  - csharp
+  - vb
+  name: Symboled
+  nameWithType: DbQueryParameterMode.Symboled
+  fullName: BindOpen.Data.Queries.DbQueryParameterMode.Symboled
+  type: Field
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nSymboled.\n"
+  syntax:
+    content: public const DbQueryParameterMode Symboled
+    return:
+      type: BindOpen.Data.Queries.DbQueryParameterMode
+    content.vb: Public Const Symboled As DbQueryParameterMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Data.Queries.DbQueryParameterMode.Scripted
+  commentId: F:BindOpen.Data.Queries.DbQueryParameterMode.Scripted
+  id: Scripted
+  parent: BindOpen.Data.Queries.DbQueryParameterMode
+  langs:
+  - csharp
+  - vb
+  name: Scripted
+  nameWithType: DbQueryParameterMode.Scripted
+  fullName: BindOpen.Data.Queries.DbQueryParameterMode.Scripted
+  type: Field
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nScripted.\n"
+  syntax:
+    content: public const DbQueryParameterMode Scripted
+    return:
+      type: BindOpen.Data.Queries.DbQueryParameterMode
+    content.vb: Public Const Scripted As DbQueryParameterMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Data.Queries.DbQueryParameterMode.ValueInjected
+  commentId: F:BindOpen.Data.Queries.DbQueryParameterMode.ValueInjected
+  id: ValueInjected
+  parent: BindOpen.Data.Queries.DbQueryParameterMode
+  langs:
+  - csharp
+  - vb
+  name: ValueInjected
+  nameWithType: DbQueryParameterMode.ValueInjected
+  fullName: BindOpen.Data.Queries.DbQueryParameterMode.ValueInjected
+  type: Field
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nValueInjected.\n"
+  syntax:
+    content: public const DbQueryParameterMode ValueInjected
+    return:
+      type: BindOpen.Data.Queries.DbQueryParameterMode
+    content.vb: Public Const ValueInjected As DbQueryParameterMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: BindOpen.Data.Queries
+  commentId: N:BindOpen.Data.Queries
+  isExternal: true
+  name: BindOpen.Data.Queries
+  nameWithType: BindOpen.Data.Queries
+  fullName: BindOpen.Data.Queries
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: BindOpen.Data.Queries.DbQueryParameterMode
+  commentId: T:BindOpen.Data.Queries.DbQueryParameterMode
+  parent: BindOpen.Data.Queries
+  isExternal: true
+  name: DbQueryParameterMode
+  nameWithType: DbQueryParameterMode
+  fullName: BindOpen.Data.Queries.DbQueryParameterMode
+shouldSkipMarkup: true

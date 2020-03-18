@@ -1,0 +1,402 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Application.Options.OptionNameKind
+  commentId: T:BindOpen.Application.Options.OptionNameKind
+  id: OptionNameKind
+  parent: BindOpen.Application.Options
+  children:
+  - BindOpen.Application.Options.OptionNameKind.Any
+  - BindOpen.Application.Options.OptionNameKind.NameThenValue
+  - BindOpen.Application.Options.OptionNameKind.NameWithValue
+  - BindOpen.Application.Options.OptionNameKind.OnlyName
+  - BindOpen.Application.Options.OptionNameKind.OnlyValue
+  - BindOpen.Application.Options.OptionNameKind.value__
+  langs:
+  - csharp
+  - vb
+  name: OptionNameKind
+  nameWithType: OptionNameKind
+  fullName: BindOpen.Application.Options.OptionNameKind
+  type: Class
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Options
+  summary: "\nThis enumeration lists all the possible option name kinds.\n"
+  syntax:
+    content: 'public sealed class OptionNameKind : Enum'
+    content.vb: >-
+      Public NotInheritable Class OptionNameKind
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - BindOpen.Application.Options.OptionNameKind.BindOpen.Application.Options.OptionNameKindExtension.HasName
+  - BindOpen.Application.Options.OptionNameKind.BindOpen.Application.Options.OptionNameKindExtension.HasValue
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: BindOpen.Application.Options.OptionNameKind.value__
+  commentId: F:BindOpen.Application.Options.OptionNameKind.value__
+  id: value__
+  parent: BindOpen.Application.Options.OptionNameKind
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: OptionNameKind.value__
+  fullName: BindOpen.Application.Options.OptionNameKind.value__
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Options
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Application.Options.OptionNameKind.Any
+  commentId: F:BindOpen.Application.Options.OptionNameKind.Any
+  id: Any
+  parent: BindOpen.Application.Options.OptionNameKind
+  langs:
+  - csharp
+  - vb
+  name: Any
+  nameWithType: OptionNameKind.Any
+  fullName: BindOpen.Application.Options.OptionNameKind.Any
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Options
+  summary: "\nAny.\n"
+  syntax:
+    content: public const OptionNameKind Any
+    return:
+      type: BindOpen.Application.Options.OptionNameKind
+    content.vb: Public Const Any As OptionNameKind
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Application.Options.OptionNameKind.OnlyName
+  commentId: F:BindOpen.Application.Options.OptionNameKind.OnlyName
+  id: OnlyName
+  parent: BindOpen.Application.Options.OptionNameKind
+  langs:
+  - csharp
+  - vb
+  name: OnlyName
+  nameWithType: OptionNameKind.OnlyName
+  fullName: BindOpen.Application.Options.OptionNameKind.OnlyName
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Options
+  summary: "\nOnly name.\n"
+  syntax:
+    content: public const OptionNameKind OnlyName
+    return:
+      type: BindOpen.Application.Options.OptionNameKind
+    content.vb: Public Const OnlyName As OptionNameKind
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Application.Options.OptionNameKind.NameWithValue
+  commentId: F:BindOpen.Application.Options.OptionNameKind.NameWithValue
+  id: NameWithValue
+  parent: BindOpen.Application.Options.OptionNameKind
+  langs:
+  - csharp
+  - vb
+  name: NameWithValue
+  nameWithType: OptionNameKind.NameWithValue
+  fullName: BindOpen.Application.Options.OptionNameKind.NameWithValue
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Options
+  summary: "\nName with value.\n"
+  syntax:
+    content: public const OptionNameKind NameWithValue
+    return:
+      type: BindOpen.Application.Options.OptionNameKind
+    content.vb: Public Const NameWithValue As OptionNameKind
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Application.Options.OptionNameKind.NameThenValue
+  commentId: F:BindOpen.Application.Options.OptionNameKind.NameThenValue
+  id: NameThenValue
+  parent: BindOpen.Application.Options.OptionNameKind
+  langs:
+  - csharp
+  - vb
+  name: NameThenValue
+  nameWithType: OptionNameKind.NameThenValue
+  fullName: BindOpen.Application.Options.OptionNameKind.NameThenValue
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Options
+  summary: "\nName then value.\n"
+  syntax:
+    content: public const OptionNameKind NameThenValue
+    return:
+      type: BindOpen.Application.Options.OptionNameKind
+    content.vb: Public Const NameThenValue As OptionNameKind
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Application.Options.OptionNameKind.OnlyValue
+  commentId: F:BindOpen.Application.Options.OptionNameKind.OnlyValue
+  id: OnlyValue
+  parent: BindOpen.Application.Options.OptionNameKind
+  langs:
+  - csharp
+  - vb
+  name: OnlyValue
+  nameWithType: OptionNameKind.OnlyValue
+  fullName: BindOpen.Application.Options.OptionNameKind.OnlyValue
+  type: Field
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Options
+  summary: "\nOnly value.\n"
+  syntax:
+    content: public const OptionNameKind OnlyValue
+    return:
+      type: BindOpen.Application.Options.OptionNameKind
+    content.vb: Public Const OnlyValue As OptionNameKind
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: BindOpen.Application.Options
+  commentId: N:BindOpen.Application.Options
+  isExternal: true
+  name: BindOpen.Application.Options
+  nameWithType: BindOpen.Application.Options
+  fullName: BindOpen.Application.Options
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BindOpen.Application.Options.OptionNameKind.BindOpen.Application.Options.OptionNameKindExtension.HasName
+  commentId: M:BindOpen.Application.Options.OptionNameKindExtension.HasName(BindOpen.Application.Options.OptionNameKind)
+  parent: BindOpen.Application.Options.OptionNameKindExtension
+  definition: BindOpen.Application.Options.OptionNameKindExtension.HasName(BindOpen.Application.Options.OptionNameKind)
+  name: HasName()
+  nameWithType: OptionNameKindExtension.HasName()
+  fullName: BindOpen.Application.Options.OptionNameKindExtension.HasName()
+  spec.csharp:
+  - uid: BindOpen.Application.Options.OptionNameKindExtension.HasName
+    name: HasName
+    nameWithType: OptionNameKindExtension.HasName
+    fullName: BindOpen.Application.Options.OptionNameKindExtension.HasName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Application.Options.OptionNameKindExtension.HasName
+    name: HasName
+    nameWithType: OptionNameKindExtension.HasName
+    fullName: BindOpen.Application.Options.OptionNameKindExtension.HasName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Options.OptionNameKind.BindOpen.Application.Options.OptionNameKindExtension.HasValue
+  commentId: M:BindOpen.Application.Options.OptionNameKindExtension.HasValue(BindOpen.Application.Options.OptionNameKind)
+  parent: BindOpen.Application.Options.OptionNameKindExtension
+  definition: BindOpen.Application.Options.OptionNameKindExtension.HasValue(BindOpen.Application.Options.OptionNameKind)
+  name: HasValue()
+  nameWithType: OptionNameKindExtension.HasValue()
+  fullName: BindOpen.Application.Options.OptionNameKindExtension.HasValue()
+  spec.csharp:
+  - uid: BindOpen.Application.Options.OptionNameKindExtension.HasValue
+    name: HasValue
+    nameWithType: OptionNameKindExtension.HasValue
+    fullName: BindOpen.Application.Options.OptionNameKindExtension.HasValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Application.Options.OptionNameKindExtension.HasValue
+    name: HasValue
+    nameWithType: OptionNameKindExtension.HasValue
+    fullName: BindOpen.Application.Options.OptionNameKindExtension.HasValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Application.Options.OptionNameKindExtension.HasName(BindOpen.Application.Options.OptionNameKind)
+  commentId: M:BindOpen.Application.Options.OptionNameKindExtension.HasName(BindOpen.Application.Options.OptionNameKind)
+  isExternal: true
+  name: HasName(OptionNameKind)
+  nameWithType: OptionNameKindExtension.HasName(OptionNameKind)
+  fullName: BindOpen.Application.Options.OptionNameKindExtension.HasName(BindOpen.Application.Options.OptionNameKind)
+  spec.csharp:
+  - uid: BindOpen.Application.Options.OptionNameKindExtension.HasName(BindOpen.Application.Options.OptionNameKind)
+    name: HasName
+    nameWithType: OptionNameKindExtension.HasName
+    fullName: BindOpen.Application.Options.OptionNameKindExtension.HasName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Application.Options.OptionNameKind
+    name: OptionNameKind
+    nameWithType: OptionNameKind
+    fullName: BindOpen.Application.Options.OptionNameKind
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Application.Options.OptionNameKindExtension.HasName(BindOpen.Application.Options.OptionNameKind)
+    name: HasName
+    nameWithType: OptionNameKindExtension.HasName
+    fullName: BindOpen.Application.Options.OptionNameKindExtension.HasName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Application.Options.OptionNameKind
+    name: OptionNameKind
+    nameWithType: OptionNameKind
+    fullName: BindOpen.Application.Options.OptionNameKind
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Options.OptionNameKindExtension
+  commentId: T:BindOpen.Application.Options.OptionNameKindExtension
+  parent: BindOpen.Application.Options
+  isExternal: true
+  name: OptionNameKindExtension
+  nameWithType: OptionNameKindExtension
+  fullName: BindOpen.Application.Options.OptionNameKindExtension
+- uid: BindOpen.Application.Options.OptionNameKindExtension.HasValue(BindOpen.Application.Options.OptionNameKind)
+  commentId: M:BindOpen.Application.Options.OptionNameKindExtension.HasValue(BindOpen.Application.Options.OptionNameKind)
+  isExternal: true
+  name: HasValue(OptionNameKind)
+  nameWithType: OptionNameKindExtension.HasValue(OptionNameKind)
+  fullName: BindOpen.Application.Options.OptionNameKindExtension.HasValue(BindOpen.Application.Options.OptionNameKind)
+  spec.csharp:
+  - uid: BindOpen.Application.Options.OptionNameKindExtension.HasValue(BindOpen.Application.Options.OptionNameKind)
+    name: HasValue
+    nameWithType: OptionNameKindExtension.HasValue
+    fullName: BindOpen.Application.Options.OptionNameKindExtension.HasValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Application.Options.OptionNameKind
+    name: OptionNameKind
+    nameWithType: OptionNameKind
+    fullName: BindOpen.Application.Options.OptionNameKind
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Application.Options.OptionNameKindExtension.HasValue(BindOpen.Application.Options.OptionNameKind)
+    name: HasValue
+    nameWithType: OptionNameKindExtension.HasValue
+    fullName: BindOpen.Application.Options.OptionNameKindExtension.HasValue
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Application.Options.OptionNameKind
+    name: OptionNameKind
+    nameWithType: OptionNameKind
+    fullName: BindOpen.Application.Options.OptionNameKind
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: BindOpen.Application.Options.OptionNameKind
+  commentId: T:BindOpen.Application.Options.OptionNameKind
+  parent: BindOpen.Application.Options
+  isExternal: true
+  name: OptionNameKind
+  nameWithType: OptionNameKind
+  fullName: BindOpen.Application.Options.OptionNameKind
+shouldSkipMarkup: true

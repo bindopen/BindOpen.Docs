@@ -1,0 +1,694 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Application.Modules.IApplicationModuleInstance
+  commentId: T:BindOpen.Application.Modules.IApplicationModuleInstance
+  id: IApplicationModuleInstance
+  parent: BindOpen.Application.Modules
+  children:
+  - BindOpen.Application.Modules.IApplicationModuleInstance.AbsoluteUri
+  - BindOpen.Application.Modules.IApplicationModuleInstance.AccessibilityLevel
+  - BindOpen.Application.Modules.IApplicationModuleInstance.ApplicationExecutionPath
+  - BindOpen.Application.Modules.IApplicationModuleInstance.GetSectionWithCompleteName(System.String)
+  - BindOpen.Application.Modules.IApplicationModuleInstance.GetSectionWithName(System.String)
+  - BindOpen.Application.Modules.IApplicationModuleInstance.Indexation
+  - BindOpen.Application.Modules.IApplicationModuleInstance.IsLocal
+  - BindOpen.Application.Modules.IApplicationModuleInstance.Kind
+  - BindOpen.Application.Modules.IApplicationModuleInstance.Module
+  - BindOpen.Application.Modules.IApplicationModuleInstance.ModuleName
+  - BindOpen.Application.Modules.IApplicationModuleInstance.OptionSet
+  - BindOpen.Application.Modules.IApplicationModuleInstance.Sections
+  - BindOpen.Application.Modules.IApplicationModuleInstance.SubKind
+  - BindOpen.Application.Modules.IApplicationModuleInstance.Uri
+  langs:
+  - csharp
+  - vb
+  name: IApplicationModuleInstance
+  nameWithType: IApplicationModuleInstance
+  fullName: BindOpen.Application.Modules.IApplicationModuleInstance
+  type: Interface
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Modules
+  summary: "\n\n"
+  syntax:
+    content: 'public interface IApplicationModuleInstance : IDescribedDataItem, ITitledDataItem, INamedDataItem, IStoredDataItem, IIdentifiedDataItem, IDataItem, ICloneable, IDisposable, IIdentified, IReferenced, IStorable, INamed, IGloballyTitled, IGloballyDescribed'
+    content.vb: >-
+      Public Interface IApplicationModuleInstance
+          Inherits IDescribedDataItem, ITitledDataItem, INamedDataItem, IStoredDataItem, IIdentifiedDataItem, IDataItem, ICloneable, IDisposable, IIdentified, IReferenced, IStorable, INamed, IGloballyTitled, IGloballyDescribed
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: BindOpen.Application.Modules.IApplicationModuleInstance.GetSectionWithCompleteName(System.String)
+  commentId: M:BindOpen.Application.Modules.IApplicationModuleInstance.GetSectionWithCompleteName(System.String)
+  id: GetSectionWithCompleteName(System.String)
+  parent: BindOpen.Application.Modules.IApplicationModuleInstance
+  langs:
+  - csharp
+  - vb
+  name: GetSectionWithCompleteName(String)
+  nameWithType: IApplicationModuleInstance.GetSectionWithCompleteName(String)
+  fullName: BindOpen.Application.Modules.IApplicationModuleInstance.GetSectionWithCompleteName(System.String)
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Modules
+  summary: "\n\n"
+  syntax:
+    content: IAppSection GetSectionWithCompleteName(string completeName)
+    parameters:
+    - id: completeName
+      type: System.String
+    return:
+      type: BindOpen.Application.Modules.IAppSection
+    content.vb: Function GetSectionWithCompleteName(completeName As String) As IAppSection
+  overload: BindOpen.Application.Modules.IApplicationModuleInstance.GetSectionWithCompleteName*
+- uid: BindOpen.Application.Modules.IApplicationModuleInstance.GetSectionWithName(System.String)
+  commentId: M:BindOpen.Application.Modules.IApplicationModuleInstance.GetSectionWithName(System.String)
+  id: GetSectionWithName(System.String)
+  parent: BindOpen.Application.Modules.IApplicationModuleInstance
+  langs:
+  - csharp
+  - vb
+  name: GetSectionWithName(String)
+  nameWithType: IApplicationModuleInstance.GetSectionWithName(String)
+  fullName: BindOpen.Application.Modules.IApplicationModuleInstance.GetSectionWithName(System.String)
+  type: Method
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Modules
+  summary: "\n\n"
+  syntax:
+    content: IAppSection GetSectionWithName(string name)
+    parameters:
+    - id: name
+      type: System.String
+    return:
+      type: BindOpen.Application.Modules.IAppSection
+    content.vb: Function GetSectionWithName(name As String) As IAppSection
+  overload: BindOpen.Application.Modules.IApplicationModuleInstance.GetSectionWithName*
+- uid: BindOpen.Application.Modules.IApplicationModuleInstance.AbsoluteUri
+  commentId: P:BindOpen.Application.Modules.IApplicationModuleInstance.AbsoluteUri
+  id: AbsoluteUri
+  parent: BindOpen.Application.Modules.IApplicationModuleInstance
+  langs:
+  - csharp
+  - vb
+  name: AbsoluteUri
+  nameWithType: IApplicationModuleInstance.AbsoluteUri
+  fullName: BindOpen.Application.Modules.IApplicationModuleInstance.AbsoluteUri
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Modules
+  summary: "\n\n"
+  syntax:
+    content: string AbsoluteUri { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property AbsoluteUri As String
+  overload: BindOpen.Application.Modules.IApplicationModuleInstance.AbsoluteUri*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: BindOpen.Application.Modules.IApplicationModuleInstance.AccessibilityLevel
+  commentId: P:BindOpen.Application.Modules.IApplicationModuleInstance.AccessibilityLevel
+  id: AccessibilityLevel
+  parent: BindOpen.Application.Modules.IApplicationModuleInstance
+  langs:
+  - csharp
+  - vb
+  name: AccessibilityLevel
+  nameWithType: IApplicationModuleInstance.AccessibilityLevel
+  fullName: BindOpen.Application.Modules.IApplicationModuleInstance.AccessibilityLevel
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Modules
+  summary: "\n\n"
+  syntax:
+    content: AccessibilityLevels AccessibilityLevel { get; set; }
+    parameters: []
+    return:
+      type: BindOpen.Data.Common.AccessibilityLevels
+    content.vb: Property AccessibilityLevel As AccessibilityLevels
+  overload: BindOpen.Application.Modules.IApplicationModuleInstance.AccessibilityLevel*
+  modifiers.csharp:
+  - get
+  - set
+- uid: BindOpen.Application.Modules.IApplicationModuleInstance.ApplicationExecutionPath
+  commentId: P:BindOpen.Application.Modules.IApplicationModuleInstance.ApplicationExecutionPath
+  id: ApplicationExecutionPath
+  parent: BindOpen.Application.Modules.IApplicationModuleInstance
+  langs:
+  - csharp
+  - vb
+  name: ApplicationExecutionPath
+  nameWithType: IApplicationModuleInstance.ApplicationExecutionPath
+  fullName: BindOpen.Application.Modules.IApplicationModuleInstance.ApplicationExecutionPath
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Modules
+  summary: "\n\n"
+  syntax:
+    content: string ApplicationExecutionPath { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property ApplicationExecutionPath As String
+  overload: BindOpen.Application.Modules.IApplicationModuleInstance.ApplicationExecutionPath*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: BindOpen.Application.Modules.IApplicationModuleInstance.Indexation
+  commentId: P:BindOpen.Application.Modules.IApplicationModuleInstance.Indexation
+  id: Indexation
+  parent: BindOpen.Application.Modules.IApplicationModuleInstance
+  langs:
+  - csharp
+  - vb
+  name: Indexation
+  nameWithType: IApplicationModuleInstance.Indexation
+  fullName: BindOpen.Application.Modules.IApplicationModuleInstance.Indexation
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Modules
+  summary: "\n\n"
+  syntax:
+    content: InstanceIndexations Indexation { get; set; }
+    parameters: []
+    return:
+      type: BindOpen.System.InstanceIndexations
+    content.vb: Property Indexation As InstanceIndexations
+  overload: BindOpen.Application.Modules.IApplicationModuleInstance.Indexation*
+  modifiers.csharp:
+  - get
+  - set
+- uid: BindOpen.Application.Modules.IApplicationModuleInstance.IsLocal
+  commentId: P:BindOpen.Application.Modules.IApplicationModuleInstance.IsLocal
+  id: IsLocal
+  parent: BindOpen.Application.Modules.IApplicationModuleInstance
+  langs:
+  - csharp
+  - vb
+  name: IsLocal
+  nameWithType: IApplicationModuleInstance.IsLocal
+  fullName: BindOpen.Application.Modules.IApplicationModuleInstance.IsLocal
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Modules
+  summary: "\n\n"
+  syntax:
+    content: bool IsLocal { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: ReadOnly Property IsLocal As Boolean
+  overload: BindOpen.Application.Modules.IApplicationModuleInstance.IsLocal*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: BindOpen.Application.Modules.IApplicationModuleInstance.Kind
+  commentId: P:BindOpen.Application.Modules.IApplicationModuleInstance.Kind
+  id: Kind
+  parent: BindOpen.Application.Modules.IApplicationModuleInstance
+  langs:
+  - csharp
+  - vb
+  name: Kind
+  nameWithType: IApplicationModuleInstance.Kind
+  fullName: BindOpen.Application.Modules.IApplicationModuleInstance.Kind
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Modules
+  summary: "\n\n"
+  syntax:
+    content: ApplicationModuleKind Kind { get; set; }
+    parameters: []
+    return:
+      type: BindOpen.Application.Modules.ApplicationModuleKind
+    content.vb: Property Kind As ApplicationModuleKind
+  overload: BindOpen.Application.Modules.IApplicationModuleInstance.Kind*
+  modifiers.csharp:
+  - get
+  - set
+- uid: BindOpen.Application.Modules.IApplicationModuleInstance.Module
+  commentId: P:BindOpen.Application.Modules.IApplicationModuleInstance.Module
+  id: Module
+  parent: BindOpen.Application.Modules.IApplicationModuleInstance
+  langs:
+  - csharp
+  - vb
+  name: Module
+  nameWithType: IApplicationModuleInstance.Module
+  fullName: BindOpen.Application.Modules.IApplicationModuleInstance.Module
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Modules
+  summary: "\n\n"
+  syntax:
+    content: IAppModule Module { get; set; }
+    parameters: []
+    return:
+      type: BindOpen.Application.Modules.IAppModule
+    content.vb: Property Module As IAppModule
+  overload: BindOpen.Application.Modules.IApplicationModuleInstance.Module*
+  modifiers.csharp:
+  - get
+  - set
+- uid: BindOpen.Application.Modules.IApplicationModuleInstance.ModuleName
+  commentId: P:BindOpen.Application.Modules.IApplicationModuleInstance.ModuleName
+  id: ModuleName
+  parent: BindOpen.Application.Modules.IApplicationModuleInstance
+  langs:
+  - csharp
+  - vb
+  name: ModuleName
+  nameWithType: IApplicationModuleInstance.ModuleName
+  fullName: BindOpen.Application.Modules.IApplicationModuleInstance.ModuleName
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Modules
+  summary: "\n\n"
+  syntax:
+    content: string ModuleName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property ModuleName As String
+  overload: BindOpen.Application.Modules.IApplicationModuleInstance.ModuleName*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: BindOpen.Application.Modules.IApplicationModuleInstance.OptionSet
+  commentId: P:BindOpen.Application.Modules.IApplicationModuleInstance.OptionSet
+  id: OptionSet
+  parent: BindOpen.Application.Modules.IApplicationModuleInstance
+  langs:
+  - csharp
+  - vb
+  name: OptionSet
+  nameWithType: IApplicationModuleInstance.OptionSet
+  fullName: BindOpen.Application.Modules.IApplicationModuleInstance.OptionSet
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Modules
+  summary: "\n\n"
+  syntax:
+    content: IOptionSet OptionSet { get; }
+    parameters: []
+    return:
+      type: BindOpen.Application.Options.IOptionSet
+    content.vb: ReadOnly Property OptionSet As IOptionSet
+  overload: BindOpen.Application.Modules.IApplicationModuleInstance.OptionSet*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: BindOpen.Application.Modules.IApplicationModuleInstance.Sections
+  commentId: P:BindOpen.Application.Modules.IApplicationModuleInstance.Sections
+  id: Sections
+  parent: BindOpen.Application.Modules.IApplicationModuleInstance
+  langs:
+  - csharp
+  - vb
+  name: Sections
+  nameWithType: IApplicationModuleInstance.Sections
+  fullName: BindOpen.Application.Modules.IApplicationModuleInstance.Sections
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Modules
+  summary: "\n\n"
+  syntax:
+    content: IDataItemSet<AppSection> Sections { get; set; }
+    parameters: []
+    return:
+      type: BindOpen.Data.Items.IDataItemSet{BindOpen.Application.Modules.AppSection}
+    content.vb: Property Sections As IDataItemSet(Of AppSection)
+  overload: BindOpen.Application.Modules.IApplicationModuleInstance.Sections*
+  modifiers.csharp:
+  - get
+  - set
+- uid: BindOpen.Application.Modules.IApplicationModuleInstance.SubKind
+  commentId: P:BindOpen.Application.Modules.IApplicationModuleInstance.SubKind
+  id: SubKind
+  parent: BindOpen.Application.Modules.IApplicationModuleInstance
+  langs:
+  - csharp
+  - vb
+  name: SubKind
+  nameWithType: IApplicationModuleInstance.SubKind
+  fullName: BindOpen.Application.Modules.IApplicationModuleInstance.SubKind
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Modules
+  summary: "\n\n"
+  syntax:
+    content: ApplicationModuleSubKind SubKind { get; set; }
+    parameters: []
+    return:
+      type: BindOpen.Application.Modules.ApplicationModuleSubKind
+    content.vb: Property SubKind As ApplicationModuleSubKind
+  overload: BindOpen.Application.Modules.IApplicationModuleInstance.SubKind*
+  modifiers.csharp:
+  - get
+  - set
+- uid: BindOpen.Application.Modules.IApplicationModuleInstance.Uri
+  commentId: P:BindOpen.Application.Modules.IApplicationModuleInstance.Uri
+  id: Uri
+  parent: BindOpen.Application.Modules.IApplicationModuleInstance
+  langs:
+  - csharp
+  - vb
+  name: Uri
+  nameWithType: IApplicationModuleInstance.Uri
+  fullName: BindOpen.Application.Modules.IApplicationModuleInstance.Uri
+  type: Property
+  source:
+    path: BindOpen.Runtime
+    isExternal: true
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Modules
+  summary: "\n\n"
+  syntax:
+    content: string Uri { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property Uri As String
+  overload: BindOpen.Application.Modules.IApplicationModuleInstance.Uri*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: BindOpen.Application.Modules
+  commentId: N:BindOpen.Application.Modules
+  isExternal: true
+  name: BindOpen.Application.Modules
+  nameWithType: BindOpen.Application.Modules
+  fullName: BindOpen.Application.Modules
+- uid: BindOpen.Application.Modules.IApplicationModuleInstance.GetSectionWithCompleteName*
+  commentId: Overload:BindOpen.Application.Modules.IApplicationModuleInstance.GetSectionWithCompleteName
+  isExternal: true
+  name: GetSectionWithCompleteName
+  nameWithType: IApplicationModuleInstance.GetSectionWithCompleteName
+  fullName: BindOpen.Application.Modules.IApplicationModuleInstance.GetSectionWithCompleteName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: BindOpen.Application.Modules.IAppSection
+  commentId: T:BindOpen.Application.Modules.IAppSection
+  parent: BindOpen.Application.Modules
+  isExternal: true
+  name: IAppSection
+  nameWithType: IAppSection
+  fullName: BindOpen.Application.Modules.IAppSection
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Application.Modules.IApplicationModuleInstance.GetSectionWithName*
+  commentId: Overload:BindOpen.Application.Modules.IApplicationModuleInstance.GetSectionWithName
+  isExternal: true
+  name: GetSectionWithName
+  nameWithType: IApplicationModuleInstance.GetSectionWithName
+  fullName: BindOpen.Application.Modules.IApplicationModuleInstance.GetSectionWithName
+- uid: BindOpen.Application.Modules.IApplicationModuleInstance.AbsoluteUri*
+  commentId: Overload:BindOpen.Application.Modules.IApplicationModuleInstance.AbsoluteUri
+  isExternal: true
+  name: AbsoluteUri
+  nameWithType: IApplicationModuleInstance.AbsoluteUri
+  fullName: BindOpen.Application.Modules.IApplicationModuleInstance.AbsoluteUri
+- uid: BindOpen.Application.Modules.IApplicationModuleInstance.AccessibilityLevel*
+  commentId: Overload:BindOpen.Application.Modules.IApplicationModuleInstance.AccessibilityLevel
+  isExternal: true
+  name: AccessibilityLevel
+  nameWithType: IApplicationModuleInstance.AccessibilityLevel
+  fullName: BindOpen.Application.Modules.IApplicationModuleInstance.AccessibilityLevel
+- uid: BindOpen.Data.Common.AccessibilityLevels
+  isExternal: true
+  name: AccessibilityLevels
+  nameWithType: AccessibilityLevels
+  fullName: BindOpen.Data.Common.AccessibilityLevels
+- uid: BindOpen.Application.Modules.IApplicationModuleInstance.ApplicationExecutionPath*
+  commentId: Overload:BindOpen.Application.Modules.IApplicationModuleInstance.ApplicationExecutionPath
+  isExternal: true
+  name: ApplicationExecutionPath
+  nameWithType: IApplicationModuleInstance.ApplicationExecutionPath
+  fullName: BindOpen.Application.Modules.IApplicationModuleInstance.ApplicationExecutionPath
+- uid: BindOpen.Application.Modules.IApplicationModuleInstance.Indexation*
+  commentId: Overload:BindOpen.Application.Modules.IApplicationModuleInstance.Indexation
+  isExternal: true
+  name: Indexation
+  nameWithType: IApplicationModuleInstance.Indexation
+  fullName: BindOpen.Application.Modules.IApplicationModuleInstance.Indexation
+- uid: BindOpen.System.InstanceIndexations
+  commentId: T:BindOpen.System.InstanceIndexations
+  parent: BindOpen.System
+  isExternal: true
+  name: InstanceIndexations
+  nameWithType: InstanceIndexations
+  fullName: BindOpen.System.InstanceIndexations
+- uid: BindOpen.System
+  commentId: N:BindOpen.System
+  isExternal: true
+  name: BindOpen.System
+  nameWithType: BindOpen.System
+  fullName: BindOpen.System
+- uid: BindOpen.Application.Modules.IApplicationModuleInstance.IsLocal*
+  commentId: Overload:BindOpen.Application.Modules.IApplicationModuleInstance.IsLocal
+  isExternal: true
+  name: IsLocal
+  nameWithType: IApplicationModuleInstance.IsLocal
+  fullName: BindOpen.Application.Modules.IApplicationModuleInstance.IsLocal
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: BindOpen.Application.Modules.IApplicationModuleInstance.Kind*
+  commentId: Overload:BindOpen.Application.Modules.IApplicationModuleInstance.Kind
+  isExternal: true
+  name: Kind
+  nameWithType: IApplicationModuleInstance.Kind
+  fullName: BindOpen.Application.Modules.IApplicationModuleInstance.Kind
+- uid: BindOpen.Application.Modules.ApplicationModuleKind
+  commentId: T:BindOpen.Application.Modules.ApplicationModuleKind
+  parent: BindOpen.Application.Modules
+  isExternal: true
+  name: ApplicationModuleKind
+  nameWithType: ApplicationModuleKind
+  fullName: BindOpen.Application.Modules.ApplicationModuleKind
+- uid: BindOpen.Application.Modules.IApplicationModuleInstance.Module*
+  commentId: Overload:BindOpen.Application.Modules.IApplicationModuleInstance.Module
+  isExternal: true
+  name: Module
+  nameWithType: IApplicationModuleInstance.Module
+  fullName: BindOpen.Application.Modules.IApplicationModuleInstance.Module
+- uid: BindOpen.Application.Modules.IAppModule
+  commentId: T:BindOpen.Application.Modules.IAppModule
+  parent: BindOpen.Application.Modules
+  isExternal: true
+  name: IAppModule
+  nameWithType: IAppModule
+  fullName: BindOpen.Application.Modules.IAppModule
+- uid: BindOpen.Application.Modules.IApplicationModuleInstance.ModuleName*
+  commentId: Overload:BindOpen.Application.Modules.IApplicationModuleInstance.ModuleName
+  isExternal: true
+  name: ModuleName
+  nameWithType: IApplicationModuleInstance.ModuleName
+  fullName: BindOpen.Application.Modules.IApplicationModuleInstance.ModuleName
+- uid: BindOpen.Application.Modules.IApplicationModuleInstance.OptionSet*
+  commentId: Overload:BindOpen.Application.Modules.IApplicationModuleInstance.OptionSet
+  isExternal: true
+  name: OptionSet
+  nameWithType: IApplicationModuleInstance.OptionSet
+  fullName: BindOpen.Application.Modules.IApplicationModuleInstance.OptionSet
+- uid: BindOpen.Application.Options.IOptionSet
+  commentId: T:BindOpen.Application.Options.IOptionSet
+  parent: BindOpen.Application.Options
+  isExternal: true
+  name: IOptionSet
+  nameWithType: IOptionSet
+  fullName: BindOpen.Application.Options.IOptionSet
+- uid: BindOpen.Application.Options
+  commentId: N:BindOpen.Application.Options
+  isExternal: true
+  name: BindOpen.Application.Options
+  nameWithType: BindOpen.Application.Options
+  fullName: BindOpen.Application.Options
+- uid: BindOpen.Application.Modules.IApplicationModuleInstance.Sections*
+  commentId: Overload:BindOpen.Application.Modules.IApplicationModuleInstance.Sections
+  isExternal: true
+  name: Sections
+  nameWithType: IApplicationModuleInstance.Sections
+  fullName: BindOpen.Application.Modules.IApplicationModuleInstance.Sections
+- uid: BindOpen.Data.Items.IDataItemSet{BindOpen.Application.Modules.AppSection}
+  commentId: '!:BindOpen.Data.Items.IDataItemSet{BindOpen.Application.Modules.AppSection}'
+  definition: BindOpen.Data.Items.IDataItemSet`1
+  name: IDataItemSet<AppSection>
+  nameWithType: IDataItemSet<AppSection>
+  fullName: BindOpen.Data.Items.IDataItemSet<BindOpen.Application.Modules.AppSection>
+  nameWithType.vb: IDataItemSet(Of AppSection)
+  fullName.vb: BindOpen.Data.Items.IDataItemSet(Of BindOpen.Application.Modules.AppSection)
+  name.vb: IDataItemSet(Of AppSection)
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItemSet`1
+    name: IDataItemSet
+    nameWithType: IDataItemSet
+    fullName: BindOpen.Data.Items.IDataItemSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BindOpen.Application.Modules.AppSection
+    name: AppSection
+    nameWithType: AppSection
+    fullName: BindOpen.Application.Modules.AppSection
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItemSet`1
+    name: IDataItemSet
+    nameWithType: IDataItemSet
+    fullName: BindOpen.Data.Items.IDataItemSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BindOpen.Application.Modules.AppSection
+    name: AppSection
+    nameWithType: AppSection
+    fullName: BindOpen.Application.Modules.AppSection
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IDataItemSet`1
+  isExternal: true
+  name: IDataItemSet<>
+  nameWithType: IDataItemSet<>
+  fullName: BindOpen.Data.Items.IDataItemSet<>
+  nameWithType.vb: IDataItemSet(Of )
+  fullName.vb: BindOpen.Data.Items.IDataItemSet(Of )
+  name.vb: IDataItemSet(Of )
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItemSet`1
+    name: IDataItemSet
+    nameWithType: IDataItemSet
+    fullName: BindOpen.Data.Items.IDataItemSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItemSet`1
+    name: IDataItemSet
+    nameWithType: IDataItemSet
+    fullName: BindOpen.Data.Items.IDataItemSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Modules.IApplicationModuleInstance.SubKind*
+  commentId: Overload:BindOpen.Application.Modules.IApplicationModuleInstance.SubKind
+  isExternal: true
+  name: SubKind
+  nameWithType: IApplicationModuleInstance.SubKind
+  fullName: BindOpen.Application.Modules.IApplicationModuleInstance.SubKind
+- uid: BindOpen.Application.Modules.ApplicationModuleSubKind
+  commentId: T:BindOpen.Application.Modules.ApplicationModuleSubKind
+  parent: BindOpen.Application.Modules
+  isExternal: true
+  name: ApplicationModuleSubKind
+  nameWithType: ApplicationModuleSubKind
+  fullName: BindOpen.Application.Modules.ApplicationModuleSubKind
+- uid: BindOpen.Application.Modules.IApplicationModuleInstance.Uri*
+  commentId: Overload:BindOpen.Application.Modules.IApplicationModuleInstance.Uri
+  isExternal: true
+  name: Uri
+  nameWithType: IApplicationModuleInstance.Uri
+  fullName: BindOpen.Application.Modules.IApplicationModuleInstance.Uri
+shouldSkipMarkup: true

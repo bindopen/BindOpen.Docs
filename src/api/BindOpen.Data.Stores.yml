@@ -1,0 +1,52 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Data.Stores
+  commentId: N:BindOpen.Data.Stores
+  id: BindOpen.Data.Stores
+  children:
+  - BindOpen.Data.Stores.BdoDatasourceExtensions
+  - BindOpen.Data.Stores.BdoDataStoreExtensions
+  - BindOpen.Data.Stores.BdoDbModelDepot
+  - BindOpen.Data.Stores.IBdoDbModelDepot
+  langs:
+  - csharp
+  - vb
+  name: BindOpen.Data.Stores
+  nameWithType: BindOpen.Data.Stores
+  fullName: BindOpen.Data.Stores
+  type: Namespace
+  assemblies:
+  - BindOpen.Databases
+references:
+- uid: BindOpen.Data.Stores.BdoDataStoreExtensions
+  commentId: T:BindOpen.Data.Stores.BdoDataStoreExtensions
+  isExternal: true
+  name: BdoDataStoreExtensions
+  nameWithType: BdoDataStoreExtensions
+  fullName: BindOpen.Data.Stores.BdoDataStoreExtensions
+- uid: BindOpen.Data.Stores.BdoDbModelDepot
+  commentId: T:BindOpen.Data.Stores.BdoDbModelDepot
+  isExternal: true
+  name: BdoDbModelDepot
+  nameWithType: BdoDbModelDepot
+  fullName: BindOpen.Data.Stores.BdoDbModelDepot
+- uid: BindOpen.Data.Stores.IBdoDbModelDepot
+  commentId: T:BindOpen.Data.Stores.IBdoDbModelDepot
+  parent: BindOpen.Data.Stores
+  isExternal: true
+  name: IBdoDbModelDepot
+  nameWithType: IBdoDbModelDepot
+  fullName: BindOpen.Data.Stores.IBdoDbModelDepot
+- uid: BindOpen.Data.Stores.BdoDatasourceExtensions
+  commentId: T:BindOpen.Data.Stores.BdoDatasourceExtensions
+  isExternal: true
+  name: BdoDatasourceExtensions
+  nameWithType: BdoDatasourceExtensions
+  fullName: BindOpen.Data.Stores.BdoDatasourceExtensions
+- uid: BindOpen.Data.Stores
+  commentId: N:BindOpen.Data.Stores
+  isExternal: true
+  name: BindOpen.Data.Stores
+  nameWithType: BindOpen.Data.Stores
+  fullName: BindOpen.Data.Stores
+shouldSkipMarkup: true

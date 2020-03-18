@@ -1,0 +1,78 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Data.Queries.IDbQueryItem
+  commentId: T:BindOpen.Data.Queries.IDbQueryItem
+  id: IDbQueryItem
+  parent: BindOpen.Data.Queries
+  children:
+  - BindOpen.Data.Queries.IDbQueryItem.Expression
+  langs:
+  - csharp
+  - vb
+  name: IDbQueryItem
+  nameWithType: IDbQueryItem
+  fullName: BindOpen.Data.Queries.IDbQueryItem
+  type: Interface
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\n\n"
+  syntax:
+    content: public interface IDbQueryItem
+    content.vb: Public Interface IDbQueryItem
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: BindOpen.Data.Queries.IDbQueryItem.Expression
+  commentId: P:BindOpen.Data.Queries.IDbQueryItem.Expression
+  id: Expression
+  parent: BindOpen.Data.Queries.IDbQueryItem
+  langs:
+  - csharp
+  - vb
+  name: Expression
+  nameWithType: IDbQueryItem.Expression
+  fullName: BindOpen.Data.Queries.IDbQueryItem.Expression
+  type: Property
+  source:
+    path: BindOpen.Databases
+    isExternal: true
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  summary: "\nThe value to consider.\n"
+  syntax:
+    content: DataExpression Expression { get; set; }
+    parameters: []
+    return:
+      type: BindOpen.Data.Expression.DataExpression
+    content.vb: Property Expression As DataExpression
+  overload: BindOpen.Data.Queries.IDbQueryItem.Expression*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: BindOpen.Data.Queries
+  commentId: N:BindOpen.Data.Queries
+  isExternal: true
+  name: BindOpen.Data.Queries
+  nameWithType: BindOpen.Data.Queries
+  fullName: BindOpen.Data.Queries
+- uid: BindOpen.Data.Queries.IDbQueryItem.Expression*
+  commentId: Overload:BindOpen.Data.Queries.IDbQueryItem.Expression
+  isExternal: true
+  name: Expression
+  nameWithType: IDbQueryItem.Expression
+  fullName: BindOpen.Data.Queries.IDbQueryItem.Expression
+- uid: BindOpen.Data.Expression.DataExpression
+  isExternal: true
+  name: DataExpression
+  nameWithType: DataExpression
+  fullName: BindOpen.Data.Expression.DataExpression
+shouldSkipMarkup: true

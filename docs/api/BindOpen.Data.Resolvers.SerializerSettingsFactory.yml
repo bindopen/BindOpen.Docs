@@ -1,0 +1,441 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Data.Resolvers.SerializerSettingsFactory
+  commentId: T:BindOpen.Data.Resolvers.SerializerSettingsFactory
+  id: SerializerSettingsFactory
+  parent: BindOpen.Data.Resolvers
+  children:
+  - BindOpen.Data.Resolvers.SerializerSettingsFactory.CreateSettings
+  - BindOpen.Data.Resolvers.SerializerSettingsFactory.InitializeSettings(JsonSerializerSettings)
+  langs:
+  - csharp
+  - vb
+  name: SerializerSettingsFactory
+  nameWithType: SerializerSettingsFactory
+  fullName: BindOpen.Data.Resolvers.SerializerSettingsFactory
+  type: Class
+  source:
+    remote:
+      path: src/BindOpen.Runtime.NetCore/Data/Resolvers/SerializerSettingsFactory.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: SerializerSettingsFactory
+    path: ../src/BindOpen.Runtime.NetCore/Data/Resolvers/SerializerSettingsFactory.cs
+    startLine: 10
+  assemblies:
+  - BindOpen.Runtime.NetCore
+  namespace: BindOpen.Data.Resolvers
+  summary: "\nThis class represents a startup helpers\n"
+  example: []
+  syntax:
+    content: public static class SerializerSettingsFactory
+    content.vb: Public Module SerializerSettingsFactory
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: BindOpen.Data.Resolvers.SerializerSettingsFactory.InitializeSettings(JsonSerializerSettings)
+  commentId: M:BindOpen.Data.Resolvers.SerializerSettingsFactory.InitializeSettings(JsonSerializerSettings)
+  id: InitializeSettings(JsonSerializerSettings)
+  parent: BindOpen.Data.Resolvers.SerializerSettingsFactory
+  langs:
+  - csharp
+  - vb
+  name: InitializeSettings(JsonSerializerSettings)
+  nameWithType: SerializerSettingsFactory.InitializeSettings(JsonSerializerSettings)
+  fullName: BindOpen.Data.Resolvers.SerializerSettingsFactory.InitializeSettings(JsonSerializerSettings)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Runtime.NetCore/Data/Resolvers/SerializerSettingsFactory.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: InitializeSettings
+    path: ../src/BindOpen.Runtime.NetCore/Data/Resolvers/SerializerSettingsFactory.cs
+    startLine: 17
+  assemblies:
+  - BindOpen.Runtime.NetCore
+  namespace: BindOpen.Data.Resolvers
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public static JsonSerializerSettings InitializeSettings(JsonSerializerSettings settings)
+    parameters:
+    - id: settings
+      type: JsonSerializerSettings
+      description: ''
+    return:
+      type: JsonSerializerSettings
+      description: ''
+    content.vb: Public Shared Function InitializeSettings(settings As JsonSerializerSettings) As JsonSerializerSettings
+  overload: BindOpen.Data.Resolvers.SerializerSettingsFactory.InitializeSettings*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Resolvers.SerializerSettingsFactory.CreateSettings
+  commentId: M:BindOpen.Data.Resolvers.SerializerSettingsFactory.CreateSettings
+  id: CreateSettings
+  parent: BindOpen.Data.Resolvers.SerializerSettingsFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateSettings()
+  nameWithType: SerializerSettingsFactory.CreateSettings()
+  fullName: BindOpen.Data.Resolvers.SerializerSettingsFactory.CreateSettings()
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Runtime.NetCore/Data/Resolvers/SerializerSettingsFactory.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: CreateSettings
+    path: ../src/BindOpen.Runtime.NetCore/Data/Resolvers/SerializerSettingsFactory.cs
+    startLine: 36
+  assemblies:
+  - BindOpen.Runtime.NetCore
+  namespace: BindOpen.Data.Resolvers
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public static JsonSerializerSettings CreateSettings()
+    return:
+      type: JsonSerializerSettings
+      description: ''
+    content.vb: Public Shared Function CreateSettings As JsonSerializerSettings
+  overload: BindOpen.Data.Resolvers.SerializerSettingsFactory.CreateSettings*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: BindOpen.Data.Resolvers
+  commentId: N:BindOpen.Data.Resolvers
+  name: BindOpen.Data.Resolvers
+  nameWithType: BindOpen.Data.Resolvers
+  fullName: BindOpen.Data.Resolvers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Data.Resolvers.SerializerSettingsFactory.InitializeSettings*
+  commentId: Overload:BindOpen.Data.Resolvers.SerializerSettingsFactory.InitializeSettings
+  name: InitializeSettings
+  nameWithType: SerializerSettingsFactory.InitializeSettings
+  fullName: BindOpen.Data.Resolvers.SerializerSettingsFactory.InitializeSettings
+- uid: JsonSerializerSettings
+  isExternal: true
+  name: JsonSerializerSettings
+  nameWithType: JsonSerializerSettings
+  fullName: JsonSerializerSettings
+- uid: BindOpen.Data.Resolvers.SerializerSettingsFactory.CreateSettings*
+  commentId: Overload:BindOpen.Data.Resolvers.SerializerSettingsFactory.CreateSettings
+  name: CreateSettings
+  nameWithType: SerializerSettingsFactory.CreateSettings
+  fullName: BindOpen.Data.Resolvers.SerializerSettingsFactory.CreateSettings
+shouldSkipMarkup: true

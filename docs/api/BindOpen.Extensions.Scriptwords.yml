@@ -1,0 +1,35 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Extensions.Scriptwords
+  commentId: N:BindOpen.Extensions.Scriptwords
+  id: BindOpen.Extensions.Scriptwords
+  children:
+  - BindOpen.Extensions.Scriptwords.ScriptHelper_Database
+  - BindOpen.Extensions.Scriptwords.ScriptVariableKey_Database
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database
+  langs:
+  - csharp
+  - vb
+  name: BindOpen.Extensions.Scriptwords
+  nameWithType: BindOpen.Extensions.Scriptwords
+  fullName: BindOpen.Extensions.Scriptwords
+  type: Namespace
+  assemblies:
+  - BindOpen.Databases
+references:
+- uid: BindOpen.Extensions.Scriptwords.ScriptHelper_Database
+  commentId: T:BindOpen.Extensions.Scriptwords.ScriptHelper_Database
+  name: ScriptHelper_Database
+  nameWithType: ScriptHelper_Database
+  fullName: BindOpen.Extensions.Scriptwords.ScriptHelper_Database
+- uid: BindOpen.Extensions.Scriptwords.ScriptVariableKey_Database
+  commentId: T:BindOpen.Extensions.Scriptwords.ScriptVariableKey_Database
+  name: ScriptVariableKey_Database
+  nameWithType: ScriptVariableKey_Database
+  fullName: BindOpen.Extensions.Scriptwords.ScriptVariableKey_Database
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database
+  commentId: T:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database
+  name: ScriptwordDefinition_Database
+  nameWithType: ScriptwordDefinition_Database
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database
+shouldSkipMarkup: true

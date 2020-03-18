@@ -1,0 +1,452 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Data.Items
+  commentId: N:BindOpen.Data.Items
+  id: BindOpen.Data.Items
+  children:
+  - BindOpen.Data.Items.DataItem
+  - BindOpen.Data.Items.DataItemizationMode
+  - BindOpen.Data.Items.DataItemSet`1
+  - BindOpen.Data.Items.DataKeyValue
+  - BindOpen.Data.Items.DataSchema
+  - BindOpen.Data.Items.Datasource
+  - BindOpen.Data.Items.DatasourceKind
+  - BindOpen.Data.Items.DescribedDataItem
+  - BindOpen.Data.Items.DescribedDataItemAttribute
+  - BindOpen.Data.Items.DictionaryDataItem
+  - BindOpen.Data.Items.DictionaryFactory
+  - BindOpen.Data.Items.Document
+  - BindOpen.Data.Items.IDataItem
+  - BindOpen.Data.Items.IDataItemSet`1
+  - BindOpen.Data.Items.IDataKeyValue
+  - BindOpen.Data.Items.IDataSchema
+  - BindOpen.Data.Items.IDatasource
+  - BindOpen.Data.Items.IdentifiedDataItem
+  - BindOpen.Data.Items.IDescribed
+  - BindOpen.Data.Items.IDescribedDataItem
+  - BindOpen.Data.Items.IDictionaryDataItem
+  - BindOpen.Data.Items.IDisplayNamed
+  - BindOpen.Data.Items.IDocument
+  - BindOpen.Data.Items.IGloballyDescribed
+  - BindOpen.Data.Items.IGloballyTitled
+  - BindOpen.Data.Items.IIdentified
+  - BindOpen.Data.Items.IIdentifiedDataItem
+  - BindOpen.Data.Items.IIndexed
+  - BindOpen.Data.Items.IIndexedDataItem
+  - BindOpen.Data.Items.ILockable
+  - BindOpen.Data.Items.INamed
+  - BindOpen.Data.Items.INamedDataItem
+  - BindOpen.Data.Items.IndexedDataItem
+  - BindOpen.Data.Items.IObservableDataItemSet`1
+  - BindOpen.Data.Items.IReferenced
+  - BindOpen.Data.Items.ISavable
+  - BindOpen.Data.Items.IStorable
+  - BindOpen.Data.Items.IStoredDataItem
+  - BindOpen.Data.Items.ItemResultDto
+  - BindOpen.Data.Items.ITitledDataItem
+  - BindOpen.Data.Items.IUnique
+  - BindOpen.Data.Items.NamedDataItem
+  - BindOpen.Data.Items.ObservableDataItemSet`1
+  - BindOpen.Data.Items.StoredDataItem
+  - BindOpen.Data.Items.TitledDataItem
+  langs:
+  - csharp
+  - vb
+  name: BindOpen.Data.Items
+  nameWithType: BindOpen.Data.Items
+  fullName: BindOpen.Data.Items
+  type: Namespace
+  assemblies:
+  - BindOpen.Core
+references:
+- uid: BindOpen.Data.Items.DescribedDataItemAttribute
+  commentId: T:BindOpen.Data.Items.DescribedDataItemAttribute
+  parent: BindOpen.Data.Items
+  name: DescribedDataItemAttribute
+  nameWithType: DescribedDataItemAttribute
+  fullName: BindOpen.Data.Items.DescribedDataItemAttribute
+- uid: BindOpen.Data.Items.DataItem
+  commentId: T:BindOpen.Data.Items.DataItem
+  parent: BindOpen.Data.Items
+  name: DataItem
+  nameWithType: DataItem
+  fullName: BindOpen.Data.Items.DataItem
+- uid: BindOpen.Data.Items.DataItemizationMode
+  commentId: T:BindOpen.Data.Items.DataItemizationMode
+  parent: BindOpen.Data.Items
+  name: DataItemizationMode
+  nameWithType: DataItemizationMode
+  fullName: BindOpen.Data.Items.DataItemizationMode
+- uid: BindOpen.Data.Items.Datasource
+  commentId: T:BindOpen.Data.Items.Datasource
+  name: Datasource
+  nameWithType: Datasource
+  fullName: BindOpen.Data.Items.Datasource
+- uid: BindOpen.Data.Items.DatasourceKind
+  commentId: T:BindOpen.Data.Items.DatasourceKind
+  parent: BindOpen.Data.Items
+  name: DatasourceKind
+  nameWithType: DatasourceKind
+  fullName: BindOpen.Data.Items.DatasourceKind
+- uid: BindOpen.Data.Items.IDatasource
+  commentId: T:BindOpen.Data.Items.IDatasource
+  parent: BindOpen.Data.Items
+  name: IDatasource
+  nameWithType: IDatasource
+  fullName: BindOpen.Data.Items.IDatasource
+- uid: BindOpen.Data.Items.DescribedDataItem
+  commentId: T:BindOpen.Data.Items.DescribedDataItem
+  parent: BindOpen.Data.Items
+  name: DescribedDataItem
+  nameWithType: DescribedDataItem
+  fullName: BindOpen.Data.Items.DescribedDataItem
+- uid: BindOpen.Data.Items.DataKeyValue
+  commentId: T:BindOpen.Data.Items.DataKeyValue
+  parent: BindOpen.Data.Items
+  name: DataKeyValue
+  nameWithType: DataKeyValue
+  fullName: BindOpen.Data.Items.DataKeyValue
+- uid: BindOpen.Data.Items.DictionaryDataItem
+  commentId: T:BindOpen.Data.Items.DictionaryDataItem
+  parent: BindOpen.Data.Items
+  name: DictionaryDataItem
+  nameWithType: DictionaryDataItem
+  fullName: BindOpen.Data.Items.DictionaryDataItem
+- uid: BindOpen.Data.Items.IDataKeyValue
+  commentId: T:BindOpen.Data.Items.IDataKeyValue
+  parent: BindOpen.Data.Items
+  name: IDataKeyValue
+  nameWithType: IDataKeyValue
+  fullName: BindOpen.Data.Items.IDataKeyValue
+- uid: BindOpen.Data.Items.IDictionaryDataItem
+  commentId: T:BindOpen.Data.Items.IDictionaryDataItem
+  parent: BindOpen.Data.Items
+  name: IDictionaryDataItem
+  nameWithType: IDictionaryDataItem
+  fullName: BindOpen.Data.Items.IDictionaryDataItem
+- uid: BindOpen.Data.Items.Document
+  commentId: T:BindOpen.Data.Items.Document
+  name: Document
+  nameWithType: Document
+  fullName: BindOpen.Data.Items.Document
+- uid: BindOpen.Data.Items.IDocument
+  commentId: T:BindOpen.Data.Items.IDocument
+  parent: BindOpen.Data.Items
+  name: IDocument
+  nameWithType: IDocument
+  fullName: BindOpen.Data.Items.IDocument
+- uid: BindOpen.Data.Items.IDescribed
+  commentId: T:BindOpen.Data.Items.IDescribed
+  parent: BindOpen.Data.Items
+  name: IDescribed
+  nameWithType: IDescribed
+  fullName: BindOpen.Data.Items.IDescribed
+- uid: BindOpen.Data.Items.IDisplayNamed
+  commentId: T:BindOpen.Data.Items.IDisplayNamed
+  parent: BindOpen.Data.Items
+  name: IDisplayNamed
+  nameWithType: IDisplayNamed
+  fullName: BindOpen.Data.Items.IDisplayNamed
+- uid: BindOpen.Data.Items.IGloballyDescribed
+  commentId: T:BindOpen.Data.Items.IGloballyDescribed
+  parent: BindOpen.Data.Items
+  name: IGloballyDescribed
+  nameWithType: IGloballyDescribed
+  fullName: BindOpen.Data.Items.IGloballyDescribed
+- uid: BindOpen.Data.Items.IGloballyTitled
+  commentId: T:BindOpen.Data.Items.IGloballyTitled
+  parent: BindOpen.Data.Items
+  name: IGloballyTitled
+  nameWithType: IGloballyTitled
+  fullName: BindOpen.Data.Items.IGloballyTitled
+- uid: BindOpen.Data.Items.IIdentified
+  commentId: T:BindOpen.Data.Items.IIdentified
+  parent: BindOpen.Data.Items
+  name: IIdentified
+  nameWithType: IIdentified
+  fullName: BindOpen.Data.Items.IIdentified
+- uid: BindOpen.Data.Items.IIndexed
+  commentId: T:BindOpen.Data.Items.IIndexed
+  parent: BindOpen.Data.Items
+  name: IIndexed
+  nameWithType: IIndexed
+  fullName: BindOpen.Data.Items.IIndexed
+- uid: BindOpen.Data.Items.ILockable
+  commentId: T:BindOpen.Data.Items.ILockable
+  name: ILockable
+  nameWithType: ILockable
+  fullName: BindOpen.Data.Items.ILockable
+- uid: BindOpen.Data.Items.INamed
+  commentId: T:BindOpen.Data.Items.INamed
+  parent: BindOpen.Data.Items
+  name: INamed
+  nameWithType: INamed
+  fullName: BindOpen.Data.Items.INamed
+- uid: BindOpen.Data.Items.IReferenced
+  commentId: T:BindOpen.Data.Items.IReferenced
+  parent: BindOpen.Data.Items
+  name: IReferenced
+  nameWithType: IReferenced
+  fullName: BindOpen.Data.Items.IReferenced
+- uid: BindOpen.Data.Items.ISavable
+  commentId: T:BindOpen.Data.Items.ISavable
+  parent: BindOpen.Data.Items
+  name: ISavable
+  nameWithType: ISavable
+  fullName: BindOpen.Data.Items.ISavable
+- uid: BindOpen.Data.Items.IStorable
+  commentId: T:BindOpen.Data.Items.IStorable
+  parent: BindOpen.Data.Items
+  name: IStorable
+  nameWithType: IStorable
+  fullName: BindOpen.Data.Items.IStorable
+- uid: BindOpen.Data.Items.IUnique
+  commentId: T:BindOpen.Data.Items.IUnique
+  name: IUnique
+  nameWithType: IUnique
+  fullName: BindOpen.Data.Items.IUnique
+- uid: BindOpen.Data.Items.ItemResultDto
+  commentId: T:BindOpen.Data.Items.ItemResultDto
+  name: ItemResultDto
+  nameWithType: ItemResultDto
+  fullName: BindOpen.Data.Items.ItemResultDto
+- uid: BindOpen.Data.Items.DictionaryFactory
+  commentId: T:BindOpen.Data.Items.DictionaryFactory
+  name: DictionaryFactory
+  nameWithType: DictionaryFactory
+  fullName: BindOpen.Data.Items.DictionaryFactory
+- uid: BindOpen.Data.Items.IdentifiedDataItem
+  commentId: T:BindOpen.Data.Items.IdentifiedDataItem
+  parent: BindOpen.Data.Items
+  name: IdentifiedDataItem
+  nameWithType: IdentifiedDataItem
+  fullName: BindOpen.Data.Items.IdentifiedDataItem
+- uid: BindOpen.Data.Items.IndexedDataItem
+  commentId: T:BindOpen.Data.Items.IndexedDataItem
+  parent: BindOpen.Data.Items
+  name: IndexedDataItem
+  nameWithType: IndexedDataItem
+  fullName: BindOpen.Data.Items.IndexedDataItem
+- uid: BindOpen.Data.Items.IDataItem
+  commentId: T:BindOpen.Data.Items.IDataItem
+  parent: BindOpen.Data.Items
+  name: IDataItem
+  nameWithType: IDataItem
+  fullName: BindOpen.Data.Items.IDataItem
+- uid: BindOpen.Data.Items.IDescribedDataItem
+  commentId: T:BindOpen.Data.Items.IDescribedDataItem
+  parent: BindOpen.Data.Items
+  name: IDescribedDataItem
+  nameWithType: IDescribedDataItem
+  fullName: BindOpen.Data.Items.IDescribedDataItem
+- uid: BindOpen.Data.Items.IIdentifiedDataItem
+  commentId: T:BindOpen.Data.Items.IIdentifiedDataItem
+  parent: BindOpen.Data.Items
+  name: IIdentifiedDataItem
+  nameWithType: IIdentifiedDataItem
+  fullName: BindOpen.Data.Items.IIdentifiedDataItem
+- uid: BindOpen.Data.Items.IIndexedDataItem
+  commentId: T:BindOpen.Data.Items.IIndexedDataItem
+  parent: BindOpen.Data.Items
+  name: IIndexedDataItem
+  nameWithType: IIndexedDataItem
+  fullName: BindOpen.Data.Items.IIndexedDataItem
+- uid: BindOpen.Data.Items.INamedDataItem
+  commentId: T:BindOpen.Data.Items.INamedDataItem
+  parent: BindOpen.Data.Items
+  name: INamedDataItem
+  nameWithType: INamedDataItem
+  fullName: BindOpen.Data.Items.INamedDataItem
+- uid: BindOpen.Data.Items.IStoredDataItem
+  commentId: T:BindOpen.Data.Items.IStoredDataItem
+  parent: BindOpen.Data.Items
+  name: IStoredDataItem
+  nameWithType: IStoredDataItem
+  fullName: BindOpen.Data.Items.IStoredDataItem
+- uid: BindOpen.Data.Items.ITitledDataItem
+  commentId: T:BindOpen.Data.Items.ITitledDataItem
+  parent: BindOpen.Data.Items
+  name: ITitledDataItem
+  nameWithType: ITitledDataItem
+  fullName: BindOpen.Data.Items.ITitledDataItem
+- uid: BindOpen.Data.Items.NamedDataItem
+  commentId: T:BindOpen.Data.Items.NamedDataItem
+  parent: BindOpen.Data.Items
+  name: NamedDataItem
+  nameWithType: NamedDataItem
+  fullName: BindOpen.Data.Items.NamedDataItem
+- uid: BindOpen.Data.Items.DataSchema
+  commentId: T:BindOpen.Data.Items.DataSchema
+  parent: BindOpen.Data.Items
+  name: DataSchema
+  nameWithType: DataSchema
+  fullName: BindOpen.Data.Items.DataSchema
+- uid: BindOpen.Data.Items.IDataSchema
+  commentId: T:BindOpen.Data.Items.IDataSchema
+  parent: BindOpen.Data.Items
+  name: IDataSchema
+  nameWithType: IDataSchema
+  fullName: BindOpen.Data.Items.IDataSchema
+- uid: BindOpen.Data.Items.DataItemSet`1
+  commentId: T:BindOpen.Data.Items.DataItemSet`1
+  name: DataItemSet<T>
+  nameWithType: DataItemSet<T>
+  fullName: BindOpen.Data.Items.DataItemSet<T>
+  nameWithType.vb: DataItemSet(Of T)
+  fullName.vb: BindOpen.Data.Items.DataItemSet(Of T)
+  name.vb: DataItemSet(Of T)
+  spec.csharp:
+  - uid: BindOpen.Data.Items.DataItemSet`1
+    name: DataItemSet
+    nameWithType: DataItemSet
+    fullName: BindOpen.Data.Items.DataItemSet
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: BindOpen.Data.Items.DataItemSet`1
+    name: DataItemSet
+    nameWithType: DataItemSet
+    fullName: BindOpen.Data.Items.DataItemSet
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IDataItemSet`1
+  commentId: T:BindOpen.Data.Items.IDataItemSet`1
+  parent: BindOpen.Data.Items
+  name: IDataItemSet<T>
+  nameWithType: IDataItemSet<T>
+  fullName: BindOpen.Data.Items.IDataItemSet<T>
+  nameWithType.vb: IDataItemSet(Of T)
+  fullName.vb: BindOpen.Data.Items.IDataItemSet(Of T)
+  name.vb: IDataItemSet(Of T)
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItemSet`1
+    name: IDataItemSet
+    nameWithType: IDataItemSet
+    fullName: BindOpen.Data.Items.IDataItemSet
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItemSet`1
+    name: IDataItemSet
+    nameWithType: IDataItemSet
+    fullName: BindOpen.Data.Items.IDataItemSet
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IObservableDataItemSet`1
+  commentId: T:BindOpen.Data.Items.IObservableDataItemSet`1
+  name: IObservableDataItemSet<T>
+  nameWithType: IObservableDataItemSet<T>
+  fullName: BindOpen.Data.Items.IObservableDataItemSet<T>
+  nameWithType.vb: IObservableDataItemSet(Of T)
+  fullName.vb: BindOpen.Data.Items.IObservableDataItemSet(Of T)
+  name.vb: IObservableDataItemSet(Of T)
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IObservableDataItemSet`1
+    name: IObservableDataItemSet
+    nameWithType: IObservableDataItemSet
+    fullName: BindOpen.Data.Items.IObservableDataItemSet
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: BindOpen.Data.Items.IObservableDataItemSet`1
+    name: IObservableDataItemSet
+    nameWithType: IObservableDataItemSet
+    fullName: BindOpen.Data.Items.IObservableDataItemSet
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.ObservableDataItemSet`1
+  commentId: T:BindOpen.Data.Items.ObservableDataItemSet`1
+  name: ObservableDataItemSet<T>
+  nameWithType: ObservableDataItemSet<T>
+  fullName: BindOpen.Data.Items.ObservableDataItemSet<T>
+  nameWithType.vb: ObservableDataItemSet(Of T)
+  fullName.vb: BindOpen.Data.Items.ObservableDataItemSet(Of T)
+  name.vb: ObservableDataItemSet(Of T)
+  spec.csharp:
+  - uid: BindOpen.Data.Items.ObservableDataItemSet`1
+    name: ObservableDataItemSet
+    nameWithType: ObservableDataItemSet
+    fullName: BindOpen.Data.Items.ObservableDataItemSet
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: BindOpen.Data.Items.ObservableDataItemSet`1
+    name: ObservableDataItemSet
+    nameWithType: ObservableDataItemSet
+    fullName: BindOpen.Data.Items.ObservableDataItemSet
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.StoredDataItem
+  commentId: T:BindOpen.Data.Items.StoredDataItem
+  parent: BindOpen.Data.Items
+  name: StoredDataItem
+  nameWithType: StoredDataItem
+  fullName: BindOpen.Data.Items.StoredDataItem
+- uid: BindOpen.Data.Items.TitledDataItem
+  commentId: T:BindOpen.Data.Items.TitledDataItem
+  parent: BindOpen.Data.Items
+  name: TitledDataItem
+  nameWithType: TitledDataItem
+  fullName: BindOpen.Data.Items.TitledDataItem
+- uid: BindOpen.Data.Items
+  commentId: N:BindOpen.Data.Items
+  name: BindOpen.Data.Items
+  nameWithType: BindOpen.Data.Items
+  fullName: BindOpen.Data.Items
+shouldSkipMarkup: true

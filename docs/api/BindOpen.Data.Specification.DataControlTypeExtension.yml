@@ -1,0 +1,467 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Data.Specification.DataControlTypeExtension
+  commentId: T:BindOpen.Data.Specification.DataControlTypeExtension
+  id: DataControlTypeExtension
+  parent: BindOpen.Data.Specification
+  children:
+  - BindOpen.Data.Specification.DataControlTypeExtension.GetDefaultControlType(BindOpen.Data.Common.DataValueType)
+  - BindOpen.Data.Specification.DataControlTypeExtension.GetDefaultControlType(System.Type)
+  langs:
+  - csharp
+  - vb
+  name: DataControlTypeExtension
+  nameWithType: DataControlTypeExtension
+  fullName: BindOpen.Data.Specification.DataControlTypeExtension
+  type: Class
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Specification/Design/DesignControlType.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: DataControlTypeExtension
+    path: ../src/BindOpen.Core/Data/Specification/Design/DesignControlType.cs
+    startLine: 153
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Specification
+  summary: "\nThis class represents an extension of the DataValueType enumeration.\n"
+  example: []
+  syntax:
+    content: public static class DataControlTypeExtension
+    content.vb: Public Module DataControlTypeExtension
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: BindOpen.Data.Specification.DataControlTypeExtension.GetDefaultControlType(BindOpen.Data.Common.DataValueType)
+  commentId: M:BindOpen.Data.Specification.DataControlTypeExtension.GetDefaultControlType(BindOpen.Data.Common.DataValueType)
+  id: GetDefaultControlType(BindOpen.Data.Common.DataValueType)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Specification.DataControlTypeExtension
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultControlType(DataValueType)
+  nameWithType: DataControlTypeExtension.GetDefaultControlType(DataValueType)
+  fullName: BindOpen.Data.Specification.DataControlTypeExtension.GetDefaultControlType(BindOpen.Data.Common.DataValueType)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Specification/Design/DesignControlType.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GetDefaultControlType
+    path: ../src/BindOpen.Core/Data/Specification/Design/DesignControlType.cs
+    startLine: 161
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Specification
+  summary: "\nGets the default control type.\n"
+  example: []
+  syntax:
+    content: public static DesignControlType GetDefaultControlType(this DataValueType valueType)
+    parameters:
+    - id: valueType
+      type: BindOpen.Data.Common.DataValueType
+      description: The object to consider.
+    return:
+      type: BindOpen.Data.Specification.DesignControlType
+      description: The result object.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetDefaultControlType(valueType As DataValueType) As DesignControlType
+  overload: BindOpen.Data.Specification.DataControlTypeExtension.GetDefaultControlType*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Specification.DataControlTypeExtension.GetDefaultControlType(System.Type)
+  commentId: M:BindOpen.Data.Specification.DataControlTypeExtension.GetDefaultControlType(System.Type)
+  id: GetDefaultControlType(System.Type)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Specification.DataControlTypeExtension
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultControlType(Type)
+  nameWithType: DataControlTypeExtension.GetDefaultControlType(Type)
+  fullName: BindOpen.Data.Specification.DataControlTypeExtension.GetDefaultControlType(System.Type)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Specification/Design/DesignControlType.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GetDefaultControlType
+    path: ../src/BindOpen.Core/Data/Specification/Design/DesignControlType.cs
+    startLine: 198
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Specification
+  summary: "\nGets the default control type.\n"
+  example: []
+  syntax:
+    content: public static DesignControlType GetDefaultControlType(this Type aType)
+    parameters:
+    - id: aType
+      type: System.Type
+      description: The type to consider.
+    return:
+      type: BindOpen.Data.Specification.DesignControlType
+      description: The result object.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetDefaultControlType(aType As Type) As DesignControlType
+  overload: BindOpen.Data.Specification.DataControlTypeExtension.GetDefaultControlType*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: BindOpen.Data.Specification
+  commentId: N:BindOpen.Data.Specification
+  name: BindOpen.Data.Specification
+  nameWithType: BindOpen.Data.Specification
+  fullName: BindOpen.Data.Specification
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Data.Specification.DataControlTypeExtension.GetDefaultControlType*
+  commentId: Overload:BindOpen.Data.Specification.DataControlTypeExtension.GetDefaultControlType
+  name: GetDefaultControlType
+  nameWithType: DataControlTypeExtension.GetDefaultControlType
+  fullName: BindOpen.Data.Specification.DataControlTypeExtension.GetDefaultControlType
+- uid: BindOpen.Data.Common.DataValueType
+  commentId: T:BindOpen.Data.Common.DataValueType
+  parent: BindOpen.Data.Common
+  name: DataValueType
+  nameWithType: DataValueType
+  fullName: BindOpen.Data.Common.DataValueType
+- uid: BindOpen.Data.Specification.DesignControlType
+  commentId: T:BindOpen.Data.Specification.DesignControlType
+  parent: BindOpen.Data.Specification
+  name: DesignControlType
+  nameWithType: DesignControlType
+  fullName: BindOpen.Data.Specification.DesignControlType
+- uid: BindOpen.Data.Common
+  commentId: N:BindOpen.Data.Common
+  name: BindOpen.Data.Common
+  nameWithType: BindOpen.Data.Common
+  fullName: BindOpen.Data.Common
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+shouldSkipMarkup: true

@@ -1,0 +1,4393 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.System.Processing.ProcessExecution
+  commentId: T:BindOpen.System.Processing.ProcessExecution
+  id: ProcessExecution
+  parent: BindOpen.System.Processing
+  children:
+  - BindOpen.System.Processing.ProcessExecution.#ctor
+  - BindOpen.System.Processing.ProcessExecution.#ctor(BindOpen.System.Diagnostics.IBdoLog)
+  - BindOpen.System.Processing.ProcessExecution.AddDetail(System.String,System.Object)
+  - BindOpen.System.Processing.ProcessExecution.CustomStatus
+  - BindOpen.System.Processing.ProcessExecution.CustomStatusSpecified
+  - BindOpen.System.Processing.ProcessExecution.Detail
+  - BindOpen.System.Processing.ProcessExecution.DetailSpecified
+  - BindOpen.System.Processing.ProcessExecution.Dispose(System.Boolean)
+  - BindOpen.System.Processing.ProcessExecution.Duration
+  - BindOpen.System.Processing.ProcessExecution.DurationSpecified
+  - BindOpen.System.Processing.ProcessExecution.End(BindOpen.System.Processing.ProcessExecutionStatus)
+  - BindOpen.System.Processing.ProcessExecution.EndDate
+  - BindOpen.System.Processing.ProcessExecution.EndDateSpecified
+  - BindOpen.System.Processing.ProcessExecution.GetDefaultStatus(BindOpen.System.Processing.ProcessExecutionState)
+  - BindOpen.System.Processing.ProcessExecution.GetState(BindOpen.System.Processing.ProcessExecutionStatus)
+  - BindOpen.System.Processing.ProcessExecution.GetState(System.String)
+  - BindOpen.System.Processing.ProcessExecution.GetStatus(System.String)
+  - BindOpen.System.Processing.ProcessExecution.GetStatuses(BindOpen.System.Processing.ProcessExecutionState)
+  - BindOpen.System.Processing.ProcessExecution.Location
+  - BindOpen.System.Processing.ProcessExecution.LocationSpecified
+  - BindOpen.System.Processing.ProcessExecution.ProgressIndex
+  - BindOpen.System.Processing.ProcessExecution.ProgressMax
+  - BindOpen.System.Processing.ProcessExecution.Restart
+  - BindOpen.System.Processing.ProcessExecution.RestartDate
+  - BindOpen.System.Processing.ProcessExecution.RestartDateSpecified
+  - BindOpen.System.Processing.ProcessExecution.ResultLevel
+  - BindOpen.System.Processing.ProcessExecution.Resume
+  - BindOpen.System.Processing.ProcessExecution.Start
+  - BindOpen.System.Processing.ProcessExecution.StartDate
+  - BindOpen.System.Processing.ProcessExecution.StartDateSpecified
+  - BindOpen.System.Processing.ProcessExecution.State
+  - BindOpen.System.Processing.ProcessExecution.Status
+  langs:
+  - csharp
+  - vb
+  name: ProcessExecution
+  nameWithType: ProcessExecution
+  fullName: BindOpen.System.Processing.ProcessExecution
+  type: Class
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Processing/ProcessExecution.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: ProcessExecution
+    path: ../src/BindOpen.Core/System/Processing/ProcessExecution.cs
+    startLine: 19
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Processing
+  summary: "\nThis class represents the process execution.\n"
+  example: []
+  syntax:
+    content: 'public class ProcessExecution : DataItem, IProcessExecution, IDataItem, ICloneable, IDisposable'
+    content.vb: >-
+      Public Class ProcessExecution
+          Inherits DataItem
+          Implements IProcessExecution, IDataItem, ICloneable, IDisposable
+  inheritance:
+  - System.Object
+  - System.MarshalByRefObject
+  - BindOpen.Data.Items.DataItem
+  implements:
+  - BindOpen.System.Processing.IProcessExecution
+  - BindOpen.Data.Items.IDataItem
+  - System.ICloneable
+  - System.IDisposable
+  inheritedMembers:
+  - BindOpen.Data.Items.DataItem.InitializeLifetimeService
+  - BindOpen.Data.Items.DataItem.Clone
+  - BindOpen.Data.Items.DataItem.Clone``1
+  - BindOpen.Data.Items.DataItem.UpdateStorageInfo(BindOpen.System.Diagnostics.IBdoLog)
+  - BindOpen.Data.Items.DataItem.UpdateRuntimeInfo(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+  - BindOpen.Data.Items.DataItem.Update``1({T},System.String[],BindOpen.Data.Common.UpdateModes[])
+  - BindOpen.Data.Items.DataItem.Update(System.String[],BindOpen.Data.Common.UpdateModes[])
+  - BindOpen.Data.Items.DataItem.Check``1(System.Boolean,{T},System.String[])
+  - BindOpen.Data.Items.DataItem.Check(System.Boolean,System.String[])
+  - BindOpen.Data.Items.DataItem.Repair``1({T},System.String[],BindOpen.Data.Common.UpdateModes[])
+  - BindOpen.Data.Items.DataItem.Repair(System.String[],BindOpen.Data.Common.UpdateModes[])
+  - BindOpen.Data.Items.DataItem.Dispose
+  - System.MarshalByRefObject.GetLifetimeService
+  - System.MarshalByRefObject.MemberwiseClone(System.Boolean)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  extensionMethods:
+  - System.Object.BindOpen.Data.Common.DataValueTypeExtension.IsScalar
+  - System.Object.BindOpen.Data.Common.DataValueTypeExtension.GetValueType
+  - System.Object.BindOpen.Data.Helpers.Objects.ObjectHelper.ToKey
+  - System.Object.BindOpen.Data.Helpers.Objects.ObjectHelper.KeyEquals(System.Object)
+  - System.Object.BindOpen.Data.Helpers.Objects.ObjectHelper.ToNotNullString
+  - System.Object.BindOpen.Data.Helpers.Objects.ObjectHelper.ToString(BindOpen.Data.Common.DataValueType)
+  - System.Object.BindOpen.Data.Helpers.Objects.ObjectHelper.Update(System.Object)
+  - BindOpen.System.Processing.ProcessExecution.BindOpen.Data.Helpers.Objects.ObjectHelper.Using``1(System.Action{BindOpen.System.Processing.ProcessExecution})
+  - System.Object.BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromElementSet``1(BindOpen.Data.Elements.IDataElementSet,BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet)
+  - System.Object.BindOpen.Data.Helpers.Serialization.ObjectNotationHelper_Json.ToJson(System.String)
+  - System.Object.BindOpen.Data.Helpers.Serialization.XmlHelper.ToXml(BindOpen.System.Diagnostics.IBdoLog)
+  - System.Object.BindOpen.Data.Helpers.Serialization.XmlHelper.SaveXml(System.String,BindOpen.System.Diagnostics.IBdoLog)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BindOpen.System.Processing.ProcessExecution.Detail
+  commentId: P:BindOpen.System.Processing.ProcessExecution.Detail
+  id: Detail
+  parent: BindOpen.System.Processing.ProcessExecution
+  langs:
+  - csharp
+  - vb
+  name: Detail
+  nameWithType: ProcessExecution.Detail
+  fullName: BindOpen.System.Processing.ProcessExecution.Detail
+  type: Property
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Processing/ProcessExecution.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Detail
+    path: ../src/BindOpen.Core/System/Processing/ProcessExecution.cs
+    startLine: 54
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Processing
+  summary: "\nDetail of this instance.\n"
+  example: []
+  syntax:
+    content: public DataElementSet Detail { get; set; }
+    parameters: []
+    return:
+      type: BindOpen.Data.Elements.DataElementSet
+    content.vb: Public Property Detail As DataElementSet
+  overload: BindOpen.System.Processing.ProcessExecution.Detail*
+  implements:
+  - BindOpen.System.Processing.IProcessExecution.Detail
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BindOpen.System.Processing.ProcessExecution.DetailSpecified
+  commentId: P:BindOpen.System.Processing.ProcessExecution.DetailSpecified
+  id: DetailSpecified
+  parent: BindOpen.System.Processing.ProcessExecution
+  langs:
+  - csharp
+  - vb
+  name: DetailSpecified
+  nameWithType: ProcessExecution.DetailSpecified
+  fullName: BindOpen.System.Processing.ProcessExecution.DetailSpecified
+  type: Property
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Processing/ProcessExecution.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: DetailSpecified
+    path: ../src/BindOpen.Core/System/Processing/ProcessExecution.cs
+    startLine: 60
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Processing
+  summary: "\nSpecification of the PropertyDetail property of this instance.\n"
+  example: []
+  syntax:
+    content: public bool DetailSpecified { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property DetailSpecified As Boolean
+  overload: BindOpen.System.Processing.ProcessExecution.DetailSpecified*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: BindOpen.System.Processing.ProcessExecution.Location
+  commentId: P:BindOpen.System.Processing.ProcessExecution.Location
+  id: Location
+  parent: BindOpen.System.Processing.ProcessExecution
+  langs:
+  - csharp
+  - vb
+  name: Location
+  nameWithType: ProcessExecution.Location
+  fullName: BindOpen.System.Processing.ProcessExecution.Location
+  type: Property
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Processing/ProcessExecution.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Location
+    path: ../src/BindOpen.Core/System/Processing/ProcessExecution.cs
+    startLine: 74
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Processing
+  summary: "\nLocation of this instance.\n"
+  example: []
+  syntax:
+    content: public string Location { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Location As String
+  overload: BindOpen.System.Processing.ProcessExecution.Location*
+  implements:
+  - BindOpen.System.Processing.IProcessExecution.Location
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BindOpen.System.Processing.ProcessExecution.LocationSpecified
+  commentId: P:BindOpen.System.Processing.ProcessExecution.LocationSpecified
+  id: LocationSpecified
+  parent: BindOpen.System.Processing.ProcessExecution
+  langs:
+  - csharp
+  - vb
+  name: LocationSpecified
+  nameWithType: ProcessExecution.LocationSpecified
+  fullName: BindOpen.System.Processing.ProcessExecution.LocationSpecified
+  type: Property
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Processing/ProcessExecution.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: LocationSpecified
+    path: ../src/BindOpen.Core/System/Processing/ProcessExecution.cs
+    startLine: 80
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Processing
+  summary: "\nSpecification of the Location of this instance.\n"
+  example: []
+  syntax:
+    content: public bool LocationSpecified { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property LocationSpecified As Boolean
+  overload: BindOpen.System.Processing.ProcessExecution.LocationSpecified*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: BindOpen.System.Processing.ProcessExecution.ProgressIndex
+  commentId: P:BindOpen.System.Processing.ProcessExecution.ProgressIndex
+  id: ProgressIndex
+  parent: BindOpen.System.Processing.ProcessExecution
+  langs:
+  - csharp
+  - vb
+  name: ProgressIndex
+  nameWithType: ProcessExecution.ProgressIndex
+  fullName: BindOpen.System.Processing.ProcessExecution.ProgressIndex
+  type: Property
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Processing/ProcessExecution.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: ProgressIndex
+    path: ../src/BindOpen.Core/System/Processing/ProcessExecution.cs
+    startLine: 95
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Processing
+  summary: "\nProgression index of this instance. By default it is set to 0.\n"
+  example: []
+  syntax:
+    content: public float ProgressIndex { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property ProgressIndex As Single
+  overload: BindOpen.System.Processing.ProcessExecution.ProgressIndex*
+  seealso:
+  - linkId: BindOpen.System.Processing.ProcessExecution.ProgressMax
+    commentId: P:BindOpen.System.Processing.ProcessExecution.ProgressMax
+  implements:
+  - BindOpen.System.Processing.IProcessExecution.ProgressIndex
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BindOpen.System.Processing.ProcessExecution.ProgressMax
+  commentId: P:BindOpen.System.Processing.ProcessExecution.ProgressMax
+  id: ProgressMax
+  parent: BindOpen.System.Processing.ProcessExecution
+  langs:
+  - csharp
+  - vb
+  name: ProgressMax
+  nameWithType: ProcessExecution.ProgressMax
+  fullName: BindOpen.System.Processing.ProcessExecution.ProgressMax
+  type: Property
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Processing/ProcessExecution.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: ProgressMax
+    path: ../src/BindOpen.Core/System/Processing/ProcessExecution.cs
+    startLine: 111
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Processing
+  summary: "\nMaximum progression of this instance. By default, it is set to 100.\n"
+  example: []
+  syntax:
+    content: public float ProgressMax { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property ProgressMax As Single
+  overload: BindOpen.System.Processing.ProcessExecution.ProgressMax*
+  seealso:
+  - linkId: BindOpen.System.Processing.ProcessExecution.ProgressIndex
+    commentId: P:BindOpen.System.Processing.ProcessExecution.ProgressIndex
+  implements:
+  - BindOpen.System.Processing.IProcessExecution.ProgressMax
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BindOpen.System.Processing.ProcessExecution.Status
+  commentId: P:BindOpen.System.Processing.ProcessExecution.Status
+  id: Status
+  parent: BindOpen.System.Processing.ProcessExecution
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: ProcessExecution.Status
+  fullName: BindOpen.System.Processing.ProcessExecution.Status
+  type: Property
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Processing/ProcessExecution.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Status
+    path: ../src/BindOpen.Core/System/Processing/ProcessExecution.cs
+    startLine: 128
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Processing
+  summary: "\nStatus of this instance.\n"
+  example: []
+  syntax:
+    content: public ProcessExecutionStatus Status { get; set; }
+    parameters: []
+    return:
+      type: BindOpen.System.Processing.ProcessExecutionStatus
+    content.vb: Public Property Status As ProcessExecutionStatus
+  overload: BindOpen.System.Processing.ProcessExecution.Status*
+  implements:
+  - BindOpen.System.Processing.IProcessExecution.Status
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BindOpen.System.Processing.ProcessExecution.State
+  commentId: P:BindOpen.System.Processing.ProcessExecution.State
+  id: State
+  parent: BindOpen.System.Processing.ProcessExecution
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: ProcessExecution.State
+  fullName: BindOpen.System.Processing.ProcessExecution.State
+  type: Property
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Processing/ProcessExecution.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: State
+    path: ../src/BindOpen.Core/System/Processing/ProcessExecution.cs
+    startLine: 147
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Processing
+  summary: "\nState of this instance.\n"
+  example: []
+  syntax:
+    content: public ProcessExecutionState State { get; set; }
+    parameters: []
+    return:
+      type: BindOpen.System.Processing.ProcessExecutionState
+    content.vb: Public Property State As ProcessExecutionState
+  overload: BindOpen.System.Processing.ProcessExecution.State*
+  implements:
+  - BindOpen.System.Processing.IProcessExecution.State
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BindOpen.System.Processing.ProcessExecution.CustomStatus
+  commentId: P:BindOpen.System.Processing.ProcessExecution.CustomStatus
+  id: CustomStatus
+  parent: BindOpen.System.Processing.ProcessExecution
+  langs:
+  - csharp
+  - vb
+  name: CustomStatus
+  nameWithType: ProcessExecution.CustomStatus
+  fullName: BindOpen.System.Processing.ProcessExecution.CustomStatus
+  type: Property
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Processing/ProcessExecution.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: CustomStatus
+    path: ../src/BindOpen.Core/System/Processing/ProcessExecution.cs
+    startLine: 167
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Processing
+  summary: "\nCustom status of this instance.\n"
+  example: []
+  syntax:
+    content: public string CustomStatus { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CustomStatus As String
+  overload: BindOpen.System.Processing.ProcessExecution.CustomStatus*
+  implements:
+  - BindOpen.System.Processing.IProcessExecution.CustomStatus
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BindOpen.System.Processing.ProcessExecution.CustomStatusSpecified
+  commentId: P:BindOpen.System.Processing.ProcessExecution.CustomStatusSpecified
+  id: CustomStatusSpecified
+  parent: BindOpen.System.Processing.ProcessExecution
+  langs:
+  - csharp
+  - vb
+  name: CustomStatusSpecified
+  nameWithType: ProcessExecution.CustomStatusSpecified
+  fullName: BindOpen.System.Processing.ProcessExecution.CustomStatusSpecified
+  type: Property
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Processing/ProcessExecution.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: CustomStatusSpecified
+    path: ../src/BindOpen.Core/System/Processing/ProcessExecution.cs
+    startLine: 181
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Processing
+  summary: "\nSpecification of the CustomStatus of this instance.\n"
+  example: []
+  syntax:
+    content: public bool CustomStatusSpecified { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property CustomStatusSpecified As Boolean
+  overload: BindOpen.System.Processing.ProcessExecution.CustomStatusSpecified*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: BindOpen.System.Processing.ProcessExecution.StartDate
+  commentId: P:BindOpen.System.Processing.ProcessExecution.StartDate
+  id: StartDate
+  parent: BindOpen.System.Processing.ProcessExecution
+  langs:
+  - csharp
+  - vb
+  name: StartDate
+  nameWithType: ProcessExecution.StartDate
+  fullName: BindOpen.System.Processing.ProcessExecution.StartDate
+  type: Property
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Processing/ProcessExecution.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: StartDate
+    path: ../src/BindOpen.Core/System/Processing/ProcessExecution.cs
+    startLine: 195
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Processing
+  summary: "\nStart date of this instance.\n"
+  example: []
+  syntax:
+    content: public string StartDate { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StartDate As String
+  overload: BindOpen.System.Processing.ProcessExecution.StartDate*
+  implements:
+  - BindOpen.System.Processing.IProcessExecution.StartDate
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BindOpen.System.Processing.ProcessExecution.StartDateSpecified
+  commentId: P:BindOpen.System.Processing.ProcessExecution.StartDateSpecified
+  id: StartDateSpecified
+  parent: BindOpen.System.Processing.ProcessExecution
+  langs:
+  - csharp
+  - vb
+  name: StartDateSpecified
+  nameWithType: ProcessExecution.StartDateSpecified
+  fullName: BindOpen.System.Processing.ProcessExecution.StartDateSpecified
+  type: Property
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Processing/ProcessExecution.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: StartDateSpecified
+    path: ../src/BindOpen.Core/System/Processing/ProcessExecution.cs
+    startLine: 209
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Processing
+  summary: "\nSpecification of the StartDate of this instance.\n"
+  example: []
+  syntax:
+    content: public bool StartDateSpecified { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property StartDateSpecified As Boolean
+  overload: BindOpen.System.Processing.ProcessExecution.StartDateSpecified*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: BindOpen.System.Processing.ProcessExecution.RestartDate
+  commentId: P:BindOpen.System.Processing.ProcessExecution.RestartDate
+  id: RestartDate
+  parent: BindOpen.System.Processing.ProcessExecution
+  langs:
+  - csharp
+  - vb
+  name: RestartDate
+  nameWithType: ProcessExecution.RestartDate
+  fullName: BindOpen.System.Processing.ProcessExecution.RestartDate
+  type: Property
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Processing/ProcessExecution.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: RestartDate
+    path: ../src/BindOpen.Core/System/Processing/ProcessExecution.cs
+    startLine: 221
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Processing
+  summary: "\nRe-start date of this instance.\n"
+  example: []
+  syntax:
+    content: public string RestartDate { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RestartDate As String
+  overload: BindOpen.System.Processing.ProcessExecution.RestartDate*
+  implements:
+  - BindOpen.System.Processing.IProcessExecution.RestartDate
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BindOpen.System.Processing.ProcessExecution.RestartDateSpecified
+  commentId: P:BindOpen.System.Processing.ProcessExecution.RestartDateSpecified
+  id: RestartDateSpecified
+  parent: BindOpen.System.Processing.ProcessExecution
+  langs:
+  - csharp
+  - vb
+  name: RestartDateSpecified
+  nameWithType: ProcessExecution.RestartDateSpecified
+  fullName: BindOpen.System.Processing.ProcessExecution.RestartDateSpecified
+  type: Property
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Processing/ProcessExecution.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: RestartDateSpecified
+    path: ../src/BindOpen.Core/System/Processing/ProcessExecution.cs
+    startLine: 235
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Processing
+  summary: "\nSpecification of the RestartDate of this instance.\n"
+  example: []
+  syntax:
+    content: public bool RestartDateSpecified { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property RestartDateSpecified As Boolean
+  overload: BindOpen.System.Processing.ProcessExecution.RestartDateSpecified*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: BindOpen.System.Processing.ProcessExecution.EndDate
+  commentId: P:BindOpen.System.Processing.ProcessExecution.EndDate
+  id: EndDate
+  parent: BindOpen.System.Processing.ProcessExecution
+  langs:
+  - csharp
+  - vb
+  name: EndDate
+  nameWithType: ProcessExecution.EndDate
+  fullName: BindOpen.System.Processing.ProcessExecution.EndDate
+  type: Property
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Processing/ProcessExecution.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: EndDate
+    path: ../src/BindOpen.Core/System/Processing/ProcessExecution.cs
+    startLine: 247
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Processing
+  summary: "\nEnd date of this instance.\n"
+  example: []
+  syntax:
+    content: public string EndDate { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property EndDate As String
+  overload: BindOpen.System.Processing.ProcessExecution.EndDate*
+  implements:
+  - BindOpen.System.Processing.IProcessExecution.EndDate
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BindOpen.System.Processing.ProcessExecution.EndDateSpecified
+  commentId: P:BindOpen.System.Processing.ProcessExecution.EndDateSpecified
+  id: EndDateSpecified
+  parent: BindOpen.System.Processing.ProcessExecution
+  langs:
+  - csharp
+  - vb
+  name: EndDateSpecified
+  nameWithType: ProcessExecution.EndDateSpecified
+  fullName: BindOpen.System.Processing.ProcessExecution.EndDateSpecified
+  type: Property
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Processing/ProcessExecution.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: EndDateSpecified
+    path: ../src/BindOpen.Core/System/Processing/ProcessExecution.cs
+    startLine: 261
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Processing
+  summary: "\nSpecification of the EndDate of this instance.\n"
+  example: []
+  syntax:
+    content: public bool EndDateSpecified { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property EndDateSpecified As Boolean
+  overload: BindOpen.System.Processing.ProcessExecution.EndDateSpecified*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: BindOpen.System.Processing.ProcessExecution.Duration
+  commentId: P:BindOpen.System.Processing.ProcessExecution.Duration
+  id: Duration
+  parent: BindOpen.System.Processing.ProcessExecution
+  langs:
+  - csharp
+  - vb
+  name: Duration
+  nameWithType: ProcessExecution.Duration
+  fullName: BindOpen.System.Processing.ProcessExecution.Duration
+  type: Property
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Processing/ProcessExecution.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Duration
+    path: ../src/BindOpen.Core/System/Processing/ProcessExecution.cs
+    startLine: 273
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Processing
+  summary: "\nEnd date of this instance.\n"
+  example: []
+  syntax:
+    content: public string Duration { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Duration As String
+  overload: BindOpen.System.Processing.ProcessExecution.Duration*
+  implements:
+  - BindOpen.System.Processing.IProcessExecution.Duration
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BindOpen.System.Processing.ProcessExecution.DurationSpecified
+  commentId: P:BindOpen.System.Processing.ProcessExecution.DurationSpecified
+  id: DurationSpecified
+  parent: BindOpen.System.Processing.ProcessExecution
+  langs:
+  - csharp
+  - vb
+  name: DurationSpecified
+  nameWithType: ProcessExecution.DurationSpecified
+  fullName: BindOpen.System.Processing.ProcessExecution.DurationSpecified
+  type: Property
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Processing/ProcessExecution.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: DurationSpecified
+    path: ../src/BindOpen.Core/System/Processing/ProcessExecution.cs
+    startLine: 298
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Processing
+  summary: "\nSpecification of the Duration of this instance.\n"
+  example: []
+  syntax:
+    content: public bool DurationSpecified { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property DurationSpecified As Boolean
+  overload: BindOpen.System.Processing.ProcessExecution.DurationSpecified*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: BindOpen.System.Processing.ProcessExecution.ResultLevel
+  commentId: P:BindOpen.System.Processing.ProcessExecution.ResultLevel
+  id: ResultLevel
+  parent: BindOpen.System.Processing.ProcessExecution
+  langs:
+  - csharp
+  - vb
+  name: ResultLevel
+  nameWithType: ProcessExecution.ResultLevel
+  fullName: BindOpen.System.Processing.ProcessExecution.ResultLevel
+  type: Property
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Processing/ProcessExecution.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: ResultLevel
+    path: ../src/BindOpen.Core/System/Processing/ProcessExecution.cs
+    startLine: 313
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Processing
+  summary: "\nResult level of this instance. Over a certain value the result can be considered \nas satisfying.\n"
+  example: []
+  syntax:
+    content: public int ResultLevel { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ResultLevel As Integer
+  overload: BindOpen.System.Processing.ProcessExecution.ResultLevel*
+  implements:
+  - BindOpen.System.Processing.IProcessExecution.ResultLevel
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BindOpen.System.Processing.ProcessExecution.#ctor
+  commentId: M:BindOpen.System.Processing.ProcessExecution.#ctor
+  id: '#ctor'
+  parent: BindOpen.System.Processing.ProcessExecution
+  langs:
+  - csharp
+  - vb
+  name: ProcessExecution()
+  nameWithType: ProcessExecution.ProcessExecution()
+  fullName: BindOpen.System.Processing.ProcessExecution.ProcessExecution()
+  type: Constructor
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Processing/ProcessExecution.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: .ctor
+    path: ../src/BindOpen.Core/System/Processing/ProcessExecution.cs
+    startLine: 336
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Processing
+  summary: "\nInstantiates a new instance of the LogEventExecution class.\n"
+  example: []
+  syntax:
+    content: public ProcessExecution()
+    content.vb: Public Sub New
+  overload: BindOpen.System.Processing.ProcessExecution.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BindOpen.System.Processing.ProcessExecution.#ctor(BindOpen.System.Diagnostics.IBdoLog)
+  commentId: M:BindOpen.System.Processing.ProcessExecution.#ctor(BindOpen.System.Diagnostics.IBdoLog)
+  id: '#ctor(BindOpen.System.Diagnostics.IBdoLog)'
+  parent: BindOpen.System.Processing.ProcessExecution
+  langs:
+  - csharp
+  - vb
+  name: ProcessExecution(IBdoLog)
+  nameWithType: ProcessExecution.ProcessExecution(IBdoLog)
+  fullName: BindOpen.System.Processing.ProcessExecution.ProcessExecution(BindOpen.System.Diagnostics.IBdoLog)
+  type: Constructor
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Processing/ProcessExecution.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: .ctor
+    path: ../src/BindOpen.Core/System/Processing/ProcessExecution.cs
+    startLine: 343
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Processing
+  summary: "\nInstantiates a new instance of the LogEventExecution class.\n"
+  example: []
+  syntax:
+    content: public ProcessExecution(IBdoLog log)
+    parameters:
+    - id: log
+      type: BindOpen.System.Diagnostics.IBdoLog
+    content.vb: Public Sub New(log As IBdoLog)
+  overload: BindOpen.System.Processing.ProcessExecution.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BindOpen.System.Processing.ProcessExecution.GetState(System.String)
+  commentId: M:BindOpen.System.Processing.ProcessExecution.GetState(System.String)
+  id: GetState(System.String)
+  parent: BindOpen.System.Processing.ProcessExecution
+  langs:
+  - csharp
+  - vb
+  name: GetState(String)
+  nameWithType: ProcessExecution.GetState(String)
+  fullName: BindOpen.System.Processing.ProcessExecution.GetState(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Processing/ProcessExecution.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GetState
+    path: ../src/BindOpen.Core/System/Processing/ProcessExecution.cs
+    startLine: 360
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Processing
+  summary: "\nGet the process execution state.\n"
+  example: []
+  syntax:
+    content: public static ProcessExecutionState GetState(string aString)
+    parameters:
+    - id: aString
+      type: System.String
+      description: The execution state string.
+    return:
+      type: BindOpen.System.Processing.ProcessExecutionState
+    content.vb: Public Shared Function GetState(aString As String) As ProcessExecutionState
+  overload: BindOpen.System.Processing.ProcessExecution.GetState*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.System.Processing.ProcessExecution.GetStatus(System.String)
+  commentId: M:BindOpen.System.Processing.ProcessExecution.GetStatus(System.String)
+  id: GetStatus(System.String)
+  parent: BindOpen.System.Processing.ProcessExecution
+  langs:
+  - csharp
+  - vb
+  name: GetStatus(String)
+  nameWithType: ProcessExecution.GetStatus(String)
+  fullName: BindOpen.System.Processing.ProcessExecution.GetStatus(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Processing/ProcessExecution.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GetStatus
+    path: ../src/BindOpen.Core/System/Processing/ProcessExecution.cs
+    startLine: 373
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Processing
+  summary: "\nGet the process execution status.\n"
+  example: []
+  syntax:
+    content: public static ProcessExecutionStatus GetStatus(string aString)
+    parameters:
+    - id: aString
+      type: System.String
+      description: The execution status string.
+    return:
+      type: BindOpen.System.Processing.ProcessExecutionStatus
+    content.vb: Public Shared Function GetStatus(aString As String) As ProcessExecutionStatus
+  overload: BindOpen.System.Processing.ProcessExecution.GetStatus*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.System.Processing.ProcessExecution.GetStatuses(BindOpen.System.Processing.ProcessExecutionState)
+  commentId: M:BindOpen.System.Processing.ProcessExecution.GetStatuses(BindOpen.System.Processing.ProcessExecutionState)
+  id: GetStatuses(BindOpen.System.Processing.ProcessExecutionState)
+  parent: BindOpen.System.Processing.ProcessExecution
+  langs:
+  - csharp
+  - vb
+  name: GetStatuses(ProcessExecutionState)
+  nameWithType: ProcessExecution.GetStatuses(ProcessExecutionState)
+  fullName: BindOpen.System.Processing.ProcessExecution.GetStatuses(BindOpen.System.Processing.ProcessExecutionState)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Processing/ProcessExecution.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GetStatuses
+    path: ../src/BindOpen.Core/System/Processing/ProcessExecution.cs
+    startLine: 386
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Processing
+  summary: "\nGet the process execution statuses corresponding to the specified state.\n"
+  example: []
+  syntax:
+    content: public static List<ProcessExecutionStatus> GetStatuses(ProcessExecutionState aState)
+    parameters:
+    - id: aState
+      type: BindOpen.System.Processing.ProcessExecutionState
+      description: The state to consider.
+    return:
+      type: System.Collections.Generic.List{BindOpen.System.Processing.ProcessExecutionStatus}
+    content.vb: Public Shared Function GetStatuses(aState As ProcessExecutionState) As List(Of ProcessExecutionStatus)
+  overload: BindOpen.System.Processing.ProcessExecution.GetStatuses*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.System.Processing.ProcessExecution.GetDefaultStatus(BindOpen.System.Processing.ProcessExecutionState)
+  commentId: M:BindOpen.System.Processing.ProcessExecution.GetDefaultStatus(BindOpen.System.Processing.ProcessExecutionState)
+  id: GetDefaultStatus(BindOpen.System.Processing.ProcessExecutionState)
+  parent: BindOpen.System.Processing.ProcessExecution
+  langs:
+  - csharp
+  - vb
+  name: GetDefaultStatus(ProcessExecutionState)
+  nameWithType: ProcessExecution.GetDefaultStatus(ProcessExecutionState)
+  fullName: BindOpen.System.Processing.ProcessExecution.GetDefaultStatus(BindOpen.System.Processing.ProcessExecutionState)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Processing/ProcessExecution.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GetDefaultStatus
+    path: ../src/BindOpen.Core/System/Processing/ProcessExecution.cs
+    startLine: 416
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Processing
+  summary: "\nGets the default status of the specified state.\n"
+  example: []
+  syntax:
+    content: public static ProcessExecutionStatus GetDefaultStatus(ProcessExecutionState aProcessExecutionState)
+    parameters:
+    - id: aProcessExecutionState
+      type: BindOpen.System.Processing.ProcessExecutionState
+      description: The state to consider.
+    return:
+      type: BindOpen.System.Processing.ProcessExecutionStatus
+    content.vb: Public Shared Function GetDefaultStatus(aProcessExecutionState As ProcessExecutionState) As ProcessExecutionStatus
+  overload: BindOpen.System.Processing.ProcessExecution.GetDefaultStatus*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.System.Processing.ProcessExecution.GetState(BindOpen.System.Processing.ProcessExecutionStatus)
+  commentId: M:BindOpen.System.Processing.ProcessExecution.GetState(BindOpen.System.Processing.ProcessExecutionStatus)
+  id: GetState(BindOpen.System.Processing.ProcessExecutionStatus)
+  parent: BindOpen.System.Processing.ProcessExecution
+  langs:
+  - csharp
+  - vb
+  name: GetState(ProcessExecutionStatus)
+  nameWithType: ProcessExecution.GetState(ProcessExecutionStatus)
+  fullName: BindOpen.System.Processing.ProcessExecution.GetState(BindOpen.System.Processing.ProcessExecutionStatus)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Processing/ProcessExecution.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GetState
+    path: ../src/BindOpen.Core/System/Processing/ProcessExecution.cs
+    startLine: 432
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Processing
+  summary: "\nGet the process execution statuse corresponding to the specified state.\n"
+  example: []
+  syntax:
+    content: public static ProcessExecutionState GetState(ProcessExecutionStatus status)
+    parameters:
+    - id: status
+      type: BindOpen.System.Processing.ProcessExecutionStatus
+      description: The status to consider.
+    return:
+      type: BindOpen.System.Processing.ProcessExecutionState
+    content.vb: Public Shared Function GetState(status As ProcessExecutionStatus) As ProcessExecutionState
+  overload: BindOpen.System.Processing.ProcessExecution.GetState*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.System.Processing.ProcessExecution.Start
+  commentId: M:BindOpen.System.Processing.ProcessExecution.Start
+  id: Start
+  parent: BindOpen.System.Processing.ProcessExecution
+  langs:
+  - csharp
+  - vb
+  name: Start()
+  nameWithType: ProcessExecution.Start()
+  fullName: BindOpen.System.Processing.ProcessExecution.Start()
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Processing/ProcessExecution.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Start
+    path: ../src/BindOpen.Core/System/Processing/ProcessExecution.cs
+    startLine: 461
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Processing
+  summary: "\nStarts this instance.\n"
+  example: []
+  syntax:
+    content: public void Start()
+    content.vb: Public Sub Start
+  overload: BindOpen.System.Processing.ProcessExecution.Start*
+  implements:
+  - BindOpen.System.Processing.IProcessExecution.Start
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BindOpen.System.Processing.ProcessExecution.End(BindOpen.System.Processing.ProcessExecutionStatus)
+  commentId: M:BindOpen.System.Processing.ProcessExecution.End(BindOpen.System.Processing.ProcessExecutionStatus)
+  id: End(BindOpen.System.Processing.ProcessExecutionStatus)
+  parent: BindOpen.System.Processing.ProcessExecution
+  langs:
+  - csharp
+  - vb
+  name: End(ProcessExecutionStatus)
+  nameWithType: ProcessExecution.End(ProcessExecutionStatus)
+  fullName: BindOpen.System.Processing.ProcessExecution.End(BindOpen.System.Processing.ProcessExecutionStatus)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Processing/ProcessExecution.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: End
+    path: ../src/BindOpen.Core/System/Processing/ProcessExecution.cs
+    startLine: 477
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Processing
+  summary: "\nEnds this instance specifying the status.\n"
+  example: []
+  syntax:
+    content: public void End(ProcessExecutionStatus status = ProcessExecutionStatus.Completed)
+    parameters:
+    - id: status
+      type: BindOpen.System.Processing.ProcessExecutionStatus
+      description: The new status to consider.
+    content.vb: Public Sub End(status As ProcessExecutionStatus = ProcessExecutionStatus.Completed)
+  overload: BindOpen.System.Processing.ProcessExecution.End*
+  implements:
+  - BindOpen.System.Processing.IProcessExecution.End(BindOpen.System.Processing.ProcessExecutionStatus)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BindOpen.System.Processing.ProcessExecution.Restart
+  commentId: M:BindOpen.System.Processing.ProcessExecution.Restart
+  id: Restart
+  parent: BindOpen.System.Processing.ProcessExecution
+  langs:
+  - csharp
+  - vb
+  name: Restart()
+  nameWithType: ProcessExecution.Restart()
+  fullName: BindOpen.System.Processing.ProcessExecution.Restart()
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Processing/ProcessExecution.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Restart
+    path: ../src/BindOpen.Core/System/Processing/ProcessExecution.cs
+    startLine: 513
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Processing
+  summary: "\nRestarts this instance.\n"
+  example: []
+  syntax:
+    content: public void Restart()
+    content.vb: Public Sub Restart
+  overload: BindOpen.System.Processing.ProcessExecution.Restart*
+  implements:
+  - BindOpen.System.Processing.IProcessExecution.Restart
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BindOpen.System.Processing.ProcessExecution.Resume
+  commentId: M:BindOpen.System.Processing.ProcessExecution.Resume
+  id: Resume
+  parent: BindOpen.System.Processing.ProcessExecution
+  langs:
+  - csharp
+  - vb
+  name: Resume()
+  nameWithType: ProcessExecution.Resume()
+  fullName: BindOpen.System.Processing.ProcessExecution.Resume()
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Processing/ProcessExecution.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Resume
+    path: ../src/BindOpen.Core/System/Processing/ProcessExecution.cs
+    startLine: 527
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Processing
+  summary: "\nResumes this instance.\n"
+  example: []
+  syntax:
+    content: public void Resume()
+    content.vb: Public Sub Resume
+  overload: BindOpen.System.Processing.ProcessExecution.Resume*
+  implements:
+  - BindOpen.System.Processing.IProcessExecution.Resume
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BindOpen.System.Processing.ProcessExecution.AddDetail(System.String,System.Object)
+  commentId: M:BindOpen.System.Processing.ProcessExecution.AddDetail(System.String,System.Object)
+  id: AddDetail(System.String,System.Object)
+  parent: BindOpen.System.Processing.ProcessExecution
+  langs:
+  - csharp
+  - vb
+  name: AddDetail(String, Object)
+  nameWithType: ProcessExecution.AddDetail(String, Object)
+  fullName: BindOpen.System.Processing.ProcessExecution.AddDetail(System.String, System.Object)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Processing/ProcessExecution.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: AddDetail
+    path: ../src/BindOpen.Core/System/Processing/ProcessExecution.cs
+    startLine: 543
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Processing
+  summary: "\nSets the specified detail attribute.\n"
+  example: []
+  syntax:
+    content: public void AddDetail(string name, object value)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name of the attribute to set.
+    - id: value
+      type: System.Object
+      description: The value of the attribute to set.
+    content.vb: Public Sub AddDetail(name As String, value As Object)
+  overload: BindOpen.System.Processing.ProcessExecution.AddDetail*
+  implements:
+  - BindOpen.System.Processing.IProcessExecution.AddDetail(System.String,System.Object)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BindOpen.System.Processing.ProcessExecution.Dispose(System.Boolean)
+  commentId: M:BindOpen.System.Processing.ProcessExecution.Dispose(System.Boolean)
+  id: Dispose(System.Boolean)
+  parent: BindOpen.System.Processing.ProcessExecution
+  langs:
+  - csharp
+  - vb
+  name: Dispose(Boolean)
+  nameWithType: ProcessExecution.Dispose(Boolean)
+  fullName: BindOpen.System.Processing.ProcessExecution.Dispose(System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Processing/ProcessExecution.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Dispose
+    path: ../src/BindOpen.Core/System/Processing/ProcessExecution.cs
+    startLine: 560
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Processing
+  summary: "\nDisposes this instance. \n"
+  example: []
+  syntax:
+    content: protected override void Dispose(bool isDisposing)
+    parameters:
+    - id: isDisposing
+      type: System.Boolean
+    content.vb: Protected Overrides Sub Dispose(isDisposing As Boolean)
+  overridden: BindOpen.Data.Items.DataItem.Dispose(System.Boolean)
+  overload: BindOpen.System.Processing.ProcessExecution.Dispose*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: BindOpen.System.Processing
+  commentId: N:BindOpen.System.Processing
+  name: BindOpen.System.Processing
+  nameWithType: BindOpen.System.Processing
+  fullName: BindOpen.System.Processing
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.MarshalByRefObject
+  commentId: T:System.MarshalByRefObject
+  parent: System
+  isExternal: true
+  name: MarshalByRefObject
+  nameWithType: MarshalByRefObject
+  fullName: System.MarshalByRefObject
+- uid: BindOpen.Data.Items.DataItem
+  commentId: T:BindOpen.Data.Items.DataItem
+  parent: BindOpen.Data.Items
+  name: DataItem
+  nameWithType: DataItem
+  fullName: BindOpen.Data.Items.DataItem
+- uid: BindOpen.System.Processing.IProcessExecution
+  commentId: T:BindOpen.System.Processing.IProcessExecution
+  parent: BindOpen.System.Processing
+  name: IProcessExecution
+  nameWithType: IProcessExecution
+  fullName: BindOpen.System.Processing.IProcessExecution
+- uid: BindOpen.Data.Items.IDataItem
+  commentId: T:BindOpen.Data.Items.IDataItem
+  parent: BindOpen.Data.Items
+  name: IDataItem
+  nameWithType: IDataItem
+  fullName: BindOpen.Data.Items.IDataItem
+- uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
+  isExternal: true
+  name: ICloneable
+  nameWithType: ICloneable
+  fullName: System.ICloneable
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: BindOpen.Data.Items.DataItem.InitializeLifetimeService
+  commentId: M:BindOpen.Data.Items.DataItem.InitializeLifetimeService
+  parent: BindOpen.Data.Items.DataItem
+  name: InitializeLifetimeService()
+  nameWithType: DataItem.InitializeLifetimeService()
+  fullName: BindOpen.Data.Items.DataItem.InitializeLifetimeService()
+  spec.csharp:
+  - uid: BindOpen.Data.Items.DataItem.InitializeLifetimeService
+    name: InitializeLifetimeService
+    nameWithType: DataItem.InitializeLifetimeService
+    fullName: BindOpen.Data.Items.DataItem.InitializeLifetimeService
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.DataItem.InitializeLifetimeService
+    name: InitializeLifetimeService
+    nameWithType: DataItem.InitializeLifetimeService
+    fullName: BindOpen.Data.Items.DataItem.InitializeLifetimeService
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.DataItem.Clone
+  commentId: M:BindOpen.Data.Items.DataItem.Clone
+  parent: BindOpen.Data.Items.DataItem
+  name: Clone()
+  nameWithType: DataItem.Clone()
+  fullName: BindOpen.Data.Items.DataItem.Clone()
+  spec.csharp:
+  - uid: BindOpen.Data.Items.DataItem.Clone
+    name: Clone
+    nameWithType: DataItem.Clone
+    fullName: BindOpen.Data.Items.DataItem.Clone
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.DataItem.Clone
+    name: Clone
+    nameWithType: DataItem.Clone
+    fullName: BindOpen.Data.Items.DataItem.Clone
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.DataItem.Clone``1
+  commentId: M:BindOpen.Data.Items.DataItem.Clone``1
+  parent: BindOpen.Data.Items.DataItem
+  name: Clone<T>()
+  nameWithType: DataItem.Clone<T>()
+  fullName: BindOpen.Data.Items.DataItem.Clone<T>()
+  nameWithType.vb: DataItem.Clone(Of T)()
+  fullName.vb: BindOpen.Data.Items.DataItem.Clone(Of T)()
+  name.vb: Clone(Of T)()
+  spec.csharp:
+  - uid: BindOpen.Data.Items.DataItem.Clone``1
+    name: Clone<T>
+    nameWithType: DataItem.Clone<T>
+    fullName: BindOpen.Data.Items.DataItem.Clone<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.DataItem.Clone``1
+    name: Clone(Of T)
+    nameWithType: DataItem.Clone(Of T)
+    fullName: BindOpen.Data.Items.DataItem.Clone(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.DataItem.UpdateStorageInfo(BindOpen.System.Diagnostics.IBdoLog)
+  commentId: M:BindOpen.Data.Items.DataItem.UpdateStorageInfo(BindOpen.System.Diagnostics.IBdoLog)
+  parent: BindOpen.Data.Items.DataItem
+  name: UpdateStorageInfo(IBdoLog)
+  nameWithType: DataItem.UpdateStorageInfo(IBdoLog)
+  fullName: BindOpen.Data.Items.DataItem.UpdateStorageInfo(BindOpen.System.Diagnostics.IBdoLog)
+  spec.csharp:
+  - uid: BindOpen.Data.Items.DataItem.UpdateStorageInfo(BindOpen.System.Diagnostics.IBdoLog)
+    name: UpdateStorageInfo
+    nameWithType: DataItem.UpdateStorageInfo
+    fullName: BindOpen.Data.Items.DataItem.UpdateStorageInfo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.DataItem.UpdateStorageInfo(BindOpen.System.Diagnostics.IBdoLog)
+    name: UpdateStorageInfo
+    nameWithType: DataItem.UpdateStorageInfo
+    fullName: BindOpen.Data.Items.DataItem.UpdateStorageInfo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.DataItem.UpdateRuntimeInfo(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+  commentId: M:BindOpen.Data.Items.DataItem.UpdateRuntimeInfo(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+  parent: BindOpen.Data.Items.DataItem
+  name: UpdateRuntimeInfo(IBdoScope, IBdoScriptVariableSet, IBdoLog)
+  nameWithType: DataItem.UpdateRuntimeInfo(IBdoScope, IBdoScriptVariableSet, IBdoLog)
+  fullName: BindOpen.Data.Items.DataItem.UpdateRuntimeInfo(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.System.Diagnostics.IBdoLog)
+  spec.csharp:
+  - uid: BindOpen.Data.Items.DataItem.UpdateRuntimeInfo(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+    name: UpdateRuntimeInfo
+    nameWithType: DataItem.UpdateRuntimeInfo
+    fullName: BindOpen.Data.Items.DataItem.UpdateRuntimeInfo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Application.Scopes.IBdoScope
+    name: IBdoScope
+    nameWithType: IBdoScope
+    fullName: BindOpen.Application.Scopes.IBdoScope
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Scripting.IBdoScriptVariableSet
+    name: IBdoScriptVariableSet
+    nameWithType: IBdoScriptVariableSet
+    fullName: BindOpen.System.Scripting.IBdoScriptVariableSet
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.DataItem.UpdateRuntimeInfo(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+    name: UpdateRuntimeInfo
+    nameWithType: DataItem.UpdateRuntimeInfo
+    fullName: BindOpen.Data.Items.DataItem.UpdateRuntimeInfo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Application.Scopes.IBdoScope
+    name: IBdoScope
+    nameWithType: IBdoScope
+    fullName: BindOpen.Application.Scopes.IBdoScope
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Scripting.IBdoScriptVariableSet
+    name: IBdoScriptVariableSet
+    nameWithType: IBdoScriptVariableSet
+    fullName: BindOpen.System.Scripting.IBdoScriptVariableSet
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.DataItem.Update``1({T},System.String[],BindOpen.Data.Common.UpdateModes[])
+  commentId: M:BindOpen.Data.Items.DataItem.Update``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+  parent: BindOpen.Data.Items.DataItem
+  definition: BindOpen.Data.Items.DataItem.Update``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+  name: Update<T>(T, String[], UpdateModes[])
+  nameWithType: DataItem.Update<T>(T, String[], UpdateModes[])
+  fullName: BindOpen.Data.Items.DataItem.Update<T>(T, System.String[], BindOpen.Data.Common.UpdateModes[])
+  nameWithType.vb: DataItem.Update(Of T)(T, String(), UpdateModes())
+  fullName.vb: BindOpen.Data.Items.DataItem.Update(Of T)(T, System.String(), BindOpen.Data.Common.UpdateModes())
+  name.vb: Update(Of T)(T, String(), UpdateModes())
+  spec.csharp:
+  - uid: BindOpen.Data.Items.DataItem.Update``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+    name: Update<T>
+    nameWithType: DataItem.Update<T>
+    fullName: BindOpen.Data.Items.DataItem.Update<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.UpdateModes
+    name: UpdateModes
+    nameWithType: UpdateModes
+    fullName: BindOpen.Data.Common.UpdateModes
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.DataItem.Update``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+    name: Update(Of T)
+    nameWithType: DataItem.Update(Of T)
+    fullName: BindOpen.Data.Items.DataItem.Update(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.UpdateModes
+    name: UpdateModes
+    nameWithType: UpdateModes
+    fullName: BindOpen.Data.Common.UpdateModes
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.DataItem.Update(System.String[],BindOpen.Data.Common.UpdateModes[])
+  commentId: M:BindOpen.Data.Items.DataItem.Update(System.String[],BindOpen.Data.Common.UpdateModes[])
+  parent: BindOpen.Data.Items.DataItem
+  isExternal: true
+  name: Update(String[], UpdateModes[])
+  nameWithType: DataItem.Update(String[], UpdateModes[])
+  fullName: BindOpen.Data.Items.DataItem.Update(System.String[], BindOpen.Data.Common.UpdateModes[])
+  nameWithType.vb: DataItem.Update(String(), UpdateModes())
+  fullName.vb: BindOpen.Data.Items.DataItem.Update(System.String(), BindOpen.Data.Common.UpdateModes())
+  name.vb: Update(String(), UpdateModes())
+  spec.csharp:
+  - uid: BindOpen.Data.Items.DataItem.Update(System.String[],BindOpen.Data.Common.UpdateModes[])
+    name: Update
+    nameWithType: DataItem.Update
+    fullName: BindOpen.Data.Items.DataItem.Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.UpdateModes
+    name: UpdateModes
+    nameWithType: UpdateModes
+    fullName: BindOpen.Data.Common.UpdateModes
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.DataItem.Update(System.String[],BindOpen.Data.Common.UpdateModes[])
+    name: Update
+    nameWithType: DataItem.Update
+    fullName: BindOpen.Data.Items.DataItem.Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.UpdateModes
+    name: UpdateModes
+    nameWithType: UpdateModes
+    fullName: BindOpen.Data.Common.UpdateModes
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.DataItem.Check``1(System.Boolean,{T},System.String[])
+  commentId: M:BindOpen.Data.Items.DataItem.Check``1(System.Boolean,``0,System.String[])
+  parent: BindOpen.Data.Items.DataItem
+  definition: BindOpen.Data.Items.DataItem.Check``1(System.Boolean,``0,System.String[])
+  name: Check<T>(Boolean, T, String[])
+  nameWithType: DataItem.Check<T>(Boolean, T, String[])
+  fullName: BindOpen.Data.Items.DataItem.Check<T>(System.Boolean, T, System.String[])
+  nameWithType.vb: DataItem.Check(Of T)(Boolean, T, String())
+  fullName.vb: BindOpen.Data.Items.DataItem.Check(Of T)(System.Boolean, T, System.String())
+  name.vb: Check(Of T)(Boolean, T, String())
+  spec.csharp:
+  - uid: BindOpen.Data.Items.DataItem.Check``1(System.Boolean,``0,System.String[])
+    name: Check<T>
+    nameWithType: DataItem.Check<T>
+    fullName: BindOpen.Data.Items.DataItem.Check<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.DataItem.Check``1(System.Boolean,``0,System.String[])
+    name: Check(Of T)
+    nameWithType: DataItem.Check(Of T)
+    fullName: BindOpen.Data.Items.DataItem.Check(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.DataItem.Check(System.Boolean,System.String[])
+  commentId: M:BindOpen.Data.Items.DataItem.Check(System.Boolean,System.String[])
+  parent: BindOpen.Data.Items.DataItem
+  isExternal: true
+  name: Check(Boolean, String[])
+  nameWithType: DataItem.Check(Boolean, String[])
+  fullName: BindOpen.Data.Items.DataItem.Check(System.Boolean, System.String[])
+  nameWithType.vb: DataItem.Check(Boolean, String())
+  fullName.vb: BindOpen.Data.Items.DataItem.Check(System.Boolean, System.String())
+  name.vb: Check(Boolean, String())
+  spec.csharp:
+  - uid: BindOpen.Data.Items.DataItem.Check(System.Boolean,System.String[])
+    name: Check
+    nameWithType: DataItem.Check
+    fullName: BindOpen.Data.Items.DataItem.Check
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.DataItem.Check(System.Boolean,System.String[])
+    name: Check
+    nameWithType: DataItem.Check
+    fullName: BindOpen.Data.Items.DataItem.Check
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.DataItem.Repair``1({T},System.String[],BindOpen.Data.Common.UpdateModes[])
+  commentId: M:BindOpen.Data.Items.DataItem.Repair``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+  parent: BindOpen.Data.Items.DataItem
+  definition: BindOpen.Data.Items.DataItem.Repair``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+  name: Repair<T>(T, String[], UpdateModes[])
+  nameWithType: DataItem.Repair<T>(T, String[], UpdateModes[])
+  fullName: BindOpen.Data.Items.DataItem.Repair<T>(T, System.String[], BindOpen.Data.Common.UpdateModes[])
+  nameWithType.vb: DataItem.Repair(Of T)(T, String(), UpdateModes())
+  fullName.vb: BindOpen.Data.Items.DataItem.Repair(Of T)(T, System.String(), BindOpen.Data.Common.UpdateModes())
+  name.vb: Repair(Of T)(T, String(), UpdateModes())
+  spec.csharp:
+  - uid: BindOpen.Data.Items.DataItem.Repair``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+    name: Repair<T>
+    nameWithType: DataItem.Repair<T>
+    fullName: BindOpen.Data.Items.DataItem.Repair<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.UpdateModes
+    name: UpdateModes
+    nameWithType: UpdateModes
+    fullName: BindOpen.Data.Common.UpdateModes
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.DataItem.Repair``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+    name: Repair(Of T)
+    nameWithType: DataItem.Repair(Of T)
+    fullName: BindOpen.Data.Items.DataItem.Repair(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.UpdateModes
+    name: UpdateModes
+    nameWithType: UpdateModes
+    fullName: BindOpen.Data.Common.UpdateModes
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.DataItem.Repair(System.String[],BindOpen.Data.Common.UpdateModes[])
+  commentId: M:BindOpen.Data.Items.DataItem.Repair(System.String[],BindOpen.Data.Common.UpdateModes[])
+  parent: BindOpen.Data.Items.DataItem
+  isExternal: true
+  name: Repair(String[], UpdateModes[])
+  nameWithType: DataItem.Repair(String[], UpdateModes[])
+  fullName: BindOpen.Data.Items.DataItem.Repair(System.String[], BindOpen.Data.Common.UpdateModes[])
+  nameWithType.vb: DataItem.Repair(String(), UpdateModes())
+  fullName.vb: BindOpen.Data.Items.DataItem.Repair(System.String(), BindOpen.Data.Common.UpdateModes())
+  name.vb: Repair(String(), UpdateModes())
+  spec.csharp:
+  - uid: BindOpen.Data.Items.DataItem.Repair(System.String[],BindOpen.Data.Common.UpdateModes[])
+    name: Repair
+    nameWithType: DataItem.Repair
+    fullName: BindOpen.Data.Items.DataItem.Repair
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.UpdateModes
+    name: UpdateModes
+    nameWithType: UpdateModes
+    fullName: BindOpen.Data.Common.UpdateModes
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.DataItem.Repair(System.String[],BindOpen.Data.Common.UpdateModes[])
+    name: Repair
+    nameWithType: DataItem.Repair
+    fullName: BindOpen.Data.Items.DataItem.Repair
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.UpdateModes
+    name: UpdateModes
+    nameWithType: UpdateModes
+    fullName: BindOpen.Data.Common.UpdateModes
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.DataItem.Dispose
+  commentId: M:BindOpen.Data.Items.DataItem.Dispose
+  parent: BindOpen.Data.Items.DataItem
+  name: Dispose()
+  nameWithType: DataItem.Dispose()
+  fullName: BindOpen.Data.Items.DataItem.Dispose()
+  spec.csharp:
+  - uid: BindOpen.Data.Items.DataItem.Dispose
+    name: Dispose
+    nameWithType: DataItem.Dispose
+    fullName: BindOpen.Data.Items.DataItem.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.DataItem.Dispose
+    name: Dispose
+    nameWithType: DataItem.Dispose
+    fullName: BindOpen.Data.Items.DataItem.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.MarshalByRefObject.GetLifetimeService
+  commentId: M:System.MarshalByRefObject.GetLifetimeService
+  parent: System.MarshalByRefObject
+  isExternal: true
+  name: GetLifetimeService()
+  nameWithType: MarshalByRefObject.GetLifetimeService()
+  fullName: System.MarshalByRefObject.GetLifetimeService()
+  spec.csharp:
+  - uid: System.MarshalByRefObject.GetLifetimeService
+    name: GetLifetimeService
+    nameWithType: MarshalByRefObject.GetLifetimeService
+    fullName: System.MarshalByRefObject.GetLifetimeService
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.MarshalByRefObject.GetLifetimeService
+    name: GetLifetimeService
+    nameWithType: MarshalByRefObject.GetLifetimeService
+    fullName: System.MarshalByRefObject.GetLifetimeService
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
+  commentId: M:System.MarshalByRefObject.MemberwiseClone(System.Boolean)
+  parent: System.MarshalByRefObject
+  isExternal: true
+  name: MemberwiseClone(Boolean)
+  nameWithType: MarshalByRefObject.MemberwiseClone(Boolean)
+  fullName: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
+  spec.csharp:
+  - uid: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
+    name: MemberwiseClone
+    nameWithType: MarshalByRefObject.MemberwiseClone
+    fullName: System.MarshalByRefObject.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
+    name: MemberwiseClone
+    nameWithType: MarshalByRefObject.MemberwiseClone
+    fullName: System.MarshalByRefObject.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.BindOpen.Data.Common.DataValueTypeExtension.IsScalar
+  commentId: M:BindOpen.Data.Common.DataValueTypeExtension.IsScalar(System.Object)
+  parent: BindOpen.Data.Common.DataValueTypeExtension
+  definition: BindOpen.Data.Common.DataValueTypeExtension.IsScalar(System.Object)
+  name: IsScalar()
+  nameWithType: DataValueTypeExtension.IsScalar()
+  fullName: BindOpen.Data.Common.DataValueTypeExtension.IsScalar()
+  spec.csharp:
+  - uid: BindOpen.Data.Common.DataValueTypeExtension.IsScalar
+    name: IsScalar
+    nameWithType: DataValueTypeExtension.IsScalar
+    fullName: BindOpen.Data.Common.DataValueTypeExtension.IsScalar
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Common.DataValueTypeExtension.IsScalar
+    name: IsScalar
+    nameWithType: DataValueTypeExtension.IsScalar
+    fullName: BindOpen.Data.Common.DataValueTypeExtension.IsScalar
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.BindOpen.Data.Common.DataValueTypeExtension.GetValueType
+  commentId: M:BindOpen.Data.Common.DataValueTypeExtension.GetValueType(System.Object)
+  parent: BindOpen.Data.Common.DataValueTypeExtension
+  definition: BindOpen.Data.Common.DataValueTypeExtension.GetValueType(System.Object)
+  name: GetValueType()
+  nameWithType: DataValueTypeExtension.GetValueType()
+  fullName: BindOpen.Data.Common.DataValueTypeExtension.GetValueType()
+  spec.csharp:
+  - uid: BindOpen.Data.Common.DataValueTypeExtension.GetValueType
+    name: GetValueType
+    nameWithType: DataValueTypeExtension.GetValueType
+    fullName: BindOpen.Data.Common.DataValueTypeExtension.GetValueType
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Common.DataValueTypeExtension.GetValueType
+    name: GetValueType
+    nameWithType: DataValueTypeExtension.GetValueType
+    fullName: BindOpen.Data.Common.DataValueTypeExtension.GetValueType
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.BindOpen.Data.Helpers.Objects.ObjectHelper.ToKey
+  commentId: M:BindOpen.Data.Helpers.Objects.ObjectHelper.ToKey(System.Object)
+  parent: BindOpen.Data.Helpers.Objects.ObjectHelper
+  definition: BindOpen.Data.Helpers.Objects.ObjectHelper.ToKey(System.Object)
+  name: ToKey()
+  nameWithType: ObjectHelper.ToKey()
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.ToKey()
+  spec.csharp:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.ToKey
+    name: ToKey
+    nameWithType: ObjectHelper.ToKey
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.ToKey
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.ToKey
+    name: ToKey
+    nameWithType: ObjectHelper.ToKey
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.ToKey
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.BindOpen.Data.Helpers.Objects.ObjectHelper.KeyEquals(System.Object)
+  commentId: M:BindOpen.Data.Helpers.Objects.ObjectHelper.KeyEquals(System.Object,System.Object)
+  parent: BindOpen.Data.Helpers.Objects.ObjectHelper
+  definition: BindOpen.Data.Helpers.Objects.ObjectHelper.KeyEquals(System.Object,System.Object)
+  name: KeyEquals(Object)
+  nameWithType: ObjectHelper.KeyEquals(Object)
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.KeyEquals(System.Object)
+  spec.csharp:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.KeyEquals(System.Object)
+    name: KeyEquals
+    nameWithType: ObjectHelper.KeyEquals
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.KeyEquals
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.KeyEquals(System.Object)
+    name: KeyEquals
+    nameWithType: ObjectHelper.KeyEquals
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.KeyEquals
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.BindOpen.Data.Helpers.Objects.ObjectHelper.ToNotNullString
+  commentId: M:BindOpen.Data.Helpers.Objects.ObjectHelper.ToNotNullString(System.Object)
+  parent: BindOpen.Data.Helpers.Objects.ObjectHelper
+  definition: BindOpen.Data.Helpers.Objects.ObjectHelper.ToNotNullString(System.Object)
+  name: ToNotNullString()
+  nameWithType: ObjectHelper.ToNotNullString()
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.ToNotNullString()
+  spec.csharp:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.ToNotNullString
+    name: ToNotNullString
+    nameWithType: ObjectHelper.ToNotNullString
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.ToNotNullString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.ToNotNullString
+    name: ToNotNullString
+    nameWithType: ObjectHelper.ToNotNullString
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.ToNotNullString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.BindOpen.Data.Helpers.Objects.ObjectHelper.ToString(BindOpen.Data.Common.DataValueType)
+  commentId: M:BindOpen.Data.Helpers.Objects.ObjectHelper.ToString(System.Object,BindOpen.Data.Common.DataValueType)
+  parent: BindOpen.Data.Helpers.Objects.ObjectHelper
+  definition: BindOpen.Data.Helpers.Objects.ObjectHelper.ToString(System.Object,BindOpen.Data.Common.DataValueType)
+  name: ToString(DataValueType)
+  nameWithType: ObjectHelper.ToString(DataValueType)
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.ToString(BindOpen.Data.Common.DataValueType)
+  spec.csharp:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.ToString(BindOpen.Data.Common.DataValueType)
+    name: ToString
+    nameWithType: ObjectHelper.ToString
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Data.Common.DataValueType
+    name: DataValueType
+    nameWithType: DataValueType
+    fullName: BindOpen.Data.Common.DataValueType
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.ToString(BindOpen.Data.Common.DataValueType)
+    name: ToString
+    nameWithType: ObjectHelper.ToString
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Data.Common.DataValueType
+    name: DataValueType
+    nameWithType: DataValueType
+    fullName: BindOpen.Data.Common.DataValueType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.BindOpen.Data.Helpers.Objects.ObjectHelper.Update(System.Object)
+  commentId: M:BindOpen.Data.Helpers.Objects.ObjectHelper.Update(System.Object,System.Object)
+  parent: BindOpen.Data.Helpers.Objects.ObjectHelper
+  definition: BindOpen.Data.Helpers.Objects.ObjectHelper.Update(System.Object,System.Object)
+  name: Update(Object)
+  nameWithType: ObjectHelper.Update(Object)
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.Update(System.Object)
+  spec.csharp:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.Update(System.Object)
+    name: Update
+    nameWithType: ObjectHelper.Update
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.Update(System.Object)
+    name: Update
+    nameWithType: ObjectHelper.Update
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.System.Processing.ProcessExecution.BindOpen.Data.Helpers.Objects.ObjectHelper.Using``1(System.Action{BindOpen.System.Processing.ProcessExecution})
+  commentId: M:BindOpen.Data.Helpers.Objects.ObjectHelper.Using``1(``0,System.Action{``0})
+  parent: BindOpen.Data.Helpers.Objects.ObjectHelper
+  definition: BindOpen.Data.Helpers.Objects.ObjectHelper.Using``1(``0,System.Action{``0})
+  name: Using<ProcessExecution>(Action<ProcessExecution>)
+  nameWithType: ObjectHelper.Using<ProcessExecution>(Action<ProcessExecution>)
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.Using<BindOpen.System.Processing.ProcessExecution>(System.Action<BindOpen.System.Processing.ProcessExecution>)
+  nameWithType.vb: ObjectHelper.Using(Of ProcessExecution)(Action(Of ProcessExecution))
+  fullName.vb: BindOpen.Data.Helpers.Objects.ObjectHelper.Using(Of BindOpen.System.Processing.ProcessExecution)(System.Action(Of BindOpen.System.Processing.ProcessExecution))
+  name.vb: Using(Of ProcessExecution)(Action(Of ProcessExecution))
+  spec.csharp:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.Using``1(System.Action{``0})
+    name: Using<ProcessExecution>
+    nameWithType: ObjectHelper.Using<ProcessExecution>
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.Using<BindOpen.System.Processing.ProcessExecution>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BindOpen.System.Processing.ProcessExecution
+    name: ProcessExecution
+    nameWithType: ProcessExecution
+    fullName: BindOpen.System.Processing.ProcessExecution
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.Using``1(System.Action{``0})
+    name: Using(Of ProcessExecution)
+    nameWithType: ObjectHelper.Using(Of ProcessExecution)
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.Using(Of BindOpen.System.Processing.ProcessExecution)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BindOpen.System.Processing.ProcessExecution
+    name: ProcessExecution
+    nameWithType: ProcessExecution
+    fullName: BindOpen.System.Processing.ProcessExecution
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromElementSet``1(BindOpen.Data.Elements.IDataElementSet,BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet)
+  commentId: M:BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromElementSet``1(System.Object,BindOpen.Data.Elements.IDataElementSet,BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet)
+  parent: BindOpen.Data.Helpers.Objects.ObjectHelper
+  definition: BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromElementSet``1(System.Object,BindOpen.Data.Elements.IDataElementSet,BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet)
+  name: UpdateFromElementSet<T>(IDataElementSet, IBdoScope, IBdoScriptVariableSet)
+  nameWithType: ObjectHelper.UpdateFromElementSet<T>(IDataElementSet, IBdoScope, IBdoScriptVariableSet)
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromElementSet<T>(BindOpen.Data.Elements.IDataElementSet, BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet)
+  nameWithType.vb: ObjectHelper.UpdateFromElementSet(Of T)(IDataElementSet, IBdoScope, IBdoScriptVariableSet)
+  fullName.vb: BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromElementSet(Of T)(BindOpen.Data.Elements.IDataElementSet, BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet)
+  name.vb: UpdateFromElementSet(Of T)(IDataElementSet, IBdoScope, IBdoScriptVariableSet)
+  spec.csharp:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromElementSet``1(BindOpen.Data.Elements.IDataElementSet,BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet)
+    name: UpdateFromElementSet<T>
+    nameWithType: ObjectHelper.UpdateFromElementSet<T>
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromElementSet<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Data.Elements.IDataElementSet
+    name: IDataElementSet
+    nameWithType: IDataElementSet
+    fullName: BindOpen.Data.Elements.IDataElementSet
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Application.Scopes.IBdoScope
+    name: IBdoScope
+    nameWithType: IBdoScope
+    fullName: BindOpen.Application.Scopes.IBdoScope
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Scripting.IBdoScriptVariableSet
+    name: IBdoScriptVariableSet
+    nameWithType: IBdoScriptVariableSet
+    fullName: BindOpen.System.Scripting.IBdoScriptVariableSet
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromElementSet``1(BindOpen.Data.Elements.IDataElementSet,BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet)
+    name: UpdateFromElementSet(Of T)
+    nameWithType: ObjectHelper.UpdateFromElementSet(Of T)
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromElementSet(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Data.Elements.IDataElementSet
+    name: IDataElementSet
+    nameWithType: IDataElementSet
+    fullName: BindOpen.Data.Elements.IDataElementSet
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Application.Scopes.IBdoScope
+    name: IBdoScope
+    nameWithType: IBdoScope
+    fullName: BindOpen.Application.Scopes.IBdoScope
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Scripting.IBdoScriptVariableSet
+    name: IBdoScriptVariableSet
+    nameWithType: IBdoScriptVariableSet
+    fullName: BindOpen.System.Scripting.IBdoScriptVariableSet
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.BindOpen.Data.Helpers.Serialization.ObjectNotationHelper_Json.ToJson(System.String)
+  commentId: M:BindOpen.Data.Helpers.Serialization.ObjectNotationHelper_Json.ToJson(System.Object,System.String)
+  parent: BindOpen.Data.Helpers.Serialization.ObjectNotationHelper_Json
+  definition: BindOpen.Data.Helpers.Serialization.ObjectNotationHelper_Json.ToJson(System.Object,System.String)
+  name: ToJson(String)
+  nameWithType: ObjectNotationHelper_Json.ToJson(String)
+  fullName: BindOpen.Data.Helpers.Serialization.ObjectNotationHelper_Json.ToJson(System.String)
+  spec.csharp:
+  - uid: BindOpen.Data.Helpers.Serialization.ObjectNotationHelper_Json.ToJson(System.String)
+    name: ToJson
+    nameWithType: ObjectNotationHelper_Json.ToJson
+    fullName: BindOpen.Data.Helpers.Serialization.ObjectNotationHelper_Json.ToJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Helpers.Serialization.ObjectNotationHelper_Json.ToJson(System.String)
+    name: ToJson
+    nameWithType: ObjectNotationHelper_Json.ToJson
+    fullName: BindOpen.Data.Helpers.Serialization.ObjectNotationHelper_Json.ToJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.BindOpen.Data.Helpers.Serialization.XmlHelper.ToXml(BindOpen.System.Diagnostics.IBdoLog)
+  commentId: M:BindOpen.Data.Helpers.Serialization.XmlHelper.ToXml(System.Object,BindOpen.System.Diagnostics.IBdoLog)
+  parent: BindOpen.Data.Helpers.Serialization.XmlHelper
+  definition: BindOpen.Data.Helpers.Serialization.XmlHelper.ToXml(System.Object,BindOpen.System.Diagnostics.IBdoLog)
+  name: ToXml(IBdoLog)
+  nameWithType: XmlHelper.ToXml(IBdoLog)
+  fullName: BindOpen.Data.Helpers.Serialization.XmlHelper.ToXml(BindOpen.System.Diagnostics.IBdoLog)
+  spec.csharp:
+  - uid: BindOpen.Data.Helpers.Serialization.XmlHelper.ToXml(BindOpen.System.Diagnostics.IBdoLog)
+    name: ToXml
+    nameWithType: XmlHelper.ToXml
+    fullName: BindOpen.Data.Helpers.Serialization.XmlHelper.ToXml
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Helpers.Serialization.XmlHelper.ToXml(BindOpen.System.Diagnostics.IBdoLog)
+    name: ToXml
+    nameWithType: XmlHelper.ToXml
+    fullName: BindOpen.Data.Helpers.Serialization.XmlHelper.ToXml
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.BindOpen.Data.Helpers.Serialization.XmlHelper.SaveXml(System.String,BindOpen.System.Diagnostics.IBdoLog)
+  commentId: M:BindOpen.Data.Helpers.Serialization.XmlHelper.SaveXml(System.Object,System.String,BindOpen.System.Diagnostics.IBdoLog)
+  parent: BindOpen.Data.Helpers.Serialization.XmlHelper
+  definition: BindOpen.Data.Helpers.Serialization.XmlHelper.SaveXml(System.Object,System.String,BindOpen.System.Diagnostics.IBdoLog)
+  name: SaveXml(String, IBdoLog)
+  nameWithType: XmlHelper.SaveXml(String, IBdoLog)
+  fullName: BindOpen.Data.Helpers.Serialization.XmlHelper.SaveXml(System.String, BindOpen.System.Diagnostics.IBdoLog)
+  spec.csharp:
+  - uid: BindOpen.Data.Helpers.Serialization.XmlHelper.SaveXml(System.String,BindOpen.System.Diagnostics.IBdoLog)
+    name: SaveXml
+    nameWithType: XmlHelper.SaveXml
+    fullName: BindOpen.Data.Helpers.Serialization.XmlHelper.SaveXml
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Helpers.Serialization.XmlHelper.SaveXml(System.String,BindOpen.System.Diagnostics.IBdoLog)
+    name: SaveXml
+    nameWithType: XmlHelper.SaveXml
+    fullName: BindOpen.Data.Helpers.Serialization.XmlHelper.SaveXml
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Data.Items
+  commentId: N:BindOpen.Data.Items
+  name: BindOpen.Data.Items
+  nameWithType: BindOpen.Data.Items
+  fullName: BindOpen.Data.Items
+- uid: BindOpen.Data.Items.DataItem.Update``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+  commentId: M:BindOpen.Data.Items.DataItem.Update``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+  isExternal: true
+  name: Update<T>(T, String[], UpdateModes[])
+  nameWithType: DataItem.Update<T>(T, String[], UpdateModes[])
+  fullName: BindOpen.Data.Items.DataItem.Update<T>(T, System.String[], BindOpen.Data.Common.UpdateModes[])
+  nameWithType.vb: DataItem.Update(Of T)(T, String(), UpdateModes())
+  fullName.vb: BindOpen.Data.Items.DataItem.Update(Of T)(T, System.String(), BindOpen.Data.Common.UpdateModes())
+  name.vb: Update(Of T)(T, String(), UpdateModes())
+  spec.csharp:
+  - uid: BindOpen.Data.Items.DataItem.Update``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+    name: Update<T>
+    nameWithType: DataItem.Update<T>
+    fullName: BindOpen.Data.Items.DataItem.Update<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.UpdateModes
+    name: UpdateModes
+    nameWithType: UpdateModes
+    fullName: BindOpen.Data.Common.UpdateModes
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.DataItem.Update``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+    name: Update(Of T)
+    nameWithType: DataItem.Update(Of T)
+    fullName: BindOpen.Data.Items.DataItem.Update(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.UpdateModes
+    name: UpdateModes
+    nameWithType: UpdateModes
+    fullName: BindOpen.Data.Common.UpdateModes
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.DataItem.Check``1(System.Boolean,``0,System.String[])
+  commentId: M:BindOpen.Data.Items.DataItem.Check``1(System.Boolean,``0,System.String[])
+  isExternal: true
+  name: Check<T>(Boolean, T, String[])
+  nameWithType: DataItem.Check<T>(Boolean, T, String[])
+  fullName: BindOpen.Data.Items.DataItem.Check<T>(System.Boolean, T, System.String[])
+  nameWithType.vb: DataItem.Check(Of T)(Boolean, T, String())
+  fullName.vb: BindOpen.Data.Items.DataItem.Check(Of T)(System.Boolean, T, System.String())
+  name.vb: Check(Of T)(Boolean, T, String())
+  spec.csharp:
+  - uid: BindOpen.Data.Items.DataItem.Check``1(System.Boolean,``0,System.String[])
+    name: Check<T>
+    nameWithType: DataItem.Check<T>
+    fullName: BindOpen.Data.Items.DataItem.Check<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.DataItem.Check``1(System.Boolean,``0,System.String[])
+    name: Check(Of T)
+    nameWithType: DataItem.Check(Of T)
+    fullName: BindOpen.Data.Items.DataItem.Check(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.DataItem.Repair``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+  commentId: M:BindOpen.Data.Items.DataItem.Repair``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+  isExternal: true
+  name: Repair<T>(T, String[], UpdateModes[])
+  nameWithType: DataItem.Repair<T>(T, String[], UpdateModes[])
+  fullName: BindOpen.Data.Items.DataItem.Repair<T>(T, System.String[], BindOpen.Data.Common.UpdateModes[])
+  nameWithType.vb: DataItem.Repair(Of T)(T, String(), UpdateModes())
+  fullName.vb: BindOpen.Data.Items.DataItem.Repair(Of T)(T, System.String(), BindOpen.Data.Common.UpdateModes())
+  name.vb: Repair(Of T)(T, String(), UpdateModes())
+  spec.csharp:
+  - uid: BindOpen.Data.Items.DataItem.Repair``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+    name: Repair<T>
+    nameWithType: DataItem.Repair<T>
+    fullName: BindOpen.Data.Items.DataItem.Repair<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.UpdateModes
+    name: UpdateModes
+    nameWithType: UpdateModes
+    fullName: BindOpen.Data.Common.UpdateModes
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.DataItem.Repair``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+    name: Repair(Of T)
+    nameWithType: DataItem.Repair(Of T)
+    fullName: BindOpen.Data.Items.DataItem.Repair(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.UpdateModes
+    name: UpdateModes
+    nameWithType: UpdateModes
+    fullName: BindOpen.Data.Common.UpdateModes
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Common.DataValueTypeExtension.IsScalar(System.Object)
+  commentId: M:BindOpen.Data.Common.DataValueTypeExtension.IsScalar(System.Object)
+  isExternal: true
+  name: IsScalar(Object)
+  nameWithType: DataValueTypeExtension.IsScalar(Object)
+  fullName: BindOpen.Data.Common.DataValueTypeExtension.IsScalar(System.Object)
+  spec.csharp:
+  - uid: BindOpen.Data.Common.DataValueTypeExtension.IsScalar(System.Object)
+    name: IsScalar
+    nameWithType: DataValueTypeExtension.IsScalar
+    fullName: BindOpen.Data.Common.DataValueTypeExtension.IsScalar
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Common.DataValueTypeExtension.IsScalar(System.Object)
+    name: IsScalar
+    nameWithType: DataValueTypeExtension.IsScalar
+    fullName: BindOpen.Data.Common.DataValueTypeExtension.IsScalar
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Common.DataValueTypeExtension
+  commentId: T:BindOpen.Data.Common.DataValueTypeExtension
+  parent: BindOpen.Data.Common
+  name: DataValueTypeExtension
+  nameWithType: DataValueTypeExtension
+  fullName: BindOpen.Data.Common.DataValueTypeExtension
+- uid: BindOpen.Data.Common.DataValueTypeExtension.GetValueType(System.Object)
+  commentId: M:BindOpen.Data.Common.DataValueTypeExtension.GetValueType(System.Object)
+  isExternal: true
+  name: GetValueType(Object)
+  nameWithType: DataValueTypeExtension.GetValueType(Object)
+  fullName: BindOpen.Data.Common.DataValueTypeExtension.GetValueType(System.Object)
+  spec.csharp:
+  - uid: BindOpen.Data.Common.DataValueTypeExtension.GetValueType(System.Object)
+    name: GetValueType
+    nameWithType: DataValueTypeExtension.GetValueType
+    fullName: BindOpen.Data.Common.DataValueTypeExtension.GetValueType
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Common.DataValueTypeExtension.GetValueType(System.Object)
+    name: GetValueType
+    nameWithType: DataValueTypeExtension.GetValueType
+    fullName: BindOpen.Data.Common.DataValueTypeExtension.GetValueType
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Helpers.Objects.ObjectHelper.ToKey(System.Object)
+  commentId: M:BindOpen.Data.Helpers.Objects.ObjectHelper.ToKey(System.Object)
+  isExternal: true
+  name: ToKey(Object)
+  nameWithType: ObjectHelper.ToKey(Object)
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.ToKey(System.Object)
+  spec.csharp:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.ToKey(System.Object)
+    name: ToKey
+    nameWithType: ObjectHelper.ToKey
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.ToKey
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.ToKey(System.Object)
+    name: ToKey
+    nameWithType: ObjectHelper.ToKey
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.ToKey
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Helpers.Objects.ObjectHelper
+  commentId: T:BindOpen.Data.Helpers.Objects.ObjectHelper
+  parent: BindOpen.Data.Helpers.Objects
+  name: ObjectHelper
+  nameWithType: ObjectHelper
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper
+- uid: BindOpen.Data.Helpers.Objects.ObjectHelper.KeyEquals(System.Object,System.Object)
+  commentId: M:BindOpen.Data.Helpers.Objects.ObjectHelper.KeyEquals(System.Object,System.Object)
+  isExternal: true
+  name: KeyEquals(Object, Object)
+  nameWithType: ObjectHelper.KeyEquals(Object, Object)
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.KeyEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.KeyEquals(System.Object,System.Object)
+    name: KeyEquals
+    nameWithType: ObjectHelper.KeyEquals
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.KeyEquals
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.KeyEquals(System.Object,System.Object)
+    name: KeyEquals
+    nameWithType: ObjectHelper.KeyEquals
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.KeyEquals
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Helpers.Objects.ObjectHelper.ToNotNullString(System.Object)
+  commentId: M:BindOpen.Data.Helpers.Objects.ObjectHelper.ToNotNullString(System.Object)
+  isExternal: true
+  name: ToNotNullString(Object)
+  nameWithType: ObjectHelper.ToNotNullString(Object)
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.ToNotNullString(System.Object)
+  spec.csharp:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.ToNotNullString(System.Object)
+    name: ToNotNullString
+    nameWithType: ObjectHelper.ToNotNullString
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.ToNotNullString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.ToNotNullString(System.Object)
+    name: ToNotNullString
+    nameWithType: ObjectHelper.ToNotNullString
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.ToNotNullString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Helpers.Objects.ObjectHelper.ToString(System.Object,BindOpen.Data.Common.DataValueType)
+  commentId: M:BindOpen.Data.Helpers.Objects.ObjectHelper.ToString(System.Object,BindOpen.Data.Common.DataValueType)
+  isExternal: true
+  name: ToString(Object, DataValueType)
+  nameWithType: ObjectHelper.ToString(Object, DataValueType)
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.ToString(System.Object, BindOpen.Data.Common.DataValueType)
+  spec.csharp:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.ToString(System.Object,BindOpen.Data.Common.DataValueType)
+    name: ToString
+    nameWithType: ObjectHelper.ToString
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.DataValueType
+    name: DataValueType
+    nameWithType: DataValueType
+    fullName: BindOpen.Data.Common.DataValueType
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.ToString(System.Object,BindOpen.Data.Common.DataValueType)
+    name: ToString
+    nameWithType: ObjectHelper.ToString
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.DataValueType
+    name: DataValueType
+    nameWithType: DataValueType
+    fullName: BindOpen.Data.Common.DataValueType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Helpers.Objects.ObjectHelper.Update(System.Object,System.Object)
+  commentId: M:BindOpen.Data.Helpers.Objects.ObjectHelper.Update(System.Object,System.Object)
+  isExternal: true
+  name: Update(Object, Object)
+  nameWithType: ObjectHelper.Update(Object, Object)
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.Update(System.Object, System.Object)
+  spec.csharp:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.Update(System.Object,System.Object)
+    name: Update
+    nameWithType: ObjectHelper.Update
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.Update(System.Object,System.Object)
+    name: Update
+    nameWithType: ObjectHelper.Update
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Helpers.Objects.ObjectHelper.Using``1(``0,System.Action{``0})
+  commentId: M:BindOpen.Data.Helpers.Objects.ObjectHelper.Using``1(``0,System.Action{``0})
+  isExternal: true
+  name: Using<T>(T, Action<T>)
+  nameWithType: ObjectHelper.Using<T>(T, Action<T>)
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.Using<T>(T, System.Action<T>)
+  nameWithType.vb: ObjectHelper.Using(Of T)(T, Action(Of T))
+  fullName.vb: BindOpen.Data.Helpers.Objects.ObjectHelper.Using(Of T)(T, System.Action(Of T))
+  name.vb: Using(Of T)(T, Action(Of T))
+  spec.csharp:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.Using``1(``0,System.Action{``0})
+    name: Using<T>
+    nameWithType: ObjectHelper.Using<T>
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.Using<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.Using``1(``0,System.Action{``0})
+    name: Using(Of T)
+    nameWithType: ObjectHelper.Using(Of T)
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.Using(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromElementSet``1(System.Object,BindOpen.Data.Elements.IDataElementSet,BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet)
+  commentId: M:BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromElementSet``1(System.Object,BindOpen.Data.Elements.IDataElementSet,BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet)
+  isExternal: true
+  name: UpdateFromElementSet<T>(Object, IDataElementSet, IBdoScope, IBdoScriptVariableSet)
+  nameWithType: ObjectHelper.UpdateFromElementSet<T>(Object, IDataElementSet, IBdoScope, IBdoScriptVariableSet)
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromElementSet<T>(System.Object, BindOpen.Data.Elements.IDataElementSet, BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet)
+  nameWithType.vb: ObjectHelper.UpdateFromElementSet(Of T)(Object, IDataElementSet, IBdoScope, IBdoScriptVariableSet)
+  fullName.vb: BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromElementSet(Of T)(System.Object, BindOpen.Data.Elements.IDataElementSet, BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet)
+  name.vb: UpdateFromElementSet(Of T)(Object, IDataElementSet, IBdoScope, IBdoScriptVariableSet)
+  spec.csharp:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromElementSet``1(System.Object,BindOpen.Data.Elements.IDataElementSet,BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet)
+    name: UpdateFromElementSet<T>
+    nameWithType: ObjectHelper.UpdateFromElementSet<T>
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromElementSet<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Elements.IDataElementSet
+    name: IDataElementSet
+    nameWithType: IDataElementSet
+    fullName: BindOpen.Data.Elements.IDataElementSet
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Application.Scopes.IBdoScope
+    name: IBdoScope
+    nameWithType: IBdoScope
+    fullName: BindOpen.Application.Scopes.IBdoScope
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Scripting.IBdoScriptVariableSet
+    name: IBdoScriptVariableSet
+    nameWithType: IBdoScriptVariableSet
+    fullName: BindOpen.System.Scripting.IBdoScriptVariableSet
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromElementSet``1(System.Object,BindOpen.Data.Elements.IDataElementSet,BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet)
+    name: UpdateFromElementSet(Of T)
+    nameWithType: ObjectHelper.UpdateFromElementSet(Of T)
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromElementSet(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Elements.IDataElementSet
+    name: IDataElementSet
+    nameWithType: IDataElementSet
+    fullName: BindOpen.Data.Elements.IDataElementSet
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Application.Scopes.IBdoScope
+    name: IBdoScope
+    nameWithType: IBdoScope
+    fullName: BindOpen.Application.Scopes.IBdoScope
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Scripting.IBdoScriptVariableSet
+    name: IBdoScriptVariableSet
+    nameWithType: IBdoScriptVariableSet
+    fullName: BindOpen.System.Scripting.IBdoScriptVariableSet
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Helpers.Serialization.ObjectNotationHelper_Json.ToJson(System.Object,System.String)
+  commentId: M:BindOpen.Data.Helpers.Serialization.ObjectNotationHelper_Json.ToJson(System.Object,System.String)
+  isExternal: true
+  name: ToJson(Object, String)
+  nameWithType: ObjectNotationHelper_Json.ToJson(Object, String)
+  fullName: BindOpen.Data.Helpers.Serialization.ObjectNotationHelper_Json.ToJson(System.Object, System.String)
+  spec.csharp:
+  - uid: BindOpen.Data.Helpers.Serialization.ObjectNotationHelper_Json.ToJson(System.Object,System.String)
+    name: ToJson
+    nameWithType: ObjectNotationHelper_Json.ToJson
+    fullName: BindOpen.Data.Helpers.Serialization.ObjectNotationHelper_Json.ToJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Helpers.Serialization.ObjectNotationHelper_Json.ToJson(System.Object,System.String)
+    name: ToJson
+    nameWithType: ObjectNotationHelper_Json.ToJson
+    fullName: BindOpen.Data.Helpers.Serialization.ObjectNotationHelper_Json.ToJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Helpers.Serialization.ObjectNotationHelper_Json
+  commentId: T:BindOpen.Data.Helpers.Serialization.ObjectNotationHelper_Json
+  parent: BindOpen.Data.Helpers.Serialization
+  name: ObjectNotationHelper_Json
+  nameWithType: ObjectNotationHelper_Json
+  fullName: BindOpen.Data.Helpers.Serialization.ObjectNotationHelper_Json
+- uid: BindOpen.Data.Helpers.Serialization.XmlHelper.ToXml(System.Object,BindOpen.System.Diagnostics.IBdoLog)
+  commentId: M:BindOpen.Data.Helpers.Serialization.XmlHelper.ToXml(System.Object,BindOpen.System.Diagnostics.IBdoLog)
+  isExternal: true
+  name: ToXml(Object, IBdoLog)
+  nameWithType: XmlHelper.ToXml(Object, IBdoLog)
+  fullName: BindOpen.Data.Helpers.Serialization.XmlHelper.ToXml(System.Object, BindOpen.System.Diagnostics.IBdoLog)
+  spec.csharp:
+  - uid: BindOpen.Data.Helpers.Serialization.XmlHelper.ToXml(System.Object,BindOpen.System.Diagnostics.IBdoLog)
+    name: ToXml
+    nameWithType: XmlHelper.ToXml
+    fullName: BindOpen.Data.Helpers.Serialization.XmlHelper.ToXml
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Helpers.Serialization.XmlHelper.ToXml(System.Object,BindOpen.System.Diagnostics.IBdoLog)
+    name: ToXml
+    nameWithType: XmlHelper.ToXml
+    fullName: BindOpen.Data.Helpers.Serialization.XmlHelper.ToXml
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Helpers.Serialization.XmlHelper
+  commentId: T:BindOpen.Data.Helpers.Serialization.XmlHelper
+  parent: BindOpen.Data.Helpers.Serialization
+  name: XmlHelper
+  nameWithType: XmlHelper
+  fullName: BindOpen.Data.Helpers.Serialization.XmlHelper
+- uid: BindOpen.Data.Helpers.Serialization.XmlHelper.SaveXml(System.Object,System.String,BindOpen.System.Diagnostics.IBdoLog)
+  commentId: M:BindOpen.Data.Helpers.Serialization.XmlHelper.SaveXml(System.Object,System.String,BindOpen.System.Diagnostics.IBdoLog)
+  isExternal: true
+  name: SaveXml(Object, String, IBdoLog)
+  nameWithType: XmlHelper.SaveXml(Object, String, IBdoLog)
+  fullName: BindOpen.Data.Helpers.Serialization.XmlHelper.SaveXml(System.Object, System.String, BindOpen.System.Diagnostics.IBdoLog)
+  spec.csharp:
+  - uid: BindOpen.Data.Helpers.Serialization.XmlHelper.SaveXml(System.Object,System.String,BindOpen.System.Diagnostics.IBdoLog)
+    name: SaveXml
+    nameWithType: XmlHelper.SaveXml
+    fullName: BindOpen.Data.Helpers.Serialization.XmlHelper.SaveXml
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Helpers.Serialization.XmlHelper.SaveXml(System.Object,System.String,BindOpen.System.Diagnostics.IBdoLog)
+    name: SaveXml
+    nameWithType: XmlHelper.SaveXml
+    fullName: BindOpen.Data.Helpers.Serialization.XmlHelper.SaveXml
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Common
+  commentId: N:BindOpen.Data.Common
+  name: BindOpen.Data.Common
+  nameWithType: BindOpen.Data.Common
+  fullName: BindOpen.Data.Common
+- uid: BindOpen.Data.Helpers.Objects
+  commentId: N:BindOpen.Data.Helpers.Objects
+  name: BindOpen.Data.Helpers.Objects
+  nameWithType: BindOpen.Data.Helpers.Objects
+  fullName: BindOpen.Data.Helpers.Objects
+- uid: BindOpen.Data.Helpers.Serialization
+  commentId: N:BindOpen.Data.Helpers.Serialization
+  name: BindOpen.Data.Helpers.Serialization
+  nameWithType: BindOpen.Data.Helpers.Serialization
+  fullName: BindOpen.Data.Helpers.Serialization
+- uid: BindOpen.System.Processing.ProcessExecution.Detail*
+  commentId: Overload:BindOpen.System.Processing.ProcessExecution.Detail
+  name: Detail
+  nameWithType: ProcessExecution.Detail
+  fullName: BindOpen.System.Processing.ProcessExecution.Detail
+- uid: BindOpen.System.Processing.IProcessExecution.Detail
+  commentId: P:BindOpen.System.Processing.IProcessExecution.Detail
+  parent: BindOpen.System.Processing.IProcessExecution
+  name: Detail
+  nameWithType: IProcessExecution.Detail
+  fullName: BindOpen.System.Processing.IProcessExecution.Detail
+- uid: BindOpen.Data.Elements.DataElementSet
+  commentId: T:BindOpen.Data.Elements.DataElementSet
+  parent: BindOpen.Data.Elements
+  name: DataElementSet
+  nameWithType: DataElementSet
+  fullName: BindOpen.Data.Elements.DataElementSet
+- uid: BindOpen.Data.Elements
+  commentId: N:BindOpen.Data.Elements
+  name: BindOpen.Data.Elements
+  nameWithType: BindOpen.Data.Elements
+  fullName: BindOpen.Data.Elements
+- uid: BindOpen.System.Processing.ProcessExecution.DetailSpecified*
+  commentId: Overload:BindOpen.System.Processing.ProcessExecution.DetailSpecified
+  name: DetailSpecified
+  nameWithType: ProcessExecution.DetailSpecified
+  fullName: BindOpen.System.Processing.ProcessExecution.DetailSpecified
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: BindOpen.System.Processing.ProcessExecution.Location*
+  commentId: Overload:BindOpen.System.Processing.ProcessExecution.Location
+  name: Location
+  nameWithType: ProcessExecution.Location
+  fullName: BindOpen.System.Processing.ProcessExecution.Location
+- uid: BindOpen.System.Processing.IProcessExecution.Location
+  commentId: P:BindOpen.System.Processing.IProcessExecution.Location
+  parent: BindOpen.System.Processing.IProcessExecution
+  name: Location
+  nameWithType: IProcessExecution.Location
+  fullName: BindOpen.System.Processing.IProcessExecution.Location
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: BindOpen.System.Processing.ProcessExecution.LocationSpecified*
+  commentId: Overload:BindOpen.System.Processing.ProcessExecution.LocationSpecified
+  name: LocationSpecified
+  nameWithType: ProcessExecution.LocationSpecified
+  fullName: BindOpen.System.Processing.ProcessExecution.LocationSpecified
+- uid: BindOpen.System.Processing.ProcessExecution.ProgressMax
+  commentId: P:BindOpen.System.Processing.ProcessExecution.ProgressMax
+  isExternal: true
+- uid: BindOpen.System.Processing.ProcessExecution.ProgressIndex*
+  commentId: Overload:BindOpen.System.Processing.ProcessExecution.ProgressIndex
+  name: ProgressIndex
+  nameWithType: ProcessExecution.ProgressIndex
+  fullName: BindOpen.System.Processing.ProcessExecution.ProgressIndex
+- uid: BindOpen.System.Processing.IProcessExecution.ProgressIndex
+  commentId: P:BindOpen.System.Processing.IProcessExecution.ProgressIndex
+  parent: BindOpen.System.Processing.IProcessExecution
+  name: ProgressIndex
+  nameWithType: IProcessExecution.ProgressIndex
+  fullName: BindOpen.System.Processing.IProcessExecution.ProgressIndex
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: BindOpen.System.Processing.ProcessExecution.ProgressIndex
+  commentId: P:BindOpen.System.Processing.ProcessExecution.ProgressIndex
+  isExternal: true
+- uid: BindOpen.System.Processing.ProcessExecution.ProgressMax*
+  commentId: Overload:BindOpen.System.Processing.ProcessExecution.ProgressMax
+  name: ProgressMax
+  nameWithType: ProcessExecution.ProgressMax
+  fullName: BindOpen.System.Processing.ProcessExecution.ProgressMax
+- uid: BindOpen.System.Processing.IProcessExecution.ProgressMax
+  commentId: P:BindOpen.System.Processing.IProcessExecution.ProgressMax
+  parent: BindOpen.System.Processing.IProcessExecution
+  name: ProgressMax
+  nameWithType: IProcessExecution.ProgressMax
+  fullName: BindOpen.System.Processing.IProcessExecution.ProgressMax
+- uid: BindOpen.System.Processing.ProcessExecution.Status*
+  commentId: Overload:BindOpen.System.Processing.ProcessExecution.Status
+  name: Status
+  nameWithType: ProcessExecution.Status
+  fullName: BindOpen.System.Processing.ProcessExecution.Status
+- uid: BindOpen.System.Processing.IProcessExecution.Status
+  commentId: P:BindOpen.System.Processing.IProcessExecution.Status
+  parent: BindOpen.System.Processing.IProcessExecution
+  name: Status
+  nameWithType: IProcessExecution.Status
+  fullName: BindOpen.System.Processing.IProcessExecution.Status
+- uid: BindOpen.System.Processing.ProcessExecutionStatus
+  commentId: T:BindOpen.System.Processing.ProcessExecutionStatus
+  parent: BindOpen.System.Processing
+  name: ProcessExecutionStatus
+  nameWithType: ProcessExecutionStatus
+  fullName: BindOpen.System.Processing.ProcessExecutionStatus
+- uid: BindOpen.System.Processing.ProcessExecution.State*
+  commentId: Overload:BindOpen.System.Processing.ProcessExecution.State
+  name: State
+  nameWithType: ProcessExecution.State
+  fullName: BindOpen.System.Processing.ProcessExecution.State
+- uid: BindOpen.System.Processing.IProcessExecution.State
+  commentId: P:BindOpen.System.Processing.IProcessExecution.State
+  parent: BindOpen.System.Processing.IProcessExecution
+  name: State
+  nameWithType: IProcessExecution.State
+  fullName: BindOpen.System.Processing.IProcessExecution.State
+- uid: BindOpen.System.Processing.ProcessExecutionState
+  commentId: T:BindOpen.System.Processing.ProcessExecutionState
+  parent: BindOpen.System.Processing
+  name: ProcessExecutionState
+  nameWithType: ProcessExecutionState
+  fullName: BindOpen.System.Processing.ProcessExecutionState
+- uid: BindOpen.System.Processing.ProcessExecution.CustomStatus*
+  commentId: Overload:BindOpen.System.Processing.ProcessExecution.CustomStatus
+  name: CustomStatus
+  nameWithType: ProcessExecution.CustomStatus
+  fullName: BindOpen.System.Processing.ProcessExecution.CustomStatus
+- uid: BindOpen.System.Processing.IProcessExecution.CustomStatus
+  commentId: P:BindOpen.System.Processing.IProcessExecution.CustomStatus
+  parent: BindOpen.System.Processing.IProcessExecution
+  name: CustomStatus
+  nameWithType: IProcessExecution.CustomStatus
+  fullName: BindOpen.System.Processing.IProcessExecution.CustomStatus
+- uid: BindOpen.System.Processing.ProcessExecution.CustomStatusSpecified*
+  commentId: Overload:BindOpen.System.Processing.ProcessExecution.CustomStatusSpecified
+  name: CustomStatusSpecified
+  nameWithType: ProcessExecution.CustomStatusSpecified
+  fullName: BindOpen.System.Processing.ProcessExecution.CustomStatusSpecified
+- uid: BindOpen.System.Processing.ProcessExecution.StartDate*
+  commentId: Overload:BindOpen.System.Processing.ProcessExecution.StartDate
+  name: StartDate
+  nameWithType: ProcessExecution.StartDate
+  fullName: BindOpen.System.Processing.ProcessExecution.StartDate
+- uid: BindOpen.System.Processing.IProcessExecution.StartDate
+  commentId: P:BindOpen.System.Processing.IProcessExecution.StartDate
+  parent: BindOpen.System.Processing.IProcessExecution
+  name: StartDate
+  nameWithType: IProcessExecution.StartDate
+  fullName: BindOpen.System.Processing.IProcessExecution.StartDate
+- uid: BindOpen.System.Processing.ProcessExecution.StartDateSpecified*
+  commentId: Overload:BindOpen.System.Processing.ProcessExecution.StartDateSpecified
+  name: StartDateSpecified
+  nameWithType: ProcessExecution.StartDateSpecified
+  fullName: BindOpen.System.Processing.ProcessExecution.StartDateSpecified
+- uid: BindOpen.System.Processing.ProcessExecution.RestartDate*
+  commentId: Overload:BindOpen.System.Processing.ProcessExecution.RestartDate
+  name: RestartDate
+  nameWithType: ProcessExecution.RestartDate
+  fullName: BindOpen.System.Processing.ProcessExecution.RestartDate
+- uid: BindOpen.System.Processing.IProcessExecution.RestartDate
+  commentId: P:BindOpen.System.Processing.IProcessExecution.RestartDate
+  parent: BindOpen.System.Processing.IProcessExecution
+  name: RestartDate
+  nameWithType: IProcessExecution.RestartDate
+  fullName: BindOpen.System.Processing.IProcessExecution.RestartDate
+- uid: BindOpen.System.Processing.ProcessExecution.RestartDateSpecified*
+  commentId: Overload:BindOpen.System.Processing.ProcessExecution.RestartDateSpecified
+  name: RestartDateSpecified
+  nameWithType: ProcessExecution.RestartDateSpecified
+  fullName: BindOpen.System.Processing.ProcessExecution.RestartDateSpecified
+- uid: BindOpen.System.Processing.ProcessExecution.EndDate*
+  commentId: Overload:BindOpen.System.Processing.ProcessExecution.EndDate
+  name: EndDate
+  nameWithType: ProcessExecution.EndDate
+  fullName: BindOpen.System.Processing.ProcessExecution.EndDate
+- uid: BindOpen.System.Processing.IProcessExecution.EndDate
+  commentId: P:BindOpen.System.Processing.IProcessExecution.EndDate
+  parent: BindOpen.System.Processing.IProcessExecution
+  name: EndDate
+  nameWithType: IProcessExecution.EndDate
+  fullName: BindOpen.System.Processing.IProcessExecution.EndDate
+- uid: BindOpen.System.Processing.ProcessExecution.EndDateSpecified*
+  commentId: Overload:BindOpen.System.Processing.ProcessExecution.EndDateSpecified
+  name: EndDateSpecified
+  nameWithType: ProcessExecution.EndDateSpecified
+  fullName: BindOpen.System.Processing.ProcessExecution.EndDateSpecified
+- uid: BindOpen.System.Processing.ProcessExecution.Duration*
+  commentId: Overload:BindOpen.System.Processing.ProcessExecution.Duration
+  name: Duration
+  nameWithType: ProcessExecution.Duration
+  fullName: BindOpen.System.Processing.ProcessExecution.Duration
+- uid: BindOpen.System.Processing.IProcessExecution.Duration
+  commentId: P:BindOpen.System.Processing.IProcessExecution.Duration
+  parent: BindOpen.System.Processing.IProcessExecution
+  name: Duration
+  nameWithType: IProcessExecution.Duration
+  fullName: BindOpen.System.Processing.IProcessExecution.Duration
+- uid: BindOpen.System.Processing.ProcessExecution.DurationSpecified*
+  commentId: Overload:BindOpen.System.Processing.ProcessExecution.DurationSpecified
+  name: DurationSpecified
+  nameWithType: ProcessExecution.DurationSpecified
+  fullName: BindOpen.System.Processing.ProcessExecution.DurationSpecified
+- uid: BindOpen.System.Processing.ProcessExecution.ResultLevel*
+  commentId: Overload:BindOpen.System.Processing.ProcessExecution.ResultLevel
+  name: ResultLevel
+  nameWithType: ProcessExecution.ResultLevel
+  fullName: BindOpen.System.Processing.ProcessExecution.ResultLevel
+- uid: BindOpen.System.Processing.IProcessExecution.ResultLevel
+  commentId: P:BindOpen.System.Processing.IProcessExecution.ResultLevel
+  parent: BindOpen.System.Processing.IProcessExecution
+  name: ResultLevel
+  nameWithType: IProcessExecution.ResultLevel
+  fullName: BindOpen.System.Processing.IProcessExecution.ResultLevel
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: BindOpen.System.Processing.ProcessExecution.#ctor*
+  commentId: Overload:BindOpen.System.Processing.ProcessExecution.#ctor
+  name: ProcessExecution
+  nameWithType: ProcessExecution.ProcessExecution
+  fullName: BindOpen.System.Processing.ProcessExecution.ProcessExecution
+- uid: BindOpen.System.Diagnostics.IBdoLog
+  commentId: T:BindOpen.System.Diagnostics.IBdoLog
+  parent: BindOpen.System.Diagnostics
+  name: IBdoLog
+  nameWithType: IBdoLog
+  fullName: BindOpen.System.Diagnostics.IBdoLog
+- uid: BindOpen.System.Diagnostics
+  commentId: N:BindOpen.System.Diagnostics
+  name: BindOpen.System.Diagnostics
+  nameWithType: BindOpen.System.Diagnostics
+  fullName: BindOpen.System.Diagnostics
+- uid: BindOpen.System.Processing.ProcessExecution.GetState*
+  commentId: Overload:BindOpen.System.Processing.ProcessExecution.GetState
+  name: GetState
+  nameWithType: ProcessExecution.GetState
+  fullName: BindOpen.System.Processing.ProcessExecution.GetState
+- uid: BindOpen.System.Processing.ProcessExecution.GetStatus*
+  commentId: Overload:BindOpen.System.Processing.ProcessExecution.GetStatus
+  name: GetStatus
+  nameWithType: ProcessExecution.GetStatus
+  fullName: BindOpen.System.Processing.ProcessExecution.GetStatus
+- uid: BindOpen.System.Processing.ProcessExecution.GetStatuses*
+  commentId: Overload:BindOpen.System.Processing.ProcessExecution.GetStatuses
+  name: GetStatuses
+  nameWithType: ProcessExecution.GetStatuses
+  fullName: BindOpen.System.Processing.ProcessExecution.GetStatuses
+- uid: System.Collections.Generic.List{BindOpen.System.Processing.ProcessExecutionStatus}
+  commentId: T:System.Collections.Generic.List{BindOpen.System.Processing.ProcessExecutionStatus}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ProcessExecutionStatus>
+  nameWithType: List<ProcessExecutionStatus>
+  fullName: System.Collections.Generic.List<BindOpen.System.Processing.ProcessExecutionStatus>
+  nameWithType.vb: List(Of ProcessExecutionStatus)
+  fullName.vb: System.Collections.Generic.List(Of BindOpen.System.Processing.ProcessExecutionStatus)
+  name.vb: List(Of ProcessExecutionStatus)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BindOpen.System.Processing.ProcessExecutionStatus
+    name: ProcessExecutionStatus
+    nameWithType: ProcessExecutionStatus
+    fullName: BindOpen.System.Processing.ProcessExecutionStatus
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BindOpen.System.Processing.ProcessExecutionStatus
+    name: ProcessExecutionStatus
+    nameWithType: ProcessExecutionStatus
+    fullName: BindOpen.System.Processing.ProcessExecutionStatus
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: BindOpen.System.Processing.ProcessExecution.GetDefaultStatus*
+  commentId: Overload:BindOpen.System.Processing.ProcessExecution.GetDefaultStatus
+  name: GetDefaultStatus
+  nameWithType: ProcessExecution.GetDefaultStatus
+  fullName: BindOpen.System.Processing.ProcessExecution.GetDefaultStatus
+- uid: BindOpen.System.Processing.ProcessExecution.Start*
+  commentId: Overload:BindOpen.System.Processing.ProcessExecution.Start
+  name: Start
+  nameWithType: ProcessExecution.Start
+  fullName: BindOpen.System.Processing.ProcessExecution.Start
+- uid: BindOpen.System.Processing.IProcessExecution.Start
+  commentId: M:BindOpen.System.Processing.IProcessExecution.Start
+  parent: BindOpen.System.Processing.IProcessExecution
+  name: Start()
+  nameWithType: IProcessExecution.Start()
+  fullName: BindOpen.System.Processing.IProcessExecution.Start()
+  spec.csharp:
+  - uid: BindOpen.System.Processing.IProcessExecution.Start
+    name: Start
+    nameWithType: IProcessExecution.Start
+    fullName: BindOpen.System.Processing.IProcessExecution.Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.System.Processing.IProcessExecution.Start
+    name: Start
+    nameWithType: IProcessExecution.Start
+    fullName: BindOpen.System.Processing.IProcessExecution.Start
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.System.Processing.ProcessExecution.End*
+  commentId: Overload:BindOpen.System.Processing.ProcessExecution.End
+  name: End
+  nameWithType: ProcessExecution.End
+  fullName: BindOpen.System.Processing.ProcessExecution.End
+- uid: BindOpen.System.Processing.IProcessExecution.End(BindOpen.System.Processing.ProcessExecutionStatus)
+  commentId: M:BindOpen.System.Processing.IProcessExecution.End(BindOpen.System.Processing.ProcessExecutionStatus)
+  parent: BindOpen.System.Processing.IProcessExecution
+  name: End(ProcessExecutionStatus)
+  nameWithType: IProcessExecution.End(ProcessExecutionStatus)
+  fullName: BindOpen.System.Processing.IProcessExecution.End(BindOpen.System.Processing.ProcessExecutionStatus)
+  spec.csharp:
+  - uid: BindOpen.System.Processing.IProcessExecution.End(BindOpen.System.Processing.ProcessExecutionStatus)
+    name: End
+    nameWithType: IProcessExecution.End
+    fullName: BindOpen.System.Processing.IProcessExecution.End
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.System.Processing.ProcessExecutionStatus
+    name: ProcessExecutionStatus
+    nameWithType: ProcessExecutionStatus
+    fullName: BindOpen.System.Processing.ProcessExecutionStatus
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.System.Processing.IProcessExecution.End(BindOpen.System.Processing.ProcessExecutionStatus)
+    name: End
+    nameWithType: IProcessExecution.End
+    fullName: BindOpen.System.Processing.IProcessExecution.End
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.System.Processing.ProcessExecutionStatus
+    name: ProcessExecutionStatus
+    nameWithType: ProcessExecutionStatus
+    fullName: BindOpen.System.Processing.ProcessExecutionStatus
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.System.Processing.ProcessExecution.Restart*
+  commentId: Overload:BindOpen.System.Processing.ProcessExecution.Restart
+  name: Restart
+  nameWithType: ProcessExecution.Restart
+  fullName: BindOpen.System.Processing.ProcessExecution.Restart
+- uid: BindOpen.System.Processing.IProcessExecution.Restart
+  commentId: M:BindOpen.System.Processing.IProcessExecution.Restart
+  parent: BindOpen.System.Processing.IProcessExecution
+  name: Restart()
+  nameWithType: IProcessExecution.Restart()
+  fullName: BindOpen.System.Processing.IProcessExecution.Restart()
+  spec.csharp:
+  - uid: BindOpen.System.Processing.IProcessExecution.Restart
+    name: Restart
+    nameWithType: IProcessExecution.Restart
+    fullName: BindOpen.System.Processing.IProcessExecution.Restart
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.System.Processing.IProcessExecution.Restart
+    name: Restart
+    nameWithType: IProcessExecution.Restart
+    fullName: BindOpen.System.Processing.IProcessExecution.Restart
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.System.Processing.ProcessExecution.Resume*
+  commentId: Overload:BindOpen.System.Processing.ProcessExecution.Resume
+  name: Resume
+  nameWithType: ProcessExecution.Resume
+  fullName: BindOpen.System.Processing.ProcessExecution.Resume
+- uid: BindOpen.System.Processing.IProcessExecution.Resume
+  commentId: M:BindOpen.System.Processing.IProcessExecution.Resume
+  parent: BindOpen.System.Processing.IProcessExecution
+  name: Resume()
+  nameWithType: IProcessExecution.Resume()
+  fullName: BindOpen.System.Processing.IProcessExecution.Resume()
+  spec.csharp:
+  - uid: BindOpen.System.Processing.IProcessExecution.Resume
+    name: Resume
+    nameWithType: IProcessExecution.Resume
+    fullName: BindOpen.System.Processing.IProcessExecution.Resume
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.System.Processing.IProcessExecution.Resume
+    name: Resume
+    nameWithType: IProcessExecution.Resume
+    fullName: BindOpen.System.Processing.IProcessExecution.Resume
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.System.Processing.ProcessExecution.AddDetail*
+  commentId: Overload:BindOpen.System.Processing.ProcessExecution.AddDetail
+  name: AddDetail
+  nameWithType: ProcessExecution.AddDetail
+  fullName: BindOpen.System.Processing.ProcessExecution.AddDetail
+- uid: BindOpen.System.Processing.IProcessExecution.AddDetail(System.String,System.Object)
+  commentId: M:BindOpen.System.Processing.IProcessExecution.AddDetail(System.String,System.Object)
+  parent: BindOpen.System.Processing.IProcessExecution
+  isExternal: true
+  name: AddDetail(String, Object)
+  nameWithType: IProcessExecution.AddDetail(String, Object)
+  fullName: BindOpen.System.Processing.IProcessExecution.AddDetail(System.String, System.Object)
+  spec.csharp:
+  - uid: BindOpen.System.Processing.IProcessExecution.AddDetail(System.String,System.Object)
+    name: AddDetail
+    nameWithType: IProcessExecution.AddDetail
+    fullName: BindOpen.System.Processing.IProcessExecution.AddDetail
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.System.Processing.IProcessExecution.AddDetail(System.String,System.Object)
+    name: AddDetail
+    nameWithType: IProcessExecution.AddDetail
+    fullName: BindOpen.System.Processing.IProcessExecution.AddDetail
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.DataItem.Dispose(System.Boolean)
+  commentId: M:BindOpen.Data.Items.DataItem.Dispose(System.Boolean)
+  parent: BindOpen.Data.Items.DataItem
+  isExternal: true
+  name: Dispose(Boolean)
+  nameWithType: DataItem.Dispose(Boolean)
+  fullName: BindOpen.Data.Items.DataItem.Dispose(System.Boolean)
+  spec.csharp:
+  - uid: BindOpen.Data.Items.DataItem.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: DataItem.Dispose
+    fullName: BindOpen.Data.Items.DataItem.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.DataItem.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: DataItem.Dispose
+    fullName: BindOpen.Data.Items.DataItem.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.System.Processing.ProcessExecution.Dispose*
+  commentId: Overload:BindOpen.System.Processing.ProcessExecution.Dispose
+  name: Dispose
+  nameWithType: ProcessExecution.Dispose
+  fullName: BindOpen.System.Processing.ProcessExecution.Dispose
+shouldSkipMarkup: true

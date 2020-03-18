@@ -1,0 +1,1092 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.System.Scripting.BdoScriptParsingHelper
+  commentId: T:BindOpen.System.Scripting.BdoScriptParsingHelper
+  id: BdoScriptParsingHelper
+  parent: BindOpen.System.Scripting
+  children:
+  - BindOpen.System.Scripting.BdoScriptParsingHelper.FindScriptItems(System.String)
+  - BindOpen.System.Scripting.BdoScriptParsingHelper.GetIndexOfLastString(System.String,System.String,System.Int32)
+  - BindOpen.System.Scripting.BdoScriptParsingHelper.GetIndexOfNextString(System.String,System.String,System.Int32)
+  - BindOpen.System.Scripting.BdoScriptParsingHelper.GetParameterValue(System.String,System.String,System.Boolean)
+  - BindOpen.System.Scripting.BdoScriptParsingHelper.GetScriptBlock(System.String,System.Int32)
+  - BindOpen.System.Scripting.BdoScriptParsingHelper.GetValueFromText(System.String)
+  - BindOpen.System.Scripting.BdoScriptParsingHelper.GetWordDefinitions(BindOpen.System.Scripting.IBdoScriptInterpreter,System.String,System.Int32,System.Boolean,BindOpen.System.Scripting.IBdoScriptVariableSet)
+  - BindOpen.System.Scripting.BdoScriptParsingHelper.Symbol_Fun
+  - BindOpen.System.Scripting.BdoScriptParsingHelper.Symbol_Var
+  - BindOpen.System.Scripting.BdoScriptParsingHelper.SyntaxItems
+  langs:
+  - csharp
+  - vb
+  name: BdoScriptParsingHelper
+  nameWithType: BdoScriptParsingHelper
+  fullName: BindOpen.System.Scripting.BdoScriptParsingHelper
+  type: Class
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Scripting/BdoScriptParsingHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: BdoScriptParsingHelper
+    path: ../src/BindOpen.Core/System/Scripting/BdoScriptParsingHelper.cs
+    startLine: 11
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Scripting
+  summary: "\nThis class represents a string parser.\n"
+  example: []
+  syntax:
+    content: public static class BdoScriptParsingHelper
+    content.vb: Public Module BdoScriptParsingHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: BindOpen.System.Scripting.BdoScriptParsingHelper.Symbol_Var
+  commentId: F:BindOpen.System.Scripting.BdoScriptParsingHelper.Symbol_Var
+  id: Symbol_Var
+  parent: BindOpen.System.Scripting.BdoScriptParsingHelper
+  langs:
+  - csharp
+  - vb
+  name: Symbol_Var
+  nameWithType: BdoScriptParsingHelper.Symbol_Var
+  fullName: BindOpen.System.Scripting.BdoScriptParsingHelper.Symbol_Var
+  type: Field
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Scripting/BdoScriptParsingHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Symbol_Var
+    path: ../src/BindOpen.Core/System/Scripting/BdoScriptParsingHelper.cs
+    startLine: 22
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Scripting
+  summary: "\nThe leading character of the variable.\n"
+  example: []
+  syntax:
+    content: public static readonly string Symbol_Var
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Symbol_Var As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: BindOpen.System.Scripting.BdoScriptParsingHelper.Symbol_Fun
+  commentId: F:BindOpen.System.Scripting.BdoScriptParsingHelper.Symbol_Fun
+  id: Symbol_Fun
+  parent: BindOpen.System.Scripting.BdoScriptParsingHelper
+  langs:
+  - csharp
+  - vb
+  name: Symbol_Fun
+  nameWithType: BdoScriptParsingHelper.Symbol_Fun
+  fullName: BindOpen.System.Scripting.BdoScriptParsingHelper.Symbol_Fun
+  type: Field
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Scripting/BdoScriptParsingHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Symbol_Fun
+    path: ../src/BindOpen.Core/System/Scripting/BdoScriptParsingHelper.cs
+    startLine: 27
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Scripting
+  summary: "\nThe leading character of the function.\n"
+  example: []
+  syntax:
+    content: public static readonly string Symbol_Fun
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Symbol_Fun As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: BindOpen.System.Scripting.BdoScriptParsingHelper.SyntaxItems
+  commentId: F:BindOpen.System.Scripting.BdoScriptParsingHelper.SyntaxItems
+  id: SyntaxItems
+  parent: BindOpen.System.Scripting.BdoScriptParsingHelper
+  langs:
+  - csharp
+  - vb
+  name: SyntaxItems
+  nameWithType: BdoScriptParsingHelper.SyntaxItems
+  fullName: BindOpen.System.Scripting.BdoScriptParsingHelper.SyntaxItems
+  type: Field
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Scripting/BdoScriptParsingHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: SyntaxItems
+    path: ../src/BindOpen.Core/System/Scripting/BdoScriptParsingHelper.cs
+    startLine: 32
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Scripting
+  summary: "\nThe syntax items of this class.\n"
+  example: []
+  syntax:
+    content: public static readonly string[] SyntaxItems
+    return:
+      type: System.String[]
+    content.vb: Public Shared ReadOnly SyntaxItems As String()
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: BindOpen.System.Scripting.BdoScriptParsingHelper.GetValueFromText(System.String)
+  commentId: M:BindOpen.System.Scripting.BdoScriptParsingHelper.GetValueFromText(System.String)
+  id: GetValueFromText(System.String)
+  isExtensionMethod: true
+  parent: BindOpen.System.Scripting.BdoScriptParsingHelper
+  langs:
+  - csharp
+  - vb
+  name: GetValueFromText(String)
+  nameWithType: BdoScriptParsingHelper.GetValueFromText(String)
+  fullName: BindOpen.System.Scripting.BdoScriptParsingHelper.GetValueFromText(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Scripting/BdoScriptParsingHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GetValueFromText
+    path: ../src/BindOpen.Core/System/Scripting/BdoScriptParsingHelper.cs
+    startLine: 47
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Scripting
+  summary: "\nReturns the string value from a text.\n"
+  example: []
+  syntax:
+    content: public static string GetValueFromText(this string text)
+    parameters:
+    - id: text
+      type: System.String
+      description: The text from which the string value is retrieved.
+    return:
+      type: System.String
+      description: The string value from a text
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetValueFromText(text As String) As String
+  overload: BindOpen.System.Scripting.BdoScriptParsingHelper.GetValueFromText*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.System.Scripting.BdoScriptParsingHelper.GetParameterValue(System.String,System.String,System.Boolean)
+  commentId: M:BindOpen.System.Scripting.BdoScriptParsingHelper.GetParameterValue(System.String,System.String,System.Boolean)
+  id: GetParameterValue(System.String,System.String,System.Boolean)
+  isExtensionMethod: true
+  parent: BindOpen.System.Scripting.BdoScriptParsingHelper
+  langs:
+  - csharp
+  - vb
+  name: GetParameterValue(String, String, Boolean)
+  nameWithType: BdoScriptParsingHelper.GetParameterValue(String, String, Boolean)
+  fullName: BindOpen.System.Scripting.BdoScriptParsingHelper.GetParameterValue(System.String, System.String, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Scripting/BdoScriptParsingHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GetParameterValue
+    path: ../src/BindOpen.Core/System/Scripting/BdoScriptParsingHelper.cs
+    startLine: 73
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Scripting
+  summary: "\nReturns the parameter value included into the specified text.\n"
+  remarks: 'The inluding text must be formated this way: parameter1=&quot;value&quot;;parameter2=&quot;value&quot;.'
+  example: []
+  syntax:
+    content: public static string GetParameterValue(this string stringValue, string parameterName, bool isMatchCase = false)
+    parameters:
+    - id: stringValue
+      type: System.String
+      description: The string to parse.
+    - id: parameterName
+      type: System.String
+      description: Name of the parameter to consider.
+    - id: isMatchCase
+      type: System.Boolean
+      description: Indicates whether the search is case sensitive.
+    return:
+      type: System.String
+      description: The value of the specified parameter.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetParameterValue(stringValue As String, parameterName As String, isMatchCase As Boolean = False) As String
+  overload: BindOpen.System.Scripting.BdoScriptParsingHelper.GetParameterValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.System.Scripting.BdoScriptParsingHelper.GetIndexOfNextString(System.String,System.String,System.Int32)
+  commentId: M:BindOpen.System.Scripting.BdoScriptParsingHelper.GetIndexOfNextString(System.String,System.String,System.Int32)
+  id: GetIndexOfNextString(System.String,System.String,System.Int32)
+  parent: BindOpen.System.Scripting.BdoScriptParsingHelper
+  langs:
+  - csharp
+  - vb
+  name: GetIndexOfNextString(String, String, Int32)
+  nameWithType: BdoScriptParsingHelper.GetIndexOfNextString(String, String, Int32)
+  fullName: BindOpen.System.Scripting.BdoScriptParsingHelper.GetIndexOfNextString(System.String, System.String, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Scripting/BdoScriptParsingHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GetIndexOfNextString
+    path: ../src/BindOpen.Core/System/Scripting/BdoScriptParsingHelper.cs
+    startLine: 106
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Scripting
+  summary: "\nReturns the position of stv in st from index taking in account the closing ponctuation (,{,[. \n"
+  example: []
+  syntax:
+    content: public static int GetIndexOfNextString(string st, string stv, int indexDeb)
+    parameters:
+    - id: st
+      type: System.String
+      description: The string to parse.
+    - id: stv
+      type: System.String
+      description: The string to look for.
+    - id: indexDeb
+      type: System.Int32
+      description: The start index.
+    return:
+      type: System.Int32
+      description: The position of the next stv into st from index position.
+    content.vb: Public Shared Function GetIndexOfNextString(st As String, stv As String, indexDeb As Integer) As Integer
+  overload: BindOpen.System.Scripting.BdoScriptParsingHelper.GetIndexOfNextString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.System.Scripting.BdoScriptParsingHelper.GetIndexOfLastString(System.String,System.String,System.Int32)
+  commentId: M:BindOpen.System.Scripting.BdoScriptParsingHelper.GetIndexOfLastString(System.String,System.String,System.Int32)
+  id: GetIndexOfLastString(System.String,System.String,System.Int32)
+  parent: BindOpen.System.Scripting.BdoScriptParsingHelper
+  langs:
+  - csharp
+  - vb
+  name: GetIndexOfLastString(String, String, Int32)
+  nameWithType: BdoScriptParsingHelper.GetIndexOfLastString(String, String, Int32)
+  fullName: BindOpen.System.Scripting.BdoScriptParsingHelper.GetIndexOfLastString(System.String, System.String, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Scripting/BdoScriptParsingHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GetIndexOfLastString
+    path: ../src/BindOpen.Core/System/Scripting/BdoScriptParsingHelper.cs
+    startLine: 133
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Scripting
+  summary: "\nReturns the last position of stv in st from index taking in account the closing ponctuation (,{,[. \n"
+  example: []
+  syntax:
+    content: public static int GetIndexOfLastString(string st, string stv, int indexDeb)
+    parameters:
+    - id: st
+      type: System.String
+      description: The string to parse.
+    - id: stv
+      type: System.String
+      description: The string to look for.
+    - id: indexDeb
+      type: System.Int32
+      description: The start index.
+    return:
+      type: System.Int32
+      description: The position of the next stv into st from index position.
+    content.vb: Public Shared Function GetIndexOfLastString(st As String, stv As String, indexDeb As Integer) As Integer
+  overload: BindOpen.System.Scripting.BdoScriptParsingHelper.GetIndexOfLastString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.System.Scripting.BdoScriptParsingHelper.FindScriptItems(System.String)
+  commentId: M:BindOpen.System.Scripting.BdoScriptParsingHelper.FindScriptItems(System.String)
+  id: FindScriptItems(System.String)
+  parent: BindOpen.System.Scripting.BdoScriptParsingHelper
+  langs:
+  - csharp
+  - vb
+  name: FindScriptItems(String)
+  nameWithType: BdoScriptParsingHelper.FindScriptItems(String)
+  fullName: BindOpen.System.Scripting.BdoScriptParsingHelper.FindScriptItems(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Scripting/BdoScriptParsingHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: FindScriptItems
+    path: ../src/BindOpen.Core/System/Scripting/BdoScriptParsingHelper.cs
+    startLine: 166
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Scripting
+  summary: "\nReturns the items that are in the specified script.\n"
+  example: []
+  syntax:
+    content: public static List<ScriptItem> FindScriptItems(string script)
+    parameters:
+    - id: script
+      type: System.String
+      description: The script to analyse.
+    return:
+      type: System.Collections.Generic.List{BindOpen.System.Scripting.ScriptItem}
+      description: The items that are in the specified script.
+    content.vb: Public Shared Function FindScriptItems(script As String) As List(Of ScriptItem)
+  overload: BindOpen.System.Scripting.BdoScriptParsingHelper.FindScriptItems*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.System.Scripting.BdoScriptParsingHelper.GetScriptBlock(System.String,System.Int32)
+  commentId: M:BindOpen.System.Scripting.BdoScriptParsingHelper.GetScriptBlock(System.String,System.Int32)
+  id: GetScriptBlock(System.String,System.Int32)
+  parent: BindOpen.System.Scripting.BdoScriptParsingHelper
+  langs:
+  - csharp
+  - vb
+  name: GetScriptBlock(String, Int32)
+  nameWithType: BdoScriptParsingHelper.GetScriptBlock(String, Int32)
+  fullName: BindOpen.System.Scripting.BdoScriptParsingHelper.GetScriptBlock(System.String, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Scripting/BdoScriptParsingHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GetScriptBlock
+    path: ../src/BindOpen.Core/System/Scripting/BdoScriptParsingHelper.cs
+    startLine: 485
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Scripting
+  summary: "\nReturns the first script block in the specified script from the specified index.\n"
+  example: []
+  syntax:
+    content: public static string GetScriptBlock(string script, int index = 0)
+    parameters:
+    - id: script
+      type: System.String
+      description: The script to analyse.
+    - id: index
+      type: System.Int32
+      description: The index position to begin analyse.
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function GetScriptBlock(script As String, index As Integer = 0) As String
+  overload: BindOpen.System.Scripting.BdoScriptParsingHelper.GetScriptBlock*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.System.Scripting.BdoScriptParsingHelper.GetWordDefinitions(BindOpen.System.Scripting.IBdoScriptInterpreter,System.String,System.Int32,System.Boolean,BindOpen.System.Scripting.IBdoScriptVariableSet)
+  commentId: M:BindOpen.System.Scripting.BdoScriptParsingHelper.GetWordDefinitions(BindOpen.System.Scripting.IBdoScriptInterpreter,System.String,System.Int32,System.Boolean,BindOpen.System.Scripting.IBdoScriptVariableSet)
+  id: GetWordDefinitions(BindOpen.System.Scripting.IBdoScriptInterpreter,System.String,System.Int32,System.Boolean,BindOpen.System.Scripting.IBdoScriptVariableSet)
+  parent: BindOpen.System.Scripting.BdoScriptParsingHelper
+  langs:
+  - csharp
+  - vb
+  name: GetWordDefinitions(IBdoScriptInterpreter, String, Int32, Boolean, IBdoScriptVariableSet)
+  nameWithType: BdoScriptParsingHelper.GetWordDefinitions(IBdoScriptInterpreter, String, Int32, Boolean, IBdoScriptVariableSet)
+  fullName: BindOpen.System.Scripting.BdoScriptParsingHelper.GetWordDefinitions(BindOpen.System.Scripting.IBdoScriptInterpreter, System.String, System.Int32, System.Boolean, BindOpen.System.Scripting.IBdoScriptVariableSet)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Scripting/BdoScriptParsingHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GetWordDefinitions
+    path: ../src/BindOpen.Core/System/Scripting/BdoScriptParsingHelper.cs
+    startLine: 533
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Scripting
+  summary: "\nGets the possible definitions corresponding to the specified script.\n"
+  example: []
+  syntax:
+    content: public static Dictionary<string, IBdoScriptwordDefinition> GetWordDefinitions(IBdoScriptInterpreter scriptInterpreter, string script, int index, bool isSuggest, IBdoScriptVariableSet scriptVariableSet = null)
+    parameters:
+    - id: scriptInterpreter
+      type: BindOpen.System.Scripting.IBdoScriptInterpreter
+      description: The script interpreter to consider.
+    - id: script
+      type: System.String
+      description: The script to analyse.
+    - id: index
+      type: System.Int32
+      description: The index position of the parent script word.
+    - id: isSuggest
+      type: System.Boolean
+      description: >-
+        False if all the child script words of the parent must be returned.
+
+        <param name="scriptVariableSet">The script variable set to use.</param>
+
+        True if only the child script words similar to the child script word present in the script
+
+        must be returned.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,BindOpen.Extensions.Definition.IBdoScriptwordDefinition}
+      description: Returns the possible child script word definitions.
+    content.vb: Public Shared Function GetWordDefinitions(scriptInterpreter As IBdoScriptInterpreter, script As String, index As Integer, isSuggest As Boolean, scriptVariableSet As IBdoScriptVariableSet = Nothing) As Dictionary(Of String, IBdoScriptwordDefinition)
+  overload: BindOpen.System.Scripting.BdoScriptParsingHelper.GetWordDefinitions*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: BindOpen.System.Scripting
+  commentId: N:BindOpen.System.Scripting
+  name: BindOpen.System.Scripting
+  nameWithType: BindOpen.System.Scripting
+  fullName: BindOpen.System.Scripting
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: BindOpen.System.Scripting.BdoScriptParsingHelper.GetValueFromText*
+  commentId: Overload:BindOpen.System.Scripting.BdoScriptParsingHelper.GetValueFromText
+  name: GetValueFromText
+  nameWithType: BdoScriptParsingHelper.GetValueFromText
+  fullName: BindOpen.System.Scripting.BdoScriptParsingHelper.GetValueFromText
+- uid: BindOpen.System.Scripting.BdoScriptParsingHelper.GetParameterValue*
+  commentId: Overload:BindOpen.System.Scripting.BdoScriptParsingHelper.GetParameterValue
+  name: GetParameterValue
+  nameWithType: BdoScriptParsingHelper.GetParameterValue
+  fullName: BindOpen.System.Scripting.BdoScriptParsingHelper.GetParameterValue
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: BindOpen.System.Scripting.BdoScriptParsingHelper.GetIndexOfNextString*
+  commentId: Overload:BindOpen.System.Scripting.BdoScriptParsingHelper.GetIndexOfNextString
+  name: GetIndexOfNextString
+  nameWithType: BdoScriptParsingHelper.GetIndexOfNextString
+  fullName: BindOpen.System.Scripting.BdoScriptParsingHelper.GetIndexOfNextString
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: BindOpen.System.Scripting.BdoScriptParsingHelper.GetIndexOfLastString*
+  commentId: Overload:BindOpen.System.Scripting.BdoScriptParsingHelper.GetIndexOfLastString
+  name: GetIndexOfLastString
+  nameWithType: BdoScriptParsingHelper.GetIndexOfLastString
+  fullName: BindOpen.System.Scripting.BdoScriptParsingHelper.GetIndexOfLastString
+- uid: BindOpen.System.Scripting.BdoScriptParsingHelper.FindScriptItems*
+  commentId: Overload:BindOpen.System.Scripting.BdoScriptParsingHelper.FindScriptItems
+  name: FindScriptItems
+  nameWithType: BdoScriptParsingHelper.FindScriptItems
+  fullName: BindOpen.System.Scripting.BdoScriptParsingHelper.FindScriptItems
+- uid: System.Collections.Generic.List{BindOpen.System.Scripting.ScriptItem}
+  commentId: T:System.Collections.Generic.List{BindOpen.System.Scripting.ScriptItem}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<ScriptItem>
+  nameWithType: List<ScriptItem>
+  fullName: System.Collections.Generic.List<BindOpen.System.Scripting.ScriptItem>
+  nameWithType.vb: List(Of ScriptItem)
+  fullName.vb: System.Collections.Generic.List(Of BindOpen.System.Scripting.ScriptItem)
+  name.vb: List(Of ScriptItem)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BindOpen.System.Scripting.ScriptItem
+    name: ScriptItem
+    nameWithType: ScriptItem
+    fullName: BindOpen.System.Scripting.ScriptItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BindOpen.System.Scripting.ScriptItem
+    name: ScriptItem
+    nameWithType: ScriptItem
+    fullName: BindOpen.System.Scripting.ScriptItem
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: BindOpen.System.Scripting.BdoScriptParsingHelper.GetScriptBlock*
+  commentId: Overload:BindOpen.System.Scripting.BdoScriptParsingHelper.GetScriptBlock
+  name: GetScriptBlock
+  nameWithType: BdoScriptParsingHelper.GetScriptBlock
+  fullName: BindOpen.System.Scripting.BdoScriptParsingHelper.GetScriptBlock
+- uid: BindOpen.System.Scripting.BdoScriptParsingHelper.GetWordDefinitions*
+  commentId: Overload:BindOpen.System.Scripting.BdoScriptParsingHelper.GetWordDefinitions
+  name: GetWordDefinitions
+  nameWithType: BdoScriptParsingHelper.GetWordDefinitions
+  fullName: BindOpen.System.Scripting.BdoScriptParsingHelper.GetWordDefinitions
+- uid: BindOpen.System.Scripting.IBdoScriptInterpreter
+  commentId: T:BindOpen.System.Scripting.IBdoScriptInterpreter
+  parent: BindOpen.System.Scripting
+  name: IBdoScriptInterpreter
+  nameWithType: IBdoScriptInterpreter
+  fullName: BindOpen.System.Scripting.IBdoScriptInterpreter
+- uid: BindOpen.System.Scripting.IBdoScriptVariableSet
+  commentId: T:BindOpen.System.Scripting.IBdoScriptVariableSet
+  parent: BindOpen.System.Scripting
+  name: IBdoScriptVariableSet
+  nameWithType: IBdoScriptVariableSet
+  fullName: BindOpen.System.Scripting.IBdoScriptVariableSet
+- uid: System.Collections.Generic.Dictionary{System.String,BindOpen.Extensions.Definition.IBdoScriptwordDefinition}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,BindOpen.Extensions.Definition.IBdoScriptwordDefinition}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<String, IBdoScriptwordDefinition>
+  nameWithType: Dictionary<String, IBdoScriptwordDefinition>
+  fullName: System.Collections.Generic.Dictionary<System.String, BindOpen.Extensions.Definition.IBdoScriptwordDefinition>
+  nameWithType.vb: Dictionary(Of String, IBdoScriptwordDefinition)
+  fullName.vb: System.Collections.Generic.Dictionary(Of System.String, BindOpen.Extensions.Definition.IBdoScriptwordDefinition)
+  name.vb: Dictionary(Of String, IBdoScriptwordDefinition)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Extensions.Definition.IBdoScriptwordDefinition
+    name: IBdoScriptwordDefinition
+    nameWithType: IBdoScriptwordDefinition
+    fullName: BindOpen.Extensions.Definition.IBdoScriptwordDefinition
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Extensions.Definition.IBdoScriptwordDefinition
+    name: IBdoScriptwordDefinition
+    nameWithType: IBdoScriptwordDefinition
+    fullName: BindOpen.Extensions.Definition.IBdoScriptwordDefinition
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+shouldSkipMarkup: true

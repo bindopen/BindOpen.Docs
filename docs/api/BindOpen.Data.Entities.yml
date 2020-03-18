@@ -1,0 +1,29 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Data.Entities
+  commentId: N:BindOpen.Data.Entities
+  id: BindOpen.Data.Entities
+  children:
+  - BindOpen.Data.Entities.DataEntity
+  langs:
+  - csharp
+  - vb
+  name: BindOpen.Data.Entities
+  nameWithType: BindOpen.Data.Entities
+  fullName: BindOpen.Data.Entities
+  type: Namespace
+  assemblies:
+  - BindOpen.Core
+references:
+- uid: BindOpen.Data.Entities.DataEntity
+  commentId: T:BindOpen.Data.Entities.DataEntity
+  parent: BindOpen.Data.Entities
+  name: DataEntity
+  nameWithType: DataEntity
+  fullName: BindOpen.Data.Entities.DataEntity
+- uid: BindOpen.Data.Entities
+  commentId: N:BindOpen.Data.Entities
+  name: BindOpen.Data.Entities
+  nameWithType: BindOpen.Data.Entities
+  fullName: BindOpen.Data.Entities
+shouldSkipMarkup: true

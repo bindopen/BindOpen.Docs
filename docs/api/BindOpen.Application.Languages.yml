@@ -1,0 +1,35 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Application.Languages
+  commentId: N:BindOpen.Application.Languages
+  id: BindOpen.Application.Languages
+  children:
+  - BindOpen.Application.Languages.ApplicationLanguage
+  - BindOpen.Application.Languages.IApplicationLanguage
+  langs:
+  - csharp
+  - vb
+  name: BindOpen.Application.Languages
+  nameWithType: BindOpen.Application.Languages
+  fullName: BindOpen.Application.Languages
+  type: Namespace
+  assemblies:
+  - BindOpen.Runtime
+references:
+- uid: BindOpen.Application.Languages.ApplicationLanguage
+  commentId: T:BindOpen.Application.Languages.ApplicationLanguage
+  name: ApplicationLanguage
+  nameWithType: ApplicationLanguage
+  fullName: BindOpen.Application.Languages.ApplicationLanguage
+- uid: BindOpen.Application.Languages.IApplicationLanguage
+  commentId: T:BindOpen.Application.Languages.IApplicationLanguage
+  parent: BindOpen.Application.Languages
+  name: IApplicationLanguage
+  nameWithType: IApplicationLanguage
+  fullName: BindOpen.Application.Languages.IApplicationLanguage
+- uid: BindOpen.Application.Languages
+  commentId: N:BindOpen.Application.Languages
+  name: BindOpen.Application.Languages
+  nameWithType: BindOpen.Application.Languages
+  fullName: BindOpen.Application.Languages
+shouldSkipMarkup: true

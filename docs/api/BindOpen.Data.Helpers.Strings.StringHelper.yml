@@ -1,0 +1,3206 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Data.Helpers.Strings.StringHelper
+  commentId: T:BindOpen.Data.Helpers.Strings.StringHelper
+  id: StringHelper
+  parent: BindOpen.Data.Helpers.Strings
+  children:
+  - BindOpen.Data.Helpers.Strings.StringHelper.__DateFormat
+  - BindOpen.Data.Helpers.Strings.StringHelper.__NoneString
+  - BindOpen.Data.Helpers.Strings.StringHelper.__PatternEmptyValue
+  - BindOpen.Data.Helpers.Strings.StringHelper.__TimeFormat
+  - BindOpen.Data.Helpers.Strings.StringHelper.__UniqueToken
+  - BindOpen.Data.Helpers.Strings.StringHelper.Adding(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String})
+  - BindOpen.Data.Helpers.Strings.StringHelper.Adding(System.Collections.Generic.IEnumerable{System.String},System.String[])
+  - BindOpen.Data.Helpers.Strings.StringHelper.CheckNameFormat(System.String,System.Int32)
+  - BindOpen.Data.Helpers.Strings.StringHelper.Concatenate(System.String,System.String,System.String)
+  - BindOpen.Data.Helpers.Strings.StringHelper.ConcatenateIf(System.String,System.Boolean,System.String)
+  - BindOpen.Data.Helpers.Strings.StringHelper.ConcatenateIfFirstNotEmpty(System.String,System.String)
+  - BindOpen.Data.Helpers.Strings.StringHelper.ConcatenateIfSecondNotEmpty(System.String,System.String)
+  - BindOpen.Data.Helpers.Strings.StringHelper.CountOccurences(System.String,System.Char)
+  - BindOpen.Data.Helpers.Strings.StringHelper.CountOccurences(System.String,System.String)
+  - BindOpen.Data.Helpers.Strings.StringHelper.Excluding(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String})
+  - BindOpen.Data.Helpers.Strings.StringHelper.Excluding(System.Collections.Generic.IEnumerable{System.String},System.String[])
+  - BindOpen.Data.Helpers.Strings.StringHelper.GeneratePassword(System.Int32)
+  - BindOpen.Data.Helpers.Strings.StringHelper.GetConcatenatedPath(System.String,System.String)
+  - BindOpen.Data.Helpers.Strings.StringHelper.GetCurrentTimeStamp
+  - BindOpen.Data.Helpers.Strings.StringHelper.GetEndedString(System.String,System.String)
+  - BindOpen.Data.Helpers.Strings.StringHelper.GetFormatString(System.String,System.Int32,System.String,System.String)
+  - BindOpen.Data.Helpers.Strings.StringHelper.GetIndexOfLastString(System.String,System.String,System.Int32)
+  - BindOpen.Data.Helpers.Strings.StringHelper.GetIndexOfLastString(System.String,System.String,System.Int32@)
+  - BindOpen.Data.Helpers.Strings.StringHelper.GetIndexOfNextString(System.String,System.String,System.Int32,System.StringComparison)
+  - BindOpen.Data.Helpers.Strings.StringHelper.GetIndexOfNextString(System.String,System.String,System.Int32@)
+  - BindOpen.Data.Helpers.Strings.StringHelper.GetKeyValues(System.String)
+  - BindOpen.Data.Helpers.Strings.StringHelper.GetMinimumIndex(System.Int32[])
+  - BindOpen.Data.Helpers.Strings.StringHelper.GetNormalizedName(System.String)
+  - BindOpen.Data.Helpers.Strings.StringHelper.GetQuotedString(System.String)
+  - BindOpen.Data.Helpers.Strings.StringHelper.GetRandomString(System.String,System.String[])
+  - BindOpen.Data.Helpers.Strings.StringHelper.GetShortString(System.String,System.Int32,System.String)
+  - BindOpen.Data.Helpers.Strings.StringHelper.GetStartedString(System.String,System.String,System.String)
+  - BindOpen.Data.Helpers.Strings.StringHelper.GetString(System.DateTime)
+  - BindOpen.Data.Helpers.Strings.StringHelper.GetString(System.Nullable{System.DateTime})
+  - BindOpen.Data.Helpers.Strings.StringHelper.GetStringAtIndex(System.Collections.Generic.List{System.String},System.Int32)
+  - BindOpen.Data.Helpers.Strings.StringHelper.GetStringBetween(System.String,System.Char)
+  - BindOpen.Data.Helpers.Strings.StringHelper.GetSubstring(System.String,System.Int32,System.Int32)
+  - BindOpen.Data.Helpers.Strings.StringHelper.GetTitleCasedName(System.String)
+  - BindOpen.Data.Helpers.Strings.StringHelper.GetUnquotedString(System.String,System.Char)
+  - BindOpen.Data.Helpers.Strings.StringHelper.GuessObjectValueFromString(System.String)
+  - BindOpen.Data.Helpers.Strings.StringHelper.HashString(System.String,System.String)
+  - BindOpen.Data.Helpers.Strings.StringHelper.If(System.String,System.Boolean,System.String)
+  - BindOpen.Data.Helpers.Strings.StringHelper.Replace(System.String,System.String,System.String,System.Boolean,System.Boolean)
+  - BindOpen.Data.Helpers.Strings.StringHelper.ToDateTime(System.String,System.String)
+  - BindOpen.Data.Helpers.Strings.StringHelper.ToEnum``1(System.String,``0)
+  - BindOpen.Data.Helpers.Strings.StringHelper.ToObject(System.String,BindOpen.Data.Common.DataValueType,System.String)
+  - BindOpen.Data.Helpers.Strings.StringHelper.ToPath(System.String)
+  langs:
+  - csharp
+  - vb
+  name: StringHelper
+  nameWithType: StringHelper
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper
+  type: Class
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: StringHelper
+    path: ../src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+    startLine: 18
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Strings
+  summary: "\nThis structure represents a string helper.\n"
+  example: []
+  syntax:
+    content: public static class StringHelper
+    content.vb: Public Module StringHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.__UniqueToken
+  commentId: F:BindOpen.Data.Helpers.Strings.StringHelper.__UniqueToken
+  id: __UniqueToken
+  parent: BindOpen.Data.Helpers.Strings.StringHelper
+  langs:
+  - csharp
+  - vb
+  name: __UniqueToken
+  nameWithType: StringHelper.__UniqueToken
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.__UniqueToken
+  type: Field
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: __UniqueToken
+    path: ../src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+    startLine: 29
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Strings
+  summary: "\nThe unique token.\n"
+  example: []
+  syntax:
+    content: public static string __UniqueToken
+    return:
+      type: System.String
+    content.vb: Public Shared __UniqueToken As String
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.__PatternEmptyValue
+  commentId: F:BindOpen.Data.Helpers.Strings.StringHelper.__PatternEmptyValue
+  id: __PatternEmptyValue
+  parent: BindOpen.Data.Helpers.Strings.StringHelper
+  langs:
+  - csharp
+  - vb
+  name: __PatternEmptyValue
+  nameWithType: StringHelper.__PatternEmptyValue
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.__PatternEmptyValue
+  type: Field
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: __PatternEmptyValue
+    path: ../src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+    startLine: 34
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Strings
+  summary: "\nThe pattern empty value.\n"
+  example: []
+  syntax:
+    content: public static string __PatternEmptyValue
+    return:
+      type: System.String
+    content.vb: Public Shared __PatternEmptyValue As String
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.__NoneString
+  commentId: F:BindOpen.Data.Helpers.Strings.StringHelper.__NoneString
+  id: __NoneString
+  parent: BindOpen.Data.Helpers.Strings.StringHelper
+  langs:
+  - csharp
+  - vb
+  name: __NoneString
+  nameWithType: StringHelper.__NoneString
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.__NoneString
+  type: Field
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: __NoneString
+    path: ../src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+    startLine: 39
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Strings
+  summary: "\nThe string that is returned when the instance is not found.\n"
+  example: []
+  syntax:
+    content: public static string __NoneString
+    return:
+      type: System.String
+    content.vb: Public Shared __NoneString As String
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.__DateFormat
+  commentId: F:BindOpen.Data.Helpers.Strings.StringHelper.__DateFormat
+  id: __DateFormat
+  parent: BindOpen.Data.Helpers.Strings.StringHelper
+  langs:
+  - csharp
+  - vb
+  name: __DateFormat
+  nameWithType: StringHelper.__DateFormat
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.__DateFormat
+  type: Field
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: __DateFormat
+    path: ../src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+    startLine: 44
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Strings
+  summary: "\nThe string that is returned when the instance is not found.\n"
+  example: []
+  syntax:
+    content: public static string __DateFormat
+    return:
+      type: System.String
+    content.vb: Public Shared __DateFormat As String
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.__TimeFormat
+  commentId: F:BindOpen.Data.Helpers.Strings.StringHelper.__TimeFormat
+  id: __TimeFormat
+  parent: BindOpen.Data.Helpers.Strings.StringHelper
+  langs:
+  - csharp
+  - vb
+  name: __TimeFormat
+  nameWithType: StringHelper.__TimeFormat
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.__TimeFormat
+  type: Field
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: __TimeFormat
+    path: ../src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+    startLine: 49
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Strings
+  summary: "\nThe string that is returned when the instance is not found.\n"
+  example: []
+  syntax:
+    content: public static string __TimeFormat
+    return:
+      type: System.String
+    content.vb: Public Shared __TimeFormat As String
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.Replace(System.String,System.String,System.String,System.Boolean,System.Boolean)
+  commentId: M:BindOpen.Data.Helpers.Strings.StringHelper.Replace(System.String,System.String,System.String,System.Boolean,System.Boolean)
+  id: Replace(System.String,System.String,System.String,System.Boolean,System.Boolean)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Helpers.Strings.StringHelper
+  langs:
+  - csharp
+  - vb
+  name: Replace(String, String, String, Boolean, Boolean)
+  nameWithType: StringHelper.Replace(String, String, String, Boolean, Boolean)
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.Replace(System.String, System.String, System.String, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Replace
+    path: ../src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+    startLine: 68
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Strings
+  summary: "\nReplaces the specified text by the specified one in the specified text.\n"
+  example: []
+  syntax:
+    content: public static string Replace(this string text, string textToFind, string textToReplace, bool isCaseMatched, bool isReplacedOnce = false)
+    parameters:
+    - id: text
+      type: System.String
+      description: The text to consider.
+    - id: textToFind
+      type: System.String
+      description: The text to find.
+    - id: textToReplace
+      type: System.String
+      description: The text to replace.
+    - id: isCaseMatched
+      type: System.Boolean
+      description: Indicates whether the case must be considered.
+    - id: isReplacedOnce
+      type: System.Boolean
+      description: Indicates whether the text to find is to be replaced once.
+    return:
+      type: System.String
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Replace(text As String, textToFind As String, textToReplace As String, isCaseMatched As Boolean, isReplacedOnce As Boolean = False) As String
+  overload: BindOpen.Data.Helpers.Strings.StringHelper.Replace*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.GeneratePassword(System.Int32)
+  commentId: M:BindOpen.Data.Helpers.Strings.StringHelper.GeneratePassword(System.Int32)
+  id: GeneratePassword(System.Int32)
+  parent: BindOpen.Data.Helpers.Strings.StringHelper
+  langs:
+  - csharp
+  - vb
+  name: GeneratePassword(Int32)
+  nameWithType: StringHelper.GeneratePassword(Int32)
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.GeneratePassword(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GeneratePassword
+    path: ../src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+    startLine: 89
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Strings
+  summary: "\nGenerates a password.\n"
+  example: []
+  syntax:
+    content: public static string GeneratePassword(int charNumber)
+    parameters:
+    - id: charNumber
+      type: System.Int32
+      description: The character number to consider.
+    return:
+      type: System.String
+      description: Returns the generated password.
+    content.vb: Public Shared Function GeneratePassword(charNumber As Integer) As String
+  overload: BindOpen.Data.Helpers.Strings.StringHelper.GeneratePassword*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.CountOccurences(System.String,System.Char)
+  commentId: M:BindOpen.Data.Helpers.Strings.StringHelper.CountOccurences(System.String,System.Char)
+  id: CountOccurences(System.String,System.Char)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Helpers.Strings.StringHelper
+  langs:
+  - csharp
+  - vb
+  name: CountOccurences(String, Char)
+  nameWithType: StringHelper.CountOccurences(String, Char)
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.CountOccurences(System.String, System.Char)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: CountOccurences
+    path: ../src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+    startLine: 102
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Strings
+  summary: "\nGets the number of occurences of a specfied character in the specified string.\n"
+  example: []
+  syntax:
+    content: public static int CountOccurences(this string st, char character)
+    parameters:
+    - id: st
+      type: System.String
+      description: The string to consider.
+    - id: character
+      type: System.Char
+      description: The character to consider.
+    return:
+      type: System.Int32
+      description: The number of occurences of a specfied character in the specified string.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CountOccurences(st As String, character As Char) As Integer
+  overload: BindOpen.Data.Helpers.Strings.StringHelper.CountOccurences*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.CountOccurences(System.String,System.String)
+  commentId: M:BindOpen.Data.Helpers.Strings.StringHelper.CountOccurences(System.String,System.String)
+  id: CountOccurences(System.String,System.String)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Helpers.Strings.StringHelper
+  langs:
+  - csharp
+  - vb
+  name: CountOccurences(String, String)
+  nameWithType: StringHelper.CountOccurences(String, String)
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.CountOccurences(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: CountOccurences
+    path: ../src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+    startLine: 126
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Strings
+  summary: "\nGets the number of occurences of a specfied character in the specified string.\n"
+  example: []
+  syntax:
+    content: public static int CountOccurences(this string st, string subString)
+    parameters:
+    - id: st
+      type: System.String
+      description: The string to consider.
+    - id: subString
+      type: System.String
+      description: The sub string to consider.
+    return:
+      type: System.Int32
+      description: The number of occurences of a specfied character in the specified string.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CountOccurences(st As String, subString As String) As Integer
+  overload: BindOpen.Data.Helpers.Strings.StringHelper.CountOccurences*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.CheckNameFormat(System.String,System.Int32)
+  commentId: M:BindOpen.Data.Helpers.Strings.StringHelper.CheckNameFormat(System.String,System.Int32)
+  id: CheckNameFormat(System.String,System.Int32)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Helpers.Strings.StringHelper
+  langs:
+  - csharp
+  - vb
+  name: CheckNameFormat(String, Int32)
+  nameWithType: StringHelper.CheckNameFormat(String, Int32)
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.CheckNameFormat(System.String, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: CheckNameFormat
+    path: ../src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+    startLine: 144
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Strings
+  summary: "\nReturns the string value of the specified settings.\n"
+  example: []
+  syntax:
+    content: public static bool CheckNameFormat(this string stringValue, int limitSize)
+    parameters:
+    - id: stringValue
+      type: System.String
+      description: string value to consider.
+    - id: limitSize
+      type: System.Int32
+      description: Limit string size to consider.
+    return:
+      type: System.Boolean
+      description: The string value of the specified settings.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CheckNameFormat(stringValue As String, limitSize As Integer) As Boolean
+  overload: BindOpen.Data.Helpers.Strings.StringHelper.CheckNameFormat*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.GetShortString(System.String,System.Int32,System.String)
+  commentId: M:BindOpen.Data.Helpers.Strings.StringHelper.GetShortString(System.String,System.Int32,System.String)
+  id: GetShortString(System.String,System.Int32,System.String)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Helpers.Strings.StringHelper
+  langs:
+  - csharp
+  - vb
+  name: GetShortString(String, Int32, String)
+  nameWithType: StringHelper.GetShortString(String, Int32, String)
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.GetShortString(System.String, System.Int32, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GetShortString
+    path: ../src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+    startLine: 169
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Strings
+  summary: "\nGets the string shorten to the specified characters.\n"
+  example: []
+  syntax:
+    content: public static string GetShortString(this string st, int charNumber, string addedString = "...")
+    parameters:
+    - id: st
+      type: System.String
+      description: The string to consider.
+    - id: charNumber
+      type: System.Int32
+      description: The number of characters to consider.
+    - id: addedString
+      type: System.String
+      description: Indicates whether dots are added.
+    return:
+      type: System.String
+      description: Returns the specified string shorten.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetShortString(st As String, charNumber As Integer, addedString As String = "...") As String
+  overload: BindOpen.Data.Helpers.Strings.StringHelper.GetShortString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.GetStringBetween(System.String,System.Char)
+  commentId: M:BindOpen.Data.Helpers.Strings.StringHelper.GetStringBetween(System.String,System.Char)
+  id: GetStringBetween(System.String,System.Char)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Helpers.Strings.StringHelper
+  langs:
+  - csharp
+  - vb
+  name: GetStringBetween(String, Char)
+  nameWithType: StringHelper.GetStringBetween(String, Char)
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.GetStringBetween(System.String, System.Char)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GetStringBetween
+    path: ../src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+    startLine: 183
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Strings
+  summary: "\nGets the sub string contained between the specified characters in the specified string.\n"
+  example: []
+  syntax:
+    content: public static string GetStringBetween(this string st, char character)
+    parameters:
+    - id: st
+      type: System.String
+      description: The string to consider.
+    - id: character
+      type: System.Char
+      description: The character to consider.
+    return:
+      type: System.String
+      description: Returns the sub string.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetStringBetween(st As String, character As Char) As String
+  overload: BindOpen.Data.Helpers.Strings.StringHelper.GetStringBetween*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.HashString(System.String,System.String)
+  commentId: M:BindOpen.Data.Helpers.Strings.StringHelper.HashString(System.String,System.String)
+  id: HashString(System.String,System.String)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Helpers.Strings.StringHelper
+  langs:
+  - csharp
+  - vb
+  name: HashString(String, String)
+  nameWithType: StringHelper.HashString(String, String)
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.HashString(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: HashString
+    path: ../src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+    startLine: 201
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Strings
+  summary: "\nHashes the string.\n"
+  example: []
+  syntax:
+    content: public static string HashString(this string st, string hashName)
+    parameters:
+    - id: st
+      type: System.String
+      description: The string to hash.
+    - id: hashName
+      type: System.String
+      description: The name of the algorithm to consider.
+    return:
+      type: System.String
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function HashString(st As String, hashName As String) As String
+  overload: BindOpen.Data.Helpers.Strings.StringHelper.HashString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.ToPath(System.String)
+  commentId: M:BindOpen.Data.Helpers.Strings.StringHelper.ToPath(System.String)
+  id: ToPath(System.String)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Helpers.Strings.StringHelper
+  langs:
+  - csharp
+  - vb
+  name: ToPath(String)
+  nameWithType: StringHelper.ToPath(String)
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.ToPath(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: ToPath
+    path: ../src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+    startLine: 217
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Strings
+  summary: "\nConverts the specified path according to the environment.\n"
+  example: []
+  syntax:
+    content: public static string ToPath(this string st)
+    parameters:
+    - id: st
+      type: System.String
+      description: The string to consider.
+    return:
+      type: System.String
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToPath(st As String) As String
+  overload: BindOpen.Data.Helpers.Strings.StringHelper.ToPath*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.GetConcatenatedPath(System.String,System.String)
+  commentId: M:BindOpen.Data.Helpers.Strings.StringHelper.GetConcatenatedPath(System.String,System.String)
+  id: GetConcatenatedPath(System.String,System.String)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Helpers.Strings.StringHelper
+  langs:
+  - csharp
+  - vb
+  name: GetConcatenatedPath(String, String)
+  nameWithType: StringHelper.GetConcatenatedPath(String, String)
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.GetConcatenatedPath(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GetConcatenatedPath
+    path: ../src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+    startLine: 228
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Strings
+  summary: "\nConverts the specified path according to the environment.\n"
+  example: []
+  syntax:
+    content: public static string GetConcatenatedPath(this string path, string rootPath)
+    parameters:
+    - id: path
+      type: System.String
+      description: The path to consider.
+    - id: rootPath
+      type: System.String
+      description: The root path to consider.
+    return:
+      type: System.String
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetConcatenatedPath(path As String, rootPath As String) As String
+  overload: BindOpen.Data.Helpers.Strings.StringHelper.GetConcatenatedPath*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.GetSubstring(System.String,System.Int32,System.Int32)
+  commentId: M:BindOpen.Data.Helpers.Strings.StringHelper.GetSubstring(System.String,System.Int32,System.Int32)
+  id: GetSubstring(System.String,System.Int32,System.Int32)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Helpers.Strings.StringHelper
+  langs:
+  - csharp
+  - vb
+  name: GetSubstring(String, Int32, Int32)
+  nameWithType: StringHelper.GetSubstring(String, Int32, Int32)
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.GetSubstring(System.String, System.Int32, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GetSubstring
+    path: ../src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+    startLine: 251
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Strings
+  summary: "\nGets the specified sub string.\n"
+  example: []
+  syntax:
+    content: public static string GetSubstring(this string st, int startIndex, int endIndex = -1)
+    parameters:
+    - id: st
+      type: System.String
+      description: The string to consider.
+    - id: startIndex
+      type: System.Int32
+      description: The start index to consider.
+    - id: endIndex
+      type: System.Int32
+      description: The end index to consider.
+    return:
+      type: System.String
+      description: The formated path.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetSubstring(st As String, startIndex As Integer, endIndex As Integer = -1) As String
+  overload: BindOpen.Data.Helpers.Strings.StringHelper.GetSubstring*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.GetMinimumIndex(System.Int32[])
+  commentId: M:BindOpen.Data.Helpers.Strings.StringHelper.GetMinimumIndex(System.Int32[])
+  id: GetMinimumIndex(System.Int32[])
+  parent: BindOpen.Data.Helpers.Strings.StringHelper
+  langs:
+  - csharp
+  - vb
+  name: GetMinimumIndex(Int32[])
+  nameWithType: StringHelper.GetMinimumIndex(Int32[])
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.GetMinimumIndex(System.Int32[])
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GetMinimumIndex
+    path: ../src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+    startLine: 267
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Strings
+  summary: "\nGets the minimum index from the specified ones.\n"
+  example: []
+  syntax:
+    content: public static int GetMinimumIndex(params int[] indexes)
+    parameters:
+    - id: indexes
+      type: System.Int32[]
+      description: The indexes to consider.
+    return:
+      type: System.Int32
+      description: Returns the minimum index.
+    content.vb: Public Shared Function GetMinimumIndex(ParamArray indexes As Integer()) As Integer
+  overload: BindOpen.Data.Helpers.Strings.StringHelper.GetMinimumIndex*
+  nameWithType.vb: StringHelper.GetMinimumIndex(Int32())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Helpers.Strings.StringHelper.GetMinimumIndex(System.Int32())
+  name.vb: GetMinimumIndex(Int32())
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.GetStartedString(System.String,System.String,System.String)
+  commentId: M:BindOpen.Data.Helpers.Strings.StringHelper.GetStartedString(System.String,System.String,System.String)
+  id: GetStartedString(System.String,System.String,System.String)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Helpers.Strings.StringHelper
+  langs:
+  - csharp
+  - vb
+  name: GetStartedString(String, String, String)
+  nameWithType: StringHelper.GetStartedString(String, String, String)
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.GetStartedString(System.String, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GetStartedString
+    path: ../src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+    startLine: 282
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Strings
+  summary: "\nGets the string with the specified starting string.\n"
+  example: []
+  syntax:
+    content: public static string GetStartedString(this string st, string startingString, string containingString = null)
+    parameters:
+    - id: st
+      type: System.String
+      description: The string to consider.
+    - id: startingString
+      type: System.String
+      description: The starting string to consider.
+    - id: containingString
+      type: System.String
+      description: The string con
+    return:
+      type: System.String
+      description: The formated path.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetStartedString(st As String, startingString As String, containingString As String = Nothing) As String
+  overload: BindOpen.Data.Helpers.Strings.StringHelper.GetStartedString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.GetEndedString(System.String,System.String)
+  commentId: M:BindOpen.Data.Helpers.Strings.StringHelper.GetEndedString(System.String,System.String)
+  id: GetEndedString(System.String,System.String)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Helpers.Strings.StringHelper
+  langs:
+  - csharp
+  - vb
+  name: GetEndedString(String, String)
+  nameWithType: StringHelper.GetEndedString(String, String)
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.GetEndedString(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GetEndedString
+    path: ../src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+    startLine: 296
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Strings
+  summary: "\nGets the string with the specified ending string.\n"
+  example: []
+  syntax:
+    content: public static string GetEndedString(this string st, string endingString)
+    parameters:
+    - id: st
+      type: System.String
+      description: The string to consider.
+    - id: endingString
+      type: System.String
+      description: The ending string to consider.
+    return:
+      type: System.String
+      description: The formated path.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetEndedString(st As String, endingString As String) As String
+  overload: BindOpen.Data.Helpers.Strings.StringHelper.GetEndedString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.GetFormatString(System.String,System.Int32,System.String,System.String)
+  commentId: M:BindOpen.Data.Helpers.Strings.StringHelper.GetFormatString(System.String,System.Int32,System.String,System.String)
+  id: GetFormatString(System.String,System.Int32,System.String,System.String)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Helpers.Strings.StringHelper
+  langs:
+  - csharp
+  - vb
+  name: GetFormatString(String, Int32, String, String)
+  nameWithType: StringHelper.GetFormatString(String, Int32, String, String)
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.GetFormatString(System.String, System.Int32, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GetFormatString
+    path: ../src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+    startLine: 310
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Strings
+  summary: "\nFormats the specified string replacing the specified index by the specified string.\n"
+  example:
+  - 'The string should be formated this way: {0} {1} or { .. {0} .. } { .. {1} .. } and so on.'
+  syntax:
+    content: public static string GetFormatString(this string st, int index, string replaceString, string wholeReplaceString = null)
+    parameters:
+    - id: st
+      type: System.String
+      description: The string to consider.
+    - id: index
+      type: System.Int32
+      description: The index to consider.
+    - id: replaceString
+      type: System.String
+      description: The replacement string to consider.
+    - id: wholeReplaceString
+      type: System.String
+      description: The whole replacement string to consider.
+    return:
+      type: System.String
+      description: The formated string.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetFormatString(st As String, index As Integer, replaceString As String, wholeReplaceString As String = Nothing) As String
+  overload: BindOpen.Data.Helpers.Strings.StringHelper.GetFormatString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.GetIndexOfLastString(System.String,System.String,System.Int32@)
+  commentId: M:BindOpen.Data.Helpers.Strings.StringHelper.GetIndexOfLastString(System.String,System.String,System.Int32@)
+  id: GetIndexOfLastString(System.String,System.String,System.Int32@)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Helpers.Strings.StringHelper
+  langs:
+  - csharp
+  - vb
+  name: GetIndexOfLastString(String, String, ref Int32)
+  nameWithType: StringHelper.GetIndexOfLastString(String, String, ref Int32)
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.GetIndexOfLastString(System.String, System.String, ref System.Int32)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GetIndexOfLastString
+    path: ../src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+    startLine: 347
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Strings
+  summary: "\nGets the index of the last sub string in the specified string.\n"
+  example: []
+  syntax:
+    content: public static void GetIndexOfLastString(this string st, string stv, ref int startIndex)
+    parameters:
+    - id: st
+      type: System.String
+      description: The string to consider.
+    - id: stv
+      type: System.String
+      description: The string to search.
+    - id: startIndex
+      type: System.Int32
+      description: The start index to consider.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub GetIndexOfLastString(st As String, stv As String, ByRef startIndex As Integer)
+  overload: BindOpen.Data.Helpers.Strings.StringHelper.GetIndexOfLastString*
+  nameWithType.vb: StringHelper.GetIndexOfLastString(String, String, ByRef Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Helpers.Strings.StringHelper.GetIndexOfLastString(System.String, System.String, ByRef System.Int32)
+  name.vb: GetIndexOfLastString(String, String, ByRef Int32)
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.GetIndexOfLastString(System.String,System.String,System.Int32)
+  commentId: M:BindOpen.Data.Helpers.Strings.StringHelper.GetIndexOfLastString(System.String,System.String,System.Int32)
+  id: GetIndexOfLastString(System.String,System.String,System.Int32)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Helpers.Strings.StringHelper
+  langs:
+  - csharp
+  - vb
+  name: GetIndexOfLastString(String, String, Int32)
+  nameWithType: StringHelper.GetIndexOfLastString(String, String, Int32)
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.GetIndexOfLastString(System.String, System.String, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GetIndexOfLastString
+    path: ../src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+    startLine: 359
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Strings
+  summary: "\nGets the index of the last sub string in the specified string.\n"
+  example: []
+  syntax:
+    content: public static int GetIndexOfLastString(this string st, string stv, int startIndex)
+    parameters:
+    - id: st
+      type: System.String
+      description: The string to consider.
+    - id: stv
+      type: System.String
+      description: The string to search.
+    - id: startIndex
+      type: System.Int32
+      description: The start index to consider.
+    return:
+      type: System.Int32
+      description: The formated string.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetIndexOfLastString(st As String, stv As String, startIndex As Integer) As Integer
+  overload: BindOpen.Data.Helpers.Strings.StringHelper.GetIndexOfLastString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.GetIndexOfNextString(System.String,System.String,System.Int32@)
+  commentId: M:BindOpen.Data.Helpers.Strings.StringHelper.GetIndexOfNextString(System.String,System.String,System.Int32@)
+  id: GetIndexOfNextString(System.String,System.String,System.Int32@)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Helpers.Strings.StringHelper
+  langs:
+  - csharp
+  - vb
+  name: GetIndexOfNextString(String, String, ref Int32)
+  nameWithType: StringHelper.GetIndexOfNextString(String, String, ref Int32)
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.GetIndexOfNextString(System.String, System.String, ref System.Int32)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GetIndexOfNextString
+    path: ../src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+    startLine: 386
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Strings
+  summary: "\nGets the index of the next sub string in the specified string.\n"
+  example: []
+  syntax:
+    content: public static void GetIndexOfNextString(this string st, string stv, ref int startIndex)
+    parameters:
+    - id: st
+      type: System.String
+      description: The string to consider.
+    - id: stv
+      type: System.String
+      description: The string to search.
+    - id: startIndex
+      type: System.Int32
+      description: The start index to consider.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub GetIndexOfNextString(st As String, stv As String, ByRef startIndex As Integer)
+  overload: BindOpen.Data.Helpers.Strings.StringHelper.GetIndexOfNextString*
+  nameWithType.vb: StringHelper.GetIndexOfNextString(String, String, ByRef Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Helpers.Strings.StringHelper.GetIndexOfNextString(System.String, System.String, ByRef System.Int32)
+  name.vb: GetIndexOfNextString(String, String, ByRef Int32)
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.GetIndexOfNextString(System.String,System.String,System.Int32,System.StringComparison)
+  commentId: M:BindOpen.Data.Helpers.Strings.StringHelper.GetIndexOfNextString(System.String,System.String,System.Int32,System.StringComparison)
+  id: GetIndexOfNextString(System.String,System.String,System.Int32,System.StringComparison)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Helpers.Strings.StringHelper
+  langs:
+  - csharp
+  - vb
+  name: GetIndexOfNextString(String, String, Int32, StringComparison)
+  nameWithType: StringHelper.GetIndexOfNextString(String, String, Int32, StringComparison)
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.GetIndexOfNextString(System.String, System.String, System.Int32, System.StringComparison)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GetIndexOfNextString
+    path: ../src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+    startLine: 399
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Strings
+  summary: "\nGets the index of the next sub string in the specified string.\n"
+  example: []
+  syntax:
+    content: public static int GetIndexOfNextString(this string st, string stv, int startIndex = 0, StringComparison stringComparison = StringComparison.OrdinalIgnoreCase)
+    parameters:
+    - id: st
+      type: System.String
+      description: The string to consider.
+    - id: stv
+      type: System.String
+      description: The string to search.
+    - id: startIndex
+      type: System.Int32
+      description: The start index to consider.
+    - id: stringComparison
+      type: System.StringComparison
+      description: The string comparison to consider.
+    return:
+      type: System.Int32
+      description: The formated string.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetIndexOfNextString(st As String, stv As String, startIndex As Integer = 0, stringComparison As StringComparison = StringComparison.OrdinalIgnoreCase) As Integer
+  overload: BindOpen.Data.Helpers.Strings.StringHelper.GetIndexOfNextString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.GetString(System.Nullable{System.DateTime})
+  commentId: M:BindOpen.Data.Helpers.Strings.StringHelper.GetString(System.Nullable{System.DateTime})
+  id: GetString(System.Nullable{System.DateTime})
+  isExtensionMethod: true
+  parent: BindOpen.Data.Helpers.Strings.StringHelper
+  langs:
+  - csharp
+  - vb
+  name: GetString(Nullable<DateTime>)
+  nameWithType: StringHelper.GetString(Nullable<DateTime>)
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.GetString(System.Nullable<System.DateTime>)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GetString
+    path: ../src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+    startLine: 433
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Strings
+  summary: "\nGets the date string of this instance.\n"
+  example: []
+  syntax:
+    content: public static string GetString(this DateTime? date)
+    parameters:
+    - id: date
+      type: System.Nullable{System.DateTime}
+      description: The date to consider.
+    return:
+      type: System.String
+      description: Returns the date string of this instance.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetString(date As Date?) As String
+  overload: BindOpen.Data.Helpers.Strings.StringHelper.GetString*
+  nameWithType.vb: StringHelper.GetString(Nullable(Of DateTime))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Helpers.Strings.StringHelper.GetString(System.Nullable(Of System.DateTime))
+  name.vb: GetString(Nullable(Of DateTime))
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.GetString(System.DateTime)
+  commentId: M:BindOpen.Data.Helpers.Strings.StringHelper.GetString(System.DateTime)
+  id: GetString(System.DateTime)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Helpers.Strings.StringHelper
+  langs:
+  - csharp
+  - vb
+  name: GetString(DateTime)
+  nameWithType: StringHelper.GetString(DateTime)
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.GetString(System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GetString
+    path: ../src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+    startLine: 443
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Strings
+  summary: "\nGets the date string of this instance.\n"
+  example: []
+  syntax:
+    content: public static string GetString(this DateTime date)
+    parameters:
+    - id: date
+      type: System.DateTime
+      description: The date to consider.
+    return:
+      type: System.String
+      description: Returns the date string of this instance.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetString(date As Date) As String
+  overload: BindOpen.Data.Helpers.Strings.StringHelper.GetString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.GetNormalizedName(System.String)
+  commentId: M:BindOpen.Data.Helpers.Strings.StringHelper.GetNormalizedName(System.String)
+  id: GetNormalizedName(System.String)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Helpers.Strings.StringHelper
+  langs:
+  - csharp
+  - vb
+  name: GetNormalizedName(String)
+  nameWithType: StringHelper.GetNormalizedName(String)
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.GetNormalizedName(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GetNormalizedName
+    path: ../src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+    startLine: 454
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Strings
+  summary: "\nGets the normalized string from the specified string.\n"
+  remarks: The normalized string is a string in which only the alphanumeric characters and _ are allowed.
+  example: []
+  syntax:
+    content: public static string GetNormalizedName(this string st)
+    parameters:
+    - id: st
+      type: System.String
+      description: The string to normalize.
+    return:
+      type: System.String
+      description: Returns the normalized string.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetNormalizedName(st As String) As String
+  overload: BindOpen.Data.Helpers.Strings.StringHelper.GetNormalizedName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.GetTitleCasedName(System.String)
+  commentId: M:BindOpen.Data.Helpers.Strings.StringHelper.GetTitleCasedName(System.String)
+  id: GetTitleCasedName(System.String)
+  parent: BindOpen.Data.Helpers.Strings.StringHelper
+  langs:
+  - csharp
+  - vb
+  name: GetTitleCasedName(String)
+  nameWithType: StringHelper.GetTitleCasedName(String)
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.GetTitleCasedName(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GetTitleCasedName
+    path: ../src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+    startLine: 465
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Strings
+  summary: "\nGets the titled string from the specified string.\n"
+  remarks: The normalized string is a string in which only the alphanumeric characters and _ are allowed.
+  example: []
+  syntax:
+    content: public static string GetTitleCasedName(string st)
+    parameters:
+    - id: st
+      type: System.String
+      description: The string to normalize.
+    return:
+      type: System.String
+      description: Returns the normalized string.
+    content.vb: Public Shared Function GetTitleCasedName(st As String) As String
+  overload: BindOpen.Data.Helpers.Strings.StringHelper.GetTitleCasedName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.GetStringAtIndex(System.Collections.Generic.List{System.String},System.Int32)
+  commentId: M:BindOpen.Data.Helpers.Strings.StringHelper.GetStringAtIndex(System.Collections.Generic.List{System.String},System.Int32)
+  id: GetStringAtIndex(System.Collections.Generic.List{System.String},System.Int32)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Helpers.Strings.StringHelper
+  langs:
+  - csharp
+  - vb
+  name: GetStringAtIndex(List<String>, Int32)
+  nameWithType: StringHelper.GetStringAtIndex(List<String>, Int32)
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.GetStringAtIndex(System.Collections.Generic.List<System.String>, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GetStringAtIndex
+    path: ../src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+    startLine: 476
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Strings
+  summary: "\nGets the string at the specified index from the specified index.\n"
+  example: []
+  syntax:
+    content: public static string GetStringAtIndex(this List<string> strings, int index)
+    parameters:
+    - id: strings
+      type: System.Collections.Generic.List{System.String}
+      description: The objects to consider.
+    - id: index
+      type: System.Int32
+      description: The index to consider.
+    return:
+      type: System.String
+      description: Returns the normalized string.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetStringAtIndex(strings As List(Of String), index As Integer) As String
+  overload: BindOpen.Data.Helpers.Strings.StringHelper.GetStringAtIndex*
+  nameWithType.vb: StringHelper.GetStringAtIndex(List(Of String), Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Helpers.Strings.StringHelper.GetStringAtIndex(System.Collections.Generic.List(Of System.String), System.Int32)
+  name.vb: GetStringAtIndex(List(Of String), Int32)
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.Concatenate(System.String,System.String,System.String)
+  commentId: M:BindOpen.Data.Helpers.Strings.StringHelper.Concatenate(System.String,System.String,System.String)
+  id: Concatenate(System.String,System.String,System.String)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Helpers.Strings.StringHelper
+  langs:
+  - csharp
+  - vb
+  name: Concatenate(String, String, String)
+  nameWithType: StringHelper.Concatenate(String, String, String)
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.Concatenate(System.String, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Concatenate
+    path: ../src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+    startLine: 489
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Strings
+  summary: "\nConcatenates the two specified string only if the second one starts with the specified character. Returns the second string otherwise.\n"
+  remarks: If the leading char is null then the two strings are always concatenated.
+  example: []
+  syntax:
+    content: public static string Concatenate(this string st1, string st2, string charString = null)
+    parameters:
+    - id: st1
+      type: System.String
+      description: The first string to concatenate.
+    - id: st2
+      type: System.String
+      description: The second string to concatenate.
+    - id: charString
+      type: System.String
+      description: The string value to consider.
+    return:
+      type: System.String
+      description: Returns the concatenated string.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Concatenate(st1 As String, st2 As String, charString As String = Nothing) As String
+  overload: BindOpen.Data.Helpers.Strings.StringHelper.Concatenate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.If(System.String,System.Boolean,System.String)
+  commentId: M:BindOpen.Data.Helpers.Strings.StringHelper.If(System.String,System.Boolean,System.String)
+  id: If(System.String,System.Boolean,System.String)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Helpers.Strings.StringHelper
+  langs:
+  - csharp
+  - vb
+  name: If(String, Boolean, String)
+  nameWithType: StringHelper.If(String, Boolean, String)
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.If(System.String, System.Boolean, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: If
+    path: ../src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+    startLine: 506
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Strings
+  summary: "\nSets the first string as the second one if the specified condition is statisfied.\n"
+  example: []
+  syntax:
+    content: public static string If(this string st1, bool condition, string st2)
+    parameters:
+    - id: st1
+      type: System.String
+      description: The first string to concatenate.
+    - id: condition
+      type: System.Boolean
+      description: The condition to consider.
+    - id: st2
+      type: System.String
+      description: The second string to concatenate.
+    return:
+      type: System.String
+      description: Returns the concatenated string.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function If(st1 As String, condition As Boolean, st2 As String) As String
+  overload: BindOpen.Data.Helpers.Strings.StringHelper.If*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.ConcatenateIf(System.String,System.Boolean,System.String)
+  commentId: M:BindOpen.Data.Helpers.Strings.StringHelper.ConcatenateIf(System.String,System.Boolean,System.String)
+  id: ConcatenateIf(System.String,System.Boolean,System.String)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Helpers.Strings.StringHelper
+  langs:
+  - csharp
+  - vb
+  name: ConcatenateIf(String, Boolean, String)
+  nameWithType: StringHelper.ConcatenateIf(String, Boolean, String)
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.ConcatenateIf(System.String, System.Boolean, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: ConcatenateIf
+    path: ../src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+    startLine: 523
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Strings
+  summary: "\nConcatenates the first string with the second one if the specified condition is statisfied.\n"
+  example: []
+  syntax:
+    content: public static string ConcatenateIf(this string st1, bool condition, string st2)
+    parameters:
+    - id: st1
+      type: System.String
+      description: The first string to concatenate.
+    - id: condition
+      type: System.Boolean
+      description: The condition to consider.
+    - id: st2
+      type: System.String
+      description: The second string to concatenate.
+    return:
+      type: System.String
+      description: Returns the concatenated string.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ConcatenateIf(st1 As String, condition As Boolean, st2 As String) As String
+  overload: BindOpen.Data.Helpers.Strings.StringHelper.ConcatenateIf*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.ConcatenateIfFirstNotEmpty(System.String,System.String)
+  commentId: M:BindOpen.Data.Helpers.Strings.StringHelper.ConcatenateIfFirstNotEmpty(System.String,System.String)
+  id: ConcatenateIfFirstNotEmpty(System.String,System.String)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Helpers.Strings.StringHelper
+  langs:
+  - csharp
+  - vb
+  name: ConcatenateIfFirstNotEmpty(String, String)
+  nameWithType: StringHelper.ConcatenateIfFirstNotEmpty(String, String)
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.ConcatenateIfFirstNotEmpty(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: ConcatenateIfFirstNotEmpty
+    path: ../src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+    startLine: 539
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Strings
+  summary: "\nConcatenates the first string with the second only if the first one is not empty.\n"
+  example: []
+  syntax:
+    content: public static string ConcatenateIfFirstNotEmpty(this string st1, string st2)
+    parameters:
+    - id: st1
+      type: System.String
+      description: The first string to concatenate.
+    - id: st2
+      type: System.String
+      description: The second string to concatenate.
+    return:
+      type: System.String
+      description: Returns the concatenated string.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ConcatenateIfFirstNotEmpty(st1 As String, st2 As String) As String
+  overload: BindOpen.Data.Helpers.Strings.StringHelper.ConcatenateIfFirstNotEmpty*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.ConcatenateIfSecondNotEmpty(System.String,System.String)
+  commentId: M:BindOpen.Data.Helpers.Strings.StringHelper.ConcatenateIfSecondNotEmpty(System.String,System.String)
+  id: ConcatenateIfSecondNotEmpty(System.String,System.String)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Helpers.Strings.StringHelper
+  langs:
+  - csharp
+  - vb
+  name: ConcatenateIfSecondNotEmpty(String, String)
+  nameWithType: StringHelper.ConcatenateIfSecondNotEmpty(String, String)
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.ConcatenateIfSecondNotEmpty(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: ConcatenateIfSecondNotEmpty
+    path: ../src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+    startLine: 555
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Strings
+  summary: "\nConcatenates the first string with the second only if the second one is not empty.\n"
+  example: []
+  syntax:
+    content: public static string ConcatenateIfSecondNotEmpty(this string st1, string st2)
+    parameters:
+    - id: st1
+      type: System.String
+      description: The first string to concatenate.
+    - id: st2
+      type: System.String
+      description: The second string to concatenate.
+    return:
+      type: System.String
+      description: Returns the concatenated string.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ConcatenateIfSecondNotEmpty(st1 As String, st2 As String) As String
+  overload: BindOpen.Data.Helpers.Strings.StringHelper.ConcatenateIfSecondNotEmpty*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.Excluding(System.Collections.Generic.IEnumerable{System.String},System.String[])
+  commentId: M:BindOpen.Data.Helpers.Strings.StringHelper.Excluding(System.Collections.Generic.IEnumerable{System.String},System.String[])
+  id: Excluding(System.Collections.Generic.IEnumerable{System.String},System.String[])
+  isExtensionMethod: true
+  parent: BindOpen.Data.Helpers.Strings.StringHelper
+  langs:
+  - csharp
+  - vb
+  name: Excluding(IEnumerable<String>, String[])
+  nameWithType: StringHelper.Excluding(IEnumerable<String>, String[])
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.Excluding(System.Collections.Generic.IEnumerable<System.String>, System.String[])
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Excluding
+    path: ../src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+    startLine: 571
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Strings
+  summary: "\nExcludes the specified string items from the specified string items.\n"
+  example: []
+  syntax:
+    content: public static IEnumerable<string> Excluding(this IEnumerable<string> stringItems, params string[] excludingStringItems)
+    parameters:
+    - id: stringItems
+      type: System.Collections.Generic.IEnumerable{System.String}
+      description: The string items to consider.
+    - id: excludingStringItems
+      type: System.String[]
+      description: The string items to exclude.
+    return:
+      type: System.Collections.Generic.IEnumerable{System.String}
+      description: Returns the excluded string items.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Excluding(stringItems As IEnumerable(Of String), ParamArray excludingStringItems As String()) As IEnumerable(Of String)
+  overload: BindOpen.Data.Helpers.Strings.StringHelper.Excluding*
+  nameWithType.vb: StringHelper.Excluding(IEnumerable(Of String), String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Helpers.Strings.StringHelper.Excluding(System.Collections.Generic.IEnumerable(Of System.String), System.String())
+  name.vb: Excluding(IEnumerable(Of String), String())
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.Excluding(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String})
+  commentId: M:BindOpen.Data.Helpers.Strings.StringHelper.Excluding(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String})
+  id: Excluding(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String})
+  isExtensionMethod: true
+  parent: BindOpen.Data.Helpers.Strings.StringHelper
+  langs:
+  - csharp
+  - vb
+  name: Excluding(IEnumerable<String>, IEnumerable<String>)
+  nameWithType: StringHelper.Excluding(IEnumerable<String>, IEnumerable<String>)
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.Excluding(System.Collections.Generic.IEnumerable<System.String>, System.Collections.Generic.IEnumerable<System.String>)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Excluding
+    path: ../src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+    startLine: 582
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Strings
+  summary: "\nExcludes the specified string items from the specified string items.\n"
+  example: []
+  syntax:
+    content: public static IEnumerable<string> Excluding(this IEnumerable<string> stringItems, IEnumerable<string> excludingStringItems)
+    parameters:
+    - id: stringItems
+      type: System.Collections.Generic.IEnumerable{System.String}
+      description: The string items to consider.
+    - id: excludingStringItems
+      type: System.Collections.Generic.IEnumerable{System.String}
+      description: The string items to exclude.
+    return:
+      type: System.Collections.Generic.IEnumerable{System.String}
+      description: Returns the excluded string items.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Excluding(stringItems As IEnumerable(Of String), excludingStringItems As IEnumerable(Of String)) As IEnumerable(Of String)
+  overload: BindOpen.Data.Helpers.Strings.StringHelper.Excluding*
+  nameWithType.vb: StringHelper.Excluding(IEnumerable(Of String), IEnumerable(Of String))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Helpers.Strings.StringHelper.Excluding(System.Collections.Generic.IEnumerable(Of System.String), System.Collections.Generic.IEnumerable(Of System.String))
+  name.vb: Excluding(IEnumerable(Of String), IEnumerable(Of String))
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.Adding(System.Collections.Generic.IEnumerable{System.String},System.String[])
+  commentId: M:BindOpen.Data.Helpers.Strings.StringHelper.Adding(System.Collections.Generic.IEnumerable{System.String},System.String[])
+  id: Adding(System.Collections.Generic.IEnumerable{System.String},System.String[])
+  isExtensionMethod: true
+  parent: BindOpen.Data.Helpers.Strings.StringHelper
+  langs:
+  - csharp
+  - vb
+  name: Adding(IEnumerable<String>, String[])
+  nameWithType: StringHelper.Adding(IEnumerable<String>, String[])
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.Adding(System.Collections.Generic.IEnumerable<System.String>, System.String[])
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Adding
+    path: ../src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+    startLine: 606
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Strings
+  summary: "\nAdds the specified string items from the specified string items.\n"
+  example: []
+  syntax:
+    content: public static IEnumerable<string> Adding(this IEnumerable<string> stringItems, params string[] addingStringItems)
+    parameters:
+    - id: stringItems
+      type: System.Collections.Generic.IEnumerable{System.String}
+      description: The string items to consider.
+    - id: addingStringItems
+      type: System.String[]
+      description: The string items to add.
+    return:
+      type: System.Collections.Generic.IEnumerable{System.String}
+      description: Returns the added string items.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Adding(stringItems As IEnumerable(Of String), ParamArray addingStringItems As String()) As IEnumerable(Of String)
+  overload: BindOpen.Data.Helpers.Strings.StringHelper.Adding*
+  nameWithType.vb: StringHelper.Adding(IEnumerable(Of String), String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Helpers.Strings.StringHelper.Adding(System.Collections.Generic.IEnumerable(Of System.String), System.String())
+  name.vb: Adding(IEnumerable(Of String), String())
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.Adding(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String})
+  commentId: M:BindOpen.Data.Helpers.Strings.StringHelper.Adding(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String})
+  id: Adding(System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.String})
+  isExtensionMethod: true
+  parent: BindOpen.Data.Helpers.Strings.StringHelper
+  langs:
+  - csharp
+  - vb
+  name: Adding(IEnumerable<String>, IEnumerable<String>)
+  nameWithType: StringHelper.Adding(IEnumerable<String>, IEnumerable<String>)
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.Adding(System.Collections.Generic.IEnumerable<System.String>, System.Collections.Generic.IEnumerable<System.String>)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Adding
+    path: ../src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+    startLine: 617
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Strings
+  summary: "\nAdds the specified string items from the specified string items.\n"
+  example: []
+  syntax:
+    content: public static IEnumerable<string> Adding(this IEnumerable<string> stringItems, IEnumerable<string> addingStringItems)
+    parameters:
+    - id: stringItems
+      type: System.Collections.Generic.IEnumerable{System.String}
+      description: The string items to consider.
+    - id: addingStringItems
+      type: System.Collections.Generic.IEnumerable{System.String}
+      description: The string items to add.
+    return:
+      type: System.Collections.Generic.IEnumerable{System.String}
+      description: Returns the added string items.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Adding(stringItems As IEnumerable(Of String), addingStringItems As IEnumerable(Of String)) As IEnumerable(Of String)
+  overload: BindOpen.Data.Helpers.Strings.StringHelper.Adding*
+  nameWithType.vb: StringHelper.Adding(IEnumerable(Of String), IEnumerable(Of String))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Helpers.Strings.StringHelper.Adding(System.Collections.Generic.IEnumerable(Of System.String), System.Collections.Generic.IEnumerable(Of System.String))
+  name.vb: Adding(IEnumerable(Of String), IEnumerable(Of String))
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.GetKeyValues(System.String)
+  commentId: M:BindOpen.Data.Helpers.Strings.StringHelper.GetKeyValues(System.String)
+  id: GetKeyValues(System.String)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Helpers.Strings.StringHelper
+  langs:
+  - csharp
+  - vb
+  name: GetKeyValues(String)
+  nameWithType: StringHelper.GetKeyValues(String)
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.GetKeyValues(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GetKeyValues
+    path: ../src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+    startLine: 637
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Strings
+  summary: "\nGet the key values from the specified string.\n"
+  example: []
+  syntax:
+    content: public static List<DataKeyValue> GetKeyValues(this string st)
+    parameters:
+    - id: st
+      type: System.String
+      description: The string to consider.
+    return:
+      type: System.Collections.Generic.List{BindOpen.Data.Items.DataKeyValue}
+      description: Returns the added string items.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetKeyValues(st As String) As List(Of DataKeyValue)
+  overload: BindOpen.Data.Helpers.Strings.StringHelper.GetKeyValues*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.GetQuotedString(System.String)
+  commentId: M:BindOpen.Data.Helpers.Strings.StringHelper.GetQuotedString(System.String)
+  id: GetQuotedString(System.String)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Helpers.Strings.StringHelper
+  langs:
+  - csharp
+  - vb
+  name: GetQuotedString(String)
+  nameWithType: StringHelper.GetQuotedString(String)
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.GetQuotedString(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GetQuotedString
+    path: ../src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+    startLine: 658
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Strings
+  summary: "\nGets the quoted string.\n"
+  example: []
+  syntax:
+    content: public static string GetQuotedString(this string st)
+    parameters:
+    - id: st
+      type: System.String
+      description: The string to normalize.
+    return:
+      type: System.String
+      description: Returns the quoted string.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetQuotedString(st As String) As String
+  overload: BindOpen.Data.Helpers.Strings.StringHelper.GetQuotedString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.GetUnquotedString(System.String,System.Char)
+  commentId: M:BindOpen.Data.Helpers.Strings.StringHelper.GetUnquotedString(System.String,System.Char)
+  id: GetUnquotedString(System.String,System.Char)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Helpers.Strings.StringHelper
+  langs:
+  - csharp
+  - vb
+  name: GetUnquotedString(String, Char)
+  nameWithType: StringHelper.GetUnquotedString(String, Char)
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.GetUnquotedString(System.String, System.Char)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GetUnquotedString
+    path: ../src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+    startLine: 669
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Strings
+  summary: "\nGets the unquoted string.\n"
+  example: []
+  syntax:
+    content: public static string GetUnquotedString(this string st, char quoteChar = '\'')
+    parameters:
+    - id: st
+      type: System.String
+      description: The string to normalize.
+    - id: quoteChar
+      type: System.Char
+      description: The quote character to consider.
+    return:
+      type: System.String
+      description: Returns the quoted string.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetUnquotedString(st As String, quoteChar As Char = "'"c) As String
+  overload: BindOpen.Data.Helpers.Strings.StringHelper.GetUnquotedString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.GuessObjectValueFromString(System.String)
+  commentId: M:BindOpen.Data.Helpers.Strings.StringHelper.GuessObjectValueFromString(System.String)
+  id: GuessObjectValueFromString(System.String)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Helpers.Strings.StringHelper
+  langs:
+  - csharp
+  - vb
+  name: GuessObjectValueFromString(String)
+  nameWithType: StringHelper.GuessObjectValueFromString(String)
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.GuessObjectValueFromString(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GuessObjectValueFromString
+    path: ../src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+    startLine: 687
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Strings
+  summary: "\nGets the object from the specified string.\n"
+  example: []
+  syntax:
+    content: public static object GuessObjectValueFromString(this string st)
+    parameters:
+    - id: st
+      type: System.String
+      description: The string to consider.
+    return:
+      type: System.Object
+      description: Returns the object corresponding to the specified string.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GuessObjectValueFromString(st As String) As Object
+  overload: BindOpen.Data.Helpers.Strings.StringHelper.GuessObjectValueFromString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.ToObject(System.String,BindOpen.Data.Common.DataValueType,System.String)
+  commentId: M:BindOpen.Data.Helpers.Strings.StringHelper.ToObject(System.String,BindOpen.Data.Common.DataValueType,System.String)
+  id: ToObject(System.String,BindOpen.Data.Common.DataValueType,System.String)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Helpers.Strings.StringHelper
+  langs:
+  - csharp
+  - vb
+  name: ToObject(String, DataValueType, String)
+  nameWithType: StringHelper.ToObject(String, DataValueType, String)
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.ToObject(System.String, BindOpen.Data.Common.DataValueType, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: ToObject
+    path: ../src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+    startLine: 730
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Strings
+  summary: "\nGets the object from the specified string.\n"
+  example: []
+  syntax:
+    content: public static object ToObject(this string st, DataValueType valueType = DataValueType.Any, string textFormat = null)
+    parameters:
+    - id: st
+      type: System.String
+      description: The string to consider.
+    - id: valueType
+      type: BindOpen.Data.Common.DataValueType
+      description: The value type to consider.
+    - id: textFormat
+      type: System.String
+      description: The text format to consider.
+    return:
+      type: System.Object
+      description: Returns the object corresponding to the specified string.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToObject(st As String, valueType As DataValueType = DataValueType.Any, textFormat As String = Nothing) As Object
+  overload: BindOpen.Data.Helpers.Strings.StringHelper.ToObject*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.ToDateTime(System.String,System.String)
+  commentId: M:BindOpen.Data.Helpers.Strings.StringHelper.ToDateTime(System.String,System.String)
+  id: ToDateTime(System.String,System.String)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Helpers.Strings.StringHelper
+  langs:
+  - csharp
+  - vb
+  name: ToDateTime(String, String)
+  nameWithType: StringHelper.ToDateTime(String, String)
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.ToDateTime(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: ToDateTime
+    path: ../src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+    startLine: 784
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Strings
+  summary: "\nGets the date time object from the specified string.\n"
+  example: []
+  syntax:
+    content: public static DateTime? ToDateTime(this string st, string textFormat = null)
+    parameters:
+    - id: st
+      type: System.String
+      description: The string to consider.
+    - id: textFormat
+      type: System.String
+      description: The text format to consider.
+    return:
+      type: System.Nullable{System.DateTime}
+      description: Returns the object corresponding to the specified string.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToDateTime(st As String, textFormat As String = Nothing) As Date?
+  overload: BindOpen.Data.Helpers.Strings.StringHelper.ToDateTime*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.ToEnum``1(System.String,``0)
+  commentId: M:BindOpen.Data.Helpers.Strings.StringHelper.ToEnum``1(System.String,``0)
+  id: ToEnum``1(System.String,``0)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Helpers.Strings.StringHelper
+  langs:
+  - csharp
+  - vb
+  name: ToEnum<T>(String, T)
+  nameWithType: StringHelper.ToEnum<T>(String, T)
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.ToEnum<T>(System.String, T)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: ToEnum
+    path: ../src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+    startLine: 796
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Strings
+  summary: "\nGets the enumration from the specified string.\n"
+  example: []
+  syntax:
+    content: >-
+      public static T ToEnum<T>(this string st, T defaultEnum = default(T))
+          where T : struct, IConvertible
+    parameters:
+    - id: st
+      type: System.String
+      description: The string to consider.
+    - id: defaultEnum
+      type: '{T}'
+      description: The default enumeration to consider.
+    typeParameters:
+    - id: T
+      description: The structure to consider.
+    return:
+      type: '{T}'
+      description: Returns the object corresponding to the specified string.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToEnum(Of T As {Structure, IConvertible})(st As String, defaultEnum As T = Nothing) As T
+  overload: BindOpen.Data.Helpers.Strings.StringHelper.ToEnum*
+  nameWithType.vb: StringHelper.ToEnum(Of T)(String, T)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Helpers.Strings.StringHelper.ToEnum(Of T)(System.String, T)
+  name.vb: ToEnum(Of T)(String, T)
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.GetRandomString(System.String,System.String[])
+  commentId: M:BindOpen.Data.Helpers.Strings.StringHelper.GetRandomString(System.String,System.String[])
+  id: GetRandomString(System.String,System.String[])
+  parent: BindOpen.Data.Helpers.Strings.StringHelper
+  langs:
+  - csharp
+  - vb
+  name: GetRandomString(String, String[])
+  nameWithType: StringHelper.GetRandomString(String, String[])
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.GetRandomString(System.String, System.String[])
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GetRandomString
+    path: ../src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+    startLine: 810
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Strings
+  summary: "\nGet a random string from the specified string with the specified length.\n"
+  example: []
+  syntax:
+    content: public static string GetRandomString(string pattern = "{{char1,8}}", params string[] charLists)
+    parameters:
+    - id: pattern
+      type: System.String
+      description: The pattern to consider.
+    - id: charLists
+      type: System.String[]
+      description: The lists of chars to consider.
+    return:
+      type: System.String
+      description: A random password with the specified length.
+    content.vb: Public Shared Function GetRandomString(pattern As String = "{{char1,8}}", ParamArray charLists As String()) As String
+  overload: BindOpen.Data.Helpers.Strings.StringHelper.GetRandomString*
+  nameWithType.vb: StringHelper.GetRandomString(String, String())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Helpers.Strings.StringHelper.GetRandomString(System.String, System.String())
+  name.vb: GetRandomString(String, String())
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.GetCurrentTimeStamp
+  commentId: M:BindOpen.Data.Helpers.Strings.StringHelper.GetCurrentTimeStamp
+  id: GetCurrentTimeStamp
+  parent: BindOpen.Data.Helpers.Strings.StringHelper
+  langs:
+  - csharp
+  - vb
+  name: GetCurrentTimeStamp()
+  nameWithType: StringHelper.GetCurrentTimeStamp()
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.GetCurrentTimeStamp()
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GetCurrentTimeStamp
+    path: ../src/BindOpen.Core/Data/Helpers/Strings/StringHelper.cs
+    startLine: 843
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Strings
+  summary: "\nReturns the current time stamp.\n"
+  example: []
+  syntax:
+    content: public static string GetCurrentTimeStamp()
+    return:
+      type: System.String
+      description: The current time stamp
+    content.vb: Public Shared Function GetCurrentTimeStamp As String
+  overload: BindOpen.Data.Helpers.Strings.StringHelper.GetCurrentTimeStamp*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: BindOpen.Data.Helpers.Strings
+  commentId: N:BindOpen.Data.Helpers.Strings
+  name: BindOpen.Data.Helpers.Strings
+  nameWithType: BindOpen.Data.Helpers.Strings
+  fullName: BindOpen.Data.Helpers.Strings
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.Replace*
+  commentId: Overload:BindOpen.Data.Helpers.Strings.StringHelper.Replace
+  name: Replace
+  nameWithType: StringHelper.Replace
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.Replace
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.GeneratePassword*
+  commentId: Overload:BindOpen.Data.Helpers.Strings.StringHelper.GeneratePassword
+  name: GeneratePassword
+  nameWithType: StringHelper.GeneratePassword
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.GeneratePassword
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.CountOccurences*
+  commentId: Overload:BindOpen.Data.Helpers.Strings.StringHelper.CountOccurences
+  name: CountOccurences
+  nameWithType: StringHelper.CountOccurences
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.CountOccurences
+- uid: System.Char
+  commentId: T:System.Char
+  parent: System
+  isExternal: true
+  name: Char
+  nameWithType: Char
+  fullName: System.Char
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.CheckNameFormat*
+  commentId: Overload:BindOpen.Data.Helpers.Strings.StringHelper.CheckNameFormat
+  name: CheckNameFormat
+  nameWithType: StringHelper.CheckNameFormat
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.CheckNameFormat
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.GetShortString*
+  commentId: Overload:BindOpen.Data.Helpers.Strings.StringHelper.GetShortString
+  name: GetShortString
+  nameWithType: StringHelper.GetShortString
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.GetShortString
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.GetStringBetween*
+  commentId: Overload:BindOpen.Data.Helpers.Strings.StringHelper.GetStringBetween
+  name: GetStringBetween
+  nameWithType: StringHelper.GetStringBetween
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.GetStringBetween
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.HashString*
+  commentId: Overload:BindOpen.Data.Helpers.Strings.StringHelper.HashString
+  name: HashString
+  nameWithType: StringHelper.HashString
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.HashString
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.ToPath*
+  commentId: Overload:BindOpen.Data.Helpers.Strings.StringHelper.ToPath
+  name: ToPath
+  nameWithType: StringHelper.ToPath
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.ToPath
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.GetConcatenatedPath*
+  commentId: Overload:BindOpen.Data.Helpers.Strings.StringHelper.GetConcatenatedPath
+  name: GetConcatenatedPath
+  nameWithType: StringHelper.GetConcatenatedPath
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.GetConcatenatedPath
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.GetSubstring*
+  commentId: Overload:BindOpen.Data.Helpers.Strings.StringHelper.GetSubstring
+  name: GetSubstring
+  nameWithType: StringHelper.GetSubstring
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.GetSubstring
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.GetMinimumIndex*
+  commentId: Overload:BindOpen.Data.Helpers.Strings.StringHelper.GetMinimumIndex
+  name: GetMinimumIndex
+  nameWithType: StringHelper.GetMinimumIndex
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.GetMinimumIndex
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.GetStartedString*
+  commentId: Overload:BindOpen.Data.Helpers.Strings.StringHelper.GetStartedString
+  name: GetStartedString
+  nameWithType: StringHelper.GetStartedString
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.GetStartedString
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.GetEndedString*
+  commentId: Overload:BindOpen.Data.Helpers.Strings.StringHelper.GetEndedString
+  name: GetEndedString
+  nameWithType: StringHelper.GetEndedString
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.GetEndedString
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.GetFormatString*
+  commentId: Overload:BindOpen.Data.Helpers.Strings.StringHelper.GetFormatString
+  name: GetFormatString
+  nameWithType: StringHelper.GetFormatString
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.GetFormatString
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.GetIndexOfLastString*
+  commentId: Overload:BindOpen.Data.Helpers.Strings.StringHelper.GetIndexOfLastString
+  name: GetIndexOfLastString
+  nameWithType: StringHelper.GetIndexOfLastString
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.GetIndexOfLastString
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.GetIndexOfNextString*
+  commentId: Overload:BindOpen.Data.Helpers.Strings.StringHelper.GetIndexOfNextString
+  name: GetIndexOfNextString
+  nameWithType: StringHelper.GetIndexOfNextString
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.GetIndexOfNextString
+- uid: System.StringComparison
+  commentId: T:System.StringComparison
+  parent: System
+  isExternal: true
+  name: StringComparison
+  nameWithType: StringComparison
+  fullName: System.StringComparison
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.GetString*
+  commentId: Overload:BindOpen.Data.Helpers.Strings.StringHelper.GetString
+  name: GetString
+  nameWithType: StringHelper.GetString
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.GetString
+- uid: System.Nullable{System.DateTime}
+  commentId: T:System.Nullable{System.DateTime}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<DateTime>
+  nameWithType: Nullable<DateTime>
+  fullName: System.Nullable<System.DateTime>
+  nameWithType.vb: Nullable(Of DateTime)
+  fullName.vb: System.Nullable(Of System.DateTime)
+  name.vb: Nullable(Of DateTime)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.DateTime
+    name: DateTime
+    nameWithType: DateTime
+    fullName: System.DateTime
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.GetNormalizedName*
+  commentId: Overload:BindOpen.Data.Helpers.Strings.StringHelper.GetNormalizedName
+  name: GetNormalizedName
+  nameWithType: StringHelper.GetNormalizedName
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.GetNormalizedName
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.GetTitleCasedName*
+  commentId: Overload:BindOpen.Data.Helpers.Strings.StringHelper.GetTitleCasedName
+  name: GetTitleCasedName
+  nameWithType: StringHelper.GetTitleCasedName
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.GetTitleCasedName
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.GetStringAtIndex*
+  commentId: Overload:BindOpen.Data.Helpers.Strings.StringHelper.GetStringAtIndex
+  name: GetStringAtIndex
+  nameWithType: StringHelper.GetStringAtIndex
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.GetStringAtIndex
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: System.Collections.Generic.List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.Concatenate*
+  commentId: Overload:BindOpen.Data.Helpers.Strings.StringHelper.Concatenate
+  name: Concatenate
+  nameWithType: StringHelper.Concatenate
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.Concatenate
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.If*
+  commentId: Overload:BindOpen.Data.Helpers.Strings.StringHelper.If
+  name: If
+  nameWithType: StringHelper.If
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.If
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.ConcatenateIf*
+  commentId: Overload:BindOpen.Data.Helpers.Strings.StringHelper.ConcatenateIf
+  name: ConcatenateIf
+  nameWithType: StringHelper.ConcatenateIf
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.ConcatenateIf
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.ConcatenateIfFirstNotEmpty*
+  commentId: Overload:BindOpen.Data.Helpers.Strings.StringHelper.ConcatenateIfFirstNotEmpty
+  name: ConcatenateIfFirstNotEmpty
+  nameWithType: StringHelper.ConcatenateIfFirstNotEmpty
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.ConcatenateIfFirstNotEmpty
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.ConcatenateIfSecondNotEmpty*
+  commentId: Overload:BindOpen.Data.Helpers.Strings.StringHelper.ConcatenateIfSecondNotEmpty
+  name: ConcatenateIfSecondNotEmpty
+  nameWithType: StringHelper.ConcatenateIfSecondNotEmpty
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.ConcatenateIfSecondNotEmpty
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.Excluding*
+  commentId: Overload:BindOpen.Data.Helpers.Strings.StringHelper.Excluding
+  name: Excluding
+  nameWithType: StringHelper.Excluding
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.Excluding
+- uid: System.Collections.Generic.IEnumerable{System.String}
+  commentId: T:System.Collections.Generic.IEnumerable{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<String>
+  nameWithType: IEnumerable<String>
+  fullName: System.Collections.Generic.IEnumerable<System.String>
+  nameWithType.vb: IEnumerable(Of String)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.String)
+  name.vb: IEnumerable(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.Adding*
+  commentId: Overload:BindOpen.Data.Helpers.Strings.StringHelper.Adding
+  name: Adding
+  nameWithType: StringHelper.Adding
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.Adding
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.GetKeyValues*
+  commentId: Overload:BindOpen.Data.Helpers.Strings.StringHelper.GetKeyValues
+  name: GetKeyValues
+  nameWithType: StringHelper.GetKeyValues
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.GetKeyValues
+- uid: System.Collections.Generic.List{BindOpen.Data.Items.DataKeyValue}
+  commentId: T:System.Collections.Generic.List{BindOpen.Data.Items.DataKeyValue}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<DataKeyValue>
+  nameWithType: List<DataKeyValue>
+  fullName: System.Collections.Generic.List<BindOpen.Data.Items.DataKeyValue>
+  nameWithType.vb: List(Of DataKeyValue)
+  fullName.vb: System.Collections.Generic.List(Of BindOpen.Data.Items.DataKeyValue)
+  name.vb: List(Of DataKeyValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BindOpen.Data.Items.DataKeyValue
+    name: DataKeyValue
+    nameWithType: DataKeyValue
+    fullName: BindOpen.Data.Items.DataKeyValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BindOpen.Data.Items.DataKeyValue
+    name: DataKeyValue
+    nameWithType: DataKeyValue
+    fullName: BindOpen.Data.Items.DataKeyValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.GetQuotedString*
+  commentId: Overload:BindOpen.Data.Helpers.Strings.StringHelper.GetQuotedString
+  name: GetQuotedString
+  nameWithType: StringHelper.GetQuotedString
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.GetQuotedString
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.GetUnquotedString*
+  commentId: Overload:BindOpen.Data.Helpers.Strings.StringHelper.GetUnquotedString
+  name: GetUnquotedString
+  nameWithType: StringHelper.GetUnquotedString
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.GetUnquotedString
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.GuessObjectValueFromString*
+  commentId: Overload:BindOpen.Data.Helpers.Strings.StringHelper.GuessObjectValueFromString
+  name: GuessObjectValueFromString
+  nameWithType: StringHelper.GuessObjectValueFromString
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.GuessObjectValueFromString
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.ToObject*
+  commentId: Overload:BindOpen.Data.Helpers.Strings.StringHelper.ToObject
+  name: ToObject
+  nameWithType: StringHelper.ToObject
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.ToObject
+- uid: BindOpen.Data.Common.DataValueType
+  commentId: T:BindOpen.Data.Common.DataValueType
+  parent: BindOpen.Data.Common
+  name: DataValueType
+  nameWithType: DataValueType
+  fullName: BindOpen.Data.Common.DataValueType
+- uid: BindOpen.Data.Common
+  commentId: N:BindOpen.Data.Common
+  name: BindOpen.Data.Common
+  nameWithType: BindOpen.Data.Common
+  fullName: BindOpen.Data.Common
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.ToDateTime*
+  commentId: Overload:BindOpen.Data.Helpers.Strings.StringHelper.ToDateTime
+  name: ToDateTime
+  nameWithType: StringHelper.ToDateTime
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.ToDateTime
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.ToEnum*
+  commentId: Overload:BindOpen.Data.Helpers.Strings.StringHelper.ToEnum
+  name: ToEnum
+  nameWithType: StringHelper.ToEnum
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.ToEnum
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.GetRandomString*
+  commentId: Overload:BindOpen.Data.Helpers.Strings.StringHelper.GetRandomString
+  name: GetRandomString
+  nameWithType: StringHelper.GetRandomString
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.GetRandomString
+- uid: BindOpen.Data.Helpers.Strings.StringHelper.GetCurrentTimeStamp*
+  commentId: Overload:BindOpen.Data.Helpers.Strings.StringHelper.GetCurrentTimeStamp
+  name: GetCurrentTimeStamp
+  nameWithType: StringHelper.GetCurrentTimeStamp
+  fullName: BindOpen.Data.Helpers.Strings.StringHelper.GetCurrentTimeStamp
+shouldSkipMarkup: true

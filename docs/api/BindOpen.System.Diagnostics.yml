@@ -1,0 +1,69 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.System.Diagnostics
+  commentId: N:BindOpen.System.Diagnostics
+  id: BindOpen.System.Diagnostics
+  children:
+  - BindOpen.System.Diagnostics.BdoLog
+  - BindOpen.System.Diagnostics.BdoLogEvent
+  - BindOpen.System.Diagnostics.BdoLogEvent.LogEventStackTrace
+  - BindOpen.System.Diagnostics.BdoLogEventExtension
+  - BindOpen.System.Diagnostics.BdoLoggerMode
+  - BindOpen.System.Diagnostics.IBdoLog
+  - BindOpen.System.Diagnostics.IBdoLogEvent
+  langs:
+  - csharp
+  - vb
+  name: BindOpen.System.Diagnostics
+  nameWithType: BindOpen.System.Diagnostics
+  fullName: BindOpen.System.Diagnostics
+  type: Namespace
+  assemblies:
+  - BindOpen.Core
+references:
+- uid: BindOpen.System.Diagnostics.BdoLog
+  commentId: T:BindOpen.System.Diagnostics.BdoLog
+  parent: BindOpen.System.Diagnostics
+  name: BdoLog
+  nameWithType: BdoLog
+  fullName: BindOpen.System.Diagnostics.BdoLog
+- uid: BindOpen.System.Diagnostics.BdoLogEvent
+  commentId: T:BindOpen.System.Diagnostics.BdoLogEvent
+  parent: BindOpen.System.Diagnostics
+  name: BdoLogEvent
+  nameWithType: BdoLogEvent
+  fullName: BindOpen.System.Diagnostics.BdoLogEvent
+- uid: BindOpen.System.Diagnostics.BdoLogEvent.LogEventStackTrace
+  commentId: T:BindOpen.System.Diagnostics.BdoLogEvent.LogEventStackTrace
+  name: BdoLogEvent.LogEventStackTrace
+  nameWithType: BdoLogEvent.LogEventStackTrace
+  fullName: BindOpen.System.Diagnostics.BdoLogEvent.LogEventStackTrace
+- uid: BindOpen.System.Diagnostics.BdoLogEventExtension
+  commentId: T:BindOpen.System.Diagnostics.BdoLogEventExtension
+  name: BdoLogEventExtension
+  nameWithType: BdoLogEventExtension
+  fullName: BindOpen.System.Diagnostics.BdoLogEventExtension
+- uid: BindOpen.System.Diagnostics.IBdoLog
+  commentId: T:BindOpen.System.Diagnostics.IBdoLog
+  parent: BindOpen.System.Diagnostics
+  name: IBdoLog
+  nameWithType: IBdoLog
+  fullName: BindOpen.System.Diagnostics.IBdoLog
+- uid: BindOpen.System.Diagnostics.IBdoLogEvent
+  commentId: T:BindOpen.System.Diagnostics.IBdoLogEvent
+  parent: BindOpen.System.Diagnostics
+  name: IBdoLogEvent
+  nameWithType: IBdoLogEvent
+  fullName: BindOpen.System.Diagnostics.IBdoLogEvent
+- uid: BindOpen.System.Diagnostics.BdoLoggerMode
+  commentId: T:BindOpen.System.Diagnostics.BdoLoggerMode
+  parent: BindOpen.System.Diagnostics
+  name: BdoLoggerMode
+  nameWithType: BdoLoggerMode
+  fullName: BindOpen.System.Diagnostics.BdoLoggerMode
+- uid: BindOpen.System.Diagnostics
+  commentId: N:BindOpen.System.Diagnostics
+  name: BindOpen.System.Diagnostics
+  nameWithType: BindOpen.System.Diagnostics
+  fullName: BindOpen.System.Diagnostics
+shouldSkipMarkup: true

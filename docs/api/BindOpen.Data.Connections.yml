@@ -1,0 +1,48 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Data.Connections
+  commentId: N:BindOpen.Data.Connections
+  id: BindOpen.Data.Connections
+  children:
+  - BindOpen.Data.Connections.BdoDbConnection
+  - BindOpen.Data.Connections.BdoDbConnectionExtensions
+  - BindOpen.Data.Connections.BdoDbConnectionFactory
+  - BindOpen.Data.Connections.IBdoDbConnection
+  langs:
+  - csharp
+  - vb
+  name: BindOpen.Data.Connections
+  nameWithType: BindOpen.Data.Connections
+  fullName: BindOpen.Data.Connections
+  type: Namespace
+  assemblies:
+  - BindOpen.Databases
+references:
+- uid: BindOpen.Data.Connections.BdoDbConnection
+  commentId: T:BindOpen.Data.Connections.BdoDbConnection
+  name: BdoDbConnection
+  nameWithType: BdoDbConnection
+  fullName: BindOpen.Data.Connections.BdoDbConnection
+- uid: BindOpen.Data.Connections.BdoDbConnectionExtensions
+  commentId: T:BindOpen.Data.Connections.BdoDbConnectionExtensions
+  parent: BindOpen.Data.Connections
+  name: BdoDbConnectionExtensions
+  nameWithType: BdoDbConnectionExtensions
+  fullName: BindOpen.Data.Connections.BdoDbConnectionExtensions
+- uid: BindOpen.Data.Connections.BdoDbConnectionFactory
+  commentId: T:BindOpen.Data.Connections.BdoDbConnectionFactory
+  name: BdoDbConnectionFactory
+  nameWithType: BdoDbConnectionFactory
+  fullName: BindOpen.Data.Connections.BdoDbConnectionFactory
+- uid: BindOpen.Data.Connections.IBdoDbConnection
+  commentId: T:BindOpen.Data.Connections.IBdoDbConnection
+  parent: BindOpen.Data.Connections
+  name: IBdoDbConnection
+  nameWithType: IBdoDbConnection
+  fullName: BindOpen.Data.Connections.IBdoDbConnection
+- uid: BindOpen.Data.Connections
+  commentId: N:BindOpen.Data.Connections
+  name: BindOpen.Data.Connections
+  nameWithType: BindOpen.Data.Connections
+  fullName: BindOpen.Data.Connections
+shouldSkipMarkup: true

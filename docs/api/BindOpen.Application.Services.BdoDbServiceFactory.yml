@@ -1,0 +1,585 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Application.Services.BdoDbServiceFactory
+  commentId: T:BindOpen.Application.Services.BdoDbServiceFactory
+  id: BdoDbServiceFactory
+  parent: BindOpen.Application.Services
+  children:
+  - BindOpen.Application.Services.BdoDbServiceFactory.Create``1(BindOpen.Application.Scopes.IBdoScope,System.Func{BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Diagnostics.IBdoLog,BindOpen.Extensions.Runtime.IBdoConnector},BindOpen.System.Diagnostics.IBdoLog)
+  langs:
+  - csharp
+  - vb
+  name: BdoDbServiceFactory
+  nameWithType: BdoDbServiceFactory
+  fullName: BindOpen.Application.Services.BdoDbServiceFactory
+  type: Class
+  source:
+    remote:
+      path: src/BindOpen.Databases/Application/Services/Factories/BdoDbServiceFactory.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: BdoDbServiceFactory
+    path: ../src/BindOpen.Databases/Application/Services/Factories/BdoDbServiceFactory.cs
+    startLine: 10
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Application.Services
+  summary: "\nThis class represents a repository factory.\n"
+  example: []
+  syntax:
+    content: public static class BdoDbServiceFactory
+    content.vb: Public Module BdoDbServiceFactory
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: BindOpen.Application.Services.BdoDbServiceFactory.Create``1(BindOpen.Application.Scopes.IBdoScope,System.Func{BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Diagnostics.IBdoLog,BindOpen.Extensions.Runtime.IBdoConnector},BindOpen.System.Diagnostics.IBdoLog)
+  commentId: M:BindOpen.Application.Services.BdoDbServiceFactory.Create``1(BindOpen.Application.Scopes.IBdoScope,System.Func{BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Diagnostics.IBdoLog,BindOpen.Extensions.Runtime.IBdoConnector},BindOpen.System.Diagnostics.IBdoLog)
+  id: Create``1(BindOpen.Application.Scopes.IBdoScope,System.Func{BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Diagnostics.IBdoLog,BindOpen.Extensions.Runtime.IBdoConnector},BindOpen.System.Diagnostics.IBdoLog)
+  isExtensionMethod: true
+  parent: BindOpen.Application.Services.BdoDbServiceFactory
+  langs:
+  - csharp
+  - vb
+  name: Create<T>(IBdoScope, Func<IBdoScope, IBdoLog, IBdoConnector>, IBdoLog)
+  nameWithType: BdoDbServiceFactory.Create<T>(IBdoScope, Func<IBdoScope, IBdoLog, IBdoConnector>, IBdoLog)
+  fullName: BindOpen.Application.Services.BdoDbServiceFactory.Create<T>(BindOpen.Application.Scopes.IBdoScope, System.Func<BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Diagnostics.IBdoLog, BindOpen.Extensions.Runtime.IBdoConnector>, BindOpen.System.Diagnostics.IBdoLog)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Databases/Application/Services/Factories/BdoDbServiceFactory.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: Create
+    path: ../src/BindOpen.Databases/Application/Services/Factories/BdoDbServiceFactory.cs
+    startLine: 20
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Application.Services
+  summary: "\nCreates a new database service.\n"
+  example: []
+  syntax:
+    content: >-
+      public static T Create<T>(this IBdoScope scope, Func<IBdoScope, IBdoLog, IBdoConnector> initializer, IBdoLog log = null)
+          where T : IBdoDbService, new()
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: ''
+    - id: initializer
+      type: System.Func{BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Diagnostics.IBdoLog,BindOpen.Extensions.Runtime.IBdoConnector}
+      description: ''
+    - id: log
+      type: BindOpen.System.Diagnostics.IBdoLog
+      description: ''
+    typeParameters:
+    - id: T
+      description: ''
+    return:
+      type: '{T}'
+      description: Returns the log of the operation.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Create(Of T As {IBdoDbService, New})(scope As IBdoScope, initializer As Func(Of IBdoScope, IBdoLog, IBdoConnector), log As IBdoLog = Nothing) As T
+  overload: BindOpen.Application.Services.BdoDbServiceFactory.Create*
+  nameWithType.vb: BdoDbServiceFactory.Create(Of T)(IBdoScope, Func(Of IBdoScope, IBdoLog, IBdoConnector), IBdoLog)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Application.Services.BdoDbServiceFactory.Create(Of T)(BindOpen.Application.Scopes.IBdoScope, System.Func(Of BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Diagnostics.IBdoLog, BindOpen.Extensions.Runtime.IBdoConnector), BindOpen.System.Diagnostics.IBdoLog)
+  name.vb: Create(Of T)(IBdoScope, Func(Of IBdoScope, IBdoLog, IBdoConnector), IBdoLog)
+references:
+- uid: BindOpen.Application.Services
+  commentId: N:BindOpen.Application.Services
+  name: BindOpen.Application.Services
+  nameWithType: BindOpen.Application.Services
+  fullName: BindOpen.Application.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Application.Services.BdoDbServiceFactory.Create*
+  commentId: Overload:BindOpen.Application.Services.BdoDbServiceFactory.Create
+  name: Create
+  nameWithType: BdoDbServiceFactory.Create
+  fullName: BindOpen.Application.Services.BdoDbServiceFactory.Create
+- uid: BindOpen.Application.Scopes.IBdoScope
+  commentId: T:BindOpen.Application.Scopes.IBdoScope
+  parent: BindOpen.Application.Scopes
+  isExternal: true
+  name: IBdoScope
+  nameWithType: IBdoScope
+  fullName: BindOpen.Application.Scopes.IBdoScope
+- uid: System.Func{BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Diagnostics.IBdoLog,BindOpen.Extensions.Runtime.IBdoConnector}
+  commentId: T:System.Func{BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Diagnostics.IBdoLog,BindOpen.Extensions.Runtime.IBdoConnector}
+  parent: System
+  definition: System.Func`3
+  name: Func<IBdoScope, IBdoLog, IBdoConnector>
+  nameWithType: Func<IBdoScope, IBdoLog, IBdoConnector>
+  fullName: System.Func<BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Diagnostics.IBdoLog, BindOpen.Extensions.Runtime.IBdoConnector>
+  nameWithType.vb: Func(Of IBdoScope, IBdoLog, IBdoConnector)
+  fullName.vb: System.Func(Of BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Diagnostics.IBdoLog, BindOpen.Extensions.Runtime.IBdoConnector)
+  name.vb: Func(Of IBdoScope, IBdoLog, IBdoConnector)
+  spec.csharp:
+  - uid: System.Func`3
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BindOpen.Application.Scopes.IBdoScope
+    name: IBdoScope
+    nameWithType: IBdoScope
+    fullName: BindOpen.Application.Scopes.IBdoScope
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Extensions.Runtime.IBdoConnector
+    name: IBdoConnector
+    nameWithType: IBdoConnector
+    fullName: BindOpen.Extensions.Runtime.IBdoConnector
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`3
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BindOpen.Application.Scopes.IBdoScope
+    name: IBdoScope
+    nameWithType: IBdoScope
+    fullName: BindOpen.Application.Scopes.IBdoScope
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Extensions.Runtime.IBdoConnector
+    name: IBdoConnector
+    nameWithType: IBdoConnector
+    fullName: BindOpen.Extensions.Runtime.IBdoConnector
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.System.Diagnostics.IBdoLog
+  commentId: T:BindOpen.System.Diagnostics.IBdoLog
+  parent: BindOpen.System.Diagnostics
+  isExternal: true
+  name: IBdoLog
+  nameWithType: IBdoLog
+  fullName: BindOpen.System.Diagnostics.IBdoLog
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: BindOpen.Application.Scopes
+  commentId: N:BindOpen.Application.Scopes
+  name: BindOpen.Application.Scopes
+  nameWithType: BindOpen.Application.Scopes
+  fullName: BindOpen.Application.Scopes
+- uid: System.Func`3
+  commentId: T:System.Func`3
+  isExternal: true
+  name: Func<T1, T2, TResult>
+  nameWithType: Func<T1, T2, TResult>
+  fullName: System.Func<T1, T2, TResult>
+  nameWithType.vb: Func(Of T1, T2, TResult)
+  fullName.vb: System.Func(Of T1, T2, TResult)
+  name.vb: Func(Of T1, T2, TResult)
+  spec.csharp:
+  - uid: System.Func`3
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T2
+    nameWithType: T2
+    fullName: T2
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`3
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T1
+    nameWithType: T1
+    fullName: T1
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T2
+    nameWithType: T2
+    fullName: T2
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.System.Diagnostics
+  commentId: N:BindOpen.System.Diagnostics
+  isExternal: true
+  name: BindOpen.System.Diagnostics
+  nameWithType: BindOpen.System.Diagnostics
+  fullName: BindOpen.System.Diagnostics
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+shouldSkipMarkup: true

@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Data.Queries.IDbQueryUnionClause
+  commentId: T:BindOpen.Data.Queries.IDbQueryUnionClause
+  id: IDbQueryUnionClause
+  parent: BindOpen.Data.Queries
+  children:
+  - BindOpen.Data.Queries.IDbQueryUnionClause.Kind
+  - BindOpen.Data.Queries.IDbQueryUnionClause.Query
+  langs:
+  - csharp
+  - vb
+  name: IDbQueryUnionClause
+  nameWithType: IDbQueryUnionClause
+  fullName: BindOpen.Data.Queries.IDbQueryUnionClause
+  type: Interface
+  source:
+    remote:
+      path: src/BindOpen.Databases/Data/Queries/Clauses/Interfaces/IDbQueryUnionClause.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: IDbQueryUnionClause
+    path: ../src/BindOpen.Databases/Data/Queries/Clauses/Interfaces/IDbQueryUnionClause.cs
+    startLine: 2
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  syntax:
+    content: public interface IDbQueryUnionClause
+    content.vb: Public Interface IDbQueryUnionClause
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: BindOpen.Data.Queries.IDbQueryUnionClause.Kind
+  commentId: P:BindOpen.Data.Queries.IDbQueryUnionClause.Kind
+  id: Kind
+  parent: BindOpen.Data.Queries.IDbQueryUnionClause
+  langs:
+  - csharp
+  - vb
+  name: Kind
+  nameWithType: IDbQueryUnionClause.Kind
+  fullName: BindOpen.Data.Queries.IDbQueryUnionClause.Kind
+  type: Property
+  source:
+    remote:
+      path: src/BindOpen.Databases/Data/Queries/Clauses/Interfaces/IDbQueryUnionClause.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: Kind
+    path: ../src/BindOpen.Databases/Data/Queries/Clauses/Interfaces/IDbQueryUnionClause.cs
+    startLine: 4
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  syntax:
+    content: DbQueryUnionKind Kind { get; set; }
+    parameters: []
+    return:
+      type: BindOpen.Data.Queries.DbQueryUnionKind
+    content.vb: Property Kind As DbQueryUnionKind
+  overload: BindOpen.Data.Queries.IDbQueryUnionClause.Kind*
+  modifiers.csharp:
+  - get
+  - set
+- uid: BindOpen.Data.Queries.IDbQueryUnionClause.Query
+  commentId: P:BindOpen.Data.Queries.IDbQueryUnionClause.Query
+  id: Query
+  parent: BindOpen.Data.Queries.IDbQueryUnionClause
+  langs:
+  - csharp
+  - vb
+  name: Query
+  nameWithType: IDbQueryUnionClause.Query
+  fullName: BindOpen.Data.Queries.IDbQueryUnionClause.Query
+  type: Property
+  source:
+    remote:
+      path: src/BindOpen.Databases/Data/Queries/Clauses/Interfaces/IDbQueryUnionClause.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: Query
+    path: ../src/BindOpen.Databases/Data/Queries/Clauses/Interfaces/IDbQueryUnionClause.cs
+    startLine: 5
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Queries
+  syntax:
+    content: IDbSingleQuery Query { get; set; }
+    parameters: []
+    return:
+      type: BindOpen.Data.Queries.IDbSingleQuery
+    content.vb: Property Query As IDbSingleQuery
+  overload: BindOpen.Data.Queries.IDbQueryUnionClause.Query*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: BindOpen.Data.Queries
+  commentId: N:BindOpen.Data.Queries
+  name: BindOpen.Data.Queries
+  nameWithType: BindOpen.Data.Queries
+  fullName: BindOpen.Data.Queries
+- uid: BindOpen.Data.Queries.IDbQueryUnionClause.Kind*
+  commentId: Overload:BindOpen.Data.Queries.IDbQueryUnionClause.Kind
+  name: Kind
+  nameWithType: IDbQueryUnionClause.Kind
+  fullName: BindOpen.Data.Queries.IDbQueryUnionClause.Kind
+- uid: BindOpen.Data.Queries.DbQueryUnionKind
+  commentId: T:BindOpen.Data.Queries.DbQueryUnionKind
+  parent: BindOpen.Data.Queries
+  name: DbQueryUnionKind
+  nameWithType: DbQueryUnionKind
+  fullName: BindOpen.Data.Queries.DbQueryUnionKind
+- uid: BindOpen.Data.Queries.IDbQueryUnionClause.Query*
+  commentId: Overload:BindOpen.Data.Queries.IDbQueryUnionClause.Query
+  name: Query
+  nameWithType: IDbQueryUnionClause.Query
+  fullName: BindOpen.Data.Queries.IDbQueryUnionClause.Query
+- uid: BindOpen.Data.Queries.IDbSingleQuery
+  commentId: T:BindOpen.Data.Queries.IDbSingleQuery
+  parent: BindOpen.Data.Queries
+  name: IDbSingleQuery
+  nameWithType: IDbSingleQuery
+  fullName: BindOpen.Data.Queries.IDbSingleQuery
+shouldSkipMarkup: true

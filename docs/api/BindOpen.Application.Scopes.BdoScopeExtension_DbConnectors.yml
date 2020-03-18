@@ -1,0 +1,606 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors
+  commentId: T:BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors
+  id: BdoScopeExtension_DbConnectors
+  parent: BindOpen.Application.Scopes
+  children:
+  - BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors.CreateDbConnector(BindOpen.Application.Scopes.IBdoScope,BindOpen.Extensions.Runtime.IBdoConnectorConfiguration,System.String,BindOpen.System.Diagnostics.IBdoLog,BindOpen.System.Scripting.IBdoScriptVariableSet)
+  - BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors.CreateDbConnector``1(BindOpen.Application.Scopes.IBdoScope,BindOpen.Extensions.Runtime.IBdoConnectorConfiguration,System.String,BindOpen.System.Diagnostics.IBdoLog,BindOpen.System.Scripting.IBdoScriptVariableSet)
+  - BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors.CreateDbConnector``1(BindOpen.Application.Scopes.IBdoScope,System.String)
+  langs:
+  - csharp
+  - vb
+  name: BdoScopeExtension_DbConnectors
+  nameWithType: BdoScopeExtension_DbConnectors
+  fullName: BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors
+  type: Class
+  source:
+    remote:
+      path: src/BindOpen.Databases/Application/Scopes/BdoScopeExtension_DbConnectors.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: BdoScopeExtension_DbConnectors
+    path: ../src/BindOpen.Databases/Application/Scopes/BdoScopeExtension_DbConnectors.cs
+    startLine: 10
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Application.Scopes
+  summary: "\nThis class represents a BindOpen scope extension.\n"
+  example: []
+  syntax:
+    content: public static class BdoScopeExtension_DbConnectors
+    content.vb: Public Module BdoScopeExtension_DbConnectors
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors.CreateDbConnector``1(BindOpen.Application.Scopes.IBdoScope,System.String)
+  commentId: M:BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors.CreateDbConnector``1(BindOpen.Application.Scopes.IBdoScope,System.String)
+  id: CreateDbConnector``1(BindOpen.Application.Scopes.IBdoScope,System.String)
+  isExtensionMethod: true
+  parent: BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors
+  langs:
+  - csharp
+  - vb
+  name: CreateDbConnector<T>(IBdoScope, String)
+  nameWithType: BdoScopeExtension_DbConnectors.CreateDbConnector<T>(IBdoScope, String)
+  fullName: BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors.CreateDbConnector<T>(BindOpen.Application.Scopes.IBdoScope, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Databases/Application/Scopes/BdoScopeExtension_DbConnectors.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: CreateDbConnector
+    path: ../src/BindOpen.Databases/Application/Scopes/BdoScopeExtension_DbConnectors.cs
+    startLine: 21
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Application.Scopes
+  summary: "\nCreates the instance of the specified definition.\n"
+  example: []
+  syntax:
+    content: >-
+      public static T CreateDbConnector<T>(this IBdoScope scope, string name = null)
+          where T : class, IBdoDbConnector, new()
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: name
+      type: System.String
+      description: The name to consider.
+    typeParameters:
+    - id: T
+      description: The connector class to return.
+    return:
+      type: '{T}'
+      description: Returns the created connector.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CreateDbConnector(Of T As {Class, IBdoDbConnector, New})(scope As IBdoScope, name As String = Nothing) As T
+  overload: BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors.CreateDbConnector*
+  nameWithType.vb: BdoScopeExtension_DbConnectors.CreateDbConnector(Of T)(IBdoScope, String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors.CreateDbConnector(Of T)(BindOpen.Application.Scopes.IBdoScope, System.String)
+  name.vb: CreateDbConnector(Of T)(IBdoScope, String)
+- uid: BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors.CreateDbConnector``1(BindOpen.Application.Scopes.IBdoScope,BindOpen.Extensions.Runtime.IBdoConnectorConfiguration,System.String,BindOpen.System.Diagnostics.IBdoLog,BindOpen.System.Scripting.IBdoScriptVariableSet)
+  commentId: M:BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors.CreateDbConnector``1(BindOpen.Application.Scopes.IBdoScope,BindOpen.Extensions.Runtime.IBdoConnectorConfiguration,System.String,BindOpen.System.Diagnostics.IBdoLog,BindOpen.System.Scripting.IBdoScriptVariableSet)
+  id: CreateDbConnector``1(BindOpen.Application.Scopes.IBdoScope,BindOpen.Extensions.Runtime.IBdoConnectorConfiguration,System.String,BindOpen.System.Diagnostics.IBdoLog,BindOpen.System.Scripting.IBdoScriptVariableSet)
+  isExtensionMethod: true
+  parent: BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors
+  langs:
+  - csharp
+  - vb
+  name: CreateDbConnector<T>(IBdoScope, IBdoConnectorConfiguration, String, IBdoLog, IBdoScriptVariableSet)
+  nameWithType: BdoScopeExtension_DbConnectors.CreateDbConnector<T>(IBdoScope, IBdoConnectorConfiguration, String, IBdoLog, IBdoScriptVariableSet)
+  fullName: BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors.CreateDbConnector<T>(BindOpen.Application.Scopes.IBdoScope, BindOpen.Extensions.Runtime.IBdoConnectorConfiguration, System.String, BindOpen.System.Diagnostics.IBdoLog, BindOpen.System.Scripting.IBdoScriptVariableSet)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Databases/Application/Scopes/BdoScopeExtension_DbConnectors.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: CreateDbConnector
+    path: ../src/BindOpen.Databases/Application/Scopes/BdoScopeExtension_DbConnectors.cs
+    startLine: 36
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Application.Scopes
+  summary: "\nCreates the instance of the specified definition.\n"
+  example: []
+  syntax:
+    content: >-
+      public static T CreateDbConnector<T>(this IBdoScope scope, IBdoConnectorConfiguration configuration, string name = null, IBdoLog log = null, IBdoScriptVariableSet scriptVariableSet = null)
+          where T : class, IBdoDbConnector, new()
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: configuration
+      type: BindOpen.Extensions.Runtime.IBdoConnectorConfiguration
+      description: The configuration to consider.
+    - id: name
+      type: System.String
+      description: The name to consider.
+    - id: log
+      type: BindOpen.System.Diagnostics.IBdoLog
+      description: The log to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: The script variable set to use.
+    typeParameters:
+    - id: T
+      description: The connector class to return.
+    return:
+      type: '{T}'
+      description: Returns the created connector.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CreateDbConnector(Of T As {Class, IBdoDbConnector, New})(scope As IBdoScope, configuration As IBdoConnectorConfiguration, name As String = Nothing, log As IBdoLog = Nothing, scriptVariableSet As IBdoScriptVariableSet = Nothing) As T
+  overload: BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors.CreateDbConnector*
+  nameWithType.vb: BdoScopeExtension_DbConnectors.CreateDbConnector(Of T)(IBdoScope, IBdoConnectorConfiguration, String, IBdoLog, IBdoScriptVariableSet)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors.CreateDbConnector(Of T)(BindOpen.Application.Scopes.IBdoScope, BindOpen.Extensions.Runtime.IBdoConnectorConfiguration, System.String, BindOpen.System.Diagnostics.IBdoLog, BindOpen.System.Scripting.IBdoScriptVariableSet)
+  name.vb: CreateDbConnector(Of T)(IBdoScope, IBdoConnectorConfiguration, String, IBdoLog, IBdoScriptVariableSet)
+- uid: BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors.CreateDbConnector(BindOpen.Application.Scopes.IBdoScope,BindOpen.Extensions.Runtime.IBdoConnectorConfiguration,System.String,BindOpen.System.Diagnostics.IBdoLog,BindOpen.System.Scripting.IBdoScriptVariableSet)
+  commentId: M:BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors.CreateDbConnector(BindOpen.Application.Scopes.IBdoScope,BindOpen.Extensions.Runtime.IBdoConnectorConfiguration,System.String,BindOpen.System.Diagnostics.IBdoLog,BindOpen.System.Scripting.IBdoScriptVariableSet)
+  id: CreateDbConnector(BindOpen.Application.Scopes.IBdoScope,BindOpen.Extensions.Runtime.IBdoConnectorConfiguration,System.String,BindOpen.System.Diagnostics.IBdoLog,BindOpen.System.Scripting.IBdoScriptVariableSet)
+  isExtensionMethod: true
+  parent: BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors
+  langs:
+  - csharp
+  - vb
+  name: CreateDbConnector(IBdoScope, IBdoConnectorConfiguration, String, IBdoLog, IBdoScriptVariableSet)
+  nameWithType: BdoScopeExtension_DbConnectors.CreateDbConnector(IBdoScope, IBdoConnectorConfiguration, String, IBdoLog, IBdoScriptVariableSet)
+  fullName: BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors.CreateDbConnector(BindOpen.Application.Scopes.IBdoScope, BindOpen.Extensions.Runtime.IBdoConnectorConfiguration, System.String, BindOpen.System.Diagnostics.IBdoLog, BindOpen.System.Scripting.IBdoScriptVariableSet)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Databases/Application/Scopes/BdoScopeExtension_DbConnectors.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: CreateDbConnector
+    path: ../src/BindOpen.Databases/Application/Scopes/BdoScopeExtension_DbConnectors.cs
+    startLine: 53
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Application.Scopes
+  summary: "\nCreates the instance of the specified definition.\n"
+  example: []
+  syntax:
+    content: public static BdoDbConnector CreateDbConnector(this IBdoScope scope, IBdoConnectorConfiguration configuration = null, string name = null, IBdoLog log = null, IBdoScriptVariableSet scriptVariableSet = null)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: configuration
+      type: BindOpen.Extensions.Runtime.IBdoConnectorConfiguration
+      description: The configuration to consider.
+    - id: name
+      type: System.String
+      description: The name to consider.
+    - id: log
+      type: BindOpen.System.Diagnostics.IBdoLog
+      description: The log to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: The script variable set to use.
+    return:
+      type: BindOpen.Extensions.Connectors.BdoDbConnector
+      description: Returns the created connector.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CreateDbConnector(scope As IBdoScope, configuration As IBdoConnectorConfiguration = Nothing, name As String = Nothing, log As IBdoLog = Nothing, scriptVariableSet As IBdoScriptVariableSet = Nothing) As BdoDbConnector
+  overload: BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors.CreateDbConnector*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: BindOpen.Application.Scopes
+  commentId: N:BindOpen.Application.Scopes
+  name: BindOpen.Application.Scopes
+  nameWithType: BindOpen.Application.Scopes
+  fullName: BindOpen.Application.Scopes
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors.CreateDbConnector*
+  commentId: Overload:BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors.CreateDbConnector
+  name: CreateDbConnector
+  nameWithType: BdoScopeExtension_DbConnectors.CreateDbConnector
+  fullName: BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors.CreateDbConnector
+- uid: BindOpen.Application.Scopes.IBdoScope
+  commentId: T:BindOpen.Application.Scopes.IBdoScope
+  parent: BindOpen.Application.Scopes
+  isExternal: true
+  name: IBdoScope
+  nameWithType: IBdoScope
+  fullName: BindOpen.Application.Scopes.IBdoScope
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: BindOpen.Extensions.Runtime.IBdoConnectorConfiguration
+  commentId: T:BindOpen.Extensions.Runtime.IBdoConnectorConfiguration
+  parent: BindOpen.Extensions.Runtime
+  isExternal: true
+  name: IBdoConnectorConfiguration
+  nameWithType: IBdoConnectorConfiguration
+  fullName: BindOpen.Extensions.Runtime.IBdoConnectorConfiguration
+- uid: BindOpen.System.Diagnostics.IBdoLog
+  commentId: T:BindOpen.System.Diagnostics.IBdoLog
+  parent: BindOpen.System.Diagnostics
+  isExternal: true
+  name: IBdoLog
+  nameWithType: IBdoLog
+  fullName: BindOpen.System.Diagnostics.IBdoLog
+- uid: BindOpen.System.Scripting.IBdoScriptVariableSet
+  commentId: T:BindOpen.System.Scripting.IBdoScriptVariableSet
+  parent: BindOpen.System.Scripting
+  isExternal: true
+  name: IBdoScriptVariableSet
+  nameWithType: IBdoScriptVariableSet
+  fullName: BindOpen.System.Scripting.IBdoScriptVariableSet
+- uid: BindOpen.Extensions.Runtime
+  commentId: N:BindOpen.Extensions.Runtime
+  isExternal: true
+  name: BindOpen.Extensions.Runtime
+  nameWithType: BindOpen.Extensions.Runtime
+  fullName: BindOpen.Extensions.Runtime
+- uid: BindOpen.System.Diagnostics
+  commentId: N:BindOpen.System.Diagnostics
+  isExternal: true
+  name: BindOpen.System.Diagnostics
+  nameWithType: BindOpen.System.Diagnostics
+  fullName: BindOpen.System.Diagnostics
+- uid: BindOpen.System.Scripting
+  commentId: N:BindOpen.System.Scripting
+  isExternal: true
+  name: BindOpen.System.Scripting
+  nameWithType: BindOpen.System.Scripting
+  fullName: BindOpen.System.Scripting
+- uid: BindOpen.Extensions.Connectors.BdoDbConnector
+  commentId: T:BindOpen.Extensions.Connectors.BdoDbConnector
+  parent: BindOpen.Extensions.Connectors
+  name: BdoDbConnector
+  nameWithType: BdoDbConnector
+  fullName: BindOpen.Extensions.Connectors.BdoDbConnector
+- uid: BindOpen.Extensions.Connectors
+  commentId: N:BindOpen.Extensions.Connectors
+  name: BindOpen.Extensions.Connectors
+  nameWithType: BindOpen.Extensions.Connectors
+  fullName: BindOpen.Extensions.Connectors
+shouldSkipMarkup: true

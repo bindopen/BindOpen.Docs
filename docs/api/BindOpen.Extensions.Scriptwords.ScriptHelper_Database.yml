@@ -1,0 +1,654 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Extensions.Scriptwords.ScriptHelper_Database
+  commentId: T:BindOpen.Extensions.Scriptwords.ScriptHelper_Database
+  id: ScriptHelper_Database
+  parent: BindOpen.Extensions.Scriptwords
+  children:
+  - BindOpen.Extensions.Scriptwords.ScriptHelper_Database.GetSqlNumberAndFilterString(System.String,System.Collections.Generic.List{System.String})
+  - BindOpen.Extensions.Scriptwords.ScriptHelper_Database.GetSqlNumberOrFilterString(System.String,System.Collections.Generic.List{System.String})
+  - BindOpen.Extensions.Scriptwords.ScriptHelper_Database.GetSqlTextAndFilterString(System.String,System.Collections.Generic.List{System.String})
+  - BindOpen.Extensions.Scriptwords.ScriptHelper_Database.GetSqlTextOrFilterString(System.String,System.Collections.Generic.List{System.String})
+  langs:
+  - csharp
+  - vb
+  name: ScriptHelper_Database
+  nameWithType: ScriptHelper_Database
+  fullName: BindOpen.Extensions.Scriptwords.ScriptHelper_Database
+  type: Class
+  source:
+    remote:
+      path: src/BindOpen.Databases/Extensions/Scriptwords/ScriptHelper_Database.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: ScriptHelper_Database
+    path: ../src/BindOpen.Databases/Extensions/Scriptwords/ScriptHelper_Database.cs
+    startLine: 8
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nThis class represents a script helper concerning database.\n"
+  example: []
+  syntax:
+    content: public static class ScriptHelper_Database
+    content.vb: Public Module ScriptHelper_Database
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: BindOpen.Extensions.Scriptwords.ScriptHelper_Database.GetSqlNumberAndFilterString(System.String,System.Collections.Generic.List{System.String})
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptHelper_Database.GetSqlNumberAndFilterString(System.String,System.Collections.Generic.List{System.String})
+  id: GetSqlNumberAndFilterString(System.String,System.Collections.Generic.List{System.String})
+  parent: BindOpen.Extensions.Scriptwords.ScriptHelper_Database
+  langs:
+  - csharp
+  - vb
+  name: GetSqlNumberAndFilterString(String, List<String>)
+  nameWithType: ScriptHelper_Database.GetSqlNumberAndFilterString(String, List<String>)
+  fullName: BindOpen.Extensions.Scriptwords.ScriptHelper_Database.GetSqlNumberAndFilterString(System.String, System.Collections.Generic.List<System.String>)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Databases/Extensions/Scriptwords/ScriptHelper_Database.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: GetSqlNumberAndFilterString
+    path: ../src/BindOpen.Databases/Extensions/Scriptwords/ScriptHelper_Database.cs
+    startLine: 68
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nGets the BdO filter string that AND filters number values.\n"
+  example: []
+  syntax:
+    content: public static string GetSqlNumberAndFilterString(string sqlDbFieldString, List<string> values)
+    parameters:
+    - id: sqlDbFieldString
+      type: System.String
+      description: The Sql script representing the data field to consider.
+    - id: values
+      type: System.Collections.Generic.List{System.String}
+      description: Values used to filter.
+    return:
+      type: System.String
+      description: The string that allows to filter users and workgroup users.
+    content.vb: Public Shared Function GetSqlNumberAndFilterString(sqlDbFieldString As String, values As List(Of String)) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptHelper_Database.GetSqlNumberAndFilterString*
+  nameWithType.vb: ScriptHelper_Database.GetSqlNumberAndFilterString(String, List(Of String))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptHelper_Database.GetSqlNumberAndFilterString(System.String, System.Collections.Generic.List(Of System.String))
+  name.vb: GetSqlNumberAndFilterString(String, List(Of String))
+- uid: BindOpen.Extensions.Scriptwords.ScriptHelper_Database.GetSqlNumberOrFilterString(System.String,System.Collections.Generic.List{System.String})
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptHelper_Database.GetSqlNumberOrFilterString(System.String,System.Collections.Generic.List{System.String})
+  id: GetSqlNumberOrFilterString(System.String,System.Collections.Generic.List{System.String})
+  parent: BindOpen.Extensions.Scriptwords.ScriptHelper_Database
+  langs:
+  - csharp
+  - vb
+  name: GetSqlNumberOrFilterString(String, List<String>)
+  nameWithType: ScriptHelper_Database.GetSqlNumberOrFilterString(String, List<String>)
+  fullName: BindOpen.Extensions.Scriptwords.ScriptHelper_Database.GetSqlNumberOrFilterString(System.String, System.Collections.Generic.List<System.String>)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Databases/Extensions/Scriptwords/ScriptHelper_Database.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: GetSqlNumberOrFilterString
+    path: ../src/BindOpen.Databases/Extensions/Scriptwords/ScriptHelper_Database.cs
+    startLine: 81
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nGets the BdO filter string that AND filters number values.\n"
+  example: []
+  syntax:
+    content: public static string GetSqlNumberOrFilterString(string sqlDbFieldString, List<string> values)
+    parameters:
+    - id: sqlDbFieldString
+      type: System.String
+      description: The Sql script representing the data field to consider.
+    - id: values
+      type: System.Collections.Generic.List{System.String}
+      description: Values used to filter.
+    return:
+      type: System.String
+      description: The string that allows to filter users and workgroup users.
+    content.vb: Public Shared Function GetSqlNumberOrFilterString(sqlDbFieldString As String, values As List(Of String)) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptHelper_Database.GetSqlNumberOrFilterString*
+  nameWithType.vb: ScriptHelper_Database.GetSqlNumberOrFilterString(String, List(Of String))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptHelper_Database.GetSqlNumberOrFilterString(System.String, System.Collections.Generic.List(Of System.String))
+  name.vb: GetSqlNumberOrFilterString(String, List(Of String))
+- uid: BindOpen.Extensions.Scriptwords.ScriptHelper_Database.GetSqlTextAndFilterString(System.String,System.Collections.Generic.List{System.String})
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptHelper_Database.GetSqlTextAndFilterString(System.String,System.Collections.Generic.List{System.String})
+  id: GetSqlTextAndFilterString(System.String,System.Collections.Generic.List{System.String})
+  parent: BindOpen.Extensions.Scriptwords.ScriptHelper_Database
+  langs:
+  - csharp
+  - vb
+  name: GetSqlTextAndFilterString(String, List<String>)
+  nameWithType: ScriptHelper_Database.GetSqlTextAndFilterString(String, List<String>)
+  fullName: BindOpen.Extensions.Scriptwords.ScriptHelper_Database.GetSqlTextAndFilterString(System.String, System.Collections.Generic.List<System.String>)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Databases/Extensions/Scriptwords/ScriptHelper_Database.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: GetSqlTextAndFilterString
+    path: ../src/BindOpen.Databases/Extensions/Scriptwords/ScriptHelper_Database.cs
+    startLine: 141
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nGets the BdO filter string that AND filters text values.\n"
+  example: []
+  syntax:
+    content: public static string GetSqlTextAndFilterString(string sqlDbFieldString, List<string> values)
+    parameters:
+    - id: sqlDbFieldString
+      type: System.String
+      description: The Sql script representing the data field to consider.
+    - id: values
+      type: System.Collections.Generic.List{System.String}
+      description: Values used to filter.
+    return:
+      type: System.String
+      description: The string that allows to filter users and workgroup users.
+    content.vb: Public Shared Function GetSqlTextAndFilterString(sqlDbFieldString As String, values As List(Of String)) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptHelper_Database.GetSqlTextAndFilterString*
+  nameWithType.vb: ScriptHelper_Database.GetSqlTextAndFilterString(String, List(Of String))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptHelper_Database.GetSqlTextAndFilterString(System.String, System.Collections.Generic.List(Of System.String))
+  name.vb: GetSqlTextAndFilterString(String, List(Of String))
+- uid: BindOpen.Extensions.Scriptwords.ScriptHelper_Database.GetSqlTextOrFilterString(System.String,System.Collections.Generic.List{System.String})
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptHelper_Database.GetSqlTextOrFilterString(System.String,System.Collections.Generic.List{System.String})
+  id: GetSqlTextOrFilterString(System.String,System.Collections.Generic.List{System.String})
+  parent: BindOpen.Extensions.Scriptwords.ScriptHelper_Database
+  langs:
+  - csharp
+  - vb
+  name: GetSqlTextOrFilterString(String, List<String>)
+  nameWithType: ScriptHelper_Database.GetSqlTextOrFilterString(String, List<String>)
+  fullName: BindOpen.Extensions.Scriptwords.ScriptHelper_Database.GetSqlTextOrFilterString(System.String, System.Collections.Generic.List<System.String>)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Databases/Extensions/Scriptwords/ScriptHelper_Database.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: GetSqlTextOrFilterString
+    path: ../src/BindOpen.Databases/Extensions/Scriptwords/ScriptHelper_Database.cs
+    startLine: 154
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nGets the BdO filter string that AND filters text values.\n"
+  example: []
+  syntax:
+    content: public static string GetSqlTextOrFilterString(string sqlDbFieldString, List<string> values)
+    parameters:
+    - id: sqlDbFieldString
+      type: System.String
+      description: The Sql script representing the data field to consider.
+    - id: values
+      type: System.Collections.Generic.List{System.String}
+      description: Values used to filter.
+    return:
+      type: System.String
+      description: The string that allows to filter users and workgroup users.
+    content.vb: Public Shared Function GetSqlTextOrFilterString(sqlDbFieldString As String, values As List(Of String)) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptHelper_Database.GetSqlTextOrFilterString*
+  nameWithType.vb: ScriptHelper_Database.GetSqlTextOrFilterString(String, List(Of String))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptHelper_Database.GetSqlTextOrFilterString(System.String, System.Collections.Generic.List(Of System.String))
+  name.vb: GetSqlTextOrFilterString(String, List(Of String))
+references:
+- uid: BindOpen.Extensions.Scriptwords
+  commentId: N:BindOpen.Extensions.Scriptwords
+  name: BindOpen.Extensions.Scriptwords
+  nameWithType: BindOpen.Extensions.Scriptwords
+  fullName: BindOpen.Extensions.Scriptwords
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Extensions.Scriptwords.ScriptHelper_Database.GetSqlNumberAndFilterString*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptHelper_Database.GetSqlNumberAndFilterString
+  name: GetSqlNumberAndFilterString
+  nameWithType: ScriptHelper_Database.GetSqlNumberAndFilterString
+  fullName: BindOpen.Extensions.Scriptwords.ScriptHelper_Database.GetSqlNumberAndFilterString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: System.Collections.Generic.List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: BindOpen.Extensions.Scriptwords.ScriptHelper_Database.GetSqlNumberOrFilterString*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptHelper_Database.GetSqlNumberOrFilterString
+  name: GetSqlNumberOrFilterString
+  nameWithType: ScriptHelper_Database.GetSqlNumberOrFilterString
+  fullName: BindOpen.Extensions.Scriptwords.ScriptHelper_Database.GetSqlNumberOrFilterString
+- uid: BindOpen.Extensions.Scriptwords.ScriptHelper_Database.GetSqlTextAndFilterString*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptHelper_Database.GetSqlTextAndFilterString
+  name: GetSqlTextAndFilterString
+  nameWithType: ScriptHelper_Database.GetSqlTextAndFilterString
+  fullName: BindOpen.Extensions.Scriptwords.ScriptHelper_Database.GetSqlTextAndFilterString
+- uid: BindOpen.Extensions.Scriptwords.ScriptHelper_Database.GetSqlTextOrFilterString*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptHelper_Database.GetSqlTextOrFilterString
+  name: GetSqlTextOrFilterString
+  nameWithType: ScriptHelper_Database.GetSqlTextOrFilterString
+  fullName: BindOpen.Extensions.Scriptwords.ScriptHelper_Database.GetSqlTextOrFilterString
+shouldSkipMarkup: true

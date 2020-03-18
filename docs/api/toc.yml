@@ -1,0 +1,196 @@
+### YamlMime:TableOfContent
+- uid: BindOpen.Application.Scopes
+  name: BindOpen.Application.Scopes
+  items:
+  - uid: BindOpen.Application.Scopes.BdoScopeExtension_DbConnectors
+    name: BdoScopeExtension_DbConnectors
+  - uid: BindOpen.Application.Scopes.BdoScopeExtension_MSSqlServer
+    name: BdoScopeExtension_MSSqlServer
+  - uid: BindOpen.Application.Scopes.BdoScopeExtension_PostgreSql
+    name: BdoScopeExtension_PostgreSql
+- uid: BindOpen.Application.Services
+  name: BindOpen.Application.Services
+  items:
+  - uid: BindOpen.Application.Services.BdoDbService
+    name: BdoDbService
+  - uid: BindOpen.Application.Services.BdoDbServiceFactory
+    name: BdoDbServiceFactory
+  - uid: BindOpen.Application.Services.IBdoDbService
+    name: IBdoDbService
+- uid: BindOpen.Data.Connections
+  name: BindOpen.Data.Connections
+  items:
+  - uid: BindOpen.Data.Connections.BdoDbConnection
+    name: BdoDbConnection
+  - uid: BindOpen.Data.Connections.BdoDbConnectionExtensions
+    name: BdoDbConnectionExtensions
+  - uid: BindOpen.Data.Connections.BdoDbConnectionFactory
+    name: BdoDbConnectionFactory
+  - uid: BindOpen.Data.Connections.IBdoDbConnection
+    name: IBdoDbConnection
+- uid: BindOpen.Data.Models
+  name: BindOpen.Data.Models
+  items:
+  - uid: BindOpen.Data.Models.BdoDbModel
+    name: BdoDbModel
+  - uid: BindOpen.Data.Models.BdoDbModelBuilder
+    name: BdoDbModelBuilder
+  - uid: BindOpen.Data.Models.BdoDbModelExtension
+    name: BdoDbModelExtension
+  - uid: BindOpen.Data.Models.IBdoDbModel
+    name: IBdoDbModel
+  - uid: BindOpen.Data.Models.IBdoDbModelBuilder
+    name: IBdoDbModelBuilder
+- uid: BindOpen.Data.Queries
+  name: BindOpen.Data.Queries
+  items:
+  - uid: BindOpen.Data.Queries.ApiScriptClause
+    name: ApiScriptClause
+  - uid: BindOpen.Data.Queries.ApiScriptField
+    name: ApiScriptField
+  - uid: BindOpen.Data.Queries.ApiScriptFilteringDefinition
+    name: ApiScriptFilteringDefinition
+  - uid: BindOpen.Data.Queries.ApiScriptSortingDefinition
+    name: ApiScriptSortingDefinition
+  - uid: BindOpen.Data.Queries.DbCompositeQuery
+    name: DbCompositeQuery
+  - uid: BindOpen.Data.Queries.DbDerivedTable
+    name: DbDerivedTable
+  - uid: BindOpen.Data.Queries.DbFieldViewMode
+    name: DbFieldViewMode
+  - uid: BindOpen.Data.Queries.DbFluent
+    name: DbFluent
+  - uid: BindOpen.Data.Queries.DbJoinedTable
+    name: DbJoinedTable
+  - uid: BindOpen.Data.Queries.DbQuery
+    name: DbQuery
+  - uid: BindOpen.Data.Queries.DbQueryBuilder
+    name: DbQueryBuilder
+  - uid: BindOpen.Data.Queries.DbQueryExtension
+    name: DbQueryExtension
+  - uid: BindOpen.Data.Queries.DbQueryFromClause
+    name: DbQueryFromClause
+  - uid: BindOpen.Data.Queries.DbQueryFromStatement
+    name: DbQueryFromStatement
+  - uid: BindOpen.Data.Queries.DbQueryGroupByClause
+    name: DbQueryGroupByClause
+  - uid: BindOpen.Data.Queries.DbQueryHavingClause
+    name: DbQueryHavingClause
+  - uid: BindOpen.Data.Queries.DbQueryJoinKind
+    name: DbQueryJoinKind
+  - uid: BindOpen.Data.Queries.DbQueryKind
+    name: DbQueryKind
+  - uid: BindOpen.Data.Queries.DbQueryOrderByClause
+    name: DbQueryOrderByClause
+  - uid: BindOpen.Data.Queries.DbQueryOrderByStatement
+    name: DbQueryOrderByStatement
+  - uid: BindOpen.Data.Queries.DbQueryParameterMode
+    name: DbQueryParameterMode
+  - uid: BindOpen.Data.Queries.DbQueryParameterModes
+    name: DbQueryParameterModes
+  - uid: BindOpen.Data.Queries.DbQueryUnionClause
+    name: DbQueryUnionClause
+  - uid: BindOpen.Data.Queries.DbQueryUnionKind
+    name: DbQueryUnionKind
+  - uid: BindOpen.Data.Queries.DbQueryWhereClause
+    name: DbQueryWhereClause
+  - uid: BindOpen.Data.Queries.DbSingleQuery
+    name: DbSingleQuery
+  - uid: BindOpen.Data.Queries.DbStoredQuery
+    name: DbStoredQuery
+  - uid: BindOpen.Data.Queries.DbTuple
+    name: DbTuple
+  - uid: BindOpen.Data.Queries.DbTupledTable
+    name: DbTupledTable
+  - uid: BindOpen.Data.Queries.IDbCompositeQuery
+    name: IDbCompositeQuery
+  - uid: BindOpen.Data.Queries.IDbQuery
+    name: IDbQuery
+  - uid: BindOpen.Data.Queries.IDbQueryCondition
+    name: IDbQueryCondition
+  - uid: BindOpen.Data.Queries.IDbQueryFromClause
+    name: IDbQueryFromClause
+  - uid: BindOpen.Data.Queries.IDbQueryFromStatement
+    name: IDbQueryFromStatement
+  - uid: BindOpen.Data.Queries.IDbQueryGroupByClause
+    name: IDbQueryGroupByClause
+  - uid: BindOpen.Data.Queries.IDbQueryHavingClause
+    name: IDbQueryHavingClause
+  - uid: BindOpen.Data.Queries.IDbQueryItem
+    name: IDbQueryItem
+  - uid: BindOpen.Data.Queries.IDbQueryOrderByClause
+    name: IDbQueryOrderByClause
+  - uid: BindOpen.Data.Queries.IDbQueryOrderByStatement
+    name: IDbQueryOrderByStatement
+  - uid: BindOpen.Data.Queries.IDbQueryUnionClause
+    name: IDbQueryUnionClause
+  - uid: BindOpen.Data.Queries.IDbQueryWhereClause
+    name: IDbQueryWhereClause
+  - uid: BindOpen.Data.Queries.IDbSingleQuery
+    name: IDbSingleQuery
+  - uid: BindOpen.Data.Queries.IDbStoredQuery
+    name: IDbStoredQuery
+  - uid: BindOpen.Data.Queries.IDbTuple
+    name: IDbTuple
+  - uid: BindOpen.Data.Queries.StoredProcedureDbQuery
+    name: StoredProcedureDbQuery
+- uid: BindOpen.Data.Stores
+  name: BindOpen.Data.Stores
+  items:
+  - uid: BindOpen.Data.Stores.BdoDataStoreExtensions
+    name: BdoDataStoreExtensions
+  - uid: BindOpen.Data.Stores.BdoDbModelDepot
+    name: BdoDbModelDepot
+  - uid: BindOpen.Data.Stores.IBdoDbModelDepot
+    name: IBdoDbModelDepot
+- uid: BindOpen.Databases.Extensions
+  name: BindOpen.Databases.Extensions
+  items:
+  - uid: BindOpen.Databases.Extensions.Extension_database
+    name: Extension_database
+- uid: BindOpen.Extensions.Carriers
+  name: BindOpen.Extensions.Carriers
+  items:
+  - uid: BindOpen.Extensions.Carriers.BdoDbCarrierKind
+    name: BdoDbCarrierKind
+  - uid: BindOpen.Extensions.Carriers.BdoDbFieldAttribute
+    name: BdoDbFieldAttribute
+  - uid: BindOpen.Extensions.Carriers.BdoDbTableAttribute
+    name: BdoDbTableAttribute
+  - uid: BindOpen.Extensions.Carriers.DatabaseCarrierKindExtension
+    name: DatabaseCarrierKindExtension
+  - uid: BindOpen.Extensions.Carriers.DbField
+    name: DbField
+  - uid: BindOpen.Extensions.Carriers.DbTable
+    name: DbTable
+- uid: BindOpen.Extensions.Connectors
+  name: BindOpen.Extensions.Connectors
+  items:
+  - uid: BindOpen.Extensions.Connectors.BdoDbConnector
+    name: BdoDbConnector
+  - uid: BindOpen.Extensions.Connectors.BdoDbConnector_MSSqlServer
+    name: BdoDbConnector_MSSqlServer
+  - uid: BindOpen.Extensions.Connectors.BdoDbConnector_PostgreSql
+    name: BdoDbConnector_PostgreSql
+  - uid: BindOpen.Extensions.Connectors.BdoDbConnectorKind
+    name: BdoDbConnectorKind
+  - uid: BindOpen.Extensions.Connectors.ConnectorKind_databaseExtension
+    name: ConnectorKind_databaseExtension
+  - uid: BindOpen.Extensions.Connectors.IBdoDbConnector
+    name: IBdoDbConnector
+- uid: BindOpen.Extensions.References
+  name: BindOpen.Extensions.References
+  items:
+  - uid: BindOpen.Extensions.References.BdoExtensionReferenceCollectionExtension
+    name: BdoExtensionReferenceCollectionExtension
+  - uid: BindOpen.Extensions.References.ExtensionReferenceFactory
+    name: ExtensionReferenceFactory
+- uid: BindOpen.Extensions.Scriptwords
+  name: BindOpen.Extensions.Scriptwords
+  items:
+  - uid: BindOpen.Extensions.Scriptwords.ScriptHelper_Database
+    name: ScriptHelper_Database
+  - uid: BindOpen.Extensions.Scriptwords.ScriptVariableKey_Database
+    name: ScriptVariableKey_Database
+  - uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_Database
+    name: ScriptwordDefinition_Database

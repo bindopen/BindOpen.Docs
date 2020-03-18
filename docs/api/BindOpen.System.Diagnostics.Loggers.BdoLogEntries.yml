@@ -1,0 +1,1289 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.System.Diagnostics.Loggers.BdoLogEntries
+  commentId: T:BindOpen.System.Diagnostics.Loggers.BdoLogEntries
+  id: BdoLogEntries
+  parent: BindOpen.System.Diagnostics.Loggers
+  children:
+  - BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Description
+  - BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Detail
+  - BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Events
+  - BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Id
+  - BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Name
+  - BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__ProcessExecution_CustomStatus
+  - BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__ProcessExecution_Detail
+  - BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__ProcessExecution_Duration
+  - BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__ProcessExecution_EndDate
+  - BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__ProcessExecution_Location
+  - BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__ProcessExecution_ProgressIndex
+  - BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__ProcessExecution_ProgressMax
+  - BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__ProcessExecution_RestartDate
+  - BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__ProcessExecution_ResultLevel
+  - BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__ProcessExecution_StartDate
+  - BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__ProcessExecution_State
+  - BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__ProcessExecution_Status
+  - BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Task_Description
+  - BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Task_Detail
+  - BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Task_Id
+  - BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Task_InputDetail
+  - BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Task_MaximumIndex
+  - BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Task_Name
+  - BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Task_OutputDetail
+  - BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Task_Title
+  - BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Title
+  langs:
+  - csharp
+  - vb
+  name: BdoLogEntries
+  nameWithType: BdoLogEntries
+  fullName: BindOpen.System.Diagnostics.Loggers.BdoLogEntries
+  type: Class
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: BdoLogEntries
+    path: ../src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+    startLine: 5
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Diagnostics.Loggers
+  summary: "\nThis enumeration lists the possible log entries.\n"
+  example: []
+  syntax:
+    content: public static class BdoLogEntries
+    content.vb: Public Module BdoLogEntries
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Id
+  commentId: F:BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Id
+  id: __Id
+  parent: BindOpen.System.Diagnostics.Loggers.BdoLogEntries
+  langs:
+  - csharp
+  - vb
+  name: __Id
+  nameWithType: BdoLogEntries.__Id
+  fullName: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Id
+  type: Field
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: __Id
+    path: ../src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+    startLine: 10
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Diagnostics.Loggers
+  summary: "\nThe ID of the log.\n"
+  example: []
+  syntax:
+    content: public const string __Id = "id"
+    return:
+      type: System.String
+    content.vb: Public Const __Id As String = "id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Name
+  commentId: F:BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Name
+  id: __Name
+  parent: BindOpen.System.Diagnostics.Loggers.BdoLogEntries
+  langs:
+  - csharp
+  - vb
+  name: __Name
+  nameWithType: BdoLogEntries.__Name
+  fullName: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Name
+  type: Field
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: __Name
+    path: ../src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+    startLine: 15
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Diagnostics.Loggers
+  summary: "\nThe name of the log.\n"
+  example: []
+  syntax:
+    content: public const string __Name = "name"
+    return:
+      type: System.String
+    content.vb: Public Const __Name As String = "name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Title
+  commentId: F:BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Title
+  id: __Title
+  parent: BindOpen.System.Diagnostics.Loggers.BdoLogEntries
+  langs:
+  - csharp
+  - vb
+  name: __Title
+  nameWithType: BdoLogEntries.__Title
+  fullName: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Title
+  type: Field
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: __Title
+    path: ../src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+    startLine: 21
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Diagnostics.Loggers
+  summary: "\nThe title of the log.\n"
+  example: []
+  syntax:
+    content: public const string __Title = "title"
+    return:
+      type: System.String
+    content.vb: Public Const __Title As String = "title"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Description
+  commentId: F:BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Description
+  id: __Description
+  parent: BindOpen.System.Diagnostics.Loggers.BdoLogEntries
+  langs:
+  - csharp
+  - vb
+  name: __Description
+  nameWithType: BdoLogEntries.__Description
+  fullName: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Description
+  type: Field
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: __Description
+    path: ../src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+    startLine: 26
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Diagnostics.Loggers
+  summary: "\nThe description of the log.\n"
+  example: []
+  syntax:
+    content: public const string __Description = "description"
+    return:
+      type: System.String
+    content.vb: Public Const __Description As String = "description"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Detail
+  commentId: F:BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Detail
+  id: __Detail
+  parent: BindOpen.System.Diagnostics.Loggers.BdoLogEntries
+  langs:
+  - csharp
+  - vb
+  name: __Detail
+  nameWithType: BdoLogEntries.__Detail
+  fullName: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Detail
+  type: Field
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: __Detail
+    path: ../src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+    startLine: 31
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Diagnostics.Loggers
+  summary: "\nThe detail of the log.\n"
+  example: []
+  syntax:
+    content: public const string __Detail = "detail"
+    return:
+      type: System.String
+    content.vb: Public Const __Detail As String = "detail"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Events
+  commentId: F:BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Events
+  id: __Events
+  parent: BindOpen.System.Diagnostics.Loggers.BdoLogEntries
+  langs:
+  - csharp
+  - vb
+  name: __Events
+  nameWithType: BdoLogEntries.__Events
+  fullName: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Events
+  type: Field
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: __Events
+    path: ../src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+    startLine: 36
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Diagnostics.Loggers
+  summary: "\nThe events of the log.\n"
+  example: []
+  syntax:
+    content: public const string __Events = "events"
+    return:
+      type: System.String
+    content.vb: Public Const __Events As String = "events"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Task_Id
+  commentId: F:BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Task_Id
+  id: __Task_Id
+  parent: BindOpen.System.Diagnostics.Loggers.BdoLogEntries
+  langs:
+  - csharp
+  - vb
+  name: __Task_Id
+  nameWithType: BdoLogEntries.__Task_Id
+  fullName: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Task_Id
+  type: Field
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: __Task_Id
+    path: ../src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+    startLine: 41
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Diagnostics.Loggers
+  summary: "\nThe ID of the task of the log.\n"
+  example: []
+  syntax:
+    content: public const string __Task_Id = "task.id"
+    return:
+      type: System.String
+    content.vb: Public Const __Task_Id As String = "task.id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Task_Name
+  commentId: F:BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Task_Name
+  id: __Task_Name
+  parent: BindOpen.System.Diagnostics.Loggers.BdoLogEntries
+  langs:
+  - csharp
+  - vb
+  name: __Task_Name
+  nameWithType: BdoLogEntries.__Task_Name
+  fullName: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Task_Name
+  type: Field
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: __Task_Name
+    path: ../src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+    startLine: 46
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Diagnostics.Loggers
+  summary: "\nThe name of the task of the log.\n"
+  example: []
+  syntax:
+    content: public const string __Task_Name = "task.name"
+    return:
+      type: System.String
+    content.vb: Public Const __Task_Name As String = "task.name"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Task_Title
+  commentId: F:BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Task_Title
+  id: __Task_Title
+  parent: BindOpen.System.Diagnostics.Loggers.BdoLogEntries
+  langs:
+  - csharp
+  - vb
+  name: __Task_Title
+  nameWithType: BdoLogEntries.__Task_Title
+  fullName: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Task_Title
+  type: Field
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: __Task_Title
+    path: ../src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+    startLine: 51
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Diagnostics.Loggers
+  summary: "\nThe title of the task of the log.\n"
+  example: []
+  syntax:
+    content: public const string __Task_Title = "task.title"
+    return:
+      type: System.String
+    content.vb: Public Const __Task_Title As String = "task.title"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Task_Description
+  commentId: F:BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Task_Description
+  id: __Task_Description
+  parent: BindOpen.System.Diagnostics.Loggers.BdoLogEntries
+  langs:
+  - csharp
+  - vb
+  name: __Task_Description
+  nameWithType: BdoLogEntries.__Task_Description
+  fullName: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Task_Description
+  type: Field
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: __Task_Description
+    path: ../src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+    startLine: 56
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Diagnostics.Loggers
+  summary: "\nThe description of the task of the log.\n"
+  example: []
+  syntax:
+    content: public const string __Task_Description = "task.description"
+    return:
+      type: System.String
+    content.vb: Public Const __Task_Description As String = "task.description"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Task_MaximumIndex
+  commentId: F:BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Task_MaximumIndex
+  id: __Task_MaximumIndex
+  parent: BindOpen.System.Diagnostics.Loggers.BdoLogEntries
+  langs:
+  - csharp
+  - vb
+  name: __Task_MaximumIndex
+  nameWithType: BdoLogEntries.__Task_MaximumIndex
+  fullName: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Task_MaximumIndex
+  type: Field
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: __Task_MaximumIndex
+    path: ../src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+    startLine: 61
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Diagnostics.Loggers
+  summary: "\nThe maximum index of the task of the log.\n"
+  example: []
+  syntax:
+    content: public const string __Task_MaximumIndex = "task.maximumIndex"
+    return:
+      type: System.String
+    content.vb: Public Const __Task_MaximumIndex As String = "task.maximumIndex"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Task_Detail
+  commentId: F:BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Task_Detail
+  id: __Task_Detail
+  parent: BindOpen.System.Diagnostics.Loggers.BdoLogEntries
+  langs:
+  - csharp
+  - vb
+  name: __Task_Detail
+  nameWithType: BdoLogEntries.__Task_Detail
+  fullName: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Task_Detail
+  type: Field
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: __Task_Detail
+    path: ../src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+    startLine: 66
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Diagnostics.Loggers
+  summary: "\nThe detail of the task of the log.\n"
+  example: []
+  syntax:
+    content: public const string __Task_Detail = "task.detail"
+    return:
+      type: System.String
+    content.vb: Public Const __Task_Detail As String = "task.detail"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Task_InputDetail
+  commentId: F:BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Task_InputDetail
+  id: __Task_InputDetail
+  parent: BindOpen.System.Diagnostics.Loggers.BdoLogEntries
+  langs:
+  - csharp
+  - vb
+  name: __Task_InputDetail
+  nameWithType: BdoLogEntries.__Task_InputDetail
+  fullName: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Task_InputDetail
+  type: Field
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: __Task_InputDetail
+    path: ../src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+    startLine: 71
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Diagnostics.Loggers
+  summary: "\nThe input detail of the task of the log.\n"
+  example: []
+  syntax:
+    content: public const string __Task_InputDetail = "task.inputDetail"
+    return:
+      type: System.String
+    content.vb: Public Const __Task_InputDetail As String = "task.inputDetail"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Task_OutputDetail
+  commentId: F:BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Task_OutputDetail
+  id: __Task_OutputDetail
+  parent: BindOpen.System.Diagnostics.Loggers.BdoLogEntries
+  langs:
+  - csharp
+  - vb
+  name: __Task_OutputDetail
+  nameWithType: BdoLogEntries.__Task_OutputDetail
+  fullName: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__Task_OutputDetail
+  type: Field
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: __Task_OutputDetail
+    path: ../src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+    startLine: 76
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Diagnostics.Loggers
+  summary: "\nThe output detail of the task of the log.\n"
+  example: []
+  syntax:
+    content: public const string __Task_OutputDetail = "task.outputDetail"
+    return:
+      type: System.String
+    content.vb: Public Const __Task_OutputDetail As String = "task.outputDetail"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__ProcessExecution_Detail
+  commentId: F:BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__ProcessExecution_Detail
+  id: __ProcessExecution_Detail
+  parent: BindOpen.System.Diagnostics.Loggers.BdoLogEntries
+  langs:
+  - csharp
+  - vb
+  name: __ProcessExecution_Detail
+  nameWithType: BdoLogEntries.__ProcessExecution_Detail
+  fullName: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__ProcessExecution_Detail
+  type: Field
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: __ProcessExecution_Detail
+    path: ../src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+    startLine: 81
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Diagnostics.Loggers
+  summary: "\nThe detail of the process execution of the log.\n"
+  example: []
+  syntax:
+    content: public const string __ProcessExecution_Detail = "processExecution.detail"
+    return:
+      type: System.String
+    content.vb: Public Const __ProcessExecution_Detail As String = "processExecution.detail"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__ProcessExecution_Location
+  commentId: F:BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__ProcessExecution_Location
+  id: __ProcessExecution_Location
+  parent: BindOpen.System.Diagnostics.Loggers.BdoLogEntries
+  langs:
+  - csharp
+  - vb
+  name: __ProcessExecution_Location
+  nameWithType: BdoLogEntries.__ProcessExecution_Location
+  fullName: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__ProcessExecution_Location
+  type: Field
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: __ProcessExecution_Location
+    path: ../src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+    startLine: 86
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Diagnostics.Loggers
+  summary: "\nThe location of the process execution of the log.\n"
+  example: []
+  syntax:
+    content: public const string __ProcessExecution_Location = "processExecution.location"
+    return:
+      type: System.String
+    content.vb: Public Const __ProcessExecution_Location As String = "processExecution.location"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__ProcessExecution_Status
+  commentId: F:BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__ProcessExecution_Status
+  id: __ProcessExecution_Status
+  parent: BindOpen.System.Diagnostics.Loggers.BdoLogEntries
+  langs:
+  - csharp
+  - vb
+  name: __ProcessExecution_Status
+  nameWithType: BdoLogEntries.__ProcessExecution_Status
+  fullName: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__ProcessExecution_Status
+  type: Field
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: __ProcessExecution_Status
+    path: ../src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+    startLine: 91
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Diagnostics.Loggers
+  summary: "\nThe status of the process execution of the log.\n"
+  example: []
+  syntax:
+    content: public const string __ProcessExecution_Status = "processExecution.status"
+    return:
+      type: System.String
+    content.vb: Public Const __ProcessExecution_Status As String = "processExecution.status"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__ProcessExecution_State
+  commentId: F:BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__ProcessExecution_State
+  id: __ProcessExecution_State
+  parent: BindOpen.System.Diagnostics.Loggers.BdoLogEntries
+  langs:
+  - csharp
+  - vb
+  name: __ProcessExecution_State
+  nameWithType: BdoLogEntries.__ProcessExecution_State
+  fullName: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__ProcessExecution_State
+  type: Field
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: __ProcessExecution_State
+    path: ../src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+    startLine: 96
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Diagnostics.Loggers
+  summary: "\nThe state of the process execution of the log.\n"
+  example: []
+  syntax:
+    content: public const string __ProcessExecution_State = "processExecution.state"
+    return:
+      type: System.String
+    content.vb: Public Const __ProcessExecution_State As String = "processExecution.state"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__ProcessExecution_CustomStatus
+  commentId: F:BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__ProcessExecution_CustomStatus
+  id: __ProcessExecution_CustomStatus
+  parent: BindOpen.System.Diagnostics.Loggers.BdoLogEntries
+  langs:
+  - csharp
+  - vb
+  name: __ProcessExecution_CustomStatus
+  nameWithType: BdoLogEntries.__ProcessExecution_CustomStatus
+  fullName: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__ProcessExecution_CustomStatus
+  type: Field
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: __ProcessExecution_CustomStatus
+    path: ../src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+    startLine: 101
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Diagnostics.Loggers
+  summary: "\nThe custom status of the process execution of the log.\n"
+  example: []
+  syntax:
+    content: public const string __ProcessExecution_CustomStatus = "processExecution.customStatus"
+    return:
+      type: System.String
+    content.vb: Public Const __ProcessExecution_CustomStatus As String = "processExecution.customStatus"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__ProcessExecution_ProgressIndex
+  commentId: F:BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__ProcessExecution_ProgressIndex
+  id: __ProcessExecution_ProgressIndex
+  parent: BindOpen.System.Diagnostics.Loggers.BdoLogEntries
+  langs:
+  - csharp
+  - vb
+  name: __ProcessExecution_ProgressIndex
+  nameWithType: BdoLogEntries.__ProcessExecution_ProgressIndex
+  fullName: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__ProcessExecution_ProgressIndex
+  type: Field
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: __ProcessExecution_ProgressIndex
+    path: ../src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+    startLine: 106
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Diagnostics.Loggers
+  summary: "\nThe progress index of the process execution of the log.\n"
+  example: []
+  syntax:
+    content: public const string __ProcessExecution_ProgressIndex = "processExecution.progressIndex"
+    return:
+      type: System.String
+    content.vb: Public Const __ProcessExecution_ProgressIndex As String = "processExecution.progressIndex"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__ProcessExecution_ProgressMax
+  commentId: F:BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__ProcessExecution_ProgressMax
+  id: __ProcessExecution_ProgressMax
+  parent: BindOpen.System.Diagnostics.Loggers.BdoLogEntries
+  langs:
+  - csharp
+  - vb
+  name: __ProcessExecution_ProgressMax
+  nameWithType: BdoLogEntries.__ProcessExecution_ProgressMax
+  fullName: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__ProcessExecution_ProgressMax
+  type: Field
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: __ProcessExecution_ProgressMax
+    path: ../src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+    startLine: 111
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Diagnostics.Loggers
+  summary: "\nThe progress maximum of the process execution of the log.\n"
+  example: []
+  syntax:
+    content: public const string __ProcessExecution_ProgressMax = "processExecution.progressMax"
+    return:
+      type: System.String
+    content.vb: Public Const __ProcessExecution_ProgressMax As String = "processExecution.progressMax"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__ProcessExecution_StartDate
+  commentId: F:BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__ProcessExecution_StartDate
+  id: __ProcessExecution_StartDate
+  parent: BindOpen.System.Diagnostics.Loggers.BdoLogEntries
+  langs:
+  - csharp
+  - vb
+  name: __ProcessExecution_StartDate
+  nameWithType: BdoLogEntries.__ProcessExecution_StartDate
+  fullName: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__ProcessExecution_StartDate
+  type: Field
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: __ProcessExecution_StartDate
+    path: ../src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+    startLine: 116
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Diagnostics.Loggers
+  summary: "\nThe start date of the process execution of the log.\n"
+  example: []
+  syntax:
+    content: public const string __ProcessExecution_StartDate = "processExecution.startDate"
+    return:
+      type: System.String
+    content.vb: Public Const __ProcessExecution_StartDate As String = "processExecution.startDate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__ProcessExecution_RestartDate
+  commentId: F:BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__ProcessExecution_RestartDate
+  id: __ProcessExecution_RestartDate
+  parent: BindOpen.System.Diagnostics.Loggers.BdoLogEntries
+  langs:
+  - csharp
+  - vb
+  name: __ProcessExecution_RestartDate
+  nameWithType: BdoLogEntries.__ProcessExecution_RestartDate
+  fullName: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__ProcessExecution_RestartDate
+  type: Field
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: __ProcessExecution_RestartDate
+    path: ../src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+    startLine: 121
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Diagnostics.Loggers
+  summary: "\nThe restart date of the process execution of the log.\n"
+  example: []
+  syntax:
+    content: public const string __ProcessExecution_RestartDate = "processExecution.restartDate"
+    return:
+      type: System.String
+    content.vb: Public Const __ProcessExecution_RestartDate As String = "processExecution.restartDate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__ProcessExecution_EndDate
+  commentId: F:BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__ProcessExecution_EndDate
+  id: __ProcessExecution_EndDate
+  parent: BindOpen.System.Diagnostics.Loggers.BdoLogEntries
+  langs:
+  - csharp
+  - vb
+  name: __ProcessExecution_EndDate
+  nameWithType: BdoLogEntries.__ProcessExecution_EndDate
+  fullName: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__ProcessExecution_EndDate
+  type: Field
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: __ProcessExecution_EndDate
+    path: ../src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+    startLine: 126
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Diagnostics.Loggers
+  summary: "\nThe end date of the process execution of the log.\n"
+  example: []
+  syntax:
+    content: public const string __ProcessExecution_EndDate = "processExecution.endDate"
+    return:
+      type: System.String
+    content.vb: Public Const __ProcessExecution_EndDate As String = "processExecution.endDate"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__ProcessExecution_Duration
+  commentId: F:BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__ProcessExecution_Duration
+  id: __ProcessExecution_Duration
+  parent: BindOpen.System.Diagnostics.Loggers.BdoLogEntries
+  langs:
+  - csharp
+  - vb
+  name: __ProcessExecution_Duration
+  nameWithType: BdoLogEntries.__ProcessExecution_Duration
+  fullName: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__ProcessExecution_Duration
+  type: Field
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: __ProcessExecution_Duration
+    path: ../src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+    startLine: 131
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Diagnostics.Loggers
+  summary: "\nThe duration of the process execution of the log.\n"
+  example: []
+  syntax:
+    content: public const string __ProcessExecution_Duration = "processExecution.duration"
+    return:
+      type: System.String
+    content.vb: Public Const __ProcessExecution_Duration As String = "processExecution.duration"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__ProcessExecution_ResultLevel
+  commentId: F:BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__ProcessExecution_ResultLevel
+  id: __ProcessExecution_ResultLevel
+  parent: BindOpen.System.Diagnostics.Loggers.BdoLogEntries
+  langs:
+  - csharp
+  - vb
+  name: __ProcessExecution_ResultLevel
+  nameWithType: BdoLogEntries.__ProcessExecution_ResultLevel
+  fullName: BindOpen.System.Diagnostics.Loggers.BdoLogEntries.__ProcessExecution_ResultLevel
+  type: Field
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: __ProcessExecution_ResultLevel
+    path: ../src/BindOpen.Core/System/Diagnostics/Loggers/BdoLogEntries.cs
+    startLine: 136
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Diagnostics.Loggers
+  summary: "\nThe result level of the process execution of the log.\n"
+  example: []
+  syntax:
+    content: public const string __ProcessExecution_ResultLevel = "processExecution.resultLevel"
+    return:
+      type: System.String
+    content.vb: Public Const __ProcessExecution_ResultLevel As String = "processExecution.resultLevel"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: BindOpen.System.Diagnostics.Loggers
+  commentId: N:BindOpen.System.Diagnostics.Loggers
+  name: BindOpen.System.Diagnostics.Loggers
+  nameWithType: BindOpen.System.Diagnostics.Loggers
+  fullName: BindOpen.System.Diagnostics.Loggers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+shouldSkipMarkup: true

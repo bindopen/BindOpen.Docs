@@ -1,0 +1,533 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Data.Connections.BdoConnectionFactory
+  commentId: T:BindOpen.Data.Connections.BdoConnectionFactory
+  id: BdoConnectionFactory
+  parent: BindOpen.Data.Connections
+  children:
+  - BindOpen.Data.Connections.BdoConnectionFactory.Open``1(BindOpen.Application.Scopes.IBdoScope,BindOpen.Data.Items.IDatasource,System.String,BindOpen.System.Diagnostics.IBdoLog)
+  - BindOpen.Data.Connections.BdoConnectionFactory.Open``1(BindOpen.Application.Scopes.IBdoScope,BindOpen.Extensions.Runtime.IBdoConnectorConfiguration,BindOpen.System.Diagnostics.IBdoLog)
+  langs:
+  - csharp
+  - vb
+  name: BdoConnectionFactory
+  nameWithType: BdoConnectionFactory
+  fullName: BindOpen.Data.Connections.BdoConnectionFactory
+  type: Class
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Connections/Factories/BdoConnectionFactory.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: BdoConnectionFactory
+    path: ../src/BindOpen.Core/Data/Connections/Factories/BdoConnectionFactory.cs
+    startLine: 10
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Connections
+  summary: "\nThis class represents a connection service.\n"
+  example: []
+  syntax:
+    content: public static class BdoConnectionFactory
+    content.vb: Public Module BdoConnectionFactory
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: BindOpen.Data.Connections.BdoConnectionFactory.Open``1(BindOpen.Application.Scopes.IBdoScope,BindOpen.Data.Items.IDatasource,System.String,BindOpen.System.Diagnostics.IBdoLog)
+  commentId: M:BindOpen.Data.Connections.BdoConnectionFactory.Open``1(BindOpen.Application.Scopes.IBdoScope,BindOpen.Data.Items.IDatasource,System.String,BindOpen.System.Diagnostics.IBdoLog)
+  id: Open``1(BindOpen.Application.Scopes.IBdoScope,BindOpen.Data.Items.IDatasource,System.String,BindOpen.System.Diagnostics.IBdoLog)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Connections.BdoConnectionFactory
+  langs:
+  - csharp
+  - vb
+  name: Open<T>(IBdoScope, IDatasource, String, IBdoLog)
+  nameWithType: BdoConnectionFactory.Open<T>(IBdoScope, IDatasource, String, IBdoLog)
+  fullName: BindOpen.Data.Connections.BdoConnectionFactory.Open<T>(BindOpen.Application.Scopes.IBdoScope, BindOpen.Data.Items.IDatasource, System.String, BindOpen.System.Diagnostics.IBdoLog)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Connections/Factories/BdoConnectionFactory.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Open
+    path: ../src/BindOpen.Core/Data/Connections/Factories/BdoConnectionFactory.cs
+    startLine: 22
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Connections
+  summary: "\nCreates a connector.\n"
+  example: []
+  syntax:
+    content: >-
+      public static T Open<T>(this IBdoScope scope, IDatasource dataSource, string connectorDefinitionUniqueId, IBdoLog log = null)
+          where T : class, IBdoConnection
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: dataSource
+      type: BindOpen.Data.Items.IDatasource
+      description: The data source to consider.
+    - id: connectorDefinitionUniqueId
+      type: System.String
+      description: The connector definition name to consider.
+    - id: log
+      type: BindOpen.System.Diagnostics.IBdoLog
+      description: The log of execution to consider.
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+      description: Returns True if the connector has been opened. False otherwise.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Open(Of T As {Class, IBdoConnection})(scope As IBdoScope, dataSource As IDatasource, connectorDefinitionUniqueId As String, log As IBdoLog = Nothing) As T
+  overload: BindOpen.Data.Connections.BdoConnectionFactory.Open*
+  nameWithType.vb: BdoConnectionFactory.Open(Of T)(IBdoScope, IDatasource, String, IBdoLog)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Connections.BdoConnectionFactory.Open(Of T)(BindOpen.Application.Scopes.IBdoScope, BindOpen.Data.Items.IDatasource, System.String, BindOpen.System.Diagnostics.IBdoLog)
+  name.vb: Open(Of T)(IBdoScope, IDatasource, String, IBdoLog)
+- uid: BindOpen.Data.Connections.BdoConnectionFactory.Open``1(BindOpen.Application.Scopes.IBdoScope,BindOpen.Extensions.Runtime.IBdoConnectorConfiguration,BindOpen.System.Diagnostics.IBdoLog)
+  commentId: M:BindOpen.Data.Connections.BdoConnectionFactory.Open``1(BindOpen.Application.Scopes.IBdoScope,BindOpen.Extensions.Runtime.IBdoConnectorConfiguration,BindOpen.System.Diagnostics.IBdoLog)
+  id: Open``1(BindOpen.Application.Scopes.IBdoScope,BindOpen.Extensions.Runtime.IBdoConnectorConfiguration,BindOpen.System.Diagnostics.IBdoLog)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Connections.BdoConnectionFactory
+  langs:
+  - csharp
+  - vb
+  name: Open<T>(IBdoScope, IBdoConnectorConfiguration, IBdoLog)
+  nameWithType: BdoConnectionFactory.Open<T>(IBdoScope, IBdoConnectorConfiguration, IBdoLog)
+  fullName: BindOpen.Data.Connections.BdoConnectionFactory.Open<T>(BindOpen.Application.Scopes.IBdoScope, BindOpen.Extensions.Runtime.IBdoConnectorConfiguration, BindOpen.System.Diagnostics.IBdoLog)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Connections/Factories/BdoConnectionFactory.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Open
+    path: ../src/BindOpen.Core/Data/Connections/Factories/BdoConnectionFactory.cs
+    startLine: 50
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Connections
+  summary: "\nCreates a connector using the specified data module and connector unique name.\n"
+  example: []
+  syntax:
+    content: >-
+      public static T Open<T>(this IBdoScope scope, IBdoConnectorConfiguration configuration, IBdoLog log = null)
+          where T : class, IBdoConnection
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: configuration
+      type: BindOpen.Extensions.Runtime.IBdoConnectorConfiguration
+      description: The connector configuration to consider.
+    - id: log
+      type: BindOpen.System.Diagnostics.IBdoLog
+      description: The log of execution to consider.
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+      description: Returns True if the connector has been opened. False otherwise.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Open(Of T As {Class, IBdoConnection})(scope As IBdoScope, configuration As IBdoConnectorConfiguration, log As IBdoLog = Nothing) As T
+  overload: BindOpen.Data.Connections.BdoConnectionFactory.Open*
+  nameWithType.vb: BdoConnectionFactory.Open(Of T)(IBdoScope, IBdoConnectorConfiguration, IBdoLog)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Connections.BdoConnectionFactory.Open(Of T)(BindOpen.Application.Scopes.IBdoScope, BindOpen.Extensions.Runtime.IBdoConnectorConfiguration, BindOpen.System.Diagnostics.IBdoLog)
+  name.vb: Open(Of T)(IBdoScope, IBdoConnectorConfiguration, IBdoLog)
+references:
+- uid: BindOpen.Data.Connections
+  commentId: N:BindOpen.Data.Connections
+  name: BindOpen.Data.Connections
+  nameWithType: BindOpen.Data.Connections
+  fullName: BindOpen.Data.Connections
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Data.Connections.BdoConnectionFactory.Open*
+  commentId: Overload:BindOpen.Data.Connections.BdoConnectionFactory.Open
+  name: Open
+  nameWithType: BdoConnectionFactory.Open
+  fullName: BindOpen.Data.Connections.BdoConnectionFactory.Open
+- uid: BindOpen.Application.Scopes.IBdoScope
+  commentId: T:BindOpen.Application.Scopes.IBdoScope
+  parent: BindOpen.Application.Scopes
+  name: IBdoScope
+  nameWithType: IBdoScope
+  fullName: BindOpen.Application.Scopes.IBdoScope
+- uid: BindOpen.Data.Items.IDatasource
+  commentId: T:BindOpen.Data.Items.IDatasource
+  parent: BindOpen.Data.Items
+  name: IDatasource
+  nameWithType: IDatasource
+  fullName: BindOpen.Data.Items.IDatasource
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: BindOpen.System.Diagnostics.IBdoLog
+  commentId: T:BindOpen.System.Diagnostics.IBdoLog
+  parent: BindOpen.System.Diagnostics
+  name: IBdoLog
+  nameWithType: IBdoLog
+  fullName: BindOpen.System.Diagnostics.IBdoLog
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: BindOpen.Application.Scopes
+  commentId: N:BindOpen.Application.Scopes
+  name: BindOpen.Application.Scopes
+  nameWithType: BindOpen.Application.Scopes
+  fullName: BindOpen.Application.Scopes
+- uid: BindOpen.Data.Items
+  commentId: N:BindOpen.Data.Items
+  name: BindOpen.Data.Items
+  nameWithType: BindOpen.Data.Items
+  fullName: BindOpen.Data.Items
+- uid: BindOpen.System.Diagnostics
+  commentId: N:BindOpen.System.Diagnostics
+  name: BindOpen.System.Diagnostics
+  nameWithType: BindOpen.System.Diagnostics
+  fullName: BindOpen.System.Diagnostics
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: BindOpen.Extensions.Runtime.IBdoConnectorConfiguration
+  commentId: T:BindOpen.Extensions.Runtime.IBdoConnectorConfiguration
+  parent: BindOpen.Extensions.Runtime
+  name: IBdoConnectorConfiguration
+  nameWithType: IBdoConnectorConfiguration
+  fullName: BindOpen.Extensions.Runtime.IBdoConnectorConfiguration
+- uid: BindOpen.Extensions.Runtime
+  commentId: N:BindOpen.Extensions.Runtime
+  name: BindOpen.Extensions.Runtime
+  nameWithType: BindOpen.Extensions.Runtime
+  fullName: BindOpen.Extensions.Runtime
+shouldSkipMarkup: true

@@ -1,0 +1,536 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Data.Models.BdoDbModelExtension
+  commentId: T:BindOpen.Data.Models.BdoDbModelExtension
+  id: BdoDbModelExtension
+  parent: BindOpen.Data.Models
+  children:
+  - BindOpen.Data.Models.BdoDbModelExtension.UseQuery(BindOpen.Data.Models.BdoDbModel,System.String,System.Func{BindOpen.Data.Models.IBdoDbModel,BindOpen.Data.Queries.IDbQuery})
+  langs:
+  - csharp
+  - vb
+  name: BdoDbModelExtension
+  nameWithType: BdoDbModelExtension
+  fullName: BindOpen.Data.Models.BdoDbModelExtension
+  type: Class
+  source:
+    remote:
+      path: src/BindOpen.Databases/Data/Models/BdoDbModelExtension.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: BdoDbModelExtension
+    path: ../src/BindOpen.Databases/Data/Models/BdoDbModelExtension.cs
+    startLine: 8
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Models
+  summary: "\nThis class represents a database context.\n"
+  example: []
+  syntax:
+    content: public static class BdoDbModelExtension
+    content.vb: Public Module BdoDbModelExtension
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: BindOpen.Data.Models.BdoDbModelExtension.UseQuery(BindOpen.Data.Models.BdoDbModel,System.String,System.Func{BindOpen.Data.Models.IBdoDbModel,BindOpen.Data.Queries.IDbQuery})
+  commentId: M:BindOpen.Data.Models.BdoDbModelExtension.UseQuery(BindOpen.Data.Models.BdoDbModel,System.String,System.Func{BindOpen.Data.Models.IBdoDbModel,BindOpen.Data.Queries.IDbQuery})
+  id: UseQuery(BindOpen.Data.Models.BdoDbModel,System.String,System.Func{BindOpen.Data.Models.IBdoDbModel,BindOpen.Data.Queries.IDbQuery})
+  isExtensionMethod: true
+  parent: BindOpen.Data.Models.BdoDbModelExtension
+  langs:
+  - csharp
+  - vb
+  name: UseQuery(BdoDbModel, String, Func<IBdoDbModel, IDbQuery>)
+  nameWithType: BdoDbModelExtension.UseQuery(BdoDbModel, String, Func<IBdoDbModel, IDbQuery>)
+  fullName: BindOpen.Data.Models.BdoDbModelExtension.UseQuery(BindOpen.Data.Models.BdoDbModel, System.String, System.Func<BindOpen.Data.Models.IBdoDbModel, BindOpen.Data.Queries.IDbQuery>)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Databases/Data/Models/BdoDbModelExtension.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: UseQuery
+    path: ../src/BindOpen.Databases/Data/Models/BdoDbModelExtension.cs
+    startLine: 16
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Models
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public static IDbStoredQuery UseQuery(this BdoDbModel model, string name, Func<IBdoDbModel, IDbQuery> intializer)
+    parameters:
+    - id: model
+      type: BindOpen.Data.Models.BdoDbModel
+    - id: name
+      type: System.String
+      description: ''
+    - id: intializer
+      type: System.Func{BindOpen.Data.Models.IBdoDbModel,BindOpen.Data.Queries.IDbQuery}
+      description: ''
+    return:
+      type: BindOpen.Data.Queries.IDbStoredQuery
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function UseQuery(model As BdoDbModel, name As String, intializer As Func(Of IBdoDbModel, IDbQuery)) As IDbStoredQuery
+  overload: BindOpen.Data.Models.BdoDbModelExtension.UseQuery*
+  nameWithType.vb: BdoDbModelExtension.UseQuery(BdoDbModel, String, Func(Of IBdoDbModel, IDbQuery))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Models.BdoDbModelExtension.UseQuery(BindOpen.Data.Models.BdoDbModel, System.String, System.Func(Of BindOpen.Data.Models.IBdoDbModel, BindOpen.Data.Queries.IDbQuery))
+  name.vb: UseQuery(BdoDbModel, String, Func(Of IBdoDbModel, IDbQuery))
+references:
+- uid: BindOpen.Data.Models
+  commentId: N:BindOpen.Data.Models
+  name: BindOpen.Data.Models
+  nameWithType: BindOpen.Data.Models
+  fullName: BindOpen.Data.Models
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Data.Models.BdoDbModelExtension.UseQuery*
+  commentId: Overload:BindOpen.Data.Models.BdoDbModelExtension.UseQuery
+  name: UseQuery
+  nameWithType: BdoDbModelExtension.UseQuery
+  fullName: BindOpen.Data.Models.BdoDbModelExtension.UseQuery
+- uid: BindOpen.Data.Models.BdoDbModel
+  commentId: T:BindOpen.Data.Models.BdoDbModel
+  parent: BindOpen.Data.Models
+  name: BdoDbModel
+  nameWithType: BdoDbModel
+  fullName: BindOpen.Data.Models.BdoDbModel
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Func{BindOpen.Data.Models.IBdoDbModel,BindOpen.Data.Queries.IDbQuery}
+  commentId: T:System.Func{BindOpen.Data.Models.IBdoDbModel,BindOpen.Data.Queries.IDbQuery}
+  parent: System
+  definition: System.Func`2
+  name: Func<IBdoDbModel, IDbQuery>
+  nameWithType: Func<IBdoDbModel, IDbQuery>
+  fullName: System.Func<BindOpen.Data.Models.IBdoDbModel, BindOpen.Data.Queries.IDbQuery>
+  nameWithType.vb: Func(Of IBdoDbModel, IDbQuery)
+  fullName.vb: System.Func(Of BindOpen.Data.Models.IBdoDbModel, BindOpen.Data.Queries.IDbQuery)
+  name.vb: Func(Of IBdoDbModel, IDbQuery)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BindOpen.Data.Models.IBdoDbModel
+    name: IBdoDbModel
+    nameWithType: IBdoDbModel
+    fullName: BindOpen.Data.Models.IBdoDbModel
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Queries.IDbQuery
+    name: IDbQuery
+    nameWithType: IDbQuery
+    fullName: BindOpen.Data.Queries.IDbQuery
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BindOpen.Data.Models.IBdoDbModel
+    name: IBdoDbModel
+    nameWithType: IBdoDbModel
+    fullName: BindOpen.Data.Models.IBdoDbModel
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Queries.IDbQuery
+    name: IDbQuery
+    nameWithType: IDbQuery
+    fullName: BindOpen.Data.Queries.IDbQuery
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Queries.IDbStoredQuery
+  commentId: T:BindOpen.Data.Queries.IDbStoredQuery
+  parent: BindOpen.Data.Queries
+  name: IDbStoredQuery
+  nameWithType: IDbStoredQuery
+  fullName: BindOpen.Data.Queries.IDbStoredQuery
+- uid: System.Func`2
+  commentId: T:System.Func`2
+  isExternal: true
+  name: Func<T, TResult>
+  nameWithType: Func<T, TResult>
+  fullName: System.Func<T, TResult>
+  nameWithType.vb: Func(Of T, TResult)
+  fullName.vb: System.Func(Of T, TResult)
+  name.vb: Func(Of T, TResult)
+  spec.csharp:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Func`2
+    name: Func
+    nameWithType: Func
+    fullName: System.Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Queries
+  commentId: N:BindOpen.Data.Queries
+  name: BindOpen.Data.Queries
+  nameWithType: BindOpen.Data.Queries
+  fullName: BindOpen.Data.Queries
+shouldSkipMarkup: true

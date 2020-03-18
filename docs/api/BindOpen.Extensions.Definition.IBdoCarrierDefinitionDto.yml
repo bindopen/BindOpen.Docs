@@ -1,0 +1,2949 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Extensions.Definition.IBdoCarrierDefinitionDto
+  commentId: T:BindOpen.Extensions.Definition.IBdoCarrierDefinitionDto
+  id: IBdoCarrierDefinitionDto
+  parent: BindOpen.Extensions.Definition
+  children:
+  - BindOpen.Extensions.Definition.IBdoCarrierDefinitionDto.DatasourceKind
+  - BindOpen.Extensions.Definition.IBdoCarrierDefinitionDto.DetailSpec
+  - BindOpen.Extensions.Definition.IBdoCarrierDefinitionDto.ItemClass
+  langs:
+  - csharp
+  - vb
+  name: IBdoCarrierDefinitionDto
+  nameWithType: IBdoCarrierDefinitionDto
+  fullName: BindOpen.Extensions.Definition.IBdoCarrierDefinitionDto
+  type: Interface
+  source:
+    remote:
+      path: src/BindOpen.Core/Extensions/Definition/Items/Carriers/Dto/Interfaces/IBdoCarrierDefinitionDto.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: IBdoCarrierDefinitionDto
+    path: ../src/BindOpen.Core/Extensions/Definition/Items/Carriers/Dto/Interfaces/IBdoCarrierDefinitionDto.cs
+    startLine: 8
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Extensions.Definition
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: 'public interface IBdoCarrierDefinitionDto : IBdoExtensionItemDefinitionDto, IIndexedDataItem, IDescribedDataItem, ITitledDataItem, INamedDataItem, IStoredDataItem, IIdentifiedDataItem, IDataItem, ICloneable, IDisposable, IIdentified, IReferenced, IStorable, INamed, IGloballyTitled, IGloballyDescribed, IIndexed'
+    content.vb: >-
+      Public Interface IBdoCarrierDefinitionDto
+          Inherits IBdoExtensionItemDefinitionDto
+  inheritedMembers:
+  - BindOpen.Extensions.Definition.IBdoExtensionItemDefinitionDto.ImageUri
+  - BindOpen.Extensions.Definition.IBdoExtensionItemDefinitionDto.IsEditable
+  - BindOpen.Extensions.Definition.IBdoExtensionItemDefinitionDto.IsIndexed
+  - BindOpen.Extensions.Definition.IBdoExtensionItemDefinitionDto.LibraryId
+  - BindOpen.Data.Items.IDescribedDataItem.Update(BindOpen.Data.Items.IDescribedDataItem)
+  - BindOpen.Data.Items.ITitledDataItem.Update(BindOpen.Data.Items.ITitledDataItem)
+  - BindOpen.Data.Items.IDataItem.Check(System.Boolean,System.String[])
+  - BindOpen.Data.Items.IDataItem.Check``1(System.Boolean,{T},System.String[])
+  - BindOpen.Data.Items.IDataItem.Repair(System.String[],BindOpen.Data.Common.UpdateModes[])
+  - BindOpen.Data.Items.IDataItem.Repair``1({T},System.String[],BindOpen.Data.Common.UpdateModes[])
+  - BindOpen.Data.Items.IDataItem.Update(System.String[],BindOpen.Data.Common.UpdateModes[])
+  - BindOpen.Data.Items.IDataItem.Update``1({T},System.String[],BindOpen.Data.Common.UpdateModes[])
+  - BindOpen.Data.Items.IDataItem.UpdateRuntimeInfo(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+  - BindOpen.Data.Items.IDataItem.UpdateStorageInfo(BindOpen.System.Diagnostics.IBdoLog)
+  - BindOpen.Data.Items.IDataItem.Clone``1
+  - System.ICloneable.Clone
+  - System.IDisposable.Dispose
+  - BindOpen.Data.Items.IIdentified.Id
+  - BindOpen.Data.Items.IReferenced.Key
+  - BindOpen.Data.Items.IStorable.CreationDate
+  - BindOpen.Data.Items.IStorable.LastModificationDate
+  - BindOpen.Data.Items.INamed.Name
+  - BindOpen.Data.Items.IGloballyTitled.Title
+  - BindOpen.Data.Items.IGloballyTitled.AddTitle(System.String)
+  - BindOpen.Data.Items.IGloballyTitled.AddTitle(System.String,System.String)
+  - BindOpen.Data.Items.IGloballyTitled.GetTitle(System.String,System.String)
+  - BindOpen.Data.Items.IGloballyTitled.SetTitle(System.String,System.String)
+  - BindOpen.Data.Items.IGloballyTitled.SetTitle(System.String)
+  - BindOpen.Data.Items.IGloballyDescribed.Description
+  - BindOpen.Data.Items.IGloballyDescribed.AddDescription(System.String)
+  - BindOpen.Data.Items.IGloballyDescribed.AddDescription(System.String,System.String)
+  - BindOpen.Data.Items.IGloballyDescribed.GetDescription(System.String,System.String)
+  - BindOpen.Data.Items.IGloballyDescribed.SetDescription(System.String,System.String)
+  - BindOpen.Data.Items.IGloballyDescribed.SetDescription(System.String)
+  - BindOpen.Data.Items.IIndexed.Index
+  extensionMethods:
+  - System.Object.BindOpen.Data.Common.DataValueTypeExtension.IsScalar
+  - System.Object.BindOpen.Data.Common.DataValueTypeExtension.GetValueType
+  - BindOpen.Extensions.Definition.IBdoExtensionItemDefinitionDto.BindOpen.Extensions.Definition.BdoExtensionItemKindExtension.GetExtensionItemKind
+  - System.Object.BindOpen.Data.Helpers.Objects.ObjectHelper.ToKey
+  - System.Object.BindOpen.Data.Helpers.Objects.ObjectHelper.KeyEquals(System.Object)
+  - System.Object.BindOpen.Data.Helpers.Objects.ObjectHelper.ToNotNullString
+  - System.Object.BindOpen.Data.Helpers.Objects.ObjectHelper.ToString(BindOpen.Data.Common.DataValueType)
+  - System.Object.BindOpen.Data.Helpers.Objects.ObjectHelper.Update(System.Object)
+  - System.Object.BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromElementSet``1(BindOpen.Data.Elements.IDataElementSet,BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet)
+  - System.Object.BindOpen.Data.Helpers.Serialization.ObjectNotationHelper_Json.ToJson(System.String)
+  - System.Object.BindOpen.Data.Helpers.Serialization.XmlHelper.ToXml(BindOpen.System.Diagnostics.IBdoLog)
+  - System.Object.BindOpen.Data.Helpers.Serialization.XmlHelper.SaveXml(System.String,BindOpen.System.Diagnostics.IBdoLog)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: BindOpen.Extensions.Definition.IBdoCarrierDefinitionDto.DatasourceKind
+  commentId: P:BindOpen.Extensions.Definition.IBdoCarrierDefinitionDto.DatasourceKind
+  id: DatasourceKind
+  parent: BindOpen.Extensions.Definition.IBdoCarrierDefinitionDto
+  langs:
+  - csharp
+  - vb
+  name: DatasourceKind
+  nameWithType: IBdoCarrierDefinitionDto.DatasourceKind
+  fullName: BindOpen.Extensions.Definition.IBdoCarrierDefinitionDto.DatasourceKind
+  type: Property
+  source:
+    remote:
+      path: src/BindOpen.Core/Extensions/Definition/Items/Carriers/Dto/Interfaces/IBdoCarrierDefinitionDto.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: DatasourceKind
+    path: ../src/BindOpen.Core/Extensions/Definition/Items/Carriers/Dto/Interfaces/IBdoCarrierDefinitionDto.cs
+    startLine: 13
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Extensions.Definition
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: DatasourceKind DatasourceKind { get; set; }
+    parameters: []
+    return:
+      type: BindOpen.Data.Items.DatasourceKind
+    content.vb: Property DatasourceKind As DatasourceKind
+  overload: BindOpen.Extensions.Definition.IBdoCarrierDefinitionDto.DatasourceKind*
+  modifiers.csharp:
+  - get
+  - set
+- uid: BindOpen.Extensions.Definition.IBdoCarrierDefinitionDto.ItemClass
+  commentId: P:BindOpen.Extensions.Definition.IBdoCarrierDefinitionDto.ItemClass
+  id: ItemClass
+  parent: BindOpen.Extensions.Definition.IBdoCarrierDefinitionDto
+  langs:
+  - csharp
+  - vb
+  name: ItemClass
+  nameWithType: IBdoCarrierDefinitionDto.ItemClass
+  fullName: BindOpen.Extensions.Definition.IBdoCarrierDefinitionDto.ItemClass
+  type: Property
+  source:
+    remote:
+      path: src/BindOpen.Core/Extensions/Definition/Items/Carriers/Dto/Interfaces/IBdoCarrierDefinitionDto.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: ItemClass
+    path: ../src/BindOpen.Core/Extensions/Definition/Items/Carriers/Dto/Interfaces/IBdoCarrierDefinitionDto.cs
+    startLine: 18
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Extensions.Definition
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: string ItemClass { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property ItemClass As String
+  overload: BindOpen.Extensions.Definition.IBdoCarrierDefinitionDto.ItemClass*
+  modifiers.csharp:
+  - get
+  - set
+- uid: BindOpen.Extensions.Definition.IBdoCarrierDefinitionDto.DetailSpec
+  commentId: P:BindOpen.Extensions.Definition.IBdoCarrierDefinitionDto.DetailSpec
+  id: DetailSpec
+  parent: BindOpen.Extensions.Definition.IBdoCarrierDefinitionDto
+  langs:
+  - csharp
+  - vb
+  name: DetailSpec
+  nameWithType: IBdoCarrierDefinitionDto.DetailSpec
+  fullName: BindOpen.Extensions.Definition.IBdoCarrierDefinitionDto.DetailSpec
+  type: Property
+  source:
+    remote:
+      path: src/BindOpen.Core/Extensions/Definition/Items/Carriers/Dto/Interfaces/IBdoCarrierDefinitionDto.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: DetailSpec
+    path: ../src/BindOpen.Core/Extensions/Definition/Items/Carriers/Dto/Interfaces/IBdoCarrierDefinitionDto.cs
+    startLine: 23
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Extensions.Definition
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: DataElementSpecSet DetailSpec { get; set; }
+    parameters: []
+    return:
+      type: BindOpen.Data.Elements.DataElementSpecSet
+    content.vb: Property DetailSpec As DataElementSpecSet
+  overload: BindOpen.Extensions.Definition.IBdoCarrierDefinitionDto.DetailSpec*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: BindOpen.Extensions.Definition
+  commentId: N:BindOpen.Extensions.Definition
+  name: BindOpen.Extensions.Definition
+  nameWithType: BindOpen.Extensions.Definition
+  fullName: BindOpen.Extensions.Definition
+- uid: BindOpen.Extensions.Definition.IBdoExtensionItemDefinitionDto.ImageUri
+  commentId: P:BindOpen.Extensions.Definition.IBdoExtensionItemDefinitionDto.ImageUri
+  parent: BindOpen.Extensions.Definition.IBdoExtensionItemDefinitionDto
+  name: ImageUri
+  nameWithType: IBdoExtensionItemDefinitionDto.ImageUri
+  fullName: BindOpen.Extensions.Definition.IBdoExtensionItemDefinitionDto.ImageUri
+- uid: BindOpen.Extensions.Definition.IBdoExtensionItemDefinitionDto.IsEditable
+  commentId: P:BindOpen.Extensions.Definition.IBdoExtensionItemDefinitionDto.IsEditable
+  parent: BindOpen.Extensions.Definition.IBdoExtensionItemDefinitionDto
+  name: IsEditable
+  nameWithType: IBdoExtensionItemDefinitionDto.IsEditable
+  fullName: BindOpen.Extensions.Definition.IBdoExtensionItemDefinitionDto.IsEditable
+- uid: BindOpen.Extensions.Definition.IBdoExtensionItemDefinitionDto.IsIndexed
+  commentId: P:BindOpen.Extensions.Definition.IBdoExtensionItemDefinitionDto.IsIndexed
+  parent: BindOpen.Extensions.Definition.IBdoExtensionItemDefinitionDto
+  name: IsIndexed
+  nameWithType: IBdoExtensionItemDefinitionDto.IsIndexed
+  fullName: BindOpen.Extensions.Definition.IBdoExtensionItemDefinitionDto.IsIndexed
+- uid: BindOpen.Extensions.Definition.IBdoExtensionItemDefinitionDto.LibraryId
+  commentId: P:BindOpen.Extensions.Definition.IBdoExtensionItemDefinitionDto.LibraryId
+  parent: BindOpen.Extensions.Definition.IBdoExtensionItemDefinitionDto
+  name: LibraryId
+  nameWithType: IBdoExtensionItemDefinitionDto.LibraryId
+  fullName: BindOpen.Extensions.Definition.IBdoExtensionItemDefinitionDto.LibraryId
+- uid: BindOpen.Data.Items.IDescribedDataItem.Update(BindOpen.Data.Items.IDescribedDataItem)
+  commentId: M:BindOpen.Data.Items.IDescribedDataItem.Update(BindOpen.Data.Items.IDescribedDataItem)
+  parent: BindOpen.Data.Items.IDescribedDataItem
+  name: Update(IDescribedDataItem)
+  nameWithType: IDescribedDataItem.Update(IDescribedDataItem)
+  fullName: BindOpen.Data.Items.IDescribedDataItem.Update(BindOpen.Data.Items.IDescribedDataItem)
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDescribedDataItem.Update(BindOpen.Data.Items.IDescribedDataItem)
+    name: Update
+    nameWithType: IDescribedDataItem.Update
+    fullName: BindOpen.Data.Items.IDescribedDataItem.Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Data.Items.IDescribedDataItem
+    name: IDescribedDataItem
+    nameWithType: IDescribedDataItem
+    fullName: BindOpen.Data.Items.IDescribedDataItem
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDescribedDataItem.Update(BindOpen.Data.Items.IDescribedDataItem)
+    name: Update
+    nameWithType: IDescribedDataItem.Update
+    fullName: BindOpen.Data.Items.IDescribedDataItem.Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Data.Items.IDescribedDataItem
+    name: IDescribedDataItem
+    nameWithType: IDescribedDataItem
+    fullName: BindOpen.Data.Items.IDescribedDataItem
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.ITitledDataItem.Update(BindOpen.Data.Items.ITitledDataItem)
+  commentId: M:BindOpen.Data.Items.ITitledDataItem.Update(BindOpen.Data.Items.ITitledDataItem)
+  parent: BindOpen.Data.Items.ITitledDataItem
+  name: Update(ITitledDataItem)
+  nameWithType: ITitledDataItem.Update(ITitledDataItem)
+  fullName: BindOpen.Data.Items.ITitledDataItem.Update(BindOpen.Data.Items.ITitledDataItem)
+  spec.csharp:
+  - uid: BindOpen.Data.Items.ITitledDataItem.Update(BindOpen.Data.Items.ITitledDataItem)
+    name: Update
+    nameWithType: ITitledDataItem.Update
+    fullName: BindOpen.Data.Items.ITitledDataItem.Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Data.Items.ITitledDataItem
+    name: ITitledDataItem
+    nameWithType: ITitledDataItem
+    fullName: BindOpen.Data.Items.ITitledDataItem
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.ITitledDataItem.Update(BindOpen.Data.Items.ITitledDataItem)
+    name: Update
+    nameWithType: ITitledDataItem.Update
+    fullName: BindOpen.Data.Items.ITitledDataItem.Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Data.Items.ITitledDataItem
+    name: ITitledDataItem
+    nameWithType: ITitledDataItem
+    fullName: BindOpen.Data.Items.ITitledDataItem
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IDataItem.Check(System.Boolean,System.String[])
+  commentId: M:BindOpen.Data.Items.IDataItem.Check(System.Boolean,System.String[])
+  parent: BindOpen.Data.Items.IDataItem
+  isExternal: true
+  name: Check(Boolean, String[])
+  nameWithType: IDataItem.Check(Boolean, String[])
+  fullName: BindOpen.Data.Items.IDataItem.Check(System.Boolean, System.String[])
+  nameWithType.vb: IDataItem.Check(Boolean, String())
+  fullName.vb: BindOpen.Data.Items.IDataItem.Check(System.Boolean, System.String())
+  name.vb: Check(Boolean, String())
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItem.Check(System.Boolean,System.String[])
+    name: Check
+    nameWithType: IDataItem.Check
+    fullName: BindOpen.Data.Items.IDataItem.Check
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItem.Check(System.Boolean,System.String[])
+    name: Check
+    nameWithType: IDataItem.Check
+    fullName: BindOpen.Data.Items.IDataItem.Check
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IDataItem.Check``1(System.Boolean,{T},System.String[])
+  commentId: M:BindOpen.Data.Items.IDataItem.Check``1(System.Boolean,``0,System.String[])
+  parent: BindOpen.Data.Items.IDataItem
+  definition: BindOpen.Data.Items.IDataItem.Check``1(System.Boolean,``0,System.String[])
+  name: Check<T>(Boolean, T, String[])
+  nameWithType: IDataItem.Check<T>(Boolean, T, String[])
+  fullName: BindOpen.Data.Items.IDataItem.Check<T>(System.Boolean, T, System.String[])
+  nameWithType.vb: IDataItem.Check(Of T)(Boolean, T, String())
+  fullName.vb: BindOpen.Data.Items.IDataItem.Check(Of T)(System.Boolean, T, System.String())
+  name.vb: Check(Of T)(Boolean, T, String())
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItem.Check``1(System.Boolean,``0,System.String[])
+    name: Check<T>
+    nameWithType: IDataItem.Check<T>
+    fullName: BindOpen.Data.Items.IDataItem.Check<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItem.Check``1(System.Boolean,``0,System.String[])
+    name: Check(Of T)
+    nameWithType: IDataItem.Check(Of T)
+    fullName: BindOpen.Data.Items.IDataItem.Check(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IDataItem.Repair(System.String[],BindOpen.Data.Common.UpdateModes[])
+  commentId: M:BindOpen.Data.Items.IDataItem.Repair(System.String[],BindOpen.Data.Common.UpdateModes[])
+  parent: BindOpen.Data.Items.IDataItem
+  isExternal: true
+  name: Repair(String[], UpdateModes[])
+  nameWithType: IDataItem.Repair(String[], UpdateModes[])
+  fullName: BindOpen.Data.Items.IDataItem.Repair(System.String[], BindOpen.Data.Common.UpdateModes[])
+  nameWithType.vb: IDataItem.Repair(String(), UpdateModes())
+  fullName.vb: BindOpen.Data.Items.IDataItem.Repair(System.String(), BindOpen.Data.Common.UpdateModes())
+  name.vb: Repair(String(), UpdateModes())
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItem.Repair(System.String[],BindOpen.Data.Common.UpdateModes[])
+    name: Repair
+    nameWithType: IDataItem.Repair
+    fullName: BindOpen.Data.Items.IDataItem.Repair
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.UpdateModes
+    name: UpdateModes
+    nameWithType: UpdateModes
+    fullName: BindOpen.Data.Common.UpdateModes
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItem.Repair(System.String[],BindOpen.Data.Common.UpdateModes[])
+    name: Repair
+    nameWithType: IDataItem.Repair
+    fullName: BindOpen.Data.Items.IDataItem.Repair
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.UpdateModes
+    name: UpdateModes
+    nameWithType: UpdateModes
+    fullName: BindOpen.Data.Common.UpdateModes
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IDataItem.Repair``1({T},System.String[],BindOpen.Data.Common.UpdateModes[])
+  commentId: M:BindOpen.Data.Items.IDataItem.Repair``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+  parent: BindOpen.Data.Items.IDataItem
+  definition: BindOpen.Data.Items.IDataItem.Repair``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+  name: Repair<T>(T, String[], UpdateModes[])
+  nameWithType: IDataItem.Repair<T>(T, String[], UpdateModes[])
+  fullName: BindOpen.Data.Items.IDataItem.Repair<T>(T, System.String[], BindOpen.Data.Common.UpdateModes[])
+  nameWithType.vb: IDataItem.Repair(Of T)(T, String(), UpdateModes())
+  fullName.vb: BindOpen.Data.Items.IDataItem.Repair(Of T)(T, System.String(), BindOpen.Data.Common.UpdateModes())
+  name.vb: Repair(Of T)(T, String(), UpdateModes())
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItem.Repair``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+    name: Repair<T>
+    nameWithType: IDataItem.Repair<T>
+    fullName: BindOpen.Data.Items.IDataItem.Repair<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.UpdateModes
+    name: UpdateModes
+    nameWithType: UpdateModes
+    fullName: BindOpen.Data.Common.UpdateModes
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItem.Repair``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+    name: Repair(Of T)
+    nameWithType: IDataItem.Repair(Of T)
+    fullName: BindOpen.Data.Items.IDataItem.Repair(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.UpdateModes
+    name: UpdateModes
+    nameWithType: UpdateModes
+    fullName: BindOpen.Data.Common.UpdateModes
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IDataItem.Update(System.String[],BindOpen.Data.Common.UpdateModes[])
+  commentId: M:BindOpen.Data.Items.IDataItem.Update(System.String[],BindOpen.Data.Common.UpdateModes[])
+  parent: BindOpen.Data.Items.IDataItem
+  isExternal: true
+  name: Update(String[], UpdateModes[])
+  nameWithType: IDataItem.Update(String[], UpdateModes[])
+  fullName: BindOpen.Data.Items.IDataItem.Update(System.String[], BindOpen.Data.Common.UpdateModes[])
+  nameWithType.vb: IDataItem.Update(String(), UpdateModes())
+  fullName.vb: BindOpen.Data.Items.IDataItem.Update(System.String(), BindOpen.Data.Common.UpdateModes())
+  name.vb: Update(String(), UpdateModes())
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItem.Update(System.String[],BindOpen.Data.Common.UpdateModes[])
+    name: Update
+    nameWithType: IDataItem.Update
+    fullName: BindOpen.Data.Items.IDataItem.Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.UpdateModes
+    name: UpdateModes
+    nameWithType: UpdateModes
+    fullName: BindOpen.Data.Common.UpdateModes
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItem.Update(System.String[],BindOpen.Data.Common.UpdateModes[])
+    name: Update
+    nameWithType: IDataItem.Update
+    fullName: BindOpen.Data.Items.IDataItem.Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.UpdateModes
+    name: UpdateModes
+    nameWithType: UpdateModes
+    fullName: BindOpen.Data.Common.UpdateModes
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IDataItem.Update``1({T},System.String[],BindOpen.Data.Common.UpdateModes[])
+  commentId: M:BindOpen.Data.Items.IDataItem.Update``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+  parent: BindOpen.Data.Items.IDataItem
+  definition: BindOpen.Data.Items.IDataItem.Update``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+  name: Update<T>(T, String[], UpdateModes[])
+  nameWithType: IDataItem.Update<T>(T, String[], UpdateModes[])
+  fullName: BindOpen.Data.Items.IDataItem.Update<T>(T, System.String[], BindOpen.Data.Common.UpdateModes[])
+  nameWithType.vb: IDataItem.Update(Of T)(T, String(), UpdateModes())
+  fullName.vb: BindOpen.Data.Items.IDataItem.Update(Of T)(T, System.String(), BindOpen.Data.Common.UpdateModes())
+  name.vb: Update(Of T)(T, String(), UpdateModes())
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItem.Update``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+    name: Update<T>
+    nameWithType: IDataItem.Update<T>
+    fullName: BindOpen.Data.Items.IDataItem.Update<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.UpdateModes
+    name: UpdateModes
+    nameWithType: UpdateModes
+    fullName: BindOpen.Data.Common.UpdateModes
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItem.Update``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+    name: Update(Of T)
+    nameWithType: IDataItem.Update(Of T)
+    fullName: BindOpen.Data.Items.IDataItem.Update(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.UpdateModes
+    name: UpdateModes
+    nameWithType: UpdateModes
+    fullName: BindOpen.Data.Common.UpdateModes
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IDataItem.UpdateRuntimeInfo(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+  commentId: M:BindOpen.Data.Items.IDataItem.UpdateRuntimeInfo(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+  parent: BindOpen.Data.Items.IDataItem
+  name: UpdateRuntimeInfo(IBdoScope, IBdoScriptVariableSet, IBdoLog)
+  nameWithType: IDataItem.UpdateRuntimeInfo(IBdoScope, IBdoScriptVariableSet, IBdoLog)
+  fullName: BindOpen.Data.Items.IDataItem.UpdateRuntimeInfo(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.System.Diagnostics.IBdoLog)
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItem.UpdateRuntimeInfo(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+    name: UpdateRuntimeInfo
+    nameWithType: IDataItem.UpdateRuntimeInfo
+    fullName: BindOpen.Data.Items.IDataItem.UpdateRuntimeInfo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Application.Scopes.IBdoScope
+    name: IBdoScope
+    nameWithType: IBdoScope
+    fullName: BindOpen.Application.Scopes.IBdoScope
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Scripting.IBdoScriptVariableSet
+    name: IBdoScriptVariableSet
+    nameWithType: IBdoScriptVariableSet
+    fullName: BindOpen.System.Scripting.IBdoScriptVariableSet
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItem.UpdateRuntimeInfo(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+    name: UpdateRuntimeInfo
+    nameWithType: IDataItem.UpdateRuntimeInfo
+    fullName: BindOpen.Data.Items.IDataItem.UpdateRuntimeInfo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Application.Scopes.IBdoScope
+    name: IBdoScope
+    nameWithType: IBdoScope
+    fullName: BindOpen.Application.Scopes.IBdoScope
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Scripting.IBdoScriptVariableSet
+    name: IBdoScriptVariableSet
+    nameWithType: IBdoScriptVariableSet
+    fullName: BindOpen.System.Scripting.IBdoScriptVariableSet
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IDataItem.UpdateStorageInfo(BindOpen.System.Diagnostics.IBdoLog)
+  commentId: M:BindOpen.Data.Items.IDataItem.UpdateStorageInfo(BindOpen.System.Diagnostics.IBdoLog)
+  parent: BindOpen.Data.Items.IDataItem
+  name: UpdateStorageInfo(IBdoLog)
+  nameWithType: IDataItem.UpdateStorageInfo(IBdoLog)
+  fullName: BindOpen.Data.Items.IDataItem.UpdateStorageInfo(BindOpen.System.Diagnostics.IBdoLog)
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItem.UpdateStorageInfo(BindOpen.System.Diagnostics.IBdoLog)
+    name: UpdateStorageInfo
+    nameWithType: IDataItem.UpdateStorageInfo
+    fullName: BindOpen.Data.Items.IDataItem.UpdateStorageInfo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItem.UpdateStorageInfo(BindOpen.System.Diagnostics.IBdoLog)
+    name: UpdateStorageInfo
+    nameWithType: IDataItem.UpdateStorageInfo
+    fullName: BindOpen.Data.Items.IDataItem.UpdateStorageInfo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IDataItem.Clone``1
+  commentId: M:BindOpen.Data.Items.IDataItem.Clone``1
+  parent: BindOpen.Data.Items.IDataItem
+  name: Clone<T>()
+  nameWithType: IDataItem.Clone<T>()
+  fullName: BindOpen.Data.Items.IDataItem.Clone<T>()
+  nameWithType.vb: IDataItem.Clone(Of T)()
+  fullName.vb: BindOpen.Data.Items.IDataItem.Clone(Of T)()
+  name.vb: Clone(Of T)()
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItem.Clone``1
+    name: Clone<T>
+    nameWithType: IDataItem.Clone<T>
+    fullName: BindOpen.Data.Items.IDataItem.Clone<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItem.Clone``1
+    name: Clone(Of T)
+    nameWithType: IDataItem.Clone(Of T)
+    fullName: BindOpen.Data.Items.IDataItem.Clone(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ICloneable.Clone
+  commentId: M:System.ICloneable.Clone
+  parent: System.ICloneable
+  isExternal: true
+  name: Clone()
+  nameWithType: ICloneable.Clone()
+  fullName: System.ICloneable.Clone()
+  spec.csharp:
+  - uid: System.ICloneable.Clone
+    name: Clone
+    nameWithType: ICloneable.Clone
+    fullName: System.ICloneable.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ICloneable.Clone
+    name: Clone
+    nameWithType: ICloneable.Clone
+    fullName: System.ICloneable.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IIdentified.Id
+  commentId: P:BindOpen.Data.Items.IIdentified.Id
+  parent: BindOpen.Data.Items.IIdentified
+  name: Id
+  nameWithType: IIdentified.Id
+  fullName: BindOpen.Data.Items.IIdentified.Id
+- uid: BindOpen.Data.Items.IReferenced.Key
+  commentId: M:BindOpen.Data.Items.IReferenced.Key
+  parent: BindOpen.Data.Items.IReferenced
+  name: Key()
+  nameWithType: IReferenced.Key()
+  fullName: BindOpen.Data.Items.IReferenced.Key()
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IReferenced.Key
+    name: Key
+    nameWithType: IReferenced.Key
+    fullName: BindOpen.Data.Items.IReferenced.Key
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IReferenced.Key
+    name: Key
+    nameWithType: IReferenced.Key
+    fullName: BindOpen.Data.Items.IReferenced.Key
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IStorable.CreationDate
+  commentId: P:BindOpen.Data.Items.IStorable.CreationDate
+  parent: BindOpen.Data.Items.IStorable
+  name: CreationDate
+  nameWithType: IStorable.CreationDate
+  fullName: BindOpen.Data.Items.IStorable.CreationDate
+- uid: BindOpen.Data.Items.IStorable.LastModificationDate
+  commentId: P:BindOpen.Data.Items.IStorable.LastModificationDate
+  parent: BindOpen.Data.Items.IStorable
+  name: LastModificationDate
+  nameWithType: IStorable.LastModificationDate
+  fullName: BindOpen.Data.Items.IStorable.LastModificationDate
+- uid: BindOpen.Data.Items.INamed.Name
+  commentId: P:BindOpen.Data.Items.INamed.Name
+  parent: BindOpen.Data.Items.INamed
+  name: Name
+  nameWithType: INamed.Name
+  fullName: BindOpen.Data.Items.INamed.Name
+- uid: BindOpen.Data.Items.IGloballyTitled.Title
+  commentId: P:BindOpen.Data.Items.IGloballyTitled.Title
+  parent: BindOpen.Data.Items.IGloballyTitled
+  name: Title
+  nameWithType: IGloballyTitled.Title
+  fullName: BindOpen.Data.Items.IGloballyTitled.Title
+- uid: BindOpen.Data.Items.IGloballyTitled.AddTitle(System.String)
+  commentId: M:BindOpen.Data.Items.IGloballyTitled.AddTitle(System.String)
+  parent: BindOpen.Data.Items.IGloballyTitled
+  isExternal: true
+  name: AddTitle(String)
+  nameWithType: IGloballyTitled.AddTitle(String)
+  fullName: BindOpen.Data.Items.IGloballyTitled.AddTitle(System.String)
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IGloballyTitled.AddTitle(System.String)
+    name: AddTitle
+    nameWithType: IGloballyTitled.AddTitle
+    fullName: BindOpen.Data.Items.IGloballyTitled.AddTitle
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IGloballyTitled.AddTitle(System.String)
+    name: AddTitle
+    nameWithType: IGloballyTitled.AddTitle
+    fullName: BindOpen.Data.Items.IGloballyTitled.AddTitle
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IGloballyTitled.AddTitle(System.String,System.String)
+  commentId: M:BindOpen.Data.Items.IGloballyTitled.AddTitle(System.String,System.String)
+  parent: BindOpen.Data.Items.IGloballyTitled
+  isExternal: true
+  name: AddTitle(String, String)
+  nameWithType: IGloballyTitled.AddTitle(String, String)
+  fullName: BindOpen.Data.Items.IGloballyTitled.AddTitle(System.String, System.String)
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IGloballyTitled.AddTitle(System.String,System.String)
+    name: AddTitle
+    nameWithType: IGloballyTitled.AddTitle
+    fullName: BindOpen.Data.Items.IGloballyTitled.AddTitle
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IGloballyTitled.AddTitle(System.String,System.String)
+    name: AddTitle
+    nameWithType: IGloballyTitled.AddTitle
+    fullName: BindOpen.Data.Items.IGloballyTitled.AddTitle
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IGloballyTitled.GetTitle(System.String,System.String)
+  commentId: M:BindOpen.Data.Items.IGloballyTitled.GetTitle(System.String,System.String)
+  parent: BindOpen.Data.Items.IGloballyTitled
+  isExternal: true
+  name: GetTitle(String, String)
+  nameWithType: IGloballyTitled.GetTitle(String, String)
+  fullName: BindOpen.Data.Items.IGloballyTitled.GetTitle(System.String, System.String)
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IGloballyTitled.GetTitle(System.String,System.String)
+    name: GetTitle
+    nameWithType: IGloballyTitled.GetTitle
+    fullName: BindOpen.Data.Items.IGloballyTitled.GetTitle
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IGloballyTitled.GetTitle(System.String,System.String)
+    name: GetTitle
+    nameWithType: IGloballyTitled.GetTitle
+    fullName: BindOpen.Data.Items.IGloballyTitled.GetTitle
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IGloballyTitled.SetTitle(System.String,System.String)
+  commentId: M:BindOpen.Data.Items.IGloballyTitled.SetTitle(System.String,System.String)
+  parent: BindOpen.Data.Items.IGloballyTitled
+  isExternal: true
+  name: SetTitle(String, String)
+  nameWithType: IGloballyTitled.SetTitle(String, String)
+  fullName: BindOpen.Data.Items.IGloballyTitled.SetTitle(System.String, System.String)
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IGloballyTitled.SetTitle(System.String,System.String)
+    name: SetTitle
+    nameWithType: IGloballyTitled.SetTitle
+    fullName: BindOpen.Data.Items.IGloballyTitled.SetTitle
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IGloballyTitled.SetTitle(System.String,System.String)
+    name: SetTitle
+    nameWithType: IGloballyTitled.SetTitle
+    fullName: BindOpen.Data.Items.IGloballyTitled.SetTitle
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IGloballyTitled.SetTitle(System.String)
+  commentId: M:BindOpen.Data.Items.IGloballyTitled.SetTitle(System.String)
+  parent: BindOpen.Data.Items.IGloballyTitled
+  isExternal: true
+  name: SetTitle(String)
+  nameWithType: IGloballyTitled.SetTitle(String)
+  fullName: BindOpen.Data.Items.IGloballyTitled.SetTitle(System.String)
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IGloballyTitled.SetTitle(System.String)
+    name: SetTitle
+    nameWithType: IGloballyTitled.SetTitle
+    fullName: BindOpen.Data.Items.IGloballyTitled.SetTitle
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IGloballyTitled.SetTitle(System.String)
+    name: SetTitle
+    nameWithType: IGloballyTitled.SetTitle
+    fullName: BindOpen.Data.Items.IGloballyTitled.SetTitle
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IGloballyDescribed.Description
+  commentId: P:BindOpen.Data.Items.IGloballyDescribed.Description
+  parent: BindOpen.Data.Items.IGloballyDescribed
+  name: Description
+  nameWithType: IGloballyDescribed.Description
+  fullName: BindOpen.Data.Items.IGloballyDescribed.Description
+- uid: BindOpen.Data.Items.IGloballyDescribed.AddDescription(System.String)
+  commentId: M:BindOpen.Data.Items.IGloballyDescribed.AddDescription(System.String)
+  parent: BindOpen.Data.Items.IGloballyDescribed
+  isExternal: true
+  name: AddDescription(String)
+  nameWithType: IGloballyDescribed.AddDescription(String)
+  fullName: BindOpen.Data.Items.IGloballyDescribed.AddDescription(System.String)
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IGloballyDescribed.AddDescription(System.String)
+    name: AddDescription
+    nameWithType: IGloballyDescribed.AddDescription
+    fullName: BindOpen.Data.Items.IGloballyDescribed.AddDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IGloballyDescribed.AddDescription(System.String)
+    name: AddDescription
+    nameWithType: IGloballyDescribed.AddDescription
+    fullName: BindOpen.Data.Items.IGloballyDescribed.AddDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IGloballyDescribed.AddDescription(System.String,System.String)
+  commentId: M:BindOpen.Data.Items.IGloballyDescribed.AddDescription(System.String,System.String)
+  parent: BindOpen.Data.Items.IGloballyDescribed
+  isExternal: true
+  name: AddDescription(String, String)
+  nameWithType: IGloballyDescribed.AddDescription(String, String)
+  fullName: BindOpen.Data.Items.IGloballyDescribed.AddDescription(System.String, System.String)
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IGloballyDescribed.AddDescription(System.String,System.String)
+    name: AddDescription
+    nameWithType: IGloballyDescribed.AddDescription
+    fullName: BindOpen.Data.Items.IGloballyDescribed.AddDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IGloballyDescribed.AddDescription(System.String,System.String)
+    name: AddDescription
+    nameWithType: IGloballyDescribed.AddDescription
+    fullName: BindOpen.Data.Items.IGloballyDescribed.AddDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IGloballyDescribed.GetDescription(System.String,System.String)
+  commentId: M:BindOpen.Data.Items.IGloballyDescribed.GetDescription(System.String,System.String)
+  parent: BindOpen.Data.Items.IGloballyDescribed
+  isExternal: true
+  name: GetDescription(String, String)
+  nameWithType: IGloballyDescribed.GetDescription(String, String)
+  fullName: BindOpen.Data.Items.IGloballyDescribed.GetDescription(System.String, System.String)
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IGloballyDescribed.GetDescription(System.String,System.String)
+    name: GetDescription
+    nameWithType: IGloballyDescribed.GetDescription
+    fullName: BindOpen.Data.Items.IGloballyDescribed.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IGloballyDescribed.GetDescription(System.String,System.String)
+    name: GetDescription
+    nameWithType: IGloballyDescribed.GetDescription
+    fullName: BindOpen.Data.Items.IGloballyDescribed.GetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IGloballyDescribed.SetDescription(System.String,System.String)
+  commentId: M:BindOpen.Data.Items.IGloballyDescribed.SetDescription(System.String,System.String)
+  parent: BindOpen.Data.Items.IGloballyDescribed
+  isExternal: true
+  name: SetDescription(String, String)
+  nameWithType: IGloballyDescribed.SetDescription(String, String)
+  fullName: BindOpen.Data.Items.IGloballyDescribed.SetDescription(System.String, System.String)
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IGloballyDescribed.SetDescription(System.String,System.String)
+    name: SetDescription
+    nameWithType: IGloballyDescribed.SetDescription
+    fullName: BindOpen.Data.Items.IGloballyDescribed.SetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IGloballyDescribed.SetDescription(System.String,System.String)
+    name: SetDescription
+    nameWithType: IGloballyDescribed.SetDescription
+    fullName: BindOpen.Data.Items.IGloballyDescribed.SetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IGloballyDescribed.SetDescription(System.String)
+  commentId: M:BindOpen.Data.Items.IGloballyDescribed.SetDescription(System.String)
+  parent: BindOpen.Data.Items.IGloballyDescribed
+  isExternal: true
+  name: SetDescription(String)
+  nameWithType: IGloballyDescribed.SetDescription(String)
+  fullName: BindOpen.Data.Items.IGloballyDescribed.SetDescription(System.String)
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IGloballyDescribed.SetDescription(System.String)
+    name: SetDescription
+    nameWithType: IGloballyDescribed.SetDescription
+    fullName: BindOpen.Data.Items.IGloballyDescribed.SetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IGloballyDescribed.SetDescription(System.String)
+    name: SetDescription
+    nameWithType: IGloballyDescribed.SetDescription
+    fullName: BindOpen.Data.Items.IGloballyDescribed.SetDescription
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IIndexed.Index
+  commentId: P:BindOpen.Data.Items.IIndexed.Index
+  parent: BindOpen.Data.Items.IIndexed
+  name: Index
+  nameWithType: IIndexed.Index
+  fullName: BindOpen.Data.Items.IIndexed.Index
+- uid: System.Object.BindOpen.Data.Common.DataValueTypeExtension.IsScalar
+  commentId: M:BindOpen.Data.Common.DataValueTypeExtension.IsScalar(System.Object)
+  parent: BindOpen.Data.Common.DataValueTypeExtension
+  definition: BindOpen.Data.Common.DataValueTypeExtension.IsScalar(System.Object)
+  name: IsScalar()
+  nameWithType: DataValueTypeExtension.IsScalar()
+  fullName: BindOpen.Data.Common.DataValueTypeExtension.IsScalar()
+  spec.csharp:
+  - uid: BindOpen.Data.Common.DataValueTypeExtension.IsScalar
+    name: IsScalar
+    nameWithType: DataValueTypeExtension.IsScalar
+    fullName: BindOpen.Data.Common.DataValueTypeExtension.IsScalar
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Common.DataValueTypeExtension.IsScalar
+    name: IsScalar
+    nameWithType: DataValueTypeExtension.IsScalar
+    fullName: BindOpen.Data.Common.DataValueTypeExtension.IsScalar
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.BindOpen.Data.Common.DataValueTypeExtension.GetValueType
+  commentId: M:BindOpen.Data.Common.DataValueTypeExtension.GetValueType(System.Object)
+  parent: BindOpen.Data.Common.DataValueTypeExtension
+  definition: BindOpen.Data.Common.DataValueTypeExtension.GetValueType(System.Object)
+  name: GetValueType()
+  nameWithType: DataValueTypeExtension.GetValueType()
+  fullName: BindOpen.Data.Common.DataValueTypeExtension.GetValueType()
+  spec.csharp:
+  - uid: BindOpen.Data.Common.DataValueTypeExtension.GetValueType
+    name: GetValueType
+    nameWithType: DataValueTypeExtension.GetValueType
+    fullName: BindOpen.Data.Common.DataValueTypeExtension.GetValueType
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Common.DataValueTypeExtension.GetValueType
+    name: GetValueType
+    nameWithType: DataValueTypeExtension.GetValueType
+    fullName: BindOpen.Data.Common.DataValueTypeExtension.GetValueType
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Extensions.Definition.IBdoExtensionItemDefinitionDto.BindOpen.Extensions.Definition.BdoExtensionItemKindExtension.GetExtensionItemKind
+  commentId: M:BindOpen.Extensions.Definition.BdoExtensionItemKindExtension.GetExtensionItemKind(BindOpen.Extensions.Definition.IBdoExtensionItemDefinitionDto)
+  parent: BindOpen.Extensions.Definition.BdoExtensionItemKindExtension
+  definition: BindOpen.Extensions.Definition.BdoExtensionItemKindExtension.GetExtensionItemKind(BindOpen.Extensions.Definition.IBdoExtensionItemDefinitionDto)
+  name: GetExtensionItemKind()
+  nameWithType: BdoExtensionItemKindExtension.GetExtensionItemKind()
+  fullName: BindOpen.Extensions.Definition.BdoExtensionItemKindExtension.GetExtensionItemKind()
+  spec.csharp:
+  - uid: BindOpen.Extensions.Definition.BdoExtensionItemKindExtension.GetExtensionItemKind
+    name: GetExtensionItemKind
+    nameWithType: BdoExtensionItemKindExtension.GetExtensionItemKind
+    fullName: BindOpen.Extensions.Definition.BdoExtensionItemKindExtension.GetExtensionItemKind
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Extensions.Definition.BdoExtensionItemKindExtension.GetExtensionItemKind
+    name: GetExtensionItemKind
+    nameWithType: BdoExtensionItemKindExtension.GetExtensionItemKind
+    fullName: BindOpen.Extensions.Definition.BdoExtensionItemKindExtension.GetExtensionItemKind
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.BindOpen.Data.Helpers.Objects.ObjectHelper.ToKey
+  commentId: M:BindOpen.Data.Helpers.Objects.ObjectHelper.ToKey(System.Object)
+  parent: BindOpen.Data.Helpers.Objects.ObjectHelper
+  definition: BindOpen.Data.Helpers.Objects.ObjectHelper.ToKey(System.Object)
+  name: ToKey()
+  nameWithType: ObjectHelper.ToKey()
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.ToKey()
+  spec.csharp:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.ToKey
+    name: ToKey
+    nameWithType: ObjectHelper.ToKey
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.ToKey
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.ToKey
+    name: ToKey
+    nameWithType: ObjectHelper.ToKey
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.ToKey
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.BindOpen.Data.Helpers.Objects.ObjectHelper.KeyEquals(System.Object)
+  commentId: M:BindOpen.Data.Helpers.Objects.ObjectHelper.KeyEquals(System.Object,System.Object)
+  parent: BindOpen.Data.Helpers.Objects.ObjectHelper
+  definition: BindOpen.Data.Helpers.Objects.ObjectHelper.KeyEquals(System.Object,System.Object)
+  name: KeyEquals(Object)
+  nameWithType: ObjectHelper.KeyEquals(Object)
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.KeyEquals(System.Object)
+  spec.csharp:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.KeyEquals(System.Object)
+    name: KeyEquals
+    nameWithType: ObjectHelper.KeyEquals
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.KeyEquals
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.KeyEquals(System.Object)
+    name: KeyEquals
+    nameWithType: ObjectHelper.KeyEquals
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.KeyEquals
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.BindOpen.Data.Helpers.Objects.ObjectHelper.ToNotNullString
+  commentId: M:BindOpen.Data.Helpers.Objects.ObjectHelper.ToNotNullString(System.Object)
+  parent: BindOpen.Data.Helpers.Objects.ObjectHelper
+  definition: BindOpen.Data.Helpers.Objects.ObjectHelper.ToNotNullString(System.Object)
+  name: ToNotNullString()
+  nameWithType: ObjectHelper.ToNotNullString()
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.ToNotNullString()
+  spec.csharp:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.ToNotNullString
+    name: ToNotNullString
+    nameWithType: ObjectHelper.ToNotNullString
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.ToNotNullString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.ToNotNullString
+    name: ToNotNullString
+    nameWithType: ObjectHelper.ToNotNullString
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.ToNotNullString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.BindOpen.Data.Helpers.Objects.ObjectHelper.ToString(BindOpen.Data.Common.DataValueType)
+  commentId: M:BindOpen.Data.Helpers.Objects.ObjectHelper.ToString(System.Object,BindOpen.Data.Common.DataValueType)
+  parent: BindOpen.Data.Helpers.Objects.ObjectHelper
+  definition: BindOpen.Data.Helpers.Objects.ObjectHelper.ToString(System.Object,BindOpen.Data.Common.DataValueType)
+  name: ToString(DataValueType)
+  nameWithType: ObjectHelper.ToString(DataValueType)
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.ToString(BindOpen.Data.Common.DataValueType)
+  spec.csharp:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.ToString(BindOpen.Data.Common.DataValueType)
+    name: ToString
+    nameWithType: ObjectHelper.ToString
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Data.Common.DataValueType
+    name: DataValueType
+    nameWithType: DataValueType
+    fullName: BindOpen.Data.Common.DataValueType
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.ToString(BindOpen.Data.Common.DataValueType)
+    name: ToString
+    nameWithType: ObjectHelper.ToString
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Data.Common.DataValueType
+    name: DataValueType
+    nameWithType: DataValueType
+    fullName: BindOpen.Data.Common.DataValueType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.BindOpen.Data.Helpers.Objects.ObjectHelper.Update(System.Object)
+  commentId: M:BindOpen.Data.Helpers.Objects.ObjectHelper.Update(System.Object,System.Object)
+  parent: BindOpen.Data.Helpers.Objects.ObjectHelper
+  definition: BindOpen.Data.Helpers.Objects.ObjectHelper.Update(System.Object,System.Object)
+  name: Update(Object)
+  nameWithType: ObjectHelper.Update(Object)
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.Update(System.Object)
+  spec.csharp:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.Update(System.Object)
+    name: Update
+    nameWithType: ObjectHelper.Update
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.Update(System.Object)
+    name: Update
+    nameWithType: ObjectHelper.Update
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromElementSet``1(BindOpen.Data.Elements.IDataElementSet,BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet)
+  commentId: M:BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromElementSet``1(System.Object,BindOpen.Data.Elements.IDataElementSet,BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet)
+  parent: BindOpen.Data.Helpers.Objects.ObjectHelper
+  definition: BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromElementSet``1(System.Object,BindOpen.Data.Elements.IDataElementSet,BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet)
+  name: UpdateFromElementSet<T>(IDataElementSet, IBdoScope, IBdoScriptVariableSet)
+  nameWithType: ObjectHelper.UpdateFromElementSet<T>(IDataElementSet, IBdoScope, IBdoScriptVariableSet)
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromElementSet<T>(BindOpen.Data.Elements.IDataElementSet, BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet)
+  nameWithType.vb: ObjectHelper.UpdateFromElementSet(Of T)(IDataElementSet, IBdoScope, IBdoScriptVariableSet)
+  fullName.vb: BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromElementSet(Of T)(BindOpen.Data.Elements.IDataElementSet, BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet)
+  name.vb: UpdateFromElementSet(Of T)(IDataElementSet, IBdoScope, IBdoScriptVariableSet)
+  spec.csharp:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromElementSet``1(BindOpen.Data.Elements.IDataElementSet,BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet)
+    name: UpdateFromElementSet<T>
+    nameWithType: ObjectHelper.UpdateFromElementSet<T>
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromElementSet<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Data.Elements.IDataElementSet
+    name: IDataElementSet
+    nameWithType: IDataElementSet
+    fullName: BindOpen.Data.Elements.IDataElementSet
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Application.Scopes.IBdoScope
+    name: IBdoScope
+    nameWithType: IBdoScope
+    fullName: BindOpen.Application.Scopes.IBdoScope
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Scripting.IBdoScriptVariableSet
+    name: IBdoScriptVariableSet
+    nameWithType: IBdoScriptVariableSet
+    fullName: BindOpen.System.Scripting.IBdoScriptVariableSet
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromElementSet``1(BindOpen.Data.Elements.IDataElementSet,BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet)
+    name: UpdateFromElementSet(Of T)
+    nameWithType: ObjectHelper.UpdateFromElementSet(Of T)
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromElementSet(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Data.Elements.IDataElementSet
+    name: IDataElementSet
+    nameWithType: IDataElementSet
+    fullName: BindOpen.Data.Elements.IDataElementSet
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Application.Scopes.IBdoScope
+    name: IBdoScope
+    nameWithType: IBdoScope
+    fullName: BindOpen.Application.Scopes.IBdoScope
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Scripting.IBdoScriptVariableSet
+    name: IBdoScriptVariableSet
+    nameWithType: IBdoScriptVariableSet
+    fullName: BindOpen.System.Scripting.IBdoScriptVariableSet
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.BindOpen.Data.Helpers.Serialization.ObjectNotationHelper_Json.ToJson(System.String)
+  commentId: M:BindOpen.Data.Helpers.Serialization.ObjectNotationHelper_Json.ToJson(System.Object,System.String)
+  parent: BindOpen.Data.Helpers.Serialization.ObjectNotationHelper_Json
+  definition: BindOpen.Data.Helpers.Serialization.ObjectNotationHelper_Json.ToJson(System.Object,System.String)
+  name: ToJson(String)
+  nameWithType: ObjectNotationHelper_Json.ToJson(String)
+  fullName: BindOpen.Data.Helpers.Serialization.ObjectNotationHelper_Json.ToJson(System.String)
+  spec.csharp:
+  - uid: BindOpen.Data.Helpers.Serialization.ObjectNotationHelper_Json.ToJson(System.String)
+    name: ToJson
+    nameWithType: ObjectNotationHelper_Json.ToJson
+    fullName: BindOpen.Data.Helpers.Serialization.ObjectNotationHelper_Json.ToJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Helpers.Serialization.ObjectNotationHelper_Json.ToJson(System.String)
+    name: ToJson
+    nameWithType: ObjectNotationHelper_Json.ToJson
+    fullName: BindOpen.Data.Helpers.Serialization.ObjectNotationHelper_Json.ToJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.BindOpen.Data.Helpers.Serialization.XmlHelper.ToXml(BindOpen.System.Diagnostics.IBdoLog)
+  commentId: M:BindOpen.Data.Helpers.Serialization.XmlHelper.ToXml(System.Object,BindOpen.System.Diagnostics.IBdoLog)
+  parent: BindOpen.Data.Helpers.Serialization.XmlHelper
+  definition: BindOpen.Data.Helpers.Serialization.XmlHelper.ToXml(System.Object,BindOpen.System.Diagnostics.IBdoLog)
+  name: ToXml(IBdoLog)
+  nameWithType: XmlHelper.ToXml(IBdoLog)
+  fullName: BindOpen.Data.Helpers.Serialization.XmlHelper.ToXml(BindOpen.System.Diagnostics.IBdoLog)
+  spec.csharp:
+  - uid: BindOpen.Data.Helpers.Serialization.XmlHelper.ToXml(BindOpen.System.Diagnostics.IBdoLog)
+    name: ToXml
+    nameWithType: XmlHelper.ToXml
+    fullName: BindOpen.Data.Helpers.Serialization.XmlHelper.ToXml
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Helpers.Serialization.XmlHelper.ToXml(BindOpen.System.Diagnostics.IBdoLog)
+    name: ToXml
+    nameWithType: XmlHelper.ToXml
+    fullName: BindOpen.Data.Helpers.Serialization.XmlHelper.ToXml
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.BindOpen.Data.Helpers.Serialization.XmlHelper.SaveXml(System.String,BindOpen.System.Diagnostics.IBdoLog)
+  commentId: M:BindOpen.Data.Helpers.Serialization.XmlHelper.SaveXml(System.Object,System.String,BindOpen.System.Diagnostics.IBdoLog)
+  parent: BindOpen.Data.Helpers.Serialization.XmlHelper
+  definition: BindOpen.Data.Helpers.Serialization.XmlHelper.SaveXml(System.Object,System.String,BindOpen.System.Diagnostics.IBdoLog)
+  name: SaveXml(String, IBdoLog)
+  nameWithType: XmlHelper.SaveXml(String, IBdoLog)
+  fullName: BindOpen.Data.Helpers.Serialization.XmlHelper.SaveXml(System.String, BindOpen.System.Diagnostics.IBdoLog)
+  spec.csharp:
+  - uid: BindOpen.Data.Helpers.Serialization.XmlHelper.SaveXml(System.String,BindOpen.System.Diagnostics.IBdoLog)
+    name: SaveXml
+    nameWithType: XmlHelper.SaveXml
+    fullName: BindOpen.Data.Helpers.Serialization.XmlHelper.SaveXml
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Helpers.Serialization.XmlHelper.SaveXml(System.String,BindOpen.System.Diagnostics.IBdoLog)
+    name: SaveXml
+    nameWithType: XmlHelper.SaveXml
+    fullName: BindOpen.Data.Helpers.Serialization.XmlHelper.SaveXml
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Extensions.Definition.IBdoExtensionItemDefinitionDto
+  commentId: T:BindOpen.Extensions.Definition.IBdoExtensionItemDefinitionDto
+  parent: BindOpen.Extensions.Definition
+  name: IBdoExtensionItemDefinitionDto
+  nameWithType: IBdoExtensionItemDefinitionDto
+  fullName: BindOpen.Extensions.Definition.IBdoExtensionItemDefinitionDto
+- uid: BindOpen.Data.Items.IDescribedDataItem
+  commentId: T:BindOpen.Data.Items.IDescribedDataItem
+  parent: BindOpen.Data.Items
+  name: IDescribedDataItem
+  nameWithType: IDescribedDataItem
+  fullName: BindOpen.Data.Items.IDescribedDataItem
+- uid: BindOpen.Data.Items.ITitledDataItem
+  commentId: T:BindOpen.Data.Items.ITitledDataItem
+  parent: BindOpen.Data.Items
+  name: ITitledDataItem
+  nameWithType: ITitledDataItem
+  fullName: BindOpen.Data.Items.ITitledDataItem
+- uid: BindOpen.Data.Items.IDataItem
+  commentId: T:BindOpen.Data.Items.IDataItem
+  parent: BindOpen.Data.Items
+  name: IDataItem
+  nameWithType: IDataItem
+  fullName: BindOpen.Data.Items.IDataItem
+- uid: BindOpen.Data.Items.IDataItem.Check``1(System.Boolean,``0,System.String[])
+  commentId: M:BindOpen.Data.Items.IDataItem.Check``1(System.Boolean,``0,System.String[])
+  isExternal: true
+  name: Check<T>(Boolean, T, String[])
+  nameWithType: IDataItem.Check<T>(Boolean, T, String[])
+  fullName: BindOpen.Data.Items.IDataItem.Check<T>(System.Boolean, T, System.String[])
+  nameWithType.vb: IDataItem.Check(Of T)(Boolean, T, String())
+  fullName.vb: BindOpen.Data.Items.IDataItem.Check(Of T)(System.Boolean, T, System.String())
+  name.vb: Check(Of T)(Boolean, T, String())
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItem.Check``1(System.Boolean,``0,System.String[])
+    name: Check<T>
+    nameWithType: IDataItem.Check<T>
+    fullName: BindOpen.Data.Items.IDataItem.Check<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItem.Check``1(System.Boolean,``0,System.String[])
+    name: Check(Of T)
+    nameWithType: IDataItem.Check(Of T)
+    fullName: BindOpen.Data.Items.IDataItem.Check(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IDataItem.Repair``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+  commentId: M:BindOpen.Data.Items.IDataItem.Repair``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+  isExternal: true
+  name: Repair<T>(T, String[], UpdateModes[])
+  nameWithType: IDataItem.Repair<T>(T, String[], UpdateModes[])
+  fullName: BindOpen.Data.Items.IDataItem.Repair<T>(T, System.String[], BindOpen.Data.Common.UpdateModes[])
+  nameWithType.vb: IDataItem.Repair(Of T)(T, String(), UpdateModes())
+  fullName.vb: BindOpen.Data.Items.IDataItem.Repair(Of T)(T, System.String(), BindOpen.Data.Common.UpdateModes())
+  name.vb: Repair(Of T)(T, String(), UpdateModes())
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItem.Repair``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+    name: Repair<T>
+    nameWithType: IDataItem.Repair<T>
+    fullName: BindOpen.Data.Items.IDataItem.Repair<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.UpdateModes
+    name: UpdateModes
+    nameWithType: UpdateModes
+    fullName: BindOpen.Data.Common.UpdateModes
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItem.Repair``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+    name: Repair(Of T)
+    nameWithType: IDataItem.Repair(Of T)
+    fullName: BindOpen.Data.Items.IDataItem.Repair(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.UpdateModes
+    name: UpdateModes
+    nameWithType: UpdateModes
+    fullName: BindOpen.Data.Common.UpdateModes
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IDataItem.Update``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+  commentId: M:BindOpen.Data.Items.IDataItem.Update``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+  isExternal: true
+  name: Update<T>(T, String[], UpdateModes[])
+  nameWithType: IDataItem.Update<T>(T, String[], UpdateModes[])
+  fullName: BindOpen.Data.Items.IDataItem.Update<T>(T, System.String[], BindOpen.Data.Common.UpdateModes[])
+  nameWithType.vb: IDataItem.Update(Of T)(T, String(), UpdateModes())
+  fullName.vb: BindOpen.Data.Items.IDataItem.Update(Of T)(T, System.String(), BindOpen.Data.Common.UpdateModes())
+  name.vb: Update(Of T)(T, String(), UpdateModes())
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItem.Update``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+    name: Update<T>
+    nameWithType: IDataItem.Update<T>
+    fullName: BindOpen.Data.Items.IDataItem.Update<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.UpdateModes
+    name: UpdateModes
+    nameWithType: UpdateModes
+    fullName: BindOpen.Data.Common.UpdateModes
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItem.Update``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+    name: Update(Of T)
+    nameWithType: IDataItem.Update(Of T)
+    fullName: BindOpen.Data.Items.IDataItem.Update(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.UpdateModes
+    name: UpdateModes
+    nameWithType: UpdateModes
+    fullName: BindOpen.Data.Common.UpdateModes
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
+  isExternal: true
+  name: ICloneable
+  nameWithType: ICloneable
+  fullName: System.ICloneable
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: BindOpen.Data.Items.IIdentified
+  commentId: T:BindOpen.Data.Items.IIdentified
+  parent: BindOpen.Data.Items
+  name: IIdentified
+  nameWithType: IIdentified
+  fullName: BindOpen.Data.Items.IIdentified
+- uid: BindOpen.Data.Items.IReferenced
+  commentId: T:BindOpen.Data.Items.IReferenced
+  parent: BindOpen.Data.Items
+  name: IReferenced
+  nameWithType: IReferenced
+  fullName: BindOpen.Data.Items.IReferenced
+- uid: BindOpen.Data.Items.IStorable
+  commentId: T:BindOpen.Data.Items.IStorable
+  parent: BindOpen.Data.Items
+  name: IStorable
+  nameWithType: IStorable
+  fullName: BindOpen.Data.Items.IStorable
+- uid: BindOpen.Data.Items.INamed
+  commentId: T:BindOpen.Data.Items.INamed
+  parent: BindOpen.Data.Items
+  name: INamed
+  nameWithType: INamed
+  fullName: BindOpen.Data.Items.INamed
+- uid: BindOpen.Data.Items.IGloballyTitled
+  commentId: T:BindOpen.Data.Items.IGloballyTitled
+  parent: BindOpen.Data.Items
+  name: IGloballyTitled
+  nameWithType: IGloballyTitled
+  fullName: BindOpen.Data.Items.IGloballyTitled
+- uid: BindOpen.Data.Items.IGloballyDescribed
+  commentId: T:BindOpen.Data.Items.IGloballyDescribed
+  parent: BindOpen.Data.Items
+  name: IGloballyDescribed
+  nameWithType: IGloballyDescribed
+  fullName: BindOpen.Data.Items.IGloballyDescribed
+- uid: BindOpen.Data.Items.IIndexed
+  commentId: T:BindOpen.Data.Items.IIndexed
+  parent: BindOpen.Data.Items
+  name: IIndexed
+  nameWithType: IIndexed
+  fullName: BindOpen.Data.Items.IIndexed
+- uid: BindOpen.Data.Common.DataValueTypeExtension.IsScalar(System.Object)
+  commentId: M:BindOpen.Data.Common.DataValueTypeExtension.IsScalar(System.Object)
+  isExternal: true
+  name: IsScalar(Object)
+  nameWithType: DataValueTypeExtension.IsScalar(Object)
+  fullName: BindOpen.Data.Common.DataValueTypeExtension.IsScalar(System.Object)
+  spec.csharp:
+  - uid: BindOpen.Data.Common.DataValueTypeExtension.IsScalar(System.Object)
+    name: IsScalar
+    nameWithType: DataValueTypeExtension.IsScalar
+    fullName: BindOpen.Data.Common.DataValueTypeExtension.IsScalar
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Common.DataValueTypeExtension.IsScalar(System.Object)
+    name: IsScalar
+    nameWithType: DataValueTypeExtension.IsScalar
+    fullName: BindOpen.Data.Common.DataValueTypeExtension.IsScalar
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Common.DataValueTypeExtension
+  commentId: T:BindOpen.Data.Common.DataValueTypeExtension
+  parent: BindOpen.Data.Common
+  name: DataValueTypeExtension
+  nameWithType: DataValueTypeExtension
+  fullName: BindOpen.Data.Common.DataValueTypeExtension
+- uid: BindOpen.Data.Common.DataValueTypeExtension.GetValueType(System.Object)
+  commentId: M:BindOpen.Data.Common.DataValueTypeExtension.GetValueType(System.Object)
+  isExternal: true
+  name: GetValueType(Object)
+  nameWithType: DataValueTypeExtension.GetValueType(Object)
+  fullName: BindOpen.Data.Common.DataValueTypeExtension.GetValueType(System.Object)
+  spec.csharp:
+  - uid: BindOpen.Data.Common.DataValueTypeExtension.GetValueType(System.Object)
+    name: GetValueType
+    nameWithType: DataValueTypeExtension.GetValueType
+    fullName: BindOpen.Data.Common.DataValueTypeExtension.GetValueType
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Common.DataValueTypeExtension.GetValueType(System.Object)
+    name: GetValueType
+    nameWithType: DataValueTypeExtension.GetValueType
+    fullName: BindOpen.Data.Common.DataValueTypeExtension.GetValueType
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Extensions.Definition.BdoExtensionItemKindExtension.GetExtensionItemKind(BindOpen.Extensions.Definition.IBdoExtensionItemDefinitionDto)
+  commentId: M:BindOpen.Extensions.Definition.BdoExtensionItemKindExtension.GetExtensionItemKind(BindOpen.Extensions.Definition.IBdoExtensionItemDefinitionDto)
+  name: GetExtensionItemKind(IBdoExtensionItemDefinitionDto)
+  nameWithType: BdoExtensionItemKindExtension.GetExtensionItemKind(IBdoExtensionItemDefinitionDto)
+  fullName: BindOpen.Extensions.Definition.BdoExtensionItemKindExtension.GetExtensionItemKind(BindOpen.Extensions.Definition.IBdoExtensionItemDefinitionDto)
+  spec.csharp:
+  - uid: BindOpen.Extensions.Definition.BdoExtensionItemKindExtension.GetExtensionItemKind(BindOpen.Extensions.Definition.IBdoExtensionItemDefinitionDto)
+    name: GetExtensionItemKind
+    nameWithType: BdoExtensionItemKindExtension.GetExtensionItemKind
+    fullName: BindOpen.Extensions.Definition.BdoExtensionItemKindExtension.GetExtensionItemKind
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Extensions.Definition.IBdoExtensionItemDefinitionDto
+    name: IBdoExtensionItemDefinitionDto
+    nameWithType: IBdoExtensionItemDefinitionDto
+    fullName: BindOpen.Extensions.Definition.IBdoExtensionItemDefinitionDto
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Extensions.Definition.BdoExtensionItemKindExtension.GetExtensionItemKind(BindOpen.Extensions.Definition.IBdoExtensionItemDefinitionDto)
+    name: GetExtensionItemKind
+    nameWithType: BdoExtensionItemKindExtension.GetExtensionItemKind
+    fullName: BindOpen.Extensions.Definition.BdoExtensionItemKindExtension.GetExtensionItemKind
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Extensions.Definition.IBdoExtensionItemDefinitionDto
+    name: IBdoExtensionItemDefinitionDto
+    nameWithType: IBdoExtensionItemDefinitionDto
+    fullName: BindOpen.Extensions.Definition.IBdoExtensionItemDefinitionDto
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Extensions.Definition.BdoExtensionItemKindExtension
+  commentId: T:BindOpen.Extensions.Definition.BdoExtensionItemKindExtension
+  parent: BindOpen.Extensions.Definition
+  name: BdoExtensionItemKindExtension
+  nameWithType: BdoExtensionItemKindExtension
+  fullName: BindOpen.Extensions.Definition.BdoExtensionItemKindExtension
+- uid: BindOpen.Data.Helpers.Objects.ObjectHelper.ToKey(System.Object)
+  commentId: M:BindOpen.Data.Helpers.Objects.ObjectHelper.ToKey(System.Object)
+  isExternal: true
+  name: ToKey(Object)
+  nameWithType: ObjectHelper.ToKey(Object)
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.ToKey(System.Object)
+  spec.csharp:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.ToKey(System.Object)
+    name: ToKey
+    nameWithType: ObjectHelper.ToKey
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.ToKey
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.ToKey(System.Object)
+    name: ToKey
+    nameWithType: ObjectHelper.ToKey
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.ToKey
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Helpers.Objects.ObjectHelper
+  commentId: T:BindOpen.Data.Helpers.Objects.ObjectHelper
+  parent: BindOpen.Data.Helpers.Objects
+  name: ObjectHelper
+  nameWithType: ObjectHelper
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper
+- uid: BindOpen.Data.Helpers.Objects.ObjectHelper.KeyEquals(System.Object,System.Object)
+  commentId: M:BindOpen.Data.Helpers.Objects.ObjectHelper.KeyEquals(System.Object,System.Object)
+  isExternal: true
+  name: KeyEquals(Object, Object)
+  nameWithType: ObjectHelper.KeyEquals(Object, Object)
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.KeyEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.KeyEquals(System.Object,System.Object)
+    name: KeyEquals
+    nameWithType: ObjectHelper.KeyEquals
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.KeyEquals
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.KeyEquals(System.Object,System.Object)
+    name: KeyEquals
+    nameWithType: ObjectHelper.KeyEquals
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.KeyEquals
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Helpers.Objects.ObjectHelper.ToNotNullString(System.Object)
+  commentId: M:BindOpen.Data.Helpers.Objects.ObjectHelper.ToNotNullString(System.Object)
+  isExternal: true
+  name: ToNotNullString(Object)
+  nameWithType: ObjectHelper.ToNotNullString(Object)
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.ToNotNullString(System.Object)
+  spec.csharp:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.ToNotNullString(System.Object)
+    name: ToNotNullString
+    nameWithType: ObjectHelper.ToNotNullString
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.ToNotNullString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.ToNotNullString(System.Object)
+    name: ToNotNullString
+    nameWithType: ObjectHelper.ToNotNullString
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.ToNotNullString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Helpers.Objects.ObjectHelper.ToString(System.Object,BindOpen.Data.Common.DataValueType)
+  commentId: M:BindOpen.Data.Helpers.Objects.ObjectHelper.ToString(System.Object,BindOpen.Data.Common.DataValueType)
+  isExternal: true
+  name: ToString(Object, DataValueType)
+  nameWithType: ObjectHelper.ToString(Object, DataValueType)
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.ToString(System.Object, BindOpen.Data.Common.DataValueType)
+  spec.csharp:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.ToString(System.Object,BindOpen.Data.Common.DataValueType)
+    name: ToString
+    nameWithType: ObjectHelper.ToString
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.DataValueType
+    name: DataValueType
+    nameWithType: DataValueType
+    fullName: BindOpen.Data.Common.DataValueType
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.ToString(System.Object,BindOpen.Data.Common.DataValueType)
+    name: ToString
+    nameWithType: ObjectHelper.ToString
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.DataValueType
+    name: DataValueType
+    nameWithType: DataValueType
+    fullName: BindOpen.Data.Common.DataValueType
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Helpers.Objects.ObjectHelper.Update(System.Object,System.Object)
+  commentId: M:BindOpen.Data.Helpers.Objects.ObjectHelper.Update(System.Object,System.Object)
+  isExternal: true
+  name: Update(Object, Object)
+  nameWithType: ObjectHelper.Update(Object, Object)
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.Update(System.Object, System.Object)
+  spec.csharp:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.Update(System.Object,System.Object)
+    name: Update
+    nameWithType: ObjectHelper.Update
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.Update(System.Object,System.Object)
+    name: Update
+    nameWithType: ObjectHelper.Update
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.Update
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromElementSet``1(System.Object,BindOpen.Data.Elements.IDataElementSet,BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet)
+  commentId: M:BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromElementSet``1(System.Object,BindOpen.Data.Elements.IDataElementSet,BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet)
+  isExternal: true
+  name: UpdateFromElementSet<T>(Object, IDataElementSet, IBdoScope, IBdoScriptVariableSet)
+  nameWithType: ObjectHelper.UpdateFromElementSet<T>(Object, IDataElementSet, IBdoScope, IBdoScriptVariableSet)
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromElementSet<T>(System.Object, BindOpen.Data.Elements.IDataElementSet, BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet)
+  nameWithType.vb: ObjectHelper.UpdateFromElementSet(Of T)(Object, IDataElementSet, IBdoScope, IBdoScriptVariableSet)
+  fullName.vb: BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromElementSet(Of T)(System.Object, BindOpen.Data.Elements.IDataElementSet, BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet)
+  name.vb: UpdateFromElementSet(Of T)(Object, IDataElementSet, IBdoScope, IBdoScriptVariableSet)
+  spec.csharp:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromElementSet``1(System.Object,BindOpen.Data.Elements.IDataElementSet,BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet)
+    name: UpdateFromElementSet<T>
+    nameWithType: ObjectHelper.UpdateFromElementSet<T>
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromElementSet<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Elements.IDataElementSet
+    name: IDataElementSet
+    nameWithType: IDataElementSet
+    fullName: BindOpen.Data.Elements.IDataElementSet
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Application.Scopes.IBdoScope
+    name: IBdoScope
+    nameWithType: IBdoScope
+    fullName: BindOpen.Application.Scopes.IBdoScope
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Scripting.IBdoScriptVariableSet
+    name: IBdoScriptVariableSet
+    nameWithType: IBdoScriptVariableSet
+    fullName: BindOpen.System.Scripting.IBdoScriptVariableSet
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromElementSet``1(System.Object,BindOpen.Data.Elements.IDataElementSet,BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet)
+    name: UpdateFromElementSet(Of T)
+    nameWithType: ObjectHelper.UpdateFromElementSet(Of T)
+    fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromElementSet(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Elements.IDataElementSet
+    name: IDataElementSet
+    nameWithType: IDataElementSet
+    fullName: BindOpen.Data.Elements.IDataElementSet
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Application.Scopes.IBdoScope
+    name: IBdoScope
+    nameWithType: IBdoScope
+    fullName: BindOpen.Application.Scopes.IBdoScope
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Scripting.IBdoScriptVariableSet
+    name: IBdoScriptVariableSet
+    nameWithType: IBdoScriptVariableSet
+    fullName: BindOpen.System.Scripting.IBdoScriptVariableSet
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Helpers.Serialization.ObjectNotationHelper_Json.ToJson(System.Object,System.String)
+  commentId: M:BindOpen.Data.Helpers.Serialization.ObjectNotationHelper_Json.ToJson(System.Object,System.String)
+  isExternal: true
+  name: ToJson(Object, String)
+  nameWithType: ObjectNotationHelper_Json.ToJson(Object, String)
+  fullName: BindOpen.Data.Helpers.Serialization.ObjectNotationHelper_Json.ToJson(System.Object, System.String)
+  spec.csharp:
+  - uid: BindOpen.Data.Helpers.Serialization.ObjectNotationHelper_Json.ToJson(System.Object,System.String)
+    name: ToJson
+    nameWithType: ObjectNotationHelper_Json.ToJson
+    fullName: BindOpen.Data.Helpers.Serialization.ObjectNotationHelper_Json.ToJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Helpers.Serialization.ObjectNotationHelper_Json.ToJson(System.Object,System.String)
+    name: ToJson
+    nameWithType: ObjectNotationHelper_Json.ToJson
+    fullName: BindOpen.Data.Helpers.Serialization.ObjectNotationHelper_Json.ToJson
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Helpers.Serialization.ObjectNotationHelper_Json
+  commentId: T:BindOpen.Data.Helpers.Serialization.ObjectNotationHelper_Json
+  parent: BindOpen.Data.Helpers.Serialization
+  name: ObjectNotationHelper_Json
+  nameWithType: ObjectNotationHelper_Json
+  fullName: BindOpen.Data.Helpers.Serialization.ObjectNotationHelper_Json
+- uid: BindOpen.Data.Helpers.Serialization.XmlHelper.ToXml(System.Object,BindOpen.System.Diagnostics.IBdoLog)
+  commentId: M:BindOpen.Data.Helpers.Serialization.XmlHelper.ToXml(System.Object,BindOpen.System.Diagnostics.IBdoLog)
+  isExternal: true
+  name: ToXml(Object, IBdoLog)
+  nameWithType: XmlHelper.ToXml(Object, IBdoLog)
+  fullName: BindOpen.Data.Helpers.Serialization.XmlHelper.ToXml(System.Object, BindOpen.System.Diagnostics.IBdoLog)
+  spec.csharp:
+  - uid: BindOpen.Data.Helpers.Serialization.XmlHelper.ToXml(System.Object,BindOpen.System.Diagnostics.IBdoLog)
+    name: ToXml
+    nameWithType: XmlHelper.ToXml
+    fullName: BindOpen.Data.Helpers.Serialization.XmlHelper.ToXml
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Helpers.Serialization.XmlHelper.ToXml(System.Object,BindOpen.System.Diagnostics.IBdoLog)
+    name: ToXml
+    nameWithType: XmlHelper.ToXml
+    fullName: BindOpen.Data.Helpers.Serialization.XmlHelper.ToXml
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Helpers.Serialization.XmlHelper
+  commentId: T:BindOpen.Data.Helpers.Serialization.XmlHelper
+  parent: BindOpen.Data.Helpers.Serialization
+  name: XmlHelper
+  nameWithType: XmlHelper
+  fullName: BindOpen.Data.Helpers.Serialization.XmlHelper
+- uid: BindOpen.Data.Helpers.Serialization.XmlHelper.SaveXml(System.Object,System.String,BindOpen.System.Diagnostics.IBdoLog)
+  commentId: M:BindOpen.Data.Helpers.Serialization.XmlHelper.SaveXml(System.Object,System.String,BindOpen.System.Diagnostics.IBdoLog)
+  isExternal: true
+  name: SaveXml(Object, String, IBdoLog)
+  nameWithType: XmlHelper.SaveXml(Object, String, IBdoLog)
+  fullName: BindOpen.Data.Helpers.Serialization.XmlHelper.SaveXml(System.Object, System.String, BindOpen.System.Diagnostics.IBdoLog)
+  spec.csharp:
+  - uid: BindOpen.Data.Helpers.Serialization.XmlHelper.SaveXml(System.Object,System.String,BindOpen.System.Diagnostics.IBdoLog)
+    name: SaveXml
+    nameWithType: XmlHelper.SaveXml
+    fullName: BindOpen.Data.Helpers.Serialization.XmlHelper.SaveXml
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Helpers.Serialization.XmlHelper.SaveXml(System.Object,System.String,BindOpen.System.Diagnostics.IBdoLog)
+    name: SaveXml
+    nameWithType: XmlHelper.SaveXml
+    fullName: BindOpen.Data.Helpers.Serialization.XmlHelper.SaveXml
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items
+  commentId: N:BindOpen.Data.Items
+  name: BindOpen.Data.Items
+  nameWithType: BindOpen.Data.Items
+  fullName: BindOpen.Data.Items
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Data.Common
+  commentId: N:BindOpen.Data.Common
+  name: BindOpen.Data.Common
+  nameWithType: BindOpen.Data.Common
+  fullName: BindOpen.Data.Common
+- uid: BindOpen.Data.Helpers.Objects
+  commentId: N:BindOpen.Data.Helpers.Objects
+  name: BindOpen.Data.Helpers.Objects
+  nameWithType: BindOpen.Data.Helpers.Objects
+  fullName: BindOpen.Data.Helpers.Objects
+- uid: BindOpen.Data.Helpers.Serialization
+  commentId: N:BindOpen.Data.Helpers.Serialization
+  name: BindOpen.Data.Helpers.Serialization
+  nameWithType: BindOpen.Data.Helpers.Serialization
+  fullName: BindOpen.Data.Helpers.Serialization
+- uid: BindOpen.Extensions.Definition.IBdoCarrierDefinitionDto.DatasourceKind*
+  commentId: Overload:BindOpen.Extensions.Definition.IBdoCarrierDefinitionDto.DatasourceKind
+  name: DatasourceKind
+  nameWithType: IBdoCarrierDefinitionDto.DatasourceKind
+  fullName: BindOpen.Extensions.Definition.IBdoCarrierDefinitionDto.DatasourceKind
+- uid: BindOpen.Data.Items.DatasourceKind
+  commentId: T:BindOpen.Data.Items.DatasourceKind
+  parent: BindOpen.Data.Items
+  name: DatasourceKind
+  nameWithType: DatasourceKind
+  fullName: BindOpen.Data.Items.DatasourceKind
+- uid: BindOpen.Extensions.Definition.IBdoCarrierDefinitionDto.ItemClass*
+  commentId: Overload:BindOpen.Extensions.Definition.IBdoCarrierDefinitionDto.ItemClass
+  name: ItemClass
+  nameWithType: IBdoCarrierDefinitionDto.ItemClass
+  fullName: BindOpen.Extensions.Definition.IBdoCarrierDefinitionDto.ItemClass
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: BindOpen.Extensions.Definition.IBdoCarrierDefinitionDto.DetailSpec*
+  commentId: Overload:BindOpen.Extensions.Definition.IBdoCarrierDefinitionDto.DetailSpec
+  name: DetailSpec
+  nameWithType: IBdoCarrierDefinitionDto.DetailSpec
+  fullName: BindOpen.Extensions.Definition.IBdoCarrierDefinitionDto.DetailSpec
+- uid: BindOpen.Data.Elements.DataElementSpecSet
+  commentId: T:BindOpen.Data.Elements.DataElementSpecSet
+  parent: BindOpen.Data.Elements
+  name: DataElementSpecSet
+  nameWithType: DataElementSpecSet
+  fullName: BindOpen.Data.Elements.DataElementSpecSet
+- uid: BindOpen.Data.Elements
+  commentId: N:BindOpen.Data.Elements
+  name: BindOpen.Data.Elements
+  nameWithType: BindOpen.Data.Elements
+  fullName: BindOpen.Data.Elements
+shouldSkipMarkup: true

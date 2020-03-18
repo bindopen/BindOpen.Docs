@@ -1,0 +1,42 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.System.Assemblies.References
+  commentId: N:BindOpen.System.Assemblies.References
+  id: BindOpen.System.Assemblies.References
+  children:
+  - BindOpen.System.Assemblies.References.BdoAssemblyReference
+  - BindOpen.System.Assemblies.References.BdoAssemblyReferenceFactory
+  - BindOpen.System.Assemblies.References.IBdoAssemblyReference
+  langs:
+  - csharp
+  - vb
+  name: BindOpen.System.Assemblies.References
+  nameWithType: BindOpen.System.Assemblies.References
+  fullName: BindOpen.System.Assemblies.References
+  type: Namespace
+  assemblies:
+  - BindOpen.Core
+references:
+- uid: BindOpen.System.Assemblies.References.BdoAssemblyReference
+  commentId: T:BindOpen.System.Assemblies.References.BdoAssemblyReference
+  parent: BindOpen.System.Assemblies.References
+  name: BdoAssemblyReference
+  nameWithType: BdoAssemblyReference
+  fullName: BindOpen.System.Assemblies.References.BdoAssemblyReference
+- uid: BindOpen.System.Assemblies.References.BdoAssemblyReferenceFactory
+  commentId: T:BindOpen.System.Assemblies.References.BdoAssemblyReferenceFactory
+  name: BdoAssemblyReferenceFactory
+  nameWithType: BdoAssemblyReferenceFactory
+  fullName: BindOpen.System.Assemblies.References.BdoAssemblyReferenceFactory
+- uid: BindOpen.System.Assemblies.References.IBdoAssemblyReference
+  commentId: T:BindOpen.System.Assemblies.References.IBdoAssemblyReference
+  parent: BindOpen.System.Assemblies.References
+  name: IBdoAssemblyReference
+  nameWithType: IBdoAssemblyReference
+  fullName: BindOpen.System.Assemblies.References.IBdoAssemblyReference
+- uid: BindOpen.System.Assemblies.References
+  commentId: N:BindOpen.System.Assemblies.References
+  name: BindOpen.System.Assemblies.References
+  nameWithType: BindOpen.System.Assemblies.References
+  fullName: BindOpen.System.Assemblies.References
+shouldSkipMarkup: true

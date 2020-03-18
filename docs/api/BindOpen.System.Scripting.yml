@@ -1,0 +1,87 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.System.Scripting
+  commentId: N:BindOpen.System.Scripting
+  id: BindOpen.System.Scripting
+  children:
+  - BindOpen.System.Scripting.BdoScriptFormatHelper
+  - BindOpen.System.Scripting.BdoScriptInterpreter
+  - BindOpen.System.Scripting.BdoScriptParsingHelper
+  - BindOpen.System.Scripting.IBdoScriptInterpreter
+  - BindOpen.System.Scripting.IBdoScriptVariableSet
+  - BindOpen.System.Scripting.InterpretationMode
+  - BindOpen.System.Scripting.ScriptItem
+  - BindOpen.System.Scripting.ScriptItemKindExtension
+  - BindOpen.System.Scripting.ScriptItemKinds
+  - BindOpen.System.Scripting.ScriptVariableSet
+  langs:
+  - csharp
+  - vb
+  name: BindOpen.System.Scripting
+  nameWithType: BindOpen.System.Scripting
+  fullName: BindOpen.System.Scripting
+  type: Namespace
+  assemblies:
+  - BindOpen.Core
+references:
+- uid: BindOpen.System.Scripting.BdoScriptFormatHelper
+  commentId: T:BindOpen.System.Scripting.BdoScriptFormatHelper
+  name: BdoScriptFormatHelper
+  nameWithType: BdoScriptFormatHelper
+  fullName: BindOpen.System.Scripting.BdoScriptFormatHelper
+- uid: BindOpen.System.Scripting.BdoScriptInterpreter
+  commentId: T:BindOpen.System.Scripting.BdoScriptInterpreter
+  name: BdoScriptInterpreter
+  nameWithType: BdoScriptInterpreter
+  fullName: BindOpen.System.Scripting.BdoScriptInterpreter
+- uid: BindOpen.System.Scripting.BdoScriptParsingHelper
+  commentId: T:BindOpen.System.Scripting.BdoScriptParsingHelper
+  name: BdoScriptParsingHelper
+  nameWithType: BdoScriptParsingHelper
+  fullName: BindOpen.System.Scripting.BdoScriptParsingHelper
+- uid: BindOpen.System.Scripting.IBdoScriptInterpreter
+  commentId: T:BindOpen.System.Scripting.IBdoScriptInterpreter
+  parent: BindOpen.System.Scripting
+  name: IBdoScriptInterpreter
+  nameWithType: IBdoScriptInterpreter
+  fullName: BindOpen.System.Scripting.IBdoScriptInterpreter
+- uid: BindOpen.System.Scripting.IBdoScriptVariableSet
+  commentId: T:BindOpen.System.Scripting.IBdoScriptVariableSet
+  parent: BindOpen.System.Scripting
+  name: IBdoScriptVariableSet
+  nameWithType: IBdoScriptVariableSet
+  fullName: BindOpen.System.Scripting.IBdoScriptVariableSet
+- uid: BindOpen.System.Scripting.InterpretationMode
+  commentId: T:BindOpen.System.Scripting.InterpretationMode
+  parent: BindOpen.System.Scripting
+  name: InterpretationMode
+  nameWithType: InterpretationMode
+  fullName: BindOpen.System.Scripting.InterpretationMode
+- uid: BindOpen.System.Scripting.ScriptItem
+  commentId: T:BindOpen.System.Scripting.ScriptItem
+  name: ScriptItem
+  nameWithType: ScriptItem
+  fullName: BindOpen.System.Scripting.ScriptItem
+- uid: BindOpen.System.Scripting.ScriptItemKinds
+  commentId: T:BindOpen.System.Scripting.ScriptItemKinds
+  parent: BindOpen.System.Scripting
+  name: ScriptItemKinds
+  nameWithType: ScriptItemKinds
+  fullName: BindOpen.System.Scripting.ScriptItemKinds
+- uid: BindOpen.System.Scripting.ScriptItemKindExtension
+  commentId: T:BindOpen.System.Scripting.ScriptItemKindExtension
+  parent: BindOpen.System.Scripting
+  name: ScriptItemKindExtension
+  nameWithType: ScriptItemKindExtension
+  fullName: BindOpen.System.Scripting.ScriptItemKindExtension
+- uid: BindOpen.System.Scripting.ScriptVariableSet
+  commentId: T:BindOpen.System.Scripting.ScriptVariableSet
+  name: ScriptVariableSet
+  nameWithType: ScriptVariableSet
+  fullName: BindOpen.System.Scripting.ScriptVariableSet
+- uid: BindOpen.System.Scripting
+  commentId: N:BindOpen.System.Scripting
+  name: BindOpen.System.Scripting
+  nameWithType: BindOpen.System.Scripting
+  fullName: BindOpen.System.Scripting
+shouldSkipMarkup: true

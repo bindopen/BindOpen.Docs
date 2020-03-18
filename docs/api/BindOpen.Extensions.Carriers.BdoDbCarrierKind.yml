@@ -1,0 +1,261 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Extensions.Carriers.BdoDbCarrierKind
+  commentId: T:BindOpen.Extensions.Carriers.BdoDbCarrierKind
+  id: BdoDbCarrierKind
+  parent: BindOpen.Extensions.Carriers
+  children:
+  - BindOpen.Extensions.Carriers.BdoDbCarrierKind.Any
+  - BindOpen.Extensions.Carriers.BdoDbCarrierKind.DbField
+  - BindOpen.Extensions.Carriers.BdoDbCarrierKind.DbTable
+  - BindOpen.Extensions.Carriers.BdoDbCarrierKind.None
+  langs:
+  - csharp
+  - vb
+  name: BdoDbCarrierKind
+  nameWithType: BdoDbCarrierKind
+  fullName: BindOpen.Extensions.Carriers.BdoDbCarrierKind
+  type: Enum
+  source:
+    remote:
+      path: src/BindOpen.Databases/Extensions/Carriers/BdoDbCarrierKind.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: BdoDbCarrierKind
+    path: ../src/BindOpen.Databases/Extensions/Carriers/BdoDbCarrierKind.cs
+    startLine: 7
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Carriers
+  summary: "\nThis enumeration lists all the possible kinds of database carriers.\n"
+  example: []
+  syntax:
+    content: public enum BdoDbCarrierKind
+    content.vb: Public Enum BdoDbCarrierKind
+  extensionMethods:
+  - BindOpen.Extensions.Carriers.BdoDbCarrierKind.BindOpen.Extensions.Carriers.DatabaseCarrierKindExtension.GetUniqueName
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: BindOpen.Extensions.Carriers.BdoDbCarrierKind.None
+  commentId: F:BindOpen.Extensions.Carriers.BdoDbCarrierKind.None
+  id: None
+  parent: BindOpen.Extensions.Carriers.BdoDbCarrierKind
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: BdoDbCarrierKind.None
+  fullName: BindOpen.Extensions.Carriers.BdoDbCarrierKind.None
+  type: Field
+  source:
+    remote:
+      path: src/BindOpen.Databases/Extensions/Carriers/BdoDbCarrierKind.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: None
+    path: ../src/BindOpen.Databases/Extensions/Carriers/BdoDbCarrierKind.cs
+    startLine: 12
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Carriers
+  summary: "\nNone.\n"
+  example: []
+  syntax:
+    content: None = 0
+    return:
+      type: BindOpen.Extensions.Carriers.BdoDbCarrierKind
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Extensions.Carriers.BdoDbCarrierKind.Any
+  commentId: F:BindOpen.Extensions.Carriers.BdoDbCarrierKind.Any
+  id: Any
+  parent: BindOpen.Extensions.Carriers.BdoDbCarrierKind
+  langs:
+  - csharp
+  - vb
+  name: Any
+  nameWithType: BdoDbCarrierKind.Any
+  fullName: BindOpen.Extensions.Carriers.BdoDbCarrierKind.Any
+  type: Field
+  source:
+    remote:
+      path: src/BindOpen.Databases/Extensions/Carriers/BdoDbCarrierKind.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: Any
+    path: ../src/BindOpen.Databases/Extensions/Carriers/BdoDbCarrierKind.cs
+    startLine: 17
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Carriers
+  summary: "\nAny.\n"
+  example: []
+  syntax:
+    content: Any = 1
+    return:
+      type: BindOpen.Extensions.Carriers.BdoDbCarrierKind
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Extensions.Carriers.BdoDbCarrierKind.DbField
+  commentId: F:BindOpen.Extensions.Carriers.BdoDbCarrierKind.DbField
+  id: DbField
+  parent: BindOpen.Extensions.Carriers.BdoDbCarrierKind
+  langs:
+  - csharp
+  - vb
+  name: DbField
+  nameWithType: BdoDbCarrierKind.DbField
+  fullName: BindOpen.Extensions.Carriers.BdoDbCarrierKind.DbField
+  type: Field
+  source:
+    remote:
+      path: src/BindOpen.Databases/Extensions/Carriers/BdoDbCarrierKind.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: DbField
+    path: ../src/BindOpen.Databases/Extensions/Carriers/BdoDbCarrierKind.cs
+    startLine: 22
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Carriers
+  summary: "\nDatabase field.\n"
+  example: []
+  syntax:
+    content: DbField = 2
+    return:
+      type: BindOpen.Extensions.Carriers.BdoDbCarrierKind
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BindOpen.Extensions.Carriers.BdoDbCarrierKind.DbTable
+  commentId: F:BindOpen.Extensions.Carriers.BdoDbCarrierKind.DbTable
+  id: DbTable
+  parent: BindOpen.Extensions.Carriers.BdoDbCarrierKind
+  langs:
+  - csharp
+  - vb
+  name: DbTable
+  nameWithType: BdoDbCarrierKind.DbTable
+  fullName: BindOpen.Extensions.Carriers.BdoDbCarrierKind.DbTable
+  type: Field
+  source:
+    remote:
+      path: src/BindOpen.Databases/Extensions/Carriers/BdoDbCarrierKind.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: DbTable
+    path: ../src/BindOpen.Databases/Extensions/Carriers/BdoDbCarrierKind.cs
+    startLine: 27
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Carriers
+  summary: "\nDatabase table.\n"
+  example: []
+  syntax:
+    content: DbTable = 3
+    return:
+      type: BindOpen.Extensions.Carriers.BdoDbCarrierKind
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: BindOpen.Extensions.Carriers
+  commentId: N:BindOpen.Extensions.Carriers
+  name: BindOpen.Extensions.Carriers
+  nameWithType: BindOpen.Extensions.Carriers
+  fullName: BindOpen.Extensions.Carriers
+- uid: BindOpen.Extensions.Carriers.BdoDbCarrierKind.BindOpen.Extensions.Carriers.DatabaseCarrierKindExtension.GetUniqueName
+  commentId: M:BindOpen.Extensions.Carriers.DatabaseCarrierKindExtension.GetUniqueName(BindOpen.Extensions.Carriers.BdoDbCarrierKind)
+  parent: BindOpen.Extensions.Carriers.DatabaseCarrierKindExtension
+  definition: BindOpen.Extensions.Carriers.DatabaseCarrierKindExtension.GetUniqueName(BindOpen.Extensions.Carriers.BdoDbCarrierKind)
+  name: GetUniqueName()
+  nameWithType: DatabaseCarrierKindExtension.GetUniqueName()
+  fullName: BindOpen.Extensions.Carriers.DatabaseCarrierKindExtension.GetUniqueName()
+  spec.csharp:
+  - uid: BindOpen.Extensions.Carriers.DatabaseCarrierKindExtension.GetUniqueName
+    name: GetUniqueName
+    nameWithType: DatabaseCarrierKindExtension.GetUniqueName
+    fullName: BindOpen.Extensions.Carriers.DatabaseCarrierKindExtension.GetUniqueName
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Extensions.Carriers.DatabaseCarrierKindExtension.GetUniqueName
+    name: GetUniqueName
+    nameWithType: DatabaseCarrierKindExtension.GetUniqueName
+    fullName: BindOpen.Extensions.Carriers.DatabaseCarrierKindExtension.GetUniqueName
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Extensions.Carriers.DatabaseCarrierKindExtension.GetUniqueName(BindOpen.Extensions.Carriers.BdoDbCarrierKind)
+  commentId: M:BindOpen.Extensions.Carriers.DatabaseCarrierKindExtension.GetUniqueName(BindOpen.Extensions.Carriers.BdoDbCarrierKind)
+  name: GetUniqueName(BdoDbCarrierKind)
+  nameWithType: DatabaseCarrierKindExtension.GetUniqueName(BdoDbCarrierKind)
+  fullName: BindOpen.Extensions.Carriers.DatabaseCarrierKindExtension.GetUniqueName(BindOpen.Extensions.Carriers.BdoDbCarrierKind)
+  spec.csharp:
+  - uid: BindOpen.Extensions.Carriers.DatabaseCarrierKindExtension.GetUniqueName(BindOpen.Extensions.Carriers.BdoDbCarrierKind)
+    name: GetUniqueName
+    nameWithType: DatabaseCarrierKindExtension.GetUniqueName
+    fullName: BindOpen.Extensions.Carriers.DatabaseCarrierKindExtension.GetUniqueName
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Extensions.Carriers.BdoDbCarrierKind
+    name: BdoDbCarrierKind
+    nameWithType: BdoDbCarrierKind
+    fullName: BindOpen.Extensions.Carriers.BdoDbCarrierKind
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Extensions.Carriers.DatabaseCarrierKindExtension.GetUniqueName(BindOpen.Extensions.Carriers.BdoDbCarrierKind)
+    name: GetUniqueName
+    nameWithType: DatabaseCarrierKindExtension.GetUniqueName
+    fullName: BindOpen.Extensions.Carriers.DatabaseCarrierKindExtension.GetUniqueName
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Extensions.Carriers.BdoDbCarrierKind
+    name: BdoDbCarrierKind
+    nameWithType: BdoDbCarrierKind
+    fullName: BindOpen.Extensions.Carriers.BdoDbCarrierKind
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Extensions.Carriers.DatabaseCarrierKindExtension
+  commentId: T:BindOpen.Extensions.Carriers.DatabaseCarrierKindExtension
+  parent: BindOpen.Extensions.Carriers
+  name: DatabaseCarrierKindExtension
+  nameWithType: DatabaseCarrierKindExtension
+  fullName: BindOpen.Extensions.Carriers.DatabaseCarrierKindExtension
+- uid: BindOpen.Extensions.Carriers.BdoDbCarrierKind
+  commentId: T:BindOpen.Extensions.Carriers.BdoDbCarrierKind
+  parent: BindOpen.Extensions.Carriers
+  name: BdoDbCarrierKind
+  nameWithType: BdoDbCarrierKind
+  fullName: BindOpen.Extensions.Carriers.BdoDbCarrierKind
+shouldSkipMarkup: true

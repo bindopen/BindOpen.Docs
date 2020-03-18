@@ -1,0 +1,646 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Extensions.Configuration.ConfigurationExtension
+  commentId: T:Microsoft.Extensions.Configuration.ConfigurationExtension
+  id: ConfigurationExtension
+  parent: Microsoft.Extensions.Configuration
+  children:
+  - Microsoft.Extensions.Configuration.ConfigurationExtension.GetBdoValue(IConfiguration,System.Type,System.String)
+  - Microsoft.Extensions.Configuration.ConfigurationExtension.GetBdoValue(IConfiguration,System.Type,System.String,System.String,IBdoScope,ScriptVariableSet,IBdoLog)
+  - Microsoft.Extensions.Configuration.ConfigurationExtension.GetBdoValue``1(IConfiguration,System.String,IBdoScope,ScriptVariableSet,IBdoLog)
+  - Microsoft.Extensions.Configuration.ConfigurationExtension.GetBdoValue``1(IConfiguration,System.String,System.String,IBdoScope,ScriptVariableSet,IBdoLog)
+  langs:
+  - csharp
+  - vb
+  name: ConfigurationExtension
+  nameWithType: ConfigurationExtension
+  fullName: Microsoft.Extensions.Configuration.ConfigurationExtension
+  type: Class
+  source:
+    remote:
+      path: src/BindOpen.Runtime.NetCore/Microsoft/Extensions/Configuration/ConfigurationExtension.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: ConfigurationExtension
+    path: ../src/BindOpen.Runtime.NetCore/Microsoft/Extensions/Configuration/ConfigurationExtension.cs
+    startLine: 11
+  assemblies:
+  - BindOpen.Runtime.NetCore
+  namespace: Microsoft.Extensions.Configuration
+  summary: "\nThis static class extends .Net core configuration.\n"
+  example: []
+  syntax:
+    content: public static class ConfigurationExtension
+    content.vb: Public Module ConfigurationExtension
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Microsoft.Extensions.Configuration.ConfigurationExtension.GetBdoValue``1(IConfiguration,System.String,IBdoScope,ScriptVariableSet,IBdoLog)
+  commentId: M:Microsoft.Extensions.Configuration.ConfigurationExtension.GetBdoValue``1(IConfiguration,System.String,IBdoScope,ScriptVariableSet,IBdoLog)
+  id: GetBdoValue``1(IConfiguration,System.String,IBdoScope,ScriptVariableSet,IBdoLog)
+  isExtensionMethod: true
+  parent: Microsoft.Extensions.Configuration.ConfigurationExtension
+  langs:
+  - csharp
+  - vb
+  name: GetBdoValue<T>(IConfiguration, String, IBdoScope, ScriptVariableSet, IBdoLog)
+  nameWithType: ConfigurationExtension.GetBdoValue<T>(IConfiguration, String, IBdoScope, ScriptVariableSet, IBdoLog)
+  fullName: Microsoft.Extensions.Configuration.ConfigurationExtension.GetBdoValue<T>(IConfiguration, System.String, IBdoScope, ScriptVariableSet, IBdoLog)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Runtime.NetCore/Microsoft/Extensions/Configuration/ConfigurationExtension.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GetBdoValue
+    path: ../src/BindOpen.Runtime.NetCore/Microsoft/Extensions/Configuration/ConfigurationExtension.cs
+    startLine: 23
+  assemblies:
+  - BindOpen.Runtime.NetCore
+  namespace: Microsoft.Extensions.Configuration
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: >-
+      public static T GetBdoValue<T>(this IConfiguration configuration, string key, IBdoScope scope = null, ScriptVariableSet scriptVariableSet = null, IBdoLog log = null)
+          where T : class
+    parameters:
+    - id: configuration
+      type: IConfiguration
+      description: ''
+    - id: key
+      type: System.String
+      description: ''
+    - id: scope
+      type: IBdoScope
+      description: ''
+    - id: scriptVariableSet
+      type: ScriptVariableSet
+      description: The script variable set to consider.
+    - id: log
+      type: IBdoLog
+      description: ''
+    typeParameters:
+    - id: T
+      description: ''
+    return:
+      type: '{T}'
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetBdoValue(Of T As Class)(configuration As IConfiguration, key As String, scope As IBdoScope = Nothing, scriptVariableSet As ScriptVariableSet = Nothing, log As IBdoLog = Nothing) As T
+  overload: Microsoft.Extensions.Configuration.ConfigurationExtension.GetBdoValue*
+  nameWithType.vb: ConfigurationExtension.GetBdoValue(Of T)(IConfiguration, String, IBdoScope, ScriptVariableSet, IBdoLog)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Microsoft.Extensions.Configuration.ConfigurationExtension.GetBdoValue(Of T)(IConfiguration, System.String, IBdoScope, ScriptVariableSet, IBdoLog)
+  name.vb: GetBdoValue(Of T)(IConfiguration, String, IBdoScope, ScriptVariableSet, IBdoLog)
+- uid: Microsoft.Extensions.Configuration.ConfigurationExtension.GetBdoValue``1(IConfiguration,System.String,System.String,IBdoScope,ScriptVariableSet,IBdoLog)
+  commentId: M:Microsoft.Extensions.Configuration.ConfigurationExtension.GetBdoValue``1(IConfiguration,System.String,System.String,IBdoScope,ScriptVariableSet,IBdoLog)
+  id: GetBdoValue``1(IConfiguration,System.String,System.String,IBdoScope,ScriptVariableSet,IBdoLog)
+  isExtensionMethod: true
+  parent: Microsoft.Extensions.Configuration.ConfigurationExtension
+  langs:
+  - csharp
+  - vb
+  name: GetBdoValue<T>(IConfiguration, String, String, IBdoScope, ScriptVariableSet, IBdoLog)
+  nameWithType: ConfigurationExtension.GetBdoValue<T>(IConfiguration, String, String, IBdoScope, ScriptVariableSet, IBdoLog)
+  fullName: Microsoft.Extensions.Configuration.ConfigurationExtension.GetBdoValue<T>(IConfiguration, System.String, System.String, IBdoScope, ScriptVariableSet, IBdoLog)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Runtime.NetCore/Microsoft/Extensions/Configuration/ConfigurationExtension.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GetBdoValue
+    path: ../src/BindOpen.Runtime.NetCore/Microsoft/Extensions/Configuration/ConfigurationExtension.cs
+    startLine: 40
+  assemblies:
+  - BindOpen.Runtime.NetCore
+  namespace: Microsoft.Extensions.Configuration
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: >-
+      public static T GetBdoValue<T>(this IConfiguration configuration, string key, string defaultValue, IBdoScope scope = null, ScriptVariableSet scriptVariableSet = null, IBdoLog log = null)
+          where T : class
+    parameters:
+    - id: configuration
+      type: IConfiguration
+      description: ''
+    - id: key
+      type: System.String
+      description: ''
+    - id: defaultValue
+      type: System.String
+      description: ''
+    - id: scope
+      type: IBdoScope
+      description: ''
+    - id: scriptVariableSet
+      type: ScriptVariableSet
+      description: The script variable set to consider.
+    - id: log
+      type: IBdoLog
+      description: ''
+    typeParameters:
+    - id: T
+      description: ''
+    return:
+      type: '{T}'
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetBdoValue(Of T As Class)(configuration As IConfiguration, key As String, defaultValue As String, scope As IBdoScope = Nothing, scriptVariableSet As ScriptVariableSet = Nothing, log As IBdoLog = Nothing) As T
+  overload: Microsoft.Extensions.Configuration.ConfigurationExtension.GetBdoValue*
+  nameWithType.vb: ConfigurationExtension.GetBdoValue(Of T)(IConfiguration, String, String, IBdoScope, ScriptVariableSet, IBdoLog)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Microsoft.Extensions.Configuration.ConfigurationExtension.GetBdoValue(Of T)(IConfiguration, System.String, System.String, IBdoScope, ScriptVariableSet, IBdoLog)
+  name.vb: GetBdoValue(Of T)(IConfiguration, String, String, IBdoScope, ScriptVariableSet, IBdoLog)
+- uid: Microsoft.Extensions.Configuration.ConfigurationExtension.GetBdoValue(IConfiguration,System.Type,System.String)
+  commentId: M:Microsoft.Extensions.Configuration.ConfigurationExtension.GetBdoValue(IConfiguration,System.Type,System.String)
+  id: GetBdoValue(IConfiguration,System.Type,System.String)
+  isExtensionMethod: true
+  parent: Microsoft.Extensions.Configuration.ConfigurationExtension
+  langs:
+  - csharp
+  - vb
+  name: GetBdoValue(IConfiguration, Type, String)
+  nameWithType: ConfigurationExtension.GetBdoValue(IConfiguration, Type, String)
+  fullName: Microsoft.Extensions.Configuration.ConfigurationExtension.GetBdoValue(IConfiguration, System.Type, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Runtime.NetCore/Microsoft/Extensions/Configuration/ConfigurationExtension.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GetBdoValue
+    path: ../src/BindOpen.Runtime.NetCore/Microsoft/Extensions/Configuration/ConfigurationExtension.cs
+    startLine: 61
+  assemblies:
+  - BindOpen.Runtime.NetCore
+  namespace: Microsoft.Extensions.Configuration
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public static object GetBdoValue(this IConfiguration configuration, Type type, string key)
+    parameters:
+    - id: configuration
+      type: IConfiguration
+      description: ''
+    - id: type
+      type: System.Type
+      description: ''
+    - id: key
+      type: System.String
+      description: ''
+    return:
+      type: System.Object
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetBdoValue(configuration As IConfiguration, type As Type, key As String) As Object
+  overload: Microsoft.Extensions.Configuration.ConfigurationExtension.GetBdoValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Microsoft.Extensions.Configuration.ConfigurationExtension.GetBdoValue(IConfiguration,System.Type,System.String,System.String,IBdoScope,ScriptVariableSet,IBdoLog)
+  commentId: M:Microsoft.Extensions.Configuration.ConfigurationExtension.GetBdoValue(IConfiguration,System.Type,System.String,System.String,IBdoScope,ScriptVariableSet,IBdoLog)
+  id: GetBdoValue(IConfiguration,System.Type,System.String,System.String,IBdoScope,ScriptVariableSet,IBdoLog)
+  isExtensionMethod: true
+  parent: Microsoft.Extensions.Configuration.ConfigurationExtension
+  langs:
+  - csharp
+  - vb
+  name: GetBdoValue(IConfiguration, Type, String, String, IBdoScope, ScriptVariableSet, IBdoLog)
+  nameWithType: ConfigurationExtension.GetBdoValue(IConfiguration, Type, String, String, IBdoScope, ScriptVariableSet, IBdoLog)
+  fullName: Microsoft.Extensions.Configuration.ConfigurationExtension.GetBdoValue(IConfiguration, System.Type, System.String, System.String, IBdoScope, ScriptVariableSet, IBdoLog)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Runtime.NetCore/Microsoft/Extensions/Configuration/ConfigurationExtension.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GetBdoValue
+    path: ../src/BindOpen.Runtime.NetCore/Microsoft/Extensions/Configuration/ConfigurationExtension.cs
+    startLine: 78
+  assemblies:
+  - BindOpen.Runtime.NetCore
+  namespace: Microsoft.Extensions.Configuration
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public static object GetBdoValue(this IConfiguration configuration, Type type, string key, string defaultValue, IBdoScope scope = null, ScriptVariableSet scriptVariableSet = null, IBdoLog log = null)
+    parameters:
+    - id: configuration
+      type: IConfiguration
+      description: ''
+    - id: type
+      type: System.Type
+      description: ''
+    - id: key
+      type: System.String
+      description: ''
+    - id: defaultValue
+      type: System.String
+      description: ''
+    - id: scope
+      type: IBdoScope
+      description: ''
+    - id: scriptVariableSet
+      type: ScriptVariableSet
+      description: The script variable set to consider.
+    - id: log
+      type: IBdoLog
+      description: ''
+    return:
+      type: System.Object
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetBdoValue(configuration As IConfiguration, type As Type, key As String, defaultValue As String, scope As IBdoScope = Nothing, scriptVariableSet As ScriptVariableSet = Nothing, log As IBdoLog = Nothing) As Object
+  overload: Microsoft.Extensions.Configuration.ConfigurationExtension.GetBdoValue*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Microsoft.Extensions.Configuration
+  commentId: N:Microsoft.Extensions.Configuration
+  name: Microsoft.Extensions.Configuration
+  nameWithType: Microsoft.Extensions.Configuration
+  fullName: Microsoft.Extensions.Configuration
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.Extensions.Configuration.ConfigurationExtension.GetBdoValue*
+  commentId: Overload:Microsoft.Extensions.Configuration.ConfigurationExtension.GetBdoValue
+  name: GetBdoValue
+  nameWithType: ConfigurationExtension.GetBdoValue
+  fullName: Microsoft.Extensions.Configuration.ConfigurationExtension.GetBdoValue
+- uid: IConfiguration
+  isExternal: true
+  name: IConfiguration
+  nameWithType: IConfiguration
+  fullName: IConfiguration
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: IBdoScope
+  isExternal: true
+  name: IBdoScope
+  nameWithType: IBdoScope
+  fullName: IBdoScope
+- uid: ScriptVariableSet
+  isExternal: true
+  name: ScriptVariableSet
+  nameWithType: ScriptVariableSet
+  fullName: ScriptVariableSet
+- uid: IBdoLog
+  isExternal: true
+  name: IBdoLog
+  nameWithType: IBdoLog
+  fullName: IBdoLog
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+shouldSkipMarkup: true

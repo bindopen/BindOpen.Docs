@@ -1,0 +1,49 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Data.References
+  commentId: N:BindOpen.Data.References
+  id: BindOpen.Data.References
+  children:
+  - BindOpen.Data.References.DataReference
+  - BindOpen.Data.References.DataReferenceDto
+  - BindOpen.Data.References.IDataReference
+  - BindOpen.Data.References.IDataReferenceDto
+  langs:
+  - csharp
+  - vb
+  name: BindOpen.Data.References
+  nameWithType: BindOpen.Data.References
+  fullName: BindOpen.Data.References
+  type: Namespace
+  assemblies:
+  - BindOpen.Core
+references:
+- uid: BindOpen.Data.References.DataReference
+  commentId: T:BindOpen.Data.References.DataReference
+  name: DataReference
+  nameWithType: DataReference
+  fullName: BindOpen.Data.References.DataReference
+- uid: BindOpen.Data.References.DataReferenceDto
+  commentId: T:BindOpen.Data.References.DataReferenceDto
+  parent: BindOpen.Data.References
+  name: DataReferenceDto
+  nameWithType: DataReferenceDto
+  fullName: BindOpen.Data.References.DataReferenceDto
+- uid: BindOpen.Data.References.IDataReference
+  commentId: T:BindOpen.Data.References.IDataReference
+  parent: BindOpen.Data.References
+  name: IDataReference
+  nameWithType: IDataReference
+  fullName: BindOpen.Data.References.IDataReference
+- uid: BindOpen.Data.References.IDataReferenceDto
+  commentId: T:BindOpen.Data.References.IDataReferenceDto
+  parent: BindOpen.Data.References
+  name: IDataReferenceDto
+  nameWithType: IDataReferenceDto
+  fullName: BindOpen.Data.References.IDataReferenceDto
+- uid: BindOpen.Data.References
+  commentId: N:BindOpen.Data.References
+  name: BindOpen.Data.References
+  nameWithType: BindOpen.Data.References
+  fullName: BindOpen.Data.References
+shouldSkipMarkup: true

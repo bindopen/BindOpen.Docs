@@ -1,0 +1,70 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.System.Diagnostics.Events
+  commentId: N:BindOpen.System.Diagnostics.Events
+  id: BindOpen.System.Diagnostics.Events
+  children:
+  - BindOpen.System.Diagnostics.Events.BdoConditionalEvent
+  - BindOpen.System.Diagnostics.Events.BdoEvent
+  - BindOpen.System.Diagnostics.Events.BdoEventCriticality
+  - BindOpen.System.Diagnostics.Events.BdoIEvent
+  - BindOpen.System.Diagnostics.Events.EventKindExtension
+  - BindOpen.System.Diagnostics.Events.EventKinds
+  - BindOpen.System.Diagnostics.Events.IBdoConditionalEvent
+  langs:
+  - csharp
+  - vb
+  name: BindOpen.System.Diagnostics.Events
+  nameWithType: BindOpen.System.Diagnostics.Events
+  fullName: BindOpen.System.Diagnostics.Events
+  type: Namespace
+  assemblies:
+  - BindOpen.Core
+references:
+- uid: BindOpen.System.Diagnostics.Events.BdoConditionalEvent
+  commentId: T:BindOpen.System.Diagnostics.Events.BdoConditionalEvent
+  name: BdoConditionalEvent
+  nameWithType: BdoConditionalEvent
+  fullName: BindOpen.System.Diagnostics.Events.BdoConditionalEvent
+- uid: BindOpen.System.Diagnostics.Events.BdoEvent
+  commentId: T:BindOpen.System.Diagnostics.Events.BdoEvent
+  parent: BindOpen.System.Diagnostics.Events
+  name: BdoEvent
+  nameWithType: BdoEvent
+  fullName: BindOpen.System.Diagnostics.Events.BdoEvent
+- uid: BindOpen.System.Diagnostics.Events.BdoEventCriticality
+  commentId: T:BindOpen.System.Diagnostics.Events.BdoEventCriticality
+  parent: BindOpen.System.Diagnostics.Events
+  name: BdoEventCriticality
+  nameWithType: BdoEventCriticality
+  fullName: BindOpen.System.Diagnostics.Events.BdoEventCriticality
+- uid: BindOpen.System.Diagnostics.Events.EventKinds
+  commentId: T:BindOpen.System.Diagnostics.Events.EventKinds
+  parent: BindOpen.System.Diagnostics.Events
+  name: EventKinds
+  nameWithType: EventKinds
+  fullName: BindOpen.System.Diagnostics.Events.EventKinds
+- uid: BindOpen.System.Diagnostics.Events.EventKindExtension
+  commentId: T:BindOpen.System.Diagnostics.Events.EventKindExtension
+  parent: BindOpen.System.Diagnostics.Events
+  name: EventKindExtension
+  nameWithType: EventKindExtension
+  fullName: BindOpen.System.Diagnostics.Events.EventKindExtension
+- uid: BindOpen.System.Diagnostics.Events.BdoIEvent
+  commentId: T:BindOpen.System.Diagnostics.Events.BdoIEvent
+  parent: BindOpen.System.Diagnostics.Events
+  name: BdoIEvent
+  nameWithType: BdoIEvent
+  fullName: BindOpen.System.Diagnostics.Events.BdoIEvent
+- uid: BindOpen.System.Diagnostics.Events.IBdoConditionalEvent
+  commentId: T:BindOpen.System.Diagnostics.Events.IBdoConditionalEvent
+  parent: BindOpen.System.Diagnostics.Events
+  name: IBdoConditionalEvent
+  nameWithType: IBdoConditionalEvent
+  fullName: BindOpen.System.Diagnostics.Events.IBdoConditionalEvent
+- uid: BindOpen.System.Diagnostics.Events
+  commentId: N:BindOpen.System.Diagnostics.Events
+  name: BindOpen.System.Diagnostics.Events
+  nameWithType: BindOpen.System.Diagnostics.Events
+  fullName: BindOpen.System.Diagnostics.Events
+shouldSkipMarkup: true

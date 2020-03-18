@@ -1,0 +1,2805 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Data.Stores.IBdoDbModelDepot
+  commentId: T:BindOpen.Data.Stores.IBdoDbModelDepot
+  id: IBdoDbModelDepot
+  parent: BindOpen.Data.Stores
+  children:
+  - BindOpen.Data.Stores.IBdoDbModelDepot.GetModel(System.String)
+  - BindOpen.Data.Stores.IBdoDbModelDepot.GetModel``1
+  - BindOpen.Data.Stores.IBdoDbModelDepot.Models
+  langs:
+  - csharp
+  - vb
+  name: IBdoDbModelDepot
+  nameWithType: IBdoDbModelDepot
+  fullName: BindOpen.Data.Stores.IBdoDbModelDepot
+  type: Interface
+  source:
+    remote:
+      path: src/BindOpen.Databases/Data/Stores/Depots/DbModels/Interfaces/IBdoDbModelDepot.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: IBdoDbModelDepot
+    path: ../src/BindOpen.Databases/Data/Stores/Depots/DbModels/Interfaces/IBdoDbModelDepot.cs
+    startLine: 8
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Stores
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: 'public interface IBdoDbModelDepot : ITBdoDepot<BdoDbModel>, IDataItemSet<BdoDbModel>, IBdoDepot, IIdentifiedDataItem, IDataItem, ICloneable, IDisposable, IIdentified, IReferenced'
+    content.vb: >-
+      Public Interface IBdoDbModelDepot
+          Inherits ITBdoDepot(Of BdoDbModel)
+  inheritedMembers:
+  - BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}.Add(BindOpen.Data.Models.BdoDbModel[])
+  - BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}.ClearItems
+  - BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}.Add(System.Collections.Generic.List{BindOpen.Data.Models.BdoDbModel},BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel})
+  - BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}.Add(BindOpen.Data.Models.BdoDbModel,BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel})
+  - BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}.GetCommonItemKeys(BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel})
+  - BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}.GetItem(System.String)
+  - BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}.HasItem(System.String)
+  - BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}.HasItems
+  - BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}.Remove(System.String[])
+  - BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}.Items
+  - BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}.Item(System.Int32)
+  - BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}.Item(System.String)
+  - BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}.Count
+  - BindOpen.Data.Stores.IBdoDepot.AddFromAllAssemblies(BindOpen.System.Diagnostics.IBdoLog)
+  - BindOpen.Data.Stores.IBdoDepot.AddFromAssembly(System.String,BindOpen.System.Diagnostics.IBdoLog)
+  - BindOpen.Data.Stores.IBdoDepot.AddFromAssembly``1(BindOpen.System.Diagnostics.IBdoLog)
+  - BindOpen.Data.Stores.IBdoDepot.LoadLazy(BindOpen.System.Diagnostics.IBdoLog)
+  - BindOpen.Data.Stores.IBdoDepot.WithScope(BindOpen.Application.Scopes.IBdoScope)
+  - BindOpen.Data.Stores.IBdoDepot.Scope
+  - BindOpen.Data.Stores.IBdoDepot.LazyLoadFunction
+  - BindOpen.Data.Items.IDataItem.Check(System.Boolean,System.String[])
+  - BindOpen.Data.Items.IDataItem.Check``1(System.Boolean,{T},System.String[])
+  - BindOpen.Data.Items.IDataItem.Repair(System.String[],BindOpen.Data.Common.UpdateModes[])
+  - BindOpen.Data.Items.IDataItem.Repair``1({T},System.String[],BindOpen.Data.Common.UpdateModes[])
+  - BindOpen.Data.Items.IDataItem.Update(System.String[],BindOpen.Data.Common.UpdateModes[])
+  - BindOpen.Data.Items.IDataItem.Update``1({T},System.String[],BindOpen.Data.Common.UpdateModes[])
+  - BindOpen.Data.Items.IDataItem.UpdateRuntimeInfo(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+  - BindOpen.Data.Items.IDataItem.UpdateStorageInfo(BindOpen.System.Diagnostics.IBdoLog)
+  - BindOpen.Data.Items.IDataItem.Clone``1
+  - System.ICloneable.Clone
+  - System.IDisposable.Dispose
+  - BindOpen.Data.Items.IIdentified.Id
+  - BindOpen.Data.Items.IReferenced.Key
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: BindOpen.Data.Stores.IBdoDbModelDepot.Models
+  commentId: P:BindOpen.Data.Stores.IBdoDbModelDepot.Models
+  id: Models
+  parent: BindOpen.Data.Stores.IBdoDbModelDepot
+  langs:
+  - csharp
+  - vb
+  name: Models
+  nameWithType: IBdoDbModelDepot.Models
+  fullName: BindOpen.Data.Stores.IBdoDbModelDepot.Models
+  type: Property
+  source:
+    remote:
+      path: src/BindOpen.Databases/Data/Stores/Depots/DbModels/Interfaces/IBdoDbModelDepot.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: Models
+    path: ../src/BindOpen.Databases/Data/Stores/Depots/DbModels/Interfaces/IBdoDbModelDepot.cs
+    startLine: 13
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Stores
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: List<BdoDbModel> Models { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{BindOpen.Data.Models.BdoDbModel}
+    content.vb: Property Models As List(Of BdoDbModel)
+  overload: BindOpen.Data.Stores.IBdoDbModelDepot.Models*
+  modifiers.csharp:
+  - get
+  - set
+- uid: BindOpen.Data.Stores.IBdoDbModelDepot.GetModel(System.String)
+  commentId: M:BindOpen.Data.Stores.IBdoDbModelDepot.GetModel(System.String)
+  id: GetModel(System.String)
+  parent: BindOpen.Data.Stores.IBdoDbModelDepot
+  langs:
+  - csharp
+  - vb
+  name: GetModel(String)
+  nameWithType: IBdoDbModelDepot.GetModel(String)
+  fullName: BindOpen.Data.Stores.IBdoDbModelDepot.GetModel(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Databases/Data/Stores/Depots/DbModels/Interfaces/IBdoDbModelDepot.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: GetModel
+    path: ../src/BindOpen.Databases/Data/Stores/Depots/DbModels/Interfaces/IBdoDbModelDepot.cs
+    startLine: 20
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Stores
+  summary: "\nGets the database model with the specified name.\n"
+  example: []
+  syntax:
+    content: IBdoDbModel GetModel(string name)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name to consider.
+    return:
+      type: BindOpen.Data.Models.IBdoDbModel
+      description: Returns the database query with the specified name.
+    content.vb: Function GetModel(name As String) As IBdoDbModel
+  overload: BindOpen.Data.Stores.IBdoDbModelDepot.GetModel*
+- uid: BindOpen.Data.Stores.IBdoDbModelDepot.GetModel``1
+  commentId: M:BindOpen.Data.Stores.IBdoDbModelDepot.GetModel``1
+  id: GetModel``1
+  parent: BindOpen.Data.Stores.IBdoDbModelDepot
+  langs:
+  - csharp
+  - vb
+  name: GetModel<T>()
+  nameWithType: IBdoDbModelDepot.GetModel<T>()
+  fullName: BindOpen.Data.Stores.IBdoDbModelDepot.GetModel<T>()
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Databases/Data/Stores/Depots/DbModels/Interfaces/IBdoDbModelDepot.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: GetModel
+    path: ../src/BindOpen.Databases/Data/Stores/Depots/DbModels/Interfaces/IBdoDbModelDepot.cs
+    startLine: 26
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Stores
+  summary: "\nGets the database model with the specified name.\n"
+  example: []
+  syntax:
+    content: >-
+      T GetModel<T>()
+          where T : BdoDbModel
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+      description: Returns the database query with the specified name.
+    content.vb: Function GetModel(Of T As BdoDbModel) As T
+  overload: BindOpen.Data.Stores.IBdoDbModelDepot.GetModel*
+  nameWithType.vb: IBdoDbModelDepot.GetModel(Of T)()
+  fullName.vb: BindOpen.Data.Stores.IBdoDbModelDepot.GetModel(Of T)()
+  name.vb: GetModel(Of T)()
+references:
+- uid: BindOpen.Data.Stores
+  commentId: N:BindOpen.Data.Stores
+  name: BindOpen.Data.Stores
+  nameWithType: BindOpen.Data.Stores
+  fullName: BindOpen.Data.Stores
+- uid: BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}.Add(BindOpen.Data.Models.BdoDbModel[])
+  commentId: M:BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}.Add(BindOpen.Data.Models.BdoDbModel[])
+  parent: BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}
+  definition: BindOpen.Data.Items.IDataItemSet`1.Add(`0[])
+  name: Add(BdoDbModel[])
+  nameWithType: IDataItemSet<BdoDbModel>.Add(BdoDbModel[])
+  fullName: BindOpen.Data.Items.IDataItemSet<BindOpen.Data.Models.BdoDbModel>.Add(BindOpen.Data.Models.BdoDbModel[])
+  nameWithType.vb: IDataItemSet(Of BdoDbModel).Add(BdoDbModel())
+  fullName.vb: BindOpen.Data.Items.IDataItemSet(Of BindOpen.Data.Models.BdoDbModel).Add(BindOpen.Data.Models.BdoDbModel())
+  name.vb: Add(BdoDbModel())
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItemSet`1.Add(`0[])
+    name: Add
+    nameWithType: IDataItemSet<BdoDbModel>.Add
+    fullName: BindOpen.Data.Items.IDataItemSet<BindOpen.Data.Models.BdoDbModel>.Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Data.Models.BdoDbModel
+    name: BdoDbModel
+    nameWithType: BdoDbModel
+    fullName: BindOpen.Data.Models.BdoDbModel
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItemSet`1.Add(`0[])
+    name: Add
+    nameWithType: IDataItemSet(Of BdoDbModel).Add
+    fullName: BindOpen.Data.Items.IDataItemSet(Of BindOpen.Data.Models.BdoDbModel).Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Data.Models.BdoDbModel
+    name: BdoDbModel
+    nameWithType: BdoDbModel
+    fullName: BindOpen.Data.Models.BdoDbModel
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}.ClearItems
+  commentId: M:BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}.ClearItems
+  parent: BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}
+  definition: BindOpen.Data.Items.IDataItemSet`1.ClearItems
+  name: ClearItems()
+  nameWithType: IDataItemSet<BdoDbModel>.ClearItems()
+  fullName: BindOpen.Data.Items.IDataItemSet<BindOpen.Data.Models.BdoDbModel>.ClearItems()
+  nameWithType.vb: IDataItemSet(Of BdoDbModel).ClearItems()
+  fullName.vb: BindOpen.Data.Items.IDataItemSet(Of BindOpen.Data.Models.BdoDbModel).ClearItems()
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItemSet`1.ClearItems
+    name: ClearItems
+    nameWithType: IDataItemSet<BdoDbModel>.ClearItems
+    fullName: BindOpen.Data.Items.IDataItemSet<BindOpen.Data.Models.BdoDbModel>.ClearItems
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItemSet`1.ClearItems
+    name: ClearItems
+    nameWithType: IDataItemSet(Of BdoDbModel).ClearItems
+    fullName: BindOpen.Data.Items.IDataItemSet(Of BindOpen.Data.Models.BdoDbModel).ClearItems
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}.Add(System.Collections.Generic.List{BindOpen.Data.Models.BdoDbModel},BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel})
+  commentId: M:BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}.Add(System.Collections.Generic.List{BindOpen.Data.Models.BdoDbModel},BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel})
+  parent: BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}
+  definition: BindOpen.Data.Items.IDataItemSet`1.Add(System.Collections.Generic.List{`0},BindOpen.Data.Items.IDataItemSet{`0})
+  name: Add(List<BdoDbModel>, IDataItemSet<BdoDbModel>)
+  nameWithType: IDataItemSet<BdoDbModel>.Add(List<BdoDbModel>, IDataItemSet<BdoDbModel>)
+  fullName: BindOpen.Data.Items.IDataItemSet<BindOpen.Data.Models.BdoDbModel>.Add(System.Collections.Generic.List<BindOpen.Data.Models.BdoDbModel>, BindOpen.Data.Items.IDataItemSet<BindOpen.Data.Models.BdoDbModel>)
+  nameWithType.vb: IDataItemSet(Of BdoDbModel).Add(List(Of BdoDbModel), IDataItemSet(Of BdoDbModel))
+  fullName.vb: BindOpen.Data.Items.IDataItemSet(Of BindOpen.Data.Models.BdoDbModel).Add(System.Collections.Generic.List(Of BindOpen.Data.Models.BdoDbModel), BindOpen.Data.Items.IDataItemSet(Of BindOpen.Data.Models.BdoDbModel))
+  name.vb: Add(List(Of BdoDbModel), IDataItemSet(Of BdoDbModel))
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItemSet`1.Add(System.Collections.Generic.List{`0},BindOpen.Data.Items.IDataItemSet{`0})
+    name: Add
+    nameWithType: IDataItemSet<BdoDbModel>.Add
+    fullName: BindOpen.Data.Items.IDataItemSet<BindOpen.Data.Models.BdoDbModel>.Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BindOpen.Data.Models.BdoDbModel
+    name: BdoDbModel
+    nameWithType: BdoDbModel
+    fullName: BindOpen.Data.Models.BdoDbModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Items.IDataItemSet`1
+    name: IDataItemSet
+    nameWithType: IDataItemSet
+    fullName: BindOpen.Data.Items.IDataItemSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BindOpen.Data.Models.BdoDbModel
+    name: BdoDbModel
+    nameWithType: BdoDbModel
+    fullName: BindOpen.Data.Models.BdoDbModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItemSet`1.Add(System.Collections.Generic.List{`0},BindOpen.Data.Items.IDataItemSet{`0})
+    name: Add
+    nameWithType: IDataItemSet(Of BdoDbModel).Add
+    fullName: BindOpen.Data.Items.IDataItemSet(Of BindOpen.Data.Models.BdoDbModel).Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BindOpen.Data.Models.BdoDbModel
+    name: BdoDbModel
+    nameWithType: BdoDbModel
+    fullName: BindOpen.Data.Models.BdoDbModel
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Items.IDataItemSet`1
+    name: IDataItemSet
+    nameWithType: IDataItemSet
+    fullName: BindOpen.Data.Items.IDataItemSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BindOpen.Data.Models.BdoDbModel
+    name: BdoDbModel
+    nameWithType: BdoDbModel
+    fullName: BindOpen.Data.Models.BdoDbModel
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}.Add(BindOpen.Data.Models.BdoDbModel,BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel})
+  commentId: M:BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}.Add(BindOpen.Data.Models.BdoDbModel,BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel})
+  parent: BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}
+  definition: BindOpen.Data.Items.IDataItemSet`1.Add(`0,BindOpen.Data.Items.IDataItemSet{`0})
+  name: Add(BdoDbModel, IDataItemSet<BdoDbModel>)
+  nameWithType: IDataItemSet<BdoDbModel>.Add(BdoDbModel, IDataItemSet<BdoDbModel>)
+  fullName: BindOpen.Data.Items.IDataItemSet<BindOpen.Data.Models.BdoDbModel>.Add(BindOpen.Data.Models.BdoDbModel, BindOpen.Data.Items.IDataItemSet<BindOpen.Data.Models.BdoDbModel>)
+  nameWithType.vb: IDataItemSet(Of BdoDbModel).Add(BdoDbModel, IDataItemSet(Of BdoDbModel))
+  fullName.vb: BindOpen.Data.Items.IDataItemSet(Of BindOpen.Data.Models.BdoDbModel).Add(BindOpen.Data.Models.BdoDbModel, BindOpen.Data.Items.IDataItemSet(Of BindOpen.Data.Models.BdoDbModel))
+  name.vb: Add(BdoDbModel, IDataItemSet(Of BdoDbModel))
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItemSet`1.Add(`0,BindOpen.Data.Items.IDataItemSet{`0})
+    name: Add
+    nameWithType: IDataItemSet<BdoDbModel>.Add
+    fullName: BindOpen.Data.Items.IDataItemSet<BindOpen.Data.Models.BdoDbModel>.Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Data.Models.BdoDbModel
+    name: BdoDbModel
+    nameWithType: BdoDbModel
+    fullName: BindOpen.Data.Models.BdoDbModel
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Items.IDataItemSet`1
+    name: IDataItemSet
+    nameWithType: IDataItemSet
+    fullName: BindOpen.Data.Items.IDataItemSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BindOpen.Data.Models.BdoDbModel
+    name: BdoDbModel
+    nameWithType: BdoDbModel
+    fullName: BindOpen.Data.Models.BdoDbModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItemSet`1.Add(`0,BindOpen.Data.Items.IDataItemSet{`0})
+    name: Add
+    nameWithType: IDataItemSet(Of BdoDbModel).Add
+    fullName: BindOpen.Data.Items.IDataItemSet(Of BindOpen.Data.Models.BdoDbModel).Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Data.Models.BdoDbModel
+    name: BdoDbModel
+    nameWithType: BdoDbModel
+    fullName: BindOpen.Data.Models.BdoDbModel
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Items.IDataItemSet`1
+    name: IDataItemSet
+    nameWithType: IDataItemSet
+    fullName: BindOpen.Data.Items.IDataItemSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BindOpen.Data.Models.BdoDbModel
+    name: BdoDbModel
+    nameWithType: BdoDbModel
+    fullName: BindOpen.Data.Models.BdoDbModel
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}.GetCommonItemKeys(BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel})
+  commentId: M:BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}.GetCommonItemKeys(BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel})
+  parent: BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}
+  definition: BindOpen.Data.Items.IDataItemSet`1.GetCommonItemKeys(BindOpen.Data.Items.IDataItemSet{`0})
+  name: GetCommonItemKeys(IDataItemSet<BdoDbModel>)
+  nameWithType: IDataItemSet<BdoDbModel>.GetCommonItemKeys(IDataItemSet<BdoDbModel>)
+  fullName: BindOpen.Data.Items.IDataItemSet<BindOpen.Data.Models.BdoDbModel>.GetCommonItemKeys(BindOpen.Data.Items.IDataItemSet<BindOpen.Data.Models.BdoDbModel>)
+  nameWithType.vb: IDataItemSet(Of BdoDbModel).GetCommonItemKeys(IDataItemSet(Of BdoDbModel))
+  fullName.vb: BindOpen.Data.Items.IDataItemSet(Of BindOpen.Data.Models.BdoDbModel).GetCommonItemKeys(BindOpen.Data.Items.IDataItemSet(Of BindOpen.Data.Models.BdoDbModel))
+  name.vb: GetCommonItemKeys(IDataItemSet(Of BdoDbModel))
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItemSet`1.GetCommonItemKeys(BindOpen.Data.Items.IDataItemSet{`0})
+    name: GetCommonItemKeys
+    nameWithType: IDataItemSet<BdoDbModel>.GetCommonItemKeys
+    fullName: BindOpen.Data.Items.IDataItemSet<BindOpen.Data.Models.BdoDbModel>.GetCommonItemKeys
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Data.Items.IDataItemSet`1
+    name: IDataItemSet
+    nameWithType: IDataItemSet
+    fullName: BindOpen.Data.Items.IDataItemSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BindOpen.Data.Models.BdoDbModel
+    name: BdoDbModel
+    nameWithType: BdoDbModel
+    fullName: BindOpen.Data.Models.BdoDbModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItemSet`1.GetCommonItemKeys(BindOpen.Data.Items.IDataItemSet{`0})
+    name: GetCommonItemKeys
+    nameWithType: IDataItemSet(Of BdoDbModel).GetCommonItemKeys
+    fullName: BindOpen.Data.Items.IDataItemSet(Of BindOpen.Data.Models.BdoDbModel).GetCommonItemKeys
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Data.Items.IDataItemSet`1
+    name: IDataItemSet
+    nameWithType: IDataItemSet
+    fullName: BindOpen.Data.Items.IDataItemSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BindOpen.Data.Models.BdoDbModel
+    name: BdoDbModel
+    nameWithType: BdoDbModel
+    fullName: BindOpen.Data.Models.BdoDbModel
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}.GetItem(System.String)
+  commentId: M:BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}.GetItem(System.String)
+  parent: BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}
+  definition: BindOpen.Data.Items.IDataItemSet`1.GetItem(System.String)
+  name: GetItem(String)
+  nameWithType: IDataItemSet<BdoDbModel>.GetItem(String)
+  fullName: BindOpen.Data.Items.IDataItemSet<BindOpen.Data.Models.BdoDbModel>.GetItem(System.String)
+  nameWithType.vb: IDataItemSet(Of BdoDbModel).GetItem(String)
+  fullName.vb: BindOpen.Data.Items.IDataItemSet(Of BindOpen.Data.Models.BdoDbModel).GetItem(System.String)
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItemSet`1.GetItem(System.String)
+    name: GetItem
+    nameWithType: IDataItemSet<BdoDbModel>.GetItem
+    fullName: BindOpen.Data.Items.IDataItemSet<BindOpen.Data.Models.BdoDbModel>.GetItem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItemSet`1.GetItem(System.String)
+    name: GetItem
+    nameWithType: IDataItemSet(Of BdoDbModel).GetItem
+    fullName: BindOpen.Data.Items.IDataItemSet(Of BindOpen.Data.Models.BdoDbModel).GetItem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}.HasItem(System.String)
+  commentId: M:BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}.HasItem(System.String)
+  parent: BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}
+  definition: BindOpen.Data.Items.IDataItemSet`1.HasItem(System.String)
+  name: HasItem(String)
+  nameWithType: IDataItemSet<BdoDbModel>.HasItem(String)
+  fullName: BindOpen.Data.Items.IDataItemSet<BindOpen.Data.Models.BdoDbModel>.HasItem(System.String)
+  nameWithType.vb: IDataItemSet(Of BdoDbModel).HasItem(String)
+  fullName.vb: BindOpen.Data.Items.IDataItemSet(Of BindOpen.Data.Models.BdoDbModel).HasItem(System.String)
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItemSet`1.HasItem(System.String)
+    name: HasItem
+    nameWithType: IDataItemSet<BdoDbModel>.HasItem
+    fullName: BindOpen.Data.Items.IDataItemSet<BindOpen.Data.Models.BdoDbModel>.HasItem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItemSet`1.HasItem(System.String)
+    name: HasItem
+    nameWithType: IDataItemSet(Of BdoDbModel).HasItem
+    fullName: BindOpen.Data.Items.IDataItemSet(Of BindOpen.Data.Models.BdoDbModel).HasItem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}.HasItems
+  commentId: M:BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}.HasItems
+  parent: BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}
+  definition: BindOpen.Data.Items.IDataItemSet`1.HasItems
+  name: HasItems()
+  nameWithType: IDataItemSet<BdoDbModel>.HasItems()
+  fullName: BindOpen.Data.Items.IDataItemSet<BindOpen.Data.Models.BdoDbModel>.HasItems()
+  nameWithType.vb: IDataItemSet(Of BdoDbModel).HasItems()
+  fullName.vb: BindOpen.Data.Items.IDataItemSet(Of BindOpen.Data.Models.BdoDbModel).HasItems()
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItemSet`1.HasItems
+    name: HasItems
+    nameWithType: IDataItemSet<BdoDbModel>.HasItems
+    fullName: BindOpen.Data.Items.IDataItemSet<BindOpen.Data.Models.BdoDbModel>.HasItems
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItemSet`1.HasItems
+    name: HasItems
+    nameWithType: IDataItemSet(Of BdoDbModel).HasItems
+    fullName: BindOpen.Data.Items.IDataItemSet(Of BindOpen.Data.Models.BdoDbModel).HasItems
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}.Remove(System.String[])
+  commentId: M:BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}.Remove(System.String[])
+  parent: BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}
+  definition: BindOpen.Data.Items.IDataItemSet`1.Remove(System.String[])
+  name: Remove(String[])
+  nameWithType: IDataItemSet<BdoDbModel>.Remove(String[])
+  fullName: BindOpen.Data.Items.IDataItemSet<BindOpen.Data.Models.BdoDbModel>.Remove(System.String[])
+  nameWithType.vb: IDataItemSet(Of BdoDbModel).Remove(String())
+  fullName.vb: BindOpen.Data.Items.IDataItemSet(Of BindOpen.Data.Models.BdoDbModel).Remove(System.String())
+  name.vb: Remove(String())
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItemSet`1.Remove(System.String[])
+    name: Remove
+    nameWithType: IDataItemSet<BdoDbModel>.Remove
+    fullName: BindOpen.Data.Items.IDataItemSet<BindOpen.Data.Models.BdoDbModel>.Remove
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItemSet`1.Remove(System.String[])
+    name: Remove
+    nameWithType: IDataItemSet(Of BdoDbModel).Remove
+    fullName: BindOpen.Data.Items.IDataItemSet(Of BindOpen.Data.Models.BdoDbModel).Remove
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}.Items
+  commentId: P:BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}.Items
+  parent: BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}
+  definition: BindOpen.Data.Items.IDataItemSet`1.Items
+  name: Items
+  nameWithType: IDataItemSet<BdoDbModel>.Items
+  fullName: BindOpen.Data.Items.IDataItemSet<BindOpen.Data.Models.BdoDbModel>.Items
+  nameWithType.vb: IDataItemSet(Of BdoDbModel).Items
+  fullName.vb: BindOpen.Data.Items.IDataItemSet(Of BindOpen.Data.Models.BdoDbModel).Items
+- uid: BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}.Item(System.Int32)
+  commentId: P:BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}.Item(System.Int32)
+  parent: BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}
+  definition: BindOpen.Data.Items.IDataItemSet`1.Item(System.Int32)
+  name: Item[Int32]
+  nameWithType: IDataItemSet<BdoDbModel>.Item[Int32]
+  fullName: BindOpen.Data.Items.IDataItemSet<BindOpen.Data.Models.BdoDbModel>.Item[System.Int32]
+  nameWithType.vb: IDataItemSet(Of BdoDbModel).Item(Int32)
+  fullName.vb: BindOpen.Data.Items.IDataItemSet(Of BindOpen.Data.Models.BdoDbModel).Item(System.Int32)
+  name.vb: Item(Int32)
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItemSet`1.Item(System.Int32)
+    name: Item
+    nameWithType: IDataItemSet<BdoDbModel>.Item
+    fullName: BindOpen.Data.Items.IDataItemSet<BindOpen.Data.Models.BdoDbModel>.Item
+    isExternal: true
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItemSet`1.Item(System.Int32)
+    name: Item
+    nameWithType: IDataItemSet(Of BdoDbModel).Item
+    fullName: BindOpen.Data.Items.IDataItemSet(Of BindOpen.Data.Models.BdoDbModel).Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}.Item(System.String)
+  commentId: P:BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}.Item(System.String)
+  parent: BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}
+  definition: BindOpen.Data.Items.IDataItemSet`1.Item(System.String)
+  name: Item[String]
+  nameWithType: IDataItemSet<BdoDbModel>.Item[String]
+  fullName: BindOpen.Data.Items.IDataItemSet<BindOpen.Data.Models.BdoDbModel>.Item[System.String]
+  nameWithType.vb: IDataItemSet(Of BdoDbModel).Item(String)
+  fullName.vb: BindOpen.Data.Items.IDataItemSet(Of BindOpen.Data.Models.BdoDbModel).Item(System.String)
+  name.vb: Item(String)
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItemSet`1.Item(System.String)
+    name: Item
+    nameWithType: IDataItemSet<BdoDbModel>.Item
+    fullName: BindOpen.Data.Items.IDataItemSet<BindOpen.Data.Models.BdoDbModel>.Item
+    isExternal: true
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItemSet`1.Item(System.String)
+    name: Item
+    nameWithType: IDataItemSet(Of BdoDbModel).Item
+    fullName: BindOpen.Data.Items.IDataItemSet(Of BindOpen.Data.Models.BdoDbModel).Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}.Count
+  commentId: P:BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}.Count
+  parent: BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}
+  definition: BindOpen.Data.Items.IDataItemSet`1.Count
+  name: Count
+  nameWithType: IDataItemSet<BdoDbModel>.Count
+  fullName: BindOpen.Data.Items.IDataItemSet<BindOpen.Data.Models.BdoDbModel>.Count
+  nameWithType.vb: IDataItemSet(Of BdoDbModel).Count
+  fullName.vb: BindOpen.Data.Items.IDataItemSet(Of BindOpen.Data.Models.BdoDbModel).Count
+- uid: BindOpen.Data.Stores.IBdoDepot.AddFromAllAssemblies(BindOpen.System.Diagnostics.IBdoLog)
+  commentId: M:BindOpen.Data.Stores.IBdoDepot.AddFromAllAssemblies(BindOpen.System.Diagnostics.IBdoLog)
+  parent: BindOpen.Data.Stores.IBdoDepot
+  isExternal: true
+  name: AddFromAllAssemblies(IBdoLog)
+  nameWithType: IBdoDepot.AddFromAllAssemblies(IBdoLog)
+  fullName: BindOpen.Data.Stores.IBdoDepot.AddFromAllAssemblies(BindOpen.System.Diagnostics.IBdoLog)
+  spec.csharp:
+  - uid: BindOpen.Data.Stores.IBdoDepot.AddFromAllAssemblies(BindOpen.System.Diagnostics.IBdoLog)
+    name: AddFromAllAssemblies
+    nameWithType: IBdoDepot.AddFromAllAssemblies
+    fullName: BindOpen.Data.Stores.IBdoDepot.AddFromAllAssemblies
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Stores.IBdoDepot.AddFromAllAssemblies(BindOpen.System.Diagnostics.IBdoLog)
+    name: AddFromAllAssemblies
+    nameWithType: IBdoDepot.AddFromAllAssemblies
+    fullName: BindOpen.Data.Stores.IBdoDepot.AddFromAllAssemblies
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Stores.IBdoDepot.AddFromAssembly(System.String,BindOpen.System.Diagnostics.IBdoLog)
+  commentId: M:BindOpen.Data.Stores.IBdoDepot.AddFromAssembly(System.String,BindOpen.System.Diagnostics.IBdoLog)
+  parent: BindOpen.Data.Stores.IBdoDepot
+  isExternal: true
+  name: AddFromAssembly(String, IBdoLog)
+  nameWithType: IBdoDepot.AddFromAssembly(String, IBdoLog)
+  fullName: BindOpen.Data.Stores.IBdoDepot.AddFromAssembly(System.String, BindOpen.System.Diagnostics.IBdoLog)
+  spec.csharp:
+  - uid: BindOpen.Data.Stores.IBdoDepot.AddFromAssembly(System.String,BindOpen.System.Diagnostics.IBdoLog)
+    name: AddFromAssembly
+    nameWithType: IBdoDepot.AddFromAssembly
+    fullName: BindOpen.Data.Stores.IBdoDepot.AddFromAssembly
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Stores.IBdoDepot.AddFromAssembly(System.String,BindOpen.System.Diagnostics.IBdoLog)
+    name: AddFromAssembly
+    nameWithType: IBdoDepot.AddFromAssembly
+    fullName: BindOpen.Data.Stores.IBdoDepot.AddFromAssembly
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Stores.IBdoDepot.AddFromAssembly``1(BindOpen.System.Diagnostics.IBdoLog)
+  commentId: M:BindOpen.Data.Stores.IBdoDepot.AddFromAssembly``1(BindOpen.System.Diagnostics.IBdoLog)
+  parent: BindOpen.Data.Stores.IBdoDepot
+  isExternal: true
+  name: AddFromAssembly<T>(IBdoLog)
+  nameWithType: IBdoDepot.AddFromAssembly<T>(IBdoLog)
+  fullName: BindOpen.Data.Stores.IBdoDepot.AddFromAssembly<T>(BindOpen.System.Diagnostics.IBdoLog)
+  nameWithType.vb: IBdoDepot.AddFromAssembly(Of T)(IBdoLog)
+  fullName.vb: BindOpen.Data.Stores.IBdoDepot.AddFromAssembly(Of T)(BindOpen.System.Diagnostics.IBdoLog)
+  name.vb: AddFromAssembly(Of T)(IBdoLog)
+  spec.csharp:
+  - uid: BindOpen.Data.Stores.IBdoDepot.AddFromAssembly``1(BindOpen.System.Diagnostics.IBdoLog)
+    name: AddFromAssembly<T>
+    nameWithType: IBdoDepot.AddFromAssembly<T>
+    fullName: BindOpen.Data.Stores.IBdoDepot.AddFromAssembly<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Stores.IBdoDepot.AddFromAssembly``1(BindOpen.System.Diagnostics.IBdoLog)
+    name: AddFromAssembly(Of T)
+    nameWithType: IBdoDepot.AddFromAssembly(Of T)
+    fullName: BindOpen.Data.Stores.IBdoDepot.AddFromAssembly(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Stores.IBdoDepot.LoadLazy(BindOpen.System.Diagnostics.IBdoLog)
+  commentId: M:BindOpen.Data.Stores.IBdoDepot.LoadLazy(BindOpen.System.Diagnostics.IBdoLog)
+  parent: BindOpen.Data.Stores.IBdoDepot
+  isExternal: true
+  name: LoadLazy(IBdoLog)
+  nameWithType: IBdoDepot.LoadLazy(IBdoLog)
+  fullName: BindOpen.Data.Stores.IBdoDepot.LoadLazy(BindOpen.System.Diagnostics.IBdoLog)
+  spec.csharp:
+  - uid: BindOpen.Data.Stores.IBdoDepot.LoadLazy(BindOpen.System.Diagnostics.IBdoLog)
+    name: LoadLazy
+    nameWithType: IBdoDepot.LoadLazy
+    fullName: BindOpen.Data.Stores.IBdoDepot.LoadLazy
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Stores.IBdoDepot.LoadLazy(BindOpen.System.Diagnostics.IBdoLog)
+    name: LoadLazy
+    nameWithType: IBdoDepot.LoadLazy
+    fullName: BindOpen.Data.Stores.IBdoDepot.LoadLazy
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Stores.IBdoDepot.WithScope(BindOpen.Application.Scopes.IBdoScope)
+  commentId: M:BindOpen.Data.Stores.IBdoDepot.WithScope(BindOpen.Application.Scopes.IBdoScope)
+  parent: BindOpen.Data.Stores.IBdoDepot
+  isExternal: true
+  name: WithScope(IBdoScope)
+  nameWithType: IBdoDepot.WithScope(IBdoScope)
+  fullName: BindOpen.Data.Stores.IBdoDepot.WithScope(BindOpen.Application.Scopes.IBdoScope)
+  spec.csharp:
+  - uid: BindOpen.Data.Stores.IBdoDepot.WithScope(BindOpen.Application.Scopes.IBdoScope)
+    name: WithScope
+    nameWithType: IBdoDepot.WithScope
+    fullName: BindOpen.Data.Stores.IBdoDepot.WithScope
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Application.Scopes.IBdoScope
+    name: IBdoScope
+    nameWithType: IBdoScope
+    fullName: BindOpen.Application.Scopes.IBdoScope
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Stores.IBdoDepot.WithScope(BindOpen.Application.Scopes.IBdoScope)
+    name: WithScope
+    nameWithType: IBdoDepot.WithScope
+    fullName: BindOpen.Data.Stores.IBdoDepot.WithScope
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Application.Scopes.IBdoScope
+    name: IBdoScope
+    nameWithType: IBdoScope
+    fullName: BindOpen.Application.Scopes.IBdoScope
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Stores.IBdoDepot.Scope
+  commentId: P:BindOpen.Data.Stores.IBdoDepot.Scope
+  parent: BindOpen.Data.Stores.IBdoDepot
+  isExternal: true
+  name: Scope
+  nameWithType: IBdoDepot.Scope
+  fullName: BindOpen.Data.Stores.IBdoDepot.Scope
+- uid: BindOpen.Data.Stores.IBdoDepot.LazyLoadFunction
+  commentId: P:BindOpen.Data.Stores.IBdoDepot.LazyLoadFunction
+  parent: BindOpen.Data.Stores.IBdoDepot
+  isExternal: true
+  name: LazyLoadFunction
+  nameWithType: IBdoDepot.LazyLoadFunction
+  fullName: BindOpen.Data.Stores.IBdoDepot.LazyLoadFunction
+- uid: BindOpen.Data.Items.IDataItem.Check(System.Boolean,System.String[])
+  commentId: M:BindOpen.Data.Items.IDataItem.Check(System.Boolean,System.String[])
+  parent: BindOpen.Data.Items.IDataItem
+  isExternal: true
+  name: Check(Boolean, String[])
+  nameWithType: IDataItem.Check(Boolean, String[])
+  fullName: BindOpen.Data.Items.IDataItem.Check(System.Boolean, System.String[])
+  nameWithType.vb: IDataItem.Check(Boolean, String())
+  fullName.vb: BindOpen.Data.Items.IDataItem.Check(System.Boolean, System.String())
+  name.vb: Check(Boolean, String())
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItem.Check(System.Boolean,System.String[])
+    name: Check
+    nameWithType: IDataItem.Check
+    fullName: BindOpen.Data.Items.IDataItem.Check
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItem.Check(System.Boolean,System.String[])
+    name: Check
+    nameWithType: IDataItem.Check
+    fullName: BindOpen.Data.Items.IDataItem.Check
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IDataItem.Check``1(System.Boolean,{T},System.String[])
+  commentId: M:BindOpen.Data.Items.IDataItem.Check``1(System.Boolean,``0,System.String[])
+  parent: BindOpen.Data.Items.IDataItem
+  definition: BindOpen.Data.Items.IDataItem.Check``1(System.Boolean,``0,System.String[])
+  name: Check<T>(Boolean, T, String[])
+  nameWithType: IDataItem.Check<T>(Boolean, T, String[])
+  fullName: BindOpen.Data.Items.IDataItem.Check<T>(System.Boolean, T, System.String[])
+  nameWithType.vb: IDataItem.Check(Of T)(Boolean, T, String())
+  fullName.vb: BindOpen.Data.Items.IDataItem.Check(Of T)(System.Boolean, T, System.String())
+  name.vb: Check(Of T)(Boolean, T, String())
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItem.Check``1(System.Boolean,``0,System.String[])
+    name: Check<T>
+    nameWithType: IDataItem.Check<T>
+    fullName: BindOpen.Data.Items.IDataItem.Check<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItem.Check``1(System.Boolean,``0,System.String[])
+    name: Check(Of T)
+    nameWithType: IDataItem.Check(Of T)
+    fullName: BindOpen.Data.Items.IDataItem.Check(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IDataItem.Repair(System.String[],BindOpen.Data.Common.UpdateModes[])
+  commentId: M:BindOpen.Data.Items.IDataItem.Repair(System.String[],BindOpen.Data.Common.UpdateModes[])
+  parent: BindOpen.Data.Items.IDataItem
+  isExternal: true
+  name: Repair(String[], UpdateModes[])
+  nameWithType: IDataItem.Repair(String[], UpdateModes[])
+  fullName: BindOpen.Data.Items.IDataItem.Repair(System.String[], BindOpen.Data.Common.UpdateModes[])
+  nameWithType.vb: IDataItem.Repair(String(), UpdateModes())
+  fullName.vb: BindOpen.Data.Items.IDataItem.Repair(System.String(), BindOpen.Data.Common.UpdateModes())
+  name.vb: Repair(String(), UpdateModes())
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItem.Repair(System.String[],BindOpen.Data.Common.UpdateModes[])
+    name: Repair
+    nameWithType: IDataItem.Repair
+    fullName: BindOpen.Data.Items.IDataItem.Repair
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.UpdateModes
+    name: UpdateModes
+    nameWithType: UpdateModes
+    fullName: BindOpen.Data.Common.UpdateModes
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItem.Repair(System.String[],BindOpen.Data.Common.UpdateModes[])
+    name: Repair
+    nameWithType: IDataItem.Repair
+    fullName: BindOpen.Data.Items.IDataItem.Repair
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.UpdateModes
+    name: UpdateModes
+    nameWithType: UpdateModes
+    fullName: BindOpen.Data.Common.UpdateModes
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IDataItem.Repair``1({T},System.String[],BindOpen.Data.Common.UpdateModes[])
+  commentId: M:BindOpen.Data.Items.IDataItem.Repair``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+  parent: BindOpen.Data.Items.IDataItem
+  definition: BindOpen.Data.Items.IDataItem.Repair``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+  name: Repair<T>(T, String[], UpdateModes[])
+  nameWithType: IDataItem.Repair<T>(T, String[], UpdateModes[])
+  fullName: BindOpen.Data.Items.IDataItem.Repair<T>(T, System.String[], BindOpen.Data.Common.UpdateModes[])
+  nameWithType.vb: IDataItem.Repair(Of T)(T, String(), UpdateModes())
+  fullName.vb: BindOpen.Data.Items.IDataItem.Repair(Of T)(T, System.String(), BindOpen.Data.Common.UpdateModes())
+  name.vb: Repair(Of T)(T, String(), UpdateModes())
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItem.Repair``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+    name: Repair<T>
+    nameWithType: IDataItem.Repair<T>
+    fullName: BindOpen.Data.Items.IDataItem.Repair<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.UpdateModes
+    name: UpdateModes
+    nameWithType: UpdateModes
+    fullName: BindOpen.Data.Common.UpdateModes
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItem.Repair``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+    name: Repair(Of T)
+    nameWithType: IDataItem.Repair(Of T)
+    fullName: BindOpen.Data.Items.IDataItem.Repair(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.UpdateModes
+    name: UpdateModes
+    nameWithType: UpdateModes
+    fullName: BindOpen.Data.Common.UpdateModes
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IDataItem.Update(System.String[],BindOpen.Data.Common.UpdateModes[])
+  commentId: M:BindOpen.Data.Items.IDataItem.Update(System.String[],BindOpen.Data.Common.UpdateModes[])
+  parent: BindOpen.Data.Items.IDataItem
+  isExternal: true
+  name: Update(String[], UpdateModes[])
+  nameWithType: IDataItem.Update(String[], UpdateModes[])
+  fullName: BindOpen.Data.Items.IDataItem.Update(System.String[], BindOpen.Data.Common.UpdateModes[])
+  nameWithType.vb: IDataItem.Update(String(), UpdateModes())
+  fullName.vb: BindOpen.Data.Items.IDataItem.Update(System.String(), BindOpen.Data.Common.UpdateModes())
+  name.vb: Update(String(), UpdateModes())
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItem.Update(System.String[],BindOpen.Data.Common.UpdateModes[])
+    name: Update
+    nameWithType: IDataItem.Update
+    fullName: BindOpen.Data.Items.IDataItem.Update
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.UpdateModes
+    name: UpdateModes
+    nameWithType: UpdateModes
+    fullName: BindOpen.Data.Common.UpdateModes
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItem.Update(System.String[],BindOpen.Data.Common.UpdateModes[])
+    name: Update
+    nameWithType: IDataItem.Update
+    fullName: BindOpen.Data.Items.IDataItem.Update
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.UpdateModes
+    name: UpdateModes
+    nameWithType: UpdateModes
+    fullName: BindOpen.Data.Common.UpdateModes
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IDataItem.Update``1({T},System.String[],BindOpen.Data.Common.UpdateModes[])
+  commentId: M:BindOpen.Data.Items.IDataItem.Update``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+  parent: BindOpen.Data.Items.IDataItem
+  definition: BindOpen.Data.Items.IDataItem.Update``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+  name: Update<T>(T, String[], UpdateModes[])
+  nameWithType: IDataItem.Update<T>(T, String[], UpdateModes[])
+  fullName: BindOpen.Data.Items.IDataItem.Update<T>(T, System.String[], BindOpen.Data.Common.UpdateModes[])
+  nameWithType.vb: IDataItem.Update(Of T)(T, String(), UpdateModes())
+  fullName.vb: BindOpen.Data.Items.IDataItem.Update(Of T)(T, System.String(), BindOpen.Data.Common.UpdateModes())
+  name.vb: Update(Of T)(T, String(), UpdateModes())
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItem.Update``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+    name: Update<T>
+    nameWithType: IDataItem.Update<T>
+    fullName: BindOpen.Data.Items.IDataItem.Update<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.UpdateModes
+    name: UpdateModes
+    nameWithType: UpdateModes
+    fullName: BindOpen.Data.Common.UpdateModes
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItem.Update``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+    name: Update(Of T)
+    nameWithType: IDataItem.Update(Of T)
+    fullName: BindOpen.Data.Items.IDataItem.Update(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.UpdateModes
+    name: UpdateModes
+    nameWithType: UpdateModes
+    fullName: BindOpen.Data.Common.UpdateModes
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IDataItem.UpdateRuntimeInfo(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+  commentId: M:BindOpen.Data.Items.IDataItem.UpdateRuntimeInfo(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+  parent: BindOpen.Data.Items.IDataItem
+  isExternal: true
+  name: UpdateRuntimeInfo(IBdoScope, IBdoScriptVariableSet, IBdoLog)
+  nameWithType: IDataItem.UpdateRuntimeInfo(IBdoScope, IBdoScriptVariableSet, IBdoLog)
+  fullName: BindOpen.Data.Items.IDataItem.UpdateRuntimeInfo(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.System.Diagnostics.IBdoLog)
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItem.UpdateRuntimeInfo(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+    name: UpdateRuntimeInfo
+    nameWithType: IDataItem.UpdateRuntimeInfo
+    fullName: BindOpen.Data.Items.IDataItem.UpdateRuntimeInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Application.Scopes.IBdoScope
+    name: IBdoScope
+    nameWithType: IBdoScope
+    fullName: BindOpen.Application.Scopes.IBdoScope
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Scripting.IBdoScriptVariableSet
+    name: IBdoScriptVariableSet
+    nameWithType: IBdoScriptVariableSet
+    fullName: BindOpen.System.Scripting.IBdoScriptVariableSet
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItem.UpdateRuntimeInfo(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+    name: UpdateRuntimeInfo
+    nameWithType: IDataItem.UpdateRuntimeInfo
+    fullName: BindOpen.Data.Items.IDataItem.UpdateRuntimeInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Application.Scopes.IBdoScope
+    name: IBdoScope
+    nameWithType: IBdoScope
+    fullName: BindOpen.Application.Scopes.IBdoScope
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Scripting.IBdoScriptVariableSet
+    name: IBdoScriptVariableSet
+    nameWithType: IBdoScriptVariableSet
+    fullName: BindOpen.System.Scripting.IBdoScriptVariableSet
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IDataItem.UpdateStorageInfo(BindOpen.System.Diagnostics.IBdoLog)
+  commentId: M:BindOpen.Data.Items.IDataItem.UpdateStorageInfo(BindOpen.System.Diagnostics.IBdoLog)
+  parent: BindOpen.Data.Items.IDataItem
+  isExternal: true
+  name: UpdateStorageInfo(IBdoLog)
+  nameWithType: IDataItem.UpdateStorageInfo(IBdoLog)
+  fullName: BindOpen.Data.Items.IDataItem.UpdateStorageInfo(BindOpen.System.Diagnostics.IBdoLog)
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItem.UpdateStorageInfo(BindOpen.System.Diagnostics.IBdoLog)
+    name: UpdateStorageInfo
+    nameWithType: IDataItem.UpdateStorageInfo
+    fullName: BindOpen.Data.Items.IDataItem.UpdateStorageInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItem.UpdateStorageInfo(BindOpen.System.Diagnostics.IBdoLog)
+    name: UpdateStorageInfo
+    nameWithType: IDataItem.UpdateStorageInfo
+    fullName: BindOpen.Data.Items.IDataItem.UpdateStorageInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IDataItem.Clone``1
+  commentId: M:BindOpen.Data.Items.IDataItem.Clone``1
+  parent: BindOpen.Data.Items.IDataItem
+  isExternal: true
+  name: Clone<T>()
+  nameWithType: IDataItem.Clone<T>()
+  fullName: BindOpen.Data.Items.IDataItem.Clone<T>()
+  nameWithType.vb: IDataItem.Clone(Of T)()
+  fullName.vb: BindOpen.Data.Items.IDataItem.Clone(Of T)()
+  name.vb: Clone(Of T)()
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItem.Clone``1
+    name: Clone<T>
+    nameWithType: IDataItem.Clone<T>
+    fullName: BindOpen.Data.Items.IDataItem.Clone<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItem.Clone``1
+    name: Clone(Of T)
+    nameWithType: IDataItem.Clone(Of T)
+    fullName: BindOpen.Data.Items.IDataItem.Clone(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ICloneable.Clone
+  commentId: M:System.ICloneable.Clone
+  parent: System.ICloneable
+  isExternal: true
+  name: Clone()
+  nameWithType: ICloneable.Clone()
+  fullName: System.ICloneable.Clone()
+  spec.csharp:
+  - uid: System.ICloneable.Clone
+    name: Clone
+    nameWithType: ICloneable.Clone
+    fullName: System.ICloneable.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ICloneable.Clone
+    name: Clone
+    nameWithType: ICloneable.Clone
+    fullName: System.ICloneable.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IIdentified.Id
+  commentId: P:BindOpen.Data.Items.IIdentified.Id
+  parent: BindOpen.Data.Items.IIdentified
+  isExternal: true
+  name: Id
+  nameWithType: IIdentified.Id
+  fullName: BindOpen.Data.Items.IIdentified.Id
+- uid: BindOpen.Data.Items.IReferenced.Key
+  commentId: M:BindOpen.Data.Items.IReferenced.Key
+  parent: BindOpen.Data.Items.IReferenced
+  isExternal: true
+  name: Key()
+  nameWithType: IReferenced.Key()
+  fullName: BindOpen.Data.Items.IReferenced.Key()
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IReferenced.Key
+    name: Key
+    nameWithType: IReferenced.Key
+    fullName: BindOpen.Data.Items.IReferenced.Key
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IReferenced.Key
+    name: Key
+    nameWithType: IReferenced.Key
+    fullName: BindOpen.Data.Items.IReferenced.Key
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IDataItemSet`1.Add(`0[])
+  commentId: M:BindOpen.Data.Items.IDataItemSet`1.Add(`0[])
+  isExternal: true
+  name: Add(T[])
+  nameWithType: IDataItemSet<T>.Add(T[])
+  fullName: BindOpen.Data.Items.IDataItemSet<T>.Add(T[])
+  nameWithType.vb: IDataItemSet(Of T).Add(T())
+  fullName.vb: BindOpen.Data.Items.IDataItemSet(Of T).Add(T())
+  name.vb: Add(T())
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItemSet`1.Add(`0[])
+    name: Add
+    nameWithType: IDataItemSet<T>.Add
+    fullName: BindOpen.Data.Items.IDataItemSet<T>.Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItemSet`1.Add(`0[])
+    name: Add
+    nameWithType: IDataItemSet(Of T).Add
+    fullName: BindOpen.Data.Items.IDataItemSet(Of T).Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}
+  commentId: T:BindOpen.Data.Items.IDataItemSet{BindOpen.Data.Models.BdoDbModel}
+  parent: BindOpen.Data.Items
+  definition: BindOpen.Data.Items.IDataItemSet`1
+  name: IDataItemSet<BdoDbModel>
+  nameWithType: IDataItemSet<BdoDbModel>
+  fullName: BindOpen.Data.Items.IDataItemSet<BindOpen.Data.Models.BdoDbModel>
+  nameWithType.vb: IDataItemSet(Of BdoDbModel)
+  fullName.vb: BindOpen.Data.Items.IDataItemSet(Of BindOpen.Data.Models.BdoDbModel)
+  name.vb: IDataItemSet(Of BdoDbModel)
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItemSet`1
+    name: IDataItemSet
+    nameWithType: IDataItemSet
+    fullName: BindOpen.Data.Items.IDataItemSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BindOpen.Data.Models.BdoDbModel
+    name: BdoDbModel
+    nameWithType: BdoDbModel
+    fullName: BindOpen.Data.Models.BdoDbModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItemSet`1
+    name: IDataItemSet
+    nameWithType: IDataItemSet
+    fullName: BindOpen.Data.Items.IDataItemSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BindOpen.Data.Models.BdoDbModel
+    name: BdoDbModel
+    nameWithType: BdoDbModel
+    fullName: BindOpen.Data.Models.BdoDbModel
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IDataItemSet`1.ClearItems
+  commentId: M:BindOpen.Data.Items.IDataItemSet`1.ClearItems
+  isExternal: true
+  name: ClearItems()
+  nameWithType: IDataItemSet<T>.ClearItems()
+  fullName: BindOpen.Data.Items.IDataItemSet<T>.ClearItems()
+  nameWithType.vb: IDataItemSet(Of T).ClearItems()
+  fullName.vb: BindOpen.Data.Items.IDataItemSet(Of T).ClearItems()
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItemSet`1.ClearItems
+    name: ClearItems
+    nameWithType: IDataItemSet<T>.ClearItems
+    fullName: BindOpen.Data.Items.IDataItemSet<T>.ClearItems
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItemSet`1.ClearItems
+    name: ClearItems
+    nameWithType: IDataItemSet(Of T).ClearItems
+    fullName: BindOpen.Data.Items.IDataItemSet(Of T).ClearItems
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IDataItemSet`1.Add(System.Collections.Generic.List{`0},BindOpen.Data.Items.IDataItemSet{`0})
+  commentId: M:BindOpen.Data.Items.IDataItemSet`1.Add(System.Collections.Generic.List{`0},BindOpen.Data.Items.IDataItemSet{`0})
+  isExternal: true
+  name: Add(List<T>, IDataItemSet<T>)
+  nameWithType: IDataItemSet<T>.Add(List<T>, IDataItemSet<T>)
+  fullName: BindOpen.Data.Items.IDataItemSet<T>.Add(System.Collections.Generic.List<T>, BindOpen.Data.Items.IDataItemSet<T>)
+  nameWithType.vb: IDataItemSet(Of T).Add(List(Of T), IDataItemSet(Of T))
+  fullName.vb: BindOpen.Data.Items.IDataItemSet(Of T).Add(System.Collections.Generic.List(Of T), BindOpen.Data.Items.IDataItemSet(Of T))
+  name.vb: Add(List(Of T), IDataItemSet(Of T))
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItemSet`1.Add(System.Collections.Generic.List{`0},BindOpen.Data.Items.IDataItemSet{`0})
+    name: Add
+    nameWithType: IDataItemSet<T>.Add
+    fullName: BindOpen.Data.Items.IDataItemSet<T>.Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Items.IDataItemSet`1
+    name: IDataItemSet
+    nameWithType: IDataItemSet
+    fullName: BindOpen.Data.Items.IDataItemSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItemSet`1.Add(System.Collections.Generic.List{`0},BindOpen.Data.Items.IDataItemSet{`0})
+    name: Add
+    nameWithType: IDataItemSet(Of T).Add
+    fullName: BindOpen.Data.Items.IDataItemSet(Of T).Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Items.IDataItemSet`1
+    name: IDataItemSet
+    nameWithType: IDataItemSet
+    fullName: BindOpen.Data.Items.IDataItemSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IDataItemSet`1.Add(`0,BindOpen.Data.Items.IDataItemSet{`0})
+  commentId: M:BindOpen.Data.Items.IDataItemSet`1.Add(`0,BindOpen.Data.Items.IDataItemSet{`0})
+  isExternal: true
+  name: Add(T, IDataItemSet<T>)
+  nameWithType: IDataItemSet<T>.Add(T, IDataItemSet<T>)
+  fullName: BindOpen.Data.Items.IDataItemSet<T>.Add(T, BindOpen.Data.Items.IDataItemSet<T>)
+  nameWithType.vb: IDataItemSet(Of T).Add(T, IDataItemSet(Of T))
+  fullName.vb: BindOpen.Data.Items.IDataItemSet(Of T).Add(T, BindOpen.Data.Items.IDataItemSet(Of T))
+  name.vb: Add(T, IDataItemSet(Of T))
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItemSet`1.Add(`0,BindOpen.Data.Items.IDataItemSet{`0})
+    name: Add
+    nameWithType: IDataItemSet<T>.Add
+    fullName: BindOpen.Data.Items.IDataItemSet<T>.Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Items.IDataItemSet`1
+    name: IDataItemSet
+    nameWithType: IDataItemSet
+    fullName: BindOpen.Data.Items.IDataItemSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItemSet`1.Add(`0,BindOpen.Data.Items.IDataItemSet{`0})
+    name: Add
+    nameWithType: IDataItemSet(Of T).Add
+    fullName: BindOpen.Data.Items.IDataItemSet(Of T).Add
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Items.IDataItemSet`1
+    name: IDataItemSet
+    nameWithType: IDataItemSet
+    fullName: BindOpen.Data.Items.IDataItemSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IDataItemSet`1.GetCommonItemKeys(BindOpen.Data.Items.IDataItemSet{`0})
+  commentId: M:BindOpen.Data.Items.IDataItemSet`1.GetCommonItemKeys(BindOpen.Data.Items.IDataItemSet{`0})
+  isExternal: true
+  name: GetCommonItemKeys(IDataItemSet<T>)
+  nameWithType: IDataItemSet<T>.GetCommonItemKeys(IDataItemSet<T>)
+  fullName: BindOpen.Data.Items.IDataItemSet<T>.GetCommonItemKeys(BindOpen.Data.Items.IDataItemSet<T>)
+  nameWithType.vb: IDataItemSet(Of T).GetCommonItemKeys(IDataItemSet(Of T))
+  fullName.vb: BindOpen.Data.Items.IDataItemSet(Of T).GetCommonItemKeys(BindOpen.Data.Items.IDataItemSet(Of T))
+  name.vb: GetCommonItemKeys(IDataItemSet(Of T))
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItemSet`1.GetCommonItemKeys(BindOpen.Data.Items.IDataItemSet{`0})
+    name: GetCommonItemKeys
+    nameWithType: IDataItemSet<T>.GetCommonItemKeys
+    fullName: BindOpen.Data.Items.IDataItemSet<T>.GetCommonItemKeys
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Data.Items.IDataItemSet`1
+    name: IDataItemSet
+    nameWithType: IDataItemSet
+    fullName: BindOpen.Data.Items.IDataItemSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItemSet`1.GetCommonItemKeys(BindOpen.Data.Items.IDataItemSet{`0})
+    name: GetCommonItemKeys
+    nameWithType: IDataItemSet(Of T).GetCommonItemKeys
+    fullName: BindOpen.Data.Items.IDataItemSet(Of T).GetCommonItemKeys
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Data.Items.IDataItemSet`1
+    name: IDataItemSet
+    nameWithType: IDataItemSet
+    fullName: BindOpen.Data.Items.IDataItemSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IDataItemSet`1.GetItem(System.String)
+  commentId: M:BindOpen.Data.Items.IDataItemSet`1.GetItem(System.String)
+  isExternal: true
+  name: GetItem(String)
+  nameWithType: IDataItemSet<T>.GetItem(String)
+  fullName: BindOpen.Data.Items.IDataItemSet<T>.GetItem(System.String)
+  nameWithType.vb: IDataItemSet(Of T).GetItem(String)
+  fullName.vb: BindOpen.Data.Items.IDataItemSet(Of T).GetItem(System.String)
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItemSet`1.GetItem(System.String)
+    name: GetItem
+    nameWithType: IDataItemSet<T>.GetItem
+    fullName: BindOpen.Data.Items.IDataItemSet<T>.GetItem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItemSet`1.GetItem(System.String)
+    name: GetItem
+    nameWithType: IDataItemSet(Of T).GetItem
+    fullName: BindOpen.Data.Items.IDataItemSet(Of T).GetItem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IDataItemSet`1.HasItem(System.String)
+  commentId: M:BindOpen.Data.Items.IDataItemSet`1.HasItem(System.String)
+  isExternal: true
+  name: HasItem(String)
+  nameWithType: IDataItemSet<T>.HasItem(String)
+  fullName: BindOpen.Data.Items.IDataItemSet<T>.HasItem(System.String)
+  nameWithType.vb: IDataItemSet(Of T).HasItem(String)
+  fullName.vb: BindOpen.Data.Items.IDataItemSet(Of T).HasItem(System.String)
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItemSet`1.HasItem(System.String)
+    name: HasItem
+    nameWithType: IDataItemSet<T>.HasItem
+    fullName: BindOpen.Data.Items.IDataItemSet<T>.HasItem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItemSet`1.HasItem(System.String)
+    name: HasItem
+    nameWithType: IDataItemSet(Of T).HasItem
+    fullName: BindOpen.Data.Items.IDataItemSet(Of T).HasItem
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IDataItemSet`1.HasItems
+  commentId: M:BindOpen.Data.Items.IDataItemSet`1.HasItems
+  isExternal: true
+  name: HasItems()
+  nameWithType: IDataItemSet<T>.HasItems()
+  fullName: BindOpen.Data.Items.IDataItemSet<T>.HasItems()
+  nameWithType.vb: IDataItemSet(Of T).HasItems()
+  fullName.vb: BindOpen.Data.Items.IDataItemSet(Of T).HasItems()
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItemSet`1.HasItems
+    name: HasItems
+    nameWithType: IDataItemSet<T>.HasItems
+    fullName: BindOpen.Data.Items.IDataItemSet<T>.HasItems
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItemSet`1.HasItems
+    name: HasItems
+    nameWithType: IDataItemSet(Of T).HasItems
+    fullName: BindOpen.Data.Items.IDataItemSet(Of T).HasItems
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IDataItemSet`1.Remove(System.String[])
+  commentId: M:BindOpen.Data.Items.IDataItemSet`1.Remove(System.String[])
+  isExternal: true
+  name: Remove(String[])
+  nameWithType: IDataItemSet<T>.Remove(String[])
+  fullName: BindOpen.Data.Items.IDataItemSet<T>.Remove(System.String[])
+  nameWithType.vb: IDataItemSet(Of T).Remove(String())
+  fullName.vb: BindOpen.Data.Items.IDataItemSet(Of T).Remove(System.String())
+  name.vb: Remove(String())
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItemSet`1.Remove(System.String[])
+    name: Remove
+    nameWithType: IDataItemSet<T>.Remove
+    fullName: BindOpen.Data.Items.IDataItemSet<T>.Remove
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItemSet`1.Remove(System.String[])
+    name: Remove
+    nameWithType: IDataItemSet(Of T).Remove
+    fullName: BindOpen.Data.Items.IDataItemSet(Of T).Remove
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IDataItemSet`1.Items
+  commentId: P:BindOpen.Data.Items.IDataItemSet`1.Items
+  isExternal: true
+  name: Items
+  nameWithType: IDataItemSet<T>.Items
+  fullName: BindOpen.Data.Items.IDataItemSet<T>.Items
+  nameWithType.vb: IDataItemSet(Of T).Items
+  fullName.vb: BindOpen.Data.Items.IDataItemSet(Of T).Items
+- uid: BindOpen.Data.Items.IDataItemSet`1.Item(System.Int32)
+  commentId: P:BindOpen.Data.Items.IDataItemSet`1.Item(System.Int32)
+  isExternal: true
+  name: Item[Int32]
+  nameWithType: IDataItemSet<T>.Item[Int32]
+  fullName: BindOpen.Data.Items.IDataItemSet<T>.Item[System.Int32]
+  nameWithType.vb: IDataItemSet(Of T).Item(Int32)
+  fullName.vb: BindOpen.Data.Items.IDataItemSet(Of T).Item(System.Int32)
+  name.vb: Item(Int32)
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItemSet`1.Item(System.Int32)
+    name: Item
+    nameWithType: IDataItemSet<T>.Item
+    fullName: BindOpen.Data.Items.IDataItemSet<T>.Item
+    isExternal: true
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItemSet`1.Item(System.Int32)
+    name: Item
+    nameWithType: IDataItemSet(Of T).Item
+    fullName: BindOpen.Data.Items.IDataItemSet(Of T).Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IDataItemSet`1.Item(System.String)
+  commentId: P:BindOpen.Data.Items.IDataItemSet`1.Item(System.String)
+  isExternal: true
+  name: Item[String]
+  nameWithType: IDataItemSet<T>.Item[String]
+  fullName: BindOpen.Data.Items.IDataItemSet<T>.Item[System.String]
+  nameWithType.vb: IDataItemSet(Of T).Item(String)
+  fullName.vb: BindOpen.Data.Items.IDataItemSet(Of T).Item(System.String)
+  name.vb: Item(String)
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItemSet`1.Item(System.String)
+    name: Item
+    nameWithType: IDataItemSet<T>.Item
+    fullName: BindOpen.Data.Items.IDataItemSet<T>.Item
+    isExternal: true
+  - name: '['
+    nameWithType: '['
+    fullName: '['
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ']'
+    nameWithType: ']'
+    fullName: ']'
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItemSet`1.Item(System.String)
+    name: Item
+    nameWithType: IDataItemSet(Of T).Item
+    fullName: BindOpen.Data.Items.IDataItemSet(Of T).Item
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IDataItemSet`1.Count
+  commentId: P:BindOpen.Data.Items.IDataItemSet`1.Count
+  isExternal: true
+  name: Count
+  nameWithType: IDataItemSet<T>.Count
+  fullName: BindOpen.Data.Items.IDataItemSet<T>.Count
+  nameWithType.vb: IDataItemSet(Of T).Count
+  fullName.vb: BindOpen.Data.Items.IDataItemSet(Of T).Count
+- uid: BindOpen.Data.Stores.IBdoDepot
+  commentId: T:BindOpen.Data.Stores.IBdoDepot
+  parent: BindOpen.Data.Stores
+  isExternal: true
+  name: IBdoDepot
+  nameWithType: IBdoDepot
+  fullName: BindOpen.Data.Stores.IBdoDepot
+- uid: BindOpen.Data.Items.IDataItem
+  commentId: T:BindOpen.Data.Items.IDataItem
+  parent: BindOpen.Data.Items
+  isExternal: true
+  name: IDataItem
+  nameWithType: IDataItem
+  fullName: BindOpen.Data.Items.IDataItem
+- uid: BindOpen.Data.Items.IDataItem.Check``1(System.Boolean,``0,System.String[])
+  commentId: M:BindOpen.Data.Items.IDataItem.Check``1(System.Boolean,``0,System.String[])
+  isExternal: true
+  name: Check<T>(Boolean, T, String[])
+  nameWithType: IDataItem.Check<T>(Boolean, T, String[])
+  fullName: BindOpen.Data.Items.IDataItem.Check<T>(System.Boolean, T, System.String[])
+  nameWithType.vb: IDataItem.Check(Of T)(Boolean, T, String())
+  fullName.vb: BindOpen.Data.Items.IDataItem.Check(Of T)(System.Boolean, T, System.String())
+  name.vb: Check(Of T)(Boolean, T, String())
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItem.Check``1(System.Boolean,``0,System.String[])
+    name: Check<T>
+    nameWithType: IDataItem.Check<T>
+    fullName: BindOpen.Data.Items.IDataItem.Check<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItem.Check``1(System.Boolean,``0,System.String[])
+    name: Check(Of T)
+    nameWithType: IDataItem.Check(Of T)
+    fullName: BindOpen.Data.Items.IDataItem.Check(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IDataItem.Repair``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+  commentId: M:BindOpen.Data.Items.IDataItem.Repair``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+  isExternal: true
+  name: Repair<T>(T, String[], UpdateModes[])
+  nameWithType: IDataItem.Repair<T>(T, String[], UpdateModes[])
+  fullName: BindOpen.Data.Items.IDataItem.Repair<T>(T, System.String[], BindOpen.Data.Common.UpdateModes[])
+  nameWithType.vb: IDataItem.Repair(Of T)(T, String(), UpdateModes())
+  fullName.vb: BindOpen.Data.Items.IDataItem.Repair(Of T)(T, System.String(), BindOpen.Data.Common.UpdateModes())
+  name.vb: Repair(Of T)(T, String(), UpdateModes())
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItem.Repair``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+    name: Repair<T>
+    nameWithType: IDataItem.Repair<T>
+    fullName: BindOpen.Data.Items.IDataItem.Repair<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.UpdateModes
+    name: UpdateModes
+    nameWithType: UpdateModes
+    fullName: BindOpen.Data.Common.UpdateModes
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItem.Repair``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+    name: Repair(Of T)
+    nameWithType: IDataItem.Repair(Of T)
+    fullName: BindOpen.Data.Items.IDataItem.Repair(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.UpdateModes
+    name: UpdateModes
+    nameWithType: UpdateModes
+    fullName: BindOpen.Data.Common.UpdateModes
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IDataItem.Update``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+  commentId: M:BindOpen.Data.Items.IDataItem.Update``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+  isExternal: true
+  name: Update<T>(T, String[], UpdateModes[])
+  nameWithType: IDataItem.Update<T>(T, String[], UpdateModes[])
+  fullName: BindOpen.Data.Items.IDataItem.Update<T>(T, System.String[], BindOpen.Data.Common.UpdateModes[])
+  nameWithType.vb: IDataItem.Update(Of T)(T, String(), UpdateModes())
+  fullName.vb: BindOpen.Data.Items.IDataItem.Update(Of T)(T, System.String(), BindOpen.Data.Common.UpdateModes())
+  name.vb: Update(Of T)(T, String(), UpdateModes())
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItem.Update``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+    name: Update<T>
+    nameWithType: IDataItem.Update<T>
+    fullName: BindOpen.Data.Items.IDataItem.Update<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.UpdateModes
+    name: UpdateModes
+    nameWithType: UpdateModes
+    fullName: BindOpen.Data.Common.UpdateModes
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItem.Update``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+    name: Update(Of T)
+    nameWithType: IDataItem.Update(Of T)
+    fullName: BindOpen.Data.Items.IDataItem.Update(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.UpdateModes
+    name: UpdateModes
+    nameWithType: UpdateModes
+    fullName: BindOpen.Data.Common.UpdateModes
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
+  isExternal: true
+  name: ICloneable
+  nameWithType: ICloneable
+  fullName: System.ICloneable
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: BindOpen.Data.Items.IIdentified
+  commentId: T:BindOpen.Data.Items.IIdentified
+  parent: BindOpen.Data.Items
+  isExternal: true
+  name: IIdentified
+  nameWithType: IIdentified
+  fullName: BindOpen.Data.Items.IIdentified
+- uid: BindOpen.Data.Items.IReferenced
+  commentId: T:BindOpen.Data.Items.IReferenced
+  parent: BindOpen.Data.Items
+  isExternal: true
+  name: IReferenced
+  nameWithType: IReferenced
+  fullName: BindOpen.Data.Items.IReferenced
+- uid: BindOpen.Data.Items.IDataItemSet`1
+  commentId: T:BindOpen.Data.Items.IDataItemSet`1
+  isExternal: true
+  name: IDataItemSet<T>
+  nameWithType: IDataItemSet<T>
+  fullName: BindOpen.Data.Items.IDataItemSet<T>
+  nameWithType.vb: IDataItemSet(Of T)
+  fullName.vb: BindOpen.Data.Items.IDataItemSet(Of T)
+  name.vb: IDataItemSet(Of T)
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IDataItemSet`1
+    name: IDataItemSet
+    nameWithType: IDataItemSet
+    fullName: BindOpen.Data.Items.IDataItemSet
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: BindOpen.Data.Items.IDataItemSet`1
+    name: IDataItemSet
+    nameWithType: IDataItemSet
+    fullName: BindOpen.Data.Items.IDataItemSet
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items
+  commentId: N:BindOpen.Data.Items
+  isExternal: true
+  name: BindOpen.Data.Items
+  nameWithType: BindOpen.Data.Items
+  fullName: BindOpen.Data.Items
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Data.Stores.IBdoDbModelDepot.Models*
+  commentId: Overload:BindOpen.Data.Stores.IBdoDbModelDepot.Models
+  name: Models
+  nameWithType: IBdoDbModelDepot.Models
+  fullName: BindOpen.Data.Stores.IBdoDbModelDepot.Models
+- uid: System.Collections.Generic.List{BindOpen.Data.Models.BdoDbModel}
+  commentId: T:System.Collections.Generic.List{BindOpen.Data.Models.BdoDbModel}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<BdoDbModel>
+  nameWithType: List<BdoDbModel>
+  fullName: System.Collections.Generic.List<BindOpen.Data.Models.BdoDbModel>
+  nameWithType.vb: List(Of BdoDbModel)
+  fullName.vb: System.Collections.Generic.List(Of BindOpen.Data.Models.BdoDbModel)
+  name.vb: List(Of BdoDbModel)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BindOpen.Data.Models.BdoDbModel
+    name: BdoDbModel
+    nameWithType: BdoDbModel
+    fullName: BindOpen.Data.Models.BdoDbModel
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BindOpen.Data.Models.BdoDbModel
+    name: BdoDbModel
+    nameWithType: BdoDbModel
+    fullName: BindOpen.Data.Models.BdoDbModel
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: BindOpen.Data.Stores.IBdoDbModelDepot.GetModel*
+  commentId: Overload:BindOpen.Data.Stores.IBdoDbModelDepot.GetModel
+  name: GetModel
+  nameWithType: IBdoDbModelDepot.GetModel
+  fullName: BindOpen.Data.Stores.IBdoDbModelDepot.GetModel
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: BindOpen.Data.Models.IBdoDbModel
+  commentId: T:BindOpen.Data.Models.IBdoDbModel
+  parent: BindOpen.Data.Models
+  name: IBdoDbModel
+  nameWithType: IBdoDbModel
+  fullName: BindOpen.Data.Models.IBdoDbModel
+- uid: BindOpen.Data.Models
+  commentId: N:BindOpen.Data.Models
+  name: BindOpen.Data.Models
+  nameWithType: BindOpen.Data.Models
+  fullName: BindOpen.Data.Models
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+shouldSkipMarkup: true

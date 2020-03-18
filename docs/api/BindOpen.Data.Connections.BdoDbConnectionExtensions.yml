@@ -1,0 +1,929 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Data.Connections.BdoDbConnectionExtensions
+  commentId: T:BindOpen.Data.Connections.BdoDbConnectionExtensions
+  id: BdoDbConnectionExtensions
+  parent: BindOpen.Data.Connections
+  children:
+  - BindOpen.Data.Connections.BdoDbConnectionExtensions.BeginTransaction(BindOpen.Data.Connections.IBdoDbConnection)
+  - BindOpen.Data.Connections.BdoDbConnectionExtensions.BeginTransaction(BindOpen.Data.Connections.IBdoDbConnection,System.Data.IsolationLevel)
+  - BindOpen.Data.Connections.BdoDbConnectionExtensions.CreateCommand(BindOpen.Data.Connections.IBdoDbConnection,BindOpen.Data.Queries.IDbQuery,BindOpen.Data.Queries.DbQueryParameterMode,BindOpen.Data.Elements.IDataElementSet,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+  - BindOpen.Data.Connections.BdoDbConnectionExtensions.CreateCommand(BindOpen.Data.Connections.IBdoDbConnection,System.String)
+  - BindOpen.Data.Connections.BdoDbConnectionExtensions.CreateCommand``1(BindOpen.Data.Queries.IDbQuery,BindOpen.Data.Queries.DbQueryParameterMode,BindOpen.Data.Elements.IDataElementSet,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+  - BindOpen.Data.Connections.BdoDbConnectionExtensions.CreateCommand``1(System.Data.IDbConnection,BindOpen.Data.Queries.IDbQuery,BindOpen.Data.Queries.DbQueryParameterMode,BindOpen.Data.Elements.IDataElementSet,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+  - BindOpen.Data.Connections.BdoDbConnectionExtensions.CreateCommand``1(System.Data.IDbTransaction,BindOpen.Data.Queries.IDbQuery,BindOpen.Data.Queries.DbQueryParameterMode,BindOpen.Data.Elements.IDataElementSet,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+  - BindOpen.Data.Connections.BdoDbConnectionExtensions.GetIdentity(BindOpen.Data.Connections.IBdoDbConnection,System.Int64@,BindOpen.System.Diagnostics.IBdoLog)
+  langs:
+  - csharp
+  - vb
+  name: BdoDbConnectionExtensions
+  nameWithType: BdoDbConnectionExtensions
+  fullName: BindOpen.Data.Connections.BdoDbConnectionExtensions
+  type: Class
+  source:
+    remote:
+      path: src/BindOpen.Databases/Data/Connections/Extensions/BdoDbConnectionExtensions.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: BdoDbConnectionExtensions
+    path: ../src/BindOpen.Databases/Data/Connections/Extensions/BdoDbConnectionExtensions.cs
+    startLine: 12
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Connections
+  summary: "\nThis class proposes extensions for database connection.\n"
+  example: []
+  syntax:
+    content: public static class BdoDbConnectionExtensions
+    content.vb: Public Module BdoDbConnectionExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: BindOpen.Data.Connections.BdoDbConnectionExtensions.CreateCommand(BindOpen.Data.Connections.IBdoDbConnection,System.String)
+  commentId: M:BindOpen.Data.Connections.BdoDbConnectionExtensions.CreateCommand(BindOpen.Data.Connections.IBdoDbConnection,System.String)
+  id: CreateCommand(BindOpen.Data.Connections.IBdoDbConnection,System.String)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Connections.BdoDbConnectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: CreateCommand(IBdoDbConnection, String)
+  nameWithType: BdoDbConnectionExtensions.CreateCommand(IBdoDbConnection, String)
+  fullName: BindOpen.Data.Connections.BdoDbConnectionExtensions.CreateCommand(BindOpen.Data.Connections.IBdoDbConnection, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Databases/Data/Connections/Extensions/BdoDbConnectionExtensions.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: CreateCommand
+    path: ../src/BindOpen.Databases/Data/Connections/Extensions/BdoDbConnectionExtensions.cs
+    startLine: 22
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Connections
+  summary: "\nGets the SQL text of the specified query.\n"
+  example: []
+  syntax:
+    content: public static IDbCommand CreateCommand(this IBdoDbConnection connection, string commandText)
+    parameters:
+    - id: connection
+      type: BindOpen.Data.Connections.IBdoDbConnection
+      description: The connection to consider.
+    - id: commandText
+      type: System.String
+      description: The command text to consider.
+    return:
+      type: System.Data.IDbCommand
+      description: Returns the SQL text of the specified query.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CreateCommand(connection As IBdoDbConnection, commandText As String) As IDbCommand
+  overload: BindOpen.Data.Connections.BdoDbConnectionExtensions.CreateCommand*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Connections.BdoDbConnectionExtensions.CreateCommand(BindOpen.Data.Connections.IBdoDbConnection,BindOpen.Data.Queries.IDbQuery,BindOpen.Data.Queries.DbQueryParameterMode,BindOpen.Data.Elements.IDataElementSet,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+  commentId: M:BindOpen.Data.Connections.BdoDbConnectionExtensions.CreateCommand(BindOpen.Data.Connections.IBdoDbConnection,BindOpen.Data.Queries.IDbQuery,BindOpen.Data.Queries.DbQueryParameterMode,BindOpen.Data.Elements.IDataElementSet,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+  id: CreateCommand(BindOpen.Data.Connections.IBdoDbConnection,BindOpen.Data.Queries.IDbQuery,BindOpen.Data.Queries.DbQueryParameterMode,BindOpen.Data.Elements.IDataElementSet,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Connections.BdoDbConnectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: CreateCommand(IBdoDbConnection, IDbQuery, DbQueryParameterMode, IDataElementSet, IBdoScriptVariableSet, IBdoLog)
+  nameWithType: BdoDbConnectionExtensions.CreateCommand(IBdoDbConnection, IDbQuery, DbQueryParameterMode, IDataElementSet, IBdoScriptVariableSet, IBdoLog)
+  fullName: BindOpen.Data.Connections.BdoDbConnectionExtensions.CreateCommand(BindOpen.Data.Connections.IBdoDbConnection, BindOpen.Data.Queries.IDbQuery, BindOpen.Data.Queries.DbQueryParameterMode, BindOpen.Data.Elements.IDataElementSet, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.System.Diagnostics.IBdoLog)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Databases/Data/Connections/Extensions/BdoDbConnectionExtensions.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: CreateCommand
+    path: ../src/BindOpen.Databases/Data/Connections/Extensions/BdoDbConnectionExtensions.cs
+    startLine: 41
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Connections
+  summary: "\nGets the SQL text of the specified query.\n"
+  example: []
+  syntax:
+    content: public static IDbCommand CreateCommand(this IBdoDbConnection connection, IDbQuery query, DbQueryParameterMode parameterMode, IDataElementSet parameterSet = null, IBdoScriptVariableSet scriptVariableSet = null, IBdoLog log = null)
+    parameters:
+    - id: connection
+      type: BindOpen.Data.Connections.IBdoDbConnection
+      description: The connection to consider.
+    - id: query
+      type: BindOpen.Data.Queries.IDbQuery
+      description: The query to consider.
+    - id: parameterMode
+      type: BindOpen.Data.Queries.DbQueryParameterMode
+      description: Indicates whether parameters are replaced.
+    - id: parameterSet
+      type: BindOpen.Data.Elements.IDataElementSet
+      description: The parameter elements to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: The script variable set to consider.
+    - id: log
+      type: BindOpen.System.Diagnostics.IBdoLog
+      description: The log to consider.
+    return:
+      type: System.Data.IDbCommand
+      description: Returns the SQL text of the specified query.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CreateCommand(connection As IBdoDbConnection, query As IDbQuery, parameterMode As DbQueryParameterMode, parameterSet As IDataElementSet = Nothing, scriptVariableSet As IBdoScriptVariableSet = Nothing, log As IBdoLog = Nothing) As IDbCommand
+  overload: BindOpen.Data.Connections.BdoDbConnectionExtensions.CreateCommand*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Connections.BdoDbConnectionExtensions.CreateCommand``1(BindOpen.Data.Queries.IDbQuery,BindOpen.Data.Queries.DbQueryParameterMode,BindOpen.Data.Elements.IDataElementSet,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+  commentId: M:BindOpen.Data.Connections.BdoDbConnectionExtensions.CreateCommand``1(BindOpen.Data.Queries.IDbQuery,BindOpen.Data.Queries.DbQueryParameterMode,BindOpen.Data.Elements.IDataElementSet,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+  id: CreateCommand``1(BindOpen.Data.Queries.IDbQuery,BindOpen.Data.Queries.DbQueryParameterMode,BindOpen.Data.Elements.IDataElementSet,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Connections.BdoDbConnectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: CreateCommand<T>(IDbQuery, DbQueryParameterMode, IDataElementSet, IBdoScriptVariableSet, IBdoLog)
+  nameWithType: BdoDbConnectionExtensions.CreateCommand<T>(IDbQuery, DbQueryParameterMode, IDataElementSet, IBdoScriptVariableSet, IBdoLog)
+  fullName: BindOpen.Data.Connections.BdoDbConnectionExtensions.CreateCommand<T>(BindOpen.Data.Queries.IDbQuery, BindOpen.Data.Queries.DbQueryParameterMode, BindOpen.Data.Elements.IDataElementSet, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.System.Diagnostics.IBdoLog)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Databases/Data/Connections/Extensions/BdoDbConnectionExtensions.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: CreateCommand
+    path: ../src/BindOpen.Databases/Data/Connections/Extensions/BdoDbConnectionExtensions.cs
+    startLine: 64
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Connections
+  summary: "\nGets the SQL text of the specified query.\n"
+  example: []
+  syntax:
+    content: >-
+      public static IDbCommand CreateCommand<T>(this IDbQuery query, DbQueryParameterMode parameterMode, IDataElementSet parameterSet = null, IBdoScriptVariableSet scriptVariableSet = null, IBdoLog log = null)
+          where T : BdoDbConnector, new()
+    parameters:
+    - id: query
+      type: BindOpen.Data.Queries.IDbQuery
+      description: The query to consider.
+    - id: parameterMode
+      type: BindOpen.Data.Queries.DbQueryParameterMode
+      description: Indicates whether parameters are replaced.
+    - id: parameterSet
+      type: BindOpen.Data.Elements.IDataElementSet
+      description: The parameter elements to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: The script variable set to consider.
+    - id: log
+      type: BindOpen.System.Diagnostics.IBdoLog
+      description: The log to consider.
+    typeParameters:
+    - id: T
+    return:
+      type: System.Data.IDbCommand
+      description: Returns the SQL text of the specified query.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CreateCommand(Of T As {BdoDbConnector, New})(query As IDbQuery, parameterMode As DbQueryParameterMode, parameterSet As IDataElementSet = Nothing, scriptVariableSet As IBdoScriptVariableSet = Nothing, log As IBdoLog = Nothing) As IDbCommand
+  overload: BindOpen.Data.Connections.BdoDbConnectionExtensions.CreateCommand*
+  nameWithType.vb: BdoDbConnectionExtensions.CreateCommand(Of T)(IDbQuery, DbQueryParameterMode, IDataElementSet, IBdoScriptVariableSet, IBdoLog)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Connections.BdoDbConnectionExtensions.CreateCommand(Of T)(BindOpen.Data.Queries.IDbQuery, BindOpen.Data.Queries.DbQueryParameterMode, BindOpen.Data.Elements.IDataElementSet, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.System.Diagnostics.IBdoLog)
+  name.vb: CreateCommand(Of T)(IDbQuery, DbQueryParameterMode, IDataElementSet, IBdoScriptVariableSet, IBdoLog)
+- uid: BindOpen.Data.Connections.BdoDbConnectionExtensions.CreateCommand``1(System.Data.IDbConnection,BindOpen.Data.Queries.IDbQuery,BindOpen.Data.Queries.DbQueryParameterMode,BindOpen.Data.Elements.IDataElementSet,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+  commentId: M:BindOpen.Data.Connections.BdoDbConnectionExtensions.CreateCommand``1(System.Data.IDbConnection,BindOpen.Data.Queries.IDbQuery,BindOpen.Data.Queries.DbQueryParameterMode,BindOpen.Data.Elements.IDataElementSet,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+  id: CreateCommand``1(System.Data.IDbConnection,BindOpen.Data.Queries.IDbQuery,BindOpen.Data.Queries.DbQueryParameterMode,BindOpen.Data.Elements.IDataElementSet,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Connections.BdoDbConnectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: CreateCommand<T>(IDbConnection, IDbQuery, DbQueryParameterMode, IDataElementSet, IBdoScriptVariableSet, IBdoLog)
+  nameWithType: BdoDbConnectionExtensions.CreateCommand<T>(IDbConnection, IDbQuery, DbQueryParameterMode, IDataElementSet, IBdoScriptVariableSet, IBdoLog)
+  fullName: BindOpen.Data.Connections.BdoDbConnectionExtensions.CreateCommand<T>(System.Data.IDbConnection, BindOpen.Data.Queries.IDbQuery, BindOpen.Data.Queries.DbQueryParameterMode, BindOpen.Data.Elements.IDataElementSet, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.System.Diagnostics.IBdoLog)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Databases/Data/Connections/Extensions/BdoDbConnectionExtensions.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: CreateCommand
+    path: ../src/BindOpen.Databases/Data/Connections/Extensions/BdoDbConnectionExtensions.cs
+    startLine: 85
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Connections
+  summary: "\nGets the SQL text of the specified query.\n"
+  example: []
+  syntax:
+    content: >-
+      public static IDbCommand CreateCommand<T>(this IDbConnection connection, IDbQuery query, DbQueryParameterMode parameterMode, IDataElementSet parameterSet = null, IBdoScriptVariableSet scriptVariableSet = null, IBdoLog log = null)
+          where T : BdoDbConnector, new()
+    parameters:
+    - id: connection
+      type: System.Data.IDbConnection
+      description: The connection to consider.
+    - id: query
+      type: BindOpen.Data.Queries.IDbQuery
+      description: The query to consider.
+    - id: parameterMode
+      type: BindOpen.Data.Queries.DbQueryParameterMode
+      description: Indicates whether parameters are replaced.
+    - id: parameterSet
+      type: BindOpen.Data.Elements.IDataElementSet
+      description: The parameter elements to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: The script variable set to consider.
+    - id: log
+      type: BindOpen.System.Diagnostics.IBdoLog
+      description: The log to consider.
+    typeParameters:
+    - id: T
+    return:
+      type: System.Data.IDbCommand
+      description: Returns the SQL text of the specified query.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CreateCommand(Of T As {BdoDbConnector, New})(connection As IDbConnection, query As IDbQuery, parameterMode As DbQueryParameterMode, parameterSet As IDataElementSet = Nothing, scriptVariableSet As IBdoScriptVariableSet = Nothing, log As IBdoLog = Nothing) As IDbCommand
+  overload: BindOpen.Data.Connections.BdoDbConnectionExtensions.CreateCommand*
+  nameWithType.vb: BdoDbConnectionExtensions.CreateCommand(Of T)(IDbConnection, IDbQuery, DbQueryParameterMode, IDataElementSet, IBdoScriptVariableSet, IBdoLog)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Connections.BdoDbConnectionExtensions.CreateCommand(Of T)(System.Data.IDbConnection, BindOpen.Data.Queries.IDbQuery, BindOpen.Data.Queries.DbQueryParameterMode, BindOpen.Data.Elements.IDataElementSet, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.System.Diagnostics.IBdoLog)
+  name.vb: CreateCommand(Of T)(IDbConnection, IDbQuery, DbQueryParameterMode, IDataElementSet, IBdoScriptVariableSet, IBdoLog)
+- uid: BindOpen.Data.Connections.BdoDbConnectionExtensions.CreateCommand``1(System.Data.IDbTransaction,BindOpen.Data.Queries.IDbQuery,BindOpen.Data.Queries.DbQueryParameterMode,BindOpen.Data.Elements.IDataElementSet,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+  commentId: M:BindOpen.Data.Connections.BdoDbConnectionExtensions.CreateCommand``1(System.Data.IDbTransaction,BindOpen.Data.Queries.IDbQuery,BindOpen.Data.Queries.DbQueryParameterMode,BindOpen.Data.Elements.IDataElementSet,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+  id: CreateCommand``1(System.Data.IDbTransaction,BindOpen.Data.Queries.IDbQuery,BindOpen.Data.Queries.DbQueryParameterMode,BindOpen.Data.Elements.IDataElementSet,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Connections.BdoDbConnectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: CreateCommand<T>(IDbTransaction, IDbQuery, DbQueryParameterMode, IDataElementSet, IBdoScriptVariableSet, IBdoLog)
+  nameWithType: BdoDbConnectionExtensions.CreateCommand<T>(IDbTransaction, IDbQuery, DbQueryParameterMode, IDataElementSet, IBdoScriptVariableSet, IBdoLog)
+  fullName: BindOpen.Data.Connections.BdoDbConnectionExtensions.CreateCommand<T>(System.Data.IDbTransaction, BindOpen.Data.Queries.IDbQuery, BindOpen.Data.Queries.DbQueryParameterMode, BindOpen.Data.Elements.IDataElementSet, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.System.Diagnostics.IBdoLog)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Databases/Data/Connections/Extensions/BdoDbConnectionExtensions.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: CreateCommand
+    path: ../src/BindOpen.Databases/Data/Connections/Extensions/BdoDbConnectionExtensions.cs
+    startLine: 109
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Connections
+  summary: "\nGets the SQL text of the specified query.\n"
+  example: []
+  syntax:
+    content: >-
+      public static IDbCommand CreateCommand<T>(this IDbTransaction transaction, IDbQuery query, DbQueryParameterMode parameterMode, IDataElementSet parameterSet = null, IBdoScriptVariableSet scriptVariableSet = null, IBdoLog log = null)
+          where T : BdoDbConnector, new()
+    parameters:
+    - id: transaction
+      type: System.Data.IDbTransaction
+      description: The transaction to consider.
+    - id: query
+      type: BindOpen.Data.Queries.IDbQuery
+      description: The query to consider.
+    - id: parameterMode
+      type: BindOpen.Data.Queries.DbQueryParameterMode
+      description: Indicates whether parameters are replaced.
+    - id: parameterSet
+      type: BindOpen.Data.Elements.IDataElementSet
+      description: The parameter elements to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: The script variable set to consider.
+    - id: log
+      type: BindOpen.System.Diagnostics.IBdoLog
+      description: The log to consider.
+    typeParameters:
+    - id: T
+    return:
+      type: System.Data.IDbCommand
+      description: Returns the SQL text of the specified query.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CreateCommand(Of T As {BdoDbConnector, New})(transaction As IDbTransaction, query As IDbQuery, parameterMode As DbQueryParameterMode, parameterSet As IDataElementSet = Nothing, scriptVariableSet As IBdoScriptVariableSet = Nothing, log As IBdoLog = Nothing) As IDbCommand
+  overload: BindOpen.Data.Connections.BdoDbConnectionExtensions.CreateCommand*
+  nameWithType.vb: BdoDbConnectionExtensions.CreateCommand(Of T)(IDbTransaction, IDbQuery, DbQueryParameterMode, IDataElementSet, IBdoScriptVariableSet, IBdoLog)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Connections.BdoDbConnectionExtensions.CreateCommand(Of T)(System.Data.IDbTransaction, BindOpen.Data.Queries.IDbQuery, BindOpen.Data.Queries.DbQueryParameterMode, BindOpen.Data.Elements.IDataElementSet, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.System.Diagnostics.IBdoLog)
+  name.vb: CreateCommand(Of T)(IDbTransaction, IDbQuery, DbQueryParameterMode, IDataElementSet, IBdoScriptVariableSet, IBdoLog)
+- uid: BindOpen.Data.Connections.BdoDbConnectionExtensions.BeginTransaction(BindOpen.Data.Connections.IBdoDbConnection)
+  commentId: M:BindOpen.Data.Connections.BdoDbConnectionExtensions.BeginTransaction(BindOpen.Data.Connections.IBdoDbConnection)
+  id: BeginTransaction(BindOpen.Data.Connections.IBdoDbConnection)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Connections.BdoDbConnectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: BeginTransaction(IBdoDbConnection)
+  nameWithType: BdoDbConnectionExtensions.BeginTransaction(IBdoDbConnection)
+  fullName: BindOpen.Data.Connections.BdoDbConnectionExtensions.BeginTransaction(BindOpen.Data.Connections.IBdoDbConnection)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Databases/Data/Connections/Extensions/BdoDbConnectionExtensions.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: BeginTransaction
+    path: ../src/BindOpen.Databases/Data/Connections/Extensions/BdoDbConnectionExtensions.cs
+    startLine: 130
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Connections
+  summary: "\nBegins a transaction.\n"
+  example: []
+  syntax:
+    content: public static IDbTransaction BeginTransaction(this IBdoDbConnection connection)
+    parameters:
+    - id: connection
+      type: BindOpen.Data.Connections.IBdoDbConnection
+      description: The connection to consider.
+    return:
+      type: System.Data.IDbTransaction
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function BeginTransaction(connection As IBdoDbConnection) As IDbTransaction
+  overload: BindOpen.Data.Connections.BdoDbConnectionExtensions.BeginTransaction*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Connections.BdoDbConnectionExtensions.BeginTransaction(BindOpen.Data.Connections.IBdoDbConnection,System.Data.IsolationLevel)
+  commentId: M:BindOpen.Data.Connections.BdoDbConnectionExtensions.BeginTransaction(BindOpen.Data.Connections.IBdoDbConnection,System.Data.IsolationLevel)
+  id: BeginTransaction(BindOpen.Data.Connections.IBdoDbConnection,System.Data.IsolationLevel)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Connections.BdoDbConnectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: BeginTransaction(IBdoDbConnection, IsolationLevel)
+  nameWithType: BdoDbConnectionExtensions.BeginTransaction(IBdoDbConnection, IsolationLevel)
+  fullName: BindOpen.Data.Connections.BdoDbConnectionExtensions.BeginTransaction(BindOpen.Data.Connections.IBdoDbConnection, System.Data.IsolationLevel)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Databases/Data/Connections/Extensions/BdoDbConnectionExtensions.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: BeginTransaction
+    path: ../src/BindOpen.Databases/Data/Connections/Extensions/BdoDbConnectionExtensions.cs
+    startLine: 139
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Connections
+  summary: "\nBegins a transaction.\n"
+  example: []
+  syntax:
+    content: public static IDbTransaction BeginTransaction(this IBdoDbConnection connection, IsolationLevel isolationLevel)
+    parameters:
+    - id: connection
+      type: BindOpen.Data.Connections.IBdoDbConnection
+      description: The connection to consider.
+    - id: isolationLevel
+      type: System.Data.IsolationLevel
+      description: The isolation level.
+    return:
+      type: System.Data.IDbTransaction
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function BeginTransaction(connection As IBdoDbConnection, isolationLevel As IsolationLevel) As IDbTransaction
+  overload: BindOpen.Data.Connections.BdoDbConnectionExtensions.BeginTransaction*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Connections.BdoDbConnectionExtensions.GetIdentity(BindOpen.Data.Connections.IBdoDbConnection,System.Int64@,BindOpen.System.Diagnostics.IBdoLog)
+  commentId: M:BindOpen.Data.Connections.BdoDbConnectionExtensions.GetIdentity(BindOpen.Data.Connections.IBdoDbConnection,System.Int64@,BindOpen.System.Diagnostics.IBdoLog)
+  id: GetIdentity(BindOpen.Data.Connections.IBdoDbConnection,System.Int64@,BindOpen.System.Diagnostics.IBdoLog)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Connections.BdoDbConnectionExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetIdentity(IBdoDbConnection, ref Int64, IBdoLog)
+  nameWithType: BdoDbConnectionExtensions.GetIdentity(IBdoDbConnection, ref Int64, IBdoLog)
+  fullName: BindOpen.Data.Connections.BdoDbConnectionExtensions.GetIdentity(BindOpen.Data.Connections.IBdoDbConnection, ref System.Int64, BindOpen.System.Diagnostics.IBdoLog)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Databases/Data/Connections/Extensions/BdoDbConnectionExtensions.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: GetIdentity
+    path: ../src/BindOpen.Databases/Data/Connections/Extensions/BdoDbConnectionExtensions.cs
+    startLine: 148
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Data.Connections
+  summary: "\nGets the identity of the last inserted item\n"
+  example: []
+  syntax:
+    content: public static void GetIdentity(this IBdoDbConnection connection, ref long id, IBdoLog log = null)
+    parameters:
+    - id: connection
+      type: BindOpen.Data.Connections.IBdoDbConnection
+      description: The connection to consider.
+    - id: id
+      type: System.Int64
+      description: The long identifier to populate.
+    - id: log
+      type: BindOpen.System.Diagnostics.IBdoLog
+      description: The log to consider.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub GetIdentity(connection As IBdoDbConnection, ByRef id As Long, log As IBdoLog = Nothing)
+  overload: BindOpen.Data.Connections.BdoDbConnectionExtensions.GetIdentity*
+  nameWithType.vb: BdoDbConnectionExtensions.GetIdentity(IBdoDbConnection, ByRef Int64, IBdoLog)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Connections.BdoDbConnectionExtensions.GetIdentity(BindOpen.Data.Connections.IBdoDbConnection, ByRef System.Int64, BindOpen.System.Diagnostics.IBdoLog)
+  name.vb: GetIdentity(IBdoDbConnection, ByRef Int64, IBdoLog)
+references:
+- uid: BindOpen.Data.Connections
+  commentId: N:BindOpen.Data.Connections
+  name: BindOpen.Data.Connections
+  nameWithType: BindOpen.Data.Connections
+  fullName: BindOpen.Data.Connections
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Data.Connections.BdoDbConnectionExtensions.CreateCommand*
+  commentId: Overload:BindOpen.Data.Connections.BdoDbConnectionExtensions.CreateCommand
+  name: CreateCommand
+  nameWithType: BdoDbConnectionExtensions.CreateCommand
+  fullName: BindOpen.Data.Connections.BdoDbConnectionExtensions.CreateCommand
+- uid: BindOpen.Data.Connections.IBdoDbConnection
+  commentId: T:BindOpen.Data.Connections.IBdoDbConnection
+  parent: BindOpen.Data.Connections
+  name: IBdoDbConnection
+  nameWithType: IBdoDbConnection
+  fullName: BindOpen.Data.Connections.IBdoDbConnection
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Data.IDbCommand
+  commentId: T:System.Data.IDbCommand
+  parent: System.Data
+  isExternal: true
+  name: IDbCommand
+  nameWithType: IDbCommand
+  fullName: System.Data.IDbCommand
+- uid: System.Data
+  commentId: N:System.Data
+  isExternal: true
+  name: System.Data
+  nameWithType: System.Data
+  fullName: System.Data
+- uid: BindOpen.Data.Queries.IDbQuery
+  commentId: T:BindOpen.Data.Queries.IDbQuery
+  parent: BindOpen.Data.Queries
+  name: IDbQuery
+  nameWithType: IDbQuery
+  fullName: BindOpen.Data.Queries.IDbQuery
+- uid: BindOpen.Data.Queries.DbQueryParameterMode
+  commentId: T:BindOpen.Data.Queries.DbQueryParameterMode
+  parent: BindOpen.Data.Queries
+  name: DbQueryParameterMode
+  nameWithType: DbQueryParameterMode
+  fullName: BindOpen.Data.Queries.DbQueryParameterMode
+- uid: BindOpen.Data.Elements.IDataElementSet
+  commentId: T:BindOpen.Data.Elements.IDataElementSet
+  parent: BindOpen.Data.Elements
+  isExternal: true
+  name: IDataElementSet
+  nameWithType: IDataElementSet
+  fullName: BindOpen.Data.Elements.IDataElementSet
+- uid: BindOpen.System.Scripting.IBdoScriptVariableSet
+  commentId: T:BindOpen.System.Scripting.IBdoScriptVariableSet
+  parent: BindOpen.System.Scripting
+  isExternal: true
+  name: IBdoScriptVariableSet
+  nameWithType: IBdoScriptVariableSet
+  fullName: BindOpen.System.Scripting.IBdoScriptVariableSet
+- uid: BindOpen.System.Diagnostics.IBdoLog
+  commentId: T:BindOpen.System.Diagnostics.IBdoLog
+  parent: BindOpen.System.Diagnostics
+  isExternal: true
+  name: IBdoLog
+  nameWithType: IBdoLog
+  fullName: BindOpen.System.Diagnostics.IBdoLog
+- uid: BindOpen.Data.Queries
+  commentId: N:BindOpen.Data.Queries
+  name: BindOpen.Data.Queries
+  nameWithType: BindOpen.Data.Queries
+  fullName: BindOpen.Data.Queries
+- uid: BindOpen.Data.Elements
+  commentId: N:BindOpen.Data.Elements
+  isExternal: true
+  name: BindOpen.Data.Elements
+  nameWithType: BindOpen.Data.Elements
+  fullName: BindOpen.Data.Elements
+- uid: BindOpen.System.Scripting
+  commentId: N:BindOpen.System.Scripting
+  isExternal: true
+  name: BindOpen.System.Scripting
+  nameWithType: BindOpen.System.Scripting
+  fullName: BindOpen.System.Scripting
+- uid: BindOpen.System.Diagnostics
+  commentId: N:BindOpen.System.Diagnostics
+  isExternal: true
+  name: BindOpen.System.Diagnostics
+  nameWithType: BindOpen.System.Diagnostics
+  fullName: BindOpen.System.Diagnostics
+- uid: System.Data.IDbConnection
+  commentId: T:System.Data.IDbConnection
+  parent: System.Data
+  isExternal: true
+  name: IDbConnection
+  nameWithType: IDbConnection
+  fullName: System.Data.IDbConnection
+- uid: System.Data.IDbTransaction
+  commentId: T:System.Data.IDbTransaction
+  parent: System.Data
+  isExternal: true
+  name: IDbTransaction
+  nameWithType: IDbTransaction
+  fullName: System.Data.IDbTransaction
+- uid: BindOpen.Data.Connections.BdoDbConnectionExtensions.BeginTransaction*
+  commentId: Overload:BindOpen.Data.Connections.BdoDbConnectionExtensions.BeginTransaction
+  name: BeginTransaction
+  nameWithType: BdoDbConnectionExtensions.BeginTransaction
+  fullName: BindOpen.Data.Connections.BdoDbConnectionExtensions.BeginTransaction
+- uid: System.Data.IsolationLevel
+  commentId: T:System.Data.IsolationLevel
+  parent: System.Data
+  isExternal: true
+  name: IsolationLevel
+  nameWithType: IsolationLevel
+  fullName: System.Data.IsolationLevel
+- uid: BindOpen.Data.Connections.BdoDbConnectionExtensions.GetIdentity*
+  commentId: Overload:BindOpen.Data.Connections.BdoDbConnectionExtensions.GetIdentity
+  name: GetIdentity
+  nameWithType: BdoDbConnectionExtensions.GetIdentity
+  fullName: BindOpen.Data.Connections.BdoDbConnectionExtensions.GetIdentity
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+shouldSkipMarkup: true

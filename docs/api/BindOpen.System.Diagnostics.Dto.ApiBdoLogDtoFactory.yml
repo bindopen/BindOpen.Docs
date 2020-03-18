@@ -1,0 +1,491 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.System.Diagnostics.Dto.ApiBdoLogDtoFactory
+  commentId: T:BindOpen.System.Diagnostics.Dto.ApiBdoLogDtoFactory
+  id: ApiBdoLogDtoFactory
+  parent: BindOpen.System.Diagnostics.Dto
+  children:
+  - BindOpen.System.Diagnostics.Dto.ApiBdoLogDtoFactory.ToApiDto(BindOpen.System.Diagnostics.IBdoLog,System.String,System.String)
+  - BindOpen.System.Diagnostics.Dto.ApiBdoLogDtoFactory.ToApiDto(BindOpen.System.Diagnostics.IBdoLogEvent,System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: ApiBdoLogDtoFactory
+  nameWithType: ApiBdoLogDtoFactory
+  fullName: BindOpen.System.Diagnostics.Dto.ApiBdoLogDtoFactory
+  type: Class
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Diagnostics/Dto/ApiBdoLogDtoFactory.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: ApiBdoLogDtoFactory
+    path: ../src/BindOpen.Core/System/Diagnostics/Dto/ApiBdoLogDtoFactory.cs
+    startLine: 7
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Diagnostics.Dto
+  summary: "\nThis class represents a factory for API logs.\n"
+  example: []
+  syntax:
+    content: public static class ApiBdoLogDtoFactory
+    content.vb: Public Module ApiBdoLogDtoFactory
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: BindOpen.System.Diagnostics.Dto.ApiBdoLogDtoFactory.ToApiDto(BindOpen.System.Diagnostics.IBdoLog,System.String,System.String)
+  commentId: M:BindOpen.System.Diagnostics.Dto.ApiBdoLogDtoFactory.ToApiDto(BindOpen.System.Diagnostics.IBdoLog,System.String,System.String)
+  id: ToApiDto(BindOpen.System.Diagnostics.IBdoLog,System.String,System.String)
+  isExtensionMethod: true
+  parent: BindOpen.System.Diagnostics.Dto.ApiBdoLogDtoFactory
+  langs:
+  - csharp
+  - vb
+  name: ToApiDto(IBdoLog, String, String)
+  nameWithType: ApiBdoLogDtoFactory.ToApiDto(IBdoLog, String, String)
+  fullName: BindOpen.System.Diagnostics.Dto.ApiBdoLogDtoFactory.ToApiDto(BindOpen.System.Diagnostics.IBdoLog, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Diagnostics/Dto/ApiBdoLogDtoFactory.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: ToApiDto
+    path: ../src/BindOpen.Core/System/Diagnostics/Dto/ApiBdoLogDtoFactory.cs
+    startLine: 16
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Diagnostics.Dto
+  summary: "\nConverts the specified log to the Api log DTO.\n"
+  example: []
+  syntax:
+    content: public static ApiBdoLogDto ToApiDto(this IBdoLog log, string key = "*", string alternateKey = null)
+    parameters:
+    - id: log
+      type: BindOpen.System.Diagnostics.IBdoLog
+      description: The log to consider.
+    - id: key
+      type: System.String
+      description: The key to consider.
+    - id: alternateKey
+      type: System.String
+      description: The alternate key to consider.
+    return:
+      type: BindOpen.System.Diagnostics.Dto.ApiBdoLogDto
+      description: Returns the Api log DTO.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToApiDto(log As IBdoLog, key As String = "*", alternateKey As String = Nothing) As ApiBdoLogDto
+  overload: BindOpen.System.Diagnostics.Dto.ApiBdoLogDtoFactory.ToApiDto*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.System.Diagnostics.Dto.ApiBdoLogDtoFactory.ToApiDto(BindOpen.System.Diagnostics.IBdoLogEvent,System.String,System.String)
+  commentId: M:BindOpen.System.Diagnostics.Dto.ApiBdoLogDtoFactory.ToApiDto(BindOpen.System.Diagnostics.IBdoLogEvent,System.String,System.String)
+  id: ToApiDto(BindOpen.System.Diagnostics.IBdoLogEvent,System.String,System.String)
+  isExtensionMethod: true
+  parent: BindOpen.System.Diagnostics.Dto.ApiBdoLogDtoFactory
+  langs:
+  - csharp
+  - vb
+  name: ToApiDto(IBdoLogEvent, String, String)
+  nameWithType: ApiBdoLogDtoFactory.ToApiDto(IBdoLogEvent, String, String)
+  fullName: BindOpen.System.Diagnostics.Dto.ApiBdoLogDtoFactory.ToApiDto(BindOpen.System.Diagnostics.IBdoLogEvent, System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Diagnostics/Dto/ApiBdoLogDtoFactory.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: ToApiDto
+    path: ../src/BindOpen.Core/System/Diagnostics/Dto/ApiBdoLogDtoFactory.cs
+    startLine: 35
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Diagnostics.Dto
+  summary: "\nConverts the specified log to the Api log DTO.\n"
+  example: []
+  syntax:
+    content: public static ApiBdoLogEventDto ToApiDto(this IBdoLogEvent aEvent, string key = "*", string alternateKey = null)
+    parameters:
+    - id: aEvent
+      type: BindOpen.System.Diagnostics.IBdoLogEvent
+      description: The log to consider.
+    - id: key
+      type: System.String
+      description: The key to consider.
+    - id: alternateKey
+      type: System.String
+      description: The alternate key to consider.
+    return:
+      type: BindOpen.System.Diagnostics.Dto.ApiBdoLogEventDto
+      description: Returns the Api log DTO.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToApiDto(aEvent As IBdoLogEvent, key As String = "*", alternateKey As String = Nothing) As ApiBdoLogEventDto
+  overload: BindOpen.System.Diagnostics.Dto.ApiBdoLogDtoFactory.ToApiDto*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: BindOpen.System.Diagnostics.Dto
+  commentId: N:BindOpen.System.Diagnostics.Dto
+  name: BindOpen.System.Diagnostics.Dto
+  nameWithType: BindOpen.System.Diagnostics.Dto
+  fullName: BindOpen.System.Diagnostics.Dto
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.System.Diagnostics.Dto.ApiBdoLogDtoFactory.ToApiDto*
+  commentId: Overload:BindOpen.System.Diagnostics.Dto.ApiBdoLogDtoFactory.ToApiDto
+  name: ToApiDto
+  nameWithType: ApiBdoLogDtoFactory.ToApiDto
+  fullName: BindOpen.System.Diagnostics.Dto.ApiBdoLogDtoFactory.ToApiDto
+- uid: BindOpen.System.Diagnostics.IBdoLog
+  commentId: T:BindOpen.System.Diagnostics.IBdoLog
+  parent: BindOpen.System.Diagnostics
+  name: IBdoLog
+  nameWithType: IBdoLog
+  fullName: BindOpen.System.Diagnostics.IBdoLog
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: BindOpen.System.Diagnostics.Dto.ApiBdoLogDto
+  commentId: T:BindOpen.System.Diagnostics.Dto.ApiBdoLogDto
+  parent: BindOpen.System.Diagnostics.Dto
+  name: ApiBdoLogDto
+  nameWithType: ApiBdoLogDto
+  fullName: BindOpen.System.Diagnostics.Dto.ApiBdoLogDto
+- uid: BindOpen.System.Diagnostics
+  commentId: N:BindOpen.System.Diagnostics
+  name: BindOpen.System.Diagnostics
+  nameWithType: BindOpen.System.Diagnostics
+  fullName: BindOpen.System.Diagnostics
+- uid: BindOpen.System.Diagnostics.IBdoLogEvent
+  commentId: T:BindOpen.System.Diagnostics.IBdoLogEvent
+  parent: BindOpen.System.Diagnostics
+  name: IBdoLogEvent
+  nameWithType: IBdoLogEvent
+  fullName: BindOpen.System.Diagnostics.IBdoLogEvent
+- uid: BindOpen.System.Diagnostics.Dto.ApiBdoLogEventDto
+  commentId: T:BindOpen.System.Diagnostics.Dto.ApiBdoLogEventDto
+  parent: BindOpen.System.Diagnostics.Dto
+  name: ApiBdoLogEventDto
+  nameWithType: ApiBdoLogEventDto
+  fullName: BindOpen.System.Diagnostics.Dto.ApiBdoLogEventDto
+shouldSkipMarkup: true

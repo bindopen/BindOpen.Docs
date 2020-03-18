@@ -1,0 +1,403 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Extensions.References.BdoExtensionReferenceCollectionExtension
+  commentId: T:BindOpen.Extensions.References.BdoExtensionReferenceCollectionExtension
+  id: BdoExtensionReferenceCollectionExtension
+  parent: BindOpen.Extensions.References
+  children:
+  - BindOpen.Extensions.References.BdoExtensionReferenceCollectionExtension.AddMSSqlServer(BindOpen.Extensions.References.IBdoExtensionReferenceCollection)
+  langs:
+  - csharp
+  - vb
+  name: BdoExtensionReferenceCollectionExtension
+  nameWithType: BdoExtensionReferenceCollectionExtension
+  fullName: BindOpen.Extensions.References.BdoExtensionReferenceCollectionExtension
+  type: Class
+  source:
+    remote:
+      path: src/BindOpen.Databases.MSSqlServer/Extensions/References/BdoExtensionReferenceCollectionExtension.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: BdoExtensionReferenceCollectionExtension
+    path: ../src/BindOpen.Databases.MSSqlServer/Extensions/References/BdoExtensionReferenceCollectionExtension.cs
+    startLine: 7
+  assemblies:
+  - BindOpen.Databases.MSSqlServer
+  namespace: BindOpen.Extensions.References
+  summary: "\nThis class represents an extension reference extension.\n"
+  example: []
+  syntax:
+    content: public static class BdoExtensionReferenceCollectionExtension
+    content.vb: Public Module BdoExtensionReferenceCollectionExtension
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: BindOpen.Extensions.References.BdoExtensionReferenceCollectionExtension.AddMSSqlServer(BindOpen.Extensions.References.IBdoExtensionReferenceCollection)
+  commentId: M:BindOpen.Extensions.References.BdoExtensionReferenceCollectionExtension.AddMSSqlServer(BindOpen.Extensions.References.IBdoExtensionReferenceCollection)
+  id: AddMSSqlServer(BindOpen.Extensions.References.IBdoExtensionReferenceCollection)
+  isExtensionMethod: true
+  parent: BindOpen.Extensions.References.BdoExtensionReferenceCollectionExtension
+  langs:
+  - csharp
+  - vb
+  name: AddMSSqlServer(IBdoExtensionReferenceCollection)
+  nameWithType: BdoExtensionReferenceCollectionExtension.AddMSSqlServer(IBdoExtensionReferenceCollection)
+  fullName: BindOpen.Extensions.References.BdoExtensionReferenceCollectionExtension.AddMSSqlServer(BindOpen.Extensions.References.IBdoExtensionReferenceCollection)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Databases.MSSqlServer/Extensions/References/BdoExtensionReferenceCollectionExtension.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: AddMSSqlServer
+    path: ../src/BindOpen.Databases.MSSqlServer/Extensions/References/BdoExtensionReferenceCollectionExtension.cs
+    startLine: 13
+  assemblies:
+  - BindOpen.Databases.MSSqlServer
+  namespace: BindOpen.Extensions.References
+  summary: "\nAdds a MSSqlServer extension reference to a specified list of references.\n"
+  example: []
+  syntax:
+    content: public static IBdoExtensionReferenceCollection AddMSSqlServer(this IBdoExtensionReferenceCollection references)
+    parameters:
+    - id: references
+      type: BindOpen.Extensions.References.IBdoExtensionReferenceCollection
+    return:
+      type: BindOpen.Extensions.References.IBdoExtensionReferenceCollection
+      description: Returns the updated list of references.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function AddMSSqlServer(references As IBdoExtensionReferenceCollection) As IBdoExtensionReferenceCollection
+  overload: BindOpen.Extensions.References.BdoExtensionReferenceCollectionExtension.AddMSSqlServer*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: BindOpen.Extensions.References
+  commentId: N:BindOpen.Extensions.References
+  name: BindOpen.Extensions.References
+  nameWithType: BindOpen.Extensions.References
+  fullName: BindOpen.Extensions.References
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Extensions.References.BdoExtensionReferenceCollectionExtension.AddMSSqlServer*
+  commentId: Overload:BindOpen.Extensions.References.BdoExtensionReferenceCollectionExtension.AddMSSqlServer
+  name: AddMSSqlServer
+  nameWithType: BdoExtensionReferenceCollectionExtension.AddMSSqlServer
+  fullName: BindOpen.Extensions.References.BdoExtensionReferenceCollectionExtension.AddMSSqlServer
+- uid: BindOpen.Extensions.References.IBdoExtensionReferenceCollection
+  commentId: T:BindOpen.Extensions.References.IBdoExtensionReferenceCollection
+  parent: BindOpen.Extensions.References
+  isExternal: true
+  name: IBdoExtensionReferenceCollection
+  nameWithType: IBdoExtensionReferenceCollection
+  fullName: BindOpen.Extensions.References.IBdoExtensionReferenceCollection
+shouldSkipMarkup: true

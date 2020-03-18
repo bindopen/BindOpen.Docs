@@ -1,0 +1,722 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.System.Assemblies.References.BdoAssemblyReferenceFactory
+  commentId: T:BindOpen.System.Assemblies.References.BdoAssemblyReferenceFactory
+  id: BdoAssemblyReferenceFactory
+  parent: BindOpen.System.Assemblies.References
+  children:
+  - BindOpen.System.Assemblies.References.BdoAssemblyReferenceFactory.Create(System.String,System.String)
+  - BindOpen.System.Assemblies.References.BdoAssemblyReferenceFactory.CreateAsAll
+  - BindOpen.System.Assemblies.References.BdoAssemblyReferenceFactory.CreateFrom``1
+  - BindOpen.System.Assemblies.References.BdoAssemblyReferenceFactory.GetDistinctReferences(System.Collections.Generic.IEnumerable{BindOpen.System.Assemblies.References.BdoAssemblyReference})
+  langs:
+  - csharp
+  - vb
+  name: BdoAssemblyReferenceFactory
+  nameWithType: BdoAssemblyReferenceFactory
+  fullName: BindOpen.System.Assemblies.References.BdoAssemblyReferenceFactory
+  type: Class
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Assemblies/References/Factories/BdoAssemblyReferenceFactory.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: BdoAssemblyReferenceFactory
+    path: ../src/BindOpen.Core/System/Assemblies/References/Factories/BdoAssemblyReferenceFactory.cs
+    startLine: 9
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Assemblies.References
+  summary: "\nThis class represents an application scope factory.\n"
+  example: []
+  syntax:
+    content: public static class BdoAssemblyReferenceFactory
+    content.vb: Public Module BdoAssemblyReferenceFactory
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: BindOpen.System.Assemblies.References.BdoAssemblyReferenceFactory.Create(System.String,System.String)
+  commentId: M:BindOpen.System.Assemblies.References.BdoAssemblyReferenceFactory.Create(System.String,System.String)
+  id: Create(System.String,System.String)
+  parent: BindOpen.System.Assemblies.References.BdoAssemblyReferenceFactory
+  langs:
+  - csharp
+  - vb
+  name: Create(String, String)
+  nameWithType: BdoAssemblyReferenceFactory.Create(String, String)
+  fullName: BindOpen.System.Assemblies.References.BdoAssemblyReferenceFactory.Create(System.String, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Assemblies/References/Factories/BdoAssemblyReferenceFactory.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Create
+    path: ../src/BindOpen.Core/System/Assemblies/References/Factories/BdoAssemblyReferenceFactory.cs
+    startLine: 17
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Assemblies.References
+  summary: "\nCreates a assembly reference from the specified extension one.\n"
+  example: []
+  syntax:
+    content: public static IBdoAssemblyReference Create(string name, string version = null)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name to consider.
+    - id: version
+      type: System.String
+      description: The version to consider.
+    return:
+      type: BindOpen.System.Assemblies.References.IBdoAssemblyReference
+      description: Returns the itemized list of the specified library list.
+    content.vb: Public Shared Function Create(name As String, version As String = Nothing) As IBdoAssemblyReference
+  overload: BindOpen.System.Assemblies.References.BdoAssemblyReferenceFactory.Create*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.System.Assemblies.References.BdoAssemblyReferenceFactory.CreateFrom``1
+  commentId: M:BindOpen.System.Assemblies.References.BdoAssemblyReferenceFactory.CreateFrom``1
+  id: CreateFrom``1
+  parent: BindOpen.System.Assemblies.References.BdoAssemblyReferenceFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateFrom<T>()
+  nameWithType: BdoAssemblyReferenceFactory.CreateFrom<T>()
+  fullName: BindOpen.System.Assemblies.References.BdoAssemblyReferenceFactory.CreateFrom<T>()
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Assemblies/References/Factories/BdoAssemblyReferenceFactory.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: CreateFrom
+    path: ../src/BindOpen.Core/System/Assemblies/References/Factories/BdoAssemblyReferenceFactory.cs
+    startLine: 24
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Assemblies.References
+  summary: "\nCreates a assembly reference of the spcefied type.\n"
+  example: []
+  syntax:
+    content: public static IBdoAssemblyReference CreateFrom<T>()
+    typeParameters:
+    - id: T
+    return:
+      type: BindOpen.System.Assemblies.References.IBdoAssemblyReference
+      description: Returns the itemized list of the spcefied type
+    content.vb: Public Shared Function CreateFrom(Of T) As IBdoAssemblyReference
+  overload: BindOpen.System.Assemblies.References.BdoAssemblyReferenceFactory.CreateFrom*
+  nameWithType.vb: BdoAssemblyReferenceFactory.CreateFrom(Of T)()
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.System.Assemblies.References.BdoAssemblyReferenceFactory.CreateFrom(Of T)()
+  name.vb: CreateFrom(Of T)()
+- uid: BindOpen.System.Assemblies.References.BdoAssemblyReferenceFactory.CreateAsAll
+  commentId: M:BindOpen.System.Assemblies.References.BdoAssemblyReferenceFactory.CreateAsAll
+  id: CreateAsAll
+  parent: BindOpen.System.Assemblies.References.BdoAssemblyReferenceFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateAsAll()
+  nameWithType: BdoAssemblyReferenceFactory.CreateAsAll()
+  fullName: BindOpen.System.Assemblies.References.BdoAssemblyReferenceFactory.CreateAsAll()
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Assemblies/References/Factories/BdoAssemblyReferenceFactory.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: CreateAsAll
+    path: ../src/BindOpen.Core/System/Assemblies/References/Factories/BdoAssemblyReferenceFactory.cs
+    startLine: 36
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Assemblies.References
+  summary: "\nCreates a assembly reference that represents all the references.\n"
+  example: []
+  syntax:
+    content: public static IBdoAssemblyReference CreateAsAll()
+    return:
+      type: BindOpen.System.Assemblies.References.IBdoAssemblyReference
+      description: Returns a assembly reference that represents all the references.
+    content.vb: Public Shared Function CreateAsAll As IBdoAssemblyReference
+  overload: BindOpen.System.Assemblies.References.BdoAssemblyReferenceFactory.CreateAsAll*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.System.Assemblies.References.BdoAssemblyReferenceFactory.GetDistinctReferences(System.Collections.Generic.IEnumerable{BindOpen.System.Assemblies.References.BdoAssemblyReference})
+  commentId: M:BindOpen.System.Assemblies.References.BdoAssemblyReferenceFactory.GetDistinctReferences(System.Collections.Generic.IEnumerable{BindOpen.System.Assemblies.References.BdoAssemblyReference})
+  id: GetDistinctReferences(System.Collections.Generic.IEnumerable{BindOpen.System.Assemblies.References.BdoAssemblyReference})
+  isExtensionMethod: true
+  parent: BindOpen.System.Assemblies.References.BdoAssemblyReferenceFactory
+  langs:
+  - csharp
+  - vb
+  name: GetDistinctReferences(IEnumerable<BdoAssemblyReference>)
+  nameWithType: BdoAssemblyReferenceFactory.GetDistinctReferences(IEnumerable<BdoAssemblyReference>)
+  fullName: BindOpen.System.Assemblies.References.BdoAssemblyReferenceFactory.GetDistinctReferences(System.Collections.Generic.IEnumerable<BindOpen.System.Assemblies.References.BdoAssemblyReference>)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Assemblies/References/Factories/BdoAssemblyReferenceFactory.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GetDistinctReferences
+    path: ../src/BindOpen.Core/System/Assemblies/References/Factories/BdoAssemblyReferenceFactory.cs
+    startLine: 44
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Assemblies.References
+  summary: "\nGets the distinct list of the specified library reference list.\n"
+  example: []
+  syntax:
+    content: public static List<BdoAssemblyReference> GetDistinctReferences(this IEnumerable<BdoAssemblyReference> references)
+    parameters:
+    - id: references
+      type: System.Collections.Generic.IEnumerable{BindOpen.System.Assemblies.References.BdoAssemblyReference}
+      description: The references to consider.
+    return:
+      type: System.Collections.Generic.List{BindOpen.System.Assemblies.References.BdoAssemblyReference}
+      description: Returns the itemized list of the specified library list.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetDistinctReferences(references As IEnumerable(Of BdoAssemblyReference)) As List(Of BdoAssemblyReference)
+  overload: BindOpen.System.Assemblies.References.BdoAssemblyReferenceFactory.GetDistinctReferences*
+  nameWithType.vb: BdoAssemblyReferenceFactory.GetDistinctReferences(IEnumerable(Of BdoAssemblyReference))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.System.Assemblies.References.BdoAssemblyReferenceFactory.GetDistinctReferences(System.Collections.Generic.IEnumerable(Of BindOpen.System.Assemblies.References.BdoAssemblyReference))
+  name.vb: GetDistinctReferences(IEnumerable(Of BdoAssemblyReference))
+references:
+- uid: BindOpen.System.Assemblies.References
+  commentId: N:BindOpen.System.Assemblies.References
+  name: BindOpen.System.Assemblies.References
+  nameWithType: BindOpen.System.Assemblies.References
+  fullName: BindOpen.System.Assemblies.References
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.System.Assemblies.References.BdoAssemblyReferenceFactory.Create*
+  commentId: Overload:BindOpen.System.Assemblies.References.BdoAssemblyReferenceFactory.Create
+  name: Create
+  nameWithType: BdoAssemblyReferenceFactory.Create
+  fullName: BindOpen.System.Assemblies.References.BdoAssemblyReferenceFactory.Create
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: BindOpen.System.Assemblies.References.IBdoAssemblyReference
+  commentId: T:BindOpen.System.Assemblies.References.IBdoAssemblyReference
+  parent: BindOpen.System.Assemblies.References
+  name: IBdoAssemblyReference
+  nameWithType: IBdoAssemblyReference
+  fullName: BindOpen.System.Assemblies.References.IBdoAssemblyReference
+- uid: BindOpen.System.Assemblies.References.BdoAssemblyReferenceFactory.CreateFrom*
+  commentId: Overload:BindOpen.System.Assemblies.References.BdoAssemblyReferenceFactory.CreateFrom
+  name: CreateFrom
+  nameWithType: BdoAssemblyReferenceFactory.CreateFrom
+  fullName: BindOpen.System.Assemblies.References.BdoAssemblyReferenceFactory.CreateFrom
+- uid: BindOpen.System.Assemblies.References.BdoAssemblyReferenceFactory.CreateAsAll*
+  commentId: Overload:BindOpen.System.Assemblies.References.BdoAssemblyReferenceFactory.CreateAsAll
+  name: CreateAsAll
+  nameWithType: BdoAssemblyReferenceFactory.CreateAsAll
+  fullName: BindOpen.System.Assemblies.References.BdoAssemblyReferenceFactory.CreateAsAll
+- uid: BindOpen.System.Assemblies.References.BdoAssemblyReferenceFactory.GetDistinctReferences*
+  commentId: Overload:BindOpen.System.Assemblies.References.BdoAssemblyReferenceFactory.GetDistinctReferences
+  name: GetDistinctReferences
+  nameWithType: BdoAssemblyReferenceFactory.GetDistinctReferences
+  fullName: BindOpen.System.Assemblies.References.BdoAssemblyReferenceFactory.GetDistinctReferences
+- uid: System.Collections.Generic.IEnumerable{BindOpen.System.Assemblies.References.BdoAssemblyReference}
+  commentId: T:System.Collections.Generic.IEnumerable{BindOpen.System.Assemblies.References.BdoAssemblyReference}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  name: IEnumerable<BdoAssemblyReference>
+  nameWithType: IEnumerable<BdoAssemblyReference>
+  fullName: System.Collections.Generic.IEnumerable<BindOpen.System.Assemblies.References.BdoAssemblyReference>
+  nameWithType.vb: IEnumerable(Of BdoAssemblyReference)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of BindOpen.System.Assemblies.References.BdoAssemblyReference)
+  name.vb: IEnumerable(Of BdoAssemblyReference)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BindOpen.System.Assemblies.References.BdoAssemblyReference
+    name: BdoAssemblyReference
+    nameWithType: BdoAssemblyReference
+    fullName: BindOpen.System.Assemblies.References.BdoAssemblyReference
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BindOpen.System.Assemblies.References.BdoAssemblyReference
+    name: BdoAssemblyReference
+    nameWithType: BdoAssemblyReference
+    fullName: BindOpen.System.Assemblies.References.BdoAssemblyReference
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List{BindOpen.System.Assemblies.References.BdoAssemblyReference}
+  commentId: T:System.Collections.Generic.List{BindOpen.System.Assemblies.References.BdoAssemblyReference}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<BdoAssemblyReference>
+  nameWithType: List<BdoAssemblyReference>
+  fullName: System.Collections.Generic.List<BindOpen.System.Assemblies.References.BdoAssemblyReference>
+  nameWithType.vb: List(Of BdoAssemblyReference)
+  fullName.vb: System.Collections.Generic.List(Of BindOpen.System.Assemblies.References.BdoAssemblyReference)
+  name.vb: List(Of BdoAssemblyReference)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BindOpen.System.Assemblies.References.BdoAssemblyReference
+    name: BdoAssemblyReference
+    nameWithType: BdoAssemblyReference
+    fullName: BindOpen.System.Assemblies.References.BdoAssemblyReference
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BindOpen.System.Assemblies.References.BdoAssemblyReference
+    name: BdoAssemblyReference
+    nameWithType: BdoAssemblyReference
+    fullName: BindOpen.System.Assemblies.References.BdoAssemblyReference
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+shouldSkipMarkup: true

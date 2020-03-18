@@ -1,0 +1,35 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.System.Versioning
+  commentId: N:BindOpen.System.Versioning
+  id: BindOpen.System.Versioning
+  children:
+  - BindOpen.System.Versioning.UpdateLevel
+  - BindOpen.System.Versioning.VersioningHelper
+  langs:
+  - csharp
+  - vb
+  name: BindOpen.System.Versioning
+  nameWithType: BindOpen.System.Versioning
+  fullName: BindOpen.System.Versioning
+  type: Namespace
+  assemblies:
+  - BindOpen.Runtime
+references:
+- uid: BindOpen.System.Versioning.UpdateLevel
+  commentId: T:BindOpen.System.Versioning.UpdateLevel
+  parent: BindOpen.System.Versioning
+  name: UpdateLevel
+  nameWithType: UpdateLevel
+  fullName: BindOpen.System.Versioning.UpdateLevel
+- uid: BindOpen.System.Versioning.VersioningHelper
+  commentId: T:BindOpen.System.Versioning.VersioningHelper
+  name: VersioningHelper
+  nameWithType: VersioningHelper
+  fullName: BindOpen.System.Versioning.VersioningHelper
+- uid: BindOpen.System.Versioning
+  commentId: N:BindOpen.System.Versioning
+  name: BindOpen.System.Versioning
+  nameWithType: BindOpen.System.Versioning
+  fullName: BindOpen.System.Versioning
+shouldSkipMarkup: true

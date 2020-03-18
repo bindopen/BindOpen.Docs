@@ -1,0 +1,36 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Data.Context
+  commentId: N:BindOpen.Data.Context
+  id: BindOpen.Data.Context
+  children:
+  - BindOpen.Data.Context.BdoDataContext
+  - BindOpen.Data.Context.IBdoDataContext
+  langs:
+  - csharp
+  - vb
+  name: BindOpen.Data.Context
+  nameWithType: BindOpen.Data.Context
+  fullName: BindOpen.Data.Context
+  type: Namespace
+  assemblies:
+  - BindOpen.Core
+references:
+- uid: BindOpen.Data.Context.BdoDataContext
+  commentId: T:BindOpen.Data.Context.BdoDataContext
+  parent: BindOpen.Data.Context
+  name: BdoDataContext
+  nameWithType: BdoDataContext
+  fullName: BindOpen.Data.Context.BdoDataContext
+- uid: BindOpen.Data.Context.IBdoDataContext
+  commentId: T:BindOpen.Data.Context.IBdoDataContext
+  parent: BindOpen.Data.Context
+  name: IBdoDataContext
+  nameWithType: IBdoDataContext
+  fullName: BindOpen.Data.Context.IBdoDataContext
+- uid: BindOpen.Data.Context
+  commentId: N:BindOpen.Data.Context
+  name: BindOpen.Data.Context
+  nameWithType: BindOpen.Data.Context
+  fullName: BindOpen.Data.Context
+shouldSkipMarkup: true

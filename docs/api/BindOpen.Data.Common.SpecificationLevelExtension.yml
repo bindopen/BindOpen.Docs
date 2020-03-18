@@ -1,0 +1,601 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Data.Common.SpecificationLevelExtension
+  commentId: T:BindOpen.Data.Common.SpecificationLevelExtension
+  id: SpecificationLevelExtension
+  parent: BindOpen.Data.Common
+  children:
+  - BindOpen.Data.Common.SpecificationLevelExtension.Excluding(BindOpen.Data.Common.SpecificationLevels,BindOpen.Data.Common.SpecificationLevels[])
+  - BindOpen.Data.Common.SpecificationLevelExtension.Excluding(BindOpen.Data.Common.SpecificationLevels[],BindOpen.Data.Common.SpecificationLevels[])
+  - BindOpen.Data.Common.SpecificationLevelExtension.Has(BindOpen.Data.Common.SpecificationLevels[],BindOpen.Data.Common.SpecificationLevels)
+  - BindOpen.Data.Common.SpecificationLevelExtension.Has(BindOpen.Data.Common.SpecificationLevels[],BindOpen.Data.Common.SpecificationLevels[])
+  langs:
+  - csharp
+  - vb
+  name: SpecificationLevelExtension
+  nameWithType: SpecificationLevelExtension
+  fullName: BindOpen.Data.Common.SpecificationLevelExtension
+  type: Class
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Common/SpecificationLevels.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: SpecificationLevelExtension
+    path: ../src/BindOpen.Core/Data/Common/SpecificationLevels.cs
+    startLine: 62
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Common
+  summary: "\nThis class represents an specification level extension.\n"
+  example: []
+  syntax:
+    content: public static class SpecificationLevelExtension
+    content.vb: Public Module SpecificationLevelExtension
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: BindOpen.Data.Common.SpecificationLevelExtension.Has(BindOpen.Data.Common.SpecificationLevels[],BindOpen.Data.Common.SpecificationLevels)
+  commentId: M:BindOpen.Data.Common.SpecificationLevelExtension.Has(BindOpen.Data.Common.SpecificationLevels[],BindOpen.Data.Common.SpecificationLevels)
+  id: Has(BindOpen.Data.Common.SpecificationLevels[],BindOpen.Data.Common.SpecificationLevels)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Common.SpecificationLevelExtension
+  langs:
+  - csharp
+  - vb
+  name: Has(SpecificationLevels[], SpecificationLevels)
+  nameWithType: SpecificationLevelExtension.Has(SpecificationLevels[], SpecificationLevels)
+  fullName: BindOpen.Data.Common.SpecificationLevelExtension.Has(BindOpen.Data.Common.SpecificationLevels[], BindOpen.Data.Common.SpecificationLevels)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Common/SpecificationLevels.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Has
+    path: ../src/BindOpen.Core/Data/Common/SpecificationLevels.cs
+    startLine: 70
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Common
+  summary: "\nIndicates whether the specified specification level list contains the specified specification level.\n"
+  example: []
+  syntax:
+    content: public static bool Has(this SpecificationLevels[] specificationLevels, SpecificationLevels specificationLevel)
+    parameters:
+    - id: specificationLevels
+      type: BindOpen.Data.Common.SpecificationLevels[]
+      description: The specified specification level list to consider.
+    - id: specificationLevel
+      type: BindOpen.Data.Common.SpecificationLevels
+      description: The specified specification level to consider.
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Has(specificationLevels As SpecificationLevels(), specificationLevel As SpecificationLevels) As Boolean
+  overload: BindOpen.Data.Common.SpecificationLevelExtension.Has*
+  nameWithType.vb: SpecificationLevelExtension.Has(SpecificationLevels(), SpecificationLevels)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Common.SpecificationLevelExtension.Has(BindOpen.Data.Common.SpecificationLevels(), BindOpen.Data.Common.SpecificationLevels)
+  name.vb: Has(SpecificationLevels(), SpecificationLevels)
+- uid: BindOpen.Data.Common.SpecificationLevelExtension.Has(BindOpen.Data.Common.SpecificationLevels[],BindOpen.Data.Common.SpecificationLevels[])
+  commentId: M:BindOpen.Data.Common.SpecificationLevelExtension.Has(BindOpen.Data.Common.SpecificationLevels[],BindOpen.Data.Common.SpecificationLevels[])
+  id: Has(BindOpen.Data.Common.SpecificationLevels[],BindOpen.Data.Common.SpecificationLevels[])
+  isExtensionMethod: true
+  parent: BindOpen.Data.Common.SpecificationLevelExtension
+  langs:
+  - csharp
+  - vb
+  name: Has(SpecificationLevels[], SpecificationLevels[])
+  nameWithType: SpecificationLevelExtension.Has(SpecificationLevels[], SpecificationLevels[])
+  fullName: BindOpen.Data.Common.SpecificationLevelExtension.Has(BindOpen.Data.Common.SpecificationLevels[], BindOpen.Data.Common.SpecificationLevels[])
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Common/SpecificationLevels.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Has
+    path: ../src/BindOpen.Core/Data/Common/SpecificationLevels.cs
+    startLine: 83
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Common
+  summary: "\nIndicates whether the specified specification level list contains the specified specification level.\n"
+  example: []
+  syntax:
+    content: public static bool Has(this SpecificationLevels[] specificationLevels, SpecificationLevels[] referenceSpecificationLevels)
+    parameters:
+    - id: specificationLevels
+      type: BindOpen.Data.Common.SpecificationLevels[]
+      description: The specified specification level list to consider.
+    - id: referenceSpecificationLevels
+      type: BindOpen.Data.Common.SpecificationLevels[]
+      description: The specified reference specification levels to consider.
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Has(specificationLevels As SpecificationLevels(), referenceSpecificationLevels As SpecificationLevels()) As Boolean
+  overload: BindOpen.Data.Common.SpecificationLevelExtension.Has*
+  nameWithType.vb: SpecificationLevelExtension.Has(SpecificationLevels(), SpecificationLevels())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Common.SpecificationLevelExtension.Has(BindOpen.Data.Common.SpecificationLevels(), BindOpen.Data.Common.SpecificationLevels())
+  name.vb: Has(SpecificationLevels(), SpecificationLevels())
+- uid: BindOpen.Data.Common.SpecificationLevelExtension.Excluding(BindOpen.Data.Common.SpecificationLevels[],BindOpen.Data.Common.SpecificationLevels[])
+  commentId: M:BindOpen.Data.Common.SpecificationLevelExtension.Excluding(BindOpen.Data.Common.SpecificationLevels[],BindOpen.Data.Common.SpecificationLevels[])
+  id: Excluding(BindOpen.Data.Common.SpecificationLevels[],BindOpen.Data.Common.SpecificationLevels[])
+  isExtensionMethod: true
+  parent: BindOpen.Data.Common.SpecificationLevelExtension
+  langs:
+  - csharp
+  - vb
+  name: Excluding(SpecificationLevels[], SpecificationLevels[])
+  nameWithType: SpecificationLevelExtension.Excluding(SpecificationLevels[], SpecificationLevels[])
+  fullName: BindOpen.Data.Common.SpecificationLevelExtension.Excluding(BindOpen.Data.Common.SpecificationLevels[], BindOpen.Data.Common.SpecificationLevels[])
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Common/SpecificationLevels.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Excluding
+    path: ../src/BindOpen.Core/Data/Common/SpecificationLevels.cs
+    startLine: 96
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Common
+  summary: "\nGets the specified list excluding the second specified list.\n"
+  example: []
+  syntax:
+    content: public static SpecificationLevels[] Excluding(this SpecificationLevels[] specificationLevels, params SpecificationLevels[] excludingSpecificationLevels)
+    parameters:
+    - id: specificationLevels
+      type: BindOpen.Data.Common.SpecificationLevels[]
+      description: The specification levels to consider.
+    - id: excludingSpecificationLevels
+      type: BindOpen.Data.Common.SpecificationLevels[]
+      description: The excluding specification levels to consider.
+    return:
+      type: BindOpen.Data.Common.SpecificationLevels[]
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Excluding(specificationLevels As SpecificationLevels(), ParamArray excludingSpecificationLevels As SpecificationLevels()) As SpecificationLevels()
+  overload: BindOpen.Data.Common.SpecificationLevelExtension.Excluding*
+  nameWithType.vb: SpecificationLevelExtension.Excluding(SpecificationLevels(), SpecificationLevels())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Common.SpecificationLevelExtension.Excluding(BindOpen.Data.Common.SpecificationLevels(), BindOpen.Data.Common.SpecificationLevels())
+  name.vb: Excluding(SpecificationLevels(), SpecificationLevels())
+- uid: BindOpen.Data.Common.SpecificationLevelExtension.Excluding(BindOpen.Data.Common.SpecificationLevels,BindOpen.Data.Common.SpecificationLevels[])
+  commentId: M:BindOpen.Data.Common.SpecificationLevelExtension.Excluding(BindOpen.Data.Common.SpecificationLevels,BindOpen.Data.Common.SpecificationLevels[])
+  id: Excluding(BindOpen.Data.Common.SpecificationLevels,BindOpen.Data.Common.SpecificationLevels[])
+  isExtensionMethod: true
+  parent: BindOpen.Data.Common.SpecificationLevelExtension
+  langs:
+  - csharp
+  - vb
+  name: Excluding(SpecificationLevels, SpecificationLevels[])
+  nameWithType: SpecificationLevelExtension.Excluding(SpecificationLevels, SpecificationLevels[])
+  fullName: BindOpen.Data.Common.SpecificationLevelExtension.Excluding(BindOpen.Data.Common.SpecificationLevels, BindOpen.Data.Common.SpecificationLevels[])
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Common/SpecificationLevels.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Excluding
+    path: ../src/BindOpen.Core/Data/Common/SpecificationLevels.cs
+    startLine: 111
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Common
+  summary: "\nGets the specified list excluding the secong specified list.\n"
+  example: []
+  syntax:
+    content: public static SpecificationLevels[] Excluding(this SpecificationLevels specificationLevel, params SpecificationLevels[] excludingSpecificationLevels)
+    parameters:
+    - id: specificationLevel
+      type: BindOpen.Data.Common.SpecificationLevels
+      description: The specification level to consider.
+    - id: excludingSpecificationLevels
+      type: BindOpen.Data.Common.SpecificationLevels[]
+      description: The excluding specification levels to consider.
+    return:
+      type: BindOpen.Data.Common.SpecificationLevels[]
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Excluding(specificationLevel As SpecificationLevels, ParamArray excludingSpecificationLevels As SpecificationLevels()) As SpecificationLevels()
+  overload: BindOpen.Data.Common.SpecificationLevelExtension.Excluding*
+  nameWithType.vb: SpecificationLevelExtension.Excluding(SpecificationLevels, SpecificationLevels())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Common.SpecificationLevelExtension.Excluding(BindOpen.Data.Common.SpecificationLevels, BindOpen.Data.Common.SpecificationLevels())
+  name.vb: Excluding(SpecificationLevels, SpecificationLevels())
+references:
+- uid: BindOpen.Data.Common
+  commentId: N:BindOpen.Data.Common
+  name: BindOpen.Data.Common
+  nameWithType: BindOpen.Data.Common
+  fullName: BindOpen.Data.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Data.Common.SpecificationLevelExtension.Has*
+  commentId: Overload:BindOpen.Data.Common.SpecificationLevelExtension.Has
+  name: Has
+  nameWithType: SpecificationLevelExtension.Has
+  fullName: BindOpen.Data.Common.SpecificationLevelExtension.Has
+- uid: BindOpen.Data.Common.SpecificationLevels[]
+  isExternal: true
+  name: SpecificationLevels[]
+  nameWithType: SpecificationLevels[]
+  fullName: BindOpen.Data.Common.SpecificationLevels[]
+  nameWithType.vb: SpecificationLevels()
+  fullName.vb: BindOpen.Data.Common.SpecificationLevels()
+  name.vb: SpecificationLevels()
+  spec.csharp:
+  - uid: BindOpen.Data.Common.SpecificationLevels
+    name: SpecificationLevels
+    nameWithType: SpecificationLevels
+    fullName: BindOpen.Data.Common.SpecificationLevels
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: BindOpen.Data.Common.SpecificationLevels
+    name: SpecificationLevels
+    nameWithType: SpecificationLevels
+    fullName: BindOpen.Data.Common.SpecificationLevels
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: BindOpen.Data.Common.SpecificationLevels
+  commentId: T:BindOpen.Data.Common.SpecificationLevels
+  parent: BindOpen.Data.Common
+  name: SpecificationLevels
+  nameWithType: SpecificationLevels
+  fullName: BindOpen.Data.Common.SpecificationLevels
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: BindOpen.Data.Common.SpecificationLevelExtension.Excluding*
+  commentId: Overload:BindOpen.Data.Common.SpecificationLevelExtension.Excluding
+  name: Excluding
+  nameWithType: SpecificationLevelExtension.Excluding
+  fullName: BindOpen.Data.Common.SpecificationLevelExtension.Excluding
+shouldSkipMarkup: true

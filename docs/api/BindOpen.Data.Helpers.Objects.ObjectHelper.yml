@@ -1,0 +1,1354 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Data.Helpers.Objects.ObjectHelper
+  commentId: T:BindOpen.Data.Helpers.Objects.ObjectHelper
+  id: ObjectHelper
+  parent: BindOpen.Data.Helpers.Objects
+  children:
+  - BindOpen.Data.Helpers.Objects.ObjectHelper.GetObjectAtIndex(System.Collections.Generic.List{System.Object},System.Int32)
+  - BindOpen.Data.Helpers.Objects.ObjectHelper.GetObjectAtIndex(System.Object[],System.Int32)
+  - BindOpen.Data.Helpers.Objects.ObjectHelper.GetPropertyInfo(System.Type,System.String,System.Type[],BindOpen.Data.Elements.DataElementAttribute@)
+  - BindOpen.Data.Helpers.Objects.ObjectHelper.GetStringAtIndex(System.Object[],System.Int32)
+  - BindOpen.Data.Helpers.Objects.ObjectHelper.KeyEquals(System.Object,System.Object)
+  - BindOpen.Data.Helpers.Objects.ObjectHelper.ToKey(System.Object)
+  - BindOpen.Data.Helpers.Objects.ObjectHelper.ToNotNullString(System.Object)
+  - BindOpen.Data.Helpers.Objects.ObjectHelper.ToString(System.Object,BindOpen.Data.Common.DataValueType)
+  - BindOpen.Data.Helpers.Objects.ObjectHelper.Update(System.Object,System.Object)
+  - BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromElementSet``1(System.Object,BindOpen.Data.Elements.IDataElementSet,BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet)
+  - BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromObject``1(BindOpen.Data.Elements.IDataElementSet,System.Object)
+  - BindOpen.Data.Helpers.Objects.ObjectHelper.Using``1(``0,System.Action{``0})
+  langs:
+  - csharp
+  - vb
+  name: ObjectHelper
+  nameWithType: ObjectHelper
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper
+  type: Class
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Objects/ObjectHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: ObjectHelper
+    path: ../src/BindOpen.Core/Data/Helpers/Objects/ObjectHelper.cs
+    startLine: 18
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Objects
+  summary: "\nThis class represents a helper for objects.\n"
+  example: []
+  syntax:
+    content: public static class ObjectHelper
+    content.vb: Public Module ObjectHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: BindOpen.Data.Helpers.Objects.ObjectHelper.ToKey(System.Object)
+  commentId: M:BindOpen.Data.Helpers.Objects.ObjectHelper.ToKey(System.Object)
+  id: ToKey(System.Object)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Helpers.Objects.ObjectHelper
+  langs:
+  - csharp
+  - vb
+  name: ToKey(Object)
+  nameWithType: ObjectHelper.ToKey(Object)
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.ToKey(System.Object)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Objects/ObjectHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: ToKey
+    path: ../src/BindOpen.Core/Data/Helpers/Objects/ObjectHelper.cs
+    startLine: 25
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Objects
+  summary: "\nReturns the key representing the specified object i.e. in lower case and empty if null.\n"
+  example: []
+  syntax:
+    content: public static string ToKey(this object object1)
+    parameters:
+    - id: object1
+      type: System.Object
+      description: The object to consider.
+    return:
+      type: System.String
+      description: Returns the key representing the specified object.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToKey(object1 As Object) As String
+  overload: BindOpen.Data.Helpers.Objects.ObjectHelper.ToKey*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Helpers.Objects.ObjectHelper.KeyEquals(System.Object,System.Object)
+  commentId: M:BindOpen.Data.Helpers.Objects.ObjectHelper.KeyEquals(System.Object,System.Object)
+  id: KeyEquals(System.Object,System.Object)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Helpers.Objects.ObjectHelper
+  langs:
+  - csharp
+  - vb
+  name: KeyEquals(Object, Object)
+  nameWithType: ObjectHelper.KeyEquals(Object, Object)
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.KeyEquals(System.Object, System.Object)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Objects/ObjectHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: KeyEquals
+    path: ../src/BindOpen.Core/Data/Helpers/Objects/ObjectHelper.cs
+    startLine: 45
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Objects
+  summary: "\nIndicates whether the key representing the specified object i.e. in lower case and empty if null.\n"
+  example: []
+  syntax:
+    content: public static bool KeyEquals(this object object1, object object2)
+    parameters:
+    - id: object1
+      type: System.Object
+      description: The object to consider.
+    - id: object2
+      type: System.Object
+      description: The object to compare with.
+    return:
+      type: System.Boolean
+      description: Returns True if the keys of the considered objects equal.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function KeyEquals(object1 As Object, object2 As Object) As Boolean
+  overload: BindOpen.Data.Helpers.Objects.ObjectHelper.KeyEquals*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Helpers.Objects.ObjectHelper.ToNotNullString(System.Object)
+  commentId: M:BindOpen.Data.Helpers.Objects.ObjectHelper.ToNotNullString(System.Object)
+  id: ToNotNullString(System.Object)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Helpers.Objects.ObjectHelper
+  langs:
+  - csharp
+  - vb
+  name: ToNotNullString(Object)
+  nameWithType: ObjectHelper.ToNotNullString(Object)
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.ToNotNullString(System.Object)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Objects/ObjectHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: ToNotNullString
+    path: ../src/BindOpen.Core/Data/Helpers/Objects/ObjectHelper.cs
+    startLine: 55
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Objects
+  summary: "\nReturns the string representation of the specified object.\n"
+  example: []
+  syntax:
+    content: public static string ToNotNullString(this object object1)
+    parameters:
+    - id: object1
+      type: System.Object
+      description: The object to consider.
+    return:
+      type: System.String
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToNotNullString(object1 As Object) As String
+  overload: BindOpen.Data.Helpers.Objects.ObjectHelper.ToNotNullString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Helpers.Objects.ObjectHelper.ToString(System.Object,BindOpen.Data.Common.DataValueType)
+  commentId: M:BindOpen.Data.Helpers.Objects.ObjectHelper.ToString(System.Object,BindOpen.Data.Common.DataValueType)
+  id: ToString(System.Object,BindOpen.Data.Common.DataValueType)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Helpers.Objects.ObjectHelper
+  langs:
+  - csharp
+  - vb
+  name: ToString(Object, DataValueType)
+  nameWithType: ObjectHelper.ToString(Object, DataValueType)
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.ToString(System.Object, BindOpen.Data.Common.DataValueType)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Objects/ObjectHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: ToString
+    path: ../src/BindOpen.Core/Data/Helpers/Objects/ObjectHelper.cs
+    startLine: 66
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Objects
+  summary: "\nReturns the string value from an object based on this instance&apos;s specification.\n"
+  example: []
+  syntax:
+    content: public static string ToString(this object object1, DataValueType valueType = DataValueType.Any)
+    parameters:
+    - id: object1
+      type: System.Object
+      description: The object value to convert.
+    - id: valueType
+      type: BindOpen.Data.Common.DataValueType
+      description: The value type to consider.
+    return:
+      type: System.String
+      description: The result string.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToString(object1 As Object, valueType As DataValueType = DataValueType.Any) As String
+  overload: BindOpen.Data.Helpers.Objects.ObjectHelper.ToString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Helpers.Objects.ObjectHelper.GetStringAtIndex(System.Object[],System.Int32)
+  commentId: M:BindOpen.Data.Helpers.Objects.ObjectHelper.GetStringAtIndex(System.Object[],System.Int32)
+  id: GetStringAtIndex(System.Object[],System.Int32)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Helpers.Objects.ObjectHelper
+  langs:
+  - csharp
+  - vb
+  name: GetStringAtIndex(Object[], Int32)
+  nameWithType: ObjectHelper.GetStringAtIndex(Object[], Int32)
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.GetStringAtIndex(System.Object[], System.Int32)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Objects/ObjectHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GetStringAtIndex
+    path: ../src/BindOpen.Core/Data/Helpers/Objects/ObjectHelper.cs
+    startLine: 115
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Objects
+  summary: "\nGets the string at the specified index from the specified index.\n"
+  example: []
+  syntax:
+    content: public static string GetStringAtIndex(this object[] objects, int index)
+    parameters:
+    - id: objects
+      type: System.Object[]
+      description: The objects to consider.
+    - id: index
+      type: System.Int32
+      description: The index to consider.
+    return:
+      type: System.String
+      description: Returns the normalized string.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetStringAtIndex(objects As Object(), index As Integer) As String
+  overload: BindOpen.Data.Helpers.Objects.ObjectHelper.GetStringAtIndex*
+  nameWithType.vb: ObjectHelper.GetStringAtIndex(Object(), Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Helpers.Objects.ObjectHelper.GetStringAtIndex(System.Object(), System.Int32)
+  name.vb: GetStringAtIndex(Object(), Int32)
+- uid: BindOpen.Data.Helpers.Objects.ObjectHelper.GetObjectAtIndex(System.Object[],System.Int32)
+  commentId: M:BindOpen.Data.Helpers.Objects.ObjectHelper.GetObjectAtIndex(System.Object[],System.Int32)
+  id: GetObjectAtIndex(System.Object[],System.Int32)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Helpers.Objects.ObjectHelper
+  langs:
+  - csharp
+  - vb
+  name: GetObjectAtIndex(Object[], Int32)
+  nameWithType: ObjectHelper.GetObjectAtIndex(Object[], Int32)
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.GetObjectAtIndex(System.Object[], System.Int32)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Objects/ObjectHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GetObjectAtIndex
+    path: ../src/BindOpen.Core/Data/Helpers/Objects/ObjectHelper.cs
+    startLine: 126
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Objects
+  summary: "\nGets the object at the specified index from the specified index.\n"
+  example: []
+  syntax:
+    content: public static object GetObjectAtIndex(this object[] objects, int index)
+    parameters:
+    - id: objects
+      type: System.Object[]
+      description: The objects to consider.
+    - id: index
+      type: System.Int32
+      description: The index to consider.
+    return:
+      type: System.Object
+      description: Returns the normalized string.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetObjectAtIndex(objects As Object(), index As Integer) As Object
+  overload: BindOpen.Data.Helpers.Objects.ObjectHelper.GetObjectAtIndex*
+  nameWithType.vb: ObjectHelper.GetObjectAtIndex(Object(), Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Helpers.Objects.ObjectHelper.GetObjectAtIndex(System.Object(), System.Int32)
+  name.vb: GetObjectAtIndex(Object(), Int32)
+- uid: BindOpen.Data.Helpers.Objects.ObjectHelper.Update(System.Object,System.Object)
+  commentId: M:BindOpen.Data.Helpers.Objects.ObjectHelper.Update(System.Object,System.Object)
+  id: Update(System.Object,System.Object)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Helpers.Objects.ObjectHelper
+  langs:
+  - csharp
+  - vb
+  name: Update(Object, Object)
+  nameWithType: ObjectHelper.Update(Object, Object)
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.Update(System.Object, System.Object)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Objects/ObjectHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Update
+    path: ../src/BindOpen.Core/Data/Helpers/Objects/ObjectHelper.cs
+    startLine: 137
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Objects
+  summary: "\nGets the result of the serialization of the specified object.\n"
+  example: []
+  syntax:
+    content: public static void Update(this object object1, object updateObject)
+    parameters:
+    - id: object1
+      type: System.Object
+      description: The object to serialize.
+    - id: updateObject
+      type: System.Object
+      description: The update object to consider.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub Update(object1 As Object, updateObject As Object)
+  overload: BindOpen.Data.Helpers.Objects.ObjectHelper.Update*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Helpers.Objects.ObjectHelper.GetObjectAtIndex(System.Collections.Generic.List{System.Object},System.Int32)
+  commentId: M:BindOpen.Data.Helpers.Objects.ObjectHelper.GetObjectAtIndex(System.Collections.Generic.List{System.Object},System.Int32)
+  id: GetObjectAtIndex(System.Collections.Generic.List{System.Object},System.Int32)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Helpers.Objects.ObjectHelper
+  langs:
+  - csharp
+  - vb
+  name: GetObjectAtIndex(List<Object>, Int32)
+  nameWithType: ObjectHelper.GetObjectAtIndex(List<Object>, Int32)
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.GetObjectAtIndex(System.Collections.Generic.List<System.Object>, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Objects/ObjectHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GetObjectAtIndex
+    path: ../src/BindOpen.Core/Data/Helpers/Objects/ObjectHelper.cs
+    startLine: 167
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Objects
+  summary: "\nGets the object at the specified index from the specified index.\n"
+  example: []
+  syntax:
+    content: public static object GetObjectAtIndex(this List<object> objects, int index)
+    parameters:
+    - id: objects
+      type: System.Collections.Generic.List{System.Object}
+      description: The objects to consider.
+    - id: index
+      type: System.Int32
+      description: The index to consider.
+    return:
+      type: System.Object
+      description: Returns the normalized string.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetObjectAtIndex(objects As List(Of Object), index As Integer) As Object
+  overload: BindOpen.Data.Helpers.Objects.ObjectHelper.GetObjectAtIndex*
+  nameWithType.vb: ObjectHelper.GetObjectAtIndex(List(Of Object), Int32)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Helpers.Objects.ObjectHelper.GetObjectAtIndex(System.Collections.Generic.List(Of System.Object), System.Int32)
+  name.vb: GetObjectAtIndex(List(Of Object), Int32)
+- uid: BindOpen.Data.Helpers.Objects.ObjectHelper.Using``1(``0,System.Action{``0})
+  commentId: M:BindOpen.Data.Helpers.Objects.ObjectHelper.Using``1(``0,System.Action{``0})
+  id: Using``1(``0,System.Action{``0})
+  isExtensionMethod: true
+  parent: BindOpen.Data.Helpers.Objects.ObjectHelper
+  langs:
+  - csharp
+  - vb
+  name: Using<T>(T, Action<T>)
+  nameWithType: ObjectHelper.Using<T>(T, Action<T>)
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.Using<T>(T, System.Action<T>)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Objects/ObjectHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Using
+    path: ../src/BindOpen.Core/Data/Helpers/Objects/ObjectHelper.cs
+    startLine: 178
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Objects
+  summary: "\nUsing the specified item executing the specified action.\n"
+  example: []
+  syntax:
+    content: >-
+      public static void Using<T>(this T item, Action<T> action)
+          where T : DataItem
+    parameters:
+    - id: item
+      type: '{T}'
+      description: The item to use.
+    - id: action
+      type: System.Action{{T}}
+      description: The action to execute.
+    typeParameters:
+    - id: T
+      description: A type deriving from data item.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub Using(Of T As DataItem)(item As T, action As Action(Of T))
+  overload: BindOpen.Data.Helpers.Objects.ObjectHelper.Using*
+  nameWithType.vb: ObjectHelper.Using(Of T)(T, Action(Of T))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Helpers.Objects.ObjectHelper.Using(Of T)(T, System.Action(Of T))
+  name.vb: Using(Of T)(T, Action(Of T))
+- uid: BindOpen.Data.Helpers.Objects.ObjectHelper.GetPropertyInfo(System.Type,System.String,System.Type[],BindOpen.Data.Elements.DataElementAttribute@)
+  commentId: M:BindOpen.Data.Helpers.Objects.ObjectHelper.GetPropertyInfo(System.Type,System.String,System.Type[],BindOpen.Data.Elements.DataElementAttribute@)
+  id: GetPropertyInfo(System.Type,System.String,System.Type[],BindOpen.Data.Elements.DataElementAttribute@)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Helpers.Objects.ObjectHelper
+  langs:
+  - csharp
+  - vb
+  name: GetPropertyInfo(Type, String, Type[], out DataElementAttribute)
+  nameWithType: ObjectHelper.GetPropertyInfo(Type, String, Type[], out DataElementAttribute)
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.GetPropertyInfo(System.Type, System.String, System.Type[], out BindOpen.Data.Elements.DataElementAttribute)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Objects/ObjectHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GetPropertyInfo
+    path: ../src/BindOpen.Core/Data/Helpers/Objects/ObjectHelper.cs
+    startLine: 194
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Objects
+  summary: "\nGets information of the specified property.\n"
+  example: []
+  syntax:
+    content: public static PropertyInfo GetPropertyInfo(this Type objectType, string propertyName, Type[] attributeTypes, out DataElementAttribute attribute)
+    parameters:
+    - id: objectType
+      type: System.Type
+      description: The object type to consider.
+    - id: propertyName
+      type: System.String
+      description: The property name to consider.
+    - id: attributeTypes
+      type: System.Type[]
+      description: ''
+    - id: attribute
+      type: BindOpen.Data.Elements.DataElementAttribute
+      description: The attribute to return.
+    return:
+      type: System.Reflection.PropertyInfo
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetPropertyInfo(objectType As Type, propertyName As String, attributeTypes As Type(), ByRef attribute As DataElementAttribute) As PropertyInfo
+  overload: BindOpen.Data.Helpers.Objects.ObjectHelper.GetPropertyInfo*
+  nameWithType.vb: ObjectHelper.GetPropertyInfo(Type, String, Type(), ByRef DataElementAttribute)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Helpers.Objects.ObjectHelper.GetPropertyInfo(System.Type, System.String, System.Type(), ByRef BindOpen.Data.Elements.DataElementAttribute)
+  name.vb: GetPropertyInfo(Type, String, Type(), ByRef DataElementAttribute)
+- uid: BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromElementSet``1(System.Object,BindOpen.Data.Elements.IDataElementSet,BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet)
+  commentId: M:BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromElementSet``1(System.Object,BindOpen.Data.Elements.IDataElementSet,BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet)
+  id: UpdateFromElementSet``1(System.Object,BindOpen.Data.Elements.IDataElementSet,BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Helpers.Objects.ObjectHelper
+  langs:
+  - csharp
+  - vb
+  name: UpdateFromElementSet<T>(Object, IDataElementSet, IBdoScope, IBdoScriptVariableSet)
+  nameWithType: ObjectHelper.UpdateFromElementSet<T>(Object, IDataElementSet, IBdoScope, IBdoScriptVariableSet)
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromElementSet<T>(System.Object, BindOpen.Data.Elements.IDataElementSet, BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Objects/ObjectHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: UpdateFromElementSet
+    path: ../src/BindOpen.Core/Data/Helpers/Objects/ObjectHelper.cs
+    startLine: 229
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Objects
+  summary: "\nSets information of the specified property.\n"
+  example: []
+  syntax:
+    content: >-
+      public static IBdoLog UpdateFromElementSet<T>(this object aObject, IDataElementSet elementSet, IBdoScope scope = null, IBdoScriptVariableSet scriptVariableSet = null)
+          where T : DataElementAttribute
+    parameters:
+    - id: aObject
+      type: System.Object
+      description: The object to update.
+    - id: elementSet
+      type: BindOpen.Data.Elements.IDataElementSet
+      description: The set of elements to return.
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: The script variable set to use.
+    typeParameters:
+    - id: T
+    return:
+      type: BindOpen.System.Diagnostics.IBdoLog
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function UpdateFromElementSet(Of T As DataElementAttribute)(aObject As Object, elementSet As IDataElementSet, scope As IBdoScope = Nothing, scriptVariableSet As IBdoScriptVariableSet = Nothing) As IBdoLog
+  overload: BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromElementSet*
+  nameWithType.vb: ObjectHelper.UpdateFromElementSet(Of T)(Object, IDataElementSet, IBdoScope, IBdoScriptVariableSet)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromElementSet(Of T)(System.Object, BindOpen.Data.Elements.IDataElementSet, BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet)
+  name.vb: UpdateFromElementSet(Of T)(Object, IDataElementSet, IBdoScope, IBdoScriptVariableSet)
+- uid: BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromObject``1(BindOpen.Data.Elements.IDataElementSet,System.Object)
+  commentId: M:BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromObject``1(BindOpen.Data.Elements.IDataElementSet,System.Object)
+  id: UpdateFromObject``1(BindOpen.Data.Elements.IDataElementSet,System.Object)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Helpers.Objects.ObjectHelper
+  langs:
+  - csharp
+  - vb
+  name: UpdateFromObject<T>(IDataElementSet, Object)
+  nameWithType: ObjectHelper.UpdateFromObject<T>(IDataElementSet, Object)
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromObject<T>(BindOpen.Data.Elements.IDataElementSet, System.Object)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Helpers/Objects/ObjectHelper.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: UpdateFromObject
+    path: ../src/BindOpen.Core/Data/Helpers/Objects/ObjectHelper.cs
+    startLine: 299
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Helpers.Objects
+  summary: "\nGets the result of the serialization of the specified object.\n"
+  example: []
+  syntax:
+    content: >-
+      public static IBdoLog UpdateFromObject<T>(this IDataElementSet elementSet, object object1)
+          where T : DataElementAttribute
+    parameters:
+    - id: elementSet
+      type: BindOpen.Data.Elements.IDataElementSet
+      description: The element set to consider.
+    - id: object1
+      type: System.Object
+      description: The object to serialize.
+    typeParameters:
+    - id: T
+      description: The data element attribute to consider.
+    return:
+      type: BindOpen.System.Diagnostics.IBdoLog
+      description: The Xml string serializing the specified object.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function UpdateFromObject(Of T As DataElementAttribute)(elementSet As IDataElementSet, object1 As Object) As IBdoLog
+  overload: BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromObject*
+  nameWithType.vb: ObjectHelper.UpdateFromObject(Of T)(IDataElementSet, Object)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromObject(Of T)(BindOpen.Data.Elements.IDataElementSet, System.Object)
+  name.vb: UpdateFromObject(Of T)(IDataElementSet, Object)
+references:
+- uid: BindOpen.Data.Helpers.Objects
+  commentId: N:BindOpen.Data.Helpers.Objects
+  name: BindOpen.Data.Helpers.Objects
+  nameWithType: BindOpen.Data.Helpers.Objects
+  fullName: BindOpen.Data.Helpers.Objects
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Data.Helpers.Objects.ObjectHelper.ToKey*
+  commentId: Overload:BindOpen.Data.Helpers.Objects.ObjectHelper.ToKey
+  name: ToKey
+  nameWithType: ObjectHelper.ToKey
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.ToKey
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: BindOpen.Data.Helpers.Objects.ObjectHelper.KeyEquals*
+  commentId: Overload:BindOpen.Data.Helpers.Objects.ObjectHelper.KeyEquals
+  name: KeyEquals
+  nameWithType: ObjectHelper.KeyEquals
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.KeyEquals
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: BindOpen.Data.Helpers.Objects.ObjectHelper.ToNotNullString*
+  commentId: Overload:BindOpen.Data.Helpers.Objects.ObjectHelper.ToNotNullString
+  name: ToNotNullString
+  nameWithType: ObjectHelper.ToNotNullString
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.ToNotNullString
+- uid: BindOpen.Data.Helpers.Objects.ObjectHelper.ToString*
+  commentId: Overload:BindOpen.Data.Helpers.Objects.ObjectHelper.ToString
+  name: ToString
+  nameWithType: ObjectHelper.ToString
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.ToString
+- uid: BindOpen.Data.Common.DataValueType
+  commentId: T:BindOpen.Data.Common.DataValueType
+  parent: BindOpen.Data.Common
+  name: DataValueType
+  nameWithType: DataValueType
+  fullName: BindOpen.Data.Common.DataValueType
+- uid: BindOpen.Data.Common
+  commentId: N:BindOpen.Data.Common
+  name: BindOpen.Data.Common
+  nameWithType: BindOpen.Data.Common
+  fullName: BindOpen.Data.Common
+- uid: BindOpen.Data.Helpers.Objects.ObjectHelper.GetStringAtIndex*
+  commentId: Overload:BindOpen.Data.Helpers.Objects.ObjectHelper.GetStringAtIndex
+  name: GetStringAtIndex
+  nameWithType: ObjectHelper.GetStringAtIndex
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.GetStringAtIndex
+- uid: System.Object[]
+  isExternal: true
+  name: Object[]
+  nameWithType: Object[]
+  fullName: System.Object[]
+  nameWithType.vb: Object()
+  fullName.vb: System.Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: BindOpen.Data.Helpers.Objects.ObjectHelper.GetObjectAtIndex*
+  commentId: Overload:BindOpen.Data.Helpers.Objects.ObjectHelper.GetObjectAtIndex
+  name: GetObjectAtIndex
+  nameWithType: ObjectHelper.GetObjectAtIndex
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.GetObjectAtIndex
+- uid: BindOpen.Data.Helpers.Objects.ObjectHelper.Update*
+  commentId: Overload:BindOpen.Data.Helpers.Objects.ObjectHelper.Update
+  name: Update
+  nameWithType: ObjectHelper.Update
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.Update
+- uid: System.Collections.Generic.List{System.Object}
+  commentId: T:System.Collections.Generic.List{System.Object}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<Object>
+  nameWithType: List<Object>
+  fullName: System.Collections.Generic.List<System.Object>
+  nameWithType.vb: List(Of Object)
+  fullName.vb: System.Collections.Generic.List(Of System.Object)
+  name.vb: List(Of Object)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: BindOpen.Data.Helpers.Objects.ObjectHelper.Using*
+  commentId: Overload:BindOpen.Data.Helpers.Objects.ObjectHelper.Using
+  name: Using
+  nameWithType: ObjectHelper.Using
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.Using
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Action{{T}}
+  commentId: T:System.Action{``0}
+  parent: System
+  definition: System.Action`1
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Helpers.Objects.ObjectHelper.GetPropertyInfo*
+  commentId: Overload:BindOpen.Data.Helpers.Objects.ObjectHelper.GetPropertyInfo
+  name: GetPropertyInfo
+  nameWithType: ObjectHelper.GetPropertyInfo
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.GetPropertyInfo
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.Type[]
+  isExternal: true
+  name: Type[]
+  nameWithType: Type[]
+  fullName: System.Type[]
+  nameWithType.vb: Type()
+  fullName.vb: System.Type()
+  name.vb: Type()
+  spec.csharp:
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Type
+    name: Type
+    nameWithType: Type
+    fullName: System.Type
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: BindOpen.Data.Elements.DataElementAttribute
+  commentId: T:BindOpen.Data.Elements.DataElementAttribute
+  parent: BindOpen.Data.Elements
+  name: DataElementAttribute
+  nameWithType: DataElementAttribute
+  fullName: BindOpen.Data.Elements.DataElementAttribute
+- uid: System.Reflection.PropertyInfo
+  commentId: T:System.Reflection.PropertyInfo
+  parent: System.Reflection
+  isExternal: true
+  name: PropertyInfo
+  nameWithType: PropertyInfo
+  fullName: System.Reflection.PropertyInfo
+- uid: BindOpen.Data.Elements
+  commentId: N:BindOpen.Data.Elements
+  name: BindOpen.Data.Elements
+  nameWithType: BindOpen.Data.Elements
+  fullName: BindOpen.Data.Elements
+- uid: System.Reflection
+  commentId: N:System.Reflection
+  isExternal: true
+  name: System.Reflection
+  nameWithType: System.Reflection
+  fullName: System.Reflection
+- uid: BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromElementSet*
+  commentId: Overload:BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromElementSet
+  name: UpdateFromElementSet
+  nameWithType: ObjectHelper.UpdateFromElementSet
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromElementSet
+- uid: BindOpen.Data.Elements.IDataElementSet
+  commentId: T:BindOpen.Data.Elements.IDataElementSet
+  parent: BindOpen.Data.Elements
+  name: IDataElementSet
+  nameWithType: IDataElementSet
+  fullName: BindOpen.Data.Elements.IDataElementSet
+- uid: BindOpen.Application.Scopes.IBdoScope
+  commentId: T:BindOpen.Application.Scopes.IBdoScope
+  parent: BindOpen.Application.Scopes
+  name: IBdoScope
+  nameWithType: IBdoScope
+  fullName: BindOpen.Application.Scopes.IBdoScope
+- uid: BindOpen.System.Scripting.IBdoScriptVariableSet
+  commentId: T:BindOpen.System.Scripting.IBdoScriptVariableSet
+  parent: BindOpen.System.Scripting
+  name: IBdoScriptVariableSet
+  nameWithType: IBdoScriptVariableSet
+  fullName: BindOpen.System.Scripting.IBdoScriptVariableSet
+- uid: BindOpen.System.Diagnostics.IBdoLog
+  commentId: T:BindOpen.System.Diagnostics.IBdoLog
+  parent: BindOpen.System.Diagnostics
+  name: IBdoLog
+  nameWithType: IBdoLog
+  fullName: BindOpen.System.Diagnostics.IBdoLog
+- uid: BindOpen.Application.Scopes
+  commentId: N:BindOpen.Application.Scopes
+  name: BindOpen.Application.Scopes
+  nameWithType: BindOpen.Application.Scopes
+  fullName: BindOpen.Application.Scopes
+- uid: BindOpen.System.Scripting
+  commentId: N:BindOpen.System.Scripting
+  name: BindOpen.System.Scripting
+  nameWithType: BindOpen.System.Scripting
+  fullName: BindOpen.System.Scripting
+- uid: BindOpen.System.Diagnostics
+  commentId: N:BindOpen.System.Diagnostics
+  name: BindOpen.System.Diagnostics
+  nameWithType: BindOpen.System.Diagnostics
+  fullName: BindOpen.System.Diagnostics
+- uid: BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromObject*
+  commentId: Overload:BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromObject
+  name: UpdateFromObject
+  nameWithType: ObjectHelper.UpdateFromObject
+  fullName: BindOpen.Data.Helpers.Objects.ObjectHelper.UpdateFromObject
+shouldSkipMarkup: true

@@ -1,0 +1,816 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Application.Scopes.BdoDefaultHostPaths
+  commentId: T:BindOpen.Application.Scopes.BdoDefaultHostPaths
+  id: BdoDefaultHostPaths
+  parent: BindOpen.Application.Scopes
+  children:
+  - BindOpen.Application.Scopes.BdoDefaultHostPaths.__DefaultAppConfigFileName
+  - BindOpen.Application.Scopes.BdoDefaultHostPaths.__DefaultAppConfigFolderPath
+  - BindOpen.Application.Scopes.BdoDefaultHostPaths.__DefaultHostConfigFileName
+  - BindOpen.Application.Scopes.BdoDefaultHostPaths.__DefaultLibraryFolderPath
+  - BindOpen.Application.Scopes.BdoDefaultHostPaths.__DefaultLogsFileName
+  - BindOpen.Application.Scopes.BdoDefaultHostPaths.__DefaultLogsFolderPath
+  - BindOpen.Application.Scopes.BdoDefaultHostPaths.__DefaultPackagesFolderPath
+  - BindOpen.Application.Scopes.BdoDefaultHostPaths.__DefaultPrimaryLogsFileNamePreffix
+  - BindOpen.Application.Scopes.BdoDefaultHostPaths.__DefaultProjectsFolderPath
+  - BindOpen.Application.Scopes.BdoDefaultHostPaths.__DefaultRootFolderPath
+  - BindOpen.Application.Scopes.BdoDefaultHostPaths.__DefaultRuntimeFolderPath
+  - BindOpen.Application.Scopes.BdoDefaultHostPaths._AUTHENTICATIONTIMEOUT
+  langs:
+  - csharp
+  - vb
+  name: BdoDefaultHostPaths
+  nameWithType: BdoDefaultHostPaths
+  fullName: BindOpen.Application.Scopes.BdoDefaultHostPaths
+  type: Class
+  source:
+    remote:
+      path: src/BindOpen.Runtime/Application/Scopes/Hosts/Paths/BdoDefaultHostPaths.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: BdoDefaultHostPaths
+    path: ../src/BindOpen.Runtime/Application/Scopes/Hosts/Paths/BdoDefaultHostPaths.cs
+    startLine: 9
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nThis static class contains the default option values.\n"
+  example: []
+  syntax:
+    content: public static class BdoDefaultHostPaths
+    content.vb: Public Module BdoDefaultHostPaths
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: BindOpen.Application.Scopes.BdoDefaultHostPaths.__DefaultRootFolderPath
+  commentId: F:BindOpen.Application.Scopes.BdoDefaultHostPaths.__DefaultRootFolderPath
+  id: __DefaultRootFolderPath
+  parent: BindOpen.Application.Scopes.BdoDefaultHostPaths
+  langs:
+  - csharp
+  - vb
+  name: __DefaultRootFolderPath
+  nameWithType: BdoDefaultHostPaths.__DefaultRootFolderPath
+  fullName: BindOpen.Application.Scopes.BdoDefaultHostPaths.__DefaultRootFolderPath
+  type: Field
+  source:
+    remote:
+      path: src/BindOpen.Runtime/Application/Scopes/Hosts/Paths/BdoDefaultHostPaths.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: __DefaultRootFolderPath
+    path: ../src/BindOpen.Runtime/Application/Scopes/Hosts/Paths/BdoDefaultHostPaths.cs
+    startLine: 20
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nThe default root folder\n"
+  example: []
+  syntax:
+    content: public static readonly string __DefaultRootFolderPath
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly __DefaultRootFolderPath As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: BindOpen.Application.Scopes.BdoDefaultHostPaths.__DefaultHostConfigFileName
+  commentId: F:BindOpen.Application.Scopes.BdoDefaultHostPaths.__DefaultHostConfigFileName
+  id: __DefaultHostConfigFileName
+  parent: BindOpen.Application.Scopes.BdoDefaultHostPaths
+  langs:
+  - csharp
+  - vb
+  name: __DefaultHostConfigFileName
+  nameWithType: BdoDefaultHostPaths.__DefaultHostConfigFileName
+  fullName: BindOpen.Application.Scopes.BdoDefaultHostPaths.__DefaultHostConfigFileName
+  type: Field
+  source:
+    remote:
+      path: src/BindOpen.Runtime/Application/Scopes/Hosts/Paths/BdoDefaultHostPaths.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: __DefaultHostConfigFileName
+    path: ../src/BindOpen.Runtime/Application/Scopes/Hosts/Paths/BdoDefaultHostPaths.cs
+    startLine: 25
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nThe default host settings file name\n"
+  example: []
+  syntax:
+    content: public static readonly string __DefaultHostConfigFileName
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly __DefaultHostConfigFileName As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: BindOpen.Application.Scopes.BdoDefaultHostPaths.__DefaultAppConfigFileName
+  commentId: F:BindOpen.Application.Scopes.BdoDefaultHostPaths.__DefaultAppConfigFileName
+  id: __DefaultAppConfigFileName
+  parent: BindOpen.Application.Scopes.BdoDefaultHostPaths
+  langs:
+  - csharp
+  - vb
+  name: __DefaultAppConfigFileName
+  nameWithType: BdoDefaultHostPaths.__DefaultAppConfigFileName
+  fullName: BindOpen.Application.Scopes.BdoDefaultHostPaths.__DefaultAppConfigFileName
+  type: Field
+  source:
+    remote:
+      path: src/BindOpen.Runtime/Application/Scopes/Hosts/Paths/BdoDefaultHostPaths.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: __DefaultAppConfigFileName
+    path: ../src/BindOpen.Runtime/Application/Scopes/Hosts/Paths/BdoDefaultHostPaths.cs
+    startLine: 30
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nThe default application configuration file name\n"
+  example: []
+  syntax:
+    content: public static readonly string __DefaultAppConfigFileName
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly __DefaultAppConfigFileName As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: BindOpen.Application.Scopes.BdoDefaultHostPaths.__DefaultRuntimeFolderPath
+  commentId: F:BindOpen.Application.Scopes.BdoDefaultHostPaths.__DefaultRuntimeFolderPath
+  id: __DefaultRuntimeFolderPath
+  parent: BindOpen.Application.Scopes.BdoDefaultHostPaths
+  langs:
+  - csharp
+  - vb
+  name: __DefaultRuntimeFolderPath
+  nameWithType: BdoDefaultHostPaths.__DefaultRuntimeFolderPath
+  fullName: BindOpen.Application.Scopes.BdoDefaultHostPaths.__DefaultRuntimeFolderPath
+  type: Field
+  source:
+    remote:
+      path: src/BindOpen.Runtime/Application/Scopes/Hosts/Paths/BdoDefaultHostPaths.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: __DefaultRuntimeFolderPath
+    path: ../src/BindOpen.Runtime/Application/Scopes/Hosts/Paths/BdoDefaultHostPaths.cs
+    startLine: 35
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nThe default runtime folder path.\n"
+  example: []
+  syntax:
+    content: public static readonly string __DefaultRuntimeFolderPath
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly __DefaultRuntimeFolderPath As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: BindOpen.Application.Scopes.BdoDefaultHostPaths.__DefaultAppConfigFolderPath
+  commentId: F:BindOpen.Application.Scopes.BdoDefaultHostPaths.__DefaultAppConfigFolderPath
+  id: __DefaultAppConfigFolderPath
+  parent: BindOpen.Application.Scopes.BdoDefaultHostPaths
+  langs:
+  - csharp
+  - vb
+  name: __DefaultAppConfigFolderPath
+  nameWithType: BdoDefaultHostPaths.__DefaultAppConfigFolderPath
+  fullName: BindOpen.Application.Scopes.BdoDefaultHostPaths.__DefaultAppConfigFolderPath
+  type: Field
+  source:
+    remote:
+      path: src/BindOpen.Runtime/Application/Scopes/Hosts/Paths/BdoDefaultHostPaths.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: __DefaultAppConfigFolderPath
+    path: ../src/BindOpen.Runtime/Application/Scopes/Hosts/Paths/BdoDefaultHostPaths.cs
+    startLine: 40
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nThe default settings folder path.\n"
+  example: []
+  syntax:
+    content: public static readonly string __DefaultAppConfigFolderPath
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly __DefaultAppConfigFolderPath As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: BindOpen.Application.Scopes.BdoDefaultHostPaths.__DefaultLogsFolderPath
+  commentId: F:BindOpen.Application.Scopes.BdoDefaultHostPaths.__DefaultLogsFolderPath
+  id: __DefaultLogsFolderPath
+  parent: BindOpen.Application.Scopes.BdoDefaultHostPaths
+  langs:
+  - csharp
+  - vb
+  name: __DefaultLogsFolderPath
+  nameWithType: BdoDefaultHostPaths.__DefaultLogsFolderPath
+  fullName: BindOpen.Application.Scopes.BdoDefaultHostPaths.__DefaultLogsFolderPath
+  type: Field
+  source:
+    remote:
+      path: src/BindOpen.Runtime/Application/Scopes/Hosts/Paths/BdoDefaultHostPaths.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: __DefaultLogsFolderPath
+    path: ../src/BindOpen.Runtime/Application/Scopes/Hosts/Paths/BdoDefaultHostPaths.cs
+    startLine: 45
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nThe default logs folder path.\n"
+  example: []
+  syntax:
+    content: public static readonly string __DefaultLogsFolderPath
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly __DefaultLogsFolderPath As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: BindOpen.Application.Scopes.BdoDefaultHostPaths.__DefaultLibraryFolderPath
+  commentId: F:BindOpen.Application.Scopes.BdoDefaultHostPaths.__DefaultLibraryFolderPath
+  id: __DefaultLibraryFolderPath
+  parent: BindOpen.Application.Scopes.BdoDefaultHostPaths
+  langs:
+  - csharp
+  - vb
+  name: __DefaultLibraryFolderPath
+  nameWithType: BdoDefaultHostPaths.__DefaultLibraryFolderPath
+  fullName: BindOpen.Application.Scopes.BdoDefaultHostPaths.__DefaultLibraryFolderPath
+  type: Field
+  source:
+    remote:
+      path: src/BindOpen.Runtime/Application/Scopes/Hosts/Paths/BdoDefaultHostPaths.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: __DefaultLibraryFolderPath
+    path: ../src/BindOpen.Runtime/Application/Scopes/Hosts/Paths/BdoDefaultHostPaths.cs
+    startLine: 50
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nThe default library folder path.\n"
+  example: []
+  syntax:
+    content: public static readonly string __DefaultLibraryFolderPath
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly __DefaultLibraryFolderPath As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: BindOpen.Application.Scopes.BdoDefaultHostPaths.__DefaultPackagesFolderPath
+  commentId: F:BindOpen.Application.Scopes.BdoDefaultHostPaths.__DefaultPackagesFolderPath
+  id: __DefaultPackagesFolderPath
+  parent: BindOpen.Application.Scopes.BdoDefaultHostPaths
+  langs:
+  - csharp
+  - vb
+  name: __DefaultPackagesFolderPath
+  nameWithType: BdoDefaultHostPaths.__DefaultPackagesFolderPath
+  fullName: BindOpen.Application.Scopes.BdoDefaultHostPaths.__DefaultPackagesFolderPath
+  type: Field
+  source:
+    remote:
+      path: src/BindOpen.Runtime/Application/Scopes/Hosts/Paths/BdoDefaultHostPaths.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: __DefaultPackagesFolderPath
+    path: ../src/BindOpen.Runtime/Application/Scopes/Hosts/Paths/BdoDefaultHostPaths.cs
+    startLine: 55
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nThe default packages folder path.\n"
+  example: []
+  syntax:
+    content: public static readonly string __DefaultPackagesFolderPath
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly __DefaultPackagesFolderPath As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: BindOpen.Application.Scopes.BdoDefaultHostPaths.__DefaultProjectsFolderPath
+  commentId: F:BindOpen.Application.Scopes.BdoDefaultHostPaths.__DefaultProjectsFolderPath
+  id: __DefaultProjectsFolderPath
+  parent: BindOpen.Application.Scopes.BdoDefaultHostPaths
+  langs:
+  - csharp
+  - vb
+  name: __DefaultProjectsFolderPath
+  nameWithType: BdoDefaultHostPaths.__DefaultProjectsFolderPath
+  fullName: BindOpen.Application.Scopes.BdoDefaultHostPaths.__DefaultProjectsFolderPath
+  type: Field
+  source:
+    remote:
+      path: src/BindOpen.Runtime/Application/Scopes/Hosts/Paths/BdoDefaultHostPaths.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: __DefaultProjectsFolderPath
+    path: ../src/BindOpen.Runtime/Application/Scopes/Hosts/Paths/BdoDefaultHostPaths.cs
+    startLine: 60
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nThe default projects folder path.\n"
+  example: []
+  syntax:
+    content: public static readonly string __DefaultProjectsFolderPath
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly __DefaultProjectsFolderPath As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: BindOpen.Application.Scopes.BdoDefaultHostPaths.__DefaultLogsFileName
+  commentId: F:BindOpen.Application.Scopes.BdoDefaultHostPaths.__DefaultLogsFileName
+  id: __DefaultLogsFileName
+  parent: BindOpen.Application.Scopes.BdoDefaultHostPaths
+  langs:
+  - csharp
+  - vb
+  name: __DefaultLogsFileName
+  nameWithType: BdoDefaultHostPaths.__DefaultLogsFileName
+  fullName: BindOpen.Application.Scopes.BdoDefaultHostPaths.__DefaultLogsFileName
+  type: Field
+  source:
+    remote:
+      path: src/BindOpen.Runtime/Application/Scopes/Hosts/Paths/BdoDefaultHostPaths.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: __DefaultLogsFileName
+    path: ../src/BindOpen.Runtime/Application/Scopes/Hosts/Paths/BdoDefaultHostPaths.cs
+    startLine: 65
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nThe default log file name.\n"
+  example: []
+  syntax:
+    content: public static readonly string __DefaultLogsFileName
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly __DefaultLogsFileName As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: BindOpen.Application.Scopes.BdoDefaultHostPaths.__DefaultPrimaryLogsFileNamePreffix
+  commentId: F:BindOpen.Application.Scopes.BdoDefaultHostPaths.__DefaultPrimaryLogsFileNamePreffix
+  id: __DefaultPrimaryLogsFileNamePreffix
+  parent: BindOpen.Application.Scopes.BdoDefaultHostPaths
+  langs:
+  - csharp
+  - vb
+  name: __DefaultPrimaryLogsFileNamePreffix
+  nameWithType: BdoDefaultHostPaths.__DefaultPrimaryLogsFileNamePreffix
+  fullName: BindOpen.Application.Scopes.BdoDefaultHostPaths.__DefaultPrimaryLogsFileNamePreffix
+  type: Field
+  source:
+    remote:
+      path: src/BindOpen.Runtime/Application/Scopes/Hosts/Paths/BdoDefaultHostPaths.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: __DefaultPrimaryLogsFileNamePreffix
+    path: ../src/BindOpen.Runtime/Application/Scopes/Hosts/Paths/BdoDefaultHostPaths.cs
+    startLine: 70
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nThe preffix of the default primary logs file name.\n"
+  example: []
+  syntax:
+    content: public static readonly string __DefaultPrimaryLogsFileNamePreffix
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly __DefaultPrimaryLogsFileNamePreffix As String
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: BindOpen.Application.Scopes.BdoDefaultHostPaths._AUTHENTICATIONTIMEOUT
+  commentId: F:BindOpen.Application.Scopes.BdoDefaultHostPaths._AUTHENTICATIONTIMEOUT
+  id: _AUTHENTICATIONTIMEOUT
+  parent: BindOpen.Application.Scopes.BdoDefaultHostPaths
+  langs:
+  - csharp
+  - vb
+  name: _AUTHENTICATIONTIMEOUT
+  nameWithType: BdoDefaultHostPaths._AUTHENTICATIONTIMEOUT
+  fullName: BindOpen.Application.Scopes.BdoDefaultHostPaths._AUTHENTICATIONTIMEOUT
+  type: Field
+  source:
+    remote:
+      path: src/BindOpen.Runtime/Application/Scopes/Hosts/Paths/BdoDefaultHostPaths.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: _AUTHENTICATIONTIMEOUT
+    path: ../src/BindOpen.Runtime/Application/Scopes/Hosts/Paths/BdoDefaultHostPaths.cs
+    startLine: 75
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nMaximum number of minutes : authentication \n"
+  example: []
+  syntax:
+    content: public static readonly int _AUTHENTICATIONTIMEOUT
+    return:
+      type: System.Int32
+    content.vb: Public Shared ReadOnly _AUTHENTICATIONTIMEOUT As Integer
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: BindOpen.Application.Scopes
+  commentId: N:BindOpen.Application.Scopes
+  name: BindOpen.Application.Scopes
+  nameWithType: BindOpen.Application.Scopes
+  fullName: BindOpen.Application.Scopes
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+shouldSkipMarkup: true

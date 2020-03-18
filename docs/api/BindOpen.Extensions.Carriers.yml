@@ -1,0 +1,62 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Extensions.Carriers
+  commentId: N:BindOpen.Extensions.Carriers
+  id: BindOpen.Extensions.Carriers
+  children:
+  - BindOpen.Extensions.Carriers.BdoDbCarrierKind
+  - BindOpen.Extensions.Carriers.BdoDbFieldAttribute
+  - BindOpen.Extensions.Carriers.BdoDbTableAttribute
+  - BindOpen.Extensions.Carriers.DatabaseCarrierKindExtension
+  - BindOpen.Extensions.Carriers.DbField
+  - BindOpen.Extensions.Carriers.DbTable
+  langs:
+  - csharp
+  - vb
+  name: BindOpen.Extensions.Carriers
+  nameWithType: BindOpen.Extensions.Carriers
+  fullName: BindOpen.Extensions.Carriers
+  type: Namespace
+  assemblies:
+  - BindOpen.Databases
+references:
+- uid: BindOpen.Extensions.Carriers.BdoDbFieldAttribute
+  commentId: T:BindOpen.Extensions.Carriers.BdoDbFieldAttribute
+  name: BdoDbFieldAttribute
+  nameWithType: BdoDbFieldAttribute
+  fullName: BindOpen.Extensions.Carriers.BdoDbFieldAttribute
+- uid: BindOpen.Extensions.Carriers.BdoDbTableAttribute
+  commentId: T:BindOpen.Extensions.Carriers.BdoDbTableAttribute
+  name: BdoDbTableAttribute
+  nameWithType: BdoDbTableAttribute
+  fullName: BindOpen.Extensions.Carriers.BdoDbTableAttribute
+- uid: BindOpen.Extensions.Carriers.BdoDbCarrierKind
+  commentId: T:BindOpen.Extensions.Carriers.BdoDbCarrierKind
+  parent: BindOpen.Extensions.Carriers
+  name: BdoDbCarrierKind
+  nameWithType: BdoDbCarrierKind
+  fullName: BindOpen.Extensions.Carriers.BdoDbCarrierKind
+- uid: BindOpen.Extensions.Carriers.DatabaseCarrierKindExtension
+  commentId: T:BindOpen.Extensions.Carriers.DatabaseCarrierKindExtension
+  parent: BindOpen.Extensions.Carriers
+  name: DatabaseCarrierKindExtension
+  nameWithType: DatabaseCarrierKindExtension
+  fullName: BindOpen.Extensions.Carriers.DatabaseCarrierKindExtension
+- uid: BindOpen.Extensions.Carriers.DbField
+  commentId: T:BindOpen.Extensions.Carriers.DbField
+  parent: BindOpen.Extensions.Carriers
+  name: DbField
+  nameWithType: DbField
+  fullName: BindOpen.Extensions.Carriers.DbField
+- uid: BindOpen.Extensions.Carriers.DbTable
+  commentId: T:BindOpen.Extensions.Carriers.DbTable
+  parent: BindOpen.Extensions.Carriers
+  name: DbTable
+  nameWithType: DbTable
+  fullName: BindOpen.Extensions.Carriers.DbTable
+- uid: BindOpen.Extensions.Carriers
+  commentId: N:BindOpen.Extensions.Carriers
+  name: BindOpen.Extensions.Carriers
+  nameWithType: BindOpen.Extensions.Carriers
+  fullName: BindOpen.Extensions.Carriers
+shouldSkipMarkup: true

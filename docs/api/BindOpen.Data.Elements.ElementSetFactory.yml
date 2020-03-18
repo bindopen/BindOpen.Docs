@@ -1,0 +1,1010 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Data.Elements.ElementSetFactory
+  commentId: T:BindOpen.Data.Elements.ElementSetFactory
+  id: ElementSetFactory
+  parent: BindOpen.Data.Elements
+  children:
+  - BindOpen.Data.Elements.ElementSetFactory.Create(BindOpen.Data.Elements.DataElement[])
+  - BindOpen.Data.Elements.ElementSetFactory.Create(System.Object[])
+  - BindOpen.Data.Elements.ElementSetFactory.Create(System.ValueTuple{System.String,BindOpen.Data.Common.DataValueType,System.Object}[])
+  - BindOpen.Data.Elements.ElementSetFactory.Create(System.ValueTuple{System.String,System.Object}[])
+  - BindOpen.Data.Elements.ElementSetFactory.CreateElementArray(System.Object)
+  - BindOpen.Data.Elements.ElementSetFactory.CreateFromObject(System.Object)
+  - BindOpen.Data.Elements.ElementSetFactory.CreateFromObject``1(System.Object)
+  - BindOpen.Data.Elements.ElementSetFactory.CreateFromString(System.String)
+  - BindOpen.Data.Elements.ElementSetFactory.CreateSetFromAttributes``1(System.Object)
+  langs:
+  - csharp
+  - vb
+  name: ElementSetFactory
+  nameWithType: ElementSetFactory
+  fullName: BindOpen.Data.Elements.ElementSetFactory
+  type: Class
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Elements/Factories/ElementSetFactory.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: ElementSetFactory
+    path: ../src/BindOpen.Core/Data/Elements/Factories/ElementSetFactory.cs
+    startLine: 10
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Elements
+  summary: "\nThis static class provides methods to create data element set.\n"
+  example: []
+  syntax:
+    content: public static class ElementSetFactory
+    content.vb: Public Module ElementSetFactory
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: BindOpen.Data.Elements.ElementSetFactory.Create(BindOpen.Data.Elements.DataElement[])
+  commentId: M:BindOpen.Data.Elements.ElementSetFactory.Create(BindOpen.Data.Elements.DataElement[])
+  id: Create(BindOpen.Data.Elements.DataElement[])
+  parent: BindOpen.Data.Elements.ElementSetFactory
+  langs:
+  - csharp
+  - vb
+  name: Create(DataElement[])
+  nameWithType: ElementSetFactory.Create(DataElement[])
+  fullName: BindOpen.Data.Elements.ElementSetFactory.Create(BindOpen.Data.Elements.DataElement[])
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Elements/Factories/ElementSetFactory.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Create
+    path: ../src/BindOpen.Core/Data/Elements/Factories/ElementSetFactory.cs
+    startLine: 17
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Elements
+  summary: "\nDefines the parameters of this instance.\n"
+  example: []
+  syntax:
+    content: public static DataElementSet Create(params DataElement[] parameters)
+    parameters:
+    - id: parameters
+      type: BindOpen.Data.Elements.DataElement[]
+      description: The parameters to consider.
+    return:
+      type: BindOpen.Data.Elements.DataElementSet
+      description: Return this instance.
+    content.vb: Public Shared Function Create(ParamArray parameters As DataElement()) As DataElementSet
+  overload: BindOpen.Data.Elements.ElementSetFactory.Create*
+  nameWithType.vb: ElementSetFactory.Create(DataElement())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Elements.ElementSetFactory.Create(BindOpen.Data.Elements.DataElement())
+  name.vb: Create(DataElement())
+- uid: BindOpen.Data.Elements.ElementSetFactory.Create(System.ValueTuple{System.String,System.Object}[])
+  commentId: M:BindOpen.Data.Elements.ElementSetFactory.Create(System.ValueTuple{System.String,System.Object}[])
+  id: Create(System.ValueTuple{System.String,System.Object}[])
+  parent: BindOpen.Data.Elements.ElementSetFactory
+  langs:
+  - csharp
+  - vb
+  name: Create((String name, Object value)[])
+  nameWithType: ElementSetFactory.Create((String name, Object value)[])
+  fullName: BindOpen.Data.Elements.ElementSetFactory.Create(System.ValueTuple<System.String, System.Object>[])
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Elements/Factories/ElementSetFactory.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Create
+    path: ../src/BindOpen.Core/Data/Elements/Factories/ElementSetFactory.cs
+    startLine: 27
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Elements
+  summary: "\nDefines the parameters of this instance.\n"
+  example: []
+  syntax:
+    content: public static DataElementSet Create(params (string name, object value)[] parameters)
+    parameters:
+    - id: parameters
+      type: System.ValueTuple{System.String,System.Object}[]
+      description: The parameters to consider.
+    return:
+      type: BindOpen.Data.Elements.DataElementSet
+      description: Return this instance.
+    content.vb: Public Shared Function Create(ParamArray parameters As(name As String, value As Object)()) As DataElementSet
+  overload: BindOpen.Data.Elements.ElementSetFactory.Create*
+  nameWithType.vb: ElementSetFactory.Create((name As String, value As Object)())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Elements.ElementSetFactory.Create(System.ValueTuple(Of System.String, System.Object)())
+  name.vb: Create((name As String, value As Object)())
+- uid: BindOpen.Data.Elements.ElementSetFactory.Create(System.ValueTuple{System.String,BindOpen.Data.Common.DataValueType,System.Object}[])
+  commentId: M:BindOpen.Data.Elements.ElementSetFactory.Create(System.ValueTuple{System.String,BindOpen.Data.Common.DataValueType,System.Object}[])
+  id: Create(System.ValueTuple{System.String,BindOpen.Data.Common.DataValueType,System.Object}[])
+  parent: BindOpen.Data.Elements.ElementSetFactory
+  langs:
+  - csharp
+  - vb
+  name: Create((String name, DataValueType valueType, Object value)[])
+  nameWithType: ElementSetFactory.Create((String name, DataValueType valueType, Object value)[])
+  fullName: BindOpen.Data.Elements.ElementSetFactory.Create(System.ValueTuple<System.String, BindOpen.Data.Common.DataValueType, System.Object>[])
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Elements/Factories/ElementSetFactory.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Create
+    path: ../src/BindOpen.Core/Data/Elements/Factories/ElementSetFactory.cs
+    startLine: 37
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Elements
+  summary: "\nDefines the parameters of this instance.\n"
+  example: []
+  syntax:
+    content: public static DataElementSet Create(params (string name, DataValueType valueType, object value)[] parameters)
+    parameters:
+    - id: parameters
+      type: System.ValueTuple{System.String,BindOpen.Data.Common.DataValueType,System.Object}[]
+      description: The parameters to consider.
+    return:
+      type: BindOpen.Data.Elements.DataElementSet
+      description: Return this instance.
+    content.vb: Public Shared Function Create(ParamArray parameters As(name As String, valueType As DataValueType, value As Object)()) As DataElementSet
+  overload: BindOpen.Data.Elements.ElementSetFactory.Create*
+  nameWithType.vb: ElementSetFactory.Create((name As String, valueType As DataValueType, value As Object)())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Elements.ElementSetFactory.Create(System.ValueTuple(Of System.String, BindOpen.Data.Common.DataValueType, System.Object)())
+  name.vb: Create((name As String, valueType As DataValueType, value As Object)())
+- uid: BindOpen.Data.Elements.ElementSetFactory.Create(System.Object[])
+  commentId: M:BindOpen.Data.Elements.ElementSetFactory.Create(System.Object[])
+  id: Create(System.Object[])
+  parent: BindOpen.Data.Elements.ElementSetFactory
+  langs:
+  - csharp
+  - vb
+  name: Create(Object[])
+  nameWithType: ElementSetFactory.Create(Object[])
+  fullName: BindOpen.Data.Elements.ElementSetFactory.Create(System.Object[])
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Elements/Factories/ElementSetFactory.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Create
+    path: ../src/BindOpen.Core/Data/Elements/Factories/ElementSetFactory.cs
+    startLine: 47
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Elements
+  summary: "\nDefines the parameters of this instance.\n"
+  example: []
+  syntax:
+    content: public static DataElementSet Create(params object[] parameterValues)
+    parameters:
+    - id: parameterValues
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: BindOpen.Data.Elements.DataElementSet
+      description: Return this instance.
+    content.vb: Public Shared Function Create(ParamArray parameterValues As Object()) As DataElementSet
+  overload: BindOpen.Data.Elements.ElementSetFactory.Create*
+  nameWithType.vb: ElementSetFactory.Create(Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Elements.ElementSetFactory.Create(System.Object())
+  name.vb: Create(Object())
+- uid: BindOpen.Data.Elements.ElementSetFactory.CreateFromString(System.String)
+  commentId: M:BindOpen.Data.Elements.ElementSetFactory.CreateFromString(System.String)
+  id: CreateFromString(System.String)
+  parent: BindOpen.Data.Elements.ElementSetFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateFromString(String)
+  nameWithType: ElementSetFactory.CreateFromString(String)
+  fullName: BindOpen.Data.Elements.ElementSetFactory.CreateFromString(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Elements/Factories/ElementSetFactory.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: CreateFromString
+    path: ../src/BindOpen.Core/Data/Elements/Factories/ElementSetFactory.cs
+    startLine: 63
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Elements
+  summary: "\nCreates a new instance of the IDataElementSet class.\n"
+  example: []
+  syntax:
+    content: public static DataElementSet CreateFromString(string stringObject)
+    parameters:
+    - id: stringObject
+      type: System.String
+      description: The string to consider.
+    return:
+      type: BindOpen.Data.Elements.DataElementSet
+      description: The collection.
+    content.vb: Public Shared Function CreateFromString(stringObject As String) As DataElementSet
+  overload: BindOpen.Data.Elements.ElementSetFactory.CreateFromString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Elements.ElementSetFactory.CreateElementArray(System.Object)
+  commentId: M:BindOpen.Data.Elements.ElementSetFactory.CreateElementArray(System.Object)
+  id: CreateElementArray(System.Object)
+  parent: BindOpen.Data.Elements.ElementSetFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateElementArray(Object)
+  nameWithType: ElementSetFactory.CreateElementArray(Object)
+  fullName: BindOpen.Data.Elements.ElementSetFactory.CreateElementArray(System.Object)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Elements/Factories/ElementSetFactory.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: CreateElementArray
+    path: ../src/BindOpen.Core/Data/Elements/Factories/ElementSetFactory.cs
+    startLine: 88
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Elements
+  summary: "\nCreates a data element array from a dynamic object.\n"
+  example: []
+  syntax:
+    content: public static IDataElement[] CreateElementArray(object aObject)
+    parameters:
+    - id: aObject
+      type: System.Object
+      description: The objet to consider.
+    return:
+      type: BindOpen.Data.Elements.IDataElement[]
+    content.vb: Public Shared Function CreateElementArray(aObject As Object) As IDataElement()
+  overload: BindOpen.Data.Elements.ElementSetFactory.CreateElementArray*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Elements.ElementSetFactory.CreateFromObject(System.Object)
+  commentId: M:BindOpen.Data.Elements.ElementSetFactory.CreateFromObject(System.Object)
+  id: CreateFromObject(System.Object)
+  parent: BindOpen.Data.Elements.ElementSetFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateFromObject(Object)
+  nameWithType: ElementSetFactory.CreateFromObject(Object)
+  fullName: BindOpen.Data.Elements.ElementSetFactory.CreateFromObject(System.Object)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Elements/Factories/ElementSetFactory.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: CreateFromObject
+    path: ../src/BindOpen.Core/Data/Elements/Factories/ElementSetFactory.cs
+    startLine: 97
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Elements
+  summary: "\nCreates a data element set from a dynamic object.\n"
+  example: []
+  syntax:
+    content: public static DataElementSet CreateFromObject(object aObject)
+    parameters:
+    - id: aObject
+      type: System.Object
+      description: The objet to consider.
+    return:
+      type: BindOpen.Data.Elements.DataElementSet
+    content.vb: Public Shared Function CreateFromObject(aObject As Object) As DataElementSet
+  overload: BindOpen.Data.Elements.ElementSetFactory.CreateFromObject*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Elements.ElementSetFactory.CreateFromObject``1(System.Object)
+  commentId: M:BindOpen.Data.Elements.ElementSetFactory.CreateFromObject``1(System.Object)
+  id: CreateFromObject``1(System.Object)
+  parent: BindOpen.Data.Elements.ElementSetFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateFromObject<T>(Object)
+  nameWithType: ElementSetFactory.CreateFromObject<T>(Object)
+  fullName: BindOpen.Data.Elements.ElementSetFactory.CreateFromObject<T>(System.Object)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Elements/Factories/ElementSetFactory.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: CreateFromObject
+    path: ../src/BindOpen.Core/Data/Elements/Factories/ElementSetFactory.cs
+    startLine: 103
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Elements
+  summary: "\nCreates a data element set from a dynamic object.\n"
+  example: []
+  syntax:
+    content: >-
+      public static T CreateFromObject<T>(object aObject)
+          where T : DataElementSet, new()
+    parameters:
+    - id: aObject
+      type: System.Object
+      description: The objet to consider.
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function CreateFromObject(Of T As {DataElementSet, New})(aObject As Object) As T
+  overload: BindOpen.Data.Elements.ElementSetFactory.CreateFromObject*
+  nameWithType.vb: ElementSetFactory.CreateFromObject(Of T)(Object)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Elements.ElementSetFactory.CreateFromObject(Of T)(System.Object)
+  name.vb: CreateFromObject(Of T)(Object)
+- uid: BindOpen.Data.Elements.ElementSetFactory.CreateSetFromAttributes``1(System.Object)
+  commentId: M:BindOpen.Data.Elements.ElementSetFactory.CreateSetFromAttributes``1(System.Object)
+  id: CreateSetFromAttributes``1(System.Object)
+  parent: BindOpen.Data.Elements.ElementSetFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateSetFromAttributes<T>(Object)
+  nameWithType: ElementSetFactory.CreateSetFromAttributes<T>(Object)
+  fullName: BindOpen.Data.Elements.ElementSetFactory.CreateSetFromAttributes<T>(System.Object)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Elements/Factories/ElementSetFactory.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: CreateSetFromAttributes
+    path: ../src/BindOpen.Core/Data/Elements/Factories/ElementSetFactory.cs
+    startLine: 125
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Elements
+  summary: "\nCreates a data element set from a dynamic object.\n"
+  example: []
+  syntax:
+    content: >-
+      public static DataElementSet CreateSetFromAttributes<T>(object aObject)
+          where T : DataElementAttribute
+    parameters:
+    - id: aObject
+      type: System.Object
+      description: The objet to consider.
+    typeParameters:
+    - id: T
+    return:
+      type: BindOpen.Data.Elements.DataElementSet
+    content.vb: Public Shared Function CreateSetFromAttributes(Of T As DataElementAttribute)(aObject As Object) As DataElementSet
+  overload: BindOpen.Data.Elements.ElementSetFactory.CreateSetFromAttributes*
+  nameWithType.vb: ElementSetFactory.CreateSetFromAttributes(Of T)(Object)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Data.Elements.ElementSetFactory.CreateSetFromAttributes(Of T)(System.Object)
+  name.vb: CreateSetFromAttributes(Of T)(Object)
+references:
+- uid: BindOpen.Data.Elements
+  commentId: N:BindOpen.Data.Elements
+  name: BindOpen.Data.Elements
+  nameWithType: BindOpen.Data.Elements
+  fullName: BindOpen.Data.Elements
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Data.Elements.ElementSetFactory.Create*
+  commentId: Overload:BindOpen.Data.Elements.ElementSetFactory.Create
+  name: Create
+  nameWithType: ElementSetFactory.Create
+  fullName: BindOpen.Data.Elements.ElementSetFactory.Create
+- uid: BindOpen.Data.Elements.DataElement[]
+  isExternal: true
+  name: DataElement[]
+  nameWithType: DataElement[]
+  fullName: BindOpen.Data.Elements.DataElement[]
+  nameWithType.vb: DataElement()
+  fullName.vb: BindOpen.Data.Elements.DataElement()
+  name.vb: DataElement()
+  spec.csharp:
+  - uid: BindOpen.Data.Elements.DataElement
+    name: DataElement
+    nameWithType: DataElement
+    fullName: BindOpen.Data.Elements.DataElement
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: BindOpen.Data.Elements.DataElement
+    name: DataElement
+    nameWithType: DataElement
+    fullName: BindOpen.Data.Elements.DataElement
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: BindOpen.Data.Elements.DataElementSet
+  commentId: T:BindOpen.Data.Elements.DataElementSet
+  parent: BindOpen.Data.Elements
+  name: DataElementSet
+  nameWithType: DataElementSet
+  fullName: BindOpen.Data.Elements.DataElementSet
+- uid: System.ValueTuple{System.String,System.Object}[]
+  isExternal: true
+  name: ValueTuple<String, Object>[]
+  nameWithType: ValueTuple<String, Object>[]
+  fullName: System.ValueTuple<System.String, System.Object>[]
+  nameWithType.vb: ValueTuple(Of String, Object)()
+  fullName.vb: System.ValueTuple(Of System.String, System.Object)()
+  name.vb: ValueTuple(Of String, Object)()
+  spec.csharp:
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.ValueTuple{System.String,BindOpen.Data.Common.DataValueType,System.Object}[]
+  isExternal: true
+  name: ValueTuple<String, DataValueType, Object>[]
+  nameWithType: ValueTuple<String, DataValueType, Object>[]
+  fullName: System.ValueTuple<System.String, BindOpen.Data.Common.DataValueType, System.Object>[]
+  nameWithType.vb: ValueTuple(Of String, DataValueType, Object)()
+  fullName.vb: System.ValueTuple(Of System.String, BindOpen.Data.Common.DataValueType, System.Object)()
+  name.vb: ValueTuple(Of String, DataValueType, Object)()
+  spec.csharp:
+  - uid: System.ValueTuple`3
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.DataValueType
+    name: DataValueType
+    nameWithType: DataValueType
+    fullName: BindOpen.Data.Common.DataValueType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.ValueTuple`3
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.DataValueType
+    name: DataValueType
+    nameWithType: DataValueType
+    fullName: BindOpen.Data.Common.DataValueType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Object[]
+  isExternal: true
+  name: Object[]
+  nameWithType: Object[]
+  fullName: System.Object[]
+  nameWithType.vb: Object()
+  fullName.vb: System.Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: BindOpen.Data.Elements.ElementSetFactory.CreateFromString*
+  commentId: Overload:BindOpen.Data.Elements.ElementSetFactory.CreateFromString
+  name: CreateFromString
+  nameWithType: ElementSetFactory.CreateFromString
+  fullName: BindOpen.Data.Elements.ElementSetFactory.CreateFromString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: BindOpen.Data.Elements.ElementSetFactory.CreateElementArray*
+  commentId: Overload:BindOpen.Data.Elements.ElementSetFactory.CreateElementArray
+  name: CreateElementArray
+  nameWithType: ElementSetFactory.CreateElementArray
+  fullName: BindOpen.Data.Elements.ElementSetFactory.CreateElementArray
+- uid: BindOpen.Data.Elements.IDataElement[]
+  isExternal: true
+  name: IDataElement[]
+  nameWithType: IDataElement[]
+  fullName: BindOpen.Data.Elements.IDataElement[]
+  nameWithType.vb: IDataElement()
+  fullName.vb: BindOpen.Data.Elements.IDataElement()
+  name.vb: IDataElement()
+  spec.csharp:
+  - uid: BindOpen.Data.Elements.IDataElement
+    name: IDataElement
+    nameWithType: IDataElement
+    fullName: BindOpen.Data.Elements.IDataElement
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: BindOpen.Data.Elements.IDataElement
+    name: IDataElement
+    nameWithType: IDataElement
+    fullName: BindOpen.Data.Elements.IDataElement
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: BindOpen.Data.Elements.ElementSetFactory.CreateFromObject*
+  commentId: Overload:BindOpen.Data.Elements.ElementSetFactory.CreateFromObject
+  name: CreateFromObject
+  nameWithType: ElementSetFactory.CreateFromObject
+  fullName: BindOpen.Data.Elements.ElementSetFactory.CreateFromObject
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: BindOpen.Data.Elements.ElementSetFactory.CreateSetFromAttributes*
+  commentId: Overload:BindOpen.Data.Elements.ElementSetFactory.CreateSetFromAttributes
+  name: CreateSetFromAttributes
+  nameWithType: ElementSetFactory.CreateSetFromAttributes
+  fullName: BindOpen.Data.Elements.ElementSetFactory.CreateSetFromAttributes
+shouldSkipMarkup: true

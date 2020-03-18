@@ -1,0 +1,589 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Application.Scopes.BdoScopeExtension_ItemConfigurations
+  commentId: T:BindOpen.Application.Scopes.BdoScopeExtension_ItemConfigurations
+  id: BdoScopeExtension_ItemConfigurations
+  parent: BindOpen.Application.Scopes
+  children:
+  - BindOpen.Application.Scopes.BdoScopeExtension_ItemConfigurations.CreateConfiguration``1(BindOpen.Application.Scopes.IBdoScope,System.String,BindOpen.System.Diagnostics.IBdoLog)
+  - BindOpen.Application.Scopes.BdoScopeExtension_ItemConfigurations.LoadConfiguration``1(BindOpen.Application.Scopes.IBdoScope,System.String,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+  langs:
+  - csharp
+  - vb
+  name: BdoScopeExtension_ItemConfigurations
+  nameWithType: BdoScopeExtension_ItemConfigurations
+  fullName: BindOpen.Application.Scopes.BdoScopeExtension_ItemConfigurations
+  type: Class
+  source:
+    remote:
+      path: src/BindOpen.Core/Application/Scopes/BdoScopeExtension_ItemConfigurations.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: BdoScopeExtension_ItemConfigurations
+    path: ../src/BindOpen.Core/Application/Scopes/BdoScopeExtension_ItemConfigurations.cs
+    startLine: 11
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Application.Scopes
+  summary: "\nThis static class provides methods to create extension DTO item.\n"
+  example: []
+  syntax:
+    content: public static class BdoScopeExtension_ItemConfigurations
+    content.vb: Public Module BdoScopeExtension_ItemConfigurations
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: BindOpen.Application.Scopes.BdoScopeExtension_ItemConfigurations.CreateConfiguration``1(BindOpen.Application.Scopes.IBdoScope,System.String,BindOpen.System.Diagnostics.IBdoLog)
+  commentId: M:BindOpen.Application.Scopes.BdoScopeExtension_ItemConfigurations.CreateConfiguration``1(BindOpen.Application.Scopes.IBdoScope,System.String,BindOpen.System.Diagnostics.IBdoLog)
+  id: CreateConfiguration``1(BindOpen.Application.Scopes.IBdoScope,System.String,BindOpen.System.Diagnostics.IBdoLog)
+  isExtensionMethod: true
+  parent: BindOpen.Application.Scopes.BdoScopeExtension_ItemConfigurations
+  langs:
+  - csharp
+  - vb
+  name: CreateConfiguration<T>(IBdoScope, String, IBdoLog)
+  nameWithType: BdoScopeExtension_ItemConfigurations.CreateConfiguration<T>(IBdoScope, String, IBdoLog)
+  fullName: BindOpen.Application.Scopes.BdoScopeExtension_ItemConfigurations.CreateConfiguration<T>(BindOpen.Application.Scopes.IBdoScope, System.String, BindOpen.System.Diagnostics.IBdoLog)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Application/Scopes/BdoScopeExtension_ItemConfigurations.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: CreateConfiguration
+    path: ../src/BindOpen.Core/Application/Scopes/BdoScopeExtension_ItemConfigurations.cs
+    startLine: 19
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Application.Scopes
+  summary: "\nCreates the instance of the specified definition.\n"
+  example: []
+  syntax:
+    content: >-
+      public static ITBdoExtensionItemConfiguration<T> CreateConfiguration<T>(this IBdoScope scope, string definitionUniqueId, IBdoLog log = null)
+          where T : IBdoExtensionItemDefinition
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: definitionUniqueId
+      type: System.String
+      description: The unique ID of the definition to consider.
+    - id: log
+      type: BindOpen.System.Diagnostics.IBdoLog
+      description: The log to consider.
+    typeParameters:
+    - id: T
+    return:
+      type: BindOpen.Extensions.Runtime.ITBdoExtensionItemConfiguration{{T}}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CreateConfiguration(Of T As IBdoExtensionItemDefinition)(scope As IBdoScope, definitionUniqueId As String, log As IBdoLog = Nothing) As ITBdoExtensionItemConfiguration(Of T)
+  overload: BindOpen.Application.Scopes.BdoScopeExtension_ItemConfigurations.CreateConfiguration*
+  nameWithType.vb: BdoScopeExtension_ItemConfigurations.CreateConfiguration(Of T)(IBdoScope, String, IBdoLog)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Application.Scopes.BdoScopeExtension_ItemConfigurations.CreateConfiguration(Of T)(BindOpen.Application.Scopes.IBdoScope, System.String, BindOpen.System.Diagnostics.IBdoLog)
+  name.vb: CreateConfiguration(Of T)(IBdoScope, String, IBdoLog)
+- uid: BindOpen.Application.Scopes.BdoScopeExtension_ItemConfigurations.LoadConfiguration``1(BindOpen.Application.Scopes.IBdoScope,System.String,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+  commentId: M:BindOpen.Application.Scopes.BdoScopeExtension_ItemConfigurations.LoadConfiguration``1(BindOpen.Application.Scopes.IBdoScope,System.String,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+  id: LoadConfiguration``1(BindOpen.Application.Scopes.IBdoScope,System.String,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+  isExtensionMethod: true
+  parent: BindOpen.Application.Scopes.BdoScopeExtension_ItemConfigurations
+  langs:
+  - csharp
+  - vb
+  name: LoadConfiguration<T>(IBdoScope, String, IBdoScriptVariableSet, IBdoLog)
+  nameWithType: BdoScopeExtension_ItemConfigurations.LoadConfiguration<T>(IBdoScope, String, IBdoScriptVariableSet, IBdoLog)
+  fullName: BindOpen.Application.Scopes.BdoScopeExtension_ItemConfigurations.LoadConfiguration<T>(BindOpen.Application.Scopes.IBdoScope, System.String, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.System.Diagnostics.IBdoLog)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Application/Scopes/BdoScopeExtension_ItemConfigurations.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: LoadConfiguration
+    path: ../src/BindOpen.Core/Application/Scopes/BdoScopeExtension_ItemConfigurations.cs
+    startLine: 72
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Application.Scopes
+  summary: "\nCreates the instance of the specified definition.\n"
+  example: []
+  syntax:
+    content: >-
+      public static ITBdoExtensionItemConfiguration<T> LoadConfiguration<T>(this IBdoScope scope, string xmlstring, IBdoScriptVariableSet scriptVariableSet = null, IBdoLog log = null)
+          where T : IBdoExtensionItemDefinition
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: xmlstring
+      type: System.String
+      description: The XML string to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: The set of script variables to consider.
+    - id: log
+      type: BindOpen.System.Diagnostics.IBdoLog
+      description: The log to consider.
+    typeParameters:
+    - id: T
+    return:
+      type: BindOpen.Extensions.Runtime.ITBdoExtensionItemConfiguration{{T}}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function LoadConfiguration(Of T As IBdoExtensionItemDefinition)(scope As IBdoScope, xmlstring As String, scriptVariableSet As IBdoScriptVariableSet = Nothing, log As IBdoLog = Nothing) As ITBdoExtensionItemConfiguration(Of T)
+  overload: BindOpen.Application.Scopes.BdoScopeExtension_ItemConfigurations.LoadConfiguration*
+  nameWithType.vb: BdoScopeExtension_ItemConfigurations.LoadConfiguration(Of T)(IBdoScope, String, IBdoScriptVariableSet, IBdoLog)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Application.Scopes.BdoScopeExtension_ItemConfigurations.LoadConfiguration(Of T)(BindOpen.Application.Scopes.IBdoScope, System.String, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.System.Diagnostics.IBdoLog)
+  name.vb: LoadConfiguration(Of T)(IBdoScope, String, IBdoScriptVariableSet, IBdoLog)
+references:
+- uid: BindOpen.Application.Scopes
+  commentId: N:BindOpen.Application.Scopes
+  name: BindOpen.Application.Scopes
+  nameWithType: BindOpen.Application.Scopes
+  fullName: BindOpen.Application.Scopes
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Application.Scopes.BdoScopeExtension_ItemConfigurations.CreateConfiguration*
+  commentId: Overload:BindOpen.Application.Scopes.BdoScopeExtension_ItemConfigurations.CreateConfiguration
+  name: CreateConfiguration
+  nameWithType: BdoScopeExtension_ItemConfigurations.CreateConfiguration
+  fullName: BindOpen.Application.Scopes.BdoScopeExtension_ItemConfigurations.CreateConfiguration
+- uid: BindOpen.Application.Scopes.IBdoScope
+  commentId: T:BindOpen.Application.Scopes.IBdoScope
+  parent: BindOpen.Application.Scopes
+  name: IBdoScope
+  nameWithType: IBdoScope
+  fullName: BindOpen.Application.Scopes.IBdoScope
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: BindOpen.System.Diagnostics.IBdoLog
+  commentId: T:BindOpen.System.Diagnostics.IBdoLog
+  parent: BindOpen.System.Diagnostics
+  name: IBdoLog
+  nameWithType: IBdoLog
+  fullName: BindOpen.System.Diagnostics.IBdoLog
+- uid: BindOpen.Extensions.Runtime.ITBdoExtensionItemConfiguration{{T}}
+  commentId: T:BindOpen.Extensions.Runtime.ITBdoExtensionItemConfiguration{``0}
+  parent: BindOpen.Extensions.Runtime
+  definition: BindOpen.Extensions.Runtime.ITBdoExtensionItemConfiguration`1
+  name: ITBdoExtensionItemConfiguration<T>
+  nameWithType: ITBdoExtensionItemConfiguration<T>
+  fullName: BindOpen.Extensions.Runtime.ITBdoExtensionItemConfiguration<T>
+  nameWithType.vb: ITBdoExtensionItemConfiguration(Of T)
+  fullName.vb: BindOpen.Extensions.Runtime.ITBdoExtensionItemConfiguration(Of T)
+  name.vb: ITBdoExtensionItemConfiguration(Of T)
+  spec.csharp:
+  - uid: BindOpen.Extensions.Runtime.ITBdoExtensionItemConfiguration`1
+    name: ITBdoExtensionItemConfiguration
+    nameWithType: ITBdoExtensionItemConfiguration
+    fullName: BindOpen.Extensions.Runtime.ITBdoExtensionItemConfiguration
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: BindOpen.Extensions.Runtime.ITBdoExtensionItemConfiguration`1
+    name: ITBdoExtensionItemConfiguration
+    nameWithType: ITBdoExtensionItemConfiguration
+    fullName: BindOpen.Extensions.Runtime.ITBdoExtensionItemConfiguration
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.System.Diagnostics
+  commentId: N:BindOpen.System.Diagnostics
+  name: BindOpen.System.Diagnostics
+  nameWithType: BindOpen.System.Diagnostics
+  fullName: BindOpen.System.Diagnostics
+- uid: BindOpen.Extensions.Runtime.ITBdoExtensionItemConfiguration`1
+  commentId: T:BindOpen.Extensions.Runtime.ITBdoExtensionItemConfiguration`1
+  name: ITBdoExtensionItemConfiguration<T>
+  nameWithType: ITBdoExtensionItemConfiguration<T>
+  fullName: BindOpen.Extensions.Runtime.ITBdoExtensionItemConfiguration<T>
+  nameWithType.vb: ITBdoExtensionItemConfiguration(Of T)
+  fullName.vb: BindOpen.Extensions.Runtime.ITBdoExtensionItemConfiguration(Of T)
+  name.vb: ITBdoExtensionItemConfiguration(Of T)
+  spec.csharp:
+  - uid: BindOpen.Extensions.Runtime.ITBdoExtensionItemConfiguration`1
+    name: ITBdoExtensionItemConfiguration
+    nameWithType: ITBdoExtensionItemConfiguration
+    fullName: BindOpen.Extensions.Runtime.ITBdoExtensionItemConfiguration
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: BindOpen.Extensions.Runtime.ITBdoExtensionItemConfiguration`1
+    name: ITBdoExtensionItemConfiguration
+    nameWithType: ITBdoExtensionItemConfiguration
+    fullName: BindOpen.Extensions.Runtime.ITBdoExtensionItemConfiguration
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Extensions.Runtime
+  commentId: N:BindOpen.Extensions.Runtime
+  name: BindOpen.Extensions.Runtime
+  nameWithType: BindOpen.Extensions.Runtime
+  fullName: BindOpen.Extensions.Runtime
+- uid: BindOpen.Application.Scopes.BdoScopeExtension_ItemConfigurations.LoadConfiguration*
+  commentId: Overload:BindOpen.Application.Scopes.BdoScopeExtension_ItemConfigurations.LoadConfiguration
+  name: LoadConfiguration
+  nameWithType: BdoScopeExtension_ItemConfigurations.LoadConfiguration
+  fullName: BindOpen.Application.Scopes.BdoScopeExtension_ItemConfigurations.LoadConfiguration
+- uid: BindOpen.System.Scripting.IBdoScriptVariableSet
+  commentId: T:BindOpen.System.Scripting.IBdoScriptVariableSet
+  parent: BindOpen.System.Scripting
+  name: IBdoScriptVariableSet
+  nameWithType: IBdoScriptVariableSet
+  fullName: BindOpen.System.Scripting.IBdoScriptVariableSet
+- uid: BindOpen.System.Scripting
+  commentId: N:BindOpen.System.Scripting
+  name: BindOpen.System.Scripting
+  nameWithType: BindOpen.System.Scripting
+  fullName: BindOpen.System.Scripting
+shouldSkipMarkup: true

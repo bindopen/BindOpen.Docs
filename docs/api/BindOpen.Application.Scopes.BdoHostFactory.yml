@@ -1,0 +1,835 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Application.Scopes.BdoHostFactory
+  commentId: T:BindOpen.Application.Scopes.BdoHostFactory
+  id: BdoHostFactory
+  parent: BindOpen.Application.Scopes
+  children:
+  - BindOpen.Application.Scopes.BdoHostFactory.CreateBindOpenDefaultHost(System.Action{BindOpen.Application.Scopes.ITBdoHostOptions{BindOpen.Application.Settings.BdoDefaultAppSettings}})
+  - BindOpen.Application.Scopes.BdoHostFactory.CreateBindOpenHost``1(System.Action{BindOpen.Application.Scopes.ITBdoHostOptions{``0}})
+  - BindOpen.Application.Scopes.BdoHostFactory.CreateBindOpenHost``2(System.Action{BindOpen.Application.Scopes.ITBdoHostOptions{``1}})
+  - BindOpen.Application.Scopes.BdoHostFactory.InitBindOpenFolders(System.String,System.Boolean,System.String)
+  langs:
+  - csharp
+  - vb
+  name: BdoHostFactory
+  nameWithType: BdoHostFactory
+  fullName: BindOpen.Application.Scopes.BdoHostFactory
+  type: Class
+  source:
+    remote:
+      path: src/BindOpen.Runtime/Application/Scopes/Hosts/Factories/BdoHostFactory.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: BdoHostFactory
+    path: ../src/BindOpen.Runtime/Application/Scopes/Hosts/Factories/BdoHostFactory.cs
+    startLine: 10
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nThis static class is a factory for BindOpen hosts.\n"
+  example: []
+  syntax:
+    content: public static class BdoHostFactory
+    content.vb: Public Module BdoHostFactory
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: BindOpen.Application.Scopes.BdoHostFactory.InitBindOpenFolders(System.String,System.Boolean,System.String)
+  commentId: M:BindOpen.Application.Scopes.BdoHostFactory.InitBindOpenFolders(System.String,System.Boolean,System.String)
+  id: InitBindOpenFolders(System.String,System.Boolean,System.String)
+  parent: BindOpen.Application.Scopes.BdoHostFactory
+  langs:
+  - csharp
+  - vb
+  name: InitBindOpenFolders(String, Boolean, String)
+  nameWithType: BdoHostFactory.InitBindOpenFolders(String, Boolean, String)
+  fullName: BindOpen.Application.Scopes.BdoHostFactory.InitBindOpenFolders(System.String, System.Boolean, System.String)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Runtime/Application/Scopes/Hosts/Factories/BdoHostFactory.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: InitBindOpenFolders
+    path: ../src/BindOpen.Runtime/Application/Scopes/Hosts/Factories/BdoHostFactory.cs
+    startLine: 21
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nInitializes the specified runtime folder.\n"
+  example: []
+  syntax:
+    content: public static IBdoLog InitBindOpenFolders(string rootFolderPath, bool mustRuntimeFolderBeCreated = false, string runtimeFolderPath = null)
+    parameters:
+    - id: rootFolderPath
+      type: System.String
+      description: The setup action to consider.
+    - id: mustRuntimeFolderBeCreated
+      type: System.Boolean
+      description: Indicates whether the runtime folder must be created.
+    - id: runtimeFolderPath
+      type: System.String
+      description: The setup action to consider.
+    return:
+      type: BindOpen.System.Diagnostics.IBdoLog
+      description: Returns the log.
+    content.vb: Public Shared Function InitBindOpenFolders(rootFolderPath As String, mustRuntimeFolderBeCreated As Boolean = False, runtimeFolderPath As String = Nothing) As IBdoLog
+  overload: BindOpen.Application.Scopes.BdoHostFactory.InitBindOpenFolders*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Application.Scopes.BdoHostFactory.CreateBindOpenDefaultHost(System.Action{BindOpen.Application.Scopes.ITBdoHostOptions{BindOpen.Application.Settings.BdoDefaultAppSettings}})
+  commentId: M:BindOpen.Application.Scopes.BdoHostFactory.CreateBindOpenDefaultHost(System.Action{BindOpen.Application.Scopes.ITBdoHostOptions{BindOpen.Application.Settings.BdoDefaultAppSettings}})
+  id: CreateBindOpenDefaultHost(System.Action{BindOpen.Application.Scopes.ITBdoHostOptions{BindOpen.Application.Settings.BdoDefaultAppSettings}})
+  parent: BindOpen.Application.Scopes.BdoHostFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateBindOpenDefaultHost(Action<ITBdoHostOptions<BdoDefaultAppSettings>>)
+  nameWithType: BdoHostFactory.CreateBindOpenDefaultHost(Action<ITBdoHostOptions<BdoDefaultAppSettings>>)
+  fullName: BindOpen.Application.Scopes.BdoHostFactory.CreateBindOpenDefaultHost(System.Action<BindOpen.Application.Scopes.ITBdoHostOptions<BindOpen.Application.Settings.BdoDefaultAppSettings>>)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Runtime/Application/Scopes/Hosts/Factories/BdoHostFactory.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: CreateBindOpenDefaultHost
+    path: ../src/BindOpen.Runtime/Application/Scopes/Hosts/Factories/BdoHostFactory.cs
+    startLine: 64
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nAdds a BindOpen host with default settings.\n"
+  example: []
+  syntax:
+    content: public static BdoDefaultHost CreateBindOpenDefaultHost(Action<ITBdoHostOptions<BdoDefaultAppSettings>> setupAction = null)
+    parameters:
+    - id: setupAction
+      type: System.Action{BindOpen.Application.Scopes.ITBdoHostOptions{BindOpen.Application.Settings.BdoDefaultAppSettings}}
+      description: The setup action to consider.
+    return:
+      type: BindOpen.Application.Scopes.BdoDefaultHost
+      description: ''
+    content.vb: Public Shared Function CreateBindOpenDefaultHost(setupAction As Action(Of ITBdoHostOptions(Of BdoDefaultAppSettings)) = Nothing) As BdoDefaultHost
+  overload: BindOpen.Application.Scopes.BdoHostFactory.CreateBindOpenDefaultHost*
+  nameWithType.vb: BdoHostFactory.CreateBindOpenDefaultHost(Action(Of ITBdoHostOptions(Of BdoDefaultAppSettings)))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Application.Scopes.BdoHostFactory.CreateBindOpenDefaultHost(System.Action(Of BindOpen.Application.Scopes.ITBdoHostOptions(Of BindOpen.Application.Settings.BdoDefaultAppSettings)))
+  name.vb: CreateBindOpenDefaultHost(Action(Of ITBdoHostOptions(Of BdoDefaultAppSettings)))
+- uid: BindOpen.Application.Scopes.BdoHostFactory.CreateBindOpenHost``1(System.Action{BindOpen.Application.Scopes.ITBdoHostOptions{``0}})
+  commentId: M:BindOpen.Application.Scopes.BdoHostFactory.CreateBindOpenHost``1(System.Action{BindOpen.Application.Scopes.ITBdoHostOptions{``0}})
+  id: CreateBindOpenHost``1(System.Action{BindOpen.Application.Scopes.ITBdoHostOptions{``0}})
+  parent: BindOpen.Application.Scopes.BdoHostFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateBindOpenHost<S>(Action<ITBdoHostOptions<S>>)
+  nameWithType: BdoHostFactory.CreateBindOpenHost<S>(Action<ITBdoHostOptions<S>>)
+  fullName: BindOpen.Application.Scopes.BdoHostFactory.CreateBindOpenHost<S>(System.Action<BindOpen.Application.Scopes.ITBdoHostOptions<S>>)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Runtime/Application/Scopes/Hosts/Factories/BdoHostFactory.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: CreateBindOpenHost
+    path: ../src/BindOpen.Runtime/Application/Scopes/Hosts/Factories/BdoHostFactory.cs
+    startLine: 74
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nAdds a BindOpen host.\n"
+  example: []
+  syntax:
+    content: >-
+      public static ITBdoHost<S> CreateBindOpenHost<S>(Action<ITBdoHostOptions<S>> setupAction = null)
+          where S : class, IBdoAppSettings, new()
+    parameters:
+    - id: setupAction
+      type: System.Action{BindOpen.Application.Scopes.ITBdoHostOptions{{S}}}
+      description: The setup action to consider.
+    typeParameters:
+    - id: S
+      description: ''
+    return:
+      type: BindOpen.Application.Scopes.ITBdoHost{{S}}
+      description: ''
+    content.vb: Public Shared Function CreateBindOpenHost(Of S As {Class, IBdoAppSettings, New})(setupAction As Action(Of ITBdoHostOptions(Of S)) = Nothing) As ITBdoHost(Of S)
+  overload: BindOpen.Application.Scopes.BdoHostFactory.CreateBindOpenHost*
+  nameWithType.vb: BdoHostFactory.CreateBindOpenHost(Of S)(Action(Of ITBdoHostOptions(Of S)))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Application.Scopes.BdoHostFactory.CreateBindOpenHost(Of S)(System.Action(Of BindOpen.Application.Scopes.ITBdoHostOptions(Of S)))
+  name.vb: CreateBindOpenHost(Of S)(Action(Of ITBdoHostOptions(Of S)))
+- uid: BindOpen.Application.Scopes.BdoHostFactory.CreateBindOpenHost``2(System.Action{BindOpen.Application.Scopes.ITBdoHostOptions{``1}})
+  commentId: M:BindOpen.Application.Scopes.BdoHostFactory.CreateBindOpenHost``2(System.Action{BindOpen.Application.Scopes.ITBdoHostOptions{``1}})
+  id: CreateBindOpenHost``2(System.Action{BindOpen.Application.Scopes.ITBdoHostOptions{``1}})
+  parent: BindOpen.Application.Scopes.BdoHostFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateBindOpenHost<THost, S>(Action<ITBdoHostOptions<S>>)
+  nameWithType: BdoHostFactory.CreateBindOpenHost<THost, S>(Action<ITBdoHostOptions<S>>)
+  fullName: BindOpen.Application.Scopes.BdoHostFactory.CreateBindOpenHost<THost, S>(System.Action<BindOpen.Application.Scopes.ITBdoHostOptions<S>>)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Runtime/Application/Scopes/Hosts/Factories/BdoHostFactory.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: CreateBindOpenHost
+    path: ../src/BindOpen.Runtime/Application/Scopes/Hosts/Factories/BdoHostFactory.cs
+    startLine: 85
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Application.Scopes
+  summary: "\nAdds a BindOpen host.\n"
+  example: []
+  syntax:
+    content: >-
+      public static THost CreateBindOpenHost<THost, S>(Action<ITBdoHostOptions<S>> setupAction = null)
+          where THost : class, ITBdoHost<S>, new()
+          where S : class, IBdoAppSettings, new()
+    parameters:
+    - id: setupAction
+      type: System.Action{BindOpen.Application.Scopes.ITBdoHostOptions{{S}}}
+      description: The setup action to consider.
+    typeParameters:
+    - id: THost
+      description: The class of host to consider.
+    - id: S
+      description: ''
+    return:
+      type: '{THost}'
+      description: ''
+    content.vb: Public Shared Function CreateBindOpenHost(Of THost As {Class, ITBdoHost(Of S), New}, S As {Class, IBdoAppSettings, New})(setupAction As Action(Of ITBdoHostOptions(Of S)) = Nothing) As THost
+  overload: BindOpen.Application.Scopes.BdoHostFactory.CreateBindOpenHost*
+  nameWithType.vb: BdoHostFactory.CreateBindOpenHost(Of THost, S)(Action(Of ITBdoHostOptions(Of S)))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Application.Scopes.BdoHostFactory.CreateBindOpenHost(Of THost, S)(System.Action(Of BindOpen.Application.Scopes.ITBdoHostOptions(Of S)))
+  name.vb: CreateBindOpenHost(Of THost, S)(Action(Of ITBdoHostOptions(Of S)))
+references:
+- uid: BindOpen.Application.Scopes
+  commentId: N:BindOpen.Application.Scopes
+  name: BindOpen.Application.Scopes
+  nameWithType: BindOpen.Application.Scopes
+  fullName: BindOpen.Application.Scopes
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Application.Scopes.BdoHostFactory.InitBindOpenFolders*
+  commentId: Overload:BindOpen.Application.Scopes.BdoHostFactory.InitBindOpenFolders
+  name: InitBindOpenFolders
+  nameWithType: BdoHostFactory.InitBindOpenFolders
+  fullName: BindOpen.Application.Scopes.BdoHostFactory.InitBindOpenFolders
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: BindOpen.System.Diagnostics.IBdoLog
+  commentId: T:BindOpen.System.Diagnostics.IBdoLog
+  parent: BindOpen.System.Diagnostics
+  name: IBdoLog
+  nameWithType: IBdoLog
+  fullName: BindOpen.System.Diagnostics.IBdoLog
+- uid: BindOpen.System.Diagnostics
+  commentId: N:BindOpen.System.Diagnostics
+  name: BindOpen.System.Diagnostics
+  nameWithType: BindOpen.System.Diagnostics
+  fullName: BindOpen.System.Diagnostics
+- uid: BindOpen.Application.Scopes.BdoHostFactory.CreateBindOpenDefaultHost*
+  commentId: Overload:BindOpen.Application.Scopes.BdoHostFactory.CreateBindOpenDefaultHost
+  name: CreateBindOpenDefaultHost
+  nameWithType: BdoHostFactory.CreateBindOpenDefaultHost
+  fullName: BindOpen.Application.Scopes.BdoHostFactory.CreateBindOpenDefaultHost
+- uid: System.Action{BindOpen.Application.Scopes.ITBdoHostOptions{BindOpen.Application.Settings.BdoDefaultAppSettings}}
+  commentId: T:System.Action{BindOpen.Application.Scopes.ITBdoHostOptions{BindOpen.Application.Settings.BdoDefaultAppSettings}}
+  parent: System
+  definition: System.Action`1
+  name: Action<ITBdoHostOptions<BdoDefaultAppSettings>>
+  nameWithType: Action<ITBdoHostOptions<BdoDefaultAppSettings>>
+  fullName: System.Action<BindOpen.Application.Scopes.ITBdoHostOptions<BindOpen.Application.Settings.BdoDefaultAppSettings>>
+  nameWithType.vb: Action(Of ITBdoHostOptions(Of BdoDefaultAppSettings))
+  fullName.vb: System.Action(Of BindOpen.Application.Scopes.ITBdoHostOptions(Of BindOpen.Application.Settings.BdoDefaultAppSettings))
+  name.vb: Action(Of ITBdoHostOptions(Of BdoDefaultAppSettings))
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BindOpen.Application.Scopes.ITBdoHostOptions`1
+    name: ITBdoHostOptions
+    nameWithType: ITBdoHostOptions
+    fullName: BindOpen.Application.Scopes.ITBdoHostOptions
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BindOpen.Application.Settings.BdoDefaultAppSettings
+    name: BdoDefaultAppSettings
+    nameWithType: BdoDefaultAppSettings
+    fullName: BindOpen.Application.Settings.BdoDefaultAppSettings
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BindOpen.Application.Scopes.ITBdoHostOptions`1
+    name: ITBdoHostOptions
+    nameWithType: ITBdoHostOptions
+    fullName: BindOpen.Application.Scopes.ITBdoHostOptions
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BindOpen.Application.Settings.BdoDefaultAppSettings
+    name: BdoDefaultAppSettings
+    nameWithType: BdoDefaultAppSettings
+    fullName: BindOpen.Application.Settings.BdoDefaultAppSettings
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Scopes.BdoDefaultHost
+  commentId: T:BindOpen.Application.Scopes.BdoDefaultHost
+  parent: BindOpen.Application.Scopes
+  name: BdoDefaultHost
+  nameWithType: BdoDefaultHost
+  fullName: BindOpen.Application.Scopes.BdoDefaultHost
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Scopes.BdoHostFactory.CreateBindOpenHost*
+  commentId: Overload:BindOpen.Application.Scopes.BdoHostFactory.CreateBindOpenHost
+  name: CreateBindOpenHost
+  nameWithType: BdoHostFactory.CreateBindOpenHost
+  fullName: BindOpen.Application.Scopes.BdoHostFactory.CreateBindOpenHost
+- uid: System.Action{BindOpen.Application.Scopes.ITBdoHostOptions{{S}}}
+  commentId: T:System.Action{BindOpen.Application.Scopes.ITBdoHostOptions{``0}}
+  parent: System
+  definition: System.Action`1
+  name: Action<ITBdoHostOptions<S>>
+  nameWithType: Action<ITBdoHostOptions<S>>
+  fullName: System.Action<BindOpen.Application.Scopes.ITBdoHostOptions<S>>
+  nameWithType.vb: Action(Of ITBdoHostOptions(Of S))
+  fullName.vb: System.Action(Of BindOpen.Application.Scopes.ITBdoHostOptions(Of S))
+  name.vb: Action(Of ITBdoHostOptions(Of S))
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BindOpen.Application.Scopes.ITBdoHostOptions`1
+    name: ITBdoHostOptions
+    nameWithType: ITBdoHostOptions
+    fullName: BindOpen.Application.Scopes.ITBdoHostOptions
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: S
+    nameWithType: S
+    fullName: S
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BindOpen.Application.Scopes.ITBdoHostOptions`1
+    name: ITBdoHostOptions
+    nameWithType: ITBdoHostOptions
+    fullName: BindOpen.Application.Scopes.ITBdoHostOptions
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: S
+    nameWithType: S
+    fullName: S
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Scopes.ITBdoHost{{S}}
+  commentId: T:BindOpen.Application.Scopes.ITBdoHost{``0}
+  parent: BindOpen.Application.Scopes
+  definition: BindOpen.Application.Scopes.ITBdoHost`1
+  name: ITBdoHost<S>
+  nameWithType: ITBdoHost<S>
+  fullName: BindOpen.Application.Scopes.ITBdoHost<S>
+  nameWithType.vb: ITBdoHost(Of S)
+  fullName.vb: BindOpen.Application.Scopes.ITBdoHost(Of S)
+  name.vb: ITBdoHost(Of S)
+  spec.csharp:
+  - uid: BindOpen.Application.Scopes.ITBdoHost`1
+    name: ITBdoHost
+    nameWithType: ITBdoHost
+    fullName: BindOpen.Application.Scopes.ITBdoHost
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: S
+    nameWithType: S
+    fullName: S
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: BindOpen.Application.Scopes.ITBdoHost`1
+    name: ITBdoHost
+    nameWithType: ITBdoHost
+    fullName: BindOpen.Application.Scopes.ITBdoHost
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: S
+    nameWithType: S
+    fullName: S
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Scopes.ITBdoHost`1
+  commentId: T:BindOpen.Application.Scopes.ITBdoHost`1
+  parent: BindOpen.Application.Scopes
+  name: ITBdoHost<S>
+  nameWithType: ITBdoHost<S>
+  fullName: BindOpen.Application.Scopes.ITBdoHost<S>
+  nameWithType.vb: ITBdoHost(Of S)
+  fullName.vb: BindOpen.Application.Scopes.ITBdoHost(Of S)
+  name.vb: ITBdoHost(Of S)
+  spec.csharp:
+  - uid: BindOpen.Application.Scopes.ITBdoHost`1
+    name: ITBdoHost
+    nameWithType: ITBdoHost
+    fullName: BindOpen.Application.Scopes.ITBdoHost
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: S
+    nameWithType: S
+    fullName: S
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: BindOpen.Application.Scopes.ITBdoHost`1
+    name: ITBdoHost
+    nameWithType: ITBdoHost
+    fullName: BindOpen.Application.Scopes.ITBdoHost
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: S
+    nameWithType: S
+    fullName: S
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: '{THost}'
+  commentId: '!:THost'
+  definition: THost
+  name: THost
+  nameWithType: THost
+  fullName: THost
+- uid: THost
+  commentId: '!:THost'
+  name: THost
+  nameWithType: THost
+  fullName: THost
+shouldSkipMarkup: true

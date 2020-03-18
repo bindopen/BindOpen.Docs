@@ -1,0 +1,2155 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime
+  commentId: T:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime
+  id: ScriptwordDefinition_runtime
+  parent: BindOpen.Extensions.Scriptwords
+  children:
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_And(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_DataModule(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_DataModule_Name(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_DateTime_Add(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_DateTime_Format(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_DateTime_TimeStamp(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_FormatText(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_GetCurrentDateTime(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_If(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_IsDifferent(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_IsEmpty(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_IsEqual(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_Not(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_Or(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_Text(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_Xor(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_ApplicationFolderPath(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_ApplicationInstanceName(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_ApplicationModuleName(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_ApplicationRoamingFolderPath(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_GetEmpty(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_Literal_CarretPos(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_Literal_Cr(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_Literal_Tab(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  - BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_MyDocumentsFolderPath(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  langs:
+  - csharp
+  - vb
+  name: ScriptwordDefinition_runtime
+  nameWithType: ScriptwordDefinition_runtime
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime
+  type: Class
+  source:
+    remote:
+      path: src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: ScriptwordDefinition_runtime
+    path: ../src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+    startLine: 13
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nThis class represents a &apos;Runtime&apos; script word definition.\n"
+  example: []
+  syntax:
+    content: >-
+      [BdoScriptwordDefinition]
+
+      public static class ScriptwordDefinition_runtime
+    content.vb: >-
+      <BdoScriptwordDefinition>
+
+      Public Module ScriptwordDefinition_runtime
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: BindOpen.Extensions.Runtime.BdoScriptwordDefinitionAttribute
+    ctor: BindOpen.Extensions.Runtime.BdoScriptwordDefinitionAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_ApplicationModuleName(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_ApplicationModuleName(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Var_ApplicationModuleName(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime
+  langs:
+  - csharp
+  - vb
+  name: Var_ApplicationModuleName(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_runtime.Var_ApplicationModuleName(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_ApplicationModuleName(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Var_ApplicationModuleName
+    path: ../src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+    startLine: 30
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word $(applicationModuleName).\n"
+  example: []
+  syntax:
+    content: >-
+      [BdoScriptword]
+
+      public static string Var_ApplicationModuleName(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: The set of variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: The script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: >-
+      <BdoScriptword>
+
+      Public Shared Function Var_ApplicationModuleName(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_ApplicationModuleName*
+  attributes:
+  - type: BindOpen.Extensions.Runtime.BdoScriptwordAttribute
+    ctor: BindOpen.Extensions.Runtime.BdoScriptwordAttribute.#ctor
+    arguments: []
+  nameWithType.vb: ScriptwordDefinition_runtime.Var_ApplicationModuleName(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_ApplicationModuleName(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Var_ApplicationModuleName(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_ApplicationInstanceName(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_ApplicationInstanceName(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Var_ApplicationInstanceName(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime
+  langs:
+  - csharp
+  - vb
+  name: Var_ApplicationInstanceName(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_runtime.Var_ApplicationInstanceName(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_ApplicationInstanceName(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Var_ApplicationInstanceName
+    path: ../src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+    startLine: 54
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word $(applicationInstanceName).\n"
+  example: []
+  syntax:
+    content: >-
+      [BdoScriptword]
+
+      public static string Var_ApplicationInstanceName(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: The set of variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: The script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: >-
+      <BdoScriptword>
+
+      Public Shared Function Var_ApplicationInstanceName(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_ApplicationInstanceName*
+  attributes:
+  - type: BindOpen.Extensions.Runtime.BdoScriptwordAttribute
+    ctor: BindOpen.Extensions.Runtime.BdoScriptwordAttribute.#ctor
+    arguments: []
+  nameWithType.vb: ScriptwordDefinition_runtime.Var_ApplicationInstanceName(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_ApplicationInstanceName(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Var_ApplicationInstanceName(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_IsEmpty(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_IsEmpty(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Fun_IsEmpty(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime
+  langs:
+  - csharp
+  - vb
+  name: Fun_IsEmpty(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_runtime.Fun_IsEmpty(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_IsEmpty(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Fun_IsEmpty
+    path: ../src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+    startLine: 78
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word $ISEMPTY.\n"
+  example: []
+  syntax:
+    content: >-
+      [BdoScriptword]
+
+      public static string Fun_IsEmpty(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: The set of variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: The script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: >-
+      <BdoScriptword>
+
+      Public Shared Function Fun_IsEmpty(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_IsEmpty*
+  attributes:
+  - type: BindOpen.Extensions.Runtime.BdoScriptwordAttribute
+    ctor: BindOpen.Extensions.Runtime.BdoScriptwordAttribute.#ctor
+    arguments: []
+  nameWithType.vb: ScriptwordDefinition_runtime.Fun_IsEmpty(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_IsEmpty(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Fun_IsEmpty(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_Text(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_Text(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Fun_Text(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime
+  langs:
+  - csharp
+  - vb
+  name: Fun_Text(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_runtime.Fun_Text(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_Text(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Fun_Text
+    path: ../src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+    startLine: 101
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word $TEXT.\n"
+  example: []
+  syntax:
+    content: >-
+      [BdoScriptword]
+
+      public static string Fun_Text(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: The set of variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: The script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: >-
+      <BdoScriptword>
+
+      Public Shared Function Fun_Text(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_Text*
+  attributes:
+  - type: BindOpen.Extensions.Runtime.BdoScriptwordAttribute
+    ctor: BindOpen.Extensions.Runtime.BdoScriptwordAttribute.#ctor
+    arguments: []
+  nameWithType.vb: ScriptwordDefinition_runtime.Fun_Text(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_Text(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Fun_Text(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_FormatText(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_FormatText(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Fun_FormatText(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime
+  langs:
+  - csharp
+  - vb
+  name: Fun_FormatText(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_runtime.Fun_FormatText(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_FormatText(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Fun_FormatText
+    path: ../src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+    startLine: 120
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word $FORMAT.\n"
+  example: []
+  syntax:
+    content: >-
+      [BdoScriptword]
+
+      public static string Fun_FormatText(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: The set of variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: The script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: >-
+      <BdoScriptword>
+
+      Public Shared Function Fun_FormatText(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_FormatText*
+  attributes:
+  - type: BindOpen.Extensions.Runtime.BdoScriptwordAttribute
+    ctor: BindOpen.Extensions.Runtime.BdoScriptwordAttribute.#ctor
+    arguments: []
+  nameWithType.vb: ScriptwordDefinition_runtime.Fun_FormatText(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_FormatText(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Fun_FormatText(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_If(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_If(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Fun_If(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime
+  langs:
+  - csharp
+  - vb
+  name: Fun_If(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_runtime.Fun_If(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_If(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Fun_If
+    path: ../src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+    startLine: 141
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word $IF.\n"
+  example: []
+  syntax:
+    content: >-
+      [BdoScriptword]
+
+      public static string Fun_If(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: The set of variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: The script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: >-
+      <BdoScriptword>
+
+      Public Shared Function Fun_If(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_If*
+  attributes:
+  - type: BindOpen.Extensions.Runtime.BdoScriptwordAttribute
+    ctor: BindOpen.Extensions.Runtime.BdoScriptwordAttribute.#ctor
+    arguments: []
+  nameWithType.vb: ScriptwordDefinition_runtime.Fun_If(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_If(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Fun_If(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_Not(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_Not(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Fun_Not(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime
+  langs:
+  - csharp
+  - vb
+  name: Fun_Not(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_runtime.Fun_Not(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_Not(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Fun_Not
+    path: ../src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+    startLine: 164
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word $NOT.\n"
+  example: []
+  syntax:
+    content: >-
+      [BdoScriptword]
+
+      public static string Fun_Not(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: The set of variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: The script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: >-
+      <BdoScriptword>
+
+      Public Shared Function Fun_Not(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_Not*
+  attributes:
+  - type: BindOpen.Extensions.Runtime.BdoScriptwordAttribute
+    ctor: BindOpen.Extensions.Runtime.BdoScriptwordAttribute.#ctor
+    arguments: []
+  nameWithType.vb: ScriptwordDefinition_runtime.Fun_Not(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_Not(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Fun_Not(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_Or(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_Or(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Fun_Or(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime
+  langs:
+  - csharp
+  - vb
+  name: Fun_Or(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_runtime.Fun_Or(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_Or(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Fun_Or
+    path: ../src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+    startLine: 183
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word $OR.\n"
+  example: []
+  syntax:
+    content: >-
+      [BdoScriptword]
+
+      public static string Fun_Or(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: The set of variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: The script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: >-
+      <BdoScriptword>
+
+      Public Shared Function Fun_Or(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_Or*
+  attributes:
+  - type: BindOpen.Extensions.Runtime.BdoScriptwordAttribute
+    ctor: BindOpen.Extensions.Runtime.BdoScriptwordAttribute.#ctor
+    arguments: []
+  nameWithType.vb: ScriptwordDefinition_runtime.Fun_Or(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_Or(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Fun_Or(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_And(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_And(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Fun_And(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime
+  langs:
+  - csharp
+  - vb
+  name: Fun_And(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_runtime.Fun_And(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_And(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Fun_And
+    path: ../src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+    startLine: 204
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word $AND.\n"
+  example: []
+  syntax:
+    content: >-
+      [BdoScriptword]
+
+      public static string Fun_And(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: The set of variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: The script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: >-
+      <BdoScriptword>
+
+      Public Shared Function Fun_And(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_And*
+  attributes:
+  - type: BindOpen.Extensions.Runtime.BdoScriptwordAttribute
+    ctor: BindOpen.Extensions.Runtime.BdoScriptwordAttribute.#ctor
+    arguments: []
+  nameWithType.vb: ScriptwordDefinition_runtime.Fun_And(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_And(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Fun_And(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_Xor(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_Xor(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Fun_Xor(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime
+  langs:
+  - csharp
+  - vb
+  name: Fun_Xor(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_runtime.Fun_Xor(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_Xor(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Fun_Xor
+    path: ../src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+    startLine: 225
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word $XOR.\n"
+  example: []
+  syntax:
+    content: >-
+      [BdoScriptword]
+
+      public static string Fun_Xor(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: The set of variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: The script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: >-
+      <BdoScriptword>
+
+      Public Shared Function Fun_Xor(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_Xor*
+  attributes:
+  - type: BindOpen.Extensions.Runtime.BdoScriptwordAttribute
+    ctor: BindOpen.Extensions.Runtime.BdoScriptwordAttribute.#ctor
+    arguments: []
+  nameWithType.vb: ScriptwordDefinition_runtime.Fun_Xor(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_Xor(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Fun_Xor(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_IsEqual(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_IsEqual(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Fun_IsEqual(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime
+  langs:
+  - csharp
+  - vb
+  name: Fun_IsEqual(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_runtime.Fun_IsEqual(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_IsEqual(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Fun_IsEqual
+    path: ../src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+    startLine: 246
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word $ISEQUAL.\n"
+  example: []
+  syntax:
+    content: >-
+      [BdoScriptword]
+
+      public static string Fun_IsEqual(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: The set of variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: The script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: >-
+      <BdoScriptword>
+
+      Public Shared Function Fun_IsEqual(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_IsEqual*
+  attributes:
+  - type: BindOpen.Extensions.Runtime.BdoScriptwordAttribute
+    ctor: BindOpen.Extensions.Runtime.BdoScriptwordAttribute.#ctor
+    arguments: []
+  nameWithType.vb: ScriptwordDefinition_runtime.Fun_IsEqual(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_IsEqual(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Fun_IsEqual(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_IsDifferent(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_IsDifferent(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Fun_IsDifferent(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime
+  langs:
+  - csharp
+  - vb
+  name: Fun_IsDifferent(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_runtime.Fun_IsDifferent(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_IsDifferent(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Fun_IsDifferent
+    path: ../src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+    startLine: 267
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word $ISDIFFERENT.\n"
+  example: []
+  syntax:
+    content: >-
+      [BdoScriptword]
+
+      public static string Fun_IsDifferent(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: The set of variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: The script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: >-
+      <BdoScriptword>
+
+      Public Shared Function Fun_IsDifferent(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_IsDifferent*
+  attributes:
+  - type: BindOpen.Extensions.Runtime.BdoScriptwordAttribute
+    ctor: BindOpen.Extensions.Runtime.BdoScriptwordAttribute.#ctor
+    arguments: []
+  nameWithType.vb: ScriptwordDefinition_runtime.Fun_IsDifferent(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_IsDifferent(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Fun_IsDifferent(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_GetCurrentDateTime(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_GetCurrentDateTime(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Fun_GetCurrentDateTime(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime
+  langs:
+  - csharp
+  - vb
+  name: Fun_GetCurrentDateTime(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_runtime.Fun_GetCurrentDateTime(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_GetCurrentDateTime(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Fun_GetCurrentDateTime
+    path: ../src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+    startLine: 288
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word $(GETCURRENTDATETIME).\n"
+  example: []
+  syntax:
+    content: >-
+      [BdoScriptword]
+
+      public static string Fun_GetCurrentDateTime(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: The set of variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: The script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: >-
+      <BdoScriptword>
+
+      Public Shared Function Fun_GetCurrentDateTime(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_GetCurrentDateTime*
+  attributes:
+  - type: BindOpen.Extensions.Runtime.BdoScriptwordAttribute
+    ctor: BindOpen.Extensions.Runtime.BdoScriptwordAttribute.#ctor
+    arguments: []
+  nameWithType.vb: ScriptwordDefinition_runtime.Fun_GetCurrentDateTime(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_GetCurrentDateTime(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Fun_GetCurrentDateTime(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_DateTime_Format(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_DateTime_Format(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Fun_DateTime_Format(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime
+  langs:
+  - csharp
+  - vb
+  name: Fun_DateTime_Format(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_runtime.Fun_DateTime_Format(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_DateTime_Format(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Fun_DateTime_Format
+    path: ../src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+    startLine: 307
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word $GETCURRENTDATE().FORMAT(aFormat).\n"
+  example: []
+  syntax:
+    content: >-
+      [BdoScriptword]
+
+      public static string Fun_DateTime_Format(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: The set of variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: The script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: >-
+      <BdoScriptword>
+
+      Public Shared Function Fun_DateTime_Format(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_DateTime_Format*
+  attributes:
+  - type: BindOpen.Extensions.Runtime.BdoScriptwordAttribute
+    ctor: BindOpen.Extensions.Runtime.BdoScriptwordAttribute.#ctor
+    arguments: []
+  nameWithType.vb: ScriptwordDefinition_runtime.Fun_DateTime_Format(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_DateTime_Format(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Fun_DateTime_Format(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_DateTime_TimeStamp(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_DateTime_TimeStamp(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Fun_DateTime_TimeStamp(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime
+  langs:
+  - csharp
+  - vb
+  name: Fun_DateTime_TimeStamp(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_runtime.Fun_DateTime_TimeStamp(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_DateTime_TimeStamp(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Fun_DateTime_TimeStamp
+    path: ../src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+    startLine: 336
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word $GETCURRENTDATE().TIMESTAMP().\n"
+  example: []
+  syntax:
+    content: >-
+      [BdoScriptword]
+
+      public static string Fun_DateTime_TimeStamp(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: The set of variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: The script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: >-
+      <BdoScriptword>
+
+      Public Shared Function Fun_DateTime_TimeStamp(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_DateTime_TimeStamp*
+  attributes:
+  - type: BindOpen.Extensions.Runtime.BdoScriptwordAttribute
+    ctor: BindOpen.Extensions.Runtime.BdoScriptwordAttribute.#ctor
+    arguments: []
+  nameWithType.vb: ScriptwordDefinition_runtime.Fun_DateTime_TimeStamp(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_DateTime_TimeStamp(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Fun_DateTime_TimeStamp(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_DateTime_Add(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_DateTime_Add(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Fun_DateTime_Add(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime
+  langs:
+  - csharp
+  - vb
+  name: Fun_DateTime_Add(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_runtime.Fun_DateTime_Add(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_DateTime_Add(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Fun_DateTime_Add
+    path: ../src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+    startLine: 362
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word $GETCURRENTDATE().SUBSTRACT(aYear, aMonth, aDay, aHour, aMinute, aSecond).\n"
+  example: []
+  syntax:
+    content: >-
+      [BdoScriptword]
+
+      public static string Fun_DateTime_Add(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: The set of variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: The script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: >-
+      <BdoScriptword>
+
+      Public Shared Function Fun_DateTime_Add(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_DateTime_Add*
+  attributes:
+  - type: BindOpen.Extensions.Runtime.BdoScriptwordAttribute
+    ctor: BindOpen.Extensions.Runtime.BdoScriptwordAttribute.#ctor
+    arguments: []
+  nameWithType.vb: ScriptwordDefinition_runtime.Fun_DateTime_Add(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_DateTime_Add(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Fun_DateTime_Add(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_DataModule(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_DataModule(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Fun_DataModule(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime
+  langs:
+  - csharp
+  - vb
+  name: Fun_DataModule(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_runtime.Fun_DataModule(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_DataModule(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Fun_DataModule
+    path: ../src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+    startLine: 402
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word %DATAMODULE.\n"
+  example: []
+  syntax:
+    content: >-
+      [BdoScriptword]
+
+      public static string Fun_DataModule(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: The set of variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: The script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: >-
+      <BdoScriptword>
+
+      Public Shared Function Fun_DataModule(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_DataModule*
+  attributes:
+  - type: BindOpen.Extensions.Runtime.BdoScriptwordAttribute
+    ctor: BindOpen.Extensions.Runtime.BdoScriptwordAttribute.#ctor
+    arguments: []
+  nameWithType.vb: ScriptwordDefinition_runtime.Fun_DataModule(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_DataModule(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Fun_DataModule(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_DataModule_Name(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_DataModule_Name(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Fun_DataModule_Name(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime
+  langs:
+  - csharp
+  - vb
+  name: Fun_DataModule_Name(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_runtime.Fun_DataModule_Name(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_DataModule_Name(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Fun_DataModule_Name
+    path: ../src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+    startLine: 420
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word %DATAMODULE.\n"
+  example: []
+  syntax:
+    content: >-
+      [BdoScriptword]
+
+      public static string Fun_DataModule_Name(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: The set of variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: The script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: >-
+      <BdoScriptword>
+
+      Public Shared Function Fun_DataModule_Name(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_DataModule_Name*
+  attributes:
+  - type: BindOpen.Extensions.Runtime.BdoScriptwordAttribute
+    ctor: BindOpen.Extensions.Runtime.BdoScriptwordAttribute.#ctor
+    arguments: []
+  nameWithType.vb: ScriptwordDefinition_runtime.Fun_DataModule_Name(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_DataModule_Name(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Fun_DataModule_Name(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_GetEmpty(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_GetEmpty(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Var_GetEmpty(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime
+  langs:
+  - csharp
+  - vb
+  name: Var_GetEmpty(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_runtime.Var_GetEmpty(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_GetEmpty(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Var_GetEmpty
+    path: ../src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+    startLine: 458
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word $(EMPTY).\n"
+  example: []
+  syntax:
+    content: >-
+      [BdoScriptword]
+
+      public static string Var_GetEmpty(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: The set of variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: The script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: >-
+      <BdoScriptword>
+
+      Public Shared Function Var_GetEmpty(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_GetEmpty*
+  attributes:
+  - type: BindOpen.Extensions.Runtime.BdoScriptwordAttribute
+    ctor: BindOpen.Extensions.Runtime.BdoScriptwordAttribute.#ctor
+    arguments: []
+  nameWithType.vb: ScriptwordDefinition_runtime.Var_GetEmpty(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_GetEmpty(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Var_GetEmpty(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_Literal_Tab(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_Literal_Tab(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Var_Literal_Tab(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime
+  langs:
+  - csharp
+  - vb
+  name: Var_Literal_Tab(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_runtime.Var_Literal_Tab(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_Literal_Tab(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Var_Literal_Tab
+    path: ../src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+    startLine: 476
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word $(LITERAL_TAB).\n"
+  example: []
+  syntax:
+    content: >-
+      [BdoScriptword]
+
+      public static string Var_Literal_Tab(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: The set of variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: The script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: >-
+      <BdoScriptword>
+
+      Public Shared Function Var_Literal_Tab(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_Literal_Tab*
+  attributes:
+  - type: BindOpen.Extensions.Runtime.BdoScriptwordAttribute
+    ctor: BindOpen.Extensions.Runtime.BdoScriptwordAttribute.#ctor
+    arguments: []
+  nameWithType.vb: ScriptwordDefinition_runtime.Var_Literal_Tab(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_Literal_Tab(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Var_Literal_Tab(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_Literal_Cr(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_Literal_Cr(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Var_Literal_Cr(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime
+  langs:
+  - csharp
+  - vb
+  name: Var_Literal_Cr(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_runtime.Var_Literal_Cr(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_Literal_Cr(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Var_Literal_Cr
+    path: ../src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+    startLine: 494
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word $(LITERAL_CR).\n"
+  example: []
+  syntax:
+    content: >-
+      [BdoScriptword]
+
+      public static string Var_Literal_Cr(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: The set of variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: The script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: >-
+      <BdoScriptword>
+
+      Public Shared Function Var_Literal_Cr(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_Literal_Cr*
+  attributes:
+  - type: BindOpen.Extensions.Runtime.BdoScriptwordAttribute
+    ctor: BindOpen.Extensions.Runtime.BdoScriptwordAttribute.#ctor
+    arguments: []
+  nameWithType.vb: ScriptwordDefinition_runtime.Var_Literal_Cr(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_Literal_Cr(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Var_Literal_Cr(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_Literal_CarretPos(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_Literal_CarretPos(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Var_Literal_CarretPos(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime
+  langs:
+  - csharp
+  - vb
+  name: Var_Literal_CarretPos(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_runtime.Var_Literal_CarretPos(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_Literal_CarretPos(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Var_Literal_CarretPos
+    path: ../src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+    startLine: 512
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word $(LITERAL_CARRETPOS).\n"
+  example: []
+  syntax:
+    content: >-
+      [BdoScriptword]
+
+      public static string Var_Literal_CarretPos(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: The set of variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: The script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: >-
+      <BdoScriptword>
+
+      Public Shared Function Var_Literal_CarretPos(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_Literal_CarretPos*
+  attributes:
+  - type: BindOpen.Extensions.Runtime.BdoScriptwordAttribute
+    ctor: BindOpen.Extensions.Runtime.BdoScriptwordAttribute.#ctor
+    arguments: []
+  nameWithType.vb: ScriptwordDefinition_runtime.Var_Literal_CarretPos(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_Literal_CarretPos(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Var_Literal_CarretPos(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_ApplicationFolderPath(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_ApplicationFolderPath(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Var_ApplicationFolderPath(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime
+  langs:
+  - csharp
+  - vb
+  name: Var_ApplicationFolderPath(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_runtime.Var_ApplicationFolderPath(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_ApplicationFolderPath(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Var_ApplicationFolderPath
+    path: ../src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+    startLine: 532
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word $(application.folderPath).\n"
+  example: []
+  syntax:
+    content: >-
+      [BdoScriptword("application.folderpath")]
+
+      public static string Var_ApplicationFolderPath(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: The set of variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: The script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: >-
+      <BdoScriptword("application.folderpath")>
+
+      Public Shared Function Var_ApplicationFolderPath(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_ApplicationFolderPath*
+  attributes:
+  - type: BindOpen.Extensions.Runtime.BdoScriptwordAttribute
+    ctor: BindOpen.Extensions.Runtime.BdoScriptwordAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: application.folderpath
+  nameWithType.vb: ScriptwordDefinition_runtime.Var_ApplicationFolderPath(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_ApplicationFolderPath(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Var_ApplicationFolderPath(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_ApplicationRoamingFolderPath(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_ApplicationRoamingFolderPath(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Var_ApplicationRoamingFolderPath(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime
+  langs:
+  - csharp
+  - vb
+  name: Var_ApplicationRoamingFolderPath(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_runtime.Var_ApplicationRoamingFolderPath(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_ApplicationRoamingFolderPath(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Var_ApplicationRoamingFolderPath
+    path: ../src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+    startLine: 556
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word $(roaming.folderPath).\n"
+  example: []
+  syntax:
+    content: >-
+      [BdoScriptword("application.roaming.folderpath")]
+
+      public static string Var_ApplicationRoamingFolderPath(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: The set of variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: The script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: >-
+      <BdoScriptword("application.roaming.folderpath")>
+
+      Public Shared Function Var_ApplicationRoamingFolderPath(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_ApplicationRoamingFolderPath*
+  attributes:
+  - type: BindOpen.Extensions.Runtime.BdoScriptwordAttribute
+    ctor: BindOpen.Extensions.Runtime.BdoScriptwordAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: application.roaming.folderpath
+  nameWithType.vb: ScriptwordDefinition_runtime.Var_ApplicationRoamingFolderPath(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_ApplicationRoamingFolderPath(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Var_ApplicationRoamingFolderPath(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_MyDocumentsFolderPath(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  commentId: M:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_MyDocumentsFolderPath(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  id: Var_MyDocumentsFolderPath(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.Extensions.Runtime.IBdoScriptword,System.Object[])
+  parent: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime
+  langs:
+  - csharp
+  - vb
+  name: Var_MyDocumentsFolderPath(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  nameWithType: ScriptwordDefinition_runtime.Var_MyDocumentsFolderPath(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object[])
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_MyDocumentsFolderPath(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object[])
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Var_MyDocumentsFolderPath
+    path: ../src/BindOpen.Runtime/Extensions/Scriptwords/ScriptWordDefinition_runtime.cs
+    startLine: 580
+  assemblies:
+  - BindOpen.Runtime
+  namespace: BindOpen.Extensions.Scriptwords
+  summary: "\nEvaluates the script word $(myDocuments.folderPath).\n"
+  example: []
+  syntax:
+    content: >-
+      [BdoScriptword(Name = "mydocuments.folderpath")]
+
+      public static string Var_MyDocumentsFolderPath(IBdoScope scope, IBdoScriptVariableSet scriptVariableSet, IBdoScriptword scriptWord, params object[] parameters)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: The set of variables that can be used for interpretation.
+    - id: scriptWord
+      type: BindOpen.Extensions.Runtime.IBdoScriptword
+      description: The script word to evaluate.
+    - id: parameters
+      type: System.Object[]
+      description: The parameters to consider.
+    return:
+      type: System.String
+      description: The interpreted string value.
+    content.vb: >-
+      <BdoScriptword(Name:="mydocuments.folderpath")>
+
+      Public Shared Function Var_MyDocumentsFolderPath(scope As IBdoScope, scriptVariableSet As IBdoScriptVariableSet, scriptWord As IBdoScriptword, ParamArray parameters As Object()) As String
+  overload: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_MyDocumentsFolderPath*
+  attributes:
+  - type: BindOpen.Extensions.Runtime.BdoScriptwordAttribute
+    ctor: BindOpen.Extensions.Runtime.BdoScriptwordAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: mydocuments.folderpath
+  nameWithType.vb: ScriptwordDefinition_runtime.Var_MyDocumentsFolderPath(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_MyDocumentsFolderPath(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.Extensions.Runtime.IBdoScriptword, System.Object())
+  name.vb: Var_MyDocumentsFolderPath(IBdoScope, IBdoScriptVariableSet, IBdoScriptword, Object())
+references:
+- uid: BindOpen.Extensions.Scriptwords
+  commentId: N:BindOpen.Extensions.Scriptwords
+  name: BindOpen.Extensions.Scriptwords
+  nameWithType: BindOpen.Extensions.Scriptwords
+  fullName: BindOpen.Extensions.Scriptwords
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_ApplicationModuleName*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_ApplicationModuleName
+  name: Var_ApplicationModuleName
+  nameWithType: ScriptwordDefinition_runtime.Var_ApplicationModuleName
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_ApplicationModuleName
+- uid: BindOpen.Application.Scopes.IBdoScope
+  commentId: T:BindOpen.Application.Scopes.IBdoScope
+  parent: BindOpen.Application.Scopes
+  name: IBdoScope
+  nameWithType: IBdoScope
+  fullName: BindOpen.Application.Scopes.IBdoScope
+- uid: BindOpen.System.Scripting.IBdoScriptVariableSet
+  commentId: T:BindOpen.System.Scripting.IBdoScriptVariableSet
+  parent: BindOpen.System.Scripting
+  name: IBdoScriptVariableSet
+  nameWithType: IBdoScriptVariableSet
+  fullName: BindOpen.System.Scripting.IBdoScriptVariableSet
+- uid: BindOpen.Extensions.Runtime.IBdoScriptword
+  commentId: T:BindOpen.Extensions.Runtime.IBdoScriptword
+  parent: BindOpen.Extensions.Runtime
+  name: IBdoScriptword
+  nameWithType: IBdoScriptword
+  fullName: BindOpen.Extensions.Runtime.IBdoScriptword
+- uid: System.Object[]
+  isExternal: true
+  name: Object[]
+  nameWithType: Object[]
+  fullName: System.Object[]
+  nameWithType.vb: Object()
+  fullName.vb: System.Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: BindOpen.Application.Scopes
+  commentId: N:BindOpen.Application.Scopes
+  name: BindOpen.Application.Scopes
+  nameWithType: BindOpen.Application.Scopes
+  fullName: BindOpen.Application.Scopes
+- uid: BindOpen.System.Scripting
+  commentId: N:BindOpen.System.Scripting
+  name: BindOpen.System.Scripting
+  nameWithType: BindOpen.System.Scripting
+  fullName: BindOpen.System.Scripting
+- uid: BindOpen.Extensions.Runtime
+  commentId: N:BindOpen.Extensions.Runtime
+  name: BindOpen.Extensions.Runtime
+  nameWithType: BindOpen.Extensions.Runtime
+  fullName: BindOpen.Extensions.Runtime
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_ApplicationInstanceName*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_ApplicationInstanceName
+  name: Var_ApplicationInstanceName
+  nameWithType: ScriptwordDefinition_runtime.Var_ApplicationInstanceName
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_ApplicationInstanceName
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_IsEmpty*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_IsEmpty
+  name: Fun_IsEmpty
+  nameWithType: ScriptwordDefinition_runtime.Fun_IsEmpty
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_IsEmpty
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_Text*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_Text
+  name: Fun_Text
+  nameWithType: ScriptwordDefinition_runtime.Fun_Text
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_Text
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_FormatText*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_FormatText
+  name: Fun_FormatText
+  nameWithType: ScriptwordDefinition_runtime.Fun_FormatText
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_FormatText
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_If*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_If
+  name: Fun_If
+  nameWithType: ScriptwordDefinition_runtime.Fun_If
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_If
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_Not*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_Not
+  name: Fun_Not
+  nameWithType: ScriptwordDefinition_runtime.Fun_Not
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_Not
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_Or*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_Or
+  name: Fun_Or
+  nameWithType: ScriptwordDefinition_runtime.Fun_Or
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_Or
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_And*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_And
+  name: Fun_And
+  nameWithType: ScriptwordDefinition_runtime.Fun_And
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_And
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_Xor*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_Xor
+  name: Fun_Xor
+  nameWithType: ScriptwordDefinition_runtime.Fun_Xor
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_Xor
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_IsEqual*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_IsEqual
+  name: Fun_IsEqual
+  nameWithType: ScriptwordDefinition_runtime.Fun_IsEqual
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_IsEqual
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_IsDifferent*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_IsDifferent
+  name: Fun_IsDifferent
+  nameWithType: ScriptwordDefinition_runtime.Fun_IsDifferent
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_IsDifferent
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_GetCurrentDateTime*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_GetCurrentDateTime
+  name: Fun_GetCurrentDateTime
+  nameWithType: ScriptwordDefinition_runtime.Fun_GetCurrentDateTime
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_GetCurrentDateTime
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_DateTime_Format*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_DateTime_Format
+  name: Fun_DateTime_Format
+  nameWithType: ScriptwordDefinition_runtime.Fun_DateTime_Format
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_DateTime_Format
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_DateTime_TimeStamp*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_DateTime_TimeStamp
+  name: Fun_DateTime_TimeStamp
+  nameWithType: ScriptwordDefinition_runtime.Fun_DateTime_TimeStamp
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_DateTime_TimeStamp
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_DateTime_Add*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_DateTime_Add
+  name: Fun_DateTime_Add
+  nameWithType: ScriptwordDefinition_runtime.Fun_DateTime_Add
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_DateTime_Add
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_DataModule*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_DataModule
+  name: Fun_DataModule
+  nameWithType: ScriptwordDefinition_runtime.Fun_DataModule
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_DataModule
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_DataModule_Name*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_DataModule_Name
+  name: Fun_DataModule_Name
+  nameWithType: ScriptwordDefinition_runtime.Fun_DataModule_Name
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Fun_DataModule_Name
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_GetEmpty*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_GetEmpty
+  name: Var_GetEmpty
+  nameWithType: ScriptwordDefinition_runtime.Var_GetEmpty
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_GetEmpty
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_Literal_Tab*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_Literal_Tab
+  name: Var_Literal_Tab
+  nameWithType: ScriptwordDefinition_runtime.Var_Literal_Tab
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_Literal_Tab
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_Literal_Cr*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_Literal_Cr
+  name: Var_Literal_Cr
+  nameWithType: ScriptwordDefinition_runtime.Var_Literal_Cr
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_Literal_Cr
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_Literal_CarretPos*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_Literal_CarretPos
+  name: Var_Literal_CarretPos
+  nameWithType: ScriptwordDefinition_runtime.Var_Literal_CarretPos
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_Literal_CarretPos
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_ApplicationFolderPath*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_ApplicationFolderPath
+  name: Var_ApplicationFolderPath
+  nameWithType: ScriptwordDefinition_runtime.Var_ApplicationFolderPath
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_ApplicationFolderPath
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_ApplicationRoamingFolderPath*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_ApplicationRoamingFolderPath
+  name: Var_ApplicationRoamingFolderPath
+  nameWithType: ScriptwordDefinition_runtime.Var_ApplicationRoamingFolderPath
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_ApplicationRoamingFolderPath
+- uid: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_MyDocumentsFolderPath*
+  commentId: Overload:BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_MyDocumentsFolderPath
+  name: Var_MyDocumentsFolderPath
+  nameWithType: ScriptwordDefinition_runtime.Var_MyDocumentsFolderPath
+  fullName: BindOpen.Extensions.Scriptwords.ScriptwordDefinition_runtime.Var_MyDocumentsFolderPath
+shouldSkipMarkup: true

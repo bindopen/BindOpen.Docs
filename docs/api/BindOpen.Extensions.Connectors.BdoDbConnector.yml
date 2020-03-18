@@ -1,0 +1,4049 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Extensions.Connectors.BdoDbConnector
+  commentId: T:BindOpen.Extensions.Connectors.BdoDbConnector
+  id: BdoDbConnector
+  parent: BindOpen.Extensions.Connectors
+  children:
+  - BindOpen.Extensions.Connectors.BdoDbConnector.#ctor
+  - BindOpen.Extensions.Connectors.BdoDbConnector.#ctor(System.String,System.String)
+  - BindOpen.Extensions.Connectors.BdoDbConnector._queryBuilder
+  - BindOpen.Extensions.Connectors.BdoDbConnector.CreateCommand(BindOpen.Data.Queries.IDbQuery,BindOpen.Data.Queries.DbQueryParameterMode,BindOpen.Data.Elements.IDataElementSet,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+  - BindOpen.Extensions.Connectors.BdoDbConnector.CreateCommandText(BindOpen.Data.Queries.IDbQuery,BindOpen.Data.Queries.DbQueryParameterMode,BindOpen.Data.Elements.IDataElementSet,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+  - BindOpen.Extensions.Connectors.BdoDbConnector.DatabaseConnectorKind
+  - BindOpen.Extensions.Connectors.BdoDbConnector.EstimateDbConnectorKind
+  - BindOpen.Extensions.Connectors.BdoDbConnector.EstimateDbConnectorKind(System.String)
+  - BindOpen.Extensions.Connectors.BdoDbConnector.InitialCatalog
+  - BindOpen.Extensions.Connectors.BdoDbConnector.IntegratedSecurity
+  - BindOpen.Extensions.Connectors.BdoDbConnector.Password
+  - BindOpen.Extensions.Connectors.BdoDbConnector.Provider
+  - BindOpen.Extensions.Connectors.BdoDbConnector.QueryBuilder
+  - BindOpen.Extensions.Connectors.BdoDbConnector.ServerAddress
+  - BindOpen.Extensions.Connectors.BdoDbConnector.UserName
+  - BindOpen.Extensions.Connectors.BdoDbConnector.WithConnectionString(System.String)
+  - BindOpen.Extensions.Connectors.BdoDbConnector.WithScope(BindOpen.Application.Scopes.IBdoScope)
+  langs:
+  - csharp
+  - vb
+  name: BdoDbConnector
+  nameWithType: BdoDbConnector
+  fullName: BindOpen.Extensions.Connectors.BdoDbConnector
+  type: Class
+  source:
+    remote:
+      path: src/BindOpen.Databases/Extensions/Connectors/BdoDbConnector.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: BdoDbConnector
+    path: ../src/BindOpen.Databases/Extensions/Connectors/BdoDbConnector.cs
+    startLine: 17
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Connectors
+  summary: "\nThis class defines a database connector.\n"
+  example: []
+  syntax:
+    content: 'public abstract class BdoDbConnector : TBdoConnector<IBdoDbConnection>, IBdoDbConnector, ITBdoConnector<IBdoDbConnection>, IBdoConnector, ITBdoExtensionItem<IBdoConnectorDefinition>, IBdoExtensionItem, IIdentifiedDataItem, IDataItem, ICloneable, IDisposable, IIdentified, IReferenced, INamed'
+    content.vb: >-
+      Public MustInherit Class BdoDbConnector
+          Inherits TBdoConnector(Of IBdoDbConnection)
+          Implements IBdoDbConnector, ITBdoConnector(Of IBdoDbConnection), IBdoConnector, ITBdoExtensionItem(Of IBdoConnectorDefinition), IBdoExtensionItem, IIdentifiedDataItem, IDataItem, ICloneable, IDisposable, IIdentified, IReferenced, INamed
+  inheritance:
+  - System.Object
+  - System.MarshalByRefObject
+  - BindOpen.Data.Items.DataItem
+  - BindOpen.Data.Items.IdentifiedDataItem
+  - BindOpen.Extensions.Runtime.TBdoExtensionItem{BindOpen.Extensions.Definition.IBdoConnectorDefinition}
+  - BindOpen.Extensions.Runtime.BdoConnector
+  - BindOpen.Extensions.Runtime.TBdoConnector{BindOpen.Data.Connections.IBdoDbConnection}
+  derivedClasses:
+  - BindOpen.Extensions.Connectors.BdoDbConnector_MSSqlServer
+  - BindOpen.Extensions.Connectors.BdoDbConnector_PostgreSql
+  implements:
+  - BindOpen.Extensions.Connectors.IBdoDbConnector
+  - BindOpen.Extensions.Runtime.ITBdoConnector{BindOpen.Data.Connections.IBdoDbConnection}
+  - BindOpen.Extensions.Runtime.IBdoConnector
+  - BindOpen.Extensions.Runtime.ITBdoExtensionItem{BindOpen.Extensions.Definition.IBdoConnectorDefinition}
+  - BindOpen.Extensions.Runtime.IBdoExtensionItem
+  - BindOpen.Data.Items.IIdentifiedDataItem
+  - BindOpen.Data.Items.IDataItem
+  - System.ICloneable
+  - System.IDisposable
+  - BindOpen.Data.Items.IIdentified
+  - BindOpen.Data.Items.IReferenced
+  - BindOpen.Data.Items.INamed
+  inheritedMembers:
+  - BindOpen.Extensions.Runtime.TBdoConnector{BindOpen.Data.Connections.IBdoDbConnection}.CreateConnection(BindOpen.System.Diagnostics.IBdoLog)
+  - BindOpen.Extensions.Runtime.TBdoConnector{BindOpen.Data.Connections.IBdoDbConnection}.UsingConnection(System.Action{BindOpen.Data.Connections.IBdoDbConnection},System.Boolean)
+  - BindOpen.Extensions.Runtime.TBdoConnector{BindOpen.Data.Connections.IBdoDbConnection}.UsingConnection(System.Action{BindOpen.Data.Connections.IBdoDbConnection,BindOpen.System.Diagnostics.IBdoLog},BindOpen.System.Diagnostics.IBdoLog,System.Boolean)
+  - BindOpen.Extensions.Runtime.BdoConnector.AsElement(System.String,BindOpen.System.Diagnostics.IBdoLog)
+  - BindOpen.Extensions.Runtime.BdoConnector.UpdateStorageInfo(BindOpen.System.Diagnostics.IBdoLog)
+  - BindOpen.Extensions.Runtime.BdoConnector.UpdateRuntimeInfo(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+  - BindOpen.Extensions.Runtime.BdoConnector.Configuration
+  - BindOpen.Extensions.Runtime.BdoConnector.ConnectionString
+  - BindOpen.Extensions.Runtime.BdoConnector.ConnectionTimeOut
+  - BindOpen.Extensions.Runtime.TBdoExtensionItem{BindOpen.Extensions.Definition.IBdoConnectorDefinition}._configuration
+  - BindOpen.Extensions.Runtime.TBdoExtensionItem{BindOpen.Extensions.Definition.IBdoConnectorDefinition}.AsElement(System.String)
+  - BindOpen.Extensions.Runtime.TBdoExtensionItem{BindOpen.Extensions.Definition.IBdoConnectorDefinition}.SetDefinition(BindOpen.Extensions.Definition.IBdoConnectorDefinition)
+  - BindOpen.Extensions.Runtime.TBdoExtensionItem{BindOpen.Extensions.Definition.IBdoConnectorDefinition}.Name
+  - BindOpen.Extensions.Runtime.TBdoExtensionItem{BindOpen.Extensions.Definition.IBdoConnectorDefinition}.BindOpen#Extensions#Runtime#IBdoExtensionItem#Configuration
+  - BindOpen.Extensions.Runtime.TBdoExtensionItem{BindOpen.Extensions.Definition.IBdoConnectorDefinition}.Definition
+  - BindOpen.Data.Items.IdentifiedDataItem.Key
+  - BindOpen.Data.Items.IdentifiedDataItem.NewGuid
+  - BindOpen.Data.Items.IdentifiedDataItem.Clone
+  - BindOpen.Data.Items.IdentifiedDataItem.Id
+  - BindOpen.Data.Items.IdentifiedDataItem.IdSpecified
+  - BindOpen.Data.Items.DataItem.InitializeLifetimeService
+  - BindOpen.Data.Items.DataItem.Clone``1
+  - BindOpen.Data.Items.DataItem.Update``1({T},System.String[],BindOpen.Data.Common.UpdateModes[])
+  - BindOpen.Data.Items.DataItem.Update(System.String[],BindOpen.Data.Common.UpdateModes[])
+  - BindOpen.Data.Items.DataItem.Check``1(System.Boolean,{T},System.String[])
+  - BindOpen.Data.Items.DataItem.Check(System.Boolean,System.String[])
+  - BindOpen.Data.Items.DataItem.Repair``1({T},System.String[],BindOpen.Data.Common.UpdateModes[])
+  - BindOpen.Data.Items.DataItem.Repair(System.String[],BindOpen.Data.Common.UpdateModes[])
+  - BindOpen.Data.Items.DataItem.Dispose
+  - BindOpen.Data.Items.DataItem.Dispose(System.Boolean)
+  - System.MarshalByRefObject.GetLifetimeService
+  - System.MarshalByRefObject.MemberwiseClone(System.Boolean)
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: BindOpen.Extensions.Connectors.BdoDbConnector._queryBuilder
+  commentId: F:BindOpen.Extensions.Connectors.BdoDbConnector._queryBuilder
+  id: _queryBuilder
+  parent: BindOpen.Extensions.Connectors.BdoDbConnector
+  langs:
+  - csharp
+  - vb
+  name: _queryBuilder
+  nameWithType: BdoDbConnector._queryBuilder
+  fullName: BindOpen.Extensions.Connectors.BdoDbConnector._queryBuilder
+  type: Field
+  source:
+    remote:
+      path: src/BindOpen.Databases/Extensions/Connectors/BdoDbConnector.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: _queryBuilder
+    path: ../src/BindOpen.Databases/Extensions/Connectors/BdoDbConnector.cs
+    startLine: 22
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Connectors
+  summary: "\nThe query builder of this instance.\n"
+  example: []
+  syntax:
+    content: protected DbQueryBuilder _queryBuilder
+    return:
+      type: BindOpen.Data.Queries.DbQueryBuilder
+    content.vb: Protected _queryBuilder As DbQueryBuilder
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: BindOpen.Extensions.Connectors.BdoDbConnector.QueryBuilder
+  commentId: P:BindOpen.Extensions.Connectors.BdoDbConnector.QueryBuilder
+  id: QueryBuilder
+  parent: BindOpen.Extensions.Connectors.BdoDbConnector
+  langs:
+  - csharp
+  - vb
+  name: QueryBuilder
+  nameWithType: BdoDbConnector.QueryBuilder
+  fullName: BindOpen.Extensions.Connectors.BdoDbConnector.QueryBuilder
+  type: Property
+  source:
+    remote:
+      path: src/BindOpen.Databases/Extensions/Connectors/BdoDbConnector.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: QueryBuilder
+    path: ../src/BindOpen.Databases/Extensions/Connectors/BdoDbConnector.cs
+    startLine: 33
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Connectors
+  summary: "\nThe provider of this instance.\n"
+  example: []
+  syntax:
+    content: protected DbQueryBuilder QueryBuilder { get; }
+    parameters: []
+    return:
+      type: BindOpen.Data.Queries.DbQueryBuilder
+    content.vb: Protected ReadOnly Property QueryBuilder As DbQueryBuilder
+  overload: BindOpen.Extensions.Connectors.BdoDbConnector.QueryBuilder*
+  modifiers.csharp:
+  - protected
+  - get
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+- uid: BindOpen.Extensions.Connectors.BdoDbConnector.Provider
+  commentId: P:BindOpen.Extensions.Connectors.BdoDbConnector.Provider
+  id: Provider
+  parent: BindOpen.Extensions.Connectors.BdoDbConnector
+  langs:
+  - csharp
+  - vb
+  name: Provider
+  nameWithType: BdoDbConnector.Provider
+  fullName: BindOpen.Extensions.Connectors.BdoDbConnector.Provider
+  type: Property
+  source:
+    remote:
+      path: src/BindOpen.Databases/Extensions/Connectors/BdoDbConnector.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: Provider
+    path: ../src/BindOpen.Databases/Extensions/Connectors/BdoDbConnector.cs
+    startLine: 39
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Connectors
+  summary: "\nThe provider of this instance.\n"
+  example: []
+  syntax:
+    content: >-
+      [DetailProperty(Name = "provider")]
+
+      public string Provider { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DetailProperty(Name:="provider")>
+
+      Public Property Provider As String
+  overload: BindOpen.Extensions.Connectors.BdoDbConnector.Provider*
+  implements:
+  - BindOpen.Extensions.Connectors.IBdoDbConnector.Provider
+  attributes:
+  - type: BindOpen.Extensions.Runtime.DetailPropertyAttribute
+    ctor: BindOpen.Extensions.Runtime.DetailPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: provider
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Extensions.Connectors.BdoDbConnector.ServerAddress
+  commentId: P:BindOpen.Extensions.Connectors.BdoDbConnector.ServerAddress
+  id: ServerAddress
+  parent: BindOpen.Extensions.Connectors.BdoDbConnector
+  langs:
+  - csharp
+  - vb
+  name: ServerAddress
+  nameWithType: BdoDbConnector.ServerAddress
+  fullName: BindOpen.Extensions.Connectors.BdoDbConnector.ServerAddress
+  type: Property
+  source:
+    remote:
+      path: src/BindOpen.Databases/Extensions/Connectors/BdoDbConnector.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: ServerAddress
+    path: ../src/BindOpen.Databases/Extensions/Connectors/BdoDbConnector.cs
+    startLine: 49
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Connectors
+  summary: "\nThe server address of this instance.\n"
+  example: []
+  syntax:
+    content: >-
+      [DetailProperty(Name = "serverAddress")]
+
+      public string ServerAddress { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DetailProperty(Name:="serverAddress")>
+
+      Public Property ServerAddress As String
+  overload: BindOpen.Extensions.Connectors.BdoDbConnector.ServerAddress*
+  implements:
+  - BindOpen.Extensions.Connectors.IBdoDbConnector.ServerAddress
+  attributes:
+  - type: BindOpen.Extensions.Runtime.DetailPropertyAttribute
+    ctor: BindOpen.Extensions.Runtime.DetailPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: serverAddress
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Extensions.Connectors.BdoDbConnector.InitialCatalog
+  commentId: P:BindOpen.Extensions.Connectors.BdoDbConnector.InitialCatalog
+  id: InitialCatalog
+  parent: BindOpen.Extensions.Connectors.BdoDbConnector
+  langs:
+  - csharp
+  - vb
+  name: InitialCatalog
+  nameWithType: BdoDbConnector.InitialCatalog
+  fullName: BindOpen.Extensions.Connectors.BdoDbConnector.InitialCatalog
+  type: Property
+  source:
+    remote:
+      path: src/BindOpen.Databases/Extensions/Connectors/BdoDbConnector.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: InitialCatalog
+    path: ../src/BindOpen.Databases/Extensions/Connectors/BdoDbConnector.cs
+    startLine: 59
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Connectors
+  summary: "\nThe initial catalog of this instance.\n"
+  example: []
+  syntax:
+    content: >-
+      [DetailProperty(Name = "initialCatalog")]
+
+      public string InitialCatalog { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DetailProperty(Name:="initialCatalog")>
+
+      Public Property InitialCatalog As String
+  overload: BindOpen.Extensions.Connectors.BdoDbConnector.InitialCatalog*
+  implements:
+  - BindOpen.Extensions.Connectors.IBdoDbConnector.InitialCatalog
+  attributes:
+  - type: BindOpen.Extensions.Runtime.DetailPropertyAttribute
+    ctor: BindOpen.Extensions.Runtime.DetailPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: initialCatalog
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Extensions.Connectors.BdoDbConnector.IntegratedSecurity
+  commentId: P:BindOpen.Extensions.Connectors.BdoDbConnector.IntegratedSecurity
+  id: IntegratedSecurity
+  parent: BindOpen.Extensions.Connectors.BdoDbConnector
+  langs:
+  - csharp
+  - vb
+  name: IntegratedSecurity
+  nameWithType: BdoDbConnector.IntegratedSecurity
+  fullName: BindOpen.Extensions.Connectors.BdoDbConnector.IntegratedSecurity
+  type: Property
+  source:
+    remote:
+      path: src/BindOpen.Databases/Extensions/Connectors/BdoDbConnector.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: IntegratedSecurity
+    path: ../src/BindOpen.Databases/Extensions/Connectors/BdoDbConnector.cs
+    startLine: 69
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Connectors
+  summary: "\nThe integrated security of this instance.\n"
+  example: []
+  syntax:
+    content: >-
+      [DetailProperty(Name = "integratedSecurity")]
+
+      public string IntegratedSecurity { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DetailProperty(Name:="integratedSecurity")>
+
+      Public Property IntegratedSecurity As String
+  overload: BindOpen.Extensions.Connectors.BdoDbConnector.IntegratedSecurity*
+  implements:
+  - BindOpen.Extensions.Connectors.IBdoDbConnector.IntegratedSecurity
+  attributes:
+  - type: BindOpen.Extensions.Runtime.DetailPropertyAttribute
+    ctor: BindOpen.Extensions.Runtime.DetailPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: integratedSecurity
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Extensions.Connectors.BdoDbConnector.UserName
+  commentId: P:BindOpen.Extensions.Connectors.BdoDbConnector.UserName
+  id: UserName
+  parent: BindOpen.Extensions.Connectors.BdoDbConnector
+  langs:
+  - csharp
+  - vb
+  name: UserName
+  nameWithType: BdoDbConnector.UserName
+  fullName: BindOpen.Extensions.Connectors.BdoDbConnector.UserName
+  type: Property
+  source:
+    remote:
+      path: src/BindOpen.Databases/Extensions/Connectors/BdoDbConnector.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: UserName
+    path: ../src/BindOpen.Databases/Extensions/Connectors/BdoDbConnector.cs
+    startLine: 79
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Connectors
+  summary: "\nThe user name of this instance.\n"
+  example: []
+  syntax:
+    content: >-
+      [DetailProperty(Name = "userName")]
+
+      public string UserName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DetailProperty(Name:="userName")>
+
+      Public Property UserName As String
+  overload: BindOpen.Extensions.Connectors.BdoDbConnector.UserName*
+  implements:
+  - BindOpen.Extensions.Connectors.IBdoDbConnector.UserName
+  attributes:
+  - type: BindOpen.Extensions.Runtime.DetailPropertyAttribute
+    ctor: BindOpen.Extensions.Runtime.DetailPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: userName
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Extensions.Connectors.BdoDbConnector.Password
+  commentId: P:BindOpen.Extensions.Connectors.BdoDbConnector.Password
+  id: Password
+  parent: BindOpen.Extensions.Connectors.BdoDbConnector
+  langs:
+  - csharp
+  - vb
+  name: Password
+  nameWithType: BdoDbConnector.Password
+  fullName: BindOpen.Extensions.Connectors.BdoDbConnector.Password
+  type: Property
+  source:
+    remote:
+      path: src/BindOpen.Databases/Extensions/Connectors/BdoDbConnector.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: Password
+    path: ../src/BindOpen.Databases/Extensions/Connectors/BdoDbConnector.cs
+    startLine: 89
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Connectors
+  summary: "\nThe password of this instance.\n"
+  example: []
+  syntax:
+    content: >-
+      [DetailProperty(Name = "password")]
+
+      public string Password { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DetailProperty(Name:="password")>
+
+      Public Property Password As String
+  overload: BindOpen.Extensions.Connectors.BdoDbConnector.Password*
+  implements:
+  - BindOpen.Extensions.Connectors.IBdoDbConnector.Password
+  attributes:
+  - type: BindOpen.Extensions.Runtime.DetailPropertyAttribute
+    ctor: BindOpen.Extensions.Runtime.DetailPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: password
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Extensions.Connectors.BdoDbConnector.DatabaseConnectorKind
+  commentId: P:BindOpen.Extensions.Connectors.BdoDbConnector.DatabaseConnectorKind
+  id: DatabaseConnectorKind
+  parent: BindOpen.Extensions.Connectors.BdoDbConnector
+  langs:
+  - csharp
+  - vb
+  name: DatabaseConnectorKind
+  nameWithType: BdoDbConnector.DatabaseConnectorKind
+  fullName: BindOpen.Extensions.Connectors.BdoDbConnector.DatabaseConnectorKind
+  type: Property
+  source:
+    remote:
+      path: src/BindOpen.Databases/Extensions/Connectors/BdoDbConnector.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: DatabaseConnectorKind
+    path: ../src/BindOpen.Databases/Extensions/Connectors/BdoDbConnector.cs
+    startLine: 99
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Connectors
+  summary: "\nThe database kind of this instance.\n"
+  example: []
+  syntax:
+    content: >-
+      [DetailProperty(Name = "databaseKind")]
+
+      public BdoDbConnectorKind DatabaseConnectorKind { get; set; }
+    parameters: []
+    return:
+      type: BindOpen.Extensions.Connectors.BdoDbConnectorKind
+    content.vb: >-
+      <DetailProperty(Name:="databaseKind")>
+
+      Public Property DatabaseConnectorKind As BdoDbConnectorKind
+  overload: BindOpen.Extensions.Connectors.BdoDbConnector.DatabaseConnectorKind*
+  implements:
+  - BindOpen.Extensions.Connectors.IBdoDbConnector.DatabaseConnectorKind
+  attributes:
+  - type: BindOpen.Extensions.Runtime.DetailPropertyAttribute
+    ctor: BindOpen.Extensions.Runtime.DetailPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Name
+      type: System.String
+      value: databaseKind
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Extensions.Connectors.BdoDbConnector.#ctor
+  commentId: M:BindOpen.Extensions.Connectors.BdoDbConnector.#ctor
+  id: '#ctor'
+  parent: BindOpen.Extensions.Connectors.BdoDbConnector
+  langs:
+  - csharp
+  - vb
+  name: BdoDbConnector()
+  nameWithType: BdoDbConnector.BdoDbConnector()
+  fullName: BindOpen.Extensions.Connectors.BdoDbConnector.BdoDbConnector()
+  type: Constructor
+  source:
+    remote:
+      path: src/BindOpen.Databases/Extensions/Connectors/BdoDbConnector.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: .ctor
+    path: ../src/BindOpen.Databases/Extensions/Connectors/BdoDbConnector.cs
+    startLine: 117
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Connectors
+  summary: "\nInstantiates a new instance of the DatabaseConnector class.\n"
+  example: []
+  syntax:
+    content: protected BdoDbConnector()
+    content.vb: Protected Sub New
+  overload: BindOpen.Extensions.Connectors.BdoDbConnector.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: BindOpen.Extensions.Connectors.BdoDbConnector.#ctor(System.String,System.String)
+  commentId: M:BindOpen.Extensions.Connectors.BdoDbConnector.#ctor(System.String,System.String)
+  id: '#ctor(System.String,System.String)'
+  parent: BindOpen.Extensions.Connectors.BdoDbConnector
+  langs:
+  - csharp
+  - vb
+  name: BdoDbConnector(String, String)
+  nameWithType: BdoDbConnector.BdoDbConnector(String, String)
+  fullName: BindOpen.Extensions.Connectors.BdoDbConnector.BdoDbConnector(System.String, System.String)
+  type: Constructor
+  source:
+    remote:
+      path: src/BindOpen.Databases/Extensions/Connectors/BdoDbConnector.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: .ctor
+    path: ../src/BindOpen.Databases/Extensions/Connectors/BdoDbConnector.cs
+    startLine: 126
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Connectors
+  summary: "\nInstantiates a new instance of the DatabaseConnector class.\n"
+  example: []
+  syntax:
+    content: protected BdoDbConnector(string name, string connectionString = null)
+    parameters:
+    - id: name
+      type: System.String
+      description: The name of this instance.
+    - id: connectionString
+      type: System.String
+      description: The connection string to consider.
+    content.vb: Protected Sub New(name As String, connectionString As String = Nothing)
+  overload: BindOpen.Extensions.Connectors.BdoDbConnector.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: BindOpen.Extensions.Connectors.BdoDbConnector.WithConnectionString(System.String)
+  commentId: M:BindOpen.Extensions.Connectors.BdoDbConnector.WithConnectionString(System.String)
+  id: WithConnectionString(System.String)
+  parent: BindOpen.Extensions.Connectors.BdoDbConnector
+  langs:
+  - csharp
+  - vb
+  name: WithConnectionString(String)
+  nameWithType: BdoDbConnector.WithConnectionString(String)
+  fullName: BindOpen.Extensions.Connectors.BdoDbConnector.WithConnectionString(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Databases/Extensions/Connectors/BdoDbConnector.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: WithConnectionString
+    path: ../src/BindOpen.Databases/Extensions/Connectors/BdoDbConnector.cs
+    startLine: 143
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Connectors
+  summary: "\nUpdates the connection string with the specified string.\n"
+  example: []
+  syntax:
+    content: public override IBdoConnector WithConnectionString(string connectionString = null)
+    parameters:
+    - id: connectionString
+      type: System.String
+      description: The connection string to consider.
+    return:
+      type: BindOpen.Extensions.Runtime.IBdoConnector
+    content.vb: Public Overrides Function WithConnectionString(connectionString As String = Nothing) As IBdoConnector
+  overridden: BindOpen.Extensions.Runtime.BdoConnector.WithConnectionString(System.String)
+  overload: BindOpen.Extensions.Connectors.BdoDbConnector.WithConnectionString*
+  implements:
+  - BindOpen.Extensions.Runtime.IBdoConnector.WithConnectionString(System.String)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: BindOpen.Extensions.Connectors.BdoDbConnector.WithScope(BindOpen.Application.Scopes.IBdoScope)
+  commentId: M:BindOpen.Extensions.Connectors.BdoDbConnector.WithScope(BindOpen.Application.Scopes.IBdoScope)
+  id: WithScope(BindOpen.Application.Scopes.IBdoScope)
+  parent: BindOpen.Extensions.Connectors.BdoDbConnector
+  langs:
+  - csharp
+  - vb
+  name: WithScope(IBdoScope)
+  nameWithType: BdoDbConnector.WithScope(IBdoScope)
+  fullName: BindOpen.Extensions.Connectors.BdoDbConnector.WithScope(BindOpen.Application.Scopes.IBdoScope)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Databases/Extensions/Connectors/BdoDbConnector.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: WithScope
+    path: ../src/BindOpen.Databases/Extensions/Connectors/BdoDbConnector.cs
+    startLine: 162
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Connectors
+  summary: "\nUpdates the instance considering the specified scope.\n"
+  example: []
+  syntax:
+    content: public override IBdoConnector WithScope(IBdoScope scope)
+    parameters:
+    - id: scope
+      type: BindOpen.Application.Scopes.IBdoScope
+      description: The scope to consider.
+    return:
+      type: BindOpen.Extensions.Runtime.IBdoConnector
+    content.vb: Public Overrides Function WithScope(scope As IBdoScope) As IBdoConnector
+  overridden: BindOpen.Extensions.Runtime.BdoConnector.WithScope(BindOpen.Application.Scopes.IBdoScope)
+  overload: BindOpen.Extensions.Connectors.BdoDbConnector.WithScope*
+  implements:
+  - BindOpen.Extensions.Runtime.IBdoConnector.WithScope(BindOpen.Application.Scopes.IBdoScope)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: BindOpen.Extensions.Connectors.BdoDbConnector.CreateCommandText(BindOpen.Data.Queries.IDbQuery,BindOpen.Data.Queries.DbQueryParameterMode,BindOpen.Data.Elements.IDataElementSet,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+  commentId: M:BindOpen.Extensions.Connectors.BdoDbConnector.CreateCommandText(BindOpen.Data.Queries.IDbQuery,BindOpen.Data.Queries.DbQueryParameterMode,BindOpen.Data.Elements.IDataElementSet,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+  id: CreateCommandText(BindOpen.Data.Queries.IDbQuery,BindOpen.Data.Queries.DbQueryParameterMode,BindOpen.Data.Elements.IDataElementSet,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+  parent: BindOpen.Extensions.Connectors.BdoDbConnector
+  langs:
+  - csharp
+  - vb
+  name: CreateCommandText(IDbQuery, DbQueryParameterMode, IDataElementSet, IBdoScriptVariableSet, IBdoLog)
+  nameWithType: BdoDbConnector.CreateCommandText(IDbQuery, DbQueryParameterMode, IDataElementSet, IBdoScriptVariableSet, IBdoLog)
+  fullName: BindOpen.Extensions.Connectors.BdoDbConnector.CreateCommandText(BindOpen.Data.Queries.IDbQuery, BindOpen.Data.Queries.DbQueryParameterMode, BindOpen.Data.Elements.IDataElementSet, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.System.Diagnostics.IBdoLog)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Databases/Extensions/Connectors/BdoDbConnector.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: CreateCommandText
+    path: ../src/BindOpen.Databases/Extensions/Connectors/BdoDbConnector.cs
+    startLine: 188
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Connectors
+  summary: "\nGets the SQL text of the specified query.\n"
+  example: []
+  syntax:
+    content: public string CreateCommandText(IDbQuery query, DbQueryParameterMode parameterMode = DbQueryParameterMode.ValueInjected, IDataElementSet parameterSet = null, IBdoScriptVariableSet scriptVariableSet = null, IBdoLog log = null)
+    parameters:
+    - id: query
+      type: BindOpen.Data.Queries.IDbQuery
+      description: The query to consider.
+    - id: parameterMode
+      type: BindOpen.Data.Queries.DbQueryParameterMode
+      description: Indicates whether parameters are replaced.
+    - id: parameterSet
+      type: BindOpen.Data.Elements.IDataElementSet
+      description: The parameter set to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: The script variable set to consider.
+    - id: log
+      type: BindOpen.System.Diagnostics.IBdoLog
+      description: The log to consider.
+    return:
+      type: System.String
+      description: Returns the SQL text of the specified query.
+    content.vb: Public Function CreateCommandText(query As IDbQuery, parameterMode As DbQueryParameterMode = DbQueryParameterMode.ValueInjected, parameterSet As IDataElementSet = Nothing, scriptVariableSet As IBdoScriptVariableSet = Nothing, log As IBdoLog = Nothing) As String
+  overload: BindOpen.Extensions.Connectors.BdoDbConnector.CreateCommandText*
+  implements:
+  - BindOpen.Extensions.Connectors.IBdoDbConnector.CreateCommandText(BindOpen.Data.Queries.IDbQuery,BindOpen.Data.Queries.DbQueryParameterMode,BindOpen.Data.Elements.IDataElementSet,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BindOpen.Extensions.Connectors.BdoDbConnector.CreateCommand(BindOpen.Data.Queries.IDbQuery,BindOpen.Data.Queries.DbQueryParameterMode,BindOpen.Data.Elements.IDataElementSet,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+  commentId: M:BindOpen.Extensions.Connectors.BdoDbConnector.CreateCommand(BindOpen.Data.Queries.IDbQuery,BindOpen.Data.Queries.DbQueryParameterMode,BindOpen.Data.Elements.IDataElementSet,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+  id: CreateCommand(BindOpen.Data.Queries.IDbQuery,BindOpen.Data.Queries.DbQueryParameterMode,BindOpen.Data.Elements.IDataElementSet,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+  parent: BindOpen.Extensions.Connectors.BdoDbConnector
+  langs:
+  - csharp
+  - vb
+  name: CreateCommand(IDbQuery, DbQueryParameterMode, IDataElementSet, IBdoScriptVariableSet, IBdoLog)
+  nameWithType: BdoDbConnector.CreateCommand(IDbQuery, DbQueryParameterMode, IDataElementSet, IBdoScriptVariableSet, IBdoLog)
+  fullName: BindOpen.Extensions.Connectors.BdoDbConnector.CreateCommand(BindOpen.Data.Queries.IDbQuery, BindOpen.Data.Queries.DbQueryParameterMode, BindOpen.Data.Elements.IDataElementSet, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.System.Diagnostics.IBdoLog)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Databases/Extensions/Connectors/BdoDbConnector.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: CreateCommand
+    path: ../src/BindOpen.Databases/Extensions/Connectors/BdoDbConnector.cs
+    startLine: 214
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Connectors
+  summary: "\nCreates a command from the specified query.\n"
+  example: []
+  syntax:
+    content: public abstract IDbCommand CreateCommand(IDbQuery query, DbQueryParameterMode parameterMode, IDataElementSet parameterSet = null, IBdoScriptVariableSet scriptVariableSet = null, IBdoLog log = null)
+    parameters:
+    - id: query
+      type: BindOpen.Data.Queries.IDbQuery
+      description: The query to consider.
+    - id: parameterMode
+      type: BindOpen.Data.Queries.DbQueryParameterMode
+      description: Indicates whether parameters are replaced.
+    - id: parameterSet
+      type: BindOpen.Data.Elements.IDataElementSet
+      description: The parameter elements to consider.
+    - id: scriptVariableSet
+      type: BindOpen.System.Scripting.IBdoScriptVariableSet
+      description: The script variable set to consider.
+    - id: log
+      type: BindOpen.System.Diagnostics.IBdoLog
+      description: The log to consider.
+    return:
+      type: System.Data.IDbCommand
+      description: Returns the database command.
+    content.vb: Public MustOverride Function CreateCommand(query As IDbQuery, parameterMode As DbQueryParameterMode, parameterSet As IDataElementSet = Nothing, scriptVariableSet As IBdoScriptVariableSet = Nothing, log As IBdoLog = Nothing) As IDbCommand
+  overload: BindOpen.Extensions.Connectors.BdoDbConnector.CreateCommand*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: BindOpen.Extensions.Connectors.BdoDbConnector.EstimateDbConnectorKind(System.String)
+  commentId: M:BindOpen.Extensions.Connectors.BdoDbConnector.EstimateDbConnectorKind(System.String)
+  id: EstimateDbConnectorKind(System.String)
+  parent: BindOpen.Extensions.Connectors.BdoDbConnector
+  langs:
+  - csharp
+  - vb
+  name: EstimateDbConnectorKind(String)
+  nameWithType: BdoDbConnector.EstimateDbConnectorKind(String)
+  fullName: BindOpen.Extensions.Connectors.BdoDbConnector.EstimateDbConnectorKind(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Databases/Extensions/Connectors/BdoDbConnector.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: EstimateDbConnectorKind
+    path: ../src/BindOpen.Databases/Extensions/Connectors/BdoDbConnector.cs
+    startLine: 236
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Connectors
+  summary: "\nEstimates the database connector kind from the specified connection string.\n"
+  example: []
+  syntax:
+    content: public static BdoDbConnectorKind EstimateDbConnectorKind(string connectionString)
+    parameters:
+    - id: connectionString
+      type: System.String
+      description: The connection string.
+    return:
+      type: BindOpen.Extensions.Connectors.BdoDbConnectorKind
+      description: The database provider  of the specified connection string.
+    content.vb: Public Shared Function EstimateDbConnectorKind(connectionString As String) As BdoDbConnectorKind
+  overload: BindOpen.Extensions.Connectors.BdoDbConnector.EstimateDbConnectorKind*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Extensions.Connectors.BdoDbConnector.EstimateDbConnectorKind
+  commentId: M:BindOpen.Extensions.Connectors.BdoDbConnector.EstimateDbConnectorKind
+  id: EstimateDbConnectorKind
+  parent: BindOpen.Extensions.Connectors.BdoDbConnector
+  langs:
+  - csharp
+  - vb
+  name: EstimateDbConnectorKind()
+  nameWithType: BdoDbConnector.EstimateDbConnectorKind()
+  fullName: BindOpen.Extensions.Connectors.BdoDbConnector.EstimateDbConnectorKind()
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Databases/Extensions/Connectors/BdoDbConnector.cs
+      branch: master
+      repo: https://github.com/bindopen/BindOpen.Databases.git
+    id: EstimateDbConnectorKind
+    path: ../src/BindOpen.Databases/Extensions/Connectors/BdoDbConnector.cs
+    startLine: 267
+  assemblies:
+  - BindOpen.Databases
+  namespace: BindOpen.Extensions.Connectors
+  summary: "\nEstimates the database connector kind of this instance.\n"
+  example: []
+  syntax:
+    content: public BdoDbConnectorKind EstimateDbConnectorKind()
+    return:
+      type: BindOpen.Extensions.Connectors.BdoDbConnectorKind
+      description: The database connector kind of this instance.
+    content.vb: Public Function EstimateDbConnectorKind As BdoDbConnectorKind
+  overload: BindOpen.Extensions.Connectors.BdoDbConnector.EstimateDbConnectorKind*
+  implements:
+  - BindOpen.Extensions.Connectors.IBdoDbConnector.EstimateDbConnectorKind
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: BindOpen.Extensions.Connectors
+  commentId: N:BindOpen.Extensions.Connectors
+  name: BindOpen.Extensions.Connectors
+  nameWithType: BindOpen.Extensions.Connectors
+  fullName: BindOpen.Extensions.Connectors
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.MarshalByRefObject
+  commentId: T:System.MarshalByRefObject
+  parent: System
+  isExternal: true
+  name: MarshalByRefObject
+  nameWithType: MarshalByRefObject
+  fullName: System.MarshalByRefObject
+- uid: BindOpen.Data.Items.DataItem
+  commentId: T:BindOpen.Data.Items.DataItem
+  parent: BindOpen.Data.Items
+  isExternal: true
+  name: DataItem
+  nameWithType: DataItem
+  fullName: BindOpen.Data.Items.DataItem
+- uid: BindOpen.Data.Items.IdentifiedDataItem
+  commentId: T:BindOpen.Data.Items.IdentifiedDataItem
+  parent: BindOpen.Data.Items
+  isExternal: true
+  name: IdentifiedDataItem
+  nameWithType: IdentifiedDataItem
+  fullName: BindOpen.Data.Items.IdentifiedDataItem
+- uid: BindOpen.Extensions.Runtime.TBdoExtensionItem{BindOpen.Extensions.Definition.IBdoConnectorDefinition}
+  commentId: T:BindOpen.Extensions.Runtime.TBdoExtensionItem{BindOpen.Extensions.Definition.IBdoConnectorDefinition}
+  parent: BindOpen.Extensions.Runtime
+  definition: BindOpen.Extensions.Runtime.TBdoExtensionItem`1
+  name: TBdoExtensionItem<IBdoConnectorDefinition>
+  nameWithType: TBdoExtensionItem<IBdoConnectorDefinition>
+  fullName: BindOpen.Extensions.Runtime.TBdoExtensionItem<BindOpen.Extensions.Definition.IBdoConnectorDefinition>
+  nameWithType.vb: TBdoExtensionItem(Of IBdoConnectorDefinition)
+  fullName.vb: BindOpen.Extensions.Runtime.TBdoExtensionItem(Of BindOpen.Extensions.Definition.IBdoConnectorDefinition)
+  name.vb: TBdoExtensionItem(Of IBdoConnectorDefinition)
+  spec.csharp:
+  - uid: BindOpen.Extensions.Runtime.TBdoExtensionItem`1
+    name: TBdoExtensionItem
+    nameWithType: TBdoExtensionItem
+    fullName: BindOpen.Extensions.Runtime.TBdoExtensionItem
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BindOpen.Extensions.Definition.IBdoConnectorDefinition
+    name: IBdoConnectorDefinition
+    nameWithType: IBdoConnectorDefinition
+    fullName: BindOpen.Extensions.Definition.IBdoConnectorDefinition
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: BindOpen.Extensions.Runtime.TBdoExtensionItem`1
+    name: TBdoExtensionItem
+    nameWithType: TBdoExtensionItem
+    fullName: BindOpen.Extensions.Runtime.TBdoExtensionItem
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BindOpen.Extensions.Definition.IBdoConnectorDefinition
+    name: IBdoConnectorDefinition
+    nameWithType: IBdoConnectorDefinition
+    fullName: BindOpen.Extensions.Definition.IBdoConnectorDefinition
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Extensions.Runtime.BdoConnector
+  commentId: T:BindOpen.Extensions.Runtime.BdoConnector
+  parent: BindOpen.Extensions.Runtime
+  isExternal: true
+  name: BdoConnector
+  nameWithType: BdoConnector
+  fullName: BindOpen.Extensions.Runtime.BdoConnector
+- uid: BindOpen.Extensions.Runtime.TBdoConnector{BindOpen.Data.Connections.IBdoDbConnection}
+  commentId: T:BindOpen.Extensions.Runtime.TBdoConnector{BindOpen.Data.Connections.IBdoDbConnection}
+  parent: BindOpen.Extensions.Runtime
+  definition: BindOpen.Extensions.Runtime.TBdoConnector`1
+  name: TBdoConnector<IBdoDbConnection>
+  nameWithType: TBdoConnector<IBdoDbConnection>
+  fullName: BindOpen.Extensions.Runtime.TBdoConnector<BindOpen.Data.Connections.IBdoDbConnection>
+  nameWithType.vb: TBdoConnector(Of IBdoDbConnection)
+  fullName.vb: BindOpen.Extensions.Runtime.TBdoConnector(Of BindOpen.Data.Connections.IBdoDbConnection)
+  name.vb: TBdoConnector(Of IBdoDbConnection)
+  spec.csharp:
+  - uid: BindOpen.Extensions.Runtime.TBdoConnector`1
+    name: TBdoConnector
+    nameWithType: TBdoConnector
+    fullName: BindOpen.Extensions.Runtime.TBdoConnector
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BindOpen.Data.Connections.IBdoDbConnection
+    name: IBdoDbConnection
+    nameWithType: IBdoDbConnection
+    fullName: BindOpen.Data.Connections.IBdoDbConnection
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: BindOpen.Extensions.Runtime.TBdoConnector`1
+    name: TBdoConnector
+    nameWithType: TBdoConnector
+    fullName: BindOpen.Extensions.Runtime.TBdoConnector
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BindOpen.Data.Connections.IBdoDbConnection
+    name: IBdoDbConnection
+    nameWithType: IBdoDbConnection
+    fullName: BindOpen.Data.Connections.IBdoDbConnection
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Extensions.Connectors.IBdoDbConnector
+  commentId: T:BindOpen.Extensions.Connectors.IBdoDbConnector
+  parent: BindOpen.Extensions.Connectors
+  name: IBdoDbConnector
+  nameWithType: IBdoDbConnector
+  fullName: BindOpen.Extensions.Connectors.IBdoDbConnector
+- uid: BindOpen.Extensions.Runtime.ITBdoConnector{BindOpen.Data.Connections.IBdoDbConnection}
+  commentId: T:BindOpen.Extensions.Runtime.ITBdoConnector{BindOpen.Data.Connections.IBdoDbConnection}
+  parent: BindOpen.Extensions.Runtime
+  definition: BindOpen.Extensions.Runtime.ITBdoConnector`1
+  name: ITBdoConnector<IBdoDbConnection>
+  nameWithType: ITBdoConnector<IBdoDbConnection>
+  fullName: BindOpen.Extensions.Runtime.ITBdoConnector<BindOpen.Data.Connections.IBdoDbConnection>
+  nameWithType.vb: ITBdoConnector(Of IBdoDbConnection)
+  fullName.vb: BindOpen.Extensions.Runtime.ITBdoConnector(Of BindOpen.Data.Connections.IBdoDbConnection)
+  name.vb: ITBdoConnector(Of IBdoDbConnection)
+  spec.csharp:
+  - uid: BindOpen.Extensions.Runtime.ITBdoConnector`1
+    name: ITBdoConnector
+    nameWithType: ITBdoConnector
+    fullName: BindOpen.Extensions.Runtime.ITBdoConnector
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BindOpen.Data.Connections.IBdoDbConnection
+    name: IBdoDbConnection
+    nameWithType: IBdoDbConnection
+    fullName: BindOpen.Data.Connections.IBdoDbConnection
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: BindOpen.Extensions.Runtime.ITBdoConnector`1
+    name: ITBdoConnector
+    nameWithType: ITBdoConnector
+    fullName: BindOpen.Extensions.Runtime.ITBdoConnector
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BindOpen.Data.Connections.IBdoDbConnection
+    name: IBdoDbConnection
+    nameWithType: IBdoDbConnection
+    fullName: BindOpen.Data.Connections.IBdoDbConnection
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Extensions.Runtime.IBdoConnector
+  commentId: T:BindOpen.Extensions.Runtime.IBdoConnector
+  parent: BindOpen.Extensions.Runtime
+  isExternal: true
+  name: IBdoConnector
+  nameWithType: IBdoConnector
+  fullName: BindOpen.Extensions.Runtime.IBdoConnector
+- uid: BindOpen.Extensions.Runtime.ITBdoExtensionItem{BindOpen.Extensions.Definition.IBdoConnectorDefinition}
+  commentId: T:BindOpen.Extensions.Runtime.ITBdoExtensionItem{BindOpen.Extensions.Definition.IBdoConnectorDefinition}
+  parent: BindOpen.Extensions.Runtime
+  definition: BindOpen.Extensions.Runtime.ITBdoExtensionItem`1
+  name: ITBdoExtensionItem<IBdoConnectorDefinition>
+  nameWithType: ITBdoExtensionItem<IBdoConnectorDefinition>
+  fullName: BindOpen.Extensions.Runtime.ITBdoExtensionItem<BindOpen.Extensions.Definition.IBdoConnectorDefinition>
+  nameWithType.vb: ITBdoExtensionItem(Of IBdoConnectorDefinition)
+  fullName.vb: BindOpen.Extensions.Runtime.ITBdoExtensionItem(Of BindOpen.Extensions.Definition.IBdoConnectorDefinition)
+  name.vb: ITBdoExtensionItem(Of IBdoConnectorDefinition)
+  spec.csharp:
+  - uid: BindOpen.Extensions.Runtime.ITBdoExtensionItem`1
+    name: ITBdoExtensionItem
+    nameWithType: ITBdoExtensionItem
+    fullName: BindOpen.Extensions.Runtime.ITBdoExtensionItem
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BindOpen.Extensions.Definition.IBdoConnectorDefinition
+    name: IBdoConnectorDefinition
+    nameWithType: IBdoConnectorDefinition
+    fullName: BindOpen.Extensions.Definition.IBdoConnectorDefinition
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: BindOpen.Extensions.Runtime.ITBdoExtensionItem`1
+    name: ITBdoExtensionItem
+    nameWithType: ITBdoExtensionItem
+    fullName: BindOpen.Extensions.Runtime.ITBdoExtensionItem
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BindOpen.Extensions.Definition.IBdoConnectorDefinition
+    name: IBdoConnectorDefinition
+    nameWithType: IBdoConnectorDefinition
+    fullName: BindOpen.Extensions.Definition.IBdoConnectorDefinition
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Extensions.Runtime.IBdoExtensionItem
+  commentId: T:BindOpen.Extensions.Runtime.IBdoExtensionItem
+  parent: BindOpen.Extensions.Runtime
+  isExternal: true
+  name: IBdoExtensionItem
+  nameWithType: IBdoExtensionItem
+  fullName: BindOpen.Extensions.Runtime.IBdoExtensionItem
+- uid: BindOpen.Data.Items.IIdentifiedDataItem
+  commentId: T:BindOpen.Data.Items.IIdentifiedDataItem
+  parent: BindOpen.Data.Items
+  isExternal: true
+  name: IIdentifiedDataItem
+  nameWithType: IIdentifiedDataItem
+  fullName: BindOpen.Data.Items.IIdentifiedDataItem
+- uid: BindOpen.Data.Items.IDataItem
+  commentId: T:BindOpen.Data.Items.IDataItem
+  parent: BindOpen.Data.Items
+  isExternal: true
+  name: IDataItem
+  nameWithType: IDataItem
+  fullName: BindOpen.Data.Items.IDataItem
+- uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
+  isExternal: true
+  name: ICloneable
+  nameWithType: ICloneable
+  fullName: System.ICloneable
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: BindOpen.Data.Items.IIdentified
+  commentId: T:BindOpen.Data.Items.IIdentified
+  parent: BindOpen.Data.Items
+  isExternal: true
+  name: IIdentified
+  nameWithType: IIdentified
+  fullName: BindOpen.Data.Items.IIdentified
+- uid: BindOpen.Data.Items.IReferenced
+  commentId: T:BindOpen.Data.Items.IReferenced
+  parent: BindOpen.Data.Items
+  isExternal: true
+  name: IReferenced
+  nameWithType: IReferenced
+  fullName: BindOpen.Data.Items.IReferenced
+- uid: BindOpen.Data.Items.INamed
+  commentId: T:BindOpen.Data.Items.INamed
+  parent: BindOpen.Data.Items
+  isExternal: true
+  name: INamed
+  nameWithType: INamed
+  fullName: BindOpen.Data.Items.INamed
+- uid: BindOpen.Extensions.Runtime.TBdoConnector{BindOpen.Data.Connections.IBdoDbConnection}.CreateConnection(BindOpen.System.Diagnostics.IBdoLog)
+  commentId: M:BindOpen.Extensions.Runtime.TBdoConnector{BindOpen.Data.Connections.IBdoDbConnection}.CreateConnection(BindOpen.System.Diagnostics.IBdoLog)
+  parent: BindOpen.Extensions.Runtime.TBdoConnector{BindOpen.Data.Connections.IBdoDbConnection}
+  definition: BindOpen.Extensions.Runtime.TBdoConnector`1.CreateConnection(BindOpen.System.Diagnostics.IBdoLog)
+  name: CreateConnection(IBdoLog)
+  nameWithType: TBdoConnector<IBdoDbConnection>.CreateConnection(IBdoLog)
+  fullName: BindOpen.Extensions.Runtime.TBdoConnector<BindOpen.Data.Connections.IBdoDbConnection>.CreateConnection(BindOpen.System.Diagnostics.IBdoLog)
+  nameWithType.vb: TBdoConnector(Of IBdoDbConnection).CreateConnection(IBdoLog)
+  fullName.vb: BindOpen.Extensions.Runtime.TBdoConnector(Of BindOpen.Data.Connections.IBdoDbConnection).CreateConnection(BindOpen.System.Diagnostics.IBdoLog)
+  spec.csharp:
+  - uid: BindOpen.Extensions.Runtime.TBdoConnector`1.CreateConnection(BindOpen.System.Diagnostics.IBdoLog)
+    name: CreateConnection
+    nameWithType: TBdoConnector<IBdoDbConnection>.CreateConnection
+    fullName: BindOpen.Extensions.Runtime.TBdoConnector<BindOpen.Data.Connections.IBdoDbConnection>.CreateConnection
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Extensions.Runtime.TBdoConnector`1.CreateConnection(BindOpen.System.Diagnostics.IBdoLog)
+    name: CreateConnection
+    nameWithType: TBdoConnector(Of IBdoDbConnection).CreateConnection
+    fullName: BindOpen.Extensions.Runtime.TBdoConnector(Of BindOpen.Data.Connections.IBdoDbConnection).CreateConnection
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Extensions.Runtime.TBdoConnector{BindOpen.Data.Connections.IBdoDbConnection}.UsingConnection(System.Action{BindOpen.Data.Connections.IBdoDbConnection},System.Boolean)
+  commentId: M:BindOpen.Extensions.Runtime.TBdoConnector{BindOpen.Data.Connections.IBdoDbConnection}.UsingConnection(System.Action{BindOpen.Data.Connections.IBdoDbConnection},System.Boolean)
+  parent: BindOpen.Extensions.Runtime.TBdoConnector{BindOpen.Data.Connections.IBdoDbConnection}
+  definition: BindOpen.Extensions.Runtime.TBdoConnector`1.UsingConnection(System.Action{`0},System.Boolean)
+  name: UsingConnection(Action<IBdoDbConnection>, Boolean)
+  nameWithType: TBdoConnector<IBdoDbConnection>.UsingConnection(Action<IBdoDbConnection>, Boolean)
+  fullName: BindOpen.Extensions.Runtime.TBdoConnector<BindOpen.Data.Connections.IBdoDbConnection>.UsingConnection(System.Action<BindOpen.Data.Connections.IBdoDbConnection>, System.Boolean)
+  nameWithType.vb: TBdoConnector(Of IBdoDbConnection).UsingConnection(Action(Of IBdoDbConnection), Boolean)
+  fullName.vb: BindOpen.Extensions.Runtime.TBdoConnector(Of BindOpen.Data.Connections.IBdoDbConnection).UsingConnection(System.Action(Of BindOpen.Data.Connections.IBdoDbConnection), System.Boolean)
+  name.vb: UsingConnection(Action(Of IBdoDbConnection), Boolean)
+  spec.csharp:
+  - uid: BindOpen.Extensions.Runtime.TBdoConnector`1.UsingConnection(System.Action{`0},System.Boolean)
+    name: UsingConnection
+    nameWithType: TBdoConnector<IBdoDbConnection>.UsingConnection
+    fullName: BindOpen.Extensions.Runtime.TBdoConnector<BindOpen.Data.Connections.IBdoDbConnection>.UsingConnection
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BindOpen.Data.Connections.IBdoDbConnection
+    name: IBdoDbConnection
+    nameWithType: IBdoDbConnection
+    fullName: BindOpen.Data.Connections.IBdoDbConnection
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Extensions.Runtime.TBdoConnector`1.UsingConnection(System.Action{`0},System.Boolean)
+    name: UsingConnection
+    nameWithType: TBdoConnector(Of IBdoDbConnection).UsingConnection
+    fullName: BindOpen.Extensions.Runtime.TBdoConnector(Of BindOpen.Data.Connections.IBdoDbConnection).UsingConnection
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BindOpen.Data.Connections.IBdoDbConnection
+    name: IBdoDbConnection
+    nameWithType: IBdoDbConnection
+    fullName: BindOpen.Data.Connections.IBdoDbConnection
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Extensions.Runtime.TBdoConnector{BindOpen.Data.Connections.IBdoDbConnection}.UsingConnection(System.Action{BindOpen.Data.Connections.IBdoDbConnection,BindOpen.System.Diagnostics.IBdoLog},BindOpen.System.Diagnostics.IBdoLog,System.Boolean)
+  commentId: M:BindOpen.Extensions.Runtime.TBdoConnector{BindOpen.Data.Connections.IBdoDbConnection}.UsingConnection(System.Action{BindOpen.Data.Connections.IBdoDbConnection,BindOpen.System.Diagnostics.IBdoLog},BindOpen.System.Diagnostics.IBdoLog,System.Boolean)
+  parent: BindOpen.Extensions.Runtime.TBdoConnector{BindOpen.Data.Connections.IBdoDbConnection}
+  definition: BindOpen.Extensions.Runtime.TBdoConnector`1.UsingConnection(System.Action{`0,BindOpen.System.Diagnostics.IBdoLog},BindOpen.System.Diagnostics.IBdoLog,System.Boolean)
+  name: UsingConnection(Action<IBdoDbConnection, IBdoLog>, IBdoLog, Boolean)
+  nameWithType: TBdoConnector<IBdoDbConnection>.UsingConnection(Action<IBdoDbConnection, IBdoLog>, IBdoLog, Boolean)
+  fullName: BindOpen.Extensions.Runtime.TBdoConnector<BindOpen.Data.Connections.IBdoDbConnection>.UsingConnection(System.Action<BindOpen.Data.Connections.IBdoDbConnection, BindOpen.System.Diagnostics.IBdoLog>, BindOpen.System.Diagnostics.IBdoLog, System.Boolean)
+  nameWithType.vb: TBdoConnector(Of IBdoDbConnection).UsingConnection(Action(Of IBdoDbConnection, IBdoLog), IBdoLog, Boolean)
+  fullName.vb: BindOpen.Extensions.Runtime.TBdoConnector(Of BindOpen.Data.Connections.IBdoDbConnection).UsingConnection(System.Action(Of BindOpen.Data.Connections.IBdoDbConnection, BindOpen.System.Diagnostics.IBdoLog), BindOpen.System.Diagnostics.IBdoLog, System.Boolean)
+  name.vb: UsingConnection(Action(Of IBdoDbConnection, IBdoLog), IBdoLog, Boolean)
+  spec.csharp:
+  - uid: BindOpen.Extensions.Runtime.TBdoConnector`1.UsingConnection(System.Action{`0,BindOpen.System.Diagnostics.IBdoLog},BindOpen.System.Diagnostics.IBdoLog,System.Boolean)
+    name: UsingConnection
+    nameWithType: TBdoConnector<IBdoDbConnection>.UsingConnection
+    fullName: BindOpen.Extensions.Runtime.TBdoConnector<BindOpen.Data.Connections.IBdoDbConnection>.UsingConnection
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`2
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BindOpen.Data.Connections.IBdoDbConnection
+    name: IBdoDbConnection
+    nameWithType: IBdoDbConnection
+    fullName: BindOpen.Data.Connections.IBdoDbConnection
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Extensions.Runtime.TBdoConnector`1.UsingConnection(System.Action{`0,BindOpen.System.Diagnostics.IBdoLog},BindOpen.System.Diagnostics.IBdoLog,System.Boolean)
+    name: UsingConnection
+    nameWithType: TBdoConnector(Of IBdoDbConnection).UsingConnection
+    fullName: BindOpen.Extensions.Runtime.TBdoConnector(Of BindOpen.Data.Connections.IBdoDbConnection).UsingConnection
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`2
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BindOpen.Data.Connections.IBdoDbConnection
+    name: IBdoDbConnection
+    nameWithType: IBdoDbConnection
+    fullName: BindOpen.Data.Connections.IBdoDbConnection
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Extensions.Runtime.BdoConnector.AsElement(System.String,BindOpen.System.Diagnostics.IBdoLog)
+  commentId: M:BindOpen.Extensions.Runtime.BdoConnector.AsElement(System.String,BindOpen.System.Diagnostics.IBdoLog)
+  parent: BindOpen.Extensions.Runtime.BdoConnector
+  isExternal: true
+  name: AsElement(String, IBdoLog)
+  nameWithType: BdoConnector.AsElement(String, IBdoLog)
+  fullName: BindOpen.Extensions.Runtime.BdoConnector.AsElement(System.String, BindOpen.System.Diagnostics.IBdoLog)
+  spec.csharp:
+  - uid: BindOpen.Extensions.Runtime.BdoConnector.AsElement(System.String,BindOpen.System.Diagnostics.IBdoLog)
+    name: AsElement
+    nameWithType: BdoConnector.AsElement
+    fullName: BindOpen.Extensions.Runtime.BdoConnector.AsElement
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Extensions.Runtime.BdoConnector.AsElement(System.String,BindOpen.System.Diagnostics.IBdoLog)
+    name: AsElement
+    nameWithType: BdoConnector.AsElement
+    fullName: BindOpen.Extensions.Runtime.BdoConnector.AsElement
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Extensions.Runtime.BdoConnector.UpdateStorageInfo(BindOpen.System.Diagnostics.IBdoLog)
+  commentId: M:BindOpen.Extensions.Runtime.BdoConnector.UpdateStorageInfo(BindOpen.System.Diagnostics.IBdoLog)
+  parent: BindOpen.Extensions.Runtime.BdoConnector
+  isExternal: true
+  name: UpdateStorageInfo(IBdoLog)
+  nameWithType: BdoConnector.UpdateStorageInfo(IBdoLog)
+  fullName: BindOpen.Extensions.Runtime.BdoConnector.UpdateStorageInfo(BindOpen.System.Diagnostics.IBdoLog)
+  spec.csharp:
+  - uid: BindOpen.Extensions.Runtime.BdoConnector.UpdateStorageInfo(BindOpen.System.Diagnostics.IBdoLog)
+    name: UpdateStorageInfo
+    nameWithType: BdoConnector.UpdateStorageInfo
+    fullName: BindOpen.Extensions.Runtime.BdoConnector.UpdateStorageInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Extensions.Runtime.BdoConnector.UpdateStorageInfo(BindOpen.System.Diagnostics.IBdoLog)
+    name: UpdateStorageInfo
+    nameWithType: BdoConnector.UpdateStorageInfo
+    fullName: BindOpen.Extensions.Runtime.BdoConnector.UpdateStorageInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Extensions.Runtime.BdoConnector.UpdateRuntimeInfo(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+  commentId: M:BindOpen.Extensions.Runtime.BdoConnector.UpdateRuntimeInfo(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+  parent: BindOpen.Extensions.Runtime.BdoConnector
+  isExternal: true
+  name: UpdateRuntimeInfo(IBdoScope, IBdoScriptVariableSet, IBdoLog)
+  nameWithType: BdoConnector.UpdateRuntimeInfo(IBdoScope, IBdoScriptVariableSet, IBdoLog)
+  fullName: BindOpen.Extensions.Runtime.BdoConnector.UpdateRuntimeInfo(BindOpen.Application.Scopes.IBdoScope, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.System.Diagnostics.IBdoLog)
+  spec.csharp:
+  - uid: BindOpen.Extensions.Runtime.BdoConnector.UpdateRuntimeInfo(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+    name: UpdateRuntimeInfo
+    nameWithType: BdoConnector.UpdateRuntimeInfo
+    fullName: BindOpen.Extensions.Runtime.BdoConnector.UpdateRuntimeInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Application.Scopes.IBdoScope
+    name: IBdoScope
+    nameWithType: IBdoScope
+    fullName: BindOpen.Application.Scopes.IBdoScope
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Scripting.IBdoScriptVariableSet
+    name: IBdoScriptVariableSet
+    nameWithType: IBdoScriptVariableSet
+    fullName: BindOpen.System.Scripting.IBdoScriptVariableSet
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Extensions.Runtime.BdoConnector.UpdateRuntimeInfo(BindOpen.Application.Scopes.IBdoScope,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+    name: UpdateRuntimeInfo
+    nameWithType: BdoConnector.UpdateRuntimeInfo
+    fullName: BindOpen.Extensions.Runtime.BdoConnector.UpdateRuntimeInfo
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Application.Scopes.IBdoScope
+    name: IBdoScope
+    nameWithType: IBdoScope
+    fullName: BindOpen.Application.Scopes.IBdoScope
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Scripting.IBdoScriptVariableSet
+    name: IBdoScriptVariableSet
+    nameWithType: IBdoScriptVariableSet
+    fullName: BindOpen.System.Scripting.IBdoScriptVariableSet
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Extensions.Runtime.BdoConnector.Configuration
+  commentId: P:BindOpen.Extensions.Runtime.BdoConnector.Configuration
+  parent: BindOpen.Extensions.Runtime.BdoConnector
+  isExternal: true
+  name: Configuration
+  nameWithType: BdoConnector.Configuration
+  fullName: BindOpen.Extensions.Runtime.BdoConnector.Configuration
+- uid: BindOpen.Extensions.Runtime.BdoConnector.ConnectionString
+  commentId: P:BindOpen.Extensions.Runtime.BdoConnector.ConnectionString
+  parent: BindOpen.Extensions.Runtime.BdoConnector
+  isExternal: true
+  name: ConnectionString
+  nameWithType: BdoConnector.ConnectionString
+  fullName: BindOpen.Extensions.Runtime.BdoConnector.ConnectionString
+- uid: BindOpen.Extensions.Runtime.BdoConnector.ConnectionTimeOut
+  commentId: P:BindOpen.Extensions.Runtime.BdoConnector.ConnectionTimeOut
+  parent: BindOpen.Extensions.Runtime.BdoConnector
+  isExternal: true
+  name: ConnectionTimeOut
+  nameWithType: BdoConnector.ConnectionTimeOut
+  fullName: BindOpen.Extensions.Runtime.BdoConnector.ConnectionTimeOut
+- uid: BindOpen.Extensions.Runtime.TBdoExtensionItem{BindOpen.Extensions.Definition.IBdoConnectorDefinition}._configuration
+  commentId: F:BindOpen.Extensions.Runtime.TBdoExtensionItem{BindOpen.Extensions.Definition.IBdoConnectorDefinition}._configuration
+  parent: BindOpen.Extensions.Runtime.TBdoExtensionItem{BindOpen.Extensions.Definition.IBdoConnectorDefinition}
+  definition: BindOpen.Extensions.Runtime.TBdoExtensionItem`1._configuration
+  name: _configuration
+  nameWithType: TBdoExtensionItem<IBdoConnectorDefinition>._configuration
+  fullName: BindOpen.Extensions.Runtime.TBdoExtensionItem<BindOpen.Extensions.Definition.IBdoConnectorDefinition>._configuration
+  nameWithType.vb: TBdoExtensionItem(Of IBdoConnectorDefinition)._configuration
+  fullName.vb: BindOpen.Extensions.Runtime.TBdoExtensionItem(Of BindOpen.Extensions.Definition.IBdoConnectorDefinition)._configuration
+- uid: BindOpen.Extensions.Runtime.TBdoExtensionItem{BindOpen.Extensions.Definition.IBdoConnectorDefinition}.AsElement(System.String)
+  commentId: M:BindOpen.Extensions.Runtime.TBdoExtensionItem{BindOpen.Extensions.Definition.IBdoConnectorDefinition}.AsElement(System.String)
+  parent: BindOpen.Extensions.Runtime.TBdoExtensionItem{BindOpen.Extensions.Definition.IBdoConnectorDefinition}
+  definition: BindOpen.Extensions.Runtime.TBdoExtensionItem`1.AsElement(System.String)
+  name: AsElement(String)
+  nameWithType: TBdoExtensionItem<IBdoConnectorDefinition>.AsElement(String)
+  fullName: BindOpen.Extensions.Runtime.TBdoExtensionItem<BindOpen.Extensions.Definition.IBdoConnectorDefinition>.AsElement(System.String)
+  nameWithType.vb: TBdoExtensionItem(Of IBdoConnectorDefinition).AsElement(String)
+  fullName.vb: BindOpen.Extensions.Runtime.TBdoExtensionItem(Of BindOpen.Extensions.Definition.IBdoConnectorDefinition).AsElement(System.String)
+  spec.csharp:
+  - uid: BindOpen.Extensions.Runtime.TBdoExtensionItem`1.AsElement(System.String)
+    name: AsElement
+    nameWithType: TBdoExtensionItem<IBdoConnectorDefinition>.AsElement
+    fullName: BindOpen.Extensions.Runtime.TBdoExtensionItem<BindOpen.Extensions.Definition.IBdoConnectorDefinition>.AsElement
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Extensions.Runtime.TBdoExtensionItem`1.AsElement(System.String)
+    name: AsElement
+    nameWithType: TBdoExtensionItem(Of IBdoConnectorDefinition).AsElement
+    fullName: BindOpen.Extensions.Runtime.TBdoExtensionItem(Of BindOpen.Extensions.Definition.IBdoConnectorDefinition).AsElement
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Extensions.Runtime.TBdoExtensionItem{BindOpen.Extensions.Definition.IBdoConnectorDefinition}.SetDefinition(BindOpen.Extensions.Definition.IBdoConnectorDefinition)
+  commentId: M:BindOpen.Extensions.Runtime.TBdoExtensionItem{BindOpen.Extensions.Definition.IBdoConnectorDefinition}.SetDefinition(BindOpen.Extensions.Definition.IBdoConnectorDefinition)
+  parent: BindOpen.Extensions.Runtime.TBdoExtensionItem{BindOpen.Extensions.Definition.IBdoConnectorDefinition}
+  definition: BindOpen.Extensions.Runtime.TBdoExtensionItem`1.SetDefinition(`0)
+  name: SetDefinition(IBdoConnectorDefinition)
+  nameWithType: TBdoExtensionItem<IBdoConnectorDefinition>.SetDefinition(IBdoConnectorDefinition)
+  fullName: BindOpen.Extensions.Runtime.TBdoExtensionItem<BindOpen.Extensions.Definition.IBdoConnectorDefinition>.SetDefinition(BindOpen.Extensions.Definition.IBdoConnectorDefinition)
+  nameWithType.vb: TBdoExtensionItem(Of IBdoConnectorDefinition).SetDefinition(IBdoConnectorDefinition)
+  fullName.vb: BindOpen.Extensions.Runtime.TBdoExtensionItem(Of BindOpen.Extensions.Definition.IBdoConnectorDefinition).SetDefinition(BindOpen.Extensions.Definition.IBdoConnectorDefinition)
+  spec.csharp:
+  - uid: BindOpen.Extensions.Runtime.TBdoExtensionItem`1.SetDefinition(`0)
+    name: SetDefinition
+    nameWithType: TBdoExtensionItem<IBdoConnectorDefinition>.SetDefinition
+    fullName: BindOpen.Extensions.Runtime.TBdoExtensionItem<BindOpen.Extensions.Definition.IBdoConnectorDefinition>.SetDefinition
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Extensions.Definition.IBdoConnectorDefinition
+    name: IBdoConnectorDefinition
+    nameWithType: IBdoConnectorDefinition
+    fullName: BindOpen.Extensions.Definition.IBdoConnectorDefinition
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Extensions.Runtime.TBdoExtensionItem`1.SetDefinition(`0)
+    name: SetDefinition
+    nameWithType: TBdoExtensionItem(Of IBdoConnectorDefinition).SetDefinition
+    fullName: BindOpen.Extensions.Runtime.TBdoExtensionItem(Of BindOpen.Extensions.Definition.IBdoConnectorDefinition).SetDefinition
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Extensions.Definition.IBdoConnectorDefinition
+    name: IBdoConnectorDefinition
+    nameWithType: IBdoConnectorDefinition
+    fullName: BindOpen.Extensions.Definition.IBdoConnectorDefinition
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Extensions.Runtime.TBdoExtensionItem{BindOpen.Extensions.Definition.IBdoConnectorDefinition}.Name
+  commentId: P:BindOpen.Extensions.Runtime.TBdoExtensionItem{BindOpen.Extensions.Definition.IBdoConnectorDefinition}.Name
+  parent: BindOpen.Extensions.Runtime.TBdoExtensionItem{BindOpen.Extensions.Definition.IBdoConnectorDefinition}
+  definition: BindOpen.Extensions.Runtime.TBdoExtensionItem`1.Name
+  name: Name
+  nameWithType: TBdoExtensionItem<IBdoConnectorDefinition>.Name
+  fullName: BindOpen.Extensions.Runtime.TBdoExtensionItem<BindOpen.Extensions.Definition.IBdoConnectorDefinition>.Name
+  nameWithType.vb: TBdoExtensionItem(Of IBdoConnectorDefinition).Name
+  fullName.vb: BindOpen.Extensions.Runtime.TBdoExtensionItem(Of BindOpen.Extensions.Definition.IBdoConnectorDefinition).Name
+- uid: BindOpen.Extensions.Runtime.TBdoExtensionItem{BindOpen.Extensions.Definition.IBdoConnectorDefinition}.BindOpen#Extensions#Runtime#IBdoExtensionItem#Configuration
+  commentId: P:BindOpen.Extensions.Runtime.TBdoExtensionItem{BindOpen.Extensions.Definition.IBdoConnectorDefinition}.BindOpen#Extensions#Runtime#IBdoExtensionItem#Configuration
+  parent: BindOpen.Extensions.Runtime.TBdoExtensionItem{BindOpen.Extensions.Definition.IBdoConnectorDefinition}
+  definition: BindOpen.Extensions.Runtime.TBdoExtensionItem`1.BindOpen#Extensions#Runtime#IBdoExtensionItem#Configuration
+  name: IBdoExtensionItem.Configuration
+  nameWithType: TBdoExtensionItem<IBdoConnectorDefinition>.IBdoExtensionItem.Configuration
+  fullName: BindOpen.Extensions.Runtime.TBdoExtensionItem<BindOpen.Extensions.Definition.IBdoConnectorDefinition>.BindOpen.Extensions.Runtime.IBdoExtensionItem.Configuration
+  nameWithType.vb: TBdoExtensionItem(Of IBdoConnectorDefinition).BindOpen.Extensions.Runtime.IBdoExtensionItem.Configuration
+  fullName.vb: BindOpen.Extensions.Runtime.TBdoExtensionItem(Of BindOpen.Extensions.Definition.IBdoConnectorDefinition).BindOpen.Extensions.Runtime.IBdoExtensionItem.Configuration
+  name.vb: BindOpen.Extensions.Runtime.IBdoExtensionItem.Configuration
+- uid: BindOpen.Extensions.Runtime.TBdoExtensionItem{BindOpen.Extensions.Definition.IBdoConnectorDefinition}.Definition
+  commentId: P:BindOpen.Extensions.Runtime.TBdoExtensionItem{BindOpen.Extensions.Definition.IBdoConnectorDefinition}.Definition
+  parent: BindOpen.Extensions.Runtime.TBdoExtensionItem{BindOpen.Extensions.Definition.IBdoConnectorDefinition}
+  definition: BindOpen.Extensions.Runtime.TBdoExtensionItem`1.Definition
+  name: Definition
+  nameWithType: TBdoExtensionItem<IBdoConnectorDefinition>.Definition
+  fullName: BindOpen.Extensions.Runtime.TBdoExtensionItem<BindOpen.Extensions.Definition.IBdoConnectorDefinition>.Definition
+  nameWithType.vb: TBdoExtensionItem(Of IBdoConnectorDefinition).Definition
+  fullName.vb: BindOpen.Extensions.Runtime.TBdoExtensionItem(Of BindOpen.Extensions.Definition.IBdoConnectorDefinition).Definition
+- uid: BindOpen.Data.Items.IdentifiedDataItem.Key
+  commentId: M:BindOpen.Data.Items.IdentifiedDataItem.Key
+  parent: BindOpen.Data.Items.IdentifiedDataItem
+  isExternal: true
+  name: Key()
+  nameWithType: IdentifiedDataItem.Key()
+  fullName: BindOpen.Data.Items.IdentifiedDataItem.Key()
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IdentifiedDataItem.Key
+    name: Key
+    nameWithType: IdentifiedDataItem.Key
+    fullName: BindOpen.Data.Items.IdentifiedDataItem.Key
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IdentifiedDataItem.Key
+    name: Key
+    nameWithType: IdentifiedDataItem.Key
+    fullName: BindOpen.Data.Items.IdentifiedDataItem.Key
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IdentifiedDataItem.NewGuid
+  commentId: M:BindOpen.Data.Items.IdentifiedDataItem.NewGuid
+  parent: BindOpen.Data.Items.IdentifiedDataItem
+  isExternal: true
+  name: NewGuid()
+  nameWithType: IdentifiedDataItem.NewGuid()
+  fullName: BindOpen.Data.Items.IdentifiedDataItem.NewGuid()
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IdentifiedDataItem.NewGuid
+    name: NewGuid
+    nameWithType: IdentifiedDataItem.NewGuid
+    fullName: BindOpen.Data.Items.IdentifiedDataItem.NewGuid
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IdentifiedDataItem.NewGuid
+    name: NewGuid
+    nameWithType: IdentifiedDataItem.NewGuid
+    fullName: BindOpen.Data.Items.IdentifiedDataItem.NewGuid
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IdentifiedDataItem.Clone
+  commentId: M:BindOpen.Data.Items.IdentifiedDataItem.Clone
+  parent: BindOpen.Data.Items.IdentifiedDataItem
+  isExternal: true
+  name: Clone()
+  nameWithType: IdentifiedDataItem.Clone()
+  fullName: BindOpen.Data.Items.IdentifiedDataItem.Clone()
+  spec.csharp:
+  - uid: BindOpen.Data.Items.IdentifiedDataItem.Clone
+    name: Clone
+    nameWithType: IdentifiedDataItem.Clone
+    fullName: BindOpen.Data.Items.IdentifiedDataItem.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.IdentifiedDataItem.Clone
+    name: Clone
+    nameWithType: IdentifiedDataItem.Clone
+    fullName: BindOpen.Data.Items.IdentifiedDataItem.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.IdentifiedDataItem.Id
+  commentId: P:BindOpen.Data.Items.IdentifiedDataItem.Id
+  parent: BindOpen.Data.Items.IdentifiedDataItem
+  isExternal: true
+  name: Id
+  nameWithType: IdentifiedDataItem.Id
+  fullName: BindOpen.Data.Items.IdentifiedDataItem.Id
+- uid: BindOpen.Data.Items.IdentifiedDataItem.IdSpecified
+  commentId: P:BindOpen.Data.Items.IdentifiedDataItem.IdSpecified
+  parent: BindOpen.Data.Items.IdentifiedDataItem
+  isExternal: true
+  name: IdSpecified
+  nameWithType: IdentifiedDataItem.IdSpecified
+  fullName: BindOpen.Data.Items.IdentifiedDataItem.IdSpecified
+- uid: BindOpen.Data.Items.DataItem.InitializeLifetimeService
+  commentId: M:BindOpen.Data.Items.DataItem.InitializeLifetimeService
+  parent: BindOpen.Data.Items.DataItem
+  isExternal: true
+  name: InitializeLifetimeService()
+  nameWithType: DataItem.InitializeLifetimeService()
+  fullName: BindOpen.Data.Items.DataItem.InitializeLifetimeService()
+  spec.csharp:
+  - uid: BindOpen.Data.Items.DataItem.InitializeLifetimeService
+    name: InitializeLifetimeService
+    nameWithType: DataItem.InitializeLifetimeService
+    fullName: BindOpen.Data.Items.DataItem.InitializeLifetimeService
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.DataItem.InitializeLifetimeService
+    name: InitializeLifetimeService
+    nameWithType: DataItem.InitializeLifetimeService
+    fullName: BindOpen.Data.Items.DataItem.InitializeLifetimeService
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.DataItem.Clone``1
+  commentId: M:BindOpen.Data.Items.DataItem.Clone``1
+  parent: BindOpen.Data.Items.DataItem
+  isExternal: true
+  name: Clone<T>()
+  nameWithType: DataItem.Clone<T>()
+  fullName: BindOpen.Data.Items.DataItem.Clone<T>()
+  nameWithType.vb: DataItem.Clone(Of T)()
+  fullName.vb: BindOpen.Data.Items.DataItem.Clone(Of T)()
+  name.vb: Clone(Of T)()
+  spec.csharp:
+  - uid: BindOpen.Data.Items.DataItem.Clone``1
+    name: Clone<T>
+    nameWithType: DataItem.Clone<T>
+    fullName: BindOpen.Data.Items.DataItem.Clone<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.DataItem.Clone``1
+    name: Clone(Of T)
+    nameWithType: DataItem.Clone(Of T)
+    fullName: BindOpen.Data.Items.DataItem.Clone(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.DataItem.Update``1({T},System.String[],BindOpen.Data.Common.UpdateModes[])
+  commentId: M:BindOpen.Data.Items.DataItem.Update``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+  parent: BindOpen.Data.Items.DataItem
+  definition: BindOpen.Data.Items.DataItem.Update``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+  name: Update<T>(T, String[], UpdateModes[])
+  nameWithType: DataItem.Update<T>(T, String[], UpdateModes[])
+  fullName: BindOpen.Data.Items.DataItem.Update<T>(T, System.String[], BindOpen.Data.Common.UpdateModes[])
+  nameWithType.vb: DataItem.Update(Of T)(T, String(), UpdateModes())
+  fullName.vb: BindOpen.Data.Items.DataItem.Update(Of T)(T, System.String(), BindOpen.Data.Common.UpdateModes())
+  name.vb: Update(Of T)(T, String(), UpdateModes())
+  spec.csharp:
+  - uid: BindOpen.Data.Items.DataItem.Update``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+    name: Update<T>
+    nameWithType: DataItem.Update<T>
+    fullName: BindOpen.Data.Items.DataItem.Update<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.UpdateModes
+    name: UpdateModes
+    nameWithType: UpdateModes
+    fullName: BindOpen.Data.Common.UpdateModes
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.DataItem.Update``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+    name: Update(Of T)
+    nameWithType: DataItem.Update(Of T)
+    fullName: BindOpen.Data.Items.DataItem.Update(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.UpdateModes
+    name: UpdateModes
+    nameWithType: UpdateModes
+    fullName: BindOpen.Data.Common.UpdateModes
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.DataItem.Update(System.String[],BindOpen.Data.Common.UpdateModes[])
+  commentId: M:BindOpen.Data.Items.DataItem.Update(System.String[],BindOpen.Data.Common.UpdateModes[])
+  parent: BindOpen.Data.Items.DataItem
+  isExternal: true
+  name: Update(String[], UpdateModes[])
+  nameWithType: DataItem.Update(String[], UpdateModes[])
+  fullName: BindOpen.Data.Items.DataItem.Update(System.String[], BindOpen.Data.Common.UpdateModes[])
+  nameWithType.vb: DataItem.Update(String(), UpdateModes())
+  fullName.vb: BindOpen.Data.Items.DataItem.Update(System.String(), BindOpen.Data.Common.UpdateModes())
+  name.vb: Update(String(), UpdateModes())
+  spec.csharp:
+  - uid: BindOpen.Data.Items.DataItem.Update(System.String[],BindOpen.Data.Common.UpdateModes[])
+    name: Update
+    nameWithType: DataItem.Update
+    fullName: BindOpen.Data.Items.DataItem.Update
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.UpdateModes
+    name: UpdateModes
+    nameWithType: UpdateModes
+    fullName: BindOpen.Data.Common.UpdateModes
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.DataItem.Update(System.String[],BindOpen.Data.Common.UpdateModes[])
+    name: Update
+    nameWithType: DataItem.Update
+    fullName: BindOpen.Data.Items.DataItem.Update
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.UpdateModes
+    name: UpdateModes
+    nameWithType: UpdateModes
+    fullName: BindOpen.Data.Common.UpdateModes
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.DataItem.Check``1(System.Boolean,{T},System.String[])
+  commentId: M:BindOpen.Data.Items.DataItem.Check``1(System.Boolean,``0,System.String[])
+  parent: BindOpen.Data.Items.DataItem
+  definition: BindOpen.Data.Items.DataItem.Check``1(System.Boolean,``0,System.String[])
+  name: Check<T>(Boolean, T, String[])
+  nameWithType: DataItem.Check<T>(Boolean, T, String[])
+  fullName: BindOpen.Data.Items.DataItem.Check<T>(System.Boolean, T, System.String[])
+  nameWithType.vb: DataItem.Check(Of T)(Boolean, T, String())
+  fullName.vb: BindOpen.Data.Items.DataItem.Check(Of T)(System.Boolean, T, System.String())
+  name.vb: Check(Of T)(Boolean, T, String())
+  spec.csharp:
+  - uid: BindOpen.Data.Items.DataItem.Check``1(System.Boolean,``0,System.String[])
+    name: Check<T>
+    nameWithType: DataItem.Check<T>
+    fullName: BindOpen.Data.Items.DataItem.Check<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.DataItem.Check``1(System.Boolean,``0,System.String[])
+    name: Check(Of T)
+    nameWithType: DataItem.Check(Of T)
+    fullName: BindOpen.Data.Items.DataItem.Check(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.DataItem.Check(System.Boolean,System.String[])
+  commentId: M:BindOpen.Data.Items.DataItem.Check(System.Boolean,System.String[])
+  parent: BindOpen.Data.Items.DataItem
+  isExternal: true
+  name: Check(Boolean, String[])
+  nameWithType: DataItem.Check(Boolean, String[])
+  fullName: BindOpen.Data.Items.DataItem.Check(System.Boolean, System.String[])
+  nameWithType.vb: DataItem.Check(Boolean, String())
+  fullName.vb: BindOpen.Data.Items.DataItem.Check(System.Boolean, System.String())
+  name.vb: Check(Boolean, String())
+  spec.csharp:
+  - uid: BindOpen.Data.Items.DataItem.Check(System.Boolean,System.String[])
+    name: Check
+    nameWithType: DataItem.Check
+    fullName: BindOpen.Data.Items.DataItem.Check
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.DataItem.Check(System.Boolean,System.String[])
+    name: Check
+    nameWithType: DataItem.Check
+    fullName: BindOpen.Data.Items.DataItem.Check
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.DataItem.Repair``1({T},System.String[],BindOpen.Data.Common.UpdateModes[])
+  commentId: M:BindOpen.Data.Items.DataItem.Repair``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+  parent: BindOpen.Data.Items.DataItem
+  definition: BindOpen.Data.Items.DataItem.Repair``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+  name: Repair<T>(T, String[], UpdateModes[])
+  nameWithType: DataItem.Repair<T>(T, String[], UpdateModes[])
+  fullName: BindOpen.Data.Items.DataItem.Repair<T>(T, System.String[], BindOpen.Data.Common.UpdateModes[])
+  nameWithType.vb: DataItem.Repair(Of T)(T, String(), UpdateModes())
+  fullName.vb: BindOpen.Data.Items.DataItem.Repair(Of T)(T, System.String(), BindOpen.Data.Common.UpdateModes())
+  name.vb: Repair(Of T)(T, String(), UpdateModes())
+  spec.csharp:
+  - uid: BindOpen.Data.Items.DataItem.Repair``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+    name: Repair<T>
+    nameWithType: DataItem.Repair<T>
+    fullName: BindOpen.Data.Items.DataItem.Repair<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.UpdateModes
+    name: UpdateModes
+    nameWithType: UpdateModes
+    fullName: BindOpen.Data.Common.UpdateModes
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.DataItem.Repair``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+    name: Repair(Of T)
+    nameWithType: DataItem.Repair(Of T)
+    fullName: BindOpen.Data.Items.DataItem.Repair(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.UpdateModes
+    name: UpdateModes
+    nameWithType: UpdateModes
+    fullName: BindOpen.Data.Common.UpdateModes
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.DataItem.Repair(System.String[],BindOpen.Data.Common.UpdateModes[])
+  commentId: M:BindOpen.Data.Items.DataItem.Repair(System.String[],BindOpen.Data.Common.UpdateModes[])
+  parent: BindOpen.Data.Items.DataItem
+  isExternal: true
+  name: Repair(String[], UpdateModes[])
+  nameWithType: DataItem.Repair(String[], UpdateModes[])
+  fullName: BindOpen.Data.Items.DataItem.Repair(System.String[], BindOpen.Data.Common.UpdateModes[])
+  nameWithType.vb: DataItem.Repair(String(), UpdateModes())
+  fullName.vb: BindOpen.Data.Items.DataItem.Repair(System.String(), BindOpen.Data.Common.UpdateModes())
+  name.vb: Repair(String(), UpdateModes())
+  spec.csharp:
+  - uid: BindOpen.Data.Items.DataItem.Repair(System.String[],BindOpen.Data.Common.UpdateModes[])
+    name: Repair
+    nameWithType: DataItem.Repair
+    fullName: BindOpen.Data.Items.DataItem.Repair
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.UpdateModes
+    name: UpdateModes
+    nameWithType: UpdateModes
+    fullName: BindOpen.Data.Common.UpdateModes
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.DataItem.Repair(System.String[],BindOpen.Data.Common.UpdateModes[])
+    name: Repair
+    nameWithType: DataItem.Repair
+    fullName: BindOpen.Data.Items.DataItem.Repair
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.UpdateModes
+    name: UpdateModes
+    nameWithType: UpdateModes
+    fullName: BindOpen.Data.Common.UpdateModes
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.DataItem.Dispose
+  commentId: M:BindOpen.Data.Items.DataItem.Dispose
+  parent: BindOpen.Data.Items.DataItem
+  isExternal: true
+  name: Dispose()
+  nameWithType: DataItem.Dispose()
+  fullName: BindOpen.Data.Items.DataItem.Dispose()
+  spec.csharp:
+  - uid: BindOpen.Data.Items.DataItem.Dispose
+    name: Dispose
+    nameWithType: DataItem.Dispose
+    fullName: BindOpen.Data.Items.DataItem.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.DataItem.Dispose
+    name: Dispose
+    nameWithType: DataItem.Dispose
+    fullName: BindOpen.Data.Items.DataItem.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.DataItem.Dispose(System.Boolean)
+  commentId: M:BindOpen.Data.Items.DataItem.Dispose(System.Boolean)
+  parent: BindOpen.Data.Items.DataItem
+  isExternal: true
+  name: Dispose(Boolean)
+  nameWithType: DataItem.Dispose(Boolean)
+  fullName: BindOpen.Data.Items.DataItem.Dispose(System.Boolean)
+  spec.csharp:
+  - uid: BindOpen.Data.Items.DataItem.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: DataItem.Dispose
+    fullName: BindOpen.Data.Items.DataItem.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.DataItem.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: DataItem.Dispose
+    fullName: BindOpen.Data.Items.DataItem.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.MarshalByRefObject.GetLifetimeService
+  commentId: M:System.MarshalByRefObject.GetLifetimeService
+  parent: System.MarshalByRefObject
+  isExternal: true
+  name: GetLifetimeService()
+  nameWithType: MarshalByRefObject.GetLifetimeService()
+  fullName: System.MarshalByRefObject.GetLifetimeService()
+  spec.csharp:
+  - uid: System.MarshalByRefObject.GetLifetimeService
+    name: GetLifetimeService
+    nameWithType: MarshalByRefObject.GetLifetimeService
+    fullName: System.MarshalByRefObject.GetLifetimeService
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.MarshalByRefObject.GetLifetimeService
+    name: GetLifetimeService
+    nameWithType: MarshalByRefObject.GetLifetimeService
+    fullName: System.MarshalByRefObject.GetLifetimeService
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
+  commentId: M:System.MarshalByRefObject.MemberwiseClone(System.Boolean)
+  parent: System.MarshalByRefObject
+  isExternal: true
+  name: MemberwiseClone(Boolean)
+  nameWithType: MarshalByRefObject.MemberwiseClone(Boolean)
+  fullName: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
+  spec.csharp:
+  - uid: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
+    name: MemberwiseClone
+    nameWithType: MarshalByRefObject.MemberwiseClone
+    fullName: System.MarshalByRefObject.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.MarshalByRefObject.MemberwiseClone(System.Boolean)
+    name: MemberwiseClone
+    nameWithType: MarshalByRefObject.MemberwiseClone
+    fullName: System.MarshalByRefObject.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Data.Items
+  commentId: N:BindOpen.Data.Items
+  isExternal: true
+  name: BindOpen.Data.Items
+  nameWithType: BindOpen.Data.Items
+  fullName: BindOpen.Data.Items
+- uid: BindOpen.Extensions.Runtime.TBdoExtensionItem`1
+  commentId: T:BindOpen.Extensions.Runtime.TBdoExtensionItem`1
+  isExternal: true
+  name: TBdoExtensionItem<T>
+  nameWithType: TBdoExtensionItem<T>
+  fullName: BindOpen.Extensions.Runtime.TBdoExtensionItem<T>
+  nameWithType.vb: TBdoExtensionItem(Of T)
+  fullName.vb: BindOpen.Extensions.Runtime.TBdoExtensionItem(Of T)
+  name.vb: TBdoExtensionItem(Of T)
+  spec.csharp:
+  - uid: BindOpen.Extensions.Runtime.TBdoExtensionItem`1
+    name: TBdoExtensionItem
+    nameWithType: TBdoExtensionItem
+    fullName: BindOpen.Extensions.Runtime.TBdoExtensionItem
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: BindOpen.Extensions.Runtime.TBdoExtensionItem`1
+    name: TBdoExtensionItem
+    nameWithType: TBdoExtensionItem
+    fullName: BindOpen.Extensions.Runtime.TBdoExtensionItem
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Extensions.Runtime
+  commentId: N:BindOpen.Extensions.Runtime
+  isExternal: true
+  name: BindOpen.Extensions.Runtime
+  nameWithType: BindOpen.Extensions.Runtime
+  fullName: BindOpen.Extensions.Runtime
+- uid: BindOpen.Extensions.Runtime.TBdoConnector`1
+  commentId: T:BindOpen.Extensions.Runtime.TBdoConnector`1
+  isExternal: true
+  name: TBdoConnector<T>
+  nameWithType: TBdoConnector<T>
+  fullName: BindOpen.Extensions.Runtime.TBdoConnector<T>
+  nameWithType.vb: TBdoConnector(Of T)
+  fullName.vb: BindOpen.Extensions.Runtime.TBdoConnector(Of T)
+  name.vb: TBdoConnector(Of T)
+  spec.csharp:
+  - uid: BindOpen.Extensions.Runtime.TBdoConnector`1
+    name: TBdoConnector
+    nameWithType: TBdoConnector
+    fullName: BindOpen.Extensions.Runtime.TBdoConnector
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: BindOpen.Extensions.Runtime.TBdoConnector`1
+    name: TBdoConnector
+    nameWithType: TBdoConnector
+    fullName: BindOpen.Extensions.Runtime.TBdoConnector
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Extensions.Runtime.ITBdoConnector`1
+  commentId: T:BindOpen.Extensions.Runtime.ITBdoConnector`1
+  isExternal: true
+  name: ITBdoConnector<T>
+  nameWithType: ITBdoConnector<T>
+  fullName: BindOpen.Extensions.Runtime.ITBdoConnector<T>
+  nameWithType.vb: ITBdoConnector(Of T)
+  fullName.vb: BindOpen.Extensions.Runtime.ITBdoConnector(Of T)
+  name.vb: ITBdoConnector(Of T)
+  spec.csharp:
+  - uid: BindOpen.Extensions.Runtime.ITBdoConnector`1
+    name: ITBdoConnector
+    nameWithType: ITBdoConnector
+    fullName: BindOpen.Extensions.Runtime.ITBdoConnector
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: BindOpen.Extensions.Runtime.ITBdoConnector`1
+    name: ITBdoConnector
+    nameWithType: ITBdoConnector
+    fullName: BindOpen.Extensions.Runtime.ITBdoConnector
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Extensions.Runtime.ITBdoExtensionItem`1
+  commentId: T:BindOpen.Extensions.Runtime.ITBdoExtensionItem`1
+  isExternal: true
+  name: ITBdoExtensionItem<T>
+  nameWithType: ITBdoExtensionItem<T>
+  fullName: BindOpen.Extensions.Runtime.ITBdoExtensionItem<T>
+  nameWithType.vb: ITBdoExtensionItem(Of T)
+  fullName.vb: BindOpen.Extensions.Runtime.ITBdoExtensionItem(Of T)
+  name.vb: ITBdoExtensionItem(Of T)
+  spec.csharp:
+  - uid: BindOpen.Extensions.Runtime.ITBdoExtensionItem`1
+    name: ITBdoExtensionItem
+    nameWithType: ITBdoExtensionItem
+    fullName: BindOpen.Extensions.Runtime.ITBdoExtensionItem
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: BindOpen.Extensions.Runtime.ITBdoExtensionItem`1
+    name: ITBdoExtensionItem
+    nameWithType: ITBdoExtensionItem
+    fullName: BindOpen.Extensions.Runtime.ITBdoExtensionItem
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Extensions.Runtime.TBdoConnector`1.CreateConnection(BindOpen.System.Diagnostics.IBdoLog)
+  commentId: M:BindOpen.Extensions.Runtime.TBdoConnector`1.CreateConnection(BindOpen.System.Diagnostics.IBdoLog)
+  isExternal: true
+  name: CreateConnection(IBdoLog)
+  nameWithType: TBdoConnector<T>.CreateConnection(IBdoLog)
+  fullName: BindOpen.Extensions.Runtime.TBdoConnector<T>.CreateConnection(BindOpen.System.Diagnostics.IBdoLog)
+  nameWithType.vb: TBdoConnector(Of T).CreateConnection(IBdoLog)
+  fullName.vb: BindOpen.Extensions.Runtime.TBdoConnector(Of T).CreateConnection(BindOpen.System.Diagnostics.IBdoLog)
+  spec.csharp:
+  - uid: BindOpen.Extensions.Runtime.TBdoConnector`1.CreateConnection(BindOpen.System.Diagnostics.IBdoLog)
+    name: CreateConnection
+    nameWithType: TBdoConnector<T>.CreateConnection
+    fullName: BindOpen.Extensions.Runtime.TBdoConnector<T>.CreateConnection
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Extensions.Runtime.TBdoConnector`1.CreateConnection(BindOpen.System.Diagnostics.IBdoLog)
+    name: CreateConnection
+    nameWithType: TBdoConnector(Of T).CreateConnection
+    fullName: BindOpen.Extensions.Runtime.TBdoConnector(Of T).CreateConnection
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Extensions.Runtime.TBdoConnector`1.UsingConnection(System.Action{`0},System.Boolean)
+  commentId: M:BindOpen.Extensions.Runtime.TBdoConnector`1.UsingConnection(System.Action{`0},System.Boolean)
+  isExternal: true
+  name: UsingConnection(Action<T>, Boolean)
+  nameWithType: TBdoConnector<T>.UsingConnection(Action<T>, Boolean)
+  fullName: BindOpen.Extensions.Runtime.TBdoConnector<T>.UsingConnection(System.Action<T>, System.Boolean)
+  nameWithType.vb: TBdoConnector(Of T).UsingConnection(Action(Of T), Boolean)
+  fullName.vb: BindOpen.Extensions.Runtime.TBdoConnector(Of T).UsingConnection(System.Action(Of T), System.Boolean)
+  name.vb: UsingConnection(Action(Of T), Boolean)
+  spec.csharp:
+  - uid: BindOpen.Extensions.Runtime.TBdoConnector`1.UsingConnection(System.Action{`0},System.Boolean)
+    name: UsingConnection
+    nameWithType: TBdoConnector<T>.UsingConnection
+    fullName: BindOpen.Extensions.Runtime.TBdoConnector<T>.UsingConnection
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Extensions.Runtime.TBdoConnector`1.UsingConnection(System.Action{`0},System.Boolean)
+    name: UsingConnection
+    nameWithType: TBdoConnector(Of T).UsingConnection
+    fullName: BindOpen.Extensions.Runtime.TBdoConnector(Of T).UsingConnection
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Extensions.Runtime.TBdoConnector`1.UsingConnection(System.Action{`0,BindOpen.System.Diagnostics.IBdoLog},BindOpen.System.Diagnostics.IBdoLog,System.Boolean)
+  commentId: M:BindOpen.Extensions.Runtime.TBdoConnector`1.UsingConnection(System.Action{`0,BindOpen.System.Diagnostics.IBdoLog},BindOpen.System.Diagnostics.IBdoLog,System.Boolean)
+  isExternal: true
+  name: UsingConnection(Action<T, IBdoLog>, IBdoLog, Boolean)
+  nameWithType: TBdoConnector<T>.UsingConnection(Action<T, IBdoLog>, IBdoLog, Boolean)
+  fullName: BindOpen.Extensions.Runtime.TBdoConnector<T>.UsingConnection(System.Action<T, BindOpen.System.Diagnostics.IBdoLog>, BindOpen.System.Diagnostics.IBdoLog, System.Boolean)
+  nameWithType.vb: TBdoConnector(Of T).UsingConnection(Action(Of T, IBdoLog), IBdoLog, Boolean)
+  fullName.vb: BindOpen.Extensions.Runtime.TBdoConnector(Of T).UsingConnection(System.Action(Of T, BindOpen.System.Diagnostics.IBdoLog), BindOpen.System.Diagnostics.IBdoLog, System.Boolean)
+  name.vb: UsingConnection(Action(Of T, IBdoLog), IBdoLog, Boolean)
+  spec.csharp:
+  - uid: BindOpen.Extensions.Runtime.TBdoConnector`1.UsingConnection(System.Action{`0,BindOpen.System.Diagnostics.IBdoLog},BindOpen.System.Diagnostics.IBdoLog,System.Boolean)
+    name: UsingConnection
+    nameWithType: TBdoConnector<T>.UsingConnection
+    fullName: BindOpen.Extensions.Runtime.TBdoConnector<T>.UsingConnection
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`2
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Extensions.Runtime.TBdoConnector`1.UsingConnection(System.Action{`0,BindOpen.System.Diagnostics.IBdoLog},BindOpen.System.Diagnostics.IBdoLog,System.Boolean)
+    name: UsingConnection
+    nameWithType: TBdoConnector(Of T).UsingConnection
+    fullName: BindOpen.Extensions.Runtime.TBdoConnector(Of T).UsingConnection
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Action`2
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Extensions.Runtime.TBdoExtensionItem`1._configuration
+  commentId: F:BindOpen.Extensions.Runtime.TBdoExtensionItem`1._configuration
+  isExternal: true
+  name: _configuration
+  nameWithType: TBdoExtensionItem<T>._configuration
+  fullName: BindOpen.Extensions.Runtime.TBdoExtensionItem<T>._configuration
+  nameWithType.vb: TBdoExtensionItem(Of T)._configuration
+  fullName.vb: BindOpen.Extensions.Runtime.TBdoExtensionItem(Of T)._configuration
+- uid: BindOpen.Extensions.Runtime.TBdoExtensionItem`1.AsElement(System.String)
+  commentId: M:BindOpen.Extensions.Runtime.TBdoExtensionItem`1.AsElement(System.String)
+  isExternal: true
+  name: AsElement(String)
+  nameWithType: TBdoExtensionItem<T>.AsElement(String)
+  fullName: BindOpen.Extensions.Runtime.TBdoExtensionItem<T>.AsElement(System.String)
+  nameWithType.vb: TBdoExtensionItem(Of T).AsElement(String)
+  fullName.vb: BindOpen.Extensions.Runtime.TBdoExtensionItem(Of T).AsElement(System.String)
+  spec.csharp:
+  - uid: BindOpen.Extensions.Runtime.TBdoExtensionItem`1.AsElement(System.String)
+    name: AsElement
+    nameWithType: TBdoExtensionItem<T>.AsElement
+    fullName: BindOpen.Extensions.Runtime.TBdoExtensionItem<T>.AsElement
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Extensions.Runtime.TBdoExtensionItem`1.AsElement(System.String)
+    name: AsElement
+    nameWithType: TBdoExtensionItem(Of T).AsElement
+    fullName: BindOpen.Extensions.Runtime.TBdoExtensionItem(Of T).AsElement
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Extensions.Runtime.TBdoExtensionItem`1.SetDefinition(`0)
+  commentId: M:BindOpen.Extensions.Runtime.TBdoExtensionItem`1.SetDefinition(`0)
+  isExternal: true
+  name: SetDefinition(T)
+  nameWithType: TBdoExtensionItem<T>.SetDefinition(T)
+  fullName: BindOpen.Extensions.Runtime.TBdoExtensionItem<T>.SetDefinition(T)
+  nameWithType.vb: TBdoExtensionItem(Of T).SetDefinition(T)
+  fullName.vb: BindOpen.Extensions.Runtime.TBdoExtensionItem(Of T).SetDefinition(T)
+  spec.csharp:
+  - uid: BindOpen.Extensions.Runtime.TBdoExtensionItem`1.SetDefinition(`0)
+    name: SetDefinition
+    nameWithType: TBdoExtensionItem<T>.SetDefinition
+    fullName: BindOpen.Extensions.Runtime.TBdoExtensionItem<T>.SetDefinition
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Extensions.Runtime.TBdoExtensionItem`1.SetDefinition(`0)
+    name: SetDefinition
+    nameWithType: TBdoExtensionItem(Of T).SetDefinition
+    fullName: BindOpen.Extensions.Runtime.TBdoExtensionItem(Of T).SetDefinition
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Extensions.Runtime.TBdoExtensionItem`1.Name
+  commentId: P:BindOpen.Extensions.Runtime.TBdoExtensionItem`1.Name
+  isExternal: true
+  name: Name
+  nameWithType: TBdoExtensionItem<T>.Name
+  fullName: BindOpen.Extensions.Runtime.TBdoExtensionItem<T>.Name
+  nameWithType.vb: TBdoExtensionItem(Of T).Name
+  fullName.vb: BindOpen.Extensions.Runtime.TBdoExtensionItem(Of T).Name
+- uid: BindOpen.Extensions.Runtime.TBdoExtensionItem`1.BindOpen#Extensions#Runtime#IBdoExtensionItem#Configuration
+  commentId: P:BindOpen.Extensions.Runtime.TBdoExtensionItem`1.BindOpen#Extensions#Runtime#IBdoExtensionItem#Configuration
+  isExternal: true
+  name: IBdoExtensionItem.Configuration
+  nameWithType: TBdoExtensionItem<T>.IBdoExtensionItem.Configuration
+  fullName: BindOpen.Extensions.Runtime.TBdoExtensionItem<T>.BindOpen.Extensions.Runtime.IBdoExtensionItem.Configuration
+  nameWithType.vb: TBdoExtensionItem(Of T).BindOpen.Extensions.Runtime.IBdoExtensionItem.Configuration
+  fullName.vb: BindOpen.Extensions.Runtime.TBdoExtensionItem(Of T).BindOpen.Extensions.Runtime.IBdoExtensionItem.Configuration
+  name.vb: BindOpen.Extensions.Runtime.IBdoExtensionItem.Configuration
+- uid: BindOpen.Extensions.Runtime.TBdoExtensionItem`1.Definition
+  commentId: P:BindOpen.Extensions.Runtime.TBdoExtensionItem`1.Definition
+  isExternal: true
+  name: Definition
+  nameWithType: TBdoExtensionItem<T>.Definition
+  fullName: BindOpen.Extensions.Runtime.TBdoExtensionItem<T>.Definition
+  nameWithType.vb: TBdoExtensionItem(Of T).Definition
+  fullName.vb: BindOpen.Extensions.Runtime.TBdoExtensionItem(Of T).Definition
+- uid: BindOpen.Data.Items.DataItem.Update``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+  commentId: M:BindOpen.Data.Items.DataItem.Update``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+  isExternal: true
+  name: Update<T>(T, String[], UpdateModes[])
+  nameWithType: DataItem.Update<T>(T, String[], UpdateModes[])
+  fullName: BindOpen.Data.Items.DataItem.Update<T>(T, System.String[], BindOpen.Data.Common.UpdateModes[])
+  nameWithType.vb: DataItem.Update(Of T)(T, String(), UpdateModes())
+  fullName.vb: BindOpen.Data.Items.DataItem.Update(Of T)(T, System.String(), BindOpen.Data.Common.UpdateModes())
+  name.vb: Update(Of T)(T, String(), UpdateModes())
+  spec.csharp:
+  - uid: BindOpen.Data.Items.DataItem.Update``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+    name: Update<T>
+    nameWithType: DataItem.Update<T>
+    fullName: BindOpen.Data.Items.DataItem.Update<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.UpdateModes
+    name: UpdateModes
+    nameWithType: UpdateModes
+    fullName: BindOpen.Data.Common.UpdateModes
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.DataItem.Update``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+    name: Update(Of T)
+    nameWithType: DataItem.Update(Of T)
+    fullName: BindOpen.Data.Items.DataItem.Update(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.UpdateModes
+    name: UpdateModes
+    nameWithType: UpdateModes
+    fullName: BindOpen.Data.Common.UpdateModes
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.DataItem.Check``1(System.Boolean,``0,System.String[])
+  commentId: M:BindOpen.Data.Items.DataItem.Check``1(System.Boolean,``0,System.String[])
+  isExternal: true
+  name: Check<T>(Boolean, T, String[])
+  nameWithType: DataItem.Check<T>(Boolean, T, String[])
+  fullName: BindOpen.Data.Items.DataItem.Check<T>(System.Boolean, T, System.String[])
+  nameWithType.vb: DataItem.Check(Of T)(Boolean, T, String())
+  fullName.vb: BindOpen.Data.Items.DataItem.Check(Of T)(System.Boolean, T, System.String())
+  name.vb: Check(Of T)(Boolean, T, String())
+  spec.csharp:
+  - uid: BindOpen.Data.Items.DataItem.Check``1(System.Boolean,``0,System.String[])
+    name: Check<T>
+    nameWithType: DataItem.Check<T>
+    fullName: BindOpen.Data.Items.DataItem.Check<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.DataItem.Check``1(System.Boolean,``0,System.String[])
+    name: Check(Of T)
+    nameWithType: DataItem.Check(Of T)
+    fullName: BindOpen.Data.Items.DataItem.Check(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Items.DataItem.Repair``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+  commentId: M:BindOpen.Data.Items.DataItem.Repair``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+  isExternal: true
+  name: Repair<T>(T, String[], UpdateModes[])
+  nameWithType: DataItem.Repair<T>(T, String[], UpdateModes[])
+  fullName: BindOpen.Data.Items.DataItem.Repair<T>(T, System.String[], BindOpen.Data.Common.UpdateModes[])
+  nameWithType.vb: DataItem.Repair(Of T)(T, String(), UpdateModes())
+  fullName.vb: BindOpen.Data.Items.DataItem.Repair(Of T)(T, System.String(), BindOpen.Data.Common.UpdateModes())
+  name.vb: Repair(Of T)(T, String(), UpdateModes())
+  spec.csharp:
+  - uid: BindOpen.Data.Items.DataItem.Repair``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+    name: Repair<T>
+    nameWithType: DataItem.Repair<T>
+    fullName: BindOpen.Data.Items.DataItem.Repair<T>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.UpdateModes
+    name: UpdateModes
+    nameWithType: UpdateModes
+    fullName: BindOpen.Data.Common.UpdateModes
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Data.Items.DataItem.Repair``1(``0,System.String[],BindOpen.Data.Common.UpdateModes[])
+    name: Repair(Of T)
+    nameWithType: DataItem.Repair(Of T)
+    fullName: BindOpen.Data.Items.DataItem.Repair(Of T)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Common.UpdateModes
+    name: UpdateModes
+    nameWithType: UpdateModes
+    fullName: BindOpen.Data.Common.UpdateModes
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Queries.DbQueryBuilder
+  commentId: T:BindOpen.Data.Queries.DbQueryBuilder
+  parent: BindOpen.Data.Queries
+  name: DbQueryBuilder
+  nameWithType: DbQueryBuilder
+  fullName: BindOpen.Data.Queries.DbQueryBuilder
+- uid: BindOpen.Data.Queries
+  commentId: N:BindOpen.Data.Queries
+  name: BindOpen.Data.Queries
+  nameWithType: BindOpen.Data.Queries
+  fullName: BindOpen.Data.Queries
+- uid: BindOpen.Extensions.Connectors.BdoDbConnector.QueryBuilder*
+  commentId: Overload:BindOpen.Extensions.Connectors.BdoDbConnector.QueryBuilder
+  name: QueryBuilder
+  nameWithType: BdoDbConnector.QueryBuilder
+  fullName: BindOpen.Extensions.Connectors.BdoDbConnector.QueryBuilder
+- uid: BindOpen.Extensions.Connectors.BdoDbConnector.Provider*
+  commentId: Overload:BindOpen.Extensions.Connectors.BdoDbConnector.Provider
+  name: Provider
+  nameWithType: BdoDbConnector.Provider
+  fullName: BindOpen.Extensions.Connectors.BdoDbConnector.Provider
+- uid: BindOpen.Extensions.Connectors.IBdoDbConnector.Provider
+  commentId: P:BindOpen.Extensions.Connectors.IBdoDbConnector.Provider
+  parent: BindOpen.Extensions.Connectors.IBdoDbConnector
+  name: Provider
+  nameWithType: IBdoDbConnector.Provider
+  fullName: BindOpen.Extensions.Connectors.IBdoDbConnector.Provider
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: BindOpen.Extensions.Connectors.BdoDbConnector.ServerAddress*
+  commentId: Overload:BindOpen.Extensions.Connectors.BdoDbConnector.ServerAddress
+  name: ServerAddress
+  nameWithType: BdoDbConnector.ServerAddress
+  fullName: BindOpen.Extensions.Connectors.BdoDbConnector.ServerAddress
+- uid: BindOpen.Extensions.Connectors.IBdoDbConnector.ServerAddress
+  commentId: P:BindOpen.Extensions.Connectors.IBdoDbConnector.ServerAddress
+  parent: BindOpen.Extensions.Connectors.IBdoDbConnector
+  name: ServerAddress
+  nameWithType: IBdoDbConnector.ServerAddress
+  fullName: BindOpen.Extensions.Connectors.IBdoDbConnector.ServerAddress
+- uid: BindOpen.Extensions.Connectors.BdoDbConnector.InitialCatalog*
+  commentId: Overload:BindOpen.Extensions.Connectors.BdoDbConnector.InitialCatalog
+  name: InitialCatalog
+  nameWithType: BdoDbConnector.InitialCatalog
+  fullName: BindOpen.Extensions.Connectors.BdoDbConnector.InitialCatalog
+- uid: BindOpen.Extensions.Connectors.IBdoDbConnector.InitialCatalog
+  commentId: P:BindOpen.Extensions.Connectors.IBdoDbConnector.InitialCatalog
+  parent: BindOpen.Extensions.Connectors.IBdoDbConnector
+  name: InitialCatalog
+  nameWithType: IBdoDbConnector.InitialCatalog
+  fullName: BindOpen.Extensions.Connectors.IBdoDbConnector.InitialCatalog
+- uid: BindOpen.Extensions.Connectors.BdoDbConnector.IntegratedSecurity*
+  commentId: Overload:BindOpen.Extensions.Connectors.BdoDbConnector.IntegratedSecurity
+  name: IntegratedSecurity
+  nameWithType: BdoDbConnector.IntegratedSecurity
+  fullName: BindOpen.Extensions.Connectors.BdoDbConnector.IntegratedSecurity
+- uid: BindOpen.Extensions.Connectors.IBdoDbConnector.IntegratedSecurity
+  commentId: P:BindOpen.Extensions.Connectors.IBdoDbConnector.IntegratedSecurity
+  parent: BindOpen.Extensions.Connectors.IBdoDbConnector
+  name: IntegratedSecurity
+  nameWithType: IBdoDbConnector.IntegratedSecurity
+  fullName: BindOpen.Extensions.Connectors.IBdoDbConnector.IntegratedSecurity
+- uid: BindOpen.Extensions.Connectors.BdoDbConnector.UserName*
+  commentId: Overload:BindOpen.Extensions.Connectors.BdoDbConnector.UserName
+  name: UserName
+  nameWithType: BdoDbConnector.UserName
+  fullName: BindOpen.Extensions.Connectors.BdoDbConnector.UserName
+- uid: BindOpen.Extensions.Connectors.IBdoDbConnector.UserName
+  commentId: P:BindOpen.Extensions.Connectors.IBdoDbConnector.UserName
+  parent: BindOpen.Extensions.Connectors.IBdoDbConnector
+  name: UserName
+  nameWithType: IBdoDbConnector.UserName
+  fullName: BindOpen.Extensions.Connectors.IBdoDbConnector.UserName
+- uid: BindOpen.Extensions.Connectors.BdoDbConnector.Password*
+  commentId: Overload:BindOpen.Extensions.Connectors.BdoDbConnector.Password
+  name: Password
+  nameWithType: BdoDbConnector.Password
+  fullName: BindOpen.Extensions.Connectors.BdoDbConnector.Password
+- uid: BindOpen.Extensions.Connectors.IBdoDbConnector.Password
+  commentId: P:BindOpen.Extensions.Connectors.IBdoDbConnector.Password
+  parent: BindOpen.Extensions.Connectors.IBdoDbConnector
+  name: Password
+  nameWithType: IBdoDbConnector.Password
+  fullName: BindOpen.Extensions.Connectors.IBdoDbConnector.Password
+- uid: BindOpen.Extensions.Connectors.BdoDbConnector.DatabaseConnectorKind*
+  commentId: Overload:BindOpen.Extensions.Connectors.BdoDbConnector.DatabaseConnectorKind
+  name: DatabaseConnectorKind
+  nameWithType: BdoDbConnector.DatabaseConnectorKind
+  fullName: BindOpen.Extensions.Connectors.BdoDbConnector.DatabaseConnectorKind
+- uid: BindOpen.Extensions.Connectors.IBdoDbConnector.DatabaseConnectorKind
+  commentId: P:BindOpen.Extensions.Connectors.IBdoDbConnector.DatabaseConnectorKind
+  parent: BindOpen.Extensions.Connectors.IBdoDbConnector
+  name: DatabaseConnectorKind
+  nameWithType: IBdoDbConnector.DatabaseConnectorKind
+  fullName: BindOpen.Extensions.Connectors.IBdoDbConnector.DatabaseConnectorKind
+- uid: BindOpen.Extensions.Connectors.BdoDbConnectorKind
+  commentId: T:BindOpen.Extensions.Connectors.BdoDbConnectorKind
+  parent: BindOpen.Extensions.Connectors
+  name: BdoDbConnectorKind
+  nameWithType: BdoDbConnectorKind
+  fullName: BindOpen.Extensions.Connectors.BdoDbConnectorKind
+- uid: BindOpen.Extensions.Connectors.BdoDbConnector.#ctor*
+  commentId: Overload:BindOpen.Extensions.Connectors.BdoDbConnector.#ctor
+  name: BdoDbConnector
+  nameWithType: BdoDbConnector.BdoDbConnector
+  fullName: BindOpen.Extensions.Connectors.BdoDbConnector.BdoDbConnector
+- uid: BindOpen.Extensions.Runtime.BdoConnector.WithConnectionString(System.String)
+  commentId: M:BindOpen.Extensions.Runtime.BdoConnector.WithConnectionString(System.String)
+  parent: BindOpen.Extensions.Runtime.BdoConnector
+  isExternal: true
+  name: WithConnectionString(String)
+  nameWithType: BdoConnector.WithConnectionString(String)
+  fullName: BindOpen.Extensions.Runtime.BdoConnector.WithConnectionString(System.String)
+  spec.csharp:
+  - uid: BindOpen.Extensions.Runtime.BdoConnector.WithConnectionString(System.String)
+    name: WithConnectionString
+    nameWithType: BdoConnector.WithConnectionString
+    fullName: BindOpen.Extensions.Runtime.BdoConnector.WithConnectionString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Extensions.Runtime.BdoConnector.WithConnectionString(System.String)
+    name: WithConnectionString
+    nameWithType: BdoConnector.WithConnectionString
+    fullName: BindOpen.Extensions.Runtime.BdoConnector.WithConnectionString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Extensions.Connectors.BdoDbConnector.WithConnectionString*
+  commentId: Overload:BindOpen.Extensions.Connectors.BdoDbConnector.WithConnectionString
+  name: WithConnectionString
+  nameWithType: BdoDbConnector.WithConnectionString
+  fullName: BindOpen.Extensions.Connectors.BdoDbConnector.WithConnectionString
+- uid: BindOpen.Extensions.Runtime.IBdoConnector.WithConnectionString(System.String)
+  commentId: M:BindOpen.Extensions.Runtime.IBdoConnector.WithConnectionString(System.String)
+  parent: BindOpen.Extensions.Runtime.IBdoConnector
+  isExternal: true
+  name: WithConnectionString(String)
+  nameWithType: IBdoConnector.WithConnectionString(String)
+  fullName: BindOpen.Extensions.Runtime.IBdoConnector.WithConnectionString(System.String)
+  spec.csharp:
+  - uid: BindOpen.Extensions.Runtime.IBdoConnector.WithConnectionString(System.String)
+    name: WithConnectionString
+    nameWithType: IBdoConnector.WithConnectionString
+    fullName: BindOpen.Extensions.Runtime.IBdoConnector.WithConnectionString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Extensions.Runtime.IBdoConnector.WithConnectionString(System.String)
+    name: WithConnectionString
+    nameWithType: IBdoConnector.WithConnectionString
+    fullName: BindOpen.Extensions.Runtime.IBdoConnector.WithConnectionString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Extensions.Runtime.BdoConnector.WithScope(BindOpen.Application.Scopes.IBdoScope)
+  commentId: M:BindOpen.Extensions.Runtime.BdoConnector.WithScope(BindOpen.Application.Scopes.IBdoScope)
+  parent: BindOpen.Extensions.Runtime.BdoConnector
+  isExternal: true
+  name: WithScope(IBdoScope)
+  nameWithType: BdoConnector.WithScope(IBdoScope)
+  fullName: BindOpen.Extensions.Runtime.BdoConnector.WithScope(BindOpen.Application.Scopes.IBdoScope)
+  spec.csharp:
+  - uid: BindOpen.Extensions.Runtime.BdoConnector.WithScope(BindOpen.Application.Scopes.IBdoScope)
+    name: WithScope
+    nameWithType: BdoConnector.WithScope
+    fullName: BindOpen.Extensions.Runtime.BdoConnector.WithScope
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Application.Scopes.IBdoScope
+    name: IBdoScope
+    nameWithType: IBdoScope
+    fullName: BindOpen.Application.Scopes.IBdoScope
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Extensions.Runtime.BdoConnector.WithScope(BindOpen.Application.Scopes.IBdoScope)
+    name: WithScope
+    nameWithType: BdoConnector.WithScope
+    fullName: BindOpen.Extensions.Runtime.BdoConnector.WithScope
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Application.Scopes.IBdoScope
+    name: IBdoScope
+    nameWithType: IBdoScope
+    fullName: BindOpen.Application.Scopes.IBdoScope
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Extensions.Connectors.BdoDbConnector.WithScope*
+  commentId: Overload:BindOpen.Extensions.Connectors.BdoDbConnector.WithScope
+  name: WithScope
+  nameWithType: BdoDbConnector.WithScope
+  fullName: BindOpen.Extensions.Connectors.BdoDbConnector.WithScope
+- uid: BindOpen.Extensions.Runtime.IBdoConnector.WithScope(BindOpen.Application.Scopes.IBdoScope)
+  commentId: M:BindOpen.Extensions.Runtime.IBdoConnector.WithScope(BindOpen.Application.Scopes.IBdoScope)
+  parent: BindOpen.Extensions.Runtime.IBdoConnector
+  isExternal: true
+  name: WithScope(IBdoScope)
+  nameWithType: IBdoConnector.WithScope(IBdoScope)
+  fullName: BindOpen.Extensions.Runtime.IBdoConnector.WithScope(BindOpen.Application.Scopes.IBdoScope)
+  spec.csharp:
+  - uid: BindOpen.Extensions.Runtime.IBdoConnector.WithScope(BindOpen.Application.Scopes.IBdoScope)
+    name: WithScope
+    nameWithType: IBdoConnector.WithScope
+    fullName: BindOpen.Extensions.Runtime.IBdoConnector.WithScope
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Application.Scopes.IBdoScope
+    name: IBdoScope
+    nameWithType: IBdoScope
+    fullName: BindOpen.Application.Scopes.IBdoScope
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Extensions.Runtime.IBdoConnector.WithScope(BindOpen.Application.Scopes.IBdoScope)
+    name: WithScope
+    nameWithType: IBdoConnector.WithScope
+    fullName: BindOpen.Extensions.Runtime.IBdoConnector.WithScope
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Application.Scopes.IBdoScope
+    name: IBdoScope
+    nameWithType: IBdoScope
+    fullName: BindOpen.Application.Scopes.IBdoScope
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Application.Scopes.IBdoScope
+  commentId: T:BindOpen.Application.Scopes.IBdoScope
+  parent: BindOpen.Application.Scopes
+  isExternal: true
+  name: IBdoScope
+  nameWithType: IBdoScope
+  fullName: BindOpen.Application.Scopes.IBdoScope
+- uid: BindOpen.Application.Scopes
+  commentId: N:BindOpen.Application.Scopes
+  name: BindOpen.Application.Scopes
+  nameWithType: BindOpen.Application.Scopes
+  fullName: BindOpen.Application.Scopes
+- uid: BindOpen.Extensions.Connectors.BdoDbConnector.CreateCommandText*
+  commentId: Overload:BindOpen.Extensions.Connectors.BdoDbConnector.CreateCommandText
+  name: CreateCommandText
+  nameWithType: BdoDbConnector.CreateCommandText
+  fullName: BindOpen.Extensions.Connectors.BdoDbConnector.CreateCommandText
+- uid: BindOpen.Extensions.Connectors.IBdoDbConnector.CreateCommandText(BindOpen.Data.Queries.IDbQuery,BindOpen.Data.Queries.DbQueryParameterMode,BindOpen.Data.Elements.IDataElementSet,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+  commentId: M:BindOpen.Extensions.Connectors.IBdoDbConnector.CreateCommandText(BindOpen.Data.Queries.IDbQuery,BindOpen.Data.Queries.DbQueryParameterMode,BindOpen.Data.Elements.IDataElementSet,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+  parent: BindOpen.Extensions.Connectors.IBdoDbConnector
+  isExternal: true
+  name: CreateCommandText(IDbQuery, DbQueryParameterMode, IDataElementSet, IBdoScriptVariableSet, IBdoLog)
+  nameWithType: IBdoDbConnector.CreateCommandText(IDbQuery, DbQueryParameterMode, IDataElementSet, IBdoScriptVariableSet, IBdoLog)
+  fullName: BindOpen.Extensions.Connectors.IBdoDbConnector.CreateCommandText(BindOpen.Data.Queries.IDbQuery, BindOpen.Data.Queries.DbQueryParameterMode, BindOpen.Data.Elements.IDataElementSet, BindOpen.System.Scripting.IBdoScriptVariableSet, BindOpen.System.Diagnostics.IBdoLog)
+  spec.csharp:
+  - uid: BindOpen.Extensions.Connectors.IBdoDbConnector.CreateCommandText(BindOpen.Data.Queries.IDbQuery,BindOpen.Data.Queries.DbQueryParameterMode,BindOpen.Data.Elements.IDataElementSet,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+    name: CreateCommandText
+    nameWithType: IBdoDbConnector.CreateCommandText
+    fullName: BindOpen.Extensions.Connectors.IBdoDbConnector.CreateCommandText
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Data.Queries.IDbQuery
+    name: IDbQuery
+    nameWithType: IDbQuery
+    fullName: BindOpen.Data.Queries.IDbQuery
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Queries.DbQueryParameterMode
+    name: DbQueryParameterMode
+    nameWithType: DbQueryParameterMode
+    fullName: BindOpen.Data.Queries.DbQueryParameterMode
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Elements.IDataElementSet
+    name: IDataElementSet
+    nameWithType: IDataElementSet
+    fullName: BindOpen.Data.Elements.IDataElementSet
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Scripting.IBdoScriptVariableSet
+    name: IBdoScriptVariableSet
+    nameWithType: IBdoScriptVariableSet
+    fullName: BindOpen.System.Scripting.IBdoScriptVariableSet
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Extensions.Connectors.IBdoDbConnector.CreateCommandText(BindOpen.Data.Queries.IDbQuery,BindOpen.Data.Queries.DbQueryParameterMode,BindOpen.Data.Elements.IDataElementSet,BindOpen.System.Scripting.IBdoScriptVariableSet,BindOpen.System.Diagnostics.IBdoLog)
+    name: CreateCommandText
+    nameWithType: IBdoDbConnector.CreateCommandText
+    fullName: BindOpen.Extensions.Connectors.IBdoDbConnector.CreateCommandText
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BindOpen.Data.Queries.IDbQuery
+    name: IDbQuery
+    nameWithType: IDbQuery
+    fullName: BindOpen.Data.Queries.IDbQuery
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Queries.DbQueryParameterMode
+    name: DbQueryParameterMode
+    nameWithType: DbQueryParameterMode
+    fullName: BindOpen.Data.Queries.DbQueryParameterMode
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.Data.Elements.IDataElementSet
+    name: IDataElementSet
+    nameWithType: IDataElementSet
+    fullName: BindOpen.Data.Elements.IDataElementSet
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Scripting.IBdoScriptVariableSet
+    name: IBdoScriptVariableSet
+    nameWithType: IBdoScriptVariableSet
+    fullName: BindOpen.System.Scripting.IBdoScriptVariableSet
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BindOpen.System.Diagnostics.IBdoLog
+    name: IBdoLog
+    nameWithType: IBdoLog
+    fullName: BindOpen.System.Diagnostics.IBdoLog
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.Data.Queries.IDbQuery
+  commentId: T:BindOpen.Data.Queries.IDbQuery
+  parent: BindOpen.Data.Queries
+  name: IDbQuery
+  nameWithType: IDbQuery
+  fullName: BindOpen.Data.Queries.IDbQuery
+- uid: BindOpen.Data.Queries.DbQueryParameterMode
+  commentId: T:BindOpen.Data.Queries.DbQueryParameterMode
+  parent: BindOpen.Data.Queries
+  name: DbQueryParameterMode
+  nameWithType: DbQueryParameterMode
+  fullName: BindOpen.Data.Queries.DbQueryParameterMode
+- uid: BindOpen.Data.Elements.IDataElementSet
+  commentId: T:BindOpen.Data.Elements.IDataElementSet
+  parent: BindOpen.Data.Elements
+  isExternal: true
+  name: IDataElementSet
+  nameWithType: IDataElementSet
+  fullName: BindOpen.Data.Elements.IDataElementSet
+- uid: BindOpen.System.Scripting.IBdoScriptVariableSet
+  commentId: T:BindOpen.System.Scripting.IBdoScriptVariableSet
+  parent: BindOpen.System.Scripting
+  isExternal: true
+  name: IBdoScriptVariableSet
+  nameWithType: IBdoScriptVariableSet
+  fullName: BindOpen.System.Scripting.IBdoScriptVariableSet
+- uid: BindOpen.System.Diagnostics.IBdoLog
+  commentId: T:BindOpen.System.Diagnostics.IBdoLog
+  parent: BindOpen.System.Diagnostics
+  isExternal: true
+  name: IBdoLog
+  nameWithType: IBdoLog
+  fullName: BindOpen.System.Diagnostics.IBdoLog
+- uid: BindOpen.Data.Elements
+  commentId: N:BindOpen.Data.Elements
+  isExternal: true
+  name: BindOpen.Data.Elements
+  nameWithType: BindOpen.Data.Elements
+  fullName: BindOpen.Data.Elements
+- uid: BindOpen.System.Scripting
+  commentId: N:BindOpen.System.Scripting
+  isExternal: true
+  name: BindOpen.System.Scripting
+  nameWithType: BindOpen.System.Scripting
+  fullName: BindOpen.System.Scripting
+- uid: BindOpen.System.Diagnostics
+  commentId: N:BindOpen.System.Diagnostics
+  isExternal: true
+  name: BindOpen.System.Diagnostics
+  nameWithType: BindOpen.System.Diagnostics
+  fullName: BindOpen.System.Diagnostics
+- uid: BindOpen.Extensions.Connectors.BdoDbConnector.CreateCommand*
+  commentId: Overload:BindOpen.Extensions.Connectors.BdoDbConnector.CreateCommand
+  name: CreateCommand
+  nameWithType: BdoDbConnector.CreateCommand
+  fullName: BindOpen.Extensions.Connectors.BdoDbConnector.CreateCommand
+- uid: System.Data.IDbCommand
+  commentId: T:System.Data.IDbCommand
+  parent: System.Data
+  isExternal: true
+  name: IDbCommand
+  nameWithType: IDbCommand
+  fullName: System.Data.IDbCommand
+- uid: System.Data
+  commentId: N:System.Data
+  isExternal: true
+  name: System.Data
+  nameWithType: System.Data
+  fullName: System.Data
+- uid: BindOpen.Extensions.Connectors.BdoDbConnector.EstimateDbConnectorKind*
+  commentId: Overload:BindOpen.Extensions.Connectors.BdoDbConnector.EstimateDbConnectorKind
+  name: EstimateDbConnectorKind
+  nameWithType: BdoDbConnector.EstimateDbConnectorKind
+  fullName: BindOpen.Extensions.Connectors.BdoDbConnector.EstimateDbConnectorKind
+- uid: BindOpen.Extensions.Connectors.IBdoDbConnector.EstimateDbConnectorKind
+  commentId: M:BindOpen.Extensions.Connectors.IBdoDbConnector.EstimateDbConnectorKind
+  parent: BindOpen.Extensions.Connectors.IBdoDbConnector
+  name: EstimateDbConnectorKind()
+  nameWithType: IBdoDbConnector.EstimateDbConnectorKind()
+  fullName: BindOpen.Extensions.Connectors.IBdoDbConnector.EstimateDbConnectorKind()
+  spec.csharp:
+  - uid: BindOpen.Extensions.Connectors.IBdoDbConnector.EstimateDbConnectorKind
+    name: EstimateDbConnectorKind
+    nameWithType: IBdoDbConnector.EstimateDbConnectorKind
+    fullName: BindOpen.Extensions.Connectors.IBdoDbConnector.EstimateDbConnectorKind
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BindOpen.Extensions.Connectors.IBdoDbConnector.EstimateDbConnectorKind
+    name: EstimateDbConnectorKind
+    nameWithType: IBdoDbConnector.EstimateDbConnectorKind
+    fullName: BindOpen.Extensions.Connectors.IBdoDbConnector.EstimateDbConnectorKind
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+shouldSkipMarkup: true

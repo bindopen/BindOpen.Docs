@@ -1,0 +1,1226 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.System.Diagnostics.BdoLogEventExtension
+  commentId: T:BindOpen.System.Diagnostics.BdoLogEventExtension
+  id: BdoLogEventExtension
+  parent: BindOpen.System.Diagnostics
+  children:
+  - BindOpen.System.Diagnostics.BdoLogEventExtension.GetErrorOrExceptionOrWarnings(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent})
+  - BindOpen.System.Diagnostics.BdoLogEventExtension.GetErrorOrExceptions(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent})
+  - BindOpen.System.Diagnostics.BdoLogEventExtension.GetErrors(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent})
+  - BindOpen.System.Diagnostics.BdoLogEventExtension.GetEvents(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent},BindOpen.System.Diagnostics.Events.EventKinds[])
+  - BindOpen.System.Diagnostics.BdoLogEventExtension.GetExceptions(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent})
+  - BindOpen.System.Diagnostics.BdoLogEventExtension.GetMessages(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent})
+  - BindOpen.System.Diagnostics.BdoLogEventExtension.GetWarnings(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent})
+  - BindOpen.System.Diagnostics.BdoLogEventExtension.Has(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent},BindOpen.System.Diagnostics.Events.EventKinds[])
+  - BindOpen.System.Diagnostics.BdoLogEventExtension.HasErrorOrExceptionOrWarnings(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent})
+  - BindOpen.System.Diagnostics.BdoLogEventExtension.HasErrors(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent})
+  - BindOpen.System.Diagnostics.BdoLogEventExtension.HasErrorsOrExceptions(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent})
+  - BindOpen.System.Diagnostics.BdoLogEventExtension.HasExceptions(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent})
+  - BindOpen.System.Diagnostics.BdoLogEventExtension.HasMessages(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent})
+  - BindOpen.System.Diagnostics.BdoLogEventExtension.HasWarnings(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent})
+  langs:
+  - csharp
+  - vb
+  name: BdoLogEventExtension
+  nameWithType: BdoLogEventExtension
+  fullName: BindOpen.System.Diagnostics.BdoLogEventExtension
+  type: Class
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Diagnostics/BdoLogEventExtension.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: BdoLogEventExtension
+    path: ../src/BindOpen.Core/System/Diagnostics/BdoLogEventExtension.cs
+    startLine: 9
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Diagnostics
+  summary: "\nThis class represents a log event extension.\n"
+  example: []
+  syntax:
+    content: public static class BdoLogEventExtension
+    content.vb: Public Module BdoLogEventExtension
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: BindOpen.System.Diagnostics.BdoLogEventExtension.GetEvents(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent},BindOpen.System.Diagnostics.Events.EventKinds[])
+  commentId: M:BindOpen.System.Diagnostics.BdoLogEventExtension.GetEvents(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent},BindOpen.System.Diagnostics.Events.EventKinds[])
+  id: GetEvents(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent},BindOpen.System.Diagnostics.Events.EventKinds[])
+  isExtensionMethod: true
+  parent: BindOpen.System.Diagnostics.BdoLogEventExtension
+  langs:
+  - csharp
+  - vb
+  name: GetEvents(List<IBdoLogEvent>, EventKinds[])
+  nameWithType: BdoLogEventExtension.GetEvents(List<IBdoLogEvent>, EventKinds[])
+  fullName: BindOpen.System.Diagnostics.BdoLogEventExtension.GetEvents(System.Collections.Generic.List<BindOpen.System.Diagnostics.IBdoLogEvent>, BindOpen.System.Diagnostics.Events.EventKinds[])
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Diagnostics/BdoLogEventExtension.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GetEvents
+    path: ../src/BindOpen.Core/System/Diagnostics/BdoLogEventExtension.cs
+    startLine: 19
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Diagnostics
+  summary: "\nGets the specified events of this instance.\n"
+  example: []
+  syntax:
+    content: public static List<IBdoLogEvent> GetEvents(this List<IBdoLogEvent> logEvents, params EventKinds[] kinds)
+    parameters:
+    - id: logEvents
+      type: System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent}
+      description: The log events to consider.
+    - id: kinds
+      type: BindOpen.System.Diagnostics.Events.EventKinds[]
+      description: The event kinds to consider.
+    return:
+      type: System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent}
+      description: True if this instance has the specified events. False otherwise.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetEvents(logEvents As List(Of IBdoLogEvent), ParamArray kinds As EventKinds()) As List(Of IBdoLogEvent)
+  overload: BindOpen.System.Diagnostics.BdoLogEventExtension.GetEvents*
+  nameWithType.vb: BdoLogEventExtension.GetEvents(List(Of IBdoLogEvent), EventKinds())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.System.Diagnostics.BdoLogEventExtension.GetEvents(System.Collections.Generic.List(Of BindOpen.System.Diagnostics.IBdoLogEvent), BindOpen.System.Diagnostics.Events.EventKinds())
+  name.vb: GetEvents(List(Of IBdoLogEvent), EventKinds())
+- uid: BindOpen.System.Diagnostics.BdoLogEventExtension.GetWarnings(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent})
+  commentId: M:BindOpen.System.Diagnostics.BdoLogEventExtension.GetWarnings(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent})
+  id: GetWarnings(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent})
+  isExtensionMethod: true
+  parent: BindOpen.System.Diagnostics.BdoLogEventExtension
+  langs:
+  - csharp
+  - vb
+  name: GetWarnings(List<IBdoLogEvent>)
+  nameWithType: BdoLogEventExtension.GetWarnings(List<IBdoLogEvent>)
+  fullName: BindOpen.System.Diagnostics.BdoLogEventExtension.GetWarnings(System.Collections.Generic.List<BindOpen.System.Diagnostics.IBdoLogEvent>)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Diagnostics/BdoLogEventExtension.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GetWarnings
+    path: ../src/BindOpen.Core/System/Diagnostics/BdoLogEventExtension.cs
+    startLine: 31
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Diagnostics
+  summary: "\nGets the warnings of this instance.\n"
+  example: []
+  syntax:
+    content: public static List<IBdoLogEvent> GetWarnings(this List<IBdoLogEvent> logEvents)
+    parameters:
+    - id: logEvents
+      type: System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent}
+      description: The log events to consider.
+    return:
+      type: System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent}
+      description: True if this instance has the specified events. False otherwise.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetWarnings(logEvents As List(Of IBdoLogEvent)) As List(Of IBdoLogEvent)
+  overload: BindOpen.System.Diagnostics.BdoLogEventExtension.GetWarnings*
+  nameWithType.vb: BdoLogEventExtension.GetWarnings(List(Of IBdoLogEvent))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.System.Diagnostics.BdoLogEventExtension.GetWarnings(System.Collections.Generic.List(Of BindOpen.System.Diagnostics.IBdoLogEvent))
+  name.vb: GetWarnings(List(Of IBdoLogEvent))
+- uid: BindOpen.System.Diagnostics.BdoLogEventExtension.GetErrors(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent})
+  commentId: M:BindOpen.System.Diagnostics.BdoLogEventExtension.GetErrors(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent})
+  id: GetErrors(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent})
+  isExtensionMethod: true
+  parent: BindOpen.System.Diagnostics.BdoLogEventExtension
+  langs:
+  - csharp
+  - vb
+  name: GetErrors(List<IBdoLogEvent>)
+  nameWithType: BdoLogEventExtension.GetErrors(List<IBdoLogEvent>)
+  fullName: BindOpen.System.Diagnostics.BdoLogEventExtension.GetErrors(System.Collections.Generic.List<BindOpen.System.Diagnostics.IBdoLogEvent>)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Diagnostics/BdoLogEventExtension.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GetErrors
+    path: ../src/BindOpen.Core/System/Diagnostics/BdoLogEventExtension.cs
+    startLine: 42
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Diagnostics
+  summary: "\nGets the errors of this instance.\n"
+  example: []
+  syntax:
+    content: public static List<IBdoLogEvent> GetErrors(this List<IBdoLogEvent> logEvents)
+    parameters:
+    - id: logEvents
+      type: System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent}
+      description: The log events to consider.
+    return:
+      type: System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent}
+      description: True if this instance has the specified events. False otherwise.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetErrors(logEvents As List(Of IBdoLogEvent)) As List(Of IBdoLogEvent)
+  overload: BindOpen.System.Diagnostics.BdoLogEventExtension.GetErrors*
+  nameWithType.vb: BdoLogEventExtension.GetErrors(List(Of IBdoLogEvent))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.System.Diagnostics.BdoLogEventExtension.GetErrors(System.Collections.Generic.List(Of BindOpen.System.Diagnostics.IBdoLogEvent))
+  name.vb: GetErrors(List(Of IBdoLogEvent))
+- uid: BindOpen.System.Diagnostics.BdoLogEventExtension.GetExceptions(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent})
+  commentId: M:BindOpen.System.Diagnostics.BdoLogEventExtension.GetExceptions(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent})
+  id: GetExceptions(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent})
+  isExtensionMethod: true
+  parent: BindOpen.System.Diagnostics.BdoLogEventExtension
+  langs:
+  - csharp
+  - vb
+  name: GetExceptions(List<IBdoLogEvent>)
+  nameWithType: BdoLogEventExtension.GetExceptions(List<IBdoLogEvent>)
+  fullName: BindOpen.System.Diagnostics.BdoLogEventExtension.GetExceptions(System.Collections.Generic.List<BindOpen.System.Diagnostics.IBdoLogEvent>)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Diagnostics/BdoLogEventExtension.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GetExceptions
+    path: ../src/BindOpen.Core/System/Diagnostics/BdoLogEventExtension.cs
+    startLine: 53
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Diagnostics
+  summary: "\nGets the exceptions of this instance.\n"
+  example: []
+  syntax:
+    content: public static List<IBdoLogEvent> GetExceptions(this List<IBdoLogEvent> logEvents)
+    parameters:
+    - id: logEvents
+      type: System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent}
+      description: The log events to consider.
+    return:
+      type: System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent}
+      description: True if this instance has the specified events. False otherwise.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetExceptions(logEvents As List(Of IBdoLogEvent)) As List(Of IBdoLogEvent)
+  overload: BindOpen.System.Diagnostics.BdoLogEventExtension.GetExceptions*
+  nameWithType.vb: BdoLogEventExtension.GetExceptions(List(Of IBdoLogEvent))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.System.Diagnostics.BdoLogEventExtension.GetExceptions(System.Collections.Generic.List(Of BindOpen.System.Diagnostics.IBdoLogEvent))
+  name.vb: GetExceptions(List(Of IBdoLogEvent))
+- uid: BindOpen.System.Diagnostics.BdoLogEventExtension.GetMessages(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent})
+  commentId: M:BindOpen.System.Diagnostics.BdoLogEventExtension.GetMessages(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent})
+  id: GetMessages(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent})
+  isExtensionMethod: true
+  parent: BindOpen.System.Diagnostics.BdoLogEventExtension
+  langs:
+  - csharp
+  - vb
+  name: GetMessages(List<IBdoLogEvent>)
+  nameWithType: BdoLogEventExtension.GetMessages(List<IBdoLogEvent>)
+  fullName: BindOpen.System.Diagnostics.BdoLogEventExtension.GetMessages(System.Collections.Generic.List<BindOpen.System.Diagnostics.IBdoLogEvent>)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Diagnostics/BdoLogEventExtension.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GetMessages
+    path: ../src/BindOpen.Core/System/Diagnostics/BdoLogEventExtension.cs
+    startLine: 64
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Diagnostics
+  summary: "\nGets the messages of this instance.\n"
+  example: []
+  syntax:
+    content: public static List<IBdoLogEvent> GetMessages(this List<IBdoLogEvent> logEvents)
+    parameters:
+    - id: logEvents
+      type: System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent}
+      description: The log events to consider.
+    return:
+      type: System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent}
+      description: True if this instance has the specified events. False otherwise.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetMessages(logEvents As List(Of IBdoLogEvent)) As List(Of IBdoLogEvent)
+  overload: BindOpen.System.Diagnostics.BdoLogEventExtension.GetMessages*
+  nameWithType.vb: BdoLogEventExtension.GetMessages(List(Of IBdoLogEvent))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.System.Diagnostics.BdoLogEventExtension.GetMessages(System.Collections.Generic.List(Of BindOpen.System.Diagnostics.IBdoLogEvent))
+  name.vb: GetMessages(List(Of IBdoLogEvent))
+- uid: BindOpen.System.Diagnostics.BdoLogEventExtension.GetErrorOrExceptions(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent})
+  commentId: M:BindOpen.System.Diagnostics.BdoLogEventExtension.GetErrorOrExceptions(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent})
+  id: GetErrorOrExceptions(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent})
+  isExtensionMethod: true
+  parent: BindOpen.System.Diagnostics.BdoLogEventExtension
+  langs:
+  - csharp
+  - vb
+  name: GetErrorOrExceptions(List<IBdoLogEvent>)
+  nameWithType: BdoLogEventExtension.GetErrorOrExceptions(List<IBdoLogEvent>)
+  fullName: BindOpen.System.Diagnostics.BdoLogEventExtension.GetErrorOrExceptions(System.Collections.Generic.List<BindOpen.System.Diagnostics.IBdoLogEvent>)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Diagnostics/BdoLogEventExtension.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GetErrorOrExceptions
+    path: ../src/BindOpen.Core/System/Diagnostics/BdoLogEventExtension.cs
+    startLine: 75
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Diagnostics
+  summary: "\nGets the errors or exceptions of this instance.\n"
+  example: []
+  syntax:
+    content: public static List<IBdoLogEvent> GetErrorOrExceptions(this List<IBdoLogEvent> logEvents)
+    parameters:
+    - id: logEvents
+      type: System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent}
+      description: The log events to consider.
+    return:
+      type: System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent}
+      description: True if this instance has the specified events. False otherwise.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetErrorOrExceptions(logEvents As List(Of IBdoLogEvent)) As List(Of IBdoLogEvent)
+  overload: BindOpen.System.Diagnostics.BdoLogEventExtension.GetErrorOrExceptions*
+  nameWithType.vb: BdoLogEventExtension.GetErrorOrExceptions(List(Of IBdoLogEvent))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.System.Diagnostics.BdoLogEventExtension.GetErrorOrExceptions(System.Collections.Generic.List(Of BindOpen.System.Diagnostics.IBdoLogEvent))
+  name.vb: GetErrorOrExceptions(List(Of IBdoLogEvent))
+- uid: BindOpen.System.Diagnostics.BdoLogEventExtension.GetErrorOrExceptionOrWarnings(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent})
+  commentId: M:BindOpen.System.Diagnostics.BdoLogEventExtension.GetErrorOrExceptionOrWarnings(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent})
+  id: GetErrorOrExceptionOrWarnings(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent})
+  isExtensionMethod: true
+  parent: BindOpen.System.Diagnostics.BdoLogEventExtension
+  langs:
+  - csharp
+  - vb
+  name: GetErrorOrExceptionOrWarnings(List<IBdoLogEvent>)
+  nameWithType: BdoLogEventExtension.GetErrorOrExceptionOrWarnings(List<IBdoLogEvent>)
+  fullName: BindOpen.System.Diagnostics.BdoLogEventExtension.GetErrorOrExceptionOrWarnings(System.Collections.Generic.List<BindOpen.System.Diagnostics.IBdoLogEvent>)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Diagnostics/BdoLogEventExtension.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: GetErrorOrExceptionOrWarnings
+    path: ../src/BindOpen.Core/System/Diagnostics/BdoLogEventExtension.cs
+    startLine: 86
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Diagnostics
+  summary: "\nGets the warnings, errors or exceptions of this instance.\n"
+  example: []
+  syntax:
+    content: public static List<IBdoLogEvent> GetErrorOrExceptionOrWarnings(this List<IBdoLogEvent> logEvents)
+    parameters:
+    - id: logEvents
+      type: System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent}
+      description: The log events to consider.
+    return:
+      type: System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent}
+      description: True if this instance has the specified events. False otherwise.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetErrorOrExceptionOrWarnings(logEvents As List(Of IBdoLogEvent)) As List(Of IBdoLogEvent)
+  overload: BindOpen.System.Diagnostics.BdoLogEventExtension.GetErrorOrExceptionOrWarnings*
+  nameWithType.vb: BdoLogEventExtension.GetErrorOrExceptionOrWarnings(List(Of IBdoLogEvent))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.System.Diagnostics.BdoLogEventExtension.GetErrorOrExceptionOrWarnings(System.Collections.Generic.List(Of BindOpen.System.Diagnostics.IBdoLogEvent))
+  name.vb: GetErrorOrExceptionOrWarnings(List(Of IBdoLogEvent))
+- uid: BindOpen.System.Diagnostics.BdoLogEventExtension.Has(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent},BindOpen.System.Diagnostics.Events.EventKinds[])
+  commentId: M:BindOpen.System.Diagnostics.BdoLogEventExtension.Has(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent},BindOpen.System.Diagnostics.Events.EventKinds[])
+  id: Has(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent},BindOpen.System.Diagnostics.Events.EventKinds[])
+  isExtensionMethod: true
+  parent: BindOpen.System.Diagnostics.BdoLogEventExtension
+  langs:
+  - csharp
+  - vb
+  name: Has(List<IBdoLogEvent>, EventKinds[])
+  nameWithType: BdoLogEventExtension.Has(List<IBdoLogEvent>, EventKinds[])
+  fullName: BindOpen.System.Diagnostics.BdoLogEventExtension.Has(System.Collections.Generic.List<BindOpen.System.Diagnostics.IBdoLogEvent>, BindOpen.System.Diagnostics.Events.EventKinds[])
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Diagnostics/BdoLogEventExtension.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: Has
+    path: ../src/BindOpen.Core/System/Diagnostics/BdoLogEventExtension.cs
+    startLine: 100
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Diagnostics
+  summary: "\nIndicates whether this instance has the specified events.\n"
+  example: []
+  syntax:
+    content: public static bool Has(this List<IBdoLogEvent> logEvents, params EventKinds[] kinds)
+    parameters:
+    - id: logEvents
+      type: System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent}
+      description: The log events to consider.
+    - id: kinds
+      type: BindOpen.System.Diagnostics.Events.EventKinds[]
+      description: The event kinds to consider.
+    return:
+      type: System.Boolean
+      description: True if this instance has the specified events. False otherwise.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Has(logEvents As List(Of IBdoLogEvent), ParamArray kinds As EventKinds()) As Boolean
+  overload: BindOpen.System.Diagnostics.BdoLogEventExtension.Has*
+  nameWithType.vb: BdoLogEventExtension.Has(List(Of IBdoLogEvent), EventKinds())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.System.Diagnostics.BdoLogEventExtension.Has(System.Collections.Generic.List(Of BindOpen.System.Diagnostics.IBdoLogEvent), BindOpen.System.Diagnostics.Events.EventKinds())
+  name.vb: Has(List(Of IBdoLogEvent), EventKinds())
+- uid: BindOpen.System.Diagnostics.BdoLogEventExtension.HasWarnings(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent})
+  commentId: M:BindOpen.System.Diagnostics.BdoLogEventExtension.HasWarnings(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent})
+  id: HasWarnings(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent})
+  isExtensionMethod: true
+  parent: BindOpen.System.Diagnostics.BdoLogEventExtension
+  langs:
+  - csharp
+  - vb
+  name: HasWarnings(List<IBdoLogEvent>)
+  nameWithType: BdoLogEventExtension.HasWarnings(List<IBdoLogEvent>)
+  fullName: BindOpen.System.Diagnostics.BdoLogEventExtension.HasWarnings(System.Collections.Generic.List<BindOpen.System.Diagnostics.IBdoLogEvent>)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Diagnostics/BdoLogEventExtension.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: HasWarnings
+    path: ../src/BindOpen.Core/System/Diagnostics/BdoLogEventExtension.cs
+    startLine: 112
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Diagnostics
+  summary: "\nIndicates whether this instance has any warnings.\n"
+  example: []
+  syntax:
+    content: public static bool HasWarnings(this List<IBdoLogEvent> logEvents)
+    parameters:
+    - id: logEvents
+      type: System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent}
+      description: The log events to consider.
+    return:
+      type: System.Boolean
+      description: True if this instance has the specified events. False otherwise.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function HasWarnings(logEvents As List(Of IBdoLogEvent)) As Boolean
+  overload: BindOpen.System.Diagnostics.BdoLogEventExtension.HasWarnings*
+  nameWithType.vb: BdoLogEventExtension.HasWarnings(List(Of IBdoLogEvent))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.System.Diagnostics.BdoLogEventExtension.HasWarnings(System.Collections.Generic.List(Of BindOpen.System.Diagnostics.IBdoLogEvent))
+  name.vb: HasWarnings(List(Of IBdoLogEvent))
+- uid: BindOpen.System.Diagnostics.BdoLogEventExtension.HasErrors(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent})
+  commentId: M:BindOpen.System.Diagnostics.BdoLogEventExtension.HasErrors(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent})
+  id: HasErrors(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent})
+  isExtensionMethod: true
+  parent: BindOpen.System.Diagnostics.BdoLogEventExtension
+  langs:
+  - csharp
+  - vb
+  name: HasErrors(List<IBdoLogEvent>)
+  nameWithType: BdoLogEventExtension.HasErrors(List<IBdoLogEvent>)
+  fullName: BindOpen.System.Diagnostics.BdoLogEventExtension.HasErrors(System.Collections.Generic.List<BindOpen.System.Diagnostics.IBdoLogEvent>)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Diagnostics/BdoLogEventExtension.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: HasErrors
+    path: ../src/BindOpen.Core/System/Diagnostics/BdoLogEventExtension.cs
+    startLine: 123
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Diagnostics
+  summary: "\nIndicates whether this instance has any errors.\n"
+  example: []
+  syntax:
+    content: public static bool HasErrors(this List<IBdoLogEvent> logEvents)
+    parameters:
+    - id: logEvents
+      type: System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent}
+      description: The log events to consider.
+    return:
+      type: System.Boolean
+      description: True if this instance has the specified events. False otherwise.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function HasErrors(logEvents As List(Of IBdoLogEvent)) As Boolean
+  overload: BindOpen.System.Diagnostics.BdoLogEventExtension.HasErrors*
+  nameWithType.vb: BdoLogEventExtension.HasErrors(List(Of IBdoLogEvent))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.System.Diagnostics.BdoLogEventExtension.HasErrors(System.Collections.Generic.List(Of BindOpen.System.Diagnostics.IBdoLogEvent))
+  name.vb: HasErrors(List(Of IBdoLogEvent))
+- uid: BindOpen.System.Diagnostics.BdoLogEventExtension.HasExceptions(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent})
+  commentId: M:BindOpen.System.Diagnostics.BdoLogEventExtension.HasExceptions(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent})
+  id: HasExceptions(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent})
+  isExtensionMethod: true
+  parent: BindOpen.System.Diagnostics.BdoLogEventExtension
+  langs:
+  - csharp
+  - vb
+  name: HasExceptions(List<IBdoLogEvent>)
+  nameWithType: BdoLogEventExtension.HasExceptions(List<IBdoLogEvent>)
+  fullName: BindOpen.System.Diagnostics.BdoLogEventExtension.HasExceptions(System.Collections.Generic.List<BindOpen.System.Diagnostics.IBdoLogEvent>)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Diagnostics/BdoLogEventExtension.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: HasExceptions
+    path: ../src/BindOpen.Core/System/Diagnostics/BdoLogEventExtension.cs
+    startLine: 134
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Diagnostics
+  summary: "\nIndicates whether this instance has any exceptions.\n"
+  example: []
+  syntax:
+    content: public static bool HasExceptions(this List<IBdoLogEvent> logEvents)
+    parameters:
+    - id: logEvents
+      type: System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent}
+      description: The log events to consider.
+    return:
+      type: System.Boolean
+      description: True if this instance has the specified events. False otherwise.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function HasExceptions(logEvents As List(Of IBdoLogEvent)) As Boolean
+  overload: BindOpen.System.Diagnostics.BdoLogEventExtension.HasExceptions*
+  nameWithType.vb: BdoLogEventExtension.HasExceptions(List(Of IBdoLogEvent))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.System.Diagnostics.BdoLogEventExtension.HasExceptions(System.Collections.Generic.List(Of BindOpen.System.Diagnostics.IBdoLogEvent))
+  name.vb: HasExceptions(List(Of IBdoLogEvent))
+- uid: BindOpen.System.Diagnostics.BdoLogEventExtension.HasMessages(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent})
+  commentId: M:BindOpen.System.Diagnostics.BdoLogEventExtension.HasMessages(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent})
+  id: HasMessages(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent})
+  isExtensionMethod: true
+  parent: BindOpen.System.Diagnostics.BdoLogEventExtension
+  langs:
+  - csharp
+  - vb
+  name: HasMessages(List<IBdoLogEvent>)
+  nameWithType: BdoLogEventExtension.HasMessages(List<IBdoLogEvent>)
+  fullName: BindOpen.System.Diagnostics.BdoLogEventExtension.HasMessages(System.Collections.Generic.List<BindOpen.System.Diagnostics.IBdoLogEvent>)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Diagnostics/BdoLogEventExtension.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: HasMessages
+    path: ../src/BindOpen.Core/System/Diagnostics/BdoLogEventExtension.cs
+    startLine: 145
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Diagnostics
+  summary: "\nIndicates whether this instance has any messages.\n"
+  example: []
+  syntax:
+    content: public static bool HasMessages(this List<IBdoLogEvent> logEvents)
+    parameters:
+    - id: logEvents
+      type: System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent}
+      description: The log events to consider.
+    return:
+      type: System.Boolean
+      description: True if this instance has the specified events. False otherwise.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function HasMessages(logEvents As List(Of IBdoLogEvent)) As Boolean
+  overload: BindOpen.System.Diagnostics.BdoLogEventExtension.HasMessages*
+  nameWithType.vb: BdoLogEventExtension.HasMessages(List(Of IBdoLogEvent))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.System.Diagnostics.BdoLogEventExtension.HasMessages(System.Collections.Generic.List(Of BindOpen.System.Diagnostics.IBdoLogEvent))
+  name.vb: HasMessages(List(Of IBdoLogEvent))
+- uid: BindOpen.System.Diagnostics.BdoLogEventExtension.HasErrorsOrExceptions(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent})
+  commentId: M:BindOpen.System.Diagnostics.BdoLogEventExtension.HasErrorsOrExceptions(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent})
+  id: HasErrorsOrExceptions(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent})
+  isExtensionMethod: true
+  parent: BindOpen.System.Diagnostics.BdoLogEventExtension
+  langs:
+  - csharp
+  - vb
+  name: HasErrorsOrExceptions(List<IBdoLogEvent>)
+  nameWithType: BdoLogEventExtension.HasErrorsOrExceptions(List<IBdoLogEvent>)
+  fullName: BindOpen.System.Diagnostics.BdoLogEventExtension.HasErrorsOrExceptions(System.Collections.Generic.List<BindOpen.System.Diagnostics.IBdoLogEvent>)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Diagnostics/BdoLogEventExtension.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: HasErrorsOrExceptions
+    path: ../src/BindOpen.Core/System/Diagnostics/BdoLogEventExtension.cs
+    startLine: 156
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Diagnostics
+  summary: "\nIndicates whether this instance has any errors or exceptions.\n"
+  example: []
+  syntax:
+    content: public static bool HasErrorsOrExceptions(this List<IBdoLogEvent> logEvents)
+    parameters:
+    - id: logEvents
+      type: System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent}
+      description: The log events to consider.
+    return:
+      type: System.Boolean
+      description: True if this instance has the specified events. False otherwise.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function HasErrorsOrExceptions(logEvents As List(Of IBdoLogEvent)) As Boolean
+  overload: BindOpen.System.Diagnostics.BdoLogEventExtension.HasErrorsOrExceptions*
+  nameWithType.vb: BdoLogEventExtension.HasErrorsOrExceptions(List(Of IBdoLogEvent))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.System.Diagnostics.BdoLogEventExtension.HasErrorsOrExceptions(System.Collections.Generic.List(Of BindOpen.System.Diagnostics.IBdoLogEvent))
+  name.vb: HasErrorsOrExceptions(List(Of IBdoLogEvent))
+- uid: BindOpen.System.Diagnostics.BdoLogEventExtension.HasErrorOrExceptionOrWarnings(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent})
+  commentId: M:BindOpen.System.Diagnostics.BdoLogEventExtension.HasErrorOrExceptionOrWarnings(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent})
+  id: HasErrorOrExceptionOrWarnings(System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent})
+  isExtensionMethod: true
+  parent: BindOpen.System.Diagnostics.BdoLogEventExtension
+  langs:
+  - csharp
+  - vb
+  name: HasErrorOrExceptionOrWarnings(List<IBdoLogEvent>)
+  nameWithType: BdoLogEventExtension.HasErrorOrExceptionOrWarnings(List<IBdoLogEvent>)
+  fullName: BindOpen.System.Diagnostics.BdoLogEventExtension.HasErrorOrExceptionOrWarnings(System.Collections.Generic.List<BindOpen.System.Diagnostics.IBdoLogEvent>)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/System/Diagnostics/BdoLogEventExtension.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: HasErrorOrExceptionOrWarnings
+    path: ../src/BindOpen.Core/System/Diagnostics/BdoLogEventExtension.cs
+    startLine: 167
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.System.Diagnostics
+  summary: "\nIndicates whether this instance has any warnings, errors or exceptions.\n"
+  example: []
+  syntax:
+    content: public static bool HasErrorOrExceptionOrWarnings(this List<IBdoLogEvent> logEvents)
+    parameters:
+    - id: logEvents
+      type: System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent}
+      description: The log events to consider.
+    return:
+      type: System.Boolean
+      description: True if this instance has the specified events. False otherwise.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function HasErrorOrExceptionOrWarnings(logEvents As List(Of IBdoLogEvent)) As Boolean
+  overload: BindOpen.System.Diagnostics.BdoLogEventExtension.HasErrorOrExceptionOrWarnings*
+  nameWithType.vb: BdoLogEventExtension.HasErrorOrExceptionOrWarnings(List(Of IBdoLogEvent))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: BindOpen.System.Diagnostics.BdoLogEventExtension.HasErrorOrExceptionOrWarnings(System.Collections.Generic.List(Of BindOpen.System.Diagnostics.IBdoLogEvent))
+  name.vb: HasErrorOrExceptionOrWarnings(List(Of IBdoLogEvent))
+references:
+- uid: BindOpen.System.Diagnostics
+  commentId: N:BindOpen.System.Diagnostics
+  name: BindOpen.System.Diagnostics
+  nameWithType: BindOpen.System.Diagnostics
+  fullName: BindOpen.System.Diagnostics
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.System.Diagnostics.BdoLogEventExtension.GetEvents*
+  commentId: Overload:BindOpen.System.Diagnostics.BdoLogEventExtension.GetEvents
+  name: GetEvents
+  nameWithType: BdoLogEventExtension.GetEvents
+  fullName: BindOpen.System.Diagnostics.BdoLogEventExtension.GetEvents
+- uid: System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent}
+  commentId: T:System.Collections.Generic.List{BindOpen.System.Diagnostics.IBdoLogEvent}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<IBdoLogEvent>
+  nameWithType: List<IBdoLogEvent>
+  fullName: System.Collections.Generic.List<BindOpen.System.Diagnostics.IBdoLogEvent>
+  nameWithType.vb: List(Of IBdoLogEvent)
+  fullName.vb: System.Collections.Generic.List(Of BindOpen.System.Diagnostics.IBdoLogEvent)
+  name.vb: List(Of IBdoLogEvent)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BindOpen.System.Diagnostics.IBdoLogEvent
+    name: IBdoLogEvent
+    nameWithType: IBdoLogEvent
+    fullName: BindOpen.System.Diagnostics.IBdoLogEvent
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BindOpen.System.Diagnostics.IBdoLogEvent
+    name: IBdoLogEvent
+    nameWithType: IBdoLogEvent
+    fullName: BindOpen.System.Diagnostics.IBdoLogEvent
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindOpen.System.Diagnostics.Events.EventKinds[]
+  isExternal: true
+  name: EventKinds[]
+  nameWithType: EventKinds[]
+  fullName: BindOpen.System.Diagnostics.Events.EventKinds[]
+  nameWithType.vb: EventKinds()
+  fullName.vb: BindOpen.System.Diagnostics.Events.EventKinds()
+  name.vb: EventKinds()
+  spec.csharp:
+  - uid: BindOpen.System.Diagnostics.Events.EventKinds
+    name: EventKinds
+    nameWithType: EventKinds
+    fullName: BindOpen.System.Diagnostics.Events.EventKinds
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: BindOpen.System.Diagnostics.Events.EventKinds
+    name: EventKinds
+    nameWithType: EventKinds
+    fullName: BindOpen.System.Diagnostics.Events.EventKinds
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: BindOpen.System.Diagnostics.BdoLogEventExtension.GetWarnings*
+  commentId: Overload:BindOpen.System.Diagnostics.BdoLogEventExtension.GetWarnings
+  name: GetWarnings
+  nameWithType: BdoLogEventExtension.GetWarnings
+  fullName: BindOpen.System.Diagnostics.BdoLogEventExtension.GetWarnings
+- uid: BindOpen.System.Diagnostics.BdoLogEventExtension.GetErrors*
+  commentId: Overload:BindOpen.System.Diagnostics.BdoLogEventExtension.GetErrors
+  name: GetErrors
+  nameWithType: BdoLogEventExtension.GetErrors
+  fullName: BindOpen.System.Diagnostics.BdoLogEventExtension.GetErrors
+- uid: BindOpen.System.Diagnostics.BdoLogEventExtension.GetExceptions*
+  commentId: Overload:BindOpen.System.Diagnostics.BdoLogEventExtension.GetExceptions
+  name: GetExceptions
+  nameWithType: BdoLogEventExtension.GetExceptions
+  fullName: BindOpen.System.Diagnostics.BdoLogEventExtension.GetExceptions
+- uid: BindOpen.System.Diagnostics.BdoLogEventExtension.GetMessages*
+  commentId: Overload:BindOpen.System.Diagnostics.BdoLogEventExtension.GetMessages
+  name: GetMessages
+  nameWithType: BdoLogEventExtension.GetMessages
+  fullName: BindOpen.System.Diagnostics.BdoLogEventExtension.GetMessages
+- uid: BindOpen.System.Diagnostics.BdoLogEventExtension.GetErrorOrExceptions*
+  commentId: Overload:BindOpen.System.Diagnostics.BdoLogEventExtension.GetErrorOrExceptions
+  name: GetErrorOrExceptions
+  nameWithType: BdoLogEventExtension.GetErrorOrExceptions
+  fullName: BindOpen.System.Diagnostics.BdoLogEventExtension.GetErrorOrExceptions
+- uid: BindOpen.System.Diagnostics.BdoLogEventExtension.GetErrorOrExceptionOrWarnings*
+  commentId: Overload:BindOpen.System.Diagnostics.BdoLogEventExtension.GetErrorOrExceptionOrWarnings
+  name: GetErrorOrExceptionOrWarnings
+  nameWithType: BdoLogEventExtension.GetErrorOrExceptionOrWarnings
+  fullName: BindOpen.System.Diagnostics.BdoLogEventExtension.GetErrorOrExceptionOrWarnings
+- uid: BindOpen.System.Diagnostics.BdoLogEventExtension.Has*
+  commentId: Overload:BindOpen.System.Diagnostics.BdoLogEventExtension.Has
+  name: Has
+  nameWithType: BdoLogEventExtension.Has
+  fullName: BindOpen.System.Diagnostics.BdoLogEventExtension.Has
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: BindOpen.System.Diagnostics.BdoLogEventExtension.HasWarnings*
+  commentId: Overload:BindOpen.System.Diagnostics.BdoLogEventExtension.HasWarnings
+  name: HasWarnings
+  nameWithType: BdoLogEventExtension.HasWarnings
+  fullName: BindOpen.System.Diagnostics.BdoLogEventExtension.HasWarnings
+- uid: BindOpen.System.Diagnostics.BdoLogEventExtension.HasErrors*
+  commentId: Overload:BindOpen.System.Diagnostics.BdoLogEventExtension.HasErrors
+  name: HasErrors
+  nameWithType: BdoLogEventExtension.HasErrors
+  fullName: BindOpen.System.Diagnostics.BdoLogEventExtension.HasErrors
+- uid: BindOpen.System.Diagnostics.BdoLogEventExtension.HasExceptions*
+  commentId: Overload:BindOpen.System.Diagnostics.BdoLogEventExtension.HasExceptions
+  name: HasExceptions
+  nameWithType: BdoLogEventExtension.HasExceptions
+  fullName: BindOpen.System.Diagnostics.BdoLogEventExtension.HasExceptions
+- uid: BindOpen.System.Diagnostics.BdoLogEventExtension.HasMessages*
+  commentId: Overload:BindOpen.System.Diagnostics.BdoLogEventExtension.HasMessages
+  name: HasMessages
+  nameWithType: BdoLogEventExtension.HasMessages
+  fullName: BindOpen.System.Diagnostics.BdoLogEventExtension.HasMessages
+- uid: BindOpen.System.Diagnostics.BdoLogEventExtension.HasErrorsOrExceptions*
+  commentId: Overload:BindOpen.System.Diagnostics.BdoLogEventExtension.HasErrorsOrExceptions
+  name: HasErrorsOrExceptions
+  nameWithType: BdoLogEventExtension.HasErrorsOrExceptions
+  fullName: BindOpen.System.Diagnostics.BdoLogEventExtension.HasErrorsOrExceptions
+- uid: BindOpen.System.Diagnostics.BdoLogEventExtension.HasErrorOrExceptionOrWarnings*
+  commentId: Overload:BindOpen.System.Diagnostics.BdoLogEventExtension.HasErrorOrExceptionOrWarnings
+  name: HasErrorOrExceptionOrWarnings
+  nameWithType: BdoLogEventExtension.HasErrorOrExceptionOrWarnings
+  fullName: BindOpen.System.Diagnostics.BdoLogEventExtension.HasErrorOrExceptionOrWarnings
+shouldSkipMarkup: true

@@ -1,0 +1,512 @@
+### YamlMime:ManagedReference
+items:
+- uid: BindOpen.Data.Expression.DataExpressionFactory
+  commentId: T:BindOpen.Data.Expression.DataExpressionFactory
+  id: DataExpressionFactory
+  parent: BindOpen.Data.Expression
+  children:
+  - BindOpen.Data.Expression.DataExpressionFactory.CreateAuto(System.String)
+  - BindOpen.Data.Expression.DataExpressionFactory.CreateLiteral(System.String)
+  - BindOpen.Data.Expression.DataExpressionFactory.CreateScript(System.String)
+  langs:
+  - csharp
+  - vb
+  name: DataExpressionFactory
+  nameWithType: DataExpressionFactory
+  fullName: BindOpen.Data.Expression.DataExpressionFactory
+  type: Class
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Expression/DataExpressionFactory.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: DataExpressionFactory
+    path: ../src/BindOpen.Core/Data/Expression/DataExpressionFactory.cs
+    startLine: 5
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Expression
+  summary: "\nThis class represents a data expression that can contain a literal and script texts.\n"
+  example: []
+  syntax:
+    content: public static class DataExpressionFactory
+    content.vb: Public Module DataExpressionFactory
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: BindOpen.Data.Expression.DataExpressionFactory.CreateAuto(System.String)
+  commentId: M:BindOpen.Data.Expression.DataExpressionFactory.CreateAuto(System.String)
+  id: CreateAuto(System.String)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Expression.DataExpressionFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateAuto(String)
+  nameWithType: DataExpressionFactory.CreateAuto(String)
+  fullName: BindOpen.Data.Expression.DataExpressionFactory.CreateAuto(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Expression/DataExpressionFactory.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: CreateAuto
+    path: ../src/BindOpen.Core/Data/Expression/DataExpressionFactory.cs
+    startLine: 23
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Expression
+  summary: "\nCreates a new literal expression into auto mode.\n"
+  example: []
+  syntax:
+    content: public static DataExpression CreateAuto(this string text)
+    parameters:
+    - id: text
+      type: System.String
+      description: The script text to consider.
+    return:
+      type: BindOpen.Data.Expression.DataExpression
+      description: Returns the script expression.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CreateAuto(text As String) As DataExpression
+  overload: BindOpen.Data.Expression.DataExpressionFactory.CreateAuto*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Expression.DataExpressionFactory.CreateScript(System.String)
+  commentId: M:BindOpen.Data.Expression.DataExpressionFactory.CreateScript(System.String)
+  id: CreateScript(System.String)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Expression.DataExpressionFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateScript(String)
+  nameWithType: DataExpressionFactory.CreateScript(String)
+  fullName: BindOpen.Data.Expression.DataExpressionFactory.CreateScript(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Expression/DataExpressionFactory.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: CreateScript
+    path: ../src/BindOpen.Core/Data/Expression/DataExpressionFactory.cs
+    startLine: 31
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Expression
+  summary: "\nCreates a new script expression.\n"
+  example: []
+  syntax:
+    content: public static DataExpression CreateScript(this string text)
+    parameters:
+    - id: text
+      type: System.String
+      description: The script text to consider.
+    return:
+      type: BindOpen.Data.Expression.DataExpression
+      description: Returns the script expression.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CreateScript(text As String) As DataExpression
+  overload: BindOpen.Data.Expression.DataExpressionFactory.CreateScript*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BindOpen.Data.Expression.DataExpressionFactory.CreateLiteral(System.String)
+  commentId: M:BindOpen.Data.Expression.DataExpressionFactory.CreateLiteral(System.String)
+  id: CreateLiteral(System.String)
+  isExtensionMethod: true
+  parent: BindOpen.Data.Expression.DataExpressionFactory
+  langs:
+  - csharp
+  - vb
+  name: CreateLiteral(String)
+  nameWithType: DataExpressionFactory.CreateLiteral(String)
+  fullName: BindOpen.Data.Expression.DataExpressionFactory.CreateLiteral(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/BindOpen.Core/Data/Expression/DataExpressionFactory.cs
+      branch: feature/dbqueries
+      repo: https://github.com/bindopen/BindOpen.git
+    id: CreateLiteral
+    path: ../src/BindOpen.Core/Data/Expression/DataExpressionFactory.cs
+    startLine: 39
+  assemblies:
+  - BindOpen.Core
+  namespace: BindOpen.Data.Expression
+  summary: "\nCreates a new literal expression.\n"
+  example: []
+  syntax:
+    content: public static DataExpression CreateLiteral(this string text)
+    parameters:
+    - id: text
+      type: System.String
+      description: The literal text to consider.
+    return:
+      type: BindOpen.Data.Expression.DataExpression
+      description: Returns the script expression.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function CreateLiteral(text As String) As DataExpression
+  overload: BindOpen.Data.Expression.DataExpressionFactory.CreateLiteral*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: BindOpen.Data.Expression
+  commentId: N:BindOpen.Data.Expression
+  name: BindOpen.Data.Expression
+  nameWithType: BindOpen.Data.Expression
+  fullName: BindOpen.Data.Expression
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BindOpen.Data.Expression.DataExpressionFactory.CreateAuto*
+  commentId: Overload:BindOpen.Data.Expression.DataExpressionFactory.CreateAuto
+  name: CreateAuto
+  nameWithType: DataExpressionFactory.CreateAuto
+  fullName: BindOpen.Data.Expression.DataExpressionFactory.CreateAuto
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: BindOpen.Data.Expression.DataExpression
+  commentId: T:BindOpen.Data.Expression.DataExpression
+  parent: BindOpen.Data.Expression
+  name: DataExpression
+  nameWithType: DataExpression
+  fullName: BindOpen.Data.Expression.DataExpression
+- uid: BindOpen.Data.Expression.DataExpressionFactory.CreateScript*
+  commentId: Overload:BindOpen.Data.Expression.DataExpressionFactory.CreateScript
+  name: CreateScript
+  nameWithType: DataExpressionFactory.CreateScript
+  fullName: BindOpen.Data.Expression.DataExpressionFactory.CreateScript
+- uid: BindOpen.Data.Expression.DataExpressionFactory.CreateLiteral*
+  commentId: Overload:BindOpen.Data.Expression.DataExpressionFactory.CreateLiteral
+  name: CreateLiteral
+  nameWithType: DataExpressionFactory.CreateLiteral
+  fullName: BindOpen.Data.Expression.DataExpressionFactory.CreateLiteral
+shouldSkipMarkup: true

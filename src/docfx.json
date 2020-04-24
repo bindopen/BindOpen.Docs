@@ -4,10 +4,11 @@
       "src": [
         {
           "files": [
-            "**/BindOpen.Runtime.dll"
+            "**/BindOpen.Runtime.dll",
+            "**/BindOpen.Runtime.NetCore.dll"
           ],
           "exclude": [ "**/bin/**", "**/obj/**" ],
-          "src": "../docs/classes"
+          "src": "../docs/code/comments"
         }
       ],
       "dest": "bin/out/api",
@@ -33,6 +34,14 @@
     "content": [
       {
         "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "src": "../docs/articles",
+        "dest": "articles"
+      },
+      {
+        "files": [
           "**.yml"
         ],
         "src": "bin/out/api",
@@ -43,7 +52,7 @@
           "**/*.md",
           "**/*.yml"
         ],
-        "src": "../docs/classes",
+        "src": "../docs/code/comments",
         "dest": "classes"
       },
       {
@@ -51,15 +60,7 @@
           "**/*.md",
           "**/*.yml"
         ],
-        "src": "../docs/articles",
-        "dest": "articles"
-      },
-      {
-        "files": [
-          "**/*.md",
-          "**/*.yml"
-        ],
-        "src": "../docs/notes",
+        "src": "../docs/code/notes",
         "dest": "notes"
       },
       {
@@ -76,6 +77,13 @@
         ],
         "src": "../docs/images",
         "dest": "images"
+      },
+      {
+        "files": [
+          "**/*.xsd"
+        ],
+        "src": "../docs/code/xsd",
+        "dest": "xsd"
       }
     ],
     "dest": "bin/out/_site",

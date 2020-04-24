@@ -17,4 +17,11 @@
     <PackageIcon>bindopen_icon.png</PackageIcon>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="code\comments\bindopen.databases\" />
+    <Folder Include="code\notes\release\bindopen.databases\" />
+    <Folder Include="code\xsd\bindopen.databases\" />
+    <Folder Include="code\xsd\bindopen\" />
+  </ItemGroup>
+
 </Project>

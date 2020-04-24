@@ -82,7 +82,7 @@
         "files": [
           "**/*.xsd"
         ],
-        "src": "../docs/code/xsd",
+        "src": "../docs/code/xsd/bindopen",
         "dest": "xsd"
       }
     ],

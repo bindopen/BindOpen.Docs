@@ -4,18 +4,18 @@
       "src": [
         {
           "files": [
-            "**/BindOpen.*.dll"
+            "BindOpen.Runtime.dll"
           ],
           "exclude": [ "**/bin/**", "**/obj/**" ],
-          "src": "../docs/api"
+          "src": "../docs/api/BindOpen"
         }
       ],
-      "dest": "api",
+      "dest": "bin/out/api",
       "disableGitFeatures": false,
       "disableDefaultFilter": false,
       "shouldSkipMarkup": true,
       "properties": {
-        "TargetFramework": "netstandard2.0"
+        "TargetFramework": "netstandard2.1"
       }
     }
   ],
@@ -49,25 +49,25 @@
     "resource": [
       {
         "files": [
-          "../docs/images/**"
+          "../../../../docs/images/**"
         ]
       }
     ],
     "overwrite": [
       {
         "files": [
-          "../docs/apidoc/**.md"
+          "../bin/out/_site/api/**.md"
         ],
         "exclude": [
           "obj/**",
-          "../_site/**"
+          "../bin/out/_site/**"
         ]
       }
     ],
-    "dest": "../_site",
+    "dest": "bin/out/_site",
     "globalMetadata": {
       "_appTitle": "BindOpen Documentation",
-      "_appFooter": "Copyright © 2010-2019 BindOpen - All rights reserved.",
+      "_appFooter": "Copyright © 2010-2020 BindOpen - All rights reserved.",
       "_appLogoPath": "../docs/images/logo_bindopen.png",
       "_appFaviconPath": "../docs/images/favicon_bdo.png",
       "_enableSearch": false,
@@ -75,7 +75,7 @@
       "_disableBreadcrumb": false,
       "_disableToc": false,
       "_gitContribute": {
-        "repo": "https://https://github.com/bindopen/BindOpen.Framework",
+        "repo": "https://github.com/bindopen/BindOpen.Framework",
         "branch": "master"
       }
     },

@@ -4,10 +4,10 @@
       "src": [
         {
           "files": [
-            "BindOpen.Runtime.dll"
+            "**/BindOpen.Runtime.dll"
           ],
           "exclude": [ "**/bin/**", "**/obj/**" ],
-          "src": "../docs/api/BindOpen"
+          "src": "../docs/classes"
         }
       ],
       "dest": "bin/out/api",
@@ -33,14 +33,37 @@
     "content": [
       {
         "files": [
-          "../api/**.yml",
-          "../api/index.md"
-        ]
+          "**.yml"
+        ],
+        "src": "bin/out/api",
+        "dest": "classes"
       },
       {
         "files": [
-          "../docs/articles/**.md",
-          "../docs/articles/**/toc.yml",
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "src": "../docs/classes",
+        "dest": "classes"
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "src": "../docs/articles",
+        "dest": "articles"
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "src": "../docs/notes",
+        "dest": "notes"
+      },
+      {
+        "files": [
           "toc.yml",
           "*.md"
         ]
@@ -49,33 +72,24 @@
     "resource": [
       {
         "files": [
-          "../../../../docs/images/**"
-        ]
-      }
-    ],
-    "overwrite": [
-      {
-        "files": [
-          "../bin/out/_site/api/**.md"
+          "**"
         ],
-        "exclude": [
-          "obj/**",
-          "../bin/out/_site/**"
-        ]
+        "src": "../docs/images",
+        "dest": "images"
       }
     ],
     "dest": "bin/out/_site",
     "globalMetadata": {
       "_appTitle": "BindOpen Documentation",
       "_appFooter": "Copyright © 2010-2020 BindOpen - All rights reserved.",
-      "_appLogoPath": "../docs/images/logo_bindopen.png",
-      "_appFaviconPath": "../docs/images/favicon_bdo.png",
+      "_appLogoPath": "images/logo_bindopen.png",
+      "_appFaviconPath": "images/favicon_bdo.png",
       "_enableSearch": false,
       "_disableNavbar": false,
       "_disableBreadcrumb": false,
       "_disableToc": false,
       "_gitContribute": {
-        "repo": "https://github.com/bindopen/BindOpen.Framework",
+        "repo": "https://github.com/bindopen/BindOpen",
         "branch": "master"
       }
     },

@@ -24,4 +24,20 @@
     <Folder Include="code\xsd\bindopen\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="code\notes\TextTemplate1.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>TextTemplate1.md</LastGenOutput>
+    </None>
+    <None Update="code\notes\TextTemplate1.md">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>TextTemplate1.tt</DependentUpon>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />
+  </ItemGroup>
+
 </Project>

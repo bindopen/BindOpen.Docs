@@ -2,6 +2,6 @@
   href: articles/index.html
 - name: Notes
   href: notes/index.html
-- name: Classes
-  href: classes/index.html
-  homepage: classes/index.html
+- name: Api
+  href: api/index.html
+  homepage: api/index.html

@@ -45,7 +45,7 @@
           "**.yml"
         ],
         "src": "bin/out/api",
-        "dest": "classes"
+        "dest": "api"
       },
       {
         "files": [
@@ -53,7 +53,7 @@
           "**/*.yml"
         ],
         "src": "../docs/code/comments",
-        "dest": "classes"
+        "dest": "api"
       },
       {
         "files": [

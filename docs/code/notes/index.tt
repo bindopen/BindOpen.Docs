@@ -1,0 +1,51 @@
+﻿<#@ template debug="true" hostspecific="false" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ assembly name="EnvDte" #>
+<#@ import namespace="System" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.IO" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ import namespace="System.Text.RegularExpressions" #>
+<#@ import namespace="System" #><#@ output extension=".md" #>
+#BindOpen Release Notes
+
+##BindOpen
+
+<# ListFiles(@"docs\code\notes\release\bindopen", "md", "bindopen"); #>
+
+##BindOpen.Databases
+
+<# ListFiles(@"docs\code\notes\release\bindopen.databases", "md", "bindopen.databases"); #>
+
+
+<#+
+	public void ListFiles(string path, string extensionFile, string uriRootFolder)
+	{
+		var folderPath = Path.Combine(System.IO.Directory.GetCurrentDirectory(), path);
+		if (folderPath.Contains(@"docs\docs"))
+		{
+			folderPath = folderPath.Replace(@"docs\docs", @"docs");
+		}
+		else if (folderPath.Contains(@"docs/docs"))
+		{
+			folderPath = folderPath.Replace(@"docs/docs", @"docs");
+		}
+
+		if (System.IO.Directory.Exists(folderPath))
+		{
+			var fileNames = Directory.EnumerateFiles(folderPath, "*." + extensionFile, SearchOption.AllDirectories)
+				.Where(f => !f.StartsWith("Release-Note-"))
+				.Select(f => f.Replace("\\", "/"))
+				.OrderByDescending(f => f)
+				.ToList();
+
+			foreach(string fileName in fileNames)
+			{
+				WriteLine(string.Format("[{0}]({1})\n",
+					System.IO.Path.GetFileNameWithoutExtension(fileName),
+					"release/" + uriRootFolder + "/" + System.IO.Path.GetFileNameWithoutExtension(fileName) + ".html"));
+			}
+		}
+	}
+
+#>

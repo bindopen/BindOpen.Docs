@@ -25,14 +25,21 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="code\notes\TextTemplate1.tt">
+    <PackageReference Include="Clarius.TransformOnBuild" Version="1.22.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="code\notes\index.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>TextTemplate1.md</LastGenOutput>
+      <LastGenOutput>index.md</LastGenOutput>
     </None>
-    <None Update="code\notes\TextTemplate1.md">
+    <None Update="code\notes\index.md">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
-      <DependentUpon>TextTemplate1.tt</DependentUpon>
+      <DependentUpon>index.tt</DependentUpon>
     </None>
   </ItemGroup>
 

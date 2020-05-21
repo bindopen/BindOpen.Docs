@@ -15,25 +15,26 @@
     <RepositoryType>git</RepositoryType>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageIcon>bindopen_icon.png</PackageIcon>
-    <TextTransformPath>$(DevEnvDir)\TextTransform.exe</TextTransformPath>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Clarius.TransformOnBuild" Version="1.22.0">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
+      <DotNetCliToolReference Include="T5.TextTransform.Tool" Version="1.1.0-*"/>
+      <TextTemplate Include="**\*.tt"/>
+      <Generated Include="**\*.cs"/>
   </ItemGroup>
 
-  <ItemGroup>
-    <None Update="code\notes\index.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>index.md</LastGenOutput>
-    </None>
-  </ItemGroup>
+  <Target Name="TextTemplateTransform" BeforeTargets="BeforeBuild">
+      <ItemGroup>
+          <Compile Remove="**\*.cs"/>
+      </ItemGroup>
+      <Exec WorkingDirectory="$(ProjectDir)" Command="dotnet tt %(TextTemplate.Identity)"/>
+      <ItemGroup>
+          <Compile Include="**\*.cs"/>
+      </ItemGroup>
+  </Target>
 
-  <ItemGroup>
-    <Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />
-  </ItemGroup>
+  <Target Name="TextTemplateClean" AfterTargets="Clean">
+      <Delete Files="@(Generated)" />
+  </Target>
 
 </Project>

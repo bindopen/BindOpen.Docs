@@ -1,6 +1,6 @@
-﻿#BindOpen Release Notes
+# BindOpen Release Notes
 
-##BindOpen
+## BindOpen
 
 [Release-Note-1.0.135.1968](release/bindopen/Release-Note-1.0.135.1968.html)
 
@@ -13,7 +13,7 @@
 [Release-Note-1.0.126.1958](release/bindopen/Release-Note-1.0.126.1958.html)
 
 
-##BindOpen.Databases
+## BindOpen.Databases
 
 [Release-Note-1.1.2.2038](release/bindopen.databases/Release-Note-1.1.2.2038.html)
 

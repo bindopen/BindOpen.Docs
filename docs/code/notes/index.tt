@@ -6,7 +6,8 @@
 <#@ import namespace="System.IO" #>
 <#@ import namespace="System.Collections.Generic" #>
 <#@ import namespace="System.Text.RegularExpressions" #>
-<#@ import namespace="System" #><#@ output extension=".md" #>
+<#@ import namespace="System" #>
+<#@ output extension=".md" #>
 # BindOpen Release Notes
 
 ## BindOpen
@@ -22,16 +23,11 @@
 	public void ListFiles(string path, string extensionFile, string uriRootFolder)
 	{
 		var folderPath = Path.Combine(System.IO.Directory.GetCurrentDirectory(), path);
-		WriteLine("Before" + folderPath);
 		if (folderPath.Contains(@"docs\docs"))
 		{
 			folderPath = folderPath.Replace(@"docs\docs", @"docs");
 		}
-		else if (folderPath.Contains(@"docs/docs"))
-		{
-			folderPath = folderPath.Replace(@"docs/docs", @"docs");
-		}
-		WriteLine("After" + folderPath);
+		folderPath = folderPath?.Replace('\\', Path.DirectorySeparatorChar);
 
 		if (System.IO.Directory.Exists(folderPath))
 		{

@@ -18,18 +18,31 @@
   </PropertyGroup>
 
   <ItemGroup>
-      <DotNetCliToolReference Include="T5.TextTransform.Tool" Version="1.1.0-*"/>
-      <TextTemplate Include="**\*.tt"/>
-      <Generated Include="**\*.cs"/>
+      <DotNetCliToolReference Include="T5.TextTransform.Tool" Version="1.1.0-*" />
+      <TextTemplate Include="**\*.tt" />
+      <Generated Include="**\*.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="code\comments\bindopen.databases\**" />
+    <Compile Remove="code\comments\bindopen\**" />
+    <EmbeddedResource Remove="code\comments\bindopen.databases\**" />
+    <EmbeddedResource Remove="code\comments\bindopen\**" />
+    <Generated Remove="code\comments\bindopen.databases\**" />
+    <Generated Remove="code\comments\bindopen\**" />
+    <None Remove="code\comments\bindopen.databases\**" />
+    <None Remove="code\comments\bindopen\**" />
+    <TextTemplate Remove="code\comments\bindopen.databases\**" />
+    <TextTemplate Remove="code\comments\bindopen\**" />
   </ItemGroup>
 
   <Target Name="TextTemplateTransform" BeforeTargets="BeforeBuild">
       <ItemGroup>
-          <Compile Remove="**\*.cs"/>
+          <Compile Remove="**\*.cs" />
       </ItemGroup>
-      <Exec WorkingDirectory="$(ProjectDir)" Command="dotnet tt %(TextTemplate.Identity)"/>
+      <Exec WorkingDirectory="$(ProjectDir)" Command="dotnet tt %(TextTemplate.Identity)" />
       <ItemGroup>
-          <Compile Include="**\*.cs"/>
+          <Compile Include="**\*.cs" />
       </ItemGroup>
   </Target>
 

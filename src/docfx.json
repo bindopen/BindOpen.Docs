@@ -4,9 +4,8 @@
       "src": [
         {
           "files": [
-            "**/bindopen/BindOpen.Core.dll",
-            "**/bindopen/BindOpen.Runtime.dll",
-            "**/bindopen/BindOpen.Runtime.NetCore.dll"
+            "**/bindopen/BindOpen.*.dll",
+            "**/bindopen.databases/BindOpen.Databases.*.dll"
           ],
           "exclude": [ "**/bin/**", "**/obj/**" ],
           "src": "../docs/code/comments"

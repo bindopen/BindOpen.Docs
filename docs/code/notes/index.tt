@@ -23,11 +23,15 @@
 	public void ListFiles(string path, string extensionFile, string uriRootFolder)
 	{
 		var folderPath = Path.Combine(System.IO.Directory.GetCurrentDirectory(), path);
+		folderPath = folderPath?.Replace('\\', Path.DirectorySeparatorChar);
 		if (folderPath.Contains(@"docs\docs"))
 		{
 			folderPath = folderPath.Replace(@"docs\docs", @"docs");
 		}
-		folderPath = folderPath?.Replace('\\', Path.DirectorySeparatorChar);
+		else if (folderPath.Contains(@"docs/docs"))
+		{
+			folderPath = folderPath.Replace(@"docs/docs", @"docs");
+		}
 
 		if (System.IO.Directory.Exists(folderPath))
 		{

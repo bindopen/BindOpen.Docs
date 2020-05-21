@@ -15,14 +15,8 @@
     <RepositoryType>git</RepositoryType>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageIcon>bindopen_icon.png</PackageIcon>
+    <TextTransformPath>$(DevEnvDir)\TextTransform.exe</TextTransformPath>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Folder Include="code\comments\bindopen.databases\" />
-    <Folder Include="code\notes\release\bindopen.databases\" />
-    <Folder Include="code\xsd\bindopen.databases\" />
-    <Folder Include="code\xsd\bindopen\" />
-  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Clarius.TransformOnBuild" Version="1.22.0">
@@ -35,11 +29,6 @@
     <None Update="code\notes\index.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>index.md</LastGenOutput>
-    </None>
-    <None Update="code\notes\index.md">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>index.tt</DependentUpon>
     </None>
   </ItemGroup>
 

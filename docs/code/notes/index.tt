@@ -22,6 +22,7 @@
 	public void ListFiles(string path, string extensionFile, string uriRootFolder)
 	{
 		var folderPath = Path.Combine(System.IO.Directory.GetCurrentDirectory(), path);
+		WriteLine("Before" + folderPath);
 		if (folderPath.Contains(@"docs\docs"))
 		{
 			folderPath = folderPath.Replace(@"docs\docs", @"docs");
@@ -30,6 +31,7 @@
 		{
 			folderPath = folderPath.Replace(@"docs/docs", @"docs");
 		}
+		WriteLine("After" + folderPath);
 
 		if (System.IO.Directory.Exists(folderPath))
 		{
